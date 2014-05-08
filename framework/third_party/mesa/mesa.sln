@@ -1,0 +1,68 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mesa", "mesa.vcxproj", "{F31B4D61-1E70-C392-FEC5-793E2DE2909A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FD2FF54F-6C27-7B6B-A39B-188CDEEE3C56} = {FD2FF54F-6C27-7B6B-A39B-188CDEEE3C56}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mesa_headers", "mesa_headers.vcxproj", "{FD2FF54F-6C27-7B6B-A39B-188CDEEE3C56}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mesa_libglslcommon", "mesa_libglslcommon.vcxproj", "{6B5964BC-E238-3CCB-3A0E-67524E211331}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FD2FF54F-6C27-7B6B-A39B-188CDEEE3C56} = {FD2FF54F-6C27-7B6B-A39B-188CDEEE3C56}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "osmesa", "osmesa.vcxproj", "{7705743F-1FBB-6986-EFD3-9C2ADD37A86C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FD2FF54F-6C27-7B6B-A39B-188CDEEE3C56} = {FD2FF54F-6C27-7B6B-A39B-188CDEEE3C56}
+		{F31B4D61-1E70-C392-FEC5-793E2DE2909A} = {F31B4D61-1E70-C392-FEC5-793E2DE2909A}
+		{6B5964BC-E238-3CCB-3A0E-67524E211331} = {6B5964BC-E238-3CCB-3A0E-67524E211331}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B5964BC-E238-3CCB-3A0E-67524E211331}.Release|x64.ActiveCfg = Release|x64
+		{6B5964BC-E238-3CCB-3A0E-67524E211331}.Release|x64.Build.0 = Release|x64
+		{6B5964BC-E238-3CCB-3A0E-67524E211331}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6B5964BC-E238-3CCB-3A0E-67524E211331}.Debug|Win32.Build.0 = Debug|Win32
+		{6B5964BC-E238-3CCB-3A0E-67524E211331}.Debug|x64.ActiveCfg = Debug|x64
+		{6B5964BC-E238-3CCB-3A0E-67524E211331}.Debug|x64.Build.0 = Debug|x64
+		{6B5964BC-E238-3CCB-3A0E-67524E211331}.Release|Win32.ActiveCfg = Release|Win32
+		{6B5964BC-E238-3CCB-3A0E-67524E211331}.Release|Win32.Build.0 = Release|Win32
+		{7705743F-1FBB-6986-EFD3-9C2ADD37A86C}.Release|x64.ActiveCfg = Release|x64
+		{7705743F-1FBB-6986-EFD3-9C2ADD37A86C}.Release|x64.Build.0 = Release|x64
+		{7705743F-1FBB-6986-EFD3-9C2ADD37A86C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7705743F-1FBB-6986-EFD3-9C2ADD37A86C}.Debug|Win32.Build.0 = Debug|Win32
+		{7705743F-1FBB-6986-EFD3-9C2ADD37A86C}.Debug|x64.ActiveCfg = Debug|x64
+		{7705743F-1FBB-6986-EFD3-9C2ADD37A86C}.Debug|x64.Build.0 = Debug|x64
+		{7705743F-1FBB-6986-EFD3-9C2ADD37A86C}.Release|Win32.ActiveCfg = Release|Win32
+		{7705743F-1FBB-6986-EFD3-9C2ADD37A86C}.Release|Win32.Build.0 = Release|Win32
+		{F31B4D61-1E70-C392-FEC5-793E2DE2909A}.Release|x64.ActiveCfg = Release|x64
+		{F31B4D61-1E70-C392-FEC5-793E2DE2909A}.Release|x64.Build.0 = Release|x64
+		{F31B4D61-1E70-C392-FEC5-793E2DE2909A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F31B4D61-1E70-C392-FEC5-793E2DE2909A}.Debug|Win32.Build.0 = Debug|Win32
+		{F31B4D61-1E70-C392-FEC5-793E2DE2909A}.Debug|x64.ActiveCfg = Debug|x64
+		{F31B4D61-1E70-C392-FEC5-793E2DE2909A}.Debug|x64.Build.0 = Debug|x64
+		{F31B4D61-1E70-C392-FEC5-793E2DE2909A}.Release|Win32.ActiveCfg = Release|Win32
+		{F31B4D61-1E70-C392-FEC5-793E2DE2909A}.Release|Win32.Build.0 = Release|Win32
+		{FD2FF54F-6C27-7B6B-A39B-188CDEEE3C56}.Release|x64.ActiveCfg = Release|x64
+		{FD2FF54F-6C27-7B6B-A39B-188CDEEE3C56}.Release|x64.Build.0 = Release|x64
+		{FD2FF54F-6C27-7B6B-A39B-188CDEEE3C56}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FD2FF54F-6C27-7B6B-A39B-188CDEEE3C56}.Debug|Win32.Build.0 = Debug|Win32
+		{FD2FF54F-6C27-7B6B-A39B-188CDEEE3C56}.Debug|x64.ActiveCfg = Debug|x64
+		{FD2FF54F-6C27-7B6B-A39B-188CDEEE3C56}.Debug|x64.Build.0 = Debug|x64
+		{FD2FF54F-6C27-7B6B-A39B-188CDEEE3C56}.Release|Win32.ActiveCfg = Release|Win32
+		{FD2FF54F-6C27-7B6B-A39B-188CDEEE3C56}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal

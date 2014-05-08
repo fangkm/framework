@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="cocoa">
+      <UniqueIdentifier>{7DE7C50E-B7F9-3610-CB61-C0F25CD5170C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocoa\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="views">
+      <UniqueIdentifier>{D23515F3-31E8-1B27-FABB-5B45DAAF113D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="app_list_model.cc"/>
+    <ClInclude Include="search_result.h"/>
+    <ClInclude Include="app_list_menu.h"/>
+    <ClInclude Include="app_list_model.h"/>
+    <ClInclude Include="search_box_model_observer.h"/>
+    <ClCompile Include="search_result.cc"/>
+    <ClInclude Include="app_list_item_model_observer.h"/>
+    <ClCompile Include="app_list_constants.cc"/>
+    <ClInclude Include="app_list_model_observer.h"/>
+    <ClCompile Include="pagination_model.cc"/>
+    <ClCompile Include="app_list_menu.cc"/>
+    <ClInclude Include="search_box_model.h"/>
+    <ClInclude Include="signin_delegate.h"/>
+    <ClCompile Include="app_list_item_model.cc"/>
+    <ClInclude Include="app_list_view_delegate.h"/>
+    <ClCompile Include="signin_delegate.cc"/>
+    <None Include="app_list.gyp"/>
+    <ClInclude Include="app_list_constants.h"/>
+    <ClInclude Include="app_list_export.h"/>
+    <ClInclude Include="pagination_model.h"/>
+    <ClInclude Include="pagination_model_observer.h"/>
+    <ClCompile Include="search_box_model.cc"/>
+    <ClInclude Include="app_list_item_model.h"/>
+    <ClInclude Include="cocoa\apps_grid_view_item.h">
+      <Filter>cocoa\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="cocoa\apps_search_results_model_bridge.mm">
+      <Filter>cocoa\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="cocoa\blue_label_button.h">
+      <Filter>cocoa\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="cocoa\apps_grid_controller.mm">
+      <Filter>cocoa\_excluded_files</Filter>
+    </None>
+    <None Include="cocoa\blue_label_button.mm">
+      <Filter>cocoa\_excluded_files</Filter>
+    </None>
+    <None Include="cocoa\apps_collection_view_drag_manager.mm">
+      <Filter>cocoa\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="cocoa\apps_search_results_controller.h">
+      <Filter>cocoa\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="cocoa\scroll_view_with_no_scrollbars.h">
+      <Filter>cocoa\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="cocoa\app_list_view_controller.h">
+      <Filter>cocoa\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="cocoa\signin_view_controller.h">
+      <Filter>cocoa\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="cocoa\apps_search_results_model_bridge.h">
+      <Filter>cocoa\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="cocoa\item_drag_controller.mm">
+      <Filter>cocoa\_excluded_files</Filter>
+    </None>
+    <None Include="cocoa\apps_search_results_controller.mm">
+      <Filter>cocoa\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="cocoa\current_user_menu_item_view.h">
+      <Filter>cocoa\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="cocoa\apps_grid_controller.h">
+      <Filter>cocoa\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="cocoa\app_list_view_controller.mm">
+      <Filter>cocoa\_excluded_files</Filter>
+    </None>
+    <None Include="cocoa\app_list_pager_view.mm">
+      <Filter>cocoa\_excluded_files</Filter>
+    </None>
+    <None Include="cocoa\app_list_window_controller.mm">
+      <Filter>cocoa\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="cocoa\app_list_pager_view.h">
+      <Filter>cocoa\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="cocoa\item_drag_controller.h">
+      <Filter>cocoa\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="cocoa\apps_search_box_controller.mm">
+      <Filter>cocoa\_excluded_files</Filter>
+    </None>
+    <None Include="cocoa\apps_grid_view_item.mm">
+      <Filter>cocoa\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="cocoa\apps_search_box_controller.h">
+      <Filter>cocoa\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="cocoa\app_list_window_controller.h">
+      <Filter>cocoa\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="cocoa\signin_view_controller.mm">
+      <Filter>cocoa\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="cocoa\apps_collection_view_drag_manager.h">
+      <Filter>cocoa\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="cocoa\scroll_view_with_no_scrollbars.mm">
+      <Filter>cocoa\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="cocoa\apps_pagination_model_observer.h">
+      <Filter>cocoa\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="cocoa\current_user_menu_item_view.mm">
+      <Filter>cocoa\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="views\search_result_list_view.cc">
+      <Filter>views</Filter>
+    </ClCompile>
+    <ClInclude Include="views\search_result_view.h">
+      <Filter>views</Filter>
+    </ClInclude>
+    <ClInclude Include="views\search_box_view_delegate.h">
+      <Filter>views</Filter>
+    </ClInclude>
+    <ClCompile Include="views\apps_grid_view.cc">
+      <Filter>views</Filter>
+    </ClCompile>
+    <ClInclude Include="views\app_list_main_view.h">
+      <Filter>views</Filter>
+    </ClInclude>
+    <ClCompile Include="views\pulsing_block_view.cc">
+      <Filter>views</Filter>
+    </ClCompile>
+    <ClInclude Include="views\progress_bar_view.h">
+      <Filter>views</Filter>
+    </ClInclude>
+    <ClInclude Include="views\pulsing_block_view.h">
+      <Filter>views</Filter>
+    </ClInclude>
+    <ClCompile Include="views\contents_view.cc">
+      <Filter>views</Filter>
+    </ClCompile>
+    <ClInclude Include="views\search_result_actions_view.h">
+      <Filter>views</Filter>
+    </ClInclude>
+    <ClInclude Include="views\search_result_list_view_delegate.h">
+      <Filter>views</Filter>
+    </ClInclude>
+    <ClInclude Include="views\search_result_view_delegate.h">
+      <Filter>views</Filter>
+    </ClInclude>
+    <ClInclude Include="views\app_list_drag_and_drop_host.h">
+      <Filter>views</Filter>
+    </ClInclude>
+    <ClCompile Include="views\app_list_view.cc">
+      <Filter>views</Filter>
+    </ClCompile>
+    <ClCompile Include="views\app_list_menu_views.cc">
+      <Filter>views</Filter>
+    </ClCompile>
+    <ClInclude Include="views\page_switcher.h">
+      <Filter>views</Filter>
+    </ClInclude>
+    <ClInclude Include="views\search_box_view.h">
+      <Filter>views</Filter>
+    </ClInclude>
+    <ClInclude Include="views\app_list_view.h">
+      <Filter>views</Filter>
+    </ClInclude>
+    <ClCompile Include="views\search_result_view.cc">
+      <Filter>views</Filter>
+    </ClCompile>
+    <ClCompile Include="views\search_box_view.cc">
+      <Filter>views</Filter>
+    </ClCompile>
+    <ClInclude Include="views\search_result_list_view.h">
+      <Filter>views</Filter>
+    </ClInclude>
+    <ClCompile Include="views\signin_view.cc">
+      <Filter>views</Filter>
+    </ClCompile>
+    <ClInclude Include="views\signin_view.h">
+      <Filter>views</Filter>
+    </ClInclude>
+    <ClCompile Include="views\search_result_actions_view.cc">
+      <Filter>views</Filter>
+    </ClCompile>
+    <ClCompile Include="views\app_list_main_view.cc">
+      <Filter>views</Filter>
+    </ClCompile>
+    <ClCompile Include="views\progress_bar_view.cc">
+      <Filter>views</Filter>
+    </ClCompile>
+    <ClCompile Include="views\app_list_background.cc">
+      <Filter>views</Filter>
+    </ClCompile>
+    <ClInclude Include="views\contents_view.h">
+      <Filter>views</Filter>
+    </ClInclude>
+    <ClCompile Include="views\page_switcher.cc">
+      <Filter>views</Filter>
+    </ClCompile>
+    <ClInclude Include="views\apps_grid_view.h">
+      <Filter>views</Filter>
+    </ClInclude>
+    <ClInclude Include="views\app_list_item_view.h">
+      <Filter>views</Filter>
+    </ClInclude>
+    <ClCompile Include="views\app_list_item_view.cc">
+      <Filter>views</Filter>
+    </ClCompile>
+    <ClInclude Include="views\cached_label.h">
+      <Filter>views</Filter>
+    </ClInclude>
+    <ClInclude Include="views\apps_grid_view_delegate.h">
+      <Filter>views</Filter>
+    </ClInclude>
+    <ClInclude Include="views\app_list_background.h">
+      <Filter>views</Filter>
+    </ClInclude>
+    <ClCompile Include="views\cached_label.cc">
+      <Filter>views</Filter>
+    </ClCompile>
+    <ClInclude Include="views\app_list_menu_views.h">
+      <Filter>views</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

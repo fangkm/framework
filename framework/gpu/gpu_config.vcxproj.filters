@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="config">
+      <UniqueIdentifier>{31A163C0-193D-20CC-1C7F-55B57F22C481}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="gpu.gyp"/>
+    <ClInclude Include="config\gpu_util.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClCompile Include="config\gpu_switching_list.cc">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="config\gpu_control_list.cc">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClInclude Include="config\gpu_driver_bug_list.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="config\gpu_switching_list.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClCompile Include="config\gpu_dx_diagnostics_win.cc">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClInclude Include="config\gpu_blacklist.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClCompile Include="config\gpu_switching_list_json.cc">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClInclude Include="config\gpu_switching_option.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClCompile Include="config\gpu_info_collector.cc">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClInclude Include="config\gpu_test_expectations_parser.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClCompile Include="config\gpu_info.cc">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="config\gpu_test_config.cc">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="config\dx_diag_node.cc">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClInclude Include="config\gpu_control_list_jsons.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClCompile Include="config\gpu_driver_bug_list.cc">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClInclude Include="config\gpu_control_list.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClCompile Include="config\gpu_driver_bug_list_json.cc">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="config\gpu_info_collector_win.cc">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClInclude Include="config\dx_diag_node.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClCompile Include="config\gpu_blacklist.cc">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClInclude Include="config\gpu_info.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="config\gpu_test_config.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="config\gpu_driver_bug_workaround_type.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClCompile Include="config\gpu_test_expectations_parser.cc">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClInclude Include="config\gpu_feature_type.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="config\gpu_info_collector.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClCompile Include="config\software_rendering_list_json.cc">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClInclude Include="config\gpu_performance_stats.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClCompile Include="config\gpu_util.cc">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="config\gpu_info_collector_android.cc">
+      <Filter>config\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="config\gpu_info_collector_ozone.cc">
+      <Filter>config\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="config\gpu_info_collector_x11.cc">
+      <Filter>config\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="config\gpu_info_collector_mac.mm">
+      <Filter>config\_excluded_files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

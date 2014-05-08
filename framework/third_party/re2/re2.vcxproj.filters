@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="re2">
+      <UniqueIdentifier>{FA920179-1BFA-E836-6857-80FA90EC7B2A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{F977CC92-61A1-407C-2835-A38A3BBED548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mswin">
+      <UniqueIdentifier>{AFFC1B4A-7D1E-24B3-1806-F568F9E1CF1A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="re2.gyp"/>
+    <ClCompile Include="re2\compile.cc">
+      <Filter>re2</Filter>
+    </ClCompile>
+    <ClInclude Include="re2\set.h">
+      <Filter>re2</Filter>
+    </ClInclude>
+    <ClCompile Include="re2\parse.cc">
+      <Filter>re2</Filter>
+    </ClCompile>
+    <ClCompile Include="re2\dfa.cc">
+      <Filter>re2</Filter>
+    </ClCompile>
+    <ClCompile Include="re2\mimics_pcre.cc">
+      <Filter>re2</Filter>
+    </ClCompile>
+    <ClCompile Include="re2\bitstate.cc">
+      <Filter>re2</Filter>
+    </ClCompile>
+    <ClCompile Include="re2\prefilter.cc">
+      <Filter>re2</Filter>
+    </ClCompile>
+    <ClCompile Include="re2\prog.cc">
+      <Filter>re2</Filter>
+    </ClCompile>
+    <ClCompile Include="re2\filtered_re2.cc">
+      <Filter>re2</Filter>
+    </ClCompile>
+    <ClInclude Include="re2\prefilter_tree.h">
+      <Filter>re2</Filter>
+    </ClInclude>
+    <ClCompile Include="re2\tostring.cc">
+      <Filter>re2</Filter>
+    </ClCompile>
+    <ClCompile Include="re2\regexp.cc">
+      <Filter>re2</Filter>
+    </ClCompile>
+    <ClCompile Include="re2\nfa.cc">
+      <Filter>re2</Filter>
+    </ClCompile>
+    <ClCompile Include="re2\onepass.cc">
+      <Filter>re2</Filter>
+    </ClCompile>
+    <ClInclude Include="re2\unicode_casefold.h">
+      <Filter>re2</Filter>
+    </ClInclude>
+    <ClCompile Include="re2\perl_groups.cc">
+      <Filter>re2</Filter>
+    </ClCompile>
+    <ClCompile Include="re2\unicode_groups.cc">
+      <Filter>re2</Filter>
+    </ClCompile>
+    <ClInclude Include="re2\re2.h">
+      <Filter>re2</Filter>
+    </ClInclude>
+    <ClInclude Include="re2\prefilter.h">
+      <Filter>re2</Filter>
+    </ClInclude>
+    <ClCompile Include="re2\re2.cc">
+      <Filter>re2</Filter>
+    </ClCompile>
+    <ClInclude Include="re2\stringpiece.h">
+      <Filter>re2</Filter>
+    </ClInclude>
+    <ClInclude Include="re2\filtered_re2.h">
+      <Filter>re2</Filter>
+    </ClInclude>
+    <ClInclude Include="re2\walker-inl.h">
+      <Filter>re2</Filter>
+    </ClInclude>
+    <ClCompile Include="re2\unicode_casefold.cc">
+      <Filter>re2</Filter>
+    </ClCompile>
+    <ClInclude Include="re2\regexp.h">
+      <Filter>re2</Filter>
+    </ClInclude>
+    <ClCompile Include="re2\simplify.cc">
+      <Filter>re2</Filter>
+    </ClCompile>
+    <ClInclude Include="re2\variadic_function.h">
+      <Filter>re2</Filter>
+    </ClInclude>
+    <ClCompile Include="re2\prefilter_tree.cc">
+      <Filter>re2</Filter>
+    </ClCompile>
+    <ClInclude Include="re2\unicode_groups.h">
+      <Filter>re2</Filter>
+    </ClInclude>
+    <ClCompile Include="re2\set.cc">
+      <Filter>re2</Filter>
+    </ClCompile>
+    <ClInclude Include="re2\prog.h">
+      <Filter>re2</Filter>
+    </ClInclude>
+    <ClCompile Include="util\rune.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClInclude Include="util\arena.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\logging.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\atomicops.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClCompile Include="util\stringprintf.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClInclude Include="util\flags.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClCompile Include="util\strutil.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClInclude Include="util\sparse_set.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\mutex.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\util.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClCompile Include="util\stringpiece.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClInclude Include="util\sparse_array.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClCompile Include="util\arena.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClInclude Include="util\utf.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClCompile Include="util\hash.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClInclude Include="mswin\stdint.h">
+      <Filter>mswin</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

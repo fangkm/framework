@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="tools">
+      <UniqueIdentifier>{A0946190-5491-4D66-7E51-19400E36F078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools\shader_bench">
+      <UniqueIdentifier>{7C7A3548-605F-0D03-881E-D196FE2B4948}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="media.gyp"/>
+    <ClCompile Include="tools\shader_bench\gpu_color_painter.cc">
+      <Filter>tools\shader_bench</Filter>
+    </ClCompile>
+    <ClInclude Include="tools\shader_bench\gpu_color_painter.h">
+      <Filter>tools\shader_bench</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\shader_bench\window.h">
+      <Filter>tools\shader_bench</Filter>
+    </ClInclude>
+    <ClCompile Include="tools\shader_bench\cpu_color_painter.cc">
+      <Filter>tools\shader_bench</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\shader_bench\shader_bench.cc">
+      <Filter>tools\shader_bench</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\shader_bench\painter.cc">
+      <Filter>tools\shader_bench</Filter>
+    </ClCompile>
+    <ClInclude Include="tools\shader_bench\cpu_color_painter.h">
+      <Filter>tools\shader_bench</Filter>
+    </ClInclude>
+    <ClCompile Include="tools\shader_bench\window.cc">
+      <Filter>tools\shader_bench</Filter>
+    </ClCompile>
+    <ClInclude Include="tools\shader_bench\painter.h">
+      <Filter>tools\shader_bench</Filter>
+    </ClInclude>
+    <ClCompile Include="tools\shader_bench\window_win.cc">
+      <Filter>tools\shader_bench</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\shader_bench\gpu_painter.cc">
+      <Filter>tools\shader_bench</Filter>
+    </ClCompile>
+    <ClInclude Include="tools\shader_bench\gpu_painter.h">
+      <Filter>tools\shader_bench</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

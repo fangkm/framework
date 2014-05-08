@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="policy">
+      <UniqueIdentifier>{8729FB2E-72E8-C0BD-1029-A6C0EED6E0CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="policy\core">
+      <UniqueIdentifier>{16178836-FF57-2363-AA2B-8BAC1DC00026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="policy\core\common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="components.gyp"/>
+    <ClInclude Include="policy\policy_export.h">
+      <Filter>policy</Filter>
+    </ClInclude>
+    <ClCompile Include="policy\core\common\policy_schema.cc">
+      <Filter>policy\core\common</Filter>
+    </ClCompile>
+    <ClInclude Include="policy\core\common\policy_schema.h">
+      <Filter>policy\core\common</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

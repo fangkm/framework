@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="tests">
+      <UniqueIdentifier>{71685B5B-5DB1-D3F0-6DF4-FE19B5454C87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core">
+      <UniqueIdentifier>{16178836-FF57-2363-AA2B-8BAC1DC00026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\tests">
+      <UniqueIdentifier>{71685B5B-5DB1-D3F0-6DF4-FE19B5454C87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\rendering">
+      <UniqueIdentifier>{6CF23BC7-A20E-08E4-0802-6C731774EA39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\html">
+      <UniqueIdentifier>{6B759987-DACC-E33B-CA3B-4ABB0218955E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\fetch">
+      <UniqueIdentifier>{1775FCBC-C410-8B05-7529-9DDE89A76E0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\platform">
+      <UniqueIdentifier>{F040E8BA-F77A-8B19-E764-5FC5D53C4EF0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\platform\text">
+      <UniqueIdentifier>{A03EF847-0682-89DE-DB5E-F3ADE72FEA2E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\platform\chromium">
+      <UniqueIdentifier>{A235D2A4-63B6-DD4D-7F7F-D3EA248BB602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\platform\image-decoders">
+      <UniqueIdentifier>{696144AE-9C0E-7CE0-561D-F8435AD3E6B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\platform\image-decoders\gif">
+      <UniqueIdentifier>{0F98A17A-8DA4-F25F-2A9C-05B850275425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\platform\image-decoders\webp">
+      <UniqueIdentifier>{6FD17F46-77C0-612D-D6FB-283052C82EB1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\platform\image-decoders\jpeg">
+      <UniqueIdentifier>{7F4B9123-E510-DC17-3BAB-055FBF0994F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\platform\graphics">
+      <UniqueIdentifier>{B2A6AACF-46C0-13A9-176C-59F376D7CA47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\platform\graphics\gpu">
+      <UniqueIdentifier>{52E8B949-3E67-CAB7-33D9-3F972FED789B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\platform\graphics\chromium">
+      <UniqueIdentifier>{A235D2A4-63B6-DD4D-7F7F-D3EA248BB602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\platform\graphics\chromium\test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\animation">
+      <UniqueIdentifier>{32754A8C-EDC0-67D4-C2EE-20B9F5EB0ADB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\page">
+      <UniqueIdentifier>{0783969D-799E-590A-9409-265584256E20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\css">
+      <UniqueIdentifier>{87F14F59-6AAB-9D50-4AA6-3EAC67BD4AB0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\bindings">
+      <UniqueIdentifier>{BDD847E6-3B5D-27DC-A93A-863DCFC98735}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\bindings\v8">
+      <UniqueIdentifier>{946EAFF9-E694-C502-F1AD-017A2D933CD2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules">
+      <UniqueIdentifier>{212BF124-DF0B-CDE7-390D-94BCC1C226CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\indexeddb">
+      <UniqueIdentifier>{2AF1D33C-3BAD-411B-CE20-0810BE24291B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\websockets">
+      <UniqueIdentifier>{EF2312FB-6C7F-BDD7-56A4-09C85626B3B9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\web">
+      <UniqueIdentifier>{01D7BE54-28A3-4FF7-7794-725C33515479}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\web\tests">
+      <UniqueIdentifier>{71685B5B-5DB1-D3F0-6DF4-FE19B5454C87}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="web_tests.gyp"/>
+    <ClCompile Include="tests\LocaleWinTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\WebInputEventConversionTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\URLTestHelpers.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\CustomEventTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\RenderTableRowTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\ScrollAnimatorNoneTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <None Include="tests\WebInputEventFactoryTestMac.mm">
+      <Filter>tests</Filter>
+    </None>
+    <ClCompile Include="tests\RenderLayerBackingTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\WebImageTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClInclude Include="tests\FakeWebPlugin.h">
+      <Filter>tests</Filter>
+    </ClInclude>
+    <ClCompile Include="tests\FilterOperationsTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\PrerenderingTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\PageSerializerTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\FakeWebPlugin.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\PopupContainerTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\PaintAggregatorTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\WebSelectorTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\AssociatedURLLoaderTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\WebPluginContainerTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\ProgrammaticScrollTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\UniscribeHelperTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\ScrollingCoordinatorChromiumTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\WebURLRequestTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\ImageLayerChromiumTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\RenderTableCellTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\DragImageTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\ListenerLeakTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\FrameTestHelpers.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\WebPageSerializerTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClInclude Include="tests\URLTestHelpers.h">
+      <Filter>tests</Filter>
+    </ClInclude>
+    <ClCompile Include="tests\OpenTypeVerticalDataTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\WebURLResponseTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\GraphicsLayerTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\WebPageNewSerializerTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\OpaqueRectTrackingContentLayerDelegateTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\FrameLoaderClientImplTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\PopupMenuTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClInclude Include="tests\FrameTestHelpers.h">
+      <Filter>tests</Filter>
+    </ClInclude>
+    <ClCompile Include="tests\LinkHighlightTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\KeyboardTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\ImageFilterBuilderTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\WebViewTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\WebUserGestureTokenTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\MemoryInfo.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\TransparencyWinTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\ChromeClientImplTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\WebFrameTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\RegionTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\tests\PODRedBlackTreeTest.cpp">
+      <Filter>..\core\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\tests\TreeTestHelpers.cpp">
+      <Filter>..\core\tests</Filter>
+    </ClCompile>
+    <ClInclude Include="..\core\tests\FakeWebGraphicsContext3D.h">
+      <Filter>..\core\tests</Filter>
+    </ClInclude>
+    <ClCompile Include="..\core\tests\PODArenaTest.cpp">
+      <Filter>..\core\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\tests\LinkRelAttribute.cpp">
+      <Filter>..\core\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\tests\PODIntervalTreeTest.cpp">
+      <Filter>..\core\tests</Filter>
+    </ClCompile>
+    <ClInclude Include="..\core\tests\ArenaTestHelpers.h">
+      <Filter>..\core\tests</Filter>
+    </ClInclude>
+    <ClCompile Include="..\core\tests\PODFreeListArenaTest.cpp">
+      <Filter>..\core\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\tests\LayoutUnit.cpp">
+      <Filter>..\core\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\tests\HTMLDimension.cpp">
+      <Filter>..\core\tests</Filter>
+    </ClCompile>
+    <ClInclude Include="..\core\tests\TreeTestHelpers.h">
+      <Filter>..\core\tests</Filter>
+    </ClInclude>
+    <ClCompile Include="..\core\rendering\RenderOverflowTest.cpp">
+      <Filter>..\core\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\html\TimeRangesTest.cpp">
+      <Filter>..\core\html</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\fetch\MemoryCacheTest.cpp">
+      <Filter>..\core\fetch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\fetch\ImageResourceTest.cpp">
+      <Filter>..\core\fetch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\fetch\ResourceFetcherTest.cpp">
+      <Filter>..\core\fetch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\SharedBufferTest.cpp">
+      <Filter>..\core\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\DecimalTest.cpp">
+      <Filter>..\core\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\text\DateTimeFormatTest.cpp">
+      <Filter>..\core\platform\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\chromium\ClipboardChromiumTest.cpp">
+      <Filter>..\core\platform\chromium</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\image-decoders\ImageDecoderTest.cpp">
+      <Filter>..\core\platform\image-decoders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\image-decoders\gif\GIFImageDecoderTest.cpp">
+      <Filter>..\core\platform\image-decoders\gif</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\image-decoders\webp\WEBPImageDecoderTest.cpp">
+      <Filter>..\core\platform\image-decoders\webp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\image-decoders\jpeg\JPEGImageDecoderTest.cpp">
+      <Filter>..\core\platform\image-decoders\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\graphics\GraphicsContextTest.cpp">
+      <Filter>..\core\platform\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\graphics\BitmapImageTest.cpp">
+      <Filter>..\core\platform\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\graphics\RoundedRectTest.cpp">
+      <Filter>..\core\platform\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\graphics\FontTest.cpp">
+      <Filter>..\core\platform\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\graphics\UnitBezierTest.cpp">
+      <Filter>..\core\platform\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\graphics\gpu\DrawingBufferTest.cpp">
+      <Filter>..\core\platform\graphics\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\graphics\chromium\ImageFrameGeneratorTest.cpp">
+      <Filter>..\core\platform\graphics\chromium</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\graphics\chromium\Canvas2DLayerBridgeTest.cpp">
+      <Filter>..\core\platform\graphics\chromium</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\graphics\chromium\ImageDecodingStoreTest.cpp">
+      <Filter>..\core\platform\graphics\chromium</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\graphics\chromium\Canvas2DLayerManagerTest.cpp">
+      <Filter>..\core\platform\graphics\chromium</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\graphics\chromium\ThreadSafeDataTransportTest.cpp">
+      <Filter>..\core\platform\graphics\chromium</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\graphics\chromium\DeferredImageDecoderTest.cpp">
+      <Filter>..\core\platform\graphics\chromium</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\graphics\chromium\AnimationTranslationUtilTest.cpp">
+      <Filter>..\core\platform\graphics\chromium</Filter>
+    </ClCompile>
+    <ClInclude Include="..\core\platform\graphics\chromium\test\MockDiscardablePixelRef.h">
+      <Filter>..\core\platform\graphics\chromium\test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\platform\graphics\chromium\test\MockImageDecoder.h">
+      <Filter>..\core\platform\graphics\chromium\test</Filter>
+    </ClInclude>
+    <ClCompile Include="..\core\animation\KeyframeAnimationEffectTest.cpp">
+      <Filter>..\core\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\animation\AnimatableColorTest.cpp">
+      <Filter>..\core\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\animation\TimedItemCalculationsTest.cpp">
+      <Filter>..\core\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\animation\PlayerTest.cpp">
+      <Filter>..\core\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\animation\DocumentTimelineTest.cpp">
+      <Filter>..\core\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\animation\AnimatableNeutralTest.cpp">
+      <Filter>..\core\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\animation\TimedItemTest.cpp">
+      <Filter>..\core\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\animation\AnimatableUnknownTest.cpp">
+      <Filter>..\core\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\animation\AnimatableNumberTest.cpp">
+      <Filter>..\core\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\page\ImageBitmapTest.cpp">
+      <Filter>..\core\page</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\css\CSSParserValuesTest.cpp">
+      <Filter>..\core\css</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\css\CSSCalculationValueTest.cpp">
+      <Filter>..\core\css</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\ScriptPromiseResolverTest.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\IDBBindingUtilitiesTest.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\indexeddb\IDBTransactionTest.cpp">
+      <Filter>..\modules\indexeddb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\indexeddb\IDBKeyPathTest.cpp">
+      <Filter>..\modules\indexeddb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\indexeddb\IDBRequestTest.cpp">
+      <Filter>..\modules\indexeddb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\indexeddb\IDBDatabaseTest.cpp">
+      <Filter>..\modules\indexeddb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\websockets\WebSocketExtensionDispatcherTest.cpp">
+      <Filter>..\modules\websockets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\websockets\WebSocketDeflaterTest.cpp">
+      <Filter>..\modules\websockets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\websockets\WebSocketExtensionParserTest.cpp">
+      <Filter>..\modules\websockets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\websockets\WebSocketPerMessageDeflateTest.cpp">
+      <Filter>..\modules\websockets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\web\tests\RunAllTests.cpp">
+      <Filter>..\web\tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

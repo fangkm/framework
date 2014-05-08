@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ec_private_key_unittest.cc"/>
+    <ClCompile Include="encryptor_unittest.cc"/>
+    <ClCompile Include="hmac_unittest.cc"/>
+    <ClCompile Include="sha2_unittest.cc"/>
+    <ClCompile Include="p224_spake_unittest.cc"/>
+    <ClCompile Include="hkdf_unittest.cc"/>
+    <ClCompile Include="signature_creator_unittest.cc"/>
+    <ClCompile Include="signature_verifier_unittest.cc"/>
+    <ClCompile Include="secure_hash_unittest.cc"/>
+    <None Include="crypto.gyp"/>
+    <ClCompile Include="nss_util_unittest.cc"/>
+    <ClCompile Include="symmetric_key_unittest.cc"/>
+    <ClCompile Include="ghash_unittest.cc"/>
+    <ClCompile Include="ec_signature_creator_unittest.cc"/>
+    <ClCompile Include="curve25519_unittest.cc"/>
+    <ClCompile Include="p224_unittest.cc"/>
+    <ClCompile Include="random_unittest.cc"/>
+    <ClCompile Include="rsa_private_key_unittest.cc"/>
+    <ClCompile Include="rsa_private_key_nss_unittest.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="openpgp_symmetric_encryption_unittest.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ffmpeg">
+      <UniqueIdentifier>{D4EF0570-F7DB-697C-F41C-C2D1A5CC3B21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cdm">
+      <UniqueIdentifier>{9D2557A0-D334-F1EB-617C-179BF2723096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="webm">
+      <UniqueIdentifier>{BEAEFAB4-558F-17A1-F73D-AFEE50FD1A2A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{DBBAC0A6-BB0A-CA51-45CC-DA4574B671E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\android">
+      <UniqueIdentifier>{840B8E33-5F8C-45A0-5FD6-F07AA5687203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\android\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\simd">
+      <UniqueIdentifier>{D11A6EE5-9897-707D-CCC7-99DBD688FC1F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="video">
+      <UniqueIdentifier>{5A4388DD-8A3A-FA65-0F09-87F605ED3291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="video\capture">
+      <UniqueIdentifier>{561AE994-EA99-4D7E-A11C-130A7D74FFEC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filters">
+      <UniqueIdentifier>{B0590D60-4D76-E627-69CE-00D7235F5213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio">
+      <UniqueIdentifier>{D4AF4849-65C6-75FE-2B6E-F6BD18C08214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio\win">
+      <UniqueIdentifier>{47FC5EC4-15EB-E92F-89D7-AFE51CF838A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio\mac">
+      <UniqueIdentifier>{DDBFF7CF-DBCF-B2FC-793A-DB701B563E8D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio\mac\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio\ios">
+      <UniqueIdentifier>{5D988FAB-2F83-50FF-3F70-6A382CF02DF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio\ios\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio\linux">
+      <UniqueIdentifier>{978C4E9B-8123-1CA3-A70B-0A340D4435AD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio\linux\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="media.gyp"/>
+    <ClCompile Include="ffmpeg\ffmpeg_common_unittest.cc">
+      <Filter>ffmpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="cdm\aes_decryptor_unittest.cc">
+      <Filter>cdm</Filter>
+    </ClCompile>
+    <ClCompile Include="webm\webm_content_encodings_client_unittest.cc">
+      <Filter>webm</Filter>
+    </ClCompile>
+    <ClCompile Include="webm\tracks_builder.cc">
+      <Filter>webm</Filter>
+    </ClCompile>
+    <ClCompile Include="webm\webm_cluster_parser_unittest.cc">
+      <Filter>webm</Filter>
+    </ClCompile>
+    <ClCompile Include="webm\webm_webvtt_parser_unittest.cc">
+      <Filter>webm</Filter>
+    </ClCompile>
+    <ClCompile Include="webm\webm_tracks_parser_unittest.cc">
+      <Filter>webm</Filter>
+    </ClCompile>
+    <ClCompile Include="webm\webm_parser_unittest.cc">
+      <Filter>webm</Filter>
+    </ClCompile>
+    <ClCompile Include="webm\cluster_builder.cc">
+      <Filter>webm</Filter>
+    </ClCompile>
+    <ClInclude Include="webm\cluster_builder.h">
+      <Filter>webm</Filter>
+    </ClInclude>
+    <ClInclude Include="webm\tracks_builder.h">
+      <Filter>webm</Filter>
+    </ClInclude>
+    <ClCompile Include="base\gmock_callback_support_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\channel_mixer_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\video_util_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\bind_to_loop_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\audio_buffer_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\yuv_convert_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\audio_hardware_config_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\audio_renderer_mixer_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\seekable_buffer_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\audio_buffer_queue_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\audio_pull_fifo_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\callback_holder.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\decoder_buffer_queue_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\test_data_util.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\audio_fifo_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\vector_math_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\bit_reader_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ranges_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\callback_holder_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\audio_converter_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\data_buffer_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\run_all_unittests.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\media_file_checker_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\audio_renderer_mixer_input_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\decoder_buffer_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\video_frame_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\audio_timestamp_helper_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\audio_hash_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\pipeline_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\multi_channel_resampler_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\container_names_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\sinc_resampler_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\vector_math_testing.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\audio_bus_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\scoped_histogram_timer_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\audio_splicer_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\serial_runner_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\clock_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\test_data_util.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\djb2_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\android\media_codec_bridge_unittest.cc">
+      <Filter>base\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\android\media_source_player_unittest.cc">
+      <Filter>base\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\simd\convert_rgb_to_yuv_unittest.cc">
+      <Filter>base\simd</Filter>
+    </ClCompile>
+    <ClCompile Include="video\capture\video_capture_device_unittest.cc">
+      <Filter>video\capture</Filter>
+    </ClCompile>
+    <ClCompile Include="filters\ffmpeg_demuxer_unittest.cc">
+      <Filter>filters</Filter>
+    </ClCompile>
+    <ClCompile Include="filters\ffmpeg_video_decoder_unittest.cc">
+      <Filter>filters</Filter>
+    </ClCompile>
+    <ClCompile Include="filters\video_renderer_base_unittest.cc">
+      <Filter>filters</Filter>
+    </ClCompile>
+    <ClCompile Include="filters\audio_decoder_selector_unittest.cc">
+      <Filter>filters</Filter>
+    </ClCompile>
+    <ClCompile Include="filters\ffmpeg_audio_decoder_unittest.cc">
+      <Filter>filters</Filter>
+    </ClCompile>
+    <ClInclude Include="filters\fake_demuxer_stream.h">
+      <Filter>filters</Filter>
+    </ClInclude>
+    <ClCompile Include="filters\h264_to_annex_b_bitstream_converter_unittest.cc">
+      <Filter>filters</Filter>
+    </ClCompile>
+    <ClCompile Include="filters\fake_demuxer_stream_unittest.cc">
+      <Filter>filters</Filter>
+    </ClCompile>
+    <ClInclude Include="filters\fake_video_decoder.h">
+      <Filter>filters</Filter>
+    </ClInclude>
+    <ClCompile Include="filters\blocking_url_protocol_unittest.cc">
+      <Filter>filters</Filter>
+    </ClCompile>
+    <ClCompile Include="filters\audio_file_reader_unittest.cc">
+      <Filter>filters</Filter>
+    </ClCompile>
+    <ClCompile Include="filters\pipeline_integration_test_base.cc">
+      <Filter>filters</Filter>
+    </ClCompile>
+    <ClCompile Include="filters\fake_video_decoder.cc">
+      <Filter>filters</Filter>
+    </ClCompile>
+    <ClCompile Include="filters\decrypting_demuxer_stream_unittest.cc">
+      <Filter>filters</Filter>
+    </ClCompile>
+    <ClCompile Include="filters\source_buffer_stream_unittest.cc">
+      <Filter>filters</Filter>
+    </ClCompile>
+    <ClCompile Include="filters\chunk_demuxer_unittest.cc">
+      <Filter>filters</Filter>
+    </ClCompile>
+    <ClCompile Include="filters\fake_demuxer_stream.cc">
+      <Filter>filters</Filter>
+    </ClCompile>
+    <ClCompile Include="filters\decrypting_video_decoder_unittest.cc">
+      <Filter>filters</Filter>
+    </ClCompile>
+    <ClCompile Include="filters\decrypting_audio_decoder_unittest.cc">
+      <Filter>filters</Filter>
+    </ClCompile>
+    <ClCompile Include="filters\video_frame_stream_unittest.cc">
+      <Filter>filters</Filter>
+    </ClCompile>
+    <ClCompile Include="filters\file_data_source_unittest.cc">
+      <Filter>filters</Filter>
+    </ClCompile>
+    <ClCompile Include="filters\audio_renderer_impl_unittest.cc">
+      <Filter>filters</Filter>
+    </ClCompile>
+    <ClCompile Include="filters\skcanvas_video_renderer_unittest.cc">
+      <Filter>filters</Filter>
+    </ClCompile>
+    <ClCompile Include="filters\ffmpeg_glue_unittest.cc">
+      <Filter>filters</Filter>
+    </ClCompile>
+    <ClCompile Include="filters\audio_renderer_algorithm_unittest.cc">
+      <Filter>filters</Filter>
+    </ClCompile>
+    <ClCompile Include="filters\ffmpeg_h264_to_annex_b_bitstream_converter_unittest.cc">
+      <Filter>filters</Filter>
+    </ClCompile>
+    <ClCompile Include="filters\video_decoder_selector_unittest.cc">
+      <Filter>filters</Filter>
+    </ClCompile>
+    <ClCompile Include="filters\fake_video_decoder_unittest.cc">
+      <Filter>filters</Filter>
+    </ClCompile>
+    <ClCompile Include="filters\pipeline_integration_test.cc">
+      <Filter>filters</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\audio_manager_unittest.cc">
+      <Filter>audio</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\fake_audio_consumer_unittest.cc">
+      <Filter>audio</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\audio_input_controller_unittest.cc">
+      <Filter>audio</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\audio_input_device_unittest.cc">
+      <Filter>audio</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\audio_input_unittest.cc">
+      <Filter>audio</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\simple_sources_unittest.cc">
+      <Filter>audio</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\audio_output_controller_unittest.cc">
+      <Filter>audio</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\audio_output_device_unittest.cc">
+      <Filter>audio</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\virtual_audio_output_stream_unittest.cc">
+      <Filter>audio</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\audio_output_proxy_unittest.cc">
+      <Filter>audio</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\audio_power_monitor_unittest.cc">
+      <Filter>audio</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\virtual_audio_input_stream_unittest.cc">
+      <Filter>audio</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\audio_input_volume_unittest.cc">
+      <Filter>audio</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\audio_parameters_unittest.cc">
+      <Filter>audio</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\audio_low_latency_input_output_unittest.cc">
+      <Filter>audio\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\win\audio_low_latency_output_win_unittest.cc">
+      <Filter>audio\win</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\win\audio_low_latency_input_win_unittest.cc">
+      <Filter>audio\win</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\win\audio_unified_win_unittest.cc">
+      <Filter>audio\win</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\win\audio_output_win_unittest.cc">
+      <Filter>audio\win</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\win\core_audio_util_win_unittest.cc">
+      <Filter>audio\win</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\win\audio_device_listener_win_unittest.cc">
+      <Filter>audio\win</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\mac\audio_device_listener_mac_unittest.cc">
+      <Filter>audio\mac\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\mac\audio_auhal_mac_unittest.cc">
+      <Filter>audio\mac\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\mac\audio_low_latency_input_mac_unittest.cc">
+      <Filter>audio\mac\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\ios\audio_manager_ios_unittest.cc">
+      <Filter>audio\ios\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\linux\alsa_output_unittest.cc">
+      <Filter>audio\linux\_excluded_files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

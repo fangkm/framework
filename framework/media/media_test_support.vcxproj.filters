@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="audio">
+      <UniqueIdentifier>{D4AF4849-65C6-75FE-2B6E-F6BD18C08214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="video">
+      <UniqueIdentifier>{5A4388DD-8A3A-FA65-0F09-87F605ED3291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filters">
+      <UniqueIdentifier>{B0590D60-4D76-E627-69CE-00D7235F5213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{DBBAC0A6-BB0A-CA51-45CC-DA4574B671E6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="media.gyp"/>
+    <ClInclude Include="audio\mock_audio_manager.h">
+      <Filter>audio</Filter>
+    </ClInclude>
+    <ClCompile Include="audio\test_audio_input_controller_factory.cc">
+      <Filter>audio</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\mock_audio_manager.cc">
+      <Filter>audio</Filter>
+    </ClCompile>
+    <ClInclude Include="audio\test_audio_input_controller_factory.h">
+      <Filter>audio</Filter>
+    </ClInclude>
+    <ClCompile Include="video\mock_video_decode_accelerator.cc">
+      <Filter>video</Filter>
+    </ClCompile>
+    <ClInclude Include="video\mock_video_decode_accelerator.h">
+      <Filter>video</Filter>
+    </ClInclude>
+    <ClInclude Include="filters\mock_gpu_video_accelerator_factories.h">
+      <Filter>filters</Filter>
+    </ClInclude>
+    <ClCompile Include="filters\mock_gpu_video_accelerator_factories.cc">
+      <Filter>filters</Filter>
+    </ClCompile>
+    <ClInclude Include="base\fake_audio_render_callback.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\mock_demuxer_host.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\fake_audio_render_callback.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\mock_audio_renderer_sink.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\test_helpers.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\gmock_callback_support.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\mock_audio_renderer_sink.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\mock_data_source_host.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\mock_data_source_host.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\mock_filters.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\mock_demuxer_host.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\mock_filters.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\test_helpers.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

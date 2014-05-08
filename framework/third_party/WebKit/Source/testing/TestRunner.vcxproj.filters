@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="runner">
+      <UniqueIdentifier>{1E22216B-F9DF-7E5B-507D-FF755E21737D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="testing.gyp"/>
+    <ClCompile Include="runner\AccessibilityControllerChromium.cpp">
+      <Filter>runner</Filter>
+    </ClCompile>
+    <ClInclude Include="runner\TestInterfaces.h">
+      <Filter>runner</Filter>
+    </ClInclude>
+    <ClCompile Include="runner\EventSender.cpp">
+      <Filter>runner</Filter>
+    </ClCompile>
+    <ClInclude Include="runner\TestCommon.h">
+      <Filter>runner</Filter>
+    </ClInclude>
+    <ClInclude Include="runner\MockWebCrypto.h">
+      <Filter>runner</Filter>
+    </ClInclude>
+    <ClInclude Include="runner\EventSender.h">
+      <Filter>runner</Filter>
+    </ClInclude>
+    <ClCompile Include="runner\WebPreferences.cpp">
+      <Filter>runner</Filter>
+    </ClCompile>
+    <ClCompile Include="runner\MockWebRTCDataChannelHandler.cpp">
+      <Filter>runner</Filter>
+    </ClCompile>
+    <ClInclude Include="runner\TestPlugin.h">
+      <Filter>runner</Filter>
+    </ClInclude>
+    <ClInclude Include="runner\AccessibilityControllerChromium.h">
+      <Filter>runner</Filter>
+    </ClInclude>
+    <ClCompile Include="runner\TestInterfaces.cpp">
+      <Filter>runner</Filter>
+    </ClCompile>
+    <ClInclude Include="runner\WebPermissions.h">
+      <Filter>runner</Filter>
+    </ClInclude>
+    <ClCompile Include="runner\MockWebSpeechInputController.cpp">
+      <Filter>runner</Filter>
+    </ClCompile>
+    <ClInclude Include="runner\WebTestThemeEngineWin.h">
+      <Filter>runner</Filter>
+    </ClInclude>
+    <ClCompile Include="runner\MockWebSpeechRecognizer.cpp">
+      <Filter>runner</Filter>
+    </ClCompile>
+    <ClCompile Include="runner\MockWebMIDIAccessor.cpp">
+      <Filter>runner</Filter>
+    </ClCompile>
+    <ClCompile Include="runner\WebUserMediaClientMock.cpp">
+      <Filter>runner</Filter>
+    </ClCompile>
+    <ClCompile Include="runner\MockWebMediaStreamCenter.cpp">
+      <Filter>runner</Filter>
+    </ClCompile>
+    <ClCompile Include="runner\MockWebCrypto.cpp">
+      <Filter>runner</Filter>
+    </ClCompile>
+    <ClInclude Include="runner\MockWebMediaStreamCenter.h">
+      <Filter>runner</Filter>
+    </ClInclude>
+    <ClInclude Include="runner\TextInputController.h">
+      <Filter>runner</Filter>
+    </ClInclude>
+    <ClCompile Include="runner\CppBoundClass.cpp">
+      <Filter>runner</Filter>
+    </ClCompile>
+    <ClCompile Include="runner\TextInputController.cpp">
+      <Filter>runner</Filter>
+    </ClCompile>
+    <ClCompile Include="runner\CppVariant.cpp">
+      <Filter>runner</Filter>
+    </ClCompile>
+    <ClInclude Include="runner\MockConstraints.h">
+      <Filter>runner</Filter>
+    </ClInclude>
+    <ClInclude Include="runner\MockWebAudioDevice.h">
+      <Filter>runner</Filter>
+    </ClInclude>
+    <ClInclude Include="runner\WebTestThemeControlWin.h">
+      <Filter>runner</Filter>
+    </ClInclude>
+    <ClCompile Include="runner\NotificationPresenter.cpp">
+      <Filter>runner</Filter>
+    </ClCompile>
+    <ClInclude Include="runner\MockWebValidationMessageClient.h">
+      <Filter>runner</Filter>
+    </ClInclude>
+    <ClInclude Include="runner\MockWebSpeechInputController.h">
+      <Filter>runner</Filter>
+    </ClInclude>
+    <ClCompile Include="runner\MockWebAudioDevice.cpp">
+      <Filter>runner</Filter>
+    </ClCompile>
+    <ClInclude Include="runner\MockSpellCheck.h">
+      <Filter>runner</Filter>
+    </ClInclude>
+    <ClCompile Include="runner\MockSpellCheck.cpp">
+      <Filter>runner</Filter>
+    </ClCompile>
+    <ClCompile Include="runner\WebTestThemeEngineWin.cpp">
+      <Filter>runner</Filter>
+    </ClCompile>
+    <ClInclude Include="runner\NotificationPresenter.h">
+      <Filter>runner</Filter>
+    </ClInclude>
+    <ClInclude Include="runner\CppVariant.h">
+      <Filter>runner</Filter>
+    </ClInclude>
+    <ClCompile Include="runner\MockGrammarCheck.cpp">
+      <Filter>runner</Filter>
+    </ClCompile>
+    <None Include="runner\WebTestThemeEngineMac.mm">
+      <Filter>runner</Filter>
+    </None>
+    <ClInclude Include="runner\WebTestThemeEngineMac.h">
+      <Filter>runner</Filter>
+    </ClInclude>
+    <ClInclude Include="runner\MockWebRTCPeerConnectionHandler.h">
+      <Filter>runner</Filter>
+    </ClInclude>
+    <ClCompile Include="runner\TestRunner.cpp">
+      <Filter>runner</Filter>
+    </ClCompile>
+    <ClCompile Include="runner\TestCommon.cpp">
+      <Filter>runner</Filter>
+    </ClCompile>
+    <ClInclude Include="runner\TestRunner.h">
+      <Filter>runner</Filter>
+    </ClInclude>
+    <ClCompile Include="runner\MockWebRTCDTMFSenderHandler.cpp">
+      <Filter>runner</Filter>
+    </ClCompile>
+    <ClCompile Include="runner\MockConstraints.cpp">
+      <Filter>runner</Filter>
+    </ClCompile>
+    <ClCompile Include="runner\MockColorChooser.cpp">
+      <Filter>runner</Filter>
+    </ClCompile>
+    <ClInclude Include="runner\MockWebMIDIAccessor.h">
+      <Filter>runner</Filter>
+    </ClInclude>
+    <ClCompile Include="runner\WebTestThemeControlWin.cpp">
+      <Filter>runner</Filter>
+    </ClCompile>
+    <ClInclude Include="runner\MockWebRTCDTMFSenderHandler.h">
+      <Filter>runner</Filter>
+    </ClInclude>
+    <ClInclude Include="runner\MockColorChooser.h">
+      <Filter>runner</Filter>
+    </ClInclude>
+    <ClInclude Include="runner\MockGrammarCheck.h">
+      <Filter>runner</Filter>
+    </ClInclude>
+    <ClInclude Include="runner\KeyCodeMapping.h">
+      <Filter>runner</Filter>
+    </ClInclude>
+    <ClInclude Include="runner\WebUserMediaClientMock.h">
+      <Filter>runner</Filter>
+    </ClInclude>
+    <ClCompile Include="runner\GamepadController.cpp">
+      <Filter>runner</Filter>
+    </ClCompile>
+    <ClInclude Include="runner\GamepadController.h">
+      <Filter>runner</Filter>
+    </ClInclude>
+    <ClInclude Include="runner\MockWebRTCDataChannelHandler.h">
+      <Filter>runner</Filter>
+    </ClInclude>
+    <ClInclude Include="runner\MockWebSpeechRecognizer.h">
+      <Filter>runner</Filter>
+    </ClInclude>
+    <ClCompile Include="runner\WebTestProxy.cpp">
+      <Filter>runner</Filter>
+    </ClCompile>
+    <ClInclude Include="runner\CppBoundClass.h">
+      <Filter>runner</Filter>
+    </ClInclude>
+    <ClCompile Include="runner\AccessibilityUIElementChromium.cpp">
+      <Filter>runner</Filter>
+    </ClCompile>
+    <ClCompile Include="runner\MockWebValidationMessageClient.cpp">
+      <Filter>runner</Filter>
+    </ClCompile>
+    <ClCompile Include="runner\MockWebRTCPeerConnectionHandler.cpp">
+      <Filter>runner</Filter>
+    </ClCompile>
+    <ClCompile Include="runner\WebTestInterfaces.cpp">
+      <Filter>runner</Filter>
+    </ClCompile>
+    <ClInclude Include="runner\AccessibilityUIElementChromium.h">
+      <Filter>runner</Filter>
+    </ClInclude>
+    <ClCompile Include="runner\WebTask.cpp">
+      <Filter>runner</Filter>
+    </ClCompile>
+    <ClCompile Include="runner\KeyCodeMapping.cpp">
+      <Filter>runner</Filter>
+    </ClCompile>
+    <ClCompile Include="runner\WebPermissions.cpp">
+      <Filter>runner</Filter>
+    </ClCompile>
+    <ClInclude Include="runner\SpellCheckClient.h">
+      <Filter>runner</Filter>
+    </ClInclude>
+    <ClCompile Include="runner\SpellCheckClient.cpp">
+      <Filter>runner</Filter>
+    </ClCompile>
+    <ClCompile Include="runner\TestPlugin.cpp">
+      <Filter>runner</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

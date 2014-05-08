@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\Source">
+      <UniqueIdentifier>{26D65320-41C3-1A61-26C0-583D658C7F16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\Source\testing">
+      <UniqueIdentifier>{681E52FB-4BB5-C8E2-1D1A-B7C4F2495A5E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\Source\testing\data">
+      <UniqueIdentifier>{BB2F2B9D-F30E-26CC-2AEB-5F1CF39B6163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\Source\testing\data\fonts">
+      <UniqueIdentifier>{74BB0497-1E7A-FF4A-BE62-BA6AC418F3BD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="testing.gyp"/>
+    <None Include="..\..\Source\testing\data\fonts\AHEM____.TTF">
+      <Filter>..\..\Source\testing\data\fonts</Filter>
+    </None>
+  </ItemGroup>
+</Project>

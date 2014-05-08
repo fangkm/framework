@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\chromium_gensrc">
+      <UniqueIdentifier>{4580C9A2-04DD-A395-8847-B0DF8A63658C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\chromium_gensrc\mesa">
+      <UniqueIdentifier>{CFA412D8-4E40-8543-F18F-7DDC0AFDA9BE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\chromium_gensrc\mesa\main">
+      <UniqueIdentifier>{4ECC9921-7D4B-15DC-E268-546157B2659F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\src\glsl">
+      <UniqueIdentifier>{AAB77343-C7A9-BEDC-1EB6-7C39AF4C2111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\src\glsl\glcpp">
+      <UniqueIdentifier>{659B764E-1F01-3AC5-926B-2992488CD716}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mesa.gyp"/>
+    <ClCompile Include="src\chromium_gensrc\mesa\glcpp-parse.c">
+      <Filter>src\chromium_gensrc\mesa</Filter>
+    </ClCompile>
+    <ClInclude Include="src\chromium_gensrc\mesa\glcpp-parse.h">
+      <Filter>src\chromium_gensrc\mesa</Filter>
+    </ClInclude>
+    <ClCompile Include="src\chromium_gensrc\mesa\glsl_lexer.cc">
+      <Filter>src\chromium_gensrc\mesa</Filter>
+    </ClCompile>
+    <ClCompile Include="src\chromium_gensrc\mesa\glsl_parser.cc">
+      <Filter>src\chromium_gensrc\mesa</Filter>
+    </ClCompile>
+    <ClCompile Include="src\chromium_gensrc\mesa\glcpp-lex.c">
+      <Filter>src\chromium_gensrc\mesa</Filter>
+    </ClCompile>
+    <ClInclude Include="src\chromium_gensrc\mesa\main\dispatch.h">
+      <Filter>src\chromium_gensrc\mesa\main</Filter>
+    </ClInclude>
+    <ClCompile Include="src\src\glsl\ir_import_prototypes.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\opt_copy_propagation_elements.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\lower_vector.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\ir_constant_expression.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClInclude Include="src\src\glsl\linker.h">
+      <Filter>src\src\glsl</Filter>
+    </ClInclude>
+    <ClCompile Include="src\src\glsl\lower_jumps.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\ir_print_visitor.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\link_uniforms.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClInclude Include="src\src\glsl\standalone_scaffolding.h">
+      <Filter>src\src\glsl</Filter>
+    </ClInclude>
+    <ClCompile Include="src\src\glsl\lower_clip_distance.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\ralloc.c">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\opt_array_splitting.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClInclude Include="src\src\glsl\ralloc.h">
+      <Filter>src\src\glsl</Filter>
+    </ClInclude>
+    <ClCompile Include="src\src\glsl\ir_function.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\ir_validate.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClInclude Include="src\src\glsl\ir_expression_flattening.h">
+      <Filter>src\src\glsl</Filter>
+    </ClInclude>
+    <ClCompile Include="src\src\glsl\ir_function_can_inline.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\loop_controls.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\opt_noop_swizzle.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\standalone_scaffolding.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\lower_mat_op_to_vec.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\linker.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\opt_tree_grafting.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\opt_dead_code_local.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClInclude Include="src\src\glsl\ir_print_visitor.h">
+      <Filter>src\src\glsl</Filter>
+    </ClInclude>
+    <ClCompile Include="src\src\glsl\loop_unroll.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\lower_variable_index_to_cond_assign.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClInclude Include="src\src\glsl\loop_analysis.h">
+      <Filter>src\src\glsl</Filter>
+    </ClInclude>
+    <ClCompile Include="src\src\glsl\opt_constant_variable.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\opt_dead_code.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\loop_analysis.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClInclude Include="src\src\glsl\ir_basic_block.h">
+      <Filter>src\src\glsl</Filter>
+    </ClInclude>
+    <ClCompile Include="src\src\glsl\lower_ubo_reference.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\ast_function.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\strtod.c">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\opt_swizzle_swizzle.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClInclude Include="src\src\glsl\glsl_parser_extras.h">
+      <Filter>src\src\glsl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\src\glsl\strtod.h">
+      <Filter>src\src\glsl</Filter>
+    </ClInclude>
+    <ClCompile Include="src\src\glsl\ast_to_hir.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\ir_function_detect_recursion.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\opt_constant_propagation.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\ir_basic_block.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\lower_discard_flow.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClInclude Include="src\src\glsl\glsl_symbol_table.h">
+      <Filter>src\src\glsl</Filter>
+    </ClInclude>
+    <ClCompile Include="src\src\glsl\builtin_variables.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\lower_vec_index_to_cond_assign.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\lower_texture_projection.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\hir_field_selection.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\lower_noise.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\ir_clone.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\glsl_types.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClInclude Include="src\src\glsl\ir_reader.h">
+      <Filter>src\src\glsl</Filter>
+    </ClInclude>
+    <ClCompile Include="src\src\glsl\glsl_parser_extras.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\opt_structure_splitting.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\opt_constant_folding.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\s_expression.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\lower_instructions.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClInclude Include="src\src\glsl\program.h">
+      <Filter>src\src\glsl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\src\glsl\s_expression.h">
+      <Filter>src\src\glsl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\src\glsl\ir_variable_refcount.h">
+      <Filter>src\src\glsl</Filter>
+    </ClInclude>
+    <ClCompile Include="src\src\glsl\link_uniform_initializers.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\opt_redundant_jumps.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\lower_vec_index_to_swizzle.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\opt_function_inlining.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\lower_discard.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClInclude Include="src\src\glsl\ir_rvalue_visitor.h">
+      <Filter>src\src\glsl</Filter>
+    </ClInclude>
+    <ClCompile Include="src\src\glsl\ir_rvalue_visitor.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\link_functions.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\ir_reader.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\ir_variable_refcount.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\ast_type.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\ir_hierarchical_visitor.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\opt_copy_propagation.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\ast_expr.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\lower_if_to_cond_assign.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\opt_algebraic.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClInclude Include="src\src\glsl\ir_builder.h">
+      <Filter>src\src\glsl</Filter>
+    </ClInclude>
+    <ClCompile Include="src\src\glsl\ir_hv_accept.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\ir_builder.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\opt_dead_functions.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClInclude Include="src\src\glsl\glsl_types.h">
+      <Filter>src\src\glsl</Filter>
+    </ClInclude>
+    <ClCompile Include="src\src\glsl\ir_expression_flattening.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\opt_if_simplification.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClInclude Include="src\src\glsl\ir_hierarchical_visitor.h">
+      <Filter>src\src\glsl</Filter>
+    </ClInclude>
+    <ClCompile Include="src\src\glsl\lower_output_reads.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\ir_set_program_inouts.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\ir.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\glsl\glsl_symbol_table.cpp">
+      <Filter>src\src\glsl</Filter>
+    </ClCompile>
+    <ClInclude Include="src\src\glsl\ir.h">
+      <Filter>src\src\glsl</Filter>
+    </ClInclude>
+    <ClCompile Include="src\src\glsl\glcpp\pp.c">
+      <Filter>src\src\glsl\glcpp</Filter>
+    </ClCompile>
+    <ClInclude Include="src\src\glsl\glcpp\glcpp.h">
+      <Filter>src\src\glsl\glcpp</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

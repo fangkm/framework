@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win">
+      <UniqueIdentifier>{47FC5EC4-15EB-E92F-89D7-AFE51CF838A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win\tests">
+      <UniqueIdentifier>{71685B5B-5DB1-D3F0-6DF4-FE19B5454C87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win\tests\integration_tests">
+      <UniqueIdentifier>{75F5CC34-0AB3-67F6-9AEC-02DB463303E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win\tests\common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sandbox.gyp"/>
+    <ClCompile Include="win\src\registry_policy_test.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClCompile Include="win\src\file_policy_test.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClCompile Include="win\src\policy_target_test.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClCompile Include="win\src\process_mitigations_test.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClCompile Include="win\src\handle_inheritance_test.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClCompile Include="win\src\handle_closer_test.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClCompile Include="win\src\ipc_ping_test.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClInclude Include="win\src\sync_policy_test.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClCompile Include="win\src\app_container_test.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClCompile Include="win\src\handle_policy_test.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClCompile Include="win\src\process_policy_test.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClCompile Include="win\src\integrity_level_test.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClCompile Include="win\src\named_pipe_policy_test.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClCompile Include="win\src\sync_policy_test.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClCompile Include="win\src\unload_dll_test.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClCompile Include="win\tests\integration_tests\integration_tests_test.cc">
+      <Filter>win\tests\integration_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="win\tests\integration_tests\integration_tests.cc">
+      <Filter>win\tests\integration_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="win\tests\common\controller.cc">
+      <Filter>win\tests\common</Filter>
+    </ClCompile>
+    <ClCompile Include="win\tests\common\test_utils.cc">
+      <Filter>win\tests\common</Filter>
+    </ClCompile>
+    <ClInclude Include="win\tests\common\test_utils.h">
+      <Filter>win\tests\common</Filter>
+    </ClInclude>
+    <ClInclude Include="win\tests\common\controller.h">
+      <Filter>win\tests\common</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

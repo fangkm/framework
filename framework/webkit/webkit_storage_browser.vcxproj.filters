@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="browser">
+      <UniqueIdentifier>{24B57E1E-8660-A3AB-E8EF-7828EB881EF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\fileapi">
+      <UniqueIdentifier>{07449D65-155A-88FA-AE73-F56A090F72A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\quota">
+      <UniqueIdentifier>{1BEA1856-1189-37CA-8138-9A45CAA7E310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\database">
+      <UniqueIdentifier>{E9000E01-2688-FB2B-9D76-166920B23DB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\blob">
+      <UniqueIdentifier>{F0F1FA0B-1F02-1777-4B14-B2E007BD2FC3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\appcache">
+      <UniqueIdentifier>{DCADB86C-725F-CB9F-1EF6-EA4E2520E817}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="storage_browser.gyp"/>
+    <ClInclude Include="browser\webkit_storage_browser_export.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\fileapi\upload_file_system_file_element_reader.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\fileapi\sandbox_isolated_origin_database.cc">
+      <Filter>browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\fileapi\local_file_stream_writer.cc">
+      <Filter>browser\fileapi</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\fileapi\external_mount_points.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\fileapi\file_system_url_request_job.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\fileapi\file_system_context.cc">
+      <Filter>browser\fileapi</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\fileapi\transient_file_util.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\fileapi\copy_or_move_operation_delegate.cc">
+      <Filter>browser\fileapi</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\fileapi\file_system_url_request_job_factory.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\fileapi\isolated_file_util.cc">
+      <Filter>browser\fileapi</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\fileapi\file_permission_policy.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\fileapi\file_system_operation_impl.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\fileapi\file_system_operation_runner.cc">
+      <Filter>browser\fileapi</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\fileapi\remove_operation_delegate.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\fileapi\remove_operation_delegate.cc">
+      <Filter>browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\fileapi\async_file_util_adapter.cc">
+      <Filter>browser\fileapi</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\fileapi\file_system_quota_util.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\fileapi\sandbox_isolated_origin_database.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\fileapi\isolated_context.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\fileapi\recursive_operation_delegate.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\fileapi\file_system_options.cc">
+      <Filter>browser\fileapi</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\fileapi\local_file_util.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\fileapi\file_system_context.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\fileapi\sandbox_file_system_backend.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\fileapi\file_system_quota_client.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\fileapi\transient_file_util.cc">
+      <Filter>browser\fileapi</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\fileapi\test_file_system_backend.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\fileapi\file_system_usage_cache.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\fileapi\isolated_file_system_backend.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\fileapi\isolated_context.cc">
+      <Filter>browser\fileapi</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\fileapi\file_system_dir_url_request_job.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\fileapi\file_stream_writer.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\fileapi\obfuscated_file_util.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\fileapi\recursive_operation_delegate.cc">
+      <Filter>browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\fileapi\native_file_util.cc">
+      <Filter>browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\fileapi\sandbox_origin_database_interface.cc">
+      <Filter>browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\fileapi\sandbox_file_system_backend_delegate.cc">
+      <Filter>browser\fileapi</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\fileapi\file_system_operation.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\fileapi\async_file_util_adapter.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\fileapi\file_system_operation_impl.cc">
+      <Filter>browser\fileapi</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\fileapi\file_system_backend.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\fileapi\external_mount_points.cc">
+      <Filter>browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\fileapi\file_system_usage_cache.cc">
+      <Filter>browser\fileapi</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\fileapi\sandbox_directory_database.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\fileapi\sandbox_file_system_backend.cc">
+      <Filter>browser\fileapi</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\fileapi\sandbox_file_system_backend_delegate.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\fileapi\mount_points.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\fileapi\sandbox_file_stream_writer.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\fileapi\file_observers.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\fileapi\file_system_options.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\fileapi\file_system_dir_url_request_job.cc">
+      <Filter>browser\fileapi</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\fileapi\native_file_util.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\fileapi\copy_or_move_file_validator.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\fileapi\sandbox_quota_observer.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\fileapi\obfuscated_file_util.cc">
+      <Filter>browser\fileapi</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\fileapi\task_runner_bound_observer_list.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\fileapi\file_system_operation_context.cc">
+      <Filter>browser\fileapi</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\fileapi\file_system_file_util.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\fileapi\sandbox_file_stream_writer.cc">
+      <Filter>browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\fileapi\file_system_file_util.cc">
+      <Filter>browser\fileapi</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\fileapi\file_system_url.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\fileapi\file_system_file_stream_reader.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\fileapi\timed_task_helper.cc">
+      <Filter>browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\fileapi\upload_file_system_file_element_reader.cc">
+      <Filter>browser\fileapi</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\fileapi\isolated_file_util.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\fileapi\file_system_url_request_job_factory.cc">
+      <Filter>browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\fileapi\file_permission_policy.cc">
+      <Filter>browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\fileapi\file_system_url_request_job.cc">
+      <Filter>browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\fileapi\test_file_system_backend.cc">
+      <Filter>browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\fileapi\file_system_file_stream_reader.cc">
+      <Filter>browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\fileapi\sandbox_quota_observer.cc">
+      <Filter>browser\fileapi</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\fileapi\local_file_stream_writer.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\fileapi\sandbox_origin_database.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\fileapi\async_file_util.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\fileapi\sandbox_origin_database.cc">
+      <Filter>browser\fileapi</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\fileapi\copy_or_move_operation_delegate.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\fileapi\file_system_operation_context.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\fileapi\file_system_quota_client.cc">
+      <Filter>browser\fileapi</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\fileapi\open_file_system_mode.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\fileapi\file_system_url.cc">
+      <Filter>browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\fileapi\sandbox_directory_database.cc">
+      <Filter>browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\fileapi\file_writer_delegate.cc">
+      <Filter>browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\fileapi\isolated_file_system_backend.cc">
+      <Filter>browser\fileapi</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\fileapi\file_writer_delegate.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\fileapi\sandbox_origin_database_interface.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\fileapi\timed_task_helper.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\fileapi\local_file_util.cc">
+      <Filter>browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\fileapi\mount_points.cc">
+      <Filter>browser\fileapi</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\fileapi\file_system_operation_runner.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\quota\usage_tracker.h">
+      <Filter>browser\quota</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\quota\quota_database.cc">
+      <Filter>browser\quota</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\quota\special_storage_policy.h">
+      <Filter>browser\quota</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\quota\quota_client.h">
+      <Filter>browser\quota</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\quota\quota_task.cc">
+      <Filter>browser\quota</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\quota\quota_manager.cc">
+      <Filter>browser\quota</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\quota\special_storage_policy.cc">
+      <Filter>browser\quota</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\quota\quota_task.h">
+      <Filter>browser\quota</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\quota\quota_temporary_storage_evictor.cc">
+      <Filter>browser\quota</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\quota\quota_database.h">
+      <Filter>browser\quota</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\quota\usage_tracker.cc">
+      <Filter>browser\quota</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\quota\quota_manager.h">
+      <Filter>browser\quota</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\quota\quota_callbacks.h">
+      <Filter>browser\quota</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\quota\quota_temporary_storage_evictor.h">
+      <Filter>browser\quota</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\database\database_tracker.cc">
+      <Filter>browser\database</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\database\databases_table.cc">
+      <Filter>browser\database</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\database\database_util.h">
+      <Filter>browser\database</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\database\databases_table.h">
+      <Filter>browser\database</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\database\database_tracker.h">
+      <Filter>browser\database</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\database\vfs_backend.cc">
+      <Filter>browser\database</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\database\vfs_backend.h">
+      <Filter>browser\database</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\database\database_quota_client.h">
+      <Filter>browser\database</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\database\database_util.cc">
+      <Filter>browser\database</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\database\database_quota_client.cc">
+      <Filter>browser\database</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\blob\blob_storage_host.h">
+      <Filter>browser\blob</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\blob\blob_url_request_job.h">
+      <Filter>browser\blob</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\blob\view_blob_internals_job.cc">
+      <Filter>browser\blob</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\blob\blob_url_request_job.cc">
+      <Filter>browser\blob</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\blob\view_blob_internals_job.h">
+      <Filter>browser\blob</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\blob\blob_storage_context.h">
+      <Filter>browser\blob</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\blob\blob_storage_host.cc">
+      <Filter>browser\blob</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\blob\blob_data_handle.cc">
+      <Filter>browser\blob</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\blob\blob_storage_context.cc">
+      <Filter>browser\blob</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\blob\blob_url_request_job_factory.h">
+      <Filter>browser\blob</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\blob\local_file_stream_reader.cc">
+      <Filter>browser\blob</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\blob\local_file_stream_reader.h">
+      <Filter>browser\blob</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\blob\blob_data_handle.h">
+      <Filter>browser\blob</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\blob\blob_url_request_job_factory.cc">
+      <Filter>browser\blob</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\appcache\appcache_executable_handler.h">
+      <Filter>browser\appcache</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\appcache\appcache_url_request_job.h">
+      <Filter>browser\appcache</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\appcache\appcache_disk_cache.cc">
+      <Filter>browser\appcache</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\appcache\view_appcache_internals_job.cc">
+      <Filter>browser\appcache</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\appcache\appcache_policy.h">
+      <Filter>browser\appcache</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\appcache\appcache_storage_impl.h">
+      <Filter>browser\appcache</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\appcache\appcache_url_request_job.cc">
+      <Filter>browser\appcache</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\appcache\appcache_response.cc">
+      <Filter>browser\appcache</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\appcache\appcache_service.h">
+      <Filter>browser\appcache</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\appcache\manifest_parser.cc">
+      <Filter>browser\appcache</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\appcache\manifest_parser.h">
+      <Filter>browser\appcache</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\appcache\appcache_group.h">
+      <Filter>browser\appcache</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\appcache\appcache_update_job.h">
+      <Filter>browser\appcache</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\appcache\appcache_histograms.cc">
+      <Filter>browser\appcache</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\appcache\appcache_quota_client.h">
+      <Filter>browser\appcache</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\appcache\appcache_request_handler.h">
+      <Filter>browser\appcache</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\appcache\appcache_storage.h">
+      <Filter>browser\appcache</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\appcache\appcache_interceptor.h">
+      <Filter>browser\appcache</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\appcache\appcache_backend_impl.h">
+      <Filter>browser\appcache</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\appcache\appcache_update_job.cc">
+      <Filter>browser\appcache</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\appcache\appcache_histograms.h">
+      <Filter>browser\appcache</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\appcache\appcache_disk_cache.h">
+      <Filter>browser\appcache</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\appcache\view_appcache_internals_job.h">
+      <Filter>browser\appcache</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\appcache\appcache_entry.h">
+      <Filter>browser\appcache</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\appcache\appcache_backend_impl.cc">
+      <Filter>browser\appcache</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\appcache\appcache.h">
+      <Filter>browser\appcache</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\appcache\appcache.cc">
+      <Filter>browser\appcache</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\appcache\appcache_database.cc">
+      <Filter>browser\appcache</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\appcache\appcache_storage_impl.cc">
+      <Filter>browser\appcache</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\appcache\appcache_database.h">
+      <Filter>browser\appcache</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\appcache\appcache_group.cc">
+      <Filter>browser\appcache</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\appcache\appcache_host.h">
+      <Filter>browser\appcache</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\appcache\appcache_working_set.h">
+      <Filter>browser\appcache</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\appcache\appcache_storage.cc">
+      <Filter>browser\appcache</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\appcache\appcache_service.cc">
+      <Filter>browser\appcache</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\appcache\appcache_interceptor.cc">
+      <Filter>browser\appcache</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\appcache\appcache_request_handler.cc">
+      <Filter>browser\appcache</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\appcache\appcache_response.h">
+      <Filter>browser\appcache</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\appcache\appcache_working_set.cc">
+      <Filter>browser\appcache</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\appcache\appcache_host.cc">
+      <Filter>browser\appcache</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\appcache\appcache_quota_client.cc">
+      <Filter>browser\appcache</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\fileapi">
+      <UniqueIdentifier>{07449D65-155A-88FA-AE73-F56A090F72A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\blob">
+      <UniqueIdentifier>{F0F1FA0B-1F02-1777-4B14-B2E007BD2FC3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\database">
+      <UniqueIdentifier>{E9000E01-2688-FB2B-9D76-166920B23DB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\appcache">
+      <UniqueIdentifier>{DCADB86C-725F-CB9F-1EF6-EA4E2520E817}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\quota">
+      <UniqueIdentifier>{1BEA1856-1189-37CA-8138-9A45CAA7E310}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="storage_common.gyp"/>
+    <ClInclude Include="common\webkit_storage_common_export.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\fileapi\directory_entry.cc">
+      <Filter>common\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="common\fileapi\file_system_util.cc">
+      <Filter>common\fileapi</Filter>
+    </ClCompile>
+    <ClInclude Include="common\fileapi\file_system_types.h">
+      <Filter>common\fileapi</Filter>
+    </ClInclude>
+    <ClInclude Include="common\fileapi\file_system_util.h">
+      <Filter>common\fileapi</Filter>
+    </ClInclude>
+    <ClInclude Include="common\fileapi\directory_entry.h">
+      <Filter>common\fileapi</Filter>
+    </ClInclude>
+    <ClInclude Include="common\blob\blob_data.h">
+      <Filter>common\blob</Filter>
+    </ClInclude>
+    <ClCompile Include="common\blob\scoped_file.cc">
+      <Filter>common\blob</Filter>
+    </ClCompile>
+    <ClCompile Include="common\blob\blob_data.cc">
+      <Filter>common\blob</Filter>
+    </ClCompile>
+    <ClInclude Include="common\blob\shareable_file_reference.h">
+      <Filter>common\blob</Filter>
+    </ClInclude>
+    <ClCompile Include="common\blob\shareable_file_reference.cc">
+      <Filter>common\blob</Filter>
+    </ClCompile>
+    <ClInclude Include="common\blob\scoped_file.h">
+      <Filter>common\blob</Filter>
+    </ClInclude>
+    <ClInclude Include="common\database\database_connections.h">
+      <Filter>common\database</Filter>
+    </ClInclude>
+    <ClCompile Include="common\database\database_identifier.cc">
+      <Filter>common\database</Filter>
+    </ClCompile>
+    <ClCompile Include="common\database\database_connections.cc">
+      <Filter>common\database</Filter>
+    </ClCompile>
+    <ClInclude Include="common\appcache\appcache_interfaces.h">
+      <Filter>common\appcache</Filter>
+    </ClInclude>
+    <ClCompile Include="common\appcache\appcache_interfaces.cc">
+      <Filter>common\appcache</Filter>
+    </ClCompile>
+    <ClInclude Include="common\quota\quota_types.h">
+      <Filter>common\quota</Filter>
+    </ClInclude>
+    <ClCompile Include="common\quota\quota_status_code.cc">
+      <Filter>common\quota</Filter>
+    </ClCompile>
+    <ClInclude Include="common\quota\quota_status_code.h">
+      <Filter>common\quota</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\src\mesa">
+      <UniqueIdentifier>{CFA412D8-4E40-8543-F18F-7DDC0AFDA9BE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\src\mesa\drivers">
+      <UniqueIdentifier>{B2AD0F74-09C5-0CD2-B1C7-D600CCDC967E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\src\mesa\drivers\common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\src\mesa\drivers\osmesa">
+      <UniqueIdentifier>{9A654576-A5DA-0DB6-BFE6-928826F16626}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mesa.gyp"/>
+    <ClCompile Include="src\src\mesa\drivers\common\meta.c">
+      <Filter>src\src\mesa\drivers\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\mesa\drivers\common\driverfuncs.c">
+      <Filter>src\src\mesa\drivers\common</Filter>
+    </ClCompile>
+    <ClInclude Include="src\src\mesa\drivers\common\meta.h">
+      <Filter>src\src\mesa\drivers\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\src\mesa\drivers\common\driverfuncs.h">
+      <Filter>src\src\mesa\drivers\common</Filter>
+    </ClInclude>
+    <None Include="src\src\mesa\drivers\osmesa\osmesa.def">
+      <Filter>src\src\mesa\drivers\osmesa</Filter>
+    </None>
+    <ClCompile Include="src\src\mesa\drivers\osmesa\osmesa.c">
+      <Filter>src\src\mesa\drivers\osmesa</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

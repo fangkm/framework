@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="proxy">
+      <UniqueIdentifier>{DB8B4CC8-9E72-B499-B612-B1CD65A064EE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="net.gyp"/>
+    <ClCompile Include="proxy\proxy_resolver_v8_tracing.cc">
+      <Filter>proxy</Filter>
+    </ClCompile>
+    <ClInclude Include="proxy\proxy_resolver_v8_tracing.h">
+      <Filter>proxy</Filter>
+    </ClInclude>
+    <ClCompile Include="proxy\proxy_resolver_v8.cc">
+      <Filter>proxy</Filter>
+    </ClCompile>
+    <ClInclude Include="proxy\proxy_resolver_v8.h">
+      <Filter>proxy</Filter>
+    </ClInclude>
+    <ClCompile Include="proxy\proxy_service_v8.cc">
+      <Filter>proxy</Filter>
+    </ClCompile>
+    <ClInclude Include="proxy\proxy_service_v8.h">
+      <Filter>proxy</Filter>
+    </ClInclude>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

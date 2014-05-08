@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="web_modal">
+      <UniqueIdentifier>{51556ACC-3E1D-671A-4620-F75411AE546D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="components.gyp"/>
+    <ClInclude Include="web_modal\native_web_contents_modal_dialog_manager.h">
+      <Filter>web_modal</Filter>
+    </ClInclude>
+    <ClInclude Include="web_modal\native_web_contents_modal_dialog.h">
+      <Filter>web_modal</Filter>
+    </ClInclude>
+    <ClInclude Include="web_modal\web_contents_modal_dialog_host.h">
+      <Filter>web_modal</Filter>
+    </ClInclude>
+    <ClCompile Include="web_modal\web_contents_modal_dialog_manager.cc">
+      <Filter>web_modal</Filter>
+    </ClCompile>
+    <ClInclude Include="web_modal\web_contents_modal_dialog_manager.h">
+      <Filter>web_modal</Filter>
+    </ClInclude>
+    <ClCompile Include="web_modal\web_contents_modal_dialog_manager_delegate.cc">
+      <Filter>web_modal</Filter>
+    </ClCompile>
+    <ClInclude Include="web_modal\web_contents_modal_dialog_manager_delegate.h">
+      <Filter>web_modal</Filter>
+    </ClInclude>
+    <ClCompile Include="web_modal\web_contents_modal_dialog_host.cc">
+      <Filter>web_modal</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

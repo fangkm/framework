@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="nss">
+      <UniqueIdentifier>{3C09AD6B-82F0-6694-7902-5905A4E0AD0E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\ckfw">
+      <UniqueIdentifier>{859FCCEA-0BCD-5D63-CB97-67B092FE7291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\ckfw\builtins">
+      <UniqueIdentifier>{B714CD06-80B8-CB84-13DA-7C93A8862A21}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="nss.gyp"/>
+    <ClInclude Include="nss\lib\ckfw\nssckepv.h">
+      <Filter>nss\lib\ckfw</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\ckfw\mutex.c">
+      <Filter>nss\lib\ckfw</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\ckfw\instance.c">
+      <Filter>nss\lib\ckfw</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\ckfw\nssckt.h">
+      <Filter>nss\lib\ckfw</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\ckfw\nssckg.h">
+      <Filter>nss\lib\ckfw</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\ckfw\ckfw.h">
+      <Filter>nss\lib\ckfw</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\ckfw\slot.c">
+      <Filter>nss\lib\ckfw</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\ckfw\nssckmdt.h">
+      <Filter>nss\lib\ckfw</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\ckfw\crypto.c">
+      <Filter>nss\lib\ckfw</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\ckfw\ckfwm.h">
+      <Filter>nss\lib\ckfw</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\ckfw\nssckfwc.h">
+      <Filter>nss\lib\ckfw</Filter>
+    </ClInclude>
+    <None Include="nss\lib\ckfw\nssck.api">
+      <Filter>nss\lib\ckfw</Filter>
+    </None>
+    <ClCompile Include="nss\lib\ckfw\wrap.c">
+      <Filter>nss\lib\ckfw</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\ckfw\find.c">
+      <Filter>nss\lib\ckfw</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\ckfw\ckt.h">
+      <Filter>nss\lib\ckfw</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\ckfw\sessobj.c">
+      <Filter>nss\lib\ckfw</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\ckfw\nssckfwt.h">
+      <Filter>nss\lib\ckfw</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\ckfw\ckfwtm.h">
+      <Filter>nss\lib\ckfw</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\ckfw\hash.c">
+      <Filter>nss\lib\ckfw</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\ckfw\nssckfw.h">
+      <Filter>nss\lib\ckfw</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\ckfw\ck.h">
+      <Filter>nss\lib\ckfw</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\ckfw\mechanism.c">
+      <Filter>nss\lib\ckfw</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\ckfw\nssckft.h">
+      <Filter>nss\lib\ckfw</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\ckfw\session.c">
+      <Filter>nss\lib\ckfw</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\ckfw\ckmd.h">
+      <Filter>nss\lib\ckfw</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\ckfw\object.c">
+      <Filter>nss\lib\ckfw</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\ckfw\token.c">
+      <Filter>nss\lib\ckfw</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\ckfw\builtins\bobject.c">
+      <Filter>nss\lib\ckfw\builtins</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\ckfw\builtins\nssckbi.h">
+      <Filter>nss\lib\ckfw\builtins</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\ckfw\builtins\certdata.c">
+      <Filter>nss\lib\ckfw\builtins</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\ckfw\builtins\builtins.h">
+      <Filter>nss\lib\ckfw\builtins</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\ckfw\builtins\binst.c">
+      <Filter>nss\lib\ckfw\builtins</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\ckfw\builtins\btoken.c">
+      <Filter>nss\lib\ckfw\builtins</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\ckfw\builtins\constants.c">
+      <Filter>nss\lib\ckfw\builtins</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\ckfw\builtins\ckbiver.c">
+      <Filter>nss\lib\ckfw\builtins</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\ckfw\builtins\bslot.c">
+      <Filter>nss\lib\ckfw\builtins</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\ckfw\builtins\anchor.c">
+      <Filter>nss\lib\ckfw\builtins</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\ckfw\builtins\bfind.c">
+      <Filter>nss\lib\ckfw\builtins</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\ckfw\builtins\bsession.c">
+      <Filter>nss\lib\ckfw\builtins</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="browser_context_keyed_service">
+      <UniqueIdentifier>{F32C27F7-D790-C461-529D-AE31086A3878}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="components.gyp"/>
+    <ClInclude Include="browser_context_keyed_service\browser_context_keyed_base_factory.h">
+      <Filter>browser_context_keyed_service</Filter>
+    </ClInclude>
+    <ClCompile Include="browser_context_keyed_service\dependency_graph.cc">
+      <Filter>browser_context_keyed_service</Filter>
+    </ClCompile>
+    <ClInclude Include="browser_context_keyed_service\browser_context_keyed_service_factory.h">
+      <Filter>browser_context_keyed_service</Filter>
+    </ClInclude>
+    <ClInclude Include="browser_context_keyed_service\dependency_graph.h">
+      <Filter>browser_context_keyed_service</Filter>
+    </ClInclude>
+    <ClInclude Include="browser_context_keyed_service\browser_context_keyed_service_export.h">
+      <Filter>browser_context_keyed_service</Filter>
+    </ClInclude>
+    <ClInclude Include="browser_context_keyed_service\dependency_node.h">
+      <Filter>browser_context_keyed_service</Filter>
+    </ClInclude>
+    <ClCompile Include="browser_context_keyed_service\refcounted_browser_context_keyed_service_factory.cc">
+      <Filter>browser_context_keyed_service</Filter>
+    </ClCompile>
+    <ClCompile Include="browser_context_keyed_service\browser_context_dependency_manager.cc">
+      <Filter>browser_context_keyed_service</Filter>
+    </ClCompile>
+    <ClInclude Include="browser_context_keyed_service\refcounted_browser_context_keyed_service_factory.h">
+      <Filter>browser_context_keyed_service</Filter>
+    </ClInclude>
+    <ClInclude Include="browser_context_keyed_service\refcounted_browser_context_keyed_service.h">
+      <Filter>browser_context_keyed_service</Filter>
+    </ClInclude>
+    <ClCompile Include="browser_context_keyed_service\browser_context_keyed_base_factory.cc">
+      <Filter>browser_context_keyed_service</Filter>
+    </ClCompile>
+    <ClCompile Include="browser_context_keyed_service\browser_context_keyed_service_factory.cc">
+      <Filter>browser_context_keyed_service</Filter>
+    </ClCompile>
+    <ClCompile Include="browser_context_keyed_service\refcounted_browser_context_keyed_service.cc">
+      <Filter>browser_context_keyed_service</Filter>
+    </ClCompile>
+    <ClInclude Include="browser_context_keyed_service\browser_context_dependency_manager.h">
+      <Filter>browser_context_keyed_service</Filter>
+    </ClInclude>
+    <ClInclude Include="browser_context_keyed_service\browser_context_keyed_service.h">
+      <Filter>browser_context_keyed_service</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

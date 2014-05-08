@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="plugin">
+      <UniqueIdentifier>{E12D2CF9-1CA3-AAB9-7CAB-5DCA48C96E1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugin\win">
+      <UniqueIdentifier>{47FC5EC4-15EB-E92F-89D7-AFE51CF838A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugin\Tests">
+      <UniqueIdentifier>{5D34288A-C21B-AF0A-4822-DE6087769914}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="testing.gyp"/>
+    <ClCompile Include="plugin\PluginObject.cpp">
+      <Filter>plugin</Filter>
+    </ClCompile>
+    <None Include="plugin\PluginObjectMac.mm">
+      <Filter>plugin</Filter>
+    </None>
+    <ClInclude Include="plugin\TestObject.h">
+      <Filter>plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="plugin\PluginObject.h">
+      <Filter>plugin</Filter>
+    </ClInclude>
+    <ClCompile Include="plugin\PluginTest.cpp">
+      <Filter>plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin\main.cpp">
+      <Filter>plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin\TestObject.cpp">
+      <Filter>plugin</Filter>
+    </ClCompile>
+    <ClInclude Include="plugin\PluginTest.h">
+      <Filter>plugin</Filter>
+    </ClInclude>
+    <None Include="plugin\win\TestNetscapePlugin.def">
+      <Filter>plugin\win</Filter>
+    </None>
+    <ResourceCompile Include="plugin\win\TestNetscapePlugin.rc">
+      <Filter>plugin\win</Filter>
+    </ResourceCompile>
+    <ClCompile Include="plugin\Tests\DocumentOpenInDestroyStream.cpp">
+      <Filter>plugin\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin\Tests\PluginScriptableObjectOverridesAllProperties.cpp">
+      <Filter>plugin\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin\Tests\NPRuntimeCallsWithNullNPP.cpp">
+      <Filter>plugin\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin\Tests\PassDifferentNPPStruct.cpp">
+      <Filter>plugin\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin\Tests\LeakWindowScriptableObject.cpp">
+      <Filter>plugin\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin\Tests\NullNPPGetValuePointer.cpp">
+      <Filter>plugin\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin\Tests\PluginScriptableNPObjectInvokeDefault.cpp">
+      <Filter>plugin\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin\Tests\NPPNewFails.cpp">
+      <Filter>plugin\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin\Tests\FormValue.cpp">
+      <Filter>plugin\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin\Tests\GetURLWithJavaScriptURLDestroyingPlugin.cpp">
+      <Filter>plugin\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin\Tests\NPRuntimeRemoveProperty.cpp">
+      <Filter>plugin\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin\Tests\GetURLNotifyWithURLThatFailsToLoad.cpp">
+      <Filter>plugin\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin\Tests\GetURLWithJavaScriptURL.cpp">
+      <Filter>plugin\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin\Tests\NPRuntimeObjectFromDestroyedPlugin.cpp">
+      <Filter>plugin\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin\Tests\EvaluateJSAfterRemovingPluginElement.cpp">
+      <Filter>plugin\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin\Tests\NPDeallocateCalledBeforeNPShutdown.cpp">
+      <Filter>plugin\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin\Tests\LogNPPSetWindow.cpp">
+      <Filter>plugin\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin\Tests\GetUserAgentWithNullNPPFromNPPNew.cpp">
+      <Filter>plugin\Tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

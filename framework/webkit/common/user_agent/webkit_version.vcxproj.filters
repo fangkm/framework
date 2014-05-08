@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\webkit">
+      <UniqueIdentifier>{6BB4ACEE-077E-03F4-A9A9-4276B7FD2E30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\webkit\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\webkit\build\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\chrome">
+      <UniqueIdentifier>{22A2D624-B35D-B417-0931-5D8692D99D43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\chrome\tools">
+      <UniqueIdentifier>{A0946190-5491-4D66-7E51-19400E36F078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\chrome\tools\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\chrome\tools\build\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\build\util">
+      <UniqueIdentifier>{F977CC92-61A1-407C-2835-A38A3BBED548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\build\util\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="webkit_user_agent.gyp"/>
+    <None Include="..\..\..\webkit\build\webkit_version.h.in">
+      <Filter>..\..\..\webkit\build\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\chrome\tools\build\version.py">
+      <Filter>..\..\..\chrome\tools\build\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\build\util\LASTCHANGE.blink">
+      <Filter>..\..\..\build\util\_excluded_files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

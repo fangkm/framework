@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\renderer">
+      <UniqueIdentifier>{AC4EF684-2900-10EA-3D11-A6DF0901358C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\renderer\media">
+      <UniqueIdentifier>{2699B576-DA2C-16EE-9C4A-F0CAB500D719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\renderer\media\crypto">
+      <UniqueIdentifier>{DFFB1441-5E91-CEAB-DBC4-604225CE8161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="webkit_support.gyp"/>
+    <ClInclude Include="..\renderer\media\texttrack_impl.h">
+      <Filter>..\renderer\media</Filter>
+    </ClInclude>
+    <ClInclude Include="..\renderer\media\webmediaplayer_delegate.h">
+      <Filter>..\renderer\media</Filter>
+    </ClInclude>
+    <ClInclude Include="..\renderer\media\webinbandtexttrack_impl.h">
+      <Filter>..\renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="..\renderer\media\video_frame_provider.cc">
+      <Filter>..\renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="..\renderer\media\video_frame_provider.h">
+      <Filter>..\renderer\media</Filter>
+    </ClInclude>
+    <ClInclude Include="..\renderer\media\buffered_data_source.h">
+      <Filter>..\renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="..\renderer\media\websourcebuffer_impl.cc">
+      <Filter>..\renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="..\renderer\media\simple_video_frame_provider.cc">
+      <Filter>..\renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="..\renderer\media\buffered_resource_loader.cc">
+      <Filter>..\renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="..\renderer\media\audio_decoder.cc">
+      <Filter>..\renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="..\renderer\media\audio_decoder.h">
+      <Filter>..\renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="..\renderer\media\webmediasourceclient_impl.cc">
+      <Filter>..\renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="..\renderer\media\webmediasourceclient_impl.h">
+      <Filter>..\renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="..\renderer\media\cache_util.cc">
+      <Filter>..\renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="..\renderer\media\webmediaplayer_ms.h">
+      <Filter>..\renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="..\renderer\media\media_stream_audio_renderer.cc">
+      <Filter>..\renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="..\renderer\media\active_loader.h">
+      <Filter>..\renderer\media</Filter>
+    </ClInclude>
+    <ClInclude Include="..\renderer\media\buffered_resource_loader.h">
+      <Filter>..\renderer\media</Filter>
+    </ClInclude>
+    <ClInclude Include="..\renderer\media\webaudiosourceprovider_impl.h">
+      <Filter>..\renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="..\renderer\media\webmediaplayer_ms.cc">
+      <Filter>..\renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="..\renderer\media\webmediaplayer_params.cc">
+      <Filter>..\renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="..\renderer\media\simple_video_frame_provider.h">
+      <Filter>..\renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="..\renderer\media\active_loader.cc">
+      <Filter>..\renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="..\renderer\media\preload.h">
+      <Filter>..\renderer\media</Filter>
+    </ClInclude>
+    <ClInclude Include="..\renderer\media\cache_util.h">
+      <Filter>..\renderer\media</Filter>
+    </ClInclude>
+    <ClInclude Include="..\renderer\media\websourcebuffer_impl.h">
+      <Filter>..\renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="..\renderer\media\webmediaplayer_impl.cc">
+      <Filter>..\renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="..\renderer\media\webaudiosourceprovider_impl.cc">
+      <Filter>..\renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="..\renderer\media\webmediaplayer_util.cc">
+      <Filter>..\renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="..\renderer\media\webinbandtexttrack_impl.cc">
+      <Filter>..\renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="..\renderer\media\buffered_data_source.cc">
+      <Filter>..\renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="..\renderer\media\webmediaplayer_util.h">
+      <Filter>..\renderer\media</Filter>
+    </ClInclude>
+    <ClInclude Include="..\renderer\media\webmediaplayer_impl.h">
+      <Filter>..\renderer\media</Filter>
+    </ClInclude>
+    <ClInclude Include="..\renderer\media\webmediaplayer_params.h">
+      <Filter>..\renderer\media</Filter>
+    </ClInclude>
+    <ClInclude Include="..\renderer\media\media_stream_audio_renderer.h">
+      <Filter>..\renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="..\renderer\media\texttrack_impl.cc">
+      <Filter>..\renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="..\renderer\media\media_stream_client.h">
+      <Filter>..\renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="..\renderer\media\crypto\proxy_decryptor.cc">
+      <Filter>..\renderer\media\crypto</Filter>
+    </ClCompile>
+    <ClInclude Include="..\renderer\media\crypto\ppapi_decryptor.h">
+      <Filter>..\renderer\media\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\renderer\media\crypto\key_systems_info.h">
+      <Filter>..\renderer\media\crypto</Filter>
+    </ClInclude>
+    <ClCompile Include="..\renderer\media\crypto\key_systems.cc">
+      <Filter>..\renderer\media\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\renderer\media\crypto\ppapi_decryptor.cc">
+      <Filter>..\renderer\media\crypto</Filter>
+    </ClCompile>
+    <ClInclude Include="..\renderer\media\crypto\proxy_decryptor.h">
+      <Filter>..\renderer\media\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\renderer\media\crypto\key_systems.h">
+      <Filter>..\renderer\media\crypto</Filter>
+    </ClInclude>
+    <ClCompile Include="..\renderer\media\crypto\key_systems_info.cc">
+      <Filter>..\renderer\media\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\build\precompile.cc">
+      <Filter>..\..\build</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

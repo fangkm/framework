@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(bisonBeforeTargets)' == '' and '$(bisonAfterTargets)' == '' and '$(ConfigurationType)' != 'Makefile'">
+    <bisonBeforeTargets>Midl</bisonBeforeTargets>
+    <bisonAfterTargets>CustomBuild</bisonAfterTargets>
+  </PropertyGroup>
+  <PropertyGroup>
+    <bisonDependsOn Condition="'$(ConfigurationType)' != 'Makefile'">_SelectedFiles;$(bisonDependsOn)</bisonDependsOn>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <bison>
+      <CommandLineTemplate>call &quot;$(ProjectDir)..\..\..\..\third_party\cygwin\setup_env.bat&quot; &amp;&amp; set CYGWIN=nontsec&amp;&amp; set OUTDIR=$(OutDir)&amp;&amp; set INPUTPATH=%(FullPath) &amp;&amp; bash -c &quot;\&quot;python\&quot; \&quot;scripts/rule_bison.py\&quot; \&quot;`cygpath -m \\\&quot;${INPUTPATH}\\\&quot;`\&quot; \&quot;`cygpath -m \\\&quot;${OUTDIR}\\\&quot;`obj/global_intermediate/blink\&quot; \&quot;../../../../third_party/bison/bin/bison.exe\&quot;&quot;</CommandLineTemplate>
+      <Outputs>$(OutDir)obj\global_intermediate\blink\%(Filename).cpp;$(OutDir)obj\global_intermediate\blink\%(Filename).h</Outputs>
+      <ExecutionDescription>bison</ExecutionDescription>
+      <AdditionalDependencies></AdditionalDependencies>
+    </bison>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(gperfBeforeTargets)' == '' and '$(gperfAfterTargets)' == '' and '$(ConfigurationType)' != 'Makefile'">
+    <gperfBeforeTargets>Midl</gperfBeforeTargets>
+    <gperfAfterTargets>CustomBuild</gperfAfterTargets>
+  </PropertyGroup>
+  <PropertyGroup>
+    <gperfDependsOn Condition="'$(ConfigurationType)' != 'Makefile'">_SelectedFiles;$(gperfDependsOn)</gperfDependsOn>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <gperf>
+      <CommandLineTemplate>call ..\..\..\..\third_party\perl\perl\bin\perl.exe &quot;scripts\make-hash-tools.pl&quot; &quot;$(OutDir)obj\global_intermediate\blink&quot; &quot;%(FullPath)&quot; &quot;..\..\..\..\third_party\gperf\bin\gperf.exe&quot;</CommandLineTemplate>
+      <Outputs>$(OutDir)obj\global_intermediate\blink\%(Filename).cpp</Outputs>
+      <ExecutionDescription>gperf</ExecutionDescription>
+      <AdditionalDependencies>scripts\make-hash-tools.pl</AdditionalDependencies>
+    </gperf>
+  </ItemDefinitionGroup>
+</Project>

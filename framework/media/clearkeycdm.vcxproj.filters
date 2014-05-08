@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="cdm">
+      <UniqueIdentifier>{9D2557A0-D334-F1EB-617C-179BF2723096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cdm\ppapi">
+      <UniqueIdentifier>{15C4068B-59E6-A58B-C933-FCE0F2E45305}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="media.gyp"/>
+    <ClCompile Include="cdm\ppapi\ffmpeg_cdm_video_decoder.cc">
+      <Filter>cdm\ppapi</Filter>
+    </ClCompile>
+    <ClCompile Include="cdm\ppapi\cdm_video_decoder.cc">
+      <Filter>cdm\ppapi</Filter>
+    </ClCompile>
+    <ClInclude Include="cdm\ppapi\cdm_video_decoder.h">
+      <Filter>cdm\ppapi</Filter>
+    </ClInclude>
+    <ClCompile Include="cdm\ppapi\clear_key_cdm.cc">
+      <Filter>cdm\ppapi</Filter>
+    </ClCompile>
+    <ClInclude Include="cdm\ppapi\clear_key_cdm.h">
+      <Filter>cdm\ppapi</Filter>
+    </ClInclude>
+    <ClCompile Include="cdm\ppapi\ffmpeg_cdm_audio_decoder.cc">
+      <Filter>cdm\ppapi</Filter>
+    </ClCompile>
+    <ClInclude Include="cdm\ppapi\ffmpeg_cdm_video_decoder.h">
+      <Filter>cdm\ppapi</Filter>
+    </ClInclude>
+    <ClInclude Include="cdm\ppapi\ffmpeg_cdm_audio_decoder.h">
+      <Filter>cdm\ppapi</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

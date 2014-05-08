@@ -1,0 +1,1139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\webkit">
+      <UniqueIdentifier>{6BB4ACEE-077E-03F4-A9A9-4276B7FD2E30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\webkit\browser">
+      <UniqueIdentifier>{24B57E1E-8660-A3AB-E8EF-7828EB881EF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\webkit\browser\fileapi">
+      <UniqueIdentifier>{07449D65-155A-88FA-AE73-F56A090F72A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\webkit\browser\quota">
+      <UniqueIdentifier>{1BEA1856-1189-37CA-8138-9A45CAA7E310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\webkit\browser\database">
+      <UniqueIdentifier>{E9000E01-2688-FB2B-9D76-166920B23DB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\webkit\browser\appcache">
+      <UniqueIdentifier>{DCADB86C-725F-CB9F-1EF6-EA4E2520E817}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\webkit\browser\blob">
+      <UniqueIdentifier>{F0F1FA0B-1F02-1777-4B14-B2E007BD2FC3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\webkit\common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\webkit\common\fileapi">
+      <UniqueIdentifier>{07449D65-155A-88FA-AE73-F56A090F72A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\webkit\common\user_agent">
+      <UniqueIdentifier>{143DE9CA-F195-7084-0F58-8D060583A94D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\webkit\common\blob">
+      <UniqueIdentifier>{F0F1FA0B-1F02-1777-4B14-B2E007BD2FC3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\webkit\common\cursors">
+      <UniqueIdentifier>{9CDCFBAA-4970-52C9-41DF-FEFE993D87EC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\webkit\common\database">
+      <UniqueIdentifier>{E9000E01-2688-FB2B-9D76-166920B23DB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\webkit\child">
+      <UniqueIdentifier>{E3C40506-007B-C2D8-0589-97418FE2E754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\webkit\mocks">
+      <UniqueIdentifier>{C8337ED9-3658-F66C-A4F9-DDFE75BF009A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\webkit\glue">
+      <UniqueIdentifier>{9C0EBFC5-0C0B-8A11-B834-3199D9447A2E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\webkit\renderer">
+      <UniqueIdentifier>{AC4EF684-2900-10EA-3D11-A6DF0901358C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer">
+      <UniqueIdentifier>{AC4EF684-2900-10EA-3D11-A6DF0901358C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\pepper">
+      <UniqueIdentifier>{7CECF610-4A5A-AE56-D71A-A67BA22B6EB4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\media">
+      <UniqueIdentifier>{2699B576-DA2C-16EE-9C4A-F0CAB500D719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\media\android">
+      <UniqueIdentifier>{840B8E33-5F8C-45A0-5FD6-F07AA5687203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\media\android\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\media\crypto">
+      <UniqueIdentifier>{DFFB1441-5E91-CEAB-DBC4-604225CE8161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\dom_storage">
+      <UniqueIdentifier>{4C9B009B-E930-072B-1737-129280193BD7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\device_orientation">
+      <UniqueIdentifier>{7AFE5C68-7E78-200B-1609-6C0DBAEC6FC0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\gpu">
+      <UniqueIdentifier>{52E8B949-3E67-CAB7-33D9-3F972FED789B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\android">
+      <UniqueIdentifier>{840B8E33-5F8C-45A0-5FD6-F07AA5687203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\android\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\npapi">
+      <UniqueIdentifier>{2C243298-BAEA-FB05-9ADC-83FF12AC8DCF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="child">
+      <UniqueIdentifier>{E3C40506-007B-C2D8-0589-97418FE2E754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="child\fileapi">
+      <UniqueIdentifier>{07449D65-155A-88FA-AE73-F56A090F72A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="child\npapi">
+      <UniqueIdentifier>{2C243298-BAEA-FB05-9ADC-83FF12AC8DCF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="child\indexed_db">
+      <UniqueIdentifier>{CD5B68CC-F9E2-1FDB-9113-4322B2ACF39C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser">
+      <UniqueIdentifier>{24B57E1E-8660-A3AB-E8EF-7828EB881EF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\geolocation">
+      <UniqueIdentifier>{42EA6ED6-A702-DB69-AED0-ED93767C1994}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\geolocation\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\dom_storage">
+      <UniqueIdentifier>{4C9B009B-E930-072B-1737-129280193BD7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\web_contents">
+      <UniqueIdentifier>{20151B4E-11BF-6CF8-1021-3A1D55DA2F1A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\web_contents\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\web_contents\aura">
+      <UniqueIdentifier>{309EC8FE-39D0-9538-6130-D86406AE327E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\gamepad">
+      <UniqueIdentifier>{930DED89-AB29-FBA2-2E5E-CDFDD19A7E73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\fileapi">
+      <UniqueIdentifier>{07449D65-155A-88FA-AE73-F56A090F72A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\media">
+      <UniqueIdentifier>{2699B576-DA2C-16EE-9C4A-F0CAB500D719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\appcache">
+      <UniqueIdentifier>{DCADB86C-725F-CB9F-1EF6-EA4E2520E817}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\accessibility">
+      <UniqueIdentifier>{873DE697-7E51-06CB-5ED2-F4A475CEFD57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\accessibility\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\indexed_db">
+      <UniqueIdentifier>{CD5B68CC-F9E2-1FDB-9113-4322B2ACF39C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\indexed_db\leveldb">
+      <UniqueIdentifier>{89BE37D3-9CA3-D9EE-D5C0-7515BE250C8A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\loader">
+      <UniqueIdentifier>{3E8AF183-CF37-3672-A18D-21E019961B7A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ssl">
+      <UniqueIdentifier>{9619347D-2389-BF68-D54C-476A14B10965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\device_orientation">
+      <UniqueIdentifier>{7AFE5C68-7E78-200B-1609-6C0DBAEC6FC0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\device_orientation\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\speech">
+      <UniqueIdentifier>{6B7E6414-F041-7B74-8A68-78B9AFDFE9E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\speech\endpointer">
+      <UniqueIdentifier>{0C35030F-A698-C803-21C0-7ED9957A346D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\webui">
+      <UniqueIdentifier>{8F834895-4F0E-737B-F9E7-D6D40E9A436B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\tracing">
+      <UniqueIdentifier>{CE08FC7C-88C2-852D-9904-CEFED4CA8C0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\download">
+      <UniqueIdentifier>{E29388DC-1A17-286D-EDEC-2546E3BEFA9A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\download\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\streams">
+      <UniqueIdentifier>{AD09598D-D587-D3C9-E5BF-910698C78B85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\devtools">
+      <UniqueIdentifier>{58F63217-69E6-51D7-8CFA-62F622D6CE5C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\renderer_host">
+      <UniqueIdentifier>{6A2FF98D-8941-B591-585B-76585C81DF84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\renderer_host\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\renderer_host\media">
+      <UniqueIdentifier>{2699B576-DA2C-16EE-9C4A-F0CAB500D719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\renderer_host\pepper">
+      <UniqueIdentifier>{7CECF610-4A5A-AE56-D71A-A67BA22B6EB4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\renderer_host\p2p">
+      <UniqueIdentifier>{8096E04D-D00E-DEF4-9C16-7F4A4E28C656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\net">
+      <UniqueIdentifier>{1F653D5C-3085-E5B1-C9CA-3B1D0CF99BB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\gpu">
+      <UniqueIdentifier>{52E8B949-3E67-CAB7-33D9-3F972FED789B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\dom_storage">
+      <UniqueIdentifier>{4C9B009B-E930-072B-1737-129280193BD7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\indexed_db">
+      <UniqueIdentifier>{CD5B68CC-F9E2-1FDB-9113-4322B2ACF39C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\mac">
+      <UniqueIdentifier>{DDBFF7CF-DBCF-B2FC-793A-DB701B563E8D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\mac\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\gpu">
+      <UniqueIdentifier>{52E8B949-3E67-CAB7-33D9-3F972FED789B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\input">
+      <UniqueIdentifier>{2F6C04D2-C90B-4FD0-8BF5-B540F7C337DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\android">
+      <UniqueIdentifier>{840B8E33-5F8C-45A0-5FD6-F07AA5687203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\android\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="content.gyp"/>
+    <ClCompile Include="..\webkit\browser\fileapi\obfuscated_file_util_unittest.cc">
+      <Filter>..\webkit\browser\fileapi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\webkit\browser\fileapi\async_file_test_helper.h">
+      <Filter>..\webkit\browser\fileapi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\webkit\browser\fileapi\file_system_url_unittest.cc">
+      <Filter>..\webkit\browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\fileapi\copy_or_move_file_validator_unittest.cc">
+      <Filter>..\webkit\browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\fileapi\local_file_stream_writer_unittest.cc">
+      <Filter>..\webkit\browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\fileapi\file_system_usage_cache_unittest.cc">
+      <Filter>..\webkit\browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\fileapi\isolated_file_util_unittest.cc">
+      <Filter>..\webkit\browser\fileapi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\webkit\browser\fileapi\mock_file_system_context.h">
+      <Filter>..\webkit\browser\fileapi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\webkit\browser\fileapi\file_system_dir_url_request_job_unittest.cc">
+      <Filter>..\webkit\browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\fileapi\file_system_file_stream_reader_unittest.cc">
+      <Filter>..\webkit\browser\fileapi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\webkit\browser\fileapi\mock_file_change_observer.h">
+      <Filter>..\webkit\browser\fileapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\webkit\browser\fileapi\sandbox_database_test_helper.h">
+      <Filter>..\webkit\browser\fileapi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\webkit\browser\fileapi\file_system_operation_impl_unittest.cc">
+      <Filter>..\webkit\browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\fileapi\file_system_operation_runner_unittest.cc">
+      <Filter>..\webkit\browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\fileapi\file_writer_delegate_unittest.cc">
+      <Filter>..\webkit\browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\fileapi\external_mount_points_unittest.cc">
+      <Filter>..\webkit\browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\fileapi\local_file_util_unittest.cc">
+      <Filter>..\webkit\browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\fileapi\sandbox_database_test_helper.cc">
+      <Filter>..\webkit\browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\fileapi\mock_file_system_options.cc">
+      <Filter>..\webkit\browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\fileapi\file_system_url_request_job_unittest.cc">
+      <Filter>..\webkit\browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\fileapi\sandbox_directory_database_unittest.cc">
+      <Filter>..\webkit\browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\fileapi\sandbox_isolated_origin_database_unittest.cc">
+      <Filter>..\webkit\browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\fileapi\sandbox_file_system_backend_delegate_unittest.cc">
+      <Filter>..\webkit\browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\fileapi\copy_or_move_operation_delegate_unittest.cc">
+      <Filter>..\webkit\browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\fileapi\sandbox_file_system_test_helper.cc">
+      <Filter>..\webkit\browser\fileapi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\webkit\browser\fileapi\mock_file_system_options.h">
+      <Filter>..\webkit\browser\fileapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\webkit\browser\fileapi\sandbox_file_system_test_helper.h">
+      <Filter>..\webkit\browser\fileapi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\webkit\browser\fileapi\timed_task_helper_unittest.cc">
+      <Filter>..\webkit\browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\fileapi\file_system_context_unittest.cc">
+      <Filter>..\webkit\browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\fileapi\native_file_util_unittest.cc">
+      <Filter>..\webkit\browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\fileapi\async_file_test_helper.cc">
+      <Filter>..\webkit\browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\fileapi\test_file_set.cc">
+      <Filter>..\webkit\browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\fileapi\mock_file_change_observer.cc">
+      <Filter>..\webkit\browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\fileapi\isolated_context_unittest.cc">
+      <Filter>..\webkit\browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\fileapi\file_system_operation_impl_write_unittest.cc">
+      <Filter>..\webkit\browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\fileapi\transient_file_util_unittest.cc">
+      <Filter>..\webkit\browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\fileapi\file_system_quota_client_unittest.cc">
+      <Filter>..\webkit\browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\fileapi\upload_file_system_file_element_reader_unittest.cc">
+      <Filter>..\webkit\browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\fileapi\sandbox_file_system_backend_unittest.cc">
+      <Filter>..\webkit\browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\fileapi\sandbox_origin_database_unittest.cc">
+      <Filter>..\webkit\browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\fileapi\mock_file_system_context.cc">
+      <Filter>..\webkit\browser\fileapi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\webkit\browser\fileapi\test_file_set.h">
+      <Filter>..\webkit\browser\fileapi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\webkit\browser\quota\mock_quota_manager_unittest.cc">
+      <Filter>..\webkit\browser\quota</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\quota\usage_tracker_unittest.cc">
+      <Filter>..\webkit\browser\quota</Filter>
+    </ClCompile>
+    <ClInclude Include="..\webkit\browser\quota\mock_storage_client.h">
+      <Filter>..\webkit\browser\quota</Filter>
+    </ClInclude>
+    <ClInclude Include="..\webkit\browser\quota\mock_special_storage_policy.h">
+      <Filter>..\webkit\browser\quota</Filter>
+    </ClInclude>
+    <ClCompile Include="..\webkit\browser\quota\mock_storage_client.cc">
+      <Filter>..\webkit\browser\quota</Filter>
+    </ClCompile>
+    <ClInclude Include="..\webkit\browser\quota\mock_quota_manager.h">
+      <Filter>..\webkit\browser\quota</Filter>
+    </ClInclude>
+    <ClCompile Include="..\webkit\browser\quota\mock_quota_manager.cc">
+      <Filter>..\webkit\browser\quota</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\quota\quota_temporary_storage_evictor_unittest.cc">
+      <Filter>..\webkit\browser\quota</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\quota\quota_manager_unittest.cc">
+      <Filter>..\webkit\browser\quota</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\quota\mock_special_storage_policy.cc">
+      <Filter>..\webkit\browser\quota</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\quota\quota_database_unittest.cc">
+      <Filter>..\webkit\browser\quota</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\database\databases_table_unittest.cc">
+      <Filter>..\webkit\browser\database</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\database\database_quota_client_unittest.cc">
+      <Filter>..\webkit\browser\database</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\database\database_util_unittest.cc">
+      <Filter>..\webkit\browser\database</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\database\database_tracker_unittest.cc">
+      <Filter>..\webkit\browser\database</Filter>
+    </ClCompile>
+    <ClInclude Include="..\webkit\browser\appcache\mock_appcache_policy.h">
+      <Filter>..\webkit\browser\appcache</Filter>
+    </ClInclude>
+    <ClCompile Include="..\webkit\browser\appcache\appcache_host_unittest.cc">
+      <Filter>..\webkit\browser\appcache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\appcache\appcache_response_unittest.cc">
+      <Filter>..\webkit\browser\appcache</Filter>
+    </ClCompile>
+    <ClInclude Include="..\webkit\browser\appcache\mock_appcache_storage.h">
+      <Filter>..\webkit\browser\appcache</Filter>
+    </ClInclude>
+    <ClCompile Include="..\webkit\browser\appcache\manifest_parser_unittest.cc">
+      <Filter>..\webkit\browser\appcache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\appcache\appcache_update_job_unittest.cc">
+      <Filter>..\webkit\browser\appcache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\appcache\appcache_storage_impl_unittest.cc">
+      <Filter>..\webkit\browser\appcache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\appcache\appcache_storage_unittest.cc">
+      <Filter>..\webkit\browser\appcache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\appcache\mock_appcache_policy.cc">
+      <Filter>..\webkit\browser\appcache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\appcache\appcache_quota_client_unittest.cc">
+      <Filter>..\webkit\browser\appcache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\appcache\mock_appcache_service.cc">
+      <Filter>..\webkit\browser\appcache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\appcache\appcache_service_unittest.cc">
+      <Filter>..\webkit\browser\appcache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\appcache\appcache_url_request_job_unittest.cc">
+      <Filter>..\webkit\browser\appcache</Filter>
+    </ClCompile>
+    <ClInclude Include="..\webkit\browser\appcache\mock_appcache_service.h">
+      <Filter>..\webkit\browser\appcache</Filter>
+    </ClInclude>
+    <ClCompile Include="..\webkit\browser\appcache\appcache_group_unittest.cc">
+      <Filter>..\webkit\browser\appcache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\appcache\mock_appcache_storage_unittest.cc">
+      <Filter>..\webkit\browser\appcache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\appcache\appcache_database_unittest.cc">
+      <Filter>..\webkit\browser\appcache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\appcache\mock_appcache_storage.cc">
+      <Filter>..\webkit\browser\appcache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\appcache\appcache_request_handler_unittest.cc">
+      <Filter>..\webkit\browser\appcache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\appcache\appcache_unittest.cc">
+      <Filter>..\webkit\browser\appcache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\blob\local_file_stream_reader_unittest.cc">
+      <Filter>..\webkit\browser\blob</Filter>
+    </ClCompile>
+    <ClInclude Include="..\webkit\browser\blob\mock_blob_url_request_context.h">
+      <Filter>..\webkit\browser\blob</Filter>
+    </ClInclude>
+    <ClCompile Include="..\webkit\browser\blob\blob_url_request_job_unittest.cc">
+      <Filter>..\webkit\browser\blob</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\blob\blob_storage_context_unittest.cc">
+      <Filter>..\webkit\browser\blob</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\browser\blob\mock_blob_url_request_context.cc">
+      <Filter>..\webkit\browser\blob</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\common\fileapi\file_system_util_unittest.cc">
+      <Filter>..\webkit\common\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\common\user_agent\user_agent_unittest.cc">
+      <Filter>..\webkit\common\user_agent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\common\blob\shareable_file_reference_unittest.cc">
+      <Filter>..\webkit\common\blob</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\common\cursors\webcursor_unittest.cc">
+      <Filter>..\webkit\common\cursors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\common\database\database_connections_unittest.cc">
+      <Filter>..\webkit\common\database</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\common\database\database_identifier_unittest.cc">
+      <Filter>..\webkit\common\database</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\child\multipart_response_delegate_unittest.cc">
+      <Filter>..\webkit\child</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\child\worker_task_runner_unittest.cc">
+      <Filter>..\webkit\child</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\child\touch_fling_gesture_curve_unittest.cc">
+      <Filter>..\webkit\child</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\mocks\mock_weburlloader.cc">
+      <Filter>..\webkit\mocks</Filter>
+    </ClCompile>
+    <ClInclude Include="..\webkit\mocks\mock_weburlloader.h">
+      <Filter>..\webkit\mocks</Filter>
+    </ClInclude>
+    <ClCompile Include="..\webkit\glue\webkit_glue_unittest.cc">
+      <Filter>..\webkit\glue</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webkit\renderer\cpp_variant_unittest.cc">
+      <Filter>..\webkit\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\v8_value_converter_impl_unittest.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\render_thread_impl_unittest.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\bmp_image_decoder_unittest.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\skia_benchmarking_extension_unittest.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\render_view_impl_unittest.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\active_notification_tracker_unittest.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\date_time_formatter_unittest.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\disambiguation_popup_helper_unittest.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\ico_image_decoder_unittest.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\paint_aggregator_unittest.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\webcrypto_impl_unittest.cc">
+      <Filter>renderer\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\pepper\pepper_broker_unittest.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\pepper\host_var_tracker_unittest.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\pepper\quota_file_io_unittest.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\pepper\v8_var_converter_unittest.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\pepper\mock_resource.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\media_stream_dispatcher_unittest.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\rtc_peer_connection_handler_unittest.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\media_stream_dependency_factory_unittest.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\video_capture_message_filter_unittest.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\test_response_generator.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\test_response_generator.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\video_source_handler_unittest.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\audio_renderer_mixer_manager_unittest.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\video_capture_impl_unittest.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\webrtc_identity_service_unittest.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\buffered_data_source_unittest.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\video_destination_handler_unittest.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\media_stream_impl_unittest.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\webrtc_audio_device_unittest.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\cache_util_unittest.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\webaudiosourceprovider_impl_unittest.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\webrtc_local_audio_track_unittest.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\rtc_video_decoder_unittest.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\audio_message_filter_unittest.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\buffered_resource_loader_unittest.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\android\media_info_loader_unittest.cc">
+      <Filter>renderer\media\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\crypto\key_systems_unittest.cc">
+      <Filter>renderer\media\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\dom_storage\dom_storage_cached_area_unittest.cc">
+      <Filter>renderer\dom_storage</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\device_orientation\device_motion_event_pump_unittest.cc">
+      <Filter>renderer\device_orientation</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\device_orientation\device_orientation_event_pump_unittest.cc">
+      <Filter>renderer\device_orientation</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\gpu\input_handler_proxy_unittest.cc">
+      <Filter>renderer\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\gpu\input_event_filter_unittest.cc">
+      <Filter>renderer\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\android\email_detector_unittest.cc">
+      <Filter>renderer\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\android\phone_number_detector_unittest.cc">
+      <Filter>renderer\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\npapi\webplugin_impl_unittest.cc">
+      <Filter>renderer\npapi</Filter>
+    </ClCompile>
+    <ClCompile Include="child\resource_dispatcher_unittest.cc">
+      <Filter>child</Filter>
+    </ClCompile>
+    <ClCompile Include="child\site_isolation_policy_unittest.cc">
+      <Filter>child</Filter>
+    </ClCompile>
+    <ClCompile Include="child\power_monitor_broadcast_source_unittest.cc">
+      <Filter>child</Filter>
+    </ClCompile>
+    <ClCompile Include="child\fileapi\webfilewriter_base_unittest.cc">
+      <Filter>child\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="child\npapi\plugin_lib_unittest.cc">
+      <Filter>child\npapi</Filter>
+    </ClCompile>
+    <ClCompile Include="child\indexed_db\proxy_webidbcursor_impl_unittest.cc">
+      <Filter>child\indexed_db</Filter>
+    </ClCompile>
+    <ClCompile Include="child\indexed_db\indexed_db_dispatcher_unittest.cc">
+      <Filter>child\indexed_db</Filter>
+    </ClCompile>
+    <ClCompile Include="test\image_decoder_test.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\image_decoder_test.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\run_all_unittests.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\resolve_proxy_msg_helper_unittest.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\browser_url_handler_impl_unittest.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\site_instance_impl_unittest.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\browser_thread_unittest.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\storage_partition_impl_map_unittest.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\notification_service_impl_unittest.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\byte_stream_unittest.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\child_process_security_policy_unittest.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\power_monitor_message_broadcaster_unittest.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\storage_partition_impl_unittest.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\startup_task_runner_unittest.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\system_message_window_win_unittest.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\host_zoom_map_impl_unittest.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\mach_broker_mac_unittest.cc">
+      <Filter>browser\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\plugin_loader_posix_unittest.cc">
+      <Filter>browser\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\geolocation\network_location_provider_unittest.cc">
+      <Filter>browser\geolocation</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\geolocation\geolocation_provider_unittest.cc">
+      <Filter>browser\geolocation</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\geolocation\wifi_data_provider_unittest_win.cc">
+      <Filter>browser\geolocation</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\geolocation\location_arbitrator_impl_unittest.cc">
+      <Filter>browser\geolocation</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\geolocation\wifi_data_provider_common_unittest.cc">
+      <Filter>browser\geolocation</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\geolocation\wifi_data_provider_linux_unittest.cc">
+      <Filter>browser\geolocation\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\geolocation\wifi_data_provider_chromeos_unittest.cc">
+      <Filter>browser\geolocation\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\geolocation\gps_location_provider_unittest_linux.cc">
+      <Filter>browser\geolocation\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\dom_storage\dom_storage_area_unittest.cc">
+      <Filter>browser\dom_storage</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\dom_storage\session_storage_database_unittest.cc">
+      <Filter>browser\dom_storage</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\dom_storage\dom_storage_database_unittest.cc">
+      <Filter>browser\dom_storage</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\dom_storage\dom_storage_context_impl_unittest.cc">
+      <Filter>browser\dom_storage</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\web_contents\web_contents_delegate_unittest.cc">
+      <Filter>browser\web_contents</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\web_contents\web_contents_impl_unittest.cc">
+      <Filter>browser\web_contents</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\web_contents\navigation_entry_impl_unittest.cc">
+      <Filter>browser\web_contents</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\web_contents\render_view_host_manager_unittest.cc">
+      <Filter>browser\web_contents</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\web_contents\web_contents_user_data_unittest.cc">
+      <Filter>browser\web_contents</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\web_contents\navigation_controller_impl_unittest.cc">
+      <Filter>browser\web_contents</Filter>
+    </ClCompile>
+    <None Include="browser\web_contents\web_drag_dest_mac_unittest.mm">
+      <Filter>browser\web_contents\_excluded_files</Filter>
+    </None>
+    <None Include="browser\web_contents\web_contents_view_mac_unittest.mm">
+      <Filter>browser\web_contents\_excluded_files</Filter>
+    </None>
+    <None Include="browser\web_contents\web_drag_source_mac_unittest.mm">
+      <Filter>browser\web_contents\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="browser\web_contents\aura\window_slider_unittest.cc">
+      <Filter>browser\web_contents\aura</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\gamepad\gamepad_test_helpers.h">
+      <Filter>browser\gamepad</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\gamepad\gamepad_provider_unittest.cc">
+      <Filter>browser\gamepad</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\gamepad\gamepad_test_helpers.cc">
+      <Filter>browser\gamepad</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\fileapi\fileapi_message_filter_unittest.cc">
+      <Filter>browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\media\webrtc_identity_store_unittest.cc">
+      <Filter>browser\media</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\media\webrtc_internals_unittest.cc">
+      <Filter>browser\media</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\media\media_internals_unittest.cc">
+      <Filter>browser\media</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\appcache\chrome_appcache_service_unittest.cc">
+      <Filter>browser\appcache</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\accessibility\browser_accessibility_manager_unittest.cc">
+      <Filter>browser\accessibility</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\accessibility\browser_accessibility_win_unittest.cc">
+      <Filter>browser\accessibility\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="browser\accessibility\browser_accessibility_mac_unittest.mm">
+      <Filter>browser\accessibility\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="browser\indexed_db\indexed_db_fake_backing_store.cc">
+      <Filter>browser\indexed_db</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\indexed_db\indexed_db_unittest.cc">
+      <Filter>browser\indexed_db</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\indexed_db\indexed_db_fake_backing_store.h">
+      <Filter>browser\indexed_db</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\indexed_db\indexed_db_leveldb_coding_unittest.cc">
+      <Filter>browser\indexed_db</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\indexed_db\indexed_db_database_unittest.cc">
+      <Filter>browser\indexed_db</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\indexed_db\indexed_db_quota_client_unittest.cc">
+      <Filter>browser\indexed_db</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\indexed_db\list_set_unittest.cc">
+      <Filter>browser\indexed_db</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\indexed_db\indexed_db_backing_store_unittest.cc">
+      <Filter>browser\indexed_db</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\indexed_db\indexed_db_cleanup_on_io_error_unittest.cc">
+      <Filter>browser\indexed_db</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\indexed_db\leveldb\leveldb_unittest.cc">
+      <Filter>browser\indexed_db\leveldb</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\loader\resource_loader_unittest.cc">
+      <Filter>browser\loader</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\loader\resource_buffer_unittest.cc">
+      <Filter>browser\loader</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\loader\resource_scheduler_unittest.cc">
+      <Filter>browser\loader</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\loader\offline_policy_unittest.cc">
+      <Filter>browser\loader</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\loader\resource_dispatcher_host_unittest.cc">
+      <Filter>browser\loader</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\loader\upload_data_stream_builder_unittest.cc">
+      <Filter>browser\loader</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ssl\ssl_host_state_unittest.cc">
+      <Filter>browser\ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\device_orientation\data_fetcher_shared_memory_base_unittest.cc">
+      <Filter>browser\device_orientation</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\device_orientation\provider_unittest.cc">
+      <Filter>browser\device_orientation</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\device_orientation\data_fetcher_impl_android_unittest.cc">
+      <Filter>browser\device_orientation\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\speech\google_streaming_remote_engine_unittest.cc">
+      <Filter>browser\speech</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\speech\google_one_shot_remote_engine_unittest.cc">
+      <Filter>browser\speech</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\speech\chunked_byte_buffer_unittest.cc">
+      <Filter>browser\speech</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\speech\speech_recognizer_impl_unittest.cc">
+      <Filter>browser\speech</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\speech\endpointer\endpointer_unittest.cc">
+      <Filter>browser\speech\endpointer</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\webui\web_ui_message_handler_unittest.cc">
+      <Filter>browser\webui</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\webui\web_ui_data_source_unittest.cc">
+      <Filter>browser\webui</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\tracing\trace_subscriber_stdio_unittest.cc">
+      <Filter>browser\tracing</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\download\download_manager_impl_unittest.cc">
+      <Filter>browser\download</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\download\base_file_unittest.cc">
+      <Filter>browser\download</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\download\download_item_impl_unittest.cc">
+      <Filter>browser\download</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\download\rate_estimator_unittest.cc">
+      <Filter>browser\download</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\download\save_package_unittest.cc">
+      <Filter>browser\download</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\download\download_file_unittest.cc">
+      <Filter>browser\download</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\download\file_metadata_unittest_linux.cc">
+      <Filter>browser\download\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\streams\stream_url_request_job_unittest.cc">
+      <Filter>browser\streams</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\streams\stream_unittest.cc">
+      <Filter>browser\streams</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\devtools\devtools_http_handler_unittest.cc">
+      <Filter>browser\devtools</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\devtools\devtools_manager_unittest.cc">
+      <Filter>browser\devtools</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\render_widget_host_view_aura_unittest.cc">
+      <Filter>browser\renderer_host</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\render_widget_host_unittest.cc">
+      <Filter>browser\renderer_host</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\render_view_host_unittest.cc">
+      <Filter>browser\renderer_host</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\web_input_event_aura_unittest.cc">
+      <Filter>browser\renderer_host</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\synthetic_gesture_controller_unittest.cc">
+      <Filter>browser\renderer_host</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\render_widget_host_view_guest_unittest.cc">
+      <Filter>browser\renderer_host</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\gtk_key_bindings_handler_unittest.cc">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="browser\renderer_host\text_input_client_mac_unittest.mm">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </None>
+    <None Include="browser\renderer_host\render_widget_host_view_mac_unittest.mm">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </None>
+    <None Include="browser\renderer_host\render_widget_host_view_mac_editcommand_helper_unittest.mm">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="browser\renderer_host\compositing_iosurface_transformer_mac_unittest.cc">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\media\video_capture_oracle_unittest.cc">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\media\video_capture_controller_unittest.cc">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\media\audio_renderer_host_unittest.cc">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\media\video_capture_host_unittest.cc">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\media\video_capture_buffer_pool_unittest.cc">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\media\video_capture_manager_unittest.cc">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\media\media_stream_ui_proxy_unittest.cc">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\media\desktop_capture_device_unittest.cc">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\media\webrtc_identity_service_host_unittest.cc">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\media\media_stream_manager_unittest.cc">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\media\audio_mirroring_manager_unittest.cc">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\media\web_contents_audio_input_stream_unittest.cc">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\media\device_request_message_filter_unittest.cc">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\media\audio_input_device_manager_unittest.cc">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\media\media_stream_dispatcher_host_unittest.cc">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\media\web_contents_video_capture_device_unittest.cc">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\pepper\browser_ppapi_host_test.h">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\pepper\pepper_gamepad_host_unittest.cc">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\pepper\pepper_printing_host_unittest.cc">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\pepper\browser_ppapi_host_test.cc">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\p2p\socket_host_test_utils.h">
+      <Filter>browser\renderer_host\p2p</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\p2p\socket_host_tcp_unittest.cc">
+      <Filter>browser\renderer_host\p2p</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\p2p\socket_host_udp_unittest.cc">
+      <Filter>browser\renderer_host\p2p</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\p2p\socket_host_tcp_server_unittest.cc">
+      <Filter>browser\renderer_host\p2p</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\net\sqlite_persistent_cookie_store_unittest.cc">
+      <Filter>browser\net</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\gpu\shader_disk_cache_unittest.cc">
+      <Filter>browser\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="common\webplugininfo_unittest.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\page_state_serialization_unittest.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\sandbox_mac_unittest_helper.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\common_param_traits_unittest.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\plugin_list_unittest.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\inter_process_time_ticks_converter_unittest.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\cc_messages_unittest.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\page_zoom_unittest.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <None Include="common\sandbox_mac_diraccess_unittest.mm">
+      <Filter>common\_excluded_files</Filter>
+    </None>
+    <None Include="common\sandbox_mac_unittest_helper.mm">
+      <Filter>common\_excluded_files</Filter>
+    </None>
+    <None Include="common\sandbox_mac_system_access_unittest.mm">
+      <Filter>common\_excluded_files</Filter>
+    </None>
+    <None Include="common\sandbox_mac_fontloading_unittest.mm">
+      <Filter>common\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="common\dom_storage\dom_storage_map_unittest.cc">
+      <Filter>common\dom_storage</Filter>
+    </ClCompile>
+    <ClCompile Include="common\indexed_db\indexed_db_key_unittest.cc">
+      <Filter>common\indexed_db</Filter>
+    </ClCompile>
+    <None Include="common\mac\font_descriptor_unittest.mm">
+      <Filter>common\mac\_excluded_files</Filter>
+    </None>
+    <None Include="common\mac\attributed_string_coder_unittest.mm">
+      <Filter>common\mac\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="common\gpu\gpu_memory_manager_unittest.cc">
+      <Filter>common\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="common\input\input_param_traits_unittest.cc">
+      <Filter>common\input</Filter>
+    </ClCompile>
+    <ClCompile Include="common\android\address_parser_unittest.cc">
+      <Filter>common\android\_excluded_files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

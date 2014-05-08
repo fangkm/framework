@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="auto_login_parser">
+      <UniqueIdentifier>{C5E38C46-DB36-01B3-6BAB-975043C50EC2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="webdata">
+      <UniqueIdentifier>{CBCC3417-9EC5-8AB4-2EBE-E1E5B86531E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="webdata\encryptor">
+      <UniqueIdentifier>{54C7F096-4D65-29C9-A3D0-33B93A198B30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="webdata\encryptor\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser_context_keyed_service">
+      <UniqueIdentifier>{F32C27F7-D790-C461-529D-AE31086A3878}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sessions">
+      <UniqueIdentifier>{388776B8-C261-22CD-D2D7-86D28DA25D1B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="variations">
+      <UniqueIdentifier>{312BF719-AC7C-65D2-2D9F-440AE49FCCF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="visitedlink">
+      <UniqueIdentifier>{F66252F7-AAC1-7B83-C4FB-8867BEEAC786}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="visitedlink\test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="web_modal">
+      <UniqueIdentifier>{51556ACC-3E1D-671A-4620-F75411AE546D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="policy">
+      <UniqueIdentifier>{8729FB2E-72E8-C0BD-1029-A6C0EED6E0CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="policy\core">
+      <UniqueIdentifier>{16178836-FF57-2363-AA2B-8BAC1DC00026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="policy\core\common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="autofill">
+      <UniqueIdentifier>{94F60235-EBD6-403C-1911-BD15E9B6C8E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="autofill\core">
+      <UniqueIdentifier>{16178836-FF57-2363-AA2B-8BAC1DC00026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="autofill\core\common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json_schema">
+      <UniqueIdentifier>{AD663E28-5735-DAB7-E7CA-49C9A5D0D8C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="navigation_interception">
+      <UniqueIdentifier>{49E63454-EE4E-E445-11EA-E75A7286D7C4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="components.gyp"/>
+    <ClCompile Include="auto_login_parser\auto_login_parser_unittest.cc">
+      <Filter>auto_login_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="webdata\encryptor\encryptor_unittest.cc">
+      <Filter>webdata\encryptor</Filter>
+    </ClCompile>
+    <ClCompile Include="webdata\encryptor\encryptor_password_mac_unittest.cc">
+      <Filter>webdata\encryptor\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser_context_keyed_service\dependency_graph_unittest.cc">
+      <Filter>browser_context_keyed_service</Filter>
+    </ClCompile>
+    <ClCompile Include="browser_context_keyed_service\browser_context_dependency_manager_unittest.cc">
+      <Filter>browser_context_keyed_service</Filter>
+    </ClCompile>
+    <ClCompile Include="sessions\serialized_navigation_entry_unittest.cc">
+      <Filter>sessions</Filter>
+    </ClCompile>
+    <ClCompile Include="variations\metrics_util_unittest.cc">
+      <Filter>variations</Filter>
+    </ClCompile>
+    <ClCompile Include="variations\entropy_provider_unittest.cc">
+      <Filter>variations</Filter>
+    </ClCompile>
+    <ClCompile Include="variations\variations_seed_processor_unittest.cc">
+      <Filter>variations</Filter>
+    </ClCompile>
+    <ClCompile Include="variations\variations_associated_data_unittest.cc">
+      <Filter>variations</Filter>
+    </ClCompile>
+    <ClCompile Include="visitedlink\test\visitedlink_unittest.cc">
+      <Filter>visitedlink\test</Filter>
+    </ClCompile>
+    <ClCompile Include="web_modal\web_contents_modal_dialog_manager_unittest.cc">
+      <Filter>web_modal</Filter>
+    </ClCompile>
+    <ClCompile Include="policy\core\common\policy_schema_unittest.cc">
+      <Filter>policy\core\common</Filter>
+    </ClCompile>
+    <ClCompile Include="autofill\core\common\form_data_unittest.cc">
+      <Filter>autofill\core\common</Filter>
+    </ClCompile>
+    <ClCompile Include="autofill\core\common\form_field_data_unittest.cc">
+      <Filter>autofill\core\common</Filter>
+    </ClCompile>
+    <ClCompile Include="json_schema\json_schema_validator_unittest_base.cc">
+      <Filter>json_schema</Filter>
+    </ClCompile>
+    <ClInclude Include="json_schema\json_schema_validator_unittest_base.h">
+      <Filter>json_schema</Filter>
+    </ClInclude>
+    <ClCompile Include="json_schema\json_schema_validator_unittest.cc">
+      <Filter>json_schema</Filter>
+    </ClCompile>
+    <ClCompile Include="navigation_interception\intercept_navigation_resource_throttle_unittest.cc">
+      <Filter>navigation_interception</Filter>
+    </ClCompile>
+    <ClCompile Include="test\run_all_unittests.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

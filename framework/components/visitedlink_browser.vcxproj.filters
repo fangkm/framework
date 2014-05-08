@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="visitedlink">
+      <UniqueIdentifier>{F66252F7-AAC1-7B83-C4FB-8867BEEAC786}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="visitedlink\browser">
+      <UniqueIdentifier>{24B57E1E-8660-A3AB-E8EF-7828EB881EF4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="components.gyp"/>
+    <ClInclude Include="visitedlink\browser\visitedlink_master.h">
+      <Filter>visitedlink\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="visitedlink\browser\visitedlink_event_listener.cc">
+      <Filter>visitedlink\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="visitedlink\browser\visitedlink_event_listener.h">
+      <Filter>visitedlink\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="visitedlink\browser\visitedlink_delegate.h">
+      <Filter>visitedlink\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="visitedlink\browser\visitedlink_master.cc">
+      <Filter>visitedlink\browser</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

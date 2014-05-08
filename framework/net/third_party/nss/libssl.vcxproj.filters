@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ssl">
+      <UniqueIdentifier>{9619347D-2389-BF68-D54C-476A14B10965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ssl\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ssl\bodge">
+      <UniqueIdentifier>{50A112EC-D12E-3BEA-F2C6-2BB319BE2DE9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ssl\bodge\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ssl.gyp"/>
+    <ClInclude Include="ssl\sslt.h">
+      <Filter>ssl</Filter>
+    </ClInclude>
+    <ClCompile Include="ssl\sslsecur.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="ssl\ssl3gthr.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="ssl\sslauth.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="ssl\prelib.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="ssl\sslcon.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="ssl\ssldef.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClInclude Include="ssl\sslimpl.h">
+      <Filter>ssl</Filter>
+    </ClInclude>
+    <ClCompile Include="ssl\derive.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="ssl\sslenum.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="ssl\dtlscon.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClInclude Include="ssl\SSLerrs.h">
+      <Filter>ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="ssl\win32err.h">
+      <Filter>ssl</Filter>
+    </ClInclude>
+    <ClCompile Include="ssl\sslerrstrs.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="ssl\ssl3ext.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="ssl\authcert.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="ssl\sslerr.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClInclude Include="ssl\preenc.h">
+      <Filter>ssl</Filter>
+    </ClInclude>
+    <ClCompile Include="ssl\sslinit.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="ssl\sslnonce.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="ssl\sslsnce.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="ssl\win32err.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="ssl\ssl3con.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="ssl\ssltrace.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="ssl\sslplatf.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="ssl\sslreveal.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClInclude Include="ssl\ssl3prot.h">
+      <Filter>ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="ssl\sslproto.h">
+      <Filter>ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="ssl\sslerr.h">
+      <Filter>ssl</Filter>
+    </ClInclude>
+    <ClCompile Include="ssl\sslsock.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="ssl\cmpcert.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClInclude Include="ssl\sslmutex.h">
+      <Filter>ssl</Filter>
+    </ClInclude>
+    <ClCompile Include="ssl\sslgathr.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="ssl\ssl3ecc.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="ssl\sslver.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="ssl\sslinfo.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClInclude Include="ssl\ssl.h">
+      <Filter>ssl</Filter>
+    </ClInclude>
+    <ClCompile Include="ssl\sslmutex.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClInclude Include="ssl\os2_err.h">
+      <Filter>ssl\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="ssl\unix_err.h">
+      <Filter>ssl\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="ssl\os2_err.c">
+      <Filter>ssl\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="ssl\unix_err.c">
+      <Filter>ssl\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="ssl\bodge\secitem_array.c">
+      <Filter>ssl\bodge\_excluded_files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1 @@
+link ../radeon/radeon_queryobj.h

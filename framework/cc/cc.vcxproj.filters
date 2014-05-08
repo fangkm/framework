@@ -1,0 +1,1154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="layers">
+      <UniqueIdentifier>{EAFA666A-961B-FA79-BC53-06BA70E47686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="quads">
+      <UniqueIdentifier>{FE023935-9975-C730-78B0-4AE1E6DAFC83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="trees">
+      <UniqueIdentifier>{6E2ECA78-269C-E38B-35F5-7DC0EB12DA6C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="animation">
+      <UniqueIdentifier>{32754A8C-EDC0-67D4-C2EE-20B9F5EB0ADB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scheduler">
+      <UniqueIdentifier>{5C63CE33-9BFC-8892-3622-B59660DA64E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input">
+      <UniqueIdentifier>{2F6C04D2-C90B-4FD0-8BF5-B540F7C337DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="debug">
+      <UniqueIdentifier>{FBAE646B-1E91-2C58-956B-A42D67D8DA0E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="output">
+      <UniqueIdentifier>{1B773BFF-A815-A9FA-3A3C-55AAE0C14CAB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{DBBAC0A6-BB0A-CA51-45CC-DA4574B671E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{02993FF4-6DD0-55B6-6A36-E99A964FF863}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cc.gyp"/>
+    <ClCompile Include="layers\render_surface_impl.cc">
+      <Filter>layers</Filter>
+    </ClCompile>
+    <ClInclude Include="layers\painted_scrollbar_layer.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClCompile Include="layers\picture_image_layer.cc">
+      <Filter>layers</Filter>
+    </ClCompile>
+    <ClInclude Include="layers\layer.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClCompile Include="layers\layer_lists.cc">
+      <Filter>layers</Filter>
+    </ClCompile>
+    <ClCompile Include="layers\delegated_renderer_layer_impl.cc">
+      <Filter>layers</Filter>
+    </ClCompile>
+    <ClCompile Include="layers\scrollbar_layer_impl_base.cc">
+      <Filter>layers</Filter>
+    </ClCompile>
+    <ClInclude Include="layers\solid_color_scrollbar_layer.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\video_frame_provider_client_impl.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClCompile Include="layers\solid_color_layer_impl.cc">
+      <Filter>layers</Filter>
+    </ClCompile>
+    <ClInclude Include="layers\compositing_reasons.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\picture_image_layer.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\delegated_renderer_layer.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\draw_properties.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\layer_impl.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClCompile Include="layers\content_layer.cc">
+      <Filter>layers</Filter>
+    </ClCompile>
+    <ClInclude Include="layers\delegated_renderer_layer_client.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClCompile Include="layers\render_surface.cc">
+      <Filter>layers</Filter>
+    </ClCompile>
+    <ClInclude Include="layers\io_surface_layer_impl.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClCompile Include="layers\video_layer.cc">
+      <Filter>layers</Filter>
+    </ClCompile>
+    <ClCompile Include="layers\video_layer_impl.cc">
+      <Filter>layers</Filter>
+    </ClCompile>
+    <ClCompile Include="layers\tiled_layer.cc">
+      <Filter>layers</Filter>
+    </ClCompile>
+    <ClCompile Include="layers\io_surface_layer_impl.cc">
+      <Filter>layers</Filter>
+    </ClCompile>
+    <ClInclude Include="layers\video_layer.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\contents_scaling_layer.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\heads_up_display_layer_impl.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\picture_layer.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClCompile Include="layers\picture_layer_impl.cc">
+      <Filter>layers</Filter>
+    </ClCompile>
+    <ClCompile Include="layers\painted_scrollbar_layer_impl.cc">
+      <Filter>layers</Filter>
+    </ClCompile>
+    <ClCompile Include="layers\io_surface_layer.cc">
+      <Filter>layers</Filter>
+    </ClCompile>
+    <ClCompile Include="layers\heads_up_display_layer_impl.cc">
+      <Filter>layers</Filter>
+    </ClCompile>
+    <ClInclude Include="layers\scrollbar_layer_impl_base.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\painted_scrollbar_layer_impl.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\delegated_renderer_layer_impl.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClCompile Include="layers\nine_patch_layer.cc">
+      <Filter>layers</Filter>
+    </ClCompile>
+    <ClCompile Include="layers\image_layer.cc">
+      <Filter>layers</Filter>
+    </ClCompile>
+    <ClInclude Include="layers\picture_layer_impl.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\render_pass_sink.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\layer_client.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\texture_layer_client.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClCompile Include="layers\picture_layer.cc">
+      <Filter>layers</Filter>
+    </ClCompile>
+    <ClInclude Include="layers\image_layer.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\content_layer.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClCompile Include="layers\heads_up_display_layer.cc">
+      <Filter>layers</Filter>
+    </ClCompile>
+    <ClInclude Include="layers\picture_image_layer_impl.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClCompile Include="layers\painted_scrollbar_layer.cc">
+      <Filter>layers</Filter>
+    </ClCompile>
+    <ClInclude Include="layers\nine_patch_layer_impl.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\texture_layer_impl.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\solid_color_layer.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClCompile Include="layers\tiled_layer_impl.cc">
+      <Filter>layers</Filter>
+    </ClCompile>
+    <ClCompile Include="layers\layer_impl.cc">
+      <Filter>layers</Filter>
+    </ClCompile>
+    <ClInclude Include="layers\heads_up_display_layer.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClCompile Include="layers\layer_position_constraint.cc">
+      <Filter>layers</Filter>
+    </ClCompile>
+    <ClInclude Include="layers\scrollbar_layer_interface.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\layer_position_constraint.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClCompile Include="layers\nine_patch_layer_impl.cc">
+      <Filter>layers</Filter>
+    </ClCompile>
+    <ClInclude Include="layers\nine_patch_layer.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClCompile Include="layers\solid_color_scrollbar_layer.cc">
+      <Filter>layers</Filter>
+    </ClCompile>
+    <ClInclude Include="layers\solid_color_layer_impl.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\append_quads_data.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClCompile Include="layers\layer.cc">
+      <Filter>layers</Filter>
+    </ClCompile>
+    <ClInclude Include="layers\render_surface_impl.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClCompile Include="layers\contents_scaling_layer.cc">
+      <Filter>layers</Filter>
+    </ClCompile>
+    <ClCompile Include="layers\solid_color_layer.cc">
+      <Filter>layers</Filter>
+    </ClCompile>
+    <ClCompile Include="layers\picture_image_layer_impl.cc">
+      <Filter>layers</Filter>
+    </ClCompile>
+    <ClInclude Include="layers\paint_properties.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClCompile Include="layers\texture_layer.cc">
+      <Filter>layers</Filter>
+    </ClCompile>
+    <ClCompile Include="layers\delegated_renderer_layer.cc">
+      <Filter>layers</Filter>
+    </ClCompile>
+    <ClInclude Include="layers\tiled_layer.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\tiled_layer_impl.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\texture_layer.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\render_surface.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\content_layer_client.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClCompile Include="layers\solid_color_scrollbar_layer_impl.cc">
+      <Filter>layers</Filter>
+    </ClCompile>
+    <ClCompile Include="layers\layer_iterator.cc">
+      <Filter>layers</Filter>
+    </ClCompile>
+    <ClInclude Include="layers\video_layer_impl.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClCompile Include="layers\video_frame_provider_client_impl.cc">
+      <Filter>layers</Filter>
+    </ClCompile>
+    <ClInclude Include="layers\io_surface_layer.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\solid_color_scrollbar_layer_impl.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClCompile Include="layers\texture_layer_impl.cc">
+      <Filter>layers</Filter>
+    </ClCompile>
+    <ClInclude Include="layers\video_frame_provider.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\quad_sink.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\layer_lists.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\layer_iterator.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClCompile Include="quads\picture_draw_quad.cc">
+      <Filter>quads</Filter>
+    </ClCompile>
+    <ClInclude Include="quads\draw_quad.h">
+      <Filter>quads</Filter>
+    </ClInclude>
+    <ClCompile Include="quads\stream_video_draw_quad.cc">
+      <Filter>quads</Filter>
+    </ClCompile>
+    <ClInclude Include="quads\tile_draw_quad.h">
+      <Filter>quads</Filter>
+    </ClInclude>
+    <ClInclude Include="quads\shared_quad_state.h">
+      <Filter>quads</Filter>
+    </ClInclude>
+    <ClCompile Include="quads\checkerboard_draw_quad.cc">
+      <Filter>quads</Filter>
+    </ClCompile>
+    <ClInclude Include="quads\solid_color_draw_quad.h">
+      <Filter>quads</Filter>
+    </ClInclude>
+    <ClCompile Include="quads\shared_quad_state.cc">
+      <Filter>quads</Filter>
+    </ClCompile>
+    <ClCompile Include="quads\solid_color_draw_quad.cc">
+      <Filter>quads</Filter>
+    </ClCompile>
+    <ClCompile Include="quads\render_pass_draw_quad.cc">
+      <Filter>quads</Filter>
+    </ClCompile>
+    <ClCompile Include="quads\io_surface_draw_quad.cc">
+      <Filter>quads</Filter>
+    </ClCompile>
+    <ClInclude Include="quads\render_pass_draw_quad.h">
+      <Filter>quads</Filter>
+    </ClInclude>
+    <ClInclude Include="quads\io_surface_draw_quad.h">
+      <Filter>quads</Filter>
+    </ClInclude>
+    <ClCompile Include="quads\draw_quad.cc">
+      <Filter>quads</Filter>
+    </ClCompile>
+    <ClInclude Include="quads\yuv_video_draw_quad.h">
+      <Filter>quads</Filter>
+    </ClInclude>
+    <ClCompile Include="quads\texture_draw_quad.cc">
+      <Filter>quads</Filter>
+    </ClCompile>
+    <ClInclude Include="quads\texture_draw_quad.h">
+      <Filter>quads</Filter>
+    </ClInclude>
+    <ClInclude Include="quads\picture_draw_quad.h">
+      <Filter>quads</Filter>
+    </ClInclude>
+    <ClInclude Include="quads\checkerboard_draw_quad.h">
+      <Filter>quads</Filter>
+    </ClInclude>
+    <ClInclude Include="quads\content_draw_quad_base.h">
+      <Filter>quads</Filter>
+    </ClInclude>
+    <ClCompile Include="quads\tile_draw_quad.cc">
+      <Filter>quads</Filter>
+    </ClCompile>
+    <ClCompile Include="quads\debug_border_draw_quad.cc">
+      <Filter>quads</Filter>
+    </ClCompile>
+    <ClCompile Include="quads\yuv_video_draw_quad.cc">
+      <Filter>quads</Filter>
+    </ClCompile>
+    <ClCompile Include="quads\render_pass.cc">
+      <Filter>quads</Filter>
+    </ClCompile>
+    <ClInclude Include="quads\stream_video_draw_quad.h">
+      <Filter>quads</Filter>
+    </ClInclude>
+    <ClInclude Include="quads\render_pass.h">
+      <Filter>quads</Filter>
+    </ClInclude>
+    <ClCompile Include="quads\content_draw_quad_base.cc">
+      <Filter>quads</Filter>
+    </ClCompile>
+    <ClInclude Include="quads\debug_border_draw_quad.h">
+      <Filter>quads</Filter>
+    </ClInclude>
+    <ClInclude Include="trees\layer_tree_host.h">
+      <Filter>trees</Filter>
+    </ClInclude>
+    <ClCompile Include="trees\thread_proxy.cc">
+      <Filter>trees</Filter>
+    </ClCompile>
+    <ClCompile Include="trees\single_thread_proxy.cc">
+      <Filter>trees</Filter>
+    </ClCompile>
+    <ClInclude Include="trees\layer_sorter.h">
+      <Filter>trees</Filter>
+    </ClInclude>
+    <ClCompile Include="trees\layer_tree_impl.cc">
+      <Filter>trees</Filter>
+    </ClCompile>
+    <ClCompile Include="trees\layer_tree_host_impl.cc">
+      <Filter>trees</Filter>
+    </ClCompile>
+    <ClInclude Include="trees\single_thread_proxy.h">
+      <Filter>trees</Filter>
+    </ClInclude>
+    <ClCompile Include="trees\layer_tree_host_common.cc">
+      <Filter>trees</Filter>
+    </ClCompile>
+    <ClInclude Include="trees\layer_tree_settings.h">
+      <Filter>trees</Filter>
+    </ClInclude>
+    <ClInclude Include="trees\tree_synchronizer.h">
+      <Filter>trees</Filter>
+    </ClInclude>
+    <ClInclude Include="trees\occlusion_tracker.h">
+      <Filter>trees</Filter>
+    </ClInclude>
+    <ClInclude Include="trees\layer_tree_host_impl.h">
+      <Filter>trees</Filter>
+    </ClInclude>
+    <ClInclude Include="trees\layer_tree_impl.h">
+      <Filter>trees</Filter>
+    </ClInclude>
+    <ClInclude Include="trees\quad_culler.h">
+      <Filter>trees</Filter>
+    </ClInclude>
+    <ClInclude Include="trees\thread_proxy.h">
+      <Filter>trees</Filter>
+    </ClInclude>
+    <ClCompile Include="trees\layer_tree_host.cc">
+      <Filter>trees</Filter>
+    </ClCompile>
+    <ClInclude Include="trees\blocking_task_runner.h">
+      <Filter>trees</Filter>
+    </ClInclude>
+    <ClInclude Include="trees\proxy.h">
+      <Filter>trees</Filter>
+    </ClInclude>
+    <ClCompile Include="trees\layer_tree_settings.cc">
+      <Filter>trees</Filter>
+    </ClCompile>
+    <ClCompile Include="trees\blocking_task_runner.cc">
+      <Filter>trees</Filter>
+    </ClCompile>
+    <ClInclude Include="trees\layer_tree_host_common.h">
+      <Filter>trees</Filter>
+    </ClInclude>
+    <ClCompile Include="trees\proxy.cc">
+      <Filter>trees</Filter>
+    </ClCompile>
+    <ClCompile Include="trees\occlusion_tracker.cc">
+      <Filter>trees</Filter>
+    </ClCompile>
+    <ClInclude Include="trees\damage_tracker.h">
+      <Filter>trees</Filter>
+    </ClInclude>
+    <ClCompile Include="trees\tree_synchronizer.cc">
+      <Filter>trees</Filter>
+    </ClCompile>
+    <ClCompile Include="trees\damage_tracker.cc">
+      <Filter>trees</Filter>
+    </ClCompile>
+    <ClCompile Include="trees\quad_culler.cc">
+      <Filter>trees</Filter>
+    </ClCompile>
+    <ClInclude Include="trees\layer_tree_host_client.h">
+      <Filter>trees</Filter>
+    </ClInclude>
+    <ClCompile Include="trees\layer_sorter.cc">
+      <Filter>trees</Filter>
+    </ClCompile>
+    <ClCompile Include="animation\animation.cc">
+      <Filter>animation</Filter>
+    </ClCompile>
+    <ClCompile Include="animation\transform_operation.cc">
+      <Filter>animation</Filter>
+    </ClCompile>
+    <ClCompile Include="animation\animation_id_provider.cc">
+      <Filter>animation</Filter>
+    </ClCompile>
+    <ClCompile Include="animation\animation_registrar.cc">
+      <Filter>animation</Filter>
+    </ClCompile>
+    <ClInclude Include="animation\animation_id_provider.h">
+      <Filter>animation</Filter>
+    </ClInclude>
+    <ClInclude Include="animation\layer_animation_controller.h">
+      <Filter>animation</Filter>
+    </ClInclude>
+    <ClInclude Include="animation\keyframed_animation_curve.h">
+      <Filter>animation</Filter>
+    </ClInclude>
+    <ClInclude Include="animation\transform_operation.h">
+      <Filter>animation</Filter>
+    </ClInclude>
+    <ClInclude Include="animation\scrollbar_animation_controller.h">
+      <Filter>animation</Filter>
+    </ClInclude>
+    <ClCompile Include="animation\animation_curve.cc">
+      <Filter>animation</Filter>
+    </ClCompile>
+    <ClCompile Include="animation\animation_events.cc">
+      <Filter>animation</Filter>
+    </ClCompile>
+    <ClInclude Include="animation\timing_function.h">
+      <Filter>animation</Filter>
+    </ClInclude>
+    <ClInclude Include="animation\layer_animation_value_observer.h">
+      <Filter>animation</Filter>
+    </ClInclude>
+    <ClCompile Include="animation\keyframed_animation_curve.cc">
+      <Filter>animation</Filter>
+    </ClCompile>
+    <ClInclude Include="animation\animation_curve.h">
+      <Filter>animation</Filter>
+    </ClInclude>
+    <ClInclude Include="animation\animation_delegate.h">
+      <Filter>animation</Filter>
+    </ClInclude>
+    <ClInclude Include="animation\layer_animation_event_observer.h">
+      <Filter>animation</Filter>
+    </ClInclude>
+    <ClInclude Include="animation\animation_registrar.h">
+      <Filter>animation</Filter>
+    </ClInclude>
+    <ClCompile Include="animation\timing_function.cc">
+      <Filter>animation</Filter>
+    </ClCompile>
+    <ClCompile Include="animation\scrollbar_animation_controller_linear_fade.cc">
+      <Filter>animation</Filter>
+    </ClCompile>
+    <ClCompile Include="animation\layer_animation_controller.cc">
+      <Filter>animation</Filter>
+    </ClCompile>
+    <ClInclude Include="animation\scrollbar_animation_controller_linear_fade.h">
+      <Filter>animation</Filter>
+    </ClInclude>
+    <ClInclude Include="animation\animation_events.h">
+      <Filter>animation</Filter>
+    </ClInclude>
+    <ClInclude Include="animation\transform_operations.h">
+      <Filter>animation</Filter>
+    </ClInclude>
+    <ClCompile Include="animation\transform_operations.cc">
+      <Filter>animation</Filter>
+    </ClCompile>
+    <ClInclude Include="animation\animation.h">
+      <Filter>animation</Filter>
+    </ClInclude>
+    <ClCompile Include="scheduler\rate_limiter.cc">
+      <Filter>scheduler</Filter>
+    </ClCompile>
+    <ClCompile Include="scheduler\scheduler_state_machine.cc">
+      <Filter>scheduler</Filter>
+    </ClCompile>
+    <ClInclude Include="scheduler\delay_based_time_source.h">
+      <Filter>scheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="scheduler\rate_limiter.h">
+      <Filter>scheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="scheduler\texture_uploader.h">
+      <Filter>scheduler</Filter>
+    </ClInclude>
+    <ClCompile Include="scheduler\scheduler_settings.cc">
+      <Filter>scheduler</Filter>
+    </ClCompile>
+    <ClCompile Include="scheduler\scheduler.cc">
+      <Filter>scheduler</Filter>
+    </ClCompile>
+    <ClInclude Include="scheduler\frame_rate_controller.h">
+      <Filter>scheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="scheduler\scheduler.h">
+      <Filter>scheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="scheduler\time_source.h">
+      <Filter>scheduler</Filter>
+    </ClInclude>
+    <ClCompile Include="scheduler\delay_based_time_source.cc">
+      <Filter>scheduler</Filter>
+    </ClCompile>
+    <ClInclude Include="scheduler\rolling_time_delta_history.h">
+      <Filter>scheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="scheduler\scheduler_settings.h">
+      <Filter>scheduler</Filter>
+    </ClInclude>
+    <ClCompile Include="scheduler\rolling_time_delta_history.cc">
+      <Filter>scheduler</Filter>
+    </ClCompile>
+    <ClCompile Include="scheduler\texture_uploader.cc">
+      <Filter>scheduler</Filter>
+    </ClCompile>
+    <ClCompile Include="scheduler\frame_rate_controller.cc">
+      <Filter>scheduler</Filter>
+    </ClCompile>
+    <ClInclude Include="scheduler\scheduler_state_machine.h">
+      <Filter>scheduler</Filter>
+    </ClInclude>
+    <ClCompile Include="input\top_controls_manager.cc">
+      <Filter>input</Filter>
+    </ClCompile>
+    <ClInclude Include="input\top_controls_manager.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClCompile Include="input\page_scale_animation.cc">
+      <Filter>input</Filter>
+    </ClCompile>
+    <ClInclude Include="input\top_controls_manager_client.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="input\page_scale_animation.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="input\input_handler.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClCompile Include="debug\traced_value.cc">
+      <Filter>debug</Filter>
+    </ClCompile>
+    <ClInclude Include="debug\fake_web_graphics_context_3d.h">
+      <Filter>debug</Filter>
+    </ClInclude>
+    <ClCompile Include="debug\layer_tree_debug_state.cc">
+      <Filter>debug</Filter>
+    </ClCompile>
+    <ClCompile Include="debug\debug_colors.cc">
+      <Filter>debug</Filter>
+    </ClCompile>
+    <ClInclude Include="debug\traced_picture.h">
+      <Filter>debug</Filter>
+    </ClInclude>
+    <ClCompile Include="debug\paint_time_counter.cc">
+      <Filter>debug</Filter>
+    </ClCompile>
+    <ClCompile Include="debug\rendering_stats_instrumentation.cc">
+      <Filter>debug</Filter>
+    </ClCompile>
+    <ClInclude Include="debug\devtools_instrumentation.h">
+      <Filter>debug</Filter>
+    </ClInclude>
+    <ClCompile Include="debug\overdraw_metrics.cc">
+      <Filter>debug</Filter>
+    </ClCompile>
+    <ClInclude Include="debug\debug_colors.h">
+      <Filter>debug</Filter>
+    </ClInclude>
+    <ClCompile Include="debug\debug_rect_history.cc">
+      <Filter>debug</Filter>
+    </ClCompile>
+    <ClCompile Include="debug\rendering_stats.cc">
+      <Filter>debug</Filter>
+    </ClCompile>
+    <ClInclude Include="debug\paint_time_counter.h">
+      <Filter>debug</Filter>
+    </ClInclude>
+    <ClInclude Include="debug\rendering_stats.h">
+      <Filter>debug</Filter>
+    </ClInclude>
+    <ClCompile Include="debug\frame_rate_counter.cc">
+      <Filter>debug</Filter>
+    </ClCompile>
+    <ClCompile Include="debug\test_context_provider.cc">
+      <Filter>debug</Filter>
+    </ClCompile>
+    <ClInclude Include="debug\overdraw_metrics.h">
+      <Filter>debug</Filter>
+    </ClInclude>
+    <ClCompile Include="debug\traced_picture.cc">
+      <Filter>debug</Filter>
+    </ClCompile>
+    <ClInclude Include="debug\traced_value.h">
+      <Filter>debug</Filter>
+    </ClInclude>
+    <ClInclude Include="debug\frame_rate_counter.h">
+      <Filter>debug</Filter>
+    </ClInclude>
+    <ClInclude Include="debug\test_context_provider.h">
+      <Filter>debug</Filter>
+    </ClInclude>
+    <ClInclude Include="debug\debug_rect_history.h">
+      <Filter>debug</Filter>
+    </ClInclude>
+    <ClInclude Include="debug\test_web_graphics_context_3d.h">
+      <Filter>debug</Filter>
+    </ClInclude>
+    <ClCompile Include="debug\fake_web_graphics_context_3d.cc">
+      <Filter>debug</Filter>
+    </ClCompile>
+    <ClCompile Include="debug\test_web_graphics_context_3d.cc">
+      <Filter>debug</Filter>
+    </ClCompile>
+    <ClInclude Include="debug\rendering_stats_instrumentation.h">
+      <Filter>debug</Filter>
+    </ClInclude>
+    <ClInclude Include="debug\layer_tree_debug_state.h">
+      <Filter>debug</Filter>
+    </ClInclude>
+    <ClInclude Include="debug\ring_buffer.h">
+      <Filter>debug</Filter>
+    </ClInclude>
+    <ClCompile Include="output\managed_memory_policy.cc">
+      <Filter>output</Filter>
+    </ClCompile>
+    <ClCompile Include="output\copy_output_result.cc">
+      <Filter>output</Filter>
+    </ClCompile>
+    <ClCompile Include="output\program_binding.cc">
+      <Filter>output</Filter>
+    </ClCompile>
+    <ClCompile Include="output\renderer.cc">
+      <Filter>output</Filter>
+    </ClCompile>
+    <ClInclude Include="output\gl_renderer.h">
+      <Filter>output</Filter>
+    </ClInclude>
+    <ClInclude Include="output\compositor_frame_metadata.h">
+      <Filter>output</Filter>
+    </ClInclude>
+    <ClInclude Include="output\compositor_frame_ack.h">
+      <Filter>output</Filter>
+    </ClInclude>
+    <ClInclude Include="output\delegating_renderer.h">
+      <Filter>output</Filter>
+    </ClInclude>
+    <ClInclude Include="output\managed_memory_policy.h">
+      <Filter>output</Filter>
+    </ClInclude>
+    <ClInclude Include="output\compositor_frame.h">
+      <Filter>output</Filter>
+    </ClInclude>
+    <ClCompile Include="output\compositor_frame.cc">
+      <Filter>output</Filter>
+    </ClCompile>
+    <ClInclude Include="output\output_surface.h">
+      <Filter>output</Filter>
+    </ClInclude>
+    <ClCompile Include="output\context_provider.cc">
+      <Filter>output</Filter>
+    </ClCompile>
+    <ClCompile Include="output\begin_frame_args.cc">
+      <Filter>output</Filter>
+    </ClCompile>
+    <ClCompile Include="output\filter_operation.cc">
+      <Filter>output</Filter>
+    </ClCompile>
+    <ClCompile Include="output\output_surface.cc">
+      <Filter>output</Filter>
+    </ClCompile>
+    <ClInclude Include="output\delegated_frame_data.h">
+      <Filter>output</Filter>
+    </ClInclude>
+    <ClCompile Include="output\render_surface_filters.cc">
+      <Filter>output</Filter>
+    </ClCompile>
+    <ClCompile Include="output\software_frame_data.cc">
+      <Filter>output</Filter>
+    </ClCompile>
+    <ClInclude Include="output\software_output_device.h">
+      <Filter>output</Filter>
+    </ClInclude>
+    <ClCompile Include="output\copy_output_request.cc">
+      <Filter>output</Filter>
+    </ClCompile>
+    <ClInclude Include="output\filter_operations.h">
+      <Filter>output</Filter>
+    </ClInclude>
+    <ClInclude Include="output\shader.h">
+      <Filter>output</Filter>
+    </ClInclude>
+    <ClInclude Include="output\geometry_binding.h">
+      <Filter>output</Filter>
+    </ClInclude>
+    <ClInclude Include="output\context_provider.h">
+      <Filter>output</Filter>
+    </ClInclude>
+    <ClInclude Include="output\render_surface_filters.h">
+      <Filter>output</Filter>
+    </ClInclude>
+    <ClInclude Include="output\direct_renderer.h">
+      <Filter>output</Filter>
+    </ClInclude>
+    <ClInclude Include="output\copy_output_result.h">
+      <Filter>output</Filter>
+    </ClInclude>
+    <ClCompile Include="output\compositor_frame_ack.cc">
+      <Filter>output</Filter>
+    </ClCompile>
+    <ClCompile Include="output\delegating_renderer.cc">
+      <Filter>output</Filter>
+    </ClCompile>
+    <ClInclude Include="output\software_renderer.h">
+      <Filter>output</Filter>
+    </ClInclude>
+    <ClCompile Include="output\geometry_binding.cc">
+      <Filter>output</Filter>
+    </ClCompile>
+    <ClInclude Include="output\program_binding.h">
+      <Filter>output</Filter>
+    </ClInclude>
+    <ClCompile Include="output\gl_renderer.cc">
+      <Filter>output</Filter>
+    </ClCompile>
+    <ClInclude Include="output\software_frame_data.h">
+      <Filter>output</Filter>
+    </ClInclude>
+    <ClInclude Include="output\gl_frame_data.h">
+      <Filter>output</Filter>
+    </ClInclude>
+    <ClCompile Include="output\shader.cc">
+      <Filter>output</Filter>
+    </ClCompile>
+    <ClCompile Include="output\compositor_frame_metadata.cc">
+      <Filter>output</Filter>
+    </ClCompile>
+    <ClCompile Include="output\software_renderer.cc">
+      <Filter>output</Filter>
+    </ClCompile>
+    <ClInclude Include="output\begin_frame_args.h">
+      <Filter>output</Filter>
+    </ClInclude>
+    <ClInclude Include="output\renderer.h">
+      <Filter>output</Filter>
+    </ClInclude>
+    <ClInclude Include="output\gl_renderer_draw_cache.h">
+      <Filter>output</Filter>
+    </ClInclude>
+    <ClInclude Include="output\output_surface_client.h">
+      <Filter>output</Filter>
+    </ClInclude>
+    <ClCompile Include="output\delegated_frame_data.cc">
+      <Filter>output</Filter>
+    </ClCompile>
+    <ClCompile Include="output\gl_renderer_draw_cache.cc">
+      <Filter>output</Filter>
+    </ClCompile>
+    <ClInclude Include="output\filter_operation.h">
+      <Filter>output</Filter>
+    </ClInclude>
+    <ClCompile Include="output\gl_frame_data.cc">
+      <Filter>output</Filter>
+    </ClCompile>
+    <ClCompile Include="output\direct_renderer.cc">
+      <Filter>output</Filter>
+    </ClCompile>
+    <ClCompile Include="output\filter_operations.cc">
+      <Filter>output</Filter>
+    </ClCompile>
+    <ClCompile Include="output\software_output_device.cc">
+      <Filter>output</Filter>
+    </ClCompile>
+    <ClInclude Include="output\copy_output_request.h">
+      <Filter>output</Filter>
+    </ClInclude>
+    <ClInclude Include="base\scoped_ptr_algorithm.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\math_util.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\switches.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\scoped_ptr_vector.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\region.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\math_util.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\region.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\tiling_data.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\invalidation_region.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\switches.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\invalidation_region.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\util.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\completion_event.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\tiling_data.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\scoped_ptr_deque.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="resources\scoped_ui_resource.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClInclude Include="resources\managed_tile_state.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\content_layer_updater.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\layer_painter.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\skpicture_content_layer_updater.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClCompile Include="resources\prioritized_resource_manager.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClInclude Include="resources\resource_provider.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClCompile Include="resources\scoped_resource.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClInclude Include="resources\layer_quad.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClCompile Include="resources\ui_resource_bitmap.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClInclude Include="resources\image_raster_worker_pool.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClCompile Include="resources\image_raster_worker_pool.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClInclude Include="resources\sync_point_helper.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClCompile Include="resources\raster_mode.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClInclude Include="resources\picture_pile_impl.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClCompile Include="resources\picture_layer_tiling_set.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClInclude Include="resources\bitmap_skpicture_content_layer_updater.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClCompile Include="resources\bitmap_skpicture_content_layer_updater.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClInclude Include="resources\ui_resource_bitmap.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\scoped_ui_resource.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClCompile Include="resources\resource_update_queue.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClInclude Include="resources\platform_color.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClCompile Include="resources\picture_pile_base.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="resources\picture_pile.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="resources\resource_pool.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClInclude Include="resources\resource_pool.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\ui_resource_client.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\priority_calculator.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClCompile Include="resources\skpicture_content_layer_updater.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClInclude Include="resources\picture_layer_tiling_set.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\resource_update_controller.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\resource_update_queue.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClCompile Include="resources\resource_provider.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="resources\transferable_resource.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="resources\managed_tile_state.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="resources\resource.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClInclude Include="resources\scoped_resource.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\resource_update.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\picture_layer_tiling.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\tile_manager.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\raster_mode.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\raster_worker_pool.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClCompile Include="resources\sync_point_helper.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="resources\texture_mailbox.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClInclude Include="resources\prioritized_tile_set.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClCompile Include="resources\resource_update_controller.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="resources\tile_priority.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClInclude Include="resources\tile.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClCompile Include="resources\prioritized_resource.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="resources\worker_pool.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="resources\tile_manager.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="resources\bitmap_content_layer_updater.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClInclude Include="resources\caching_bitmap_content_layer_updater.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\prioritized_resource.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\picture_pile_base.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClCompile Include="resources\picture.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="resources\caching_bitmap_content_layer_updater.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClInclude Include="resources\picture_pile.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\bitmap_content_layer_updater.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\tile_priority.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\picture.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\video_resource_updater.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\worker_pool.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClCompile Include="resources\tile.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="resources\content_layer_updater.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="resources\video_resource_updater.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="resources\raster_worker_pool.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="resources\layer_tiling_data.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="resources\prioritized_tile_set.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="resources\picture_layer_tiling.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="resources\resource_update.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="resources\memory_history.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClInclude Include="resources\layer_tiling_data.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\pixel_buffer_raster_worker_pool.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\memory_history.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\layer_updater.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\resource.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\texture_mailbox.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\prioritized_resource_manager.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClCompile Include="resources\picture_pile_impl.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="resources\image_layer_updater.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="resources\priority_calculator.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClInclude Include="resources\image_layer_updater.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\returned_resource.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\transferable_resource.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClCompile Include="resources\pixel_buffer_raster_worker_pool.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="resources\layer_updater.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="resources\layer_quad.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,404 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public">
+      <UniqueIdentifier>{0D2511BD-044F-C35F-ECCE-845899961E41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public\browser">
+      <UniqueIdentifier>{24B57E1E-8660-A3AB-E8EF-7828EB881EF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser">
+      <UniqueIdentifier>{24B57E1E-8660-A3AB-E8EF-7828EB881EF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\gpu">
+      <UniqueIdentifier>{52E8B949-3E67-CAB7-33D9-3F972FED789B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\aura">
+      <UniqueIdentifier>{309EC8FE-39D0-9538-6130-D86406AE327E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="content.gyp" />
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+    <ClInclude Include="public\browser\access_token_store.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\profiler_controller.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\resource_context.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\resource_dispatcher_host_login_delegate.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\content_browser_client.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\notification_registrar.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\browser_child_process_host_delegate.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\browser_main_parts.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\browser_message_filter.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\browser_main_runner.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="public\browser\browser_child_process_host_delegate.cc">
+      <Filter>public\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="public\browser\child_process_security_policy.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\resource_throttle.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\gpu_data_manager.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\notification_details.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\page_navigator.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\url_data_source.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\browser_ipc_logging.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="public\browser\resource_request_details.cc">
+      <Filter>public\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="public\browser\browser_child_process_observer.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\resource_request_info.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="public\browser\resource_dispatcher_host_delegate.cc">
+      <Filter>public\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="public\browser\resource_controller.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\certificate_request_result_type.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="public\browser\page_navigator.cc">
+      <Filter>public\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="public\browser\user_metrics.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\cert_store.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\browser_child_process_host_iterator.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\notification_observer.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="public\browser\content_browser_client.cc">
+      <Filter>public\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="public\browser\notification_service.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\notification_types.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\profiler_subscriber.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\resource_dispatcher_host.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="public\browser\browser_child_process_observer.cc">
+      <Filter>public\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="public\browser\browser_thread.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\quota_permission_context.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="public\browser\notification_registrar.cc">
+      <Filter>public\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="public\browser\power_save_blocker.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\child_process_data.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="public\browser\url_data_source.cc">
+      <Filter>public\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="public\browser\stream_handle.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\resource_dispatcher_host_delegate.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\trace_subscriber.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\browser_context.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\resource_request_details.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\browser_url_handler.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\save_page_type.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\browser_thread_delegate.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\browser_accessibility_state.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\browser_child_process_host.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\trace_controller.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="public\browser\browser_child_process_host_iterator.cc">
+      <Filter>public\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="public\browser\overscroll_configuration.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\browser_shutdown.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\color_chooser.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="public\browser\browser_message_filter.cc">
+      <Filter>public\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="public\browser\gpu_data_manager_observer.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="public\browser\browser_main_parts.cc">
+      <Filter>public\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="public\browser\notification_source.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\power_monitor_message_broadcaster.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\browser_process_sub_thread.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\browser_child_process_host_impl.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\browser_thread_impl.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\power_monitor_message_broadcaster.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\power_save_blocker_impl.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\browsing_instance.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\browser_main_loop.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\browser_thread_impl.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\browser_main_runner.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\byte_stream.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\child_process_launcher.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\browser_context.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\browser_process_sub_thread.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\browser_shutdown_profile_dumper.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\power_save_blocker_impl.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\notification_service_impl.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\byte_stream.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\browser_url_handler_impl.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\child_process_launcher.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\browser_shutdown_profile_dumper.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\browser_main.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\browser_child_process_host_impl.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\startup_task_runner.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\startup_task_runner.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\browser_main_loop.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\browser_ipc_logging.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\browser_main.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\browsing_instance.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\system_message_window_win.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\power_save_blocker_win.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\browser_url_handler_impl.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\system_message_window_win.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\notification_service_impl.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\gpu\gpu_process_host.cc">
+      <Filter>browser\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\gpu\shader_disk_cache.cc">
+      <Filter>browser\gpu</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\gpu\gpu_data_manager_impl.h">
+      <Filter>browser\gpu</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\gpu\browser_gpu_channel_host_factory.cc">
+      <Filter>browser\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\gpu\gpu_data_manager_impl_private.cc">
+      <Filter>browser\gpu</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\gpu\browser_gpu_channel_host_factory.h">
+      <Filter>browser\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\gpu\shader_disk_cache.h">
+      <Filter>browser\gpu</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\gpu\gpu_data_manager_impl.cc">
+      <Filter>browser\gpu</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\gpu\gpu_data_manager_impl_private.h">
+      <Filter>browser\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\gpu\compositor_util.h">
+      <Filter>browser\gpu</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\gpu\compositor_util.cc">
+      <Filter>browser\gpu</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\gpu\gpu_process_host.h">
+      <Filter>browser\gpu</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\gpu\gpu_surface_tracker.cc">
+      <Filter>browser\gpu</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\gpu\gpu_surface_tracker.h">
+      <Filter>browser\gpu</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\aura\software_output_device_win.cc">
+      <Filter>browser\aura</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\aura\no_transport_image_transport_factory.h">
+      <Filter>browser\aura</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\aura\browser_compositor_output_surface.h">
+      <Filter>browser\aura</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\aura\reflector_impl.h">
+      <Filter>browser\aura</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\aura\software_browser_compositor_output_surface.cc">
+      <Filter>browser\aura</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\aura\browser_compositor_output_surface_proxy.cc">
+      <Filter>browser\aura</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\aura\browser_compositor_output_surface.cc">
+      <Filter>browser\aura</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\aura\software_browser_compositor_output_surface.h">
+      <Filter>browser\aura</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\aura\no_transport_image_transport_factory.cc">
+      <Filter>browser\aura</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\aura\gpu_process_transport_factory.h">
+      <Filter>browser\aura</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\aura\browser_compositor_output_surface_proxy.h">
+      <Filter>browser\aura</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\aura\software_output_device_win.h">
+      <Filter>browser\aura</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\aura\gpu_process_transport_factory.cc">
+      <Filter>browser\aura</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\aura\image_transport_factory.cc">
+      <Filter>browser\aura</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\aura\reflector_impl.cc">
+      <Filter>browser\aura</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\aura\image_transport_factory.h">
+      <Filter>browser\aura</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

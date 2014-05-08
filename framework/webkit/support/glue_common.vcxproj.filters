@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\glue">
+      <UniqueIdentifier>{9C0EBFC5-0C0B-8A11-B834-3199D9447A2E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="webkit_support.gyp"/>
+    <ClCompile Include="..\glue\weburlrequest_extradata_impl.cc">
+      <Filter>..\glue</Filter>
+    </ClCompile>
+    <ClInclude Include="..\glue\weburlrequest_extradata_impl.h">
+      <Filter>..\glue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glue\weburlresponse_extradata_impl.h">
+      <Filter>..\glue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glue\multipart_response_delegate.h">
+      <Filter>..\glue</Filter>
+    </ClInclude>
+    <ClCompile Include="..\glue\weburlresponse_extradata_impl.cc">
+      <Filter>..\glue</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glue\multipart_response_delegate.cc">
+      <Filter>..\glue</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\webpreferences.cc">
+      <Filter>..\common</Filter>
+    </ClCompile>
+    <ClInclude Include="..\common\webpreferences.h">
+      <Filter>..\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\webdropdata.h">
+      <Filter>..\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\webmenuitem.h">
+      <Filter>..\common</Filter>
+    </ClInclude>
+    <ClCompile Include="..\common\webdropdata.cc">
+      <Filter>..\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\webmenuitem.cc">
+      <Filter>..\common</Filter>
+    </ClCompile>
+    <ClInclude Include="..\common\webkit_common_export.h">
+      <Filter>..\common</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\build\precompile.cc">
+      <Filter>..\..\build</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

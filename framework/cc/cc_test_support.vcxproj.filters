@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cc_tests.gyp"/>
+    <ClCompile Include="test\fake_delegated_renderer_layer.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\fake_output_surface.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\skia_common.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\fake_scoped_ui_resource.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\solid_color_content_layer_client.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\fake_proxy.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\render_pass_test_common.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\layer_test_common.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\fake_content_layer.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\geometry_test_utils.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\tiled_layer_test_common.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\fake_painted_scrollbar_layer.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\fake_picture_layer.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\fake_output_surface_client.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\fake_layer_tree_host_impl.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\fake_layer_tree_host_impl_client.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\fake_painted_scrollbar_layer.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\fake_picture_layer_tiling_client.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\layer_tree_pixel_test.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\fake_output_surface.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\animation_test_common.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\fake_tile_manager_client.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\render_pass_test_utils.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\paths.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\fake_content_layer_client.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\fake_video_frame_provider.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\scheduler_test_common.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\layer_tree_json_parser.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\fake_layer_tree_host_impl_client.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\pixel_test.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\layer_tree_test.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\fake_content_layer_impl.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\fake_output_surface_client.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\paths.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\geometry_test_utils.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\layer_tree_test.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\fake_picture_pile_impl.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\scheduler_test_common.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\render_pass_test_utils.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\skia_common.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\mock_quad_culler.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\mock_quad_culler.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\layer_test_common.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\render_pass_test_common.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\test_tile_priorities.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\fake_content_layer_impl.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\fake_content_layer_client.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\pixel_test_software_output_device.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\fake_delegated_renderer_layer_impl.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\pixel_test_output_surface.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\fake_layer_tree_host_client.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\animation_test_common.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\fake_proxy.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\fake_picture_layer.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\fake_tile_manager.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\fake_layer_tree_host_impl.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\fake_tile_manager.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\fake_picture_layer_tiling_client.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\impl_side_painting_settings.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\occlusion_tracker_test_common.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\fake_layer_tree_host_client.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\fake_delegated_renderer_layer.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\fake_impl_proxy.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\fake_picture_layer_impl.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\fake_tile_manager_client.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\pixel_test_output_surface.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\fake_scrollbar.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\fake_scrollbar.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\layer_tree_pixel_test.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\fake_content_layer.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\test_tile_priorities.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\fake_picture_pile_impl.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\tiled_layer_test_common.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\layer_tree_json_parser.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\fake_picture_layer_impl.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\pixel_test.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\fake_rendering_stats_instrumentation.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\solid_color_content_layer_client.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\fake_scoped_ui_resource.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\pixel_test_software_output_device.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\fake_delegated_renderer_layer_impl.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\fake_video_frame_provider.h">
+      <Filter>test</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

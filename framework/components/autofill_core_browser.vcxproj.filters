@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="$(OutDir)obj">
+      <UniqueIdentifier>{7BD4F48B-77B4-AB58-9E24-A7302D190D1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate">
+      <UniqueIdentifier>{14CEDE64-16A7-96A9-EF19-5C5D6085FF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="autofill">
+      <UniqueIdentifier>{94F60235-EBD6-403C-1911-BD15E9B6C8E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="autofill\core">
+      <UniqueIdentifier>{16178836-FF57-2363-AA2B-8BAC1DC00026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="autofill\core\browser">
+      <UniqueIdentifier>{24B57E1E-8660-A3AB-E8EF-7828EB881EF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="autofill\core\browser\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="autofill\core\browser\webdata">
+      <UniqueIdentifier>{CBCC3417-9EC5-8AB4-2EBE-E1E5B86531E2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="components.gyp"/>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\autofill_regex_constants.cc">
+      <Filter>$(OutDir)obj\global_intermediate</Filter>
+    </ClCompile>
+    <ClCompile Include="autofill\core\browser\autofill_data_model.cc">
+      <Filter>autofill\core\browser</Filter>
+    </ClCompile>
+    <ClCompile Include="autofill\core\browser\personal_data_manager.cc">
+      <Filter>autofill\core\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="autofill\core\browser\name_field.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="autofill\core\browser\autofill_regex_constants.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="autofill\core\browser\autofill_manager_delegate.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="autofill\core\browser\autofill_scanner.cc">
+      <Filter>autofill\core\browser</Filter>
+    </ClCompile>
+    <ClCompile Include="autofill\core\browser\autofill_download_url.cc">
+      <Filter>autofill\core\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="autofill\core\browser\phone_number_i18n.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="autofill\core\browser\name_field.cc">
+      <Filter>autofill\core\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="autofill\core\browser\form_structure.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="autofill\core\browser\autofill_data_model.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="autofill\core\browser\autofill_scanner.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="autofill\core\browser\contact_info.cc">
+      <Filter>autofill\core\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="autofill\core\browser\autofill_popup_delegate.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="autofill\core\browser\autofill_manager.cc">
+      <Filter>autofill\core\browser</Filter>
+    </ClCompile>
+    <ClCompile Include="autofill\core\browser\form_group.cc">
+      <Filter>autofill\core\browser</Filter>
+    </ClCompile>
+    <ClCompile Include="autofill\core\browser\address_field.cc">
+      <Filter>autofill\core\browser</Filter>
+    </ClCompile>
+    <ClCompile Include="autofill\core\browser\autofill_xml_parser.cc">
+      <Filter>autofill\core\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="autofill\core\browser\state_names.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="autofill\core\browser\credit_card_field.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="autofill\core\browser\autofill_type.cc">
+      <Filter>autofill\core\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="autofill\core\browser\autofill_metrics.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="autofill\core\browser\autofill_external_delegate.cc">
+      <Filter>autofill\core\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="autofill\core\browser\credit_card.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="autofill\core\browser\password_autofill_manager.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="autofill\core\browser\autofill_xml_parser.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="autofill\core\browser\form_field.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="autofill\core\browser\autofill_country.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="autofill\core\browser\autofill_manager.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="autofill\core\browser\personal_data_manager.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="autofill\core\browser\autofill_metrics.cc">
+      <Filter>autofill\core\browser</Filter>
+    </ClCompile>
+    <ClCompile Include="autofill\core\browser\autofill_regexes.cc">
+      <Filter>autofill\core\browser</Filter>
+    </ClCompile>
+    <ClCompile Include="autofill\core\browser\state_names.cc">
+      <Filter>autofill\core\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="autofill\core\browser\personal_data_manager_observer.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="autofill\core\browser\field_types.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="autofill\core\browser\autocomplete_history_manager.cc">
+      <Filter>autofill\core\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="autofill\core\browser\autofill_ie_toolbar_import_win.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="autofill\core\browser\contact_info.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="autofill\core\browser\autofill_type.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="autofill\core\browser\autofill_field.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="autofill\core\browser\phone_number.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="autofill\core\browser\address.cc">
+      <Filter>autofill\core\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="autofill\core\browser\phone_field.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="autofill\core\browser\address_field.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="autofill\core\browser\autofill_download_url.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="autofill\core\browser\autofill_download.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="autofill\core\browser\credit_card_field.cc">
+      <Filter>autofill\core\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="autofill\core\browser\autofill_driver.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="autofill\core\browser\phone_number.cc">
+      <Filter>autofill\core\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="autofill\core\browser\autofill_profile.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="autofill\core\browser\autofill_manager_test_delegate.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="autofill\core\browser\validation.cc">
+      <Filter>autofill\core\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="autofill\core\browser\autofill_external_delegate.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="autofill\core\browser\autofill_download.cc">
+      <Filter>autofill\core\browser</Filter>
+    </ClCompile>
+    <ClCompile Include="autofill\core\browser\phone_field.cc">
+      <Filter>autofill\core\browser</Filter>
+    </ClCompile>
+    <ClCompile Include="autofill\core\browser\form_structure.cc">
+      <Filter>autofill\core\browser</Filter>
+    </ClCompile>
+    <ClCompile Include="autofill\core\browser\credit_card.cc">
+      <Filter>autofill\core\browser</Filter>
+    </ClCompile>
+    <ClCompile Include="autofill\core\browser\phone_number_i18n.cc">
+      <Filter>autofill\core\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="autofill\core\browser\email_field.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="autofill\core\browser\autofill_regexes.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="autofill\core\browser\email_field.cc">
+      <Filter>autofill\core\browser</Filter>
+    </ClCompile>
+    <ClCompile Include="autofill\core\browser\password_generator.cc">
+      <Filter>autofill\core\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="autofill\core\browser\validation.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="autofill\core\browser\autofill_profile.cc">
+      <Filter>autofill\core\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="autofill\core\browser\address.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="autofill\core\browser\autofill-inl.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="autofill\core\browser\password_autofill_manager.cc">
+      <Filter>autofill\core\browser</Filter>
+    </ClCompile>
+    <ClCompile Include="autofill\core\browser\form_field.cc">
+      <Filter>autofill\core\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="autofill\core\browser\autocomplete_history_manager.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="autofill\core\browser\form_group.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="autofill\core\browser\password_generator.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="autofill\core\browser\autofill_country.cc">
+      <Filter>autofill\core\browser</Filter>
+    </ClCompile>
+    <ClCompile Include="autofill\core\browser\autofill_field.cc">
+      <Filter>autofill\core\browser</Filter>
+    </ClCompile>
+    <ClCompile Include="autofill\core\browser\autofill_ie_toolbar_import_win.cc">
+      <Filter>autofill\core\browser</Filter>
+    </ClCompile>
+    <None Include="autofill\core\browser\autofill_regex_constants.cc.utf8">
+      <Filter>autofill\core\browser</Filter>
+    </None>
+    <ClInclude Include="autofill\core\browser\autofill_server_field_info.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <None Include="autofill\core\browser\personal_data_manager_mac.mm">
+      <Filter>autofill\core\browser\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="autofill\core\browser\webdata\autofill_webdata_service_observer.h">
+      <Filter>autofill\core\browser\webdata</Filter>
+    </ClInclude>
+    <ClInclude Include="autofill\core\browser\webdata\autofill_webdata_service.h">
+      <Filter>autofill\core\browser\webdata</Filter>
+    </ClInclude>
+    <ClCompile Include="autofill\core\browser\webdata\autofill_entry.cc">
+      <Filter>autofill\core\browser\webdata</Filter>
+    </ClCompile>
+    <ClInclude Include="autofill\core\browser\webdata\autofill_webdata_backend.h">
+      <Filter>autofill\core\browser\webdata</Filter>
+    </ClInclude>
+    <ClInclude Include="autofill\core\browser\webdata\autofill_change.h">
+      <Filter>autofill\core\browser\webdata</Filter>
+    </ClInclude>
+    <ClInclude Include="autofill\core\browser\webdata\autofill_webdata_backend_impl.h">
+      <Filter>autofill\core\browser\webdata</Filter>
+    </ClInclude>
+    <ClCompile Include="autofill\core\browser\webdata\autofill_webdata_service.cc">
+      <Filter>autofill\core\browser\webdata</Filter>
+    </ClCompile>
+    <ClCompile Include="autofill\core\browser\webdata\autofill_table.cc">
+      <Filter>autofill\core\browser\webdata</Filter>
+    </ClCompile>
+    <ClInclude Include="autofill\core\browser\webdata\autofill_table.h">
+      <Filter>autofill\core\browser\webdata</Filter>
+    </ClInclude>
+    <ClInclude Include="autofill\core\browser\webdata\autofill_entry.h">
+      <Filter>autofill\core\browser\webdata</Filter>
+    </ClInclude>
+    <ClInclude Include="autofill\core\browser\webdata\autofill_webdata.h">
+      <Filter>autofill\core\browser\webdata</Filter>
+    </ClInclude>
+    <ClCompile Include="autofill\core\browser\webdata\autofill_change.cc">
+      <Filter>autofill\core\browser\webdata</Filter>
+    </ClCompile>
+    <ClCompile Include="autofill\core\browser\webdata\autofill_webdata_backend_impl.cc">
+      <Filter>autofill\core\browser\webdata</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

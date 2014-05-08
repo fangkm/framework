@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="nss">
+      <UniqueIdentifier>{3C09AD6B-82F0-6694-7902-5905A4E0AD0E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\nss">
+      <UniqueIdentifier>{3C09AD6B-82F0-6694-7902-5905A4E0AD0E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="nss.gyp"/>
+    <ClCompile Include="nss\lib\nss\nssver.c">
+      <Filter>nss\lib\nss</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

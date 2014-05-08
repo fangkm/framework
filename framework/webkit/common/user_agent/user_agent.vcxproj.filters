@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="user_agent.cc"/>
+    <ClInclude Include="webkit_user_agent_export.h"/>
+    <ClInclude Include="user_agent_util.h"/>
+    <ClCompile Include="user_agent_util.cc"/>
+    <None Include="webkit_user_agent.gyp"/>
+    <ClInclude Include="user_agent.h"/>
+    <None Include="user_agent_util_ios.mm">
+      <Filter>_excluded_files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

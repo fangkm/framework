@@ -1,0 +1,40 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opus", "opus.vcxproj", "{384D7DD0-7D41-F430-3757-3E2D2C5A79A5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opus_demo", "opus_demo.vcxproj", "{3F2989C9-1CF7-C8C5-3647-DBD59AE21D67}"
+	ProjectSection(ProjectDependencies) = postProject
+		{384D7DD0-7D41-F430-3757-3E2D2C5A79A5} = {384D7DD0-7D41-F430-3757-3E2D2C5A79A5}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{384D7DD0-7D41-F430-3757-3E2D2C5A79A5}.Release|x64.ActiveCfg = Release|x64
+		{384D7DD0-7D41-F430-3757-3E2D2C5A79A5}.Release|x64.Build.0 = Release|x64
+		{384D7DD0-7D41-F430-3757-3E2D2C5A79A5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{384D7DD0-7D41-F430-3757-3E2D2C5A79A5}.Debug|Win32.Build.0 = Debug|Win32
+		{384D7DD0-7D41-F430-3757-3E2D2C5A79A5}.Debug|x64.ActiveCfg = Debug|x64
+		{384D7DD0-7D41-F430-3757-3E2D2C5A79A5}.Debug|x64.Build.0 = Debug|x64
+		{384D7DD0-7D41-F430-3757-3E2D2C5A79A5}.Release|Win32.ActiveCfg = Release|Win32
+		{384D7DD0-7D41-F430-3757-3E2D2C5A79A5}.Release|Win32.Build.0 = Release|Win32
+		{3F2989C9-1CF7-C8C5-3647-DBD59AE21D67}.Release|x64.ActiveCfg = Release|x64
+		{3F2989C9-1CF7-C8C5-3647-DBD59AE21D67}.Release|x64.Build.0 = Release|x64
+		{3F2989C9-1CF7-C8C5-3647-DBD59AE21D67}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3F2989C9-1CF7-C8C5-3647-DBD59AE21D67}.Debug|Win32.Build.0 = Debug|Win32
+		{3F2989C9-1CF7-C8C5-3647-DBD59AE21D67}.Debug|x64.ActiveCfg = Debug|x64
+		{3F2989C9-1CF7-C8C5-3647-DBD59AE21D67}.Debug|x64.Build.0 = Debug|x64
+		{3F2989C9-1CF7-C8C5-3647-DBD59AE21D67}.Release|Win32.ActiveCfg = Release|Win32
+		{3F2989C9-1CF7-C8C5-3647-DBD59AE21D67}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal

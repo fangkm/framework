@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\child">
+      <UniqueIdentifier>{E3C40506-007B-C2D8-0589-97418FE2E754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\child\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="webkit_support.gyp"/>
+    <ClCompile Include="..\..\build\precompile.cc">
+      <Filter>..\..\build</Filter>
+    </ClCompile>
+    <ClCompile Include="..\child\weburlloader_impl.cc">
+      <Filter>..\child</Filter>
+    </ClCompile>
+    <ClInclude Include="..\child\webfallbackthemeengine_impl.h">
+      <Filter>..\child</Filter>
+    </ClInclude>
+    <ClCompile Include="..\child\weburlresponse_extradata_impl.cc">
+      <Filter>..\child</Filter>
+    </ClCompile>
+    <ClInclude Include="..\child\resource_loader_bridge.h">
+      <Filter>..\child</Filter>
+    </ClInclude>
+    <ClInclude Include="..\child\weburlrequest_extradata_impl.h">
+      <Filter>..\child</Filter>
+    </ClInclude>
+    <ClInclude Include="..\child\ftp_directory_listing_response_delegate.h">
+      <Filter>..\child</Filter>
+    </ClInclude>
+    <ClInclude Include="..\child\worker_task_runner.h">
+      <Filter>..\child</Filter>
+    </ClInclude>
+    <ClCompile Include="..\child\websocketstreamhandle_impl.cc">
+      <Filter>..\child</Filter>
+    </ClCompile>
+    <ClInclude Include="..\child\websocketstreamhandle_impl.h">
+      <Filter>..\child</Filter>
+    </ClInclude>
+    <ClCompile Include="..\child\resource_loader_bridge.cc">
+      <Filter>..\child</Filter>
+    </ClCompile>
+    <ClCompile Include="..\child\web_discardable_memory_impl.cc">
+      <Filter>..\child</Filter>
+    </ClCompile>
+    <ClCompile Include="..\child\webkitplatformsupport_impl.cc">
+      <Filter>..\child</Filter>
+    </ClCompile>
+    <ClInclude Include="..\child\webkitplatformsupport_child_impl.h">
+      <Filter>..\child</Filter>
+    </ClInclude>
+    <ClCompile Include="..\child\webkitplatformsupport_child_impl.cc">
+      <Filter>..\child</Filter>
+    </ClCompile>
+    <ClInclude Include="..\child\webkit_child_helpers.h">
+      <Filter>..\child</Filter>
+    </ClInclude>
+    <ClCompile Include="..\child\weburlrequest_extradata_impl.cc">
+      <Filter>..\child</Filter>
+    </ClCompile>
+    <ClCompile Include="..\child\ftp_directory_listing_response_delegate.cc">
+      <Filter>..\child</Filter>
+    </ClCompile>
+    <ClInclude Include="..\child\weburlloader_impl.h">
+      <Filter>..\child</Filter>
+    </ClInclude>
+    <ClInclude Include="..\child\webkitplatformsupport_impl.h">
+      <Filter>..\child</Filter>
+    </ClInclude>
+    <ClCompile Include="..\child\fling_curve_configuration.cc">
+      <Filter>..\child</Filter>
+    </ClCompile>
+    <ClCompile Include="..\child\multipart_response_delegate.cc">
+      <Filter>..\child</Filter>
+    </ClCompile>
+    <ClInclude Include="..\child\multipart_response_delegate.h">
+      <Filter>..\child</Filter>
+    </ClInclude>
+    <ClInclude Include="..\child\web_discardable_memory_impl.h">
+      <Filter>..\child</Filter>
+    </ClInclude>
+    <ClInclude Include="..\child\webthemeengine_impl_win.h">
+      <Filter>..\child</Filter>
+    </ClInclude>
+    <ClCompile Include="..\child\webthread_impl.cc">
+      <Filter>..\child</Filter>
+    </ClCompile>
+    <ClInclude Include="..\child\webthemeengine_impl_default.h">
+      <Filter>..\child</Filter>
+    </ClInclude>
+    <ClInclude Include="..\child\webkit_child_export.h">
+      <Filter>..\child</Filter>
+    </ClInclude>
+    <ClCompile Include="..\child\webthemeengine_impl_win.cc">
+      <Filter>..\child</Filter>
+    </ClCompile>
+    <ClCompile Include="..\child\webkit_child_helpers.cc">
+      <Filter>..\child</Filter>
+    </ClCompile>
+    <ClCompile Include="..\child\worker_task_runner.cc">
+      <Filter>..\child</Filter>
+    </ClCompile>
+    <ClInclude Include="..\child\webthemeengine_impl_android.h">
+      <Filter>..\child</Filter>
+    </ClInclude>
+    <ClInclude Include="..\child\fling_animator_impl_android.h">
+      <Filter>..\child</Filter>
+    </ClInclude>
+    <ClCompile Include="..\child\webthemeengine_impl_default.cc">
+      <Filter>..\child</Filter>
+    </ClCompile>
+    <ClInclude Include="..\child\websocketstreamhandle_delegate.h">
+      <Filter>..\child</Filter>
+    </ClInclude>
+    <ClInclude Include="..\child\weburlresponse_extradata_impl.h">
+      <Filter>..\child</Filter>
+    </ClInclude>
+    <ClCompile Include="..\child\touch_fling_gesture_curve.cc">
+      <Filter>..\child</Filter>
+    </ClCompile>
+    <ClInclude Include="..\child\websocketstreamhandle_bridge.h">
+      <Filter>..\child</Filter>
+    </ClInclude>
+    <ClInclude Include="..\child\fling_curve_configuration.h">
+      <Filter>..\child</Filter>
+    </ClInclude>
+    <ClInclude Include="..\child\webthread_impl.h">
+      <Filter>..\child</Filter>
+    </ClInclude>
+    <ClInclude Include="..\child\touch_fling_gesture_curve.h">
+      <Filter>..\child</Filter>
+    </ClInclude>
+    <ClCompile Include="..\child\webfallbackthemeengine_impl.cc">
+      <Filter>..\child</Filter>
+    </ClCompile>
+    <ClCompile Include="..\child\webthemeengine_impl_mac.cc">
+      <Filter>..\child\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="..\child\webthemeengine_impl_mac.h">
+      <Filter>..\child\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="..\child\fling_animator_impl_android.cc">
+      <Filter>..\child\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\child\webthemeengine_impl_android.cc">
+      <Filter>..\child\_excluded_files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

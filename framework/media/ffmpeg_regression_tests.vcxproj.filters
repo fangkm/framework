@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="base">
+      <UniqueIdentifier>{DBBAC0A6-BB0A-CA51-45CC-DA4574B671E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ffmpeg">
+      <UniqueIdentifier>{D4EF0570-F7DB-697C-F41C-C2D1A5CC3B21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filters">
+      <UniqueIdentifier>{B0590D60-4D76-E627-69CE-00D7235F5213}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="media.gyp"/>
+    <ClCompile Include="base\run_all_unittests.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\test_data_util.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmpeg\ffmpeg_regression_tests.cc">
+      <Filter>ffmpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="filters\pipeline_integration_test_base.cc">
+      <Filter>filters</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

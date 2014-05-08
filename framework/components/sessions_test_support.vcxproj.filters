@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="sessions">
+      <UniqueIdentifier>{388776B8-C261-22CD-D2D7-86D28DA25D1B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="components.gyp"/>
+    <ClInclude Include="sessions\serialized_navigation_entry_test_helper.h">
+      <Filter>sessions</Filter>
+    </ClInclude>
+    <ClCompile Include="sessions\serialized_navigation_entry_test_helper.cc">
+      <Filter>sessions</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

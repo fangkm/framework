@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server">
+      <UniqueIdentifier>{DDE1ED62-148A-C318-D2FB-235778089083}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="net.gyp"/>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+    <ClInclude Include="server\http_server.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="server\http_server_response_info.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="server\http_connection.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClCompile Include="server\http_server.cc">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\http_connection.cc">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\web_socket.cc">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClInclude Include="server\web_socket.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClCompile Include="server\http_server_response_info.cc">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\http_server_request_info.cc">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClInclude Include="server\http_server_request_info.h">
+      <Filter>server</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

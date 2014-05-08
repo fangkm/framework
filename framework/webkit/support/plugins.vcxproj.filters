@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\plugins">
+      <UniqueIdentifier>{9DE023B3-F1C0-CF0D-AF52-3287B388D922}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\plugins\npapi">
+      <UniqueIdentifier>{2C243298-BAEA-FB05-9ADC-83FF12AC8DCF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\plugins\npapi\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\plugins\ppapi">
+      <UniqueIdentifier>{15C4068B-59E6-A58B-C933-FCE0F2E45305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\plugins\ppapi\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="webkit_support.gyp"/>
+    <ClCompile Include="..\..\build\precompile.cc">
+      <Filter>..\..\build</Filter>
+    </ClCompile>
+    <ClInclude Include="..\plugins\sad_plugin.h">
+      <Filter>..\plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\webkit_plugins_export.h">
+      <Filter>..\plugins</Filter>
+    </ClInclude>
+    <ClCompile Include="..\plugins\sad_plugin.cc">
+      <Filter>..\plugins</Filter>
+    </ClCompile>
+    <ClInclude Include="..\plugins\npapi\plugin_instance.h">
+      <Filter>..\plugins\npapi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\plugins\npapi\webplugin.cc">
+      <Filter>..\plugins\npapi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\plugins\npapi\webplugin_delegate.h">
+      <Filter>..\plugins\npapi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\plugins\npapi\plugin_stream_win.cc">
+      <Filter>..\plugins\npapi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\plugins\npapi\webplugin.h">
+      <Filter>..\plugins\npapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\npapi\webplugin_ime_win.h">
+      <Filter>..\plugins\npapi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\plugins\npapi\webplugin_delegate_impl.cc">
+      <Filter>..\plugins\npapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\npapi\plugin_lib.cc">
+      <Filter>..\plugins\npapi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\plugins\npapi\plugin_stream.h">
+      <Filter>..\plugins\npapi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\plugins\npapi\webplugin_delegate_impl_win.cc">
+      <Filter>..\plugins\npapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\npapi\plugin_stream_url.cc">
+      <Filter>..\plugins\npapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\npapi\plugin_host.cc">
+      <Filter>..\plugins\npapi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\plugins\npapi\plugin_host.h">
+      <Filter>..\plugins\npapi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\plugins\npapi\plugin_string_stream.cc">
+      <Filter>..\plugins\npapi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\plugins\npapi\plugin_stream_url.h">
+      <Filter>..\plugins\npapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\npapi\plugin_lib.h">
+      <Filter>..\plugins\npapi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\plugins\npapi\webplugin_impl.cc">
+      <Filter>..\plugins\npapi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\plugins\npapi\plugin_string_stream.h">
+      <Filter>..\plugins\npapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\npapi\webplugin_impl.h">
+      <Filter>..\plugins\npapi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\plugins\npapi\plugin_instance.cc">
+      <Filter>..\plugins\npapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\npapi\plugin_stream.cc">
+      <Filter>..\plugins\npapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\npapi\webplugin_ime_win.cc">
+      <Filter>..\plugins\npapi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\plugins\npapi\webplugin_delegate_impl.h">
+      <Filter>..\plugins\npapi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\plugins\npapi\gtk_plugin_container_manager.cc">
+      <Filter>..\plugins\npapi\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\npapi\plugin_stream_posix.cc">
+      <Filter>..\plugins\npapi\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\npapi\webplugin_delegate_impl_gtk.cc">
+      <Filter>..\plugins\npapi\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="..\plugins\npapi\webplugin_accelerated_surface_mac.h">
+      <Filter>..\plugins\npapi\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\npapi\gtk_plugin_container.h">
+      <Filter>..\plugins\npapi\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="..\plugins\npapi\webplugin_delegate_impl_mac.mm">
+      <Filter>..\plugins\npapi\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="..\plugins\npapi\webplugin_delegate_impl_android.cc">
+      <Filter>..\plugins\npapi\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="..\plugins\npapi\plugin_instance_mac.mm">
+      <Filter>..\plugins\npapi\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="..\plugins\npapi\webplugin_delegate_impl_aura.cc">
+      <Filter>..\plugins\npapi\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="..\plugins\npapi\gtk_plugin_container_manager.h">
+      <Filter>..\plugins\npapi\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="..\plugins\npapi\gtk_plugin_container.cc">
+      <Filter>..\plugins\npapi\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="..\plugins\npapi\plugin_web_event_converter_mac.mm">
+      <Filter>..\plugins\npapi\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="..\plugins\npapi\plugin_web_event_converter_mac.h">
+      <Filter>..\plugins\npapi\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\ppapi\ppb_buffer_impl.h">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\plugins\ppapi\resource_helper.cc">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\plugins\ppapi\message_channel.h">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\ppapi\plugin_object.h">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\ppapi\ppb_audio_impl.h">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\ppapi\host_array_buffer_var.h">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\ppapi\ppb_file_ref_impl.h">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\ppapi\host_globals.h">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\plugins\ppapi\npobject_var.cc">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\ppapi\ppb_x509_certificate_private_impl.cc">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\ppapi\message_channel.cc">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\ppapi\plugin_object.cc">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\plugins\ppapi\ppb_var_deprecated_impl.h">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\plugins\ppapi\ppb_audio_impl.cc">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\plugins\ppapi\string.h">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\ppapi\ppb_uma_private_impl.h">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\ppapi\npobject_var.h">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\plugins\ppapi\host_var_tracker.cc">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\plugins\ppapi\url_request_info_util.h">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\ppapi\ppb_gpu_blacklist_private_impl.h">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\ppapi\ppapi_webplugin_impl.h">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\plugins\ppapi\event_conversion.cc">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\ppapi\ppb_buffer_impl.cc">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\plugins\ppapi\ppb_network_monitor_private_impl.h">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\plugins\ppapi\resource_creation_impl.cc">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\ppapi\ppb_tcp_socket_private_impl.cc">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\plugins\ppapi\host_var_tracker.h">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\ppapi\url_response_info_util.h">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\plugins\ppapi\ppapi_interface_factory.cc">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\plugins\ppapi\content_decryptor_delegate.h">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\plugins\ppapi\host_array_buffer_var.cc">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\ppapi\ppb_broker_impl.cc">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\ppapi\ppapi_plugin_instance.cc">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\ppapi\npapi_glue.cc">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\ppapi\quota_file_io.cc">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\plugins\ppapi\ppb_broker_impl.h">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\plugins\ppapi\ppb_gpu_blacklist_private_impl.cc">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\plugins\ppapi\ppb_scrollbar_impl.h">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\ppapi\quota_file_io.h">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\ppapi\ppb_flash_message_loop_impl.h">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\plugins\ppapi\ppb_graphics_3d_impl.cc">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\ppapi\ppb_scrollbar_impl.cc">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\plugins\ppapi\ppb_widget_impl.h">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\plugins\ppapi\audio_helper.cc">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\ppapi\url_response_info_util.cc">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\plugins\ppapi\fullscreen_container.h">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\plugins\ppapi\string.cc">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\plugins\ppapi\plugin_delegate.h">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\plugins\ppapi\ppb_proxy_impl.cc">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\plugins\ppapi\ppb_graphics_3d_impl.h">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\ppapi\resource_creation_impl.h">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\ppapi\ppb_image_data_impl.h">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\plugins\ppapi\usb_key_code_conversion.cc">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\plugins\ppapi\ppapi_interface_factory.h">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\plugins\ppapi\ppb_network_monitor_private_impl.cc">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\ppapi\ppb_video_decoder_impl.cc">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\plugins\ppapi\gfx_conversion.h">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\plugins\ppapi\ppb_uma_private_impl.cc">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\plugins\ppapi\v8_var_converter.h">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\ppapi\resource_helper.h">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\ppapi\ppb_proxy_impl.h">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\ppapi\plugin_module.h">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\ppapi\ppb_tcp_server_socket_private_impl.h">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\plugins\ppapi\ppb_file_ref_impl.cc">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\ppapi\ppb_var_deprecated_impl.cc">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\ppapi\ppb_widget_impl.cc">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\plugins\ppapi\ppapi_plugin_instance.h">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\ppapi\audio_helper.h">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\plugins\ppapi\v8_var_converter.cc">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\ppapi\content_decryptor_delegate.cc">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\ppapi\ppb_tcp_server_socket_private_impl.cc">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\plugins\ppapi\usb_key_code_conversion.h">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\ppapi\ppb_tcp_socket_private_impl.h">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\plugins\ppapi\usb_key_code_conversion_win.cc">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\ppapi\ppb_flash_message_loop_impl.cc">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\plugins\ppapi\npapi_glue.h">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\ppapi\ppb_x509_certificate_private_impl.h">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\plugins\ppapi\host_globals.cc">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\plugins\ppapi\event_conversion.h">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\plugins\ppapi\ppb_image_data_impl.cc">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\plugins\ppapi\common.h">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\plugins\ppapi\ppapi_webplugin_impl.cc">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\ppapi\url_request_info_util.cc">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\ppapi\plugin_module.cc">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\plugins\ppapi\ppb_video_decoder_impl.h">
+      <Filter>..\plugins\ppapi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\plugins\ppapi\usb_key_code_conversion_linux.cc">
+      <Filter>..\plugins\ppapi\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\ppapi\usb_key_code_conversion_mac.cc">
+      <Filter>..\plugins\ppapi\_excluded_files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

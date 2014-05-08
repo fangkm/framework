@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="nspr">
+      <UniqueIdentifier>{2A60EFAC-ED70-41AF-106F-40939EE26573}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nspr\pr">
+      <UniqueIdentifier>{6F2BBC0B-0E93-2FC7-373C-13DB88B6454D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nspr\pr\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nspr\pr\src\md">
+      <UniqueIdentifier>{C8C41FA0-839B-E6B4-6847-A48E7F66F8F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nspr\pr\src\md\windows">
+      <UniqueIdentifier>{C1450D01-C033-76F3-3763-6DE88AF48A77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nspr\pr\src\md\unix">
+      <UniqueIdentifier>{23A1C8CF-B091-0314-2D0E-B543963E25F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nspr\pr\src\md\unix\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nspr\pr\src\malloc">
+      <UniqueIdentifier>{D99C6C70-8D9D-9258-66BB-AC2EF94D56B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nspr\pr\src\pthreads">
+      <UniqueIdentifier>{7BBAA3F0-A4AC-9578-9223-80021E828539}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nspr\pr\src\pthreads\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nspr\pr\src\misc">
+      <UniqueIdentifier>{CA4D9DA7-E0F1-5006-AD0E-D310350226E8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nspr\pr\src\linking">
+      <UniqueIdentifier>{AB10F1DC-62E0-6707-8601-B271719E3FF5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nspr\pr\src\threads">
+      <UniqueIdentifier>{B3F9119D-B305-894A-B6E6-51DD418EEA56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nspr\pr\src\threads\combined">
+      <UniqueIdentifier>{6F353847-7618-928B-4775-F49898401E77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nspr\pr\src\io">
+      <UniqueIdentifier>{D4808CDE-8ED0-D75B-D2DD-A3C4728AD1B9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nspr\pr\src\memory">
+      <UniqueIdentifier>{8F5DB3DB-0272-DCA1-4517-81A538CE0517}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nspr\pr\include">
+      <UniqueIdentifier>{57CA55B8-BCC5-4000-CE3A-58972F82E9CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nspr\pr\include\md">
+      <UniqueIdentifier>{C8C41FA0-839B-E6B4-6847-A48E7F66F8F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nspr\pr\include\obsolete">
+      <UniqueIdentifier>{08B67AC5-5821-0051-EA37-444D049FC460}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nspr\pr\include\private">
+      <UniqueIdentifier>{AF58C028-3D78-1FD9-82C2-3238461BAF30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nspr\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nspr\lib\libc">
+      <UniqueIdentifier>{DCAA61C7-46B0-D40A-FF9E-5C8815F6EC4E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nspr\lib\libc\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nspr\lib\libc\include">
+      <UniqueIdentifier>{57CA55B8-BCC5-4000-CE3A-58972F82E9CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nspr\lib\ds">
+      <UniqueIdentifier>{C9DBEDBD-02F5-E8EC-4B4D-1FEC0BCB52A4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="nss.gyp"/>
+    <ClCompile Include="nspr\pr\src\md\prosdep.c">
+      <Filter>nspr\pr\src\md</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\md\windows\w95dllmain.c">
+      <Filter>nspr\pr\src\md\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\md\windows\w95io.c">
+      <Filter>nspr\pr\src\md\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\md\windows\w32shm.c">
+      <Filter>nspr\pr\src\md\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\md\windows\w95thred.c">
+      <Filter>nspr\pr\src\md\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\md\windows\w32poll.c">
+      <Filter>nspr\pr\src\md\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\md\windows\w32ipcsem.c">
+      <Filter>nspr\pr\src\md\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\md\windows\ntinrval.c">
+      <Filter>nspr\pr\src\md\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\md\windows\ntsec.c">
+      <Filter>nspr\pr\src\md\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\md\windows\ntgc.c">
+      <Filter>nspr\pr\src\md\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\md\windows\ntsem.c">
+      <Filter>nspr\pr\src\md\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\md\windows\w95cv.c">
+      <Filter>nspr\pr\src\md\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\md\windows\ntmisc.c">
+      <Filter>nspr\pr\src\md\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\md\windows\w95sock.c">
+      <Filter>nspr\pr\src\md\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\md\windows\win32_errors.c">
+      <Filter>nspr\pr\src\md\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\md\windows\w32rng.c">
+      <Filter>nspr\pr\src\md\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\md\unix\uxproces.c">
+      <Filter>nspr\pr\src\md\unix\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\md\unix\unix_errors.c">
+      <Filter>nspr\pr\src\md\unix\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\md\unix\uxwrap.c">
+      <Filter>nspr\pr\src\md\unix\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\md\unix\darwin.c">
+      <Filter>nspr\pr\src\md\unix\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="nspr\pr\src\md\unix\os_Darwin_x86.s">
+      <Filter>nspr\pr\src\md\unix\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="nspr\pr\src\md\unix\unix.c">
+      <Filter>nspr\pr\src\md\unix\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\md\unix\uxrng.c">
+      <Filter>nspr\pr\src\md\unix\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\md\unix\uxshm.c">
+      <Filter>nspr\pr\src\md\unix\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="nspr\pr\src\md\unix\os_Darwin_x86_64.s">
+      <Filter>nspr\pr\src\md\unix\_excluded_files</Filter>
+    </None>
+    <None Include="nspr\pr\src\md\unix\os_Darwin.s">
+      <Filter>nspr\pr\src\md\unix\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="nspr\pr\src\malloc\prmalloc.c">
+      <Filter>nspr\pr\src\malloc</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\malloc\prmem.c">
+      <Filter>nspr\pr\src\malloc</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\pthreads\ptthread.c">
+      <Filter>nspr\pr\src\pthreads\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\pthreads\ptio.c">
+      <Filter>nspr\pr\src\pthreads\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\pthreads\ptsynch.c">
+      <Filter>nspr\pr\src\pthreads\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\pthreads\ptmisc.c">
+      <Filter>nspr\pr\src\pthreads\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\misc\prnetdb.c">
+      <Filter>nspr\pr\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\misc\prolock.c">
+      <Filter>nspr\pr\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\misc\prthinfo.c">
+      <Filter>nspr\pr\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\misc\prerr.c">
+      <Filter>nspr\pr\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\misc\pratom.c">
+      <Filter>nspr\pr\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\misc\prerrortable.c">
+      <Filter>nspr\pr\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\misc\prtpool.c">
+      <Filter>nspr\pr\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\misc\prinrval.c">
+      <Filter>nspr\pr\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\misc\prtime.c">
+      <Filter>nspr\pr\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\misc\prenv.c">
+      <Filter>nspr\pr\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\misc\prdtoa.c">
+      <Filter>nspr\pr\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\misc\pralarm.c">
+      <Filter>nspr\pr\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\misc\prinit.c">
+      <Filter>nspr\pr\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\misc\praton.c">
+      <Filter>nspr\pr\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\misc\prcountr.c">
+      <Filter>nspr\pr\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\misc\prlong.c">
+      <Filter>nspr\pr\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\misc\prtrace.c">
+      <Filter>nspr\pr\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\misc\prerror.c">
+      <Filter>nspr\pr\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\misc\prlog2.c">
+      <Filter>nspr\pr\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\misc\pripcsem.c">
+      <Filter>nspr\pr\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\misc\pripc.c">
+      <Filter>nspr\pr\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\misc\prrng.c">
+      <Filter>nspr\pr\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\misc\prsystem.c">
+      <Filter>nspr\pr\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\linking\prlink.c">
+      <Filter>nspr\pr\src\linking</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\threads\prtpd.c">
+      <Filter>nspr\pr\src\threads</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\threads\prmon.c">
+      <Filter>nspr\pr\src\threads</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\threads\prdump.c">
+      <Filter>nspr\pr\src\threads</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\threads\prsem.c">
+      <Filter>nspr\pr\src\threads</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\threads\prcthr.c">
+      <Filter>nspr\pr\src\threads</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\threads\prrwlock.c">
+      <Filter>nspr\pr\src\threads</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\threads\prcmon.c">
+      <Filter>nspr\pr\src\threads</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\threads\combined\prulock.c">
+      <Filter>nspr\pr\src\threads\combined</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\threads\combined\prustack.c">
+      <Filter>nspr\pr\src\threads\combined</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\threads\combined\prucpu.c">
+      <Filter>nspr\pr\src\threads\combined</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\threads\combined\prucv.c">
+      <Filter>nspr\pr\src\threads\combined</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\threads\combined\pruthr.c">
+      <Filter>nspr\pr\src\threads\combined</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\io\prpolevt.c">
+      <Filter>nspr\pr\src\io</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\io\pripv6.c">
+      <Filter>nspr\pr\src\io</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\io\prstdio.c">
+      <Filter>nspr\pr\src\io</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\io\priometh.c">
+      <Filter>nspr\pr\src\io</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\io\prmapopt.c">
+      <Filter>nspr\pr\src\io</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\io\prfile.c">
+      <Filter>nspr\pr\src\io</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\io\prmwait.c">
+      <Filter>nspr\pr\src\io</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\io\prlayer.c">
+      <Filter>nspr\pr\src\io</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\io\prsocket.c">
+      <Filter>nspr\pr\src\io</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\io\prfdcach.c">
+      <Filter>nspr\pr\src\io</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\io\prscanf.c">
+      <Filter>nspr\pr\src\io</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\io\prio.c">
+      <Filter>nspr\pr\src\io</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\io\prlog.c">
+      <Filter>nspr\pr\src\io</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\io\prprf.c">
+      <Filter>nspr\pr\src\io</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\io\prmmap.c">
+      <Filter>nspr\pr\src\io</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\io\prdir.c">
+      <Filter>nspr\pr\src\io</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\memory\prshma.c">
+      <Filter>nspr\pr\src\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\memory\prseg.c">
+      <Filter>nspr\pr\src\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\pr\src\memory\prshm.c">
+      <Filter>nspr\pr\src\memory</Filter>
+    </ClCompile>
+    <ClInclude Include="nspr\pr\include\prio.h">
+      <Filter>nspr\pr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\prtrace.h">
+      <Filter>nspr\pr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\prdtoa.h">
+      <Filter>nspr\pr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\prthread.h">
+      <Filter>nspr\pr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\pripcsem.h">
+      <Filter>nspr\pr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\prcountr.h">
+      <Filter>nspr\pr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\prerr.h">
+      <Filter>nspr\pr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\prcpucfg.h">
+      <Filter>nspr\pr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\prpdce.h">
+      <Filter>nspr\pr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\prvrsion.h">
+      <Filter>nspr\pr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\prlong.h">
+      <Filter>nspr\pr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\prprf.h">
+      <Filter>nspr\pr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\prproces.h">
+      <Filter>nspr\pr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\prrng.h">
+      <Filter>nspr\pr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\prinrval.h">
+      <Filter>nspr\pr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\prclist.h">
+      <Filter>nspr\pr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\prmwait.h">
+      <Filter>nspr\pr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\prshma.h">
+      <Filter>nspr\pr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\prtpool.h">
+      <Filter>nspr\pr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\prrwlock.h">
+      <Filter>nspr\pr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\prmem.h">
+      <Filter>nspr\pr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\prerror.h">
+      <Filter>nspr\pr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\nspr.h">
+      <Filter>nspr\pr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\prmon.h">
+      <Filter>nspr\pr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\prbit.h">
+      <Filter>nspr\pr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\prcmon.h">
+      <Filter>nspr\pr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\prcvar.h">
+      <Filter>nspr\pr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\prnetdb.h">
+      <Filter>nspr\pr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\prinit.h">
+      <Filter>nspr\pr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\prshm.h">
+      <Filter>nspr\pr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\prlog.h">
+      <Filter>nspr\pr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\prtime.h">
+      <Filter>nspr\pr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\prsystem.h">
+      <Filter>nspr\pr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\prenv.h">
+      <Filter>nspr\pr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\prwin16.h">
+      <Filter>nspr\pr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\pratom.h">
+      <Filter>nspr\pr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\prlink.h">
+      <Filter>nspr\pr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\prtypes.h">
+      <Filter>nspr\pr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\prolock.h">
+      <Filter>nspr\pr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\prinet.h">
+      <Filter>nspr\pr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\prlock.h">
+      <Filter>nspr\pr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\md\_win32_errors.h">
+      <Filter>nspr\pr\include\md</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\md\prosdep.h">
+      <Filter>nspr\pr\include\md</Filter>
+    </ClInclude>
+    <None Include="nspr\pr\include\md\_win95.cfg">
+      <Filter>nspr\pr\include\md</Filter>
+    </None>
+    <ClInclude Include="nspr\pr\include\md\_pth.h">
+      <Filter>nspr\pr\include\md</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\md\_win95.h">
+      <Filter>nspr\pr\include\md</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\md\_unixos.h">
+      <Filter>nspr\pr\include\md</Filter>
+    </ClInclude>
+    <None Include="nspr\pr\include\md\_darwin.cfg">
+      <Filter>nspr\pr\include\md</Filter>
+    </None>
+    <ClInclude Include="nspr\pr\include\md\_darwin.h">
+      <Filter>nspr\pr\include\md</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\md\_unix_errors.h">
+      <Filter>nspr\pr\include\md</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\md\_pcos.h">
+      <Filter>nspr\pr\include\md</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\obsolete\prsem.h">
+      <Filter>nspr\pr\include\obsolete</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\obsolete\probslet.h">
+      <Filter>nspr\pr\include\obsolete</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\obsolete\protypes.h">
+      <Filter>nspr\pr\include\obsolete</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\obsolete\pralarm.h">
+      <Filter>nspr\pr\include\obsolete</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\private\pprthred.h">
+      <Filter>nspr\pr\include\private</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\private\pprmwait.h">
+      <Filter>nspr\pr\include\private</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\private\prpriv.h">
+      <Filter>nspr\pr\include\private</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\private\primpl.h">
+      <Filter>nspr\pr\include\private</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\pr\include\private\pprio.h">
+      <Filter>nspr\pr\include\private</Filter>
+    </ClInclude>
+    <ClCompile Include="nspr\lib\libc\src\strcmp.c">
+      <Filter>nspr\lib\libc\src</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\lib\libc\src\strdup.c">
+      <Filter>nspr\lib\libc\src</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\lib\libc\src\strcat.c">
+      <Filter>nspr\lib\libc\src</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\lib\libc\src\plerror.c">
+      <Filter>nspr\lib\libc\src</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\lib\libc\src\strpbrk.c">
+      <Filter>nspr\lib\libc\src</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\lib\libc\src\plgetopt.c">
+      <Filter>nspr\lib\libc\src</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\lib\libc\src\strstr.c">
+      <Filter>nspr\lib\libc\src</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\lib\libc\src\strcase.c">
+      <Filter>nspr\lib\libc\src</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\lib\libc\src\strchr.c">
+      <Filter>nspr\lib\libc\src</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\lib\libc\src\base64.c">
+      <Filter>nspr\lib\libc\src</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\lib\libc\src\strcpy.c">
+      <Filter>nspr\lib\libc\src</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\lib\libc\src\strtok.c">
+      <Filter>nspr\lib\libc\src</Filter>
+    </ClCompile>
+    <ClCompile Include="nspr\lib\libc\src\strlen.c">
+      <Filter>nspr\lib\libc\src</Filter>
+    </ClCompile>
+    <ClInclude Include="nspr\lib\libc\include\plstr.h">
+      <Filter>nspr\lib\libc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\lib\libc\include\plerror.h">
+      <Filter>nspr\lib\libc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\lib\libc\include\plbase64.h">
+      <Filter>nspr\lib\libc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\lib\libc\include\plgetopt.h">
+      <Filter>nspr\lib\libc\include</Filter>
+    </ClInclude>
+    <ClCompile Include="nspr\lib\ds\plhash.c">
+      <Filter>nspr\lib\ds</Filter>
+    </ClCompile>
+    <ClInclude Include="nspr\lib\ds\plhash.h">
+      <Filter>nspr\lib\ds</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\lib\ds\plarenas.h">
+      <Filter>nspr\lib\ds</Filter>
+    </ClInclude>
+    <ClInclude Include="nspr\lib\ds\plarena.h">
+      <Filter>nspr\lib\ds</Filter>
+    </ClInclude>
+    <ClCompile Include="nspr\lib\ds\plarena.c">
+      <Filter>nspr\lib\ds</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

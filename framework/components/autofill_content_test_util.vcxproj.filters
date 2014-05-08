@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="autofill">
+      <UniqueIdentifier>{94F60235-EBD6-403C-1911-BD15E9B6C8E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="autofill\content">
+      <UniqueIdentifier>{4D624FB1-28CC-8F22-E07A-F14373BC38A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="autofill\content\browser">
+      <UniqueIdentifier>{24B57E1E-8660-A3AB-E8EF-7828EB881EF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="autofill\content\browser\wallet">
+      <UniqueIdentifier>{930F14BF-FB7D-6DC3-1797-3972D34DA8A8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="components.gyp"/>
+    <ClCompile Include="autofill\content\browser\wallet\wallet_test_util.cc">
+      <Filter>autofill\content\browser\wallet</Filter>
+    </ClCompile>
+    <ClInclude Include="autofill\content\browser\wallet\wallet_test_util.h">
+      <Filter>autofill\content\browser\wallet</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

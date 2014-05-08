@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\mozilla">
+      <UniqueIdentifier>{20AD89ED-F29A-E322-7753-2F42D78E08AE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="url_canon_ip.h"/>
+    <ClCompile Include="url_canon_relative.cc"/>
+    <ClInclude Include="url_canon_stdstring.h"/>
+    <ClInclude Include="url_canon_internal_file.h"/>
+    <ClCompile Include="gurl.cc"/>
+    <ClCompile Include="url_canon_icu.cc"/>
+    <ClCompile Include="url_canon_pathurl.cc"/>
+    <ClInclude Include="url_parse_internal.h"/>
+    <ClInclude Include="url_file.h"/>
+    <ClCompile Include="url_canon_internal.cc"/>
+    <ClCompile Include="url_canon_stdurl.cc"/>
+    <ClCompile Include="url_canon_query.cc"/>
+    <ClCompile Include="url_canon_fileurl.cc"/>
+    <ClCompile Include="url_canon_mailtourl.cc"/>
+    <ClCompile Include="url_canon_ip.cc"/>
+    <None Include="url.gyp"/>
+    <ClCompile Include="url_canon_path.cc"/>
+    <ClInclude Include="url_canon.h"/>
+    <ClCompile Include="url_util.cc"/>
+    <ClCompile Include="url_canon_filesystemurl.cc"/>
+    <ClInclude Include="url_util.h"/>
+    <ClInclude Include="gurl.h"/>
+    <ClInclude Include="url_canon_icu.h"/>
+    <ClCompile Include="url_parse_file.cc"/>
+    <ClCompile Include="url_canon_etc.cc"/>
+    <ClCompile Include="url_canon_host.cc"/>
+    <ClInclude Include="url_canon_internal.h"/>
+    <ClCompile Include="third_party\mozilla\url_parse.cc">
+      <Filter>third_party\mozilla</Filter>
+    </ClCompile>
+    <ClInclude Include="third_party\mozilla\url_parse.h">
+      <Filter>third_party\mozilla</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

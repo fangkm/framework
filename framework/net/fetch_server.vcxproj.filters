@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="tools">
+      <UniqueIdentifier>{A0946190-5491-4D66-7E51-19400E36F078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools\fetch">
+      <UniqueIdentifier>{1775FCBC-C410-8B05-7529-9DDE89A76E0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="net.gyp"/>
+    <ClCompile Include="tools\fetch\http_server.cc">
+      <Filter>tools\fetch</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\fetch\fetch_server.cc">
+      <Filter>tools\fetch</Filter>
+    </ClCompile>
+    <ClInclude Include="tools\fetch\http_server.h">
+      <Filter>tools\fetch</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\fetch\http_server_request_info.h">
+      <Filter>tools\fetch</Filter>
+    </ClInclude>
+    <ClCompile Include="tools\fetch\http_listen_socket.cc">
+      <Filter>tools\fetch</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\fetch\http_server_request_info.cc">
+      <Filter>tools\fetch</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\fetch\http_session.cc">
+      <Filter>tools\fetch</Filter>
+    </ClCompile>
+    <ClInclude Include="tools\fetch\http_server_response_info.h">
+      <Filter>tools\fetch</Filter>
+    </ClInclude>
+    <ClCompile Include="tools\fetch\http_server_response_info.cc">
+      <Filter>tools\fetch</Filter>
+    </ClCompile>
+    <ClInclude Include="tools\fetch\http_session.h">
+      <Filter>tools\fetch</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\fetch\http_listen_socket.h">
+      <Filter>tools\fetch</Filter>
+    </ClInclude>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

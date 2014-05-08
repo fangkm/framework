@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\gpu">
+      <UniqueIdentifier>{52E8B949-3E67-CAB7-33D9-3F972FED789B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\gpu\client">
+      <UniqueIdentifier>{D5E3C9B9-F4E5-9856-CE8C-F9B03683EBB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="content.gyp"/>
+    <ClCompile Include="common\gpu\client\gl_helper_unittests.cc">
+      <Filter>common\gpu\client</Filter>
+    </ClCompile>
+    <ClCompile Include="common\gpu\client\gpu_in_process_context_tests.cc">
+      <Filter>common\gpu\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

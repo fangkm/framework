@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="autofill">
+      <UniqueIdentifier>{94F60235-EBD6-403C-1911-BD15E9B6C8E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="autofill\core">
+      <UniqueIdentifier>{16178836-FF57-2363-AA2B-8BAC1DC00026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="autofill\core\browser">
+      <UniqueIdentifier>{24B57E1E-8660-A3AB-E8EF-7828EB881EF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="autofill\core\browser\android">
+      <UniqueIdentifier>{840B8E33-5F8C-45A0-5FD6-F07AA5687203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="autofill\core\browser\android\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="components.gyp"/>
+    <ClCompile Include="autofill\core\browser\test_autofill_driver.cc">
+      <Filter>autofill\core\browser</Filter>
+    </ClCompile>
+    <ClCompile Include="autofill\core\browser\autofill_common_test.cc">
+      <Filter>autofill\core\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="autofill\core\browser\test_autofill_driver.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="autofill\core\browser\test_autofill_external_delegate.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="autofill\core\browser\data_driven_test.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="autofill\core\browser\autofill_common_test.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="autofill\core\browser\test_personal_data_manager.cc">
+      <Filter>autofill\core\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="autofill\core\browser\test_autofill_manager_delegate.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="autofill\core\browser\data_driven_test.cc">
+      <Filter>autofill\core\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="autofill\core\browser\test_personal_data_manager.h">
+      <Filter>autofill\core\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="autofill\core\browser\test_autofill_external_delegate.cc">
+      <Filter>autofill\core\browser</Filter>
+    </ClCompile>
+    <ClCompile Include="autofill\core\browser\test_autofill_manager_delegate.cc">
+      <Filter>autofill\core\browser</Filter>
+    </ClCompile>
+    <ClCompile Include="autofill\core\browser\android\test_auxiliary_profile_loader_android.cc">
+      <Filter>autofill\core\browser\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="autofill\core\browser\android\test_auxiliary_profile_loader_android.h">
+      <Filter>autofill\core\browser\android\_excluded_files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="open-vcdiff">
+      <UniqueIdentifier>{E2D3BECD-B258-7119-5FBD-049EDC3E2F88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="open-vcdiff\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="open-vcdiff\src\google">
+      <UniqueIdentifier>{8FA81D33-CFDF-CD07-7670-CB8C30BA9132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="open-vcdiff\vsprojects">
+      <UniqueIdentifier>{D726C116-FE7E-7D7D-72D1-AACC9A566F6C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sdch.gyp"/>
+    <ClCompile Include="open-vcdiff\src\varint_bigendian.cc">
+      <Filter>open-vcdiff\src</Filter>
+    </ClCompile>
+    <ClCompile Include="open-vcdiff\src\vcdecoder.cc">
+      <Filter>open-vcdiff\src</Filter>
+    </ClCompile>
+    <ClCompile Include="open-vcdiff\src\decodetable.cc">
+      <Filter>open-vcdiff\src</Filter>
+    </ClCompile>
+    <ClCompile Include="open-vcdiff\src\instruction_map.cc">
+      <Filter>open-vcdiff\src</Filter>
+    </ClCompile>
+    <ClInclude Include="open-vcdiff\src\instruction_map.h">
+      <Filter>open-vcdiff\src</Filter>
+    </ClInclude>
+    <ClInclude Include="open-vcdiff\src\checksum.h">
+      <Filter>open-vcdiff\src</Filter>
+    </ClInclude>
+    <ClInclude Include="open-vcdiff\src\blockhash.h">
+      <Filter>open-vcdiff\src</Filter>
+    </ClInclude>
+    <ClInclude Include="open-vcdiff\src\logging.h">
+      <Filter>open-vcdiff\src</Filter>
+    </ClInclude>
+    <ClCompile Include="open-vcdiff\src\encodetable.cc">
+      <Filter>open-vcdiff\src</Filter>
+    </ClCompile>
+    <ClInclude Include="open-vcdiff\src\testing.h">
+      <Filter>open-vcdiff\src</Filter>
+    </ClInclude>
+    <ClCompile Include="open-vcdiff\src\codetable.cc">
+      <Filter>open-vcdiff\src</Filter>
+    </ClCompile>
+    <ClInclude Include="open-vcdiff\src\compile_assert.h">
+      <Filter>open-vcdiff\src</Filter>
+    </ClInclude>
+    <ClCompile Include="open-vcdiff\src\vcdiffengine.cc">
+      <Filter>open-vcdiff\src</Filter>
+    </ClCompile>
+    <ClInclude Include="open-vcdiff\src\rolling_hash.h">
+      <Filter>open-vcdiff\src</Filter>
+    </ClInclude>
+    <ClInclude Include="open-vcdiff\src\headerparser.h">
+      <Filter>open-vcdiff\src</Filter>
+    </ClInclude>
+    <ClCompile Include="open-vcdiff\src\headerparser.cc">
+      <Filter>open-vcdiff\src</Filter>
+    </ClCompile>
+    <ClCompile Include="open-vcdiff\src\blockhash.cc">
+      <Filter>open-vcdiff\src</Filter>
+    </ClCompile>
+    <ClInclude Include="open-vcdiff\src\varint_bigendian.h">
+      <Filter>open-vcdiff\src</Filter>
+    </ClInclude>
+    <ClCompile Include="open-vcdiff\src\logging.cc">
+      <Filter>open-vcdiff\src</Filter>
+    </ClCompile>
+    <ClInclude Include="open-vcdiff\src\encodetable.h">
+      <Filter>open-vcdiff\src</Filter>
+    </ClInclude>
+    <ClCompile Include="open-vcdiff\src\addrcache.cc">
+      <Filter>open-vcdiff\src</Filter>
+    </ClCompile>
+    <ClInclude Include="open-vcdiff\src\vcdiffengine.h">
+      <Filter>open-vcdiff\src</Filter>
+    </ClInclude>
+    <ClInclude Include="open-vcdiff\src\codetable.h">
+      <Filter>open-vcdiff\src</Filter>
+    </ClInclude>
+    <ClInclude Include="open-vcdiff\src\decodetable.h">
+      <Filter>open-vcdiff\src</Filter>
+    </ClInclude>
+    <ClInclude Include="open-vcdiff\src\vcdiff_defs.h">
+      <Filter>open-vcdiff\src</Filter>
+    </ClInclude>
+    <ClInclude Include="open-vcdiff\src\google\vcdecoder.h">
+      <Filter>open-vcdiff\src\google</Filter>
+    </ClInclude>
+    <ClInclude Include="open-vcdiff\src\google\output_string.h">
+      <Filter>open-vcdiff\src\google</Filter>
+    </ClInclude>
+    <ClInclude Include="open-vcdiff\vsprojects\config.h">
+      <Filter>open-vcdiff\vsprojects</Filter>
+    </ClInclude>
+    <ClInclude Include="open-vcdiff\vsprojects\stdint.h">
+      <Filter>open-vcdiff\vsprojects</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

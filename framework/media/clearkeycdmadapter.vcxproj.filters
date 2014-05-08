@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="cdm">
+      <UniqueIdentifier>{9D2557A0-D334-F1EB-617C-179BF2723096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cdm\ppapi">
+      <UniqueIdentifier>{15C4068B-59E6-A58B-C933-FCE0F2E45305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cdm\ppapi\api">
+      <UniqueIdentifier>{6AE05662-6177-52C8-526E-2E7848D15DCF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="media.gyp"/>
+    <ClCompile Include="cdm\ppapi\cdm_wrapper.cc">
+      <Filter>cdm\ppapi</Filter>
+    </ClCompile>
+    <ClInclude Include="cdm\ppapi\linked_ptr.h">
+      <Filter>cdm\ppapi</Filter>
+    </ClInclude>
+    <ClInclude Include="cdm\ppapi\api\content_decryption_module.h">
+      <Filter>cdm\ppapi\api</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

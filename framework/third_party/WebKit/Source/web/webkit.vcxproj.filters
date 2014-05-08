@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core">
+      <UniqueIdentifier>{16178836-FF57-2363-AA2B-8BAC1DC00026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\platform">
+      <UniqueIdentifier>{F040E8BA-F77A-8B19-E764-5FC5D53C4EF0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\platform\chromium">
+      <UniqueIdentifier>{A235D2A4-63B6-DD4D-7F7F-D3EA248BB602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\platform\chromium\support">
+      <UniqueIdentifier>{60E2CDAB-BE66-7795-2926-DDFA2378C4BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit">
+      <UniqueIdentifier>{1919EB75-19A6-2BAD-ABB0-47BF57C87A0F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit\Source">
+      <UniqueIdentifier>{26D65320-41C3-1A61-26C0-583D658C7F16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit\Source\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit\Source\build\win">
+      <UniqueIdentifier>{47FC5EC4-15EB-E92F-89D7-AFE51CF838A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="default">
+      <UniqueIdentifier>{31D42551-2B0D-C48A-E634-BD03656DF1DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win">
+      <UniqueIdentifier>{47FC5EC4-15EB-E92F-89D7-AFE51CF838A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtk">
+      <UniqueIdentifier>{2D4DC4D4-E814-8696-8CA7-5C200B5ACD6F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtk\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mac">
+      <UniqueIdentifier>{DDBFF7CF-DBCF-B2FC-793A-DB701B563E8D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mac\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="linux">
+      <UniqueIdentifier>{978C4E9B-8123-1CA3-A70B-0A340D4435AD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="linux\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="android">
+      <UniqueIdentifier>{840B8E33-5F8C-45A0-5FD6-F07AA5687203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="android\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="painting">
+      <UniqueIdentifier>{BFACBEB5-62C5-3482-D744-66C57616310C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WebDeviceOrientation.cpp"/>
+    <ClCompile Include="MediaSourcePrivateImpl.cpp"/>
+    <ClCompile Include="CompositionUnderlineVectorBuilder.cpp"/>
+    <ClInclude Include="ColorChooserUIController.h"/>
+    <ClCompile Include="WebPopupMenuImpl.cpp"/>
+    <ClCompile Include="WebDOMEventListenerPrivate.cpp"/>
+    <ClInclude Include="ColorChooserPopupUIController.h"/>
+    <ClCompile Include="PopupMenuChromium.cpp"/>
+    <ClCompile Include="WebDeviceOrientationClientMock.cpp"/>
+    <ClInclude Include="EventListenerWrapper.h"/>
+    <ClCompile Include="WebSharedWorkerImpl.cpp"/>
+    <ClCompile Include="EventListenerWrapper.cpp"/>
+    <ClCompile Include="WebTextInputInfo.cpp"/>
+    <ClInclude Include="WebDevToolsFrontendImpl.h"/>
+    <ClCompile Include="WebCachedURLRequest.cpp"/>
+    <ClCompile Include="AssociatedURLLoader.cpp"/>
+    <ClInclude Include="PageOverlayList.h"/>
+    <ClCompile Include="NotificationPresenterImpl.cpp"/>
+    <ClCompile Include="AssertMatchingEnums.cpp"/>
+    <ClInclude Include="WebFrameImpl.h"/>
+    <ClInclude Include="PopupMenuChromium.h"/>
+    <ClCompile Include="ApplicationCacheHost.cpp"/>
+    <ClCompile Include="WebWorkerInfo.cpp"/>
+    <ClCompile Include="WebSocketImpl.cpp"/>
+    <ClInclude Include="InspectorFrontendClientImpl.h"/>
+    <ClInclude Include="WebIDBDatabaseCallbacksImpl.h"/>
+    <ClCompile Include="GraphicsLayerFactoryChromium.cpp"/>
+    <ClCompile Include="WebIDBCallbacksImpl.cpp"/>
+    <ClCompile Include="WebScriptBindings.cpp"/>
+    <ClInclude Include="WebSocketImpl.h"/>
+    <ClCompile Include="WebSearchableFormData.cpp"/>
+    <ClInclude Include="DragClientImpl.h"/>
+    <ClInclude Include="WebPluginContainerImpl.h"/>
+    <ClCompile Include="WebScrollbarThemePainter.cpp"/>
+    <ClCompile Include="ContextFeaturesClientImpl.cpp"/>
+    <ClCompile Include="WebEntities.cpp"/>
+    <ClCompile Include="ContextMenuClientImpl.cpp"/>
+    <ClCompile Include="PopupListBox.cpp"/>
+    <ClCompile Include="WebRuntimeFeatures.cpp"/>
+    <ClCompile Include="WebDevToolsAgentImpl.cpp"/>
+    <ClInclude Include="ContextMenuClientImpl.h"/>
+    <ClInclude Include="BackForwardClientImpl.h"/>
+    <ClInclude Include="WebPasswordFormUtils.h"/>
+    <ClInclude Include="MIDIClientProxy.h"/>
+    <ClInclude Include="ValidationMessageClientImpl.h"/>
+    <ClCompile Include="WebIDBDatabaseError.cpp"/>
+    <ClCompile Include="WebPluginContainerImpl.cpp"/>
+    <ClInclude Include="SpeechInputClientImpl.h"/>
+    <ClCompile Include="WebSecurityOrigin.cpp"/>
+    <ClCompile Include="WebBindings.cpp"/>
+    <ClCompile Include="WebWorkerClientImpl.cpp"/>
+    <ClInclude Include="SourceBufferPrivateImpl.h"/>
+    <ClCompile Include="WebPagePopupImpl.cpp"/>
+    <ClCompile Include="WebDOMEvent.cpp"/>
+    <ClInclude Include="GeolocationClientProxy.h"/>
+    <ClCompile Include="ColorChooserUIController.cpp"/>
+    <ClInclude Include="WebDevToolsAgentImpl.h"/>
+    <ClCompile Include="WebFontImpl.cpp"/>
+    <ClCompile Include="StorageAreaProxy.cpp"/>
+    <ClCompile Include="WebScopedUserGesture.cpp"/>
+    <ClCompile Include="WebIDBKey.cpp"/>
+    <ClInclude Include="DeviceOrientationClientProxy.h"/>
+    <ClCompile Include="AutofillPopupMenuClient.cpp"/>
+    <ClInclude Include="WebPopupMenuImpl.h"/>
+    <ClInclude Include="StorageNamespaceProxy.h"/>
+    <ClCompile Include="DeviceOrientationClientProxy.cpp"/>
+    <ClCompile Include="ValidationMessageClientImpl.cpp"/>
+    <ClInclude Include="WebPluginLoadObserver.h"/>
+    <ClCompile Include="SharedWorkerRepository.cpp"/>
+    <ClInclude Include="IDBDatabaseBackendProxy.h"/>
+    <ClCompile Include="WebDragData.cpp"/>
+    <ClCompile Include="WebHistoryItem.cpp"/>
+    <ClInclude Include="AutofillPopupMenuClient.h"/>
+    <ClCompile Include="WebURLLoadTiming.cpp"/>
+    <ClCompile Include="WebScopedMicrotaskSuppression.cpp"/>
+    <ClInclude Include="GraphicsLayerFactoryChromium.h"/>
+    <ClCompile Include="WebPluginLoadObserver.cpp"/>
+    <ClCompile Include="WebDOMProgressEvent.cpp"/>
+    <ClInclude Include="WebPagePopupImpl.h"/>
+    <ClInclude Include="WebPageSerializerImpl.h"/>
+    <ClInclude Include="InspectorClientImpl.h"/>
+    <ClInclude Include="LinkHighlight.h"/>
+    <ClCompile Include="InspectorFrontendClientImpl.cpp"/>
+    <ClCompile Include="WebUserGestureToken.cpp"/>
+    <ClInclude Include="WorkerFileSystemClient.h"/>
+    <ClCompile Include="WebElement.cpp"/>
+    <ClCompile Include="ChromeClientImpl.cpp"/>
+    <ClCompile Include="WebAXObject.cpp"/>
+    <ClCompile Include="WebCrossOriginPreflightResultCache.cpp"/>
+    <ClCompile Include="WebSerializedScriptValue.cpp"/>
+    <ClInclude Include="IDBCursorBackendProxy.h"/>
+    <ClInclude Include="WebEntities.h"/>
+    <ClCompile Include="WebGlyphCache.cpp"/>
+    <ClCompile Include="WebMediaPlayerClientImpl.cpp"/>
+    <ClCompile Include="StorageNamespaceProxy.cpp"/>
+    <ClInclude Include="WebWorkerBase.h"/>
+    <ClCompile Include="WebHitTestResult.cpp"/>
+    <ClCompile Include="ColorChooserPopupUIController.cpp"/>
+    <ClCompile Include="ViewportAnchor.cpp"/>
+    <ClCompile Include="WebDatabase.cpp"/>
+    <ClCompile Include="WebImageSkia.cpp"/>
+    <ClCompile Include="WorkerFileSystemClient.cpp"/>
+    <ClInclude Include="WebIDBCallbacksImpl.h"/>
+    <ClCompile Include="WebIDBMetadata.cpp"/>
+    <ClCompile Include="WebWorkerBase.cpp"/>
+    <ClCompile Include="WebFormControlElement.cpp"/>
+    <ClCompile Include="DOMUtilitiesPrivate.cpp"/>
+    <ClCompile Include="WebMediaStreamRegistry.cpp"/>
+    <None Include="web.gyp"/>
+    <ClCompile Include="WebNode.cpp"/>
+    <ClCompile Include="FindInPageCoordinates.cpp"/>
+    <ClCompile Include="WebImageDecoder.cpp"/>
+    <ClInclude Include="WebDataSourceImpl.h"/>
+    <ClInclude Include="PopupContainer.h"/>
+    <ClCompile Include="WebSelectElement.cpp"/>
+    <ClCompile Include="FullscreenController.cpp"/>
+    <ClCompile Include="WebDOMResourceProgressEvent.cpp"/>
+    <ClCompile Include="WebPerformance.cpp"/>
+    <ClCompile Include="WebCustomElement.cpp"/>
+    <ClCompile Include="WebSpeechRecognitionResult.cpp"/>
+    <ClCompile Include="WebFontCache.cpp"/>
+    <ClCompile Include="WebRange.cpp"/>
+    <ClInclude Include="IDBFactoryBackendProxy.h"/>
+    <ClCompile Include="WebMIDIClientMock.cpp"/>
+    <ClInclude Include="MediaSourcePrivateImpl.h"/>
+    <ClCompile Include="PageOverlay.cpp"/>
+    <ClCompile Include="WebGeolocationPermissionRequest.cpp"/>
+    <ClCompile Include="WebBlobData.cpp"/>
+    <ClCompile Include="WebViewImpl.cpp"/>
+    <ClCompile Include="WebKit.cpp"/>
+    <ClCompile Include="WebIDBKeyPath.cpp"/>
+    <ClCompile Include="WebDevToolsFrontendImpl.cpp"/>
+    <ClCompile Include="WebIDBKeyRange.cpp"/>
+    <ClCompile Include="WebOptionElement.cpp"/>
+    <ClInclude Include="NotificationPresenterImpl.h"/>
+    <ClCompile Include="PinchViewports.cpp"/>
+    <ClCompile Include="WebGeolocationPosition.cpp"/>
+    <ClCompile Include="WebInputEventConversion.cpp"/>
+    <ClCompile Include="DateTimeChooserImpl.cpp"/>
+    <ClCompile Include="BackForwardClientImpl.cpp"/>
+    <ClCompile Include="ExternalPopupMenu.cpp"/>
+    <ClCompile Include="EditorClientImpl.cpp"/>
+    <ClCompile Include="WebTextRun.cpp"/>
+    <ClInclude Include="WebFileChooserCompletionImpl.h"/>
+    <ClCompile Include="WebInputEvent.cpp"/>
+    <ClCompile Include="PageWidgetDelegate.cpp"/>
+    <ClInclude Include="AssociatedURLLoader.h"/>
+    <ClCompile Include="GeolocationClientProxy.cpp"/>
+    <ClCompile Include="DragClientImpl.cpp"/>
+    <ClInclude Include="WebInputEventConversion.h"/>
+    <ClInclude Include="ContextFeaturesClientImpl.h"/>
+    <ClCompile Include="WebDOMMutationEvent.cpp"/>
+    <ClInclude Include="EditorClientImpl.h"/>
+    <ClCompile Include="WebDOMCustomEvent.cpp"/>
+    <ClCompile Include="WebFrameImpl.cpp"/>
+    <ClCompile Include="WebSelector.cpp"/>
+    <ClCompile Include="WebGeolocationPermissionRequestManager.cpp"/>
+    <ClCompile Include="WebSpeechInputResult.cpp"/>
+    <ClInclude Include="PopupListBox.h"/>
+    <ClCompile Include="WebGeolocationClientMock.cpp"/>
+    <ClInclude Include="ViewportAnchor.h"/>
+    <ClCompile Include="WebGeolocationError.cpp"/>
+    <ClCompile Include="WebStorageEventDispatcherImpl.cpp"/>
+    <ClCompile Include="MIDIClientProxy.cpp"/>
+    <ClCompile Include="WebMIDIPermissionRequest.cpp"/>
+    <ClInclude Include="LocalFileSystemClient.h"/>
+    <ClCompile Include="InspectorClientImpl.cpp"/>
+    <ClInclude Include="PageWidgetDelegate.h"/>
+    <ClCompile Include="WebPageSerializer.cpp"/>
+    <ClInclude Include="WebHelperPluginImpl.h"/>
+    <ClCompile Include="SpeechInputClientImpl.cpp"/>
+    <ClInclude Include="WebSettingsImpl.h"/>
+    <ClCompile Include="WebImageCache.cpp"/>
+    <ClCompile Include="WebLabelElement.cpp"/>
+    <ClCompile Include="WebHelperPluginImpl.cpp"/>
+    <ClCompile Include="SourceBufferPrivateImpl.cpp"/>
+    <ClInclude Include="WebMediaPlayerClientImpl.h"/>
+    <ClCompile Include="WebDocumentType.cpp"/>
+    <ClCompile Include="WebPageSerializerImpl.cpp"/>
+    <ClInclude Include="CompositionUnderlineVectorBuilder.h"/>
+    <ClCompile Include="WebUserMediaRequest.cpp"/>
+    <ClInclude Include="FullscreenController.h"/>
+    <ClInclude Include="CompositionUnderlineBuilder.h"/>
+    <ClCompile Include="LinkHighlight.cpp"/>
+    <ClCompile Include="WebIDBDatabaseCallbacksImpl.cpp"/>
+    <ClCompile Include="ScrollbarGroup.cpp"/>
+    <ClInclude Include="WorkerAllowMainThreadBridgeBase.h"/>
+    <ClCompile Include="WebBlob.cpp"/>
+    <ClCompile Include="WebGeolocationController.cpp"/>
+    <ClCompile Include="WebSpeechRecognitionHandle.cpp"/>
+    <ClCompile Include="WebFontDescription.cpp"/>
+    <ClCompile Include="WebTextCheckingCompletionImpl.cpp"/>
+    <ClCompile Include="WebInputElement.cpp"/>
+    <ClInclude Include="WebTextCheckingCompletionImpl.h"/>
+    <ClInclude Include="PrerendererClientImpl.h"/>
+    <ClCompile Include="PageOverlayList.cpp"/>
+    <ClCompile Include="WebDocument.cpp"/>
+    <ClCompile Include="PrerendererClientImpl.cpp"/>
+    <ClCompile Include="WebScriptController.cpp"/>
+    <ClCompile Include="WebArrayBufferView.cpp"/>
+    <ClInclude Include="PageOverlay.h"/>
+    <ClCompile Include="LocalFileSystemClient.cpp"/>
+    <ClCompile Include="StorageQuotaChromium.cpp"/>
+    <ClInclude Include="WebDOMEventListenerPrivate.h"/>
+    <ClInclude Include="ExternalDateTimeChooser.h"/>
+    <ClCompile Include="WebColorName.cpp"/>
+    <ClCompile Include="WebSurroundingText.cpp"/>
+    <ClCompile Include="WebNetworkStateNotifier.cpp"/>
+    <ClCompile Include="WebDOMMouseEvent.cpp"/>
+    <ClCompile Include="IDBDatabaseBackendProxy.cpp"/>
+    <ClCompile Include="WebTextCheckingResult.cpp"/>
+    <ClCompile Include="WebNotification.cpp"/>
+    <ClCompile Include="WebFileChooserCompletionImpl.cpp"/>
+    <ClCompile Include="WorkerAllowMainThreadBridgeBase.cpp"/>
+    <ClCompile Include="WebSettingsImpl.cpp"/>
+    <ClInclude Include="SpeechRecognitionClientProxy.h"/>
+    <ClCompile Include="WebSocket.cpp"/>
+    <ClCompile Include="InbandTextTrackPrivateImpl.cpp"/>
+    <ClCompile Include="WebDOMActivityLogger.cpp"/>
+    <ClInclude Include="InbandTextTrackPrivateImpl.h"/>
+    <ClCompile Include="WebPluginDocument.cpp"/>
+    <ClCompile Include="WebUserGestureIndicator.cpp"/>
+    <ClCompile Include="IDBCursorBackendProxy.cpp"/>
+    <ClCompile Include="WebWorkerRunLoop.cpp"/>
+    <ClCompile Include="WebDOMEventListener.cpp"/>
+    <ClInclude Include="PinchViewports.h"/>
+    <ClCompile Include="WebDeviceOrientationController.cpp"/>
+    <ClCompile Include="WebPasswordFormUtils.cpp"/>
+    <ClCompile Include="WebSecurityPolicy.cpp"/>
+    <ClInclude Include="FindInPageCoordinates.h"/>
+    <ClCompile Include="SpeechRecognitionClientProxy.cpp"/>
+    <ClInclude Include="WebFontImpl.h"/>
+    <ClCompile Include="WebNodeList.cpp"/>
+    <ClInclude Include="ExternalPopupMenu.h"/>
+    <ClInclude Include="WebSharedWorkerImpl.h"/>
+    <ClInclude Include="ApplicationCacheHostInternal.h"/>
+    <ClInclude Include="DateTimeChooserImpl.h"/>
+    <ClInclude Include="ScrollbarGroup.h"/>
+    <ClCompile Include="ExternalDateTimeChooser.cpp"/>
+    <ClCompile Include="WebCache.cpp"/>
+    <ClInclude Include="DOMUtilitiesPrivate.h"/>
+    <ClInclude Include="WebPluginScrollbarImpl.h"/>
+    <ClCompile Include="WebDataSourceImpl.cpp"/>
+    <ClInclude Include="WebViewImpl.h"/>
+    <ClInclude Include="UserMediaClientImpl.h"/>
+    <ClCompile Include="FrameLoaderClientImpl.cpp"/>
+    <ClCompile Include="WebSpeechGrammar.cpp"/>
+    <ClCompile Include="UserMediaClientImpl.cpp"/>
+    <ClCompile Include="DatabaseObserver.cpp"/>
+    <ClCompile Include="WebDOMMessageEvent.cpp"/>
+    <ClInclude Include="FrameLoaderClientImpl.h"/>
+    <ClInclude Include="StorageAreaProxy.h"/>
+    <ClCompile Include="WebNodeCollection.cpp"/>
+    <ClCompile Include="PopupContainer.cpp"/>
+    <ClCompile Include="WebFormElement.cpp"/>
+    <ClCompile Include="WebPasswordFormData.cpp"/>
+    <ClCompile Include="WebPluginScrollbarImpl.cpp"/>
+    <ClInclude Include="ChromeClientImpl.h"/>
+    <ClInclude Include="WebWorkerClientImpl.h"/>
+    <ClCompile Include="IDBFactoryBackendProxy.cpp"/>
+    <ClCompile Include="..\core\platform\chromium\support\WebFileSystemCallbacks.cpp">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClCompile>
+    <ClInclude Include="..\core\platform\chromium\support\WebScrollbarThemeClientImpl.h">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\platform\chromium\support\WrappedResourceRequest.h">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClInclude>
+    <ClCompile Include="..\core\platform\chromium\support\WebCryptoAlgorithm.cpp">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClCompile>
+    <ClInclude Include="..\core\platform\chromium\support\WebActiveGestureAnimation.h">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClInclude>
+    <ClCompile Include="..\core\platform\chromium\support\WebHTTPLoadInfo.cpp">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\chromium\support\WebCursorInfo.cpp">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\chromium\support\WebAudioBus.cpp">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\chromium\support\WebRTCICECandidate.cpp">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\chromium\support\WebSpeechSynthesisVoice.cpp">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\chromium\support\WebActiveGestureAnimation.cpp">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\chromium\support\WebURLRequest.cpp">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\chromium\support\WebArrayBuffer.cpp">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\chromium\support\WebURLResponse.cpp">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\chromium\support\WebMediaStreamSource.cpp">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClCompile>
+    <ClInclude Include="..\core\platform\chromium\support\WrappedResourceResponse.h">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClInclude>
+    <ClCompile Include="..\core\platform\chromium\support\WebURL.cpp">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\chromium\support\WebPrerender.cpp">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\chromium\support\WebMediaStream.cpp">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\chromium\support\WebSourceInfo.cpp">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClCompile>
+    <ClInclude Include="..\core\platform\chromium\support\WebSpeechSynthesizerClientImpl.h">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClInclude>
+    <ClCompile Include="..\core\platform\chromium\support\WebPrerenderingSupport.cpp">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\chromium\support\WebData.cpp">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClCompile>
+    <ClInclude Include="..\core\platform\chromium\support\WebURLResponsePrivate.h">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClInclude>
+    <ClCompile Include="..\core\platform\chromium\support\WebRTCConfiguration.cpp">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\chromium\support\WebCryptoKey.cpp">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\chromium\support\WebDeviceMotionData.cpp">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\chromium\support\WebSocketStreamError.cpp">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClCompile>
+    <ClInclude Include="..\core\platform\chromium\support\WebScrollbarThemeGeometryNative.h">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClInclude>
+    <ClCompile Include="..\core\platform\chromium\support\WebSpeechSynthesizerClientImpl.cpp">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\chromium\support\WebRTCSessionDescriptionRequest.cpp">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClCompile>
+    <ClInclude Include="..\core\platform\chromium\support\WebURLRequestPrivate.h">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClInclude>
+    <ClCompile Include="..\core\platform\chromium\support\Platform.cpp">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\chromium\support\WebScrollbarImpl.cpp">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\chromium\support\WebMediaConstraints.cpp">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\chromium\support\WebCrypto.cpp">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\chromium\support\WebTransformKeyframe.cpp">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\chromium\support\WebHTTPBody.cpp">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\chromium\support\WebScrollbarThemeGeometryNative.cpp">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\chromium\support\WebSpeechSynthesisUtterance.cpp">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\chromium\support\WebScrollbarThemeClientImpl.cpp">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\chromium\support\WebThreadSafeData.cpp">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\chromium\support\WebRTCVoidRequest.cpp">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\chromium\support\WebDeviceOrientationData.cpp">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\chromium\support\WebMediaStreamTrack.cpp">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\chromium\support\WebFloatQuad.cpp">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClCompile>
+    <ClInclude Include="..\core\platform\chromium\support\WebScrollbarImpl.h">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClInclude>
+    <ClCompile Include="..\core\platform\chromium\support\WebRTCSessionDescription.cpp">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\chromium\support\WebURLError.cpp">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\chromium\support\WebRTCStatsRequest.cpp">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\chromium\support\WebRTCStatsResponse.cpp">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\third_party\WebKit\Source\build\win\Precompile.cpp">
+      <Filter>..\..\..\..\third_party\WebKit\Source\build\win</Filter>
+    </ClCompile>
+    <ClCompile Include="default\WebRenderTheme.cpp">
+      <Filter>default</Filter>
+    </ClCompile>
+    <ClCompile Include="win\WebInputEventFactory.cpp">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="gtk\WebInputEventFactory.cpp">
+      <Filter>gtk\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="mac\WebInputEventFactory.mm">
+      <Filter>mac\_excluded_files</Filter>
+    </None>
+    <None Include="mac\WebSubstringUtil.mm">
+      <Filter>mac\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="linux\WebFontRendering.cpp">
+      <Filter>linux\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="linux\WebFontInfo.cpp">
+      <Filter>linux\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="linux\WebFontRenderStyle.cpp">
+      <Filter>linux\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="android\WebInputEventFactory.cpp">
+      <Filter>android\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="painting\ContinuousPainter.h">
+      <Filter>painting</Filter>
+    </ClInclude>
+    <ClCompile Include="painting\ContinuousPainter.cpp">
+      <Filter>painting</Filter>
+    </ClCompile>
+    <ClCompile Include="painting\PaintAggregator.cpp">
+      <Filter>painting</Filter>
+    </ClCompile>
+    <ClInclude Include="painting\PaintAggregator.h">
+      <Filter>painting</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

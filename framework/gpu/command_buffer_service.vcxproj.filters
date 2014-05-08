@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="command_buffer">
+      <UniqueIdentifier>{05C7F72F-ADB0-5046-004F-DF2FFA532C5A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="command_buffer\service">
+      <UniqueIdentifier>{C9210780-0906-CC9E-BEC1-0AB6BFD1B977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="command_buffer\service\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="gpu.gyp"/>
+    <ClInclude Include="command_buffer\service\framebuffer_manager.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClCompile Include="command_buffer\service\gles2_cmd_validation.cc">
+      <Filter>command_buffer\service</Filter>
+    </ClCompile>
+    <ClCompile Include="command_buffer\service\id_manager.cc">
+      <Filter>command_buffer\service</Filter>
+    </ClCompile>
+    <ClCompile Include="command_buffer\service\async_pixel_transfer_manager_win.cc">
+      <Filter>command_buffer\service</Filter>
+    </ClCompile>
+    <ClInclude Include="command_buffer\service\in_process_command_buffer.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClInclude Include="command_buffer\service\gles2_cmd_decoder_autogen.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClInclude Include="command_buffer\service\gles2_cmd_validation_implementation_autogen.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClCompile Include="command_buffer\service\gpu_tracer.cc">
+      <Filter>command_buffer\service</Filter>
+    </ClCompile>
+    <ClInclude Include="command_buffer\service\program_cache.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClInclude Include="command_buffer\service\stream_texture.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClInclude Include="command_buffer\service\vertex_attrib_manager.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClInclude Include="command_buffer\service\program_manager.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClCompile Include="command_buffer\service\async_pixel_transfer_manager.cc">
+      <Filter>command_buffer\service</Filter>
+    </ClCompile>
+    <ClInclude Include="command_buffer\service\async_pixel_transfer_delegate.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClCompile Include="command_buffer\service\gl_state_restorer_impl.cc">
+      <Filter>command_buffer\service</Filter>
+    </ClCompile>
+    <ClInclude Include="command_buffer\service\cmd_parser.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClInclude Include="command_buffer\service\gl_context_virtual.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClInclude Include="command_buffer\service\async_pixel_transfer_manager_egl.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClInclude Include="command_buffer\service\cmd_buffer_engine.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClInclude Include="command_buffer\service\id_manager.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClCompile Include="command_buffer\service\error_state.cc">
+      <Filter>command_buffer\service</Filter>
+    </ClCompile>
+    <ClInclude Include="command_buffer\service\shader_manager.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClCompile Include="command_buffer\service\async_pixel_transfer_manager_sync.cc">
+      <Filter>command_buffer\service</Filter>
+    </ClCompile>
+    <ClInclude Include="command_buffer\service\gpu_tracer.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClCompile Include="command_buffer\service\async_pixel_transfer_manager_share_group.cc">
+      <Filter>command_buffer\service</Filter>
+    </ClCompile>
+    <ClInclude Include="command_buffer\service\transfer_buffer_manager.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClCompile Include="command_buffer\service\cmd_parser.cc">
+      <Filter>command_buffer\service</Filter>
+    </ClCompile>
+    <ClCompile Include="command_buffer\service\in_process_command_buffer.cc">
+      <Filter>command_buffer\service</Filter>
+    </ClCompile>
+    <ClCompile Include="command_buffer\service\framebuffer_manager.cc">
+      <Filter>command_buffer\service</Filter>
+    </ClCompile>
+    <ClInclude Include="command_buffer\service\gpu_scheduler.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClCompile Include="command_buffer\service\memory_program_cache.cc">
+      <Filter>command_buffer\service</Filter>
+    </ClCompile>
+    <ClInclude Include="command_buffer\service\feature_info.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClCompile Include="command_buffer\service\mailbox_manager.cc">
+      <Filter>command_buffer\service</Filter>
+    </ClCompile>
+    <ClCompile Include="command_buffer\service\renderbuffer_manager.cc">
+      <Filter>command_buffer\service</Filter>
+    </ClCompile>
+    <ClCompile Include="command_buffer\service\gles2_cmd_decoder.cc">
+      <Filter>command_buffer\service</Filter>
+    </ClCompile>
+    <ClInclude Include="command_buffer\service\async_pixel_transfer_manager_share_group.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClInclude Include="command_buffer\service\context_state_autogen.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClInclude Include="command_buffer\service\gl_utils.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClInclude Include="command_buffer\service\gles2_cmd_decoder.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClCompile Include="command_buffer\service\image_manager.cc">
+      <Filter>command_buffer\service</Filter>
+    </ClCompile>
+    <ClInclude Include="command_buffer\service\image_manager.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClInclude Include="command_buffer\service\stream_texture_manager.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClInclude Include="command_buffer\service\stream_texture_manager_in_process_android.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClCompile Include="command_buffer\service\gpu_scheduler.cc">
+      <Filter>command_buffer\service</Filter>
+    </ClCompile>
+    <ClCompile Include="command_buffer\service\safe_shared_memory_pool.cc">
+      <Filter>command_buffer\service</Filter>
+    </ClCompile>
+    <ClInclude Include="command_buffer\service\gles2_cmd_validation_autogen.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClCompile Include="command_buffer\service\common_decoder.cc">
+      <Filter>command_buffer\service</Filter>
+    </ClCompile>
+    <ClInclude Include="command_buffer\service\texture_manager.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClCompile Include="command_buffer\service\context_group.cc">
+      <Filter>command_buffer\service</Filter>
+    </ClCompile>
+    <ClCompile Include="command_buffer\service\texture_manager.cc">
+      <Filter>command_buffer\service</Filter>
+    </ClCompile>
+    <ClInclude Include="command_buffer\service\context_state.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClInclude Include="command_buffer\service\shader_translator_cache.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClCompile Include="command_buffer\service\context_state.cc">
+      <Filter>command_buffer\service</Filter>
+    </ClCompile>
+    <ClInclude Include="command_buffer\service\gles2_cmd_copy_texture_chromium.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClInclude Include="command_buffer\service\safe_shared_memory_pool.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClInclude Include="command_buffer\service\async_pixel_transfer_manager_sync.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClInclude Include="command_buffer\service\shader_translator.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClCompile Include="command_buffer\service\async_pixel_transfer_manager_egl.cc">
+      <Filter>command_buffer\service</Filter>
+    </ClCompile>
+    <ClCompile Include="command_buffer\service\program_cache.cc">
+      <Filter>command_buffer\service</Filter>
+    </ClCompile>
+    <ClInclude Include="command_buffer\service\mailbox_manager.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClInclude Include="command_buffer\service\renderbuffer_manager.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClInclude Include="command_buffer\service\logger.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClInclude Include="command_buffer\service\command_buffer_service.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClInclude Include="command_buffer\service\gpu_scheduler_mock.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClInclude Include="command_buffer\service\gl_state_restorer_impl.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClCompile Include="command_buffer\service\gl_context_virtual.cc">
+      <Filter>command_buffer\service</Filter>
+    </ClCompile>
+    <ClInclude Include="command_buffer\service\error_state.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClInclude Include="command_buffer\service\gpu_control_service.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClInclude Include="command_buffer\service\query_manager.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClCompile Include="command_buffer\service\feature_info.cc">
+      <Filter>command_buffer\service</Filter>
+    </ClCompile>
+    <ClCompile Include="command_buffer\service\logger.cc">
+      <Filter>command_buffer\service</Filter>
+    </ClCompile>
+    <ClCompile Include="command_buffer\service\async_pixel_transfer_manager_idle.cc">
+      <Filter>command_buffer\service</Filter>
+    </ClCompile>
+    <ClCompile Include="command_buffer\service\shader_translator.cc">
+      <Filter>command_buffer\service</Filter>
+    </ClCompile>
+    <ClInclude Include="command_buffer\service\gles2_cmd_validation.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClCompile Include="command_buffer\service\gpu_switches.cc">
+      <Filter>command_buffer\service</Filter>
+    </ClCompile>
+    <ClCompile Include="command_buffer\service\vertex_array_manager.cc">
+      <Filter>command_buffer\service</Filter>
+    </ClCompile>
+    <ClCompile Include="command_buffer\service\gles2_cmd_copy_texture_chromium.cc">
+      <Filter>command_buffer\service</Filter>
+    </ClCompile>
+    <ClCompile Include="command_buffer\service\transfer_buffer_manager.cc">
+      <Filter>command_buffer\service</Filter>
+    </ClCompile>
+    <ClInclude Include="command_buffer\service\common_decoder.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClInclude Include="command_buffer\service\context_state_impl_autogen.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClCompile Include="command_buffer\service\async_pixel_transfer_delegate.cc">
+      <Filter>command_buffer\service</Filter>
+    </ClCompile>
+    <ClCompile Include="command_buffer\service\command_buffer_service.cc">
+      <Filter>command_buffer\service</Filter>
+    </ClCompile>
+    <ClCompile Include="command_buffer\service\shader_translator_cache.cc">
+      <Filter>command_buffer\service</Filter>
+    </ClCompile>
+    <ClCompile Include="command_buffer\service\query_manager.cc">
+      <Filter>command_buffer\service</Filter>
+    </ClCompile>
+    <ClInclude Include="command_buffer\service\memory_program_cache.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClCompile Include="command_buffer\service\gpu_control_service.cc">
+      <Filter>command_buffer\service</Filter>
+    </ClCompile>
+    <ClInclude Include="command_buffer\service\gpu_switches.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClInclude Include="command_buffer\service\async_pixel_transfer_manager.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClCompile Include="command_buffer\service\shader_manager.cc">
+      <Filter>command_buffer\service</Filter>
+    </ClCompile>
+    <ClCompile Include="command_buffer\service\buffer_manager.cc">
+      <Filter>command_buffer\service</Filter>
+    </ClCompile>
+    <ClInclude Include="command_buffer\service\gpu_memory_buffer_manager.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClInclude Include="command_buffer\service\async_pixel_transfer_manager_stub.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClInclude Include="command_buffer\service\async_pixel_transfer_manager_idle.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClInclude Include="command_buffer\service\context_group.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClCompile Include="command_buffer\service\vertex_attrib_manager.cc">
+      <Filter>command_buffer\service</Filter>
+    </ClCompile>
+    <ClInclude Include="command_buffer\service\mocks.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClInclude Include="command_buffer\service\buffer_manager.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClCompile Include="command_buffer\service\async_pixel_transfer_manager_stub.cc">
+      <Filter>command_buffer\service</Filter>
+    </ClCompile>
+    <ClInclude Include="command_buffer\service\vertex_array_manager.h">
+      <Filter>command_buffer\service</Filter>
+    </ClInclude>
+    <ClCompile Include="command_buffer\service\program_manager.cc">
+      <Filter>command_buffer\service</Filter>
+    </ClCompile>
+    <ClCompile Include="command_buffer\service\async_pixel_transfer_manager_mac.cc">
+      <Filter>command_buffer\service\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="command_buffer\service\async_pixel_transfer_manager_android.cc">
+      <Filter>command_buffer\service\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="command_buffer\service\async_pixel_transfer_manager_linux.cc">
+      <Filter>command_buffer\service\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="command_buffer\service\stream_texture_manager_in_process_android.cc">
+      <Filter>command_buffer\service\_excluded_files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\glue">
+      <UniqueIdentifier>{9C0EBFC5-0C0B-8A11-B834-3199D9447A2E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="webkit_support.gyp"/>
+    <ClCompile Include="..\glue\simple_webmimeregistry_impl.cc">
+      <Filter>..\glue</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glue\webfileutilities_impl.cc">
+      <Filter>..\glue</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glue\webkit_glue.cc">
+      <Filter>..\glue</Filter>
+    </ClCompile>
+    <ClInclude Include="..\glue\webkit_glue_export.h">
+      <Filter>..\glue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glue\webkit_glue.h">
+      <Filter>..\glue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glue\simple_webmimeregistry_impl.h">
+      <Filter>..\glue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glue\webfileutilities_impl.h">
+      <Filter>..\glue</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\build\precompile.cc">
+      <Filter>..\..\build</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

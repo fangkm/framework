@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj">
+      <UniqueIdentifier>{7BD4F48B-77B4-AB58-9E24-A7302D190D1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate">
+      <UniqueIdentifier>{14CEDE64-16A7-96A9-EF19-5C5D6085FF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\sdk">
+      <UniqueIdentifier>{300B0F0A-ACAD-6063-4C44-1B7D00C8E13F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\sdk\toolchain">
+      <UniqueIdentifier>{A1380BF2-B2E4-A638-7882-599BD9BAE887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\sdk\toolchain\win_x86_newlib">
+      <UniqueIdentifier>{F379E9B9-88A3-FDFC-0222-7C732E6A9304}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\sdk\toolchain\win_x86_newlib\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="command_buffer">
+      <UniqueIdentifier>{05C7F72F-ADB0-5046-004F-DF2FFA532C5A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="command_buffer\client">
+      <UniqueIdentifier>{D5E3C9B9-F4E5-9856-CE8C-F9B03683EBB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="command_buffer\client\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="command_buffer\common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="command_buffer\common\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\base">
+      <UniqueIdentifier>{DBBAC0A6-BB0A-CA51-45CC-DA4574B671E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\base\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\base\debug">
+      <UniqueIdentifier>{FBAE646B-1E91-2C58-956B-A42D67D8DA0E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\base\debug\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native_client">
+      <UniqueIdentifier>{A9537671-E7FD-2F0E-DE29-6155260B6944}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native_client\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native_client\build\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="gpu_untrusted.gyp"/>
+    <None Include="irt-x86-64.gles2_cmd_helper_untrusted.source_list.gypcmd">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="irt-x86-32.gles2_cmd_helper_untrusted.source_list.gypcmd">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <ClInclude Include="gpu_export.h">
+      <Filter>_excluded_files</Filter>
+    </ClInclude>
+    <None Include="$(OutDir)obj\global_intermediate\sdk\toolchain\win_x86_newlib\stamp.prep">
+      <Filter>$(OutDir)obj\global_intermediate\sdk\toolchain\win_x86_newlib\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="command_buffer\client\gles2_cmd_helper_autogen.h">
+      <Filter>command_buffer\client\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="command_buffer\client\cmd_buffer_helper.h">
+      <Filter>command_buffer\client\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="command_buffer\client\gles2_cmd_helper.cc">
+      <Filter>command_buffer\client\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="command_buffer\client\gles2_cmd_helper.h">
+      <Filter>command_buffer\client\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="command_buffer\common\gles2_utils_export.h">
+      <Filter>command_buffer\common\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="command_buffer\common\constants.h">
+      <Filter>command_buffer\common\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="command_buffer\common\gles2_cmd_format.h">
+      <Filter>command_buffer\common\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="command_buffer\common\logging.h">
+      <Filter>command_buffer\common\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="command_buffer\common\gles2_cmd_ids.h">
+      <Filter>command_buffer\common\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="command_buffer\common\types.h">
+      <Filter>command_buffer\common\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="command_buffer\common\cmd_buffer_common.h">
+      <Filter>command_buffer\common\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="command_buffer\common\buffer.h">
+      <Filter>command_buffer\common\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="command_buffer\common\bitfield_helpers.h">
+      <Filter>command_buffer\common\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="command_buffer\common\gles2_cmd_ids_autogen.h">
+      <Filter>command_buffer\common\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="command_buffer\common\command_buffer.h">
+      <Filter>command_buffer\common\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="command_buffer\common\gles2_cmd_format_autogen.h">
+      <Filter>command_buffer\common\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\logging.h">
+      <Filter>..\base\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\base_export.h">
+      <Filter>..\base\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\safe_numerics.h">
+      <Filter>..\base\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\basictypes.h">
+      <Filter>..\base\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\port.h">
+      <Filter>..\base\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\debug\debugger.h">
+      <Filter>..\base\debug\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="..\native_client\build\build_nexe.py">
+      <Filter>..\native_client\build\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="..\build\build_config.h">
+      <Filter>..\build\_excluded_files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

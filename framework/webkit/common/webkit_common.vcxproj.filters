@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="cursors">
+      <UniqueIdentifier>{9CDCFBAA-4970-52C9-41DF-FEFE993D87EC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cursors\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource_devtools_info.h"/>
+    <ClCompile Include="resource_devtools_info.cc"/>
+    <ClInclude Include="resource_type.h"/>
+    <ClInclude Include="data_element.h"/>
+    <ClCompile Include="resource_request_body.cc"/>
+    <ClCompile Include="resource_response_info.cc"/>
+    <ClInclude Include="resource_response_info.h"/>
+    <ClCompile Include="resource_type.cc"/>
+    <ClCompile Include="webpreferences.cc"/>
+    <ClInclude Include="webpreferences.h"/>
+    <ClInclude Include="webkit_common_export.h"/>
+    <ClCompile Include="data_element.cc"/>
+    <ClInclude Include="resource_request_body.h"/>
+    <None Include="webkit_common.gyp"/>
+    <ClCompile Include="cursors\webcursor_aurawin.cc">
+      <Filter>cursors</Filter>
+    </ClCompile>
+    <ClCompile Include="cursors\webcursor_aura.cc">
+      <Filter>cursors</Filter>
+    </ClCompile>
+    <ClInclude Include="cursors\webcursor.h">
+      <Filter>cursors</Filter>
+    </ClInclude>
+    <ClInclude Include="cursors\webcursor_gtk_data.h">
+      <Filter>cursors</Filter>
+    </ClInclude>
+    <ClCompile Include="cursors\webcursor.cc">
+      <Filter>cursors</Filter>
+    </ClCompile>
+    <ClCompile Include="cursors\webcursor_win.cc">
+      <Filter>cursors\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="cursors\webcursor_android.cc">
+      <Filter>cursors\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="cursors\webcursor_aurax11.cc">
+      <Filter>cursors\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="cursors\webcursor_mac.mm">
+      <Filter>cursors\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="cursors\webcursor_gtk.cc">
+      <Filter>cursors\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="cursors\webcursor_null.cc">
+      <Filter>cursors\_excluded_files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="webdata">
+      <UniqueIdentifier>{CBCC3417-9EC5-8AB4-2EBE-E1E5B86531E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="webdata\common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="components.gyp"/>
+    <ClInclude Include="webdata\common\web_data_service_consumer.h">
+      <Filter>webdata\common</Filter>
+    </ClInclude>
+    <ClCompile Include="webdata\common\web_database.cc">
+      <Filter>webdata\common</Filter>
+    </ClCompile>
+    <ClCompile Include="webdata\common\web_database_table.cc">
+      <Filter>webdata\common</Filter>
+    </ClCompile>
+    <ClInclude Include="webdata\common\web_data_service_base.h">
+      <Filter>webdata\common</Filter>
+    </ClInclude>
+    <ClInclude Include="webdata\common\webdata_constants.h">
+      <Filter>webdata\common</Filter>
+    </ClInclude>
+    <ClCompile Include="webdata\common\web_data_request_manager.cc">
+      <Filter>webdata\common</Filter>
+    </ClCompile>
+    <ClCompile Include="webdata\common\web_data_service_backend.cc">
+      <Filter>webdata\common</Filter>
+    </ClCompile>
+    <ClInclude Include="webdata\common\web_database_service.h">
+      <Filter>webdata\common</Filter>
+    </ClInclude>
+    <ClCompile Include="webdata\common\web_database_service.cc">
+      <Filter>webdata\common</Filter>
+    </ClCompile>
+    <ClInclude Include="webdata\common\webdata_export.h">
+      <Filter>webdata\common</Filter>
+    </ClInclude>
+    <ClCompile Include="webdata\common\webdata_constants.cc">
+      <Filter>webdata\common</Filter>
+    </ClCompile>
+    <ClInclude Include="webdata\common\web_database.h">
+      <Filter>webdata\common</Filter>
+    </ClInclude>
+    <ClInclude Include="webdata\common\web_data_request_manager.h">
+      <Filter>webdata\common</Filter>
+    </ClInclude>
+    <ClCompile Include="webdata\common\web_data_service_base.cc">
+      <Filter>webdata\common</Filter>
+    </ClCompile>
+    <ClInclude Include="webdata\common\web_data_results.h">
+      <Filter>webdata\common</Filter>
+    </ClInclude>
+    <ClInclude Include="webdata\common\web_database_table.h">
+      <Filter>webdata\common</Filter>
+    </ClInclude>
+    <ClInclude Include="webdata\common\web_data_service_backend.h">
+      <Filter>webdata\common</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win">
+      <UniqueIdentifier>{47FC5EC4-15EB-E92F-89D7-AFE51CF838A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win\sandbox_poc">
+      <UniqueIdentifier>{EFD4156B-B1AA-2C7C-80D9-98A90FFC6B9D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win\sandbox_poc\pocdll">
+      <UniqueIdentifier>{BF055904-89B9-0B2E-9387-FC225C5E1BE7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sandbox.gyp"/>
+    <ClCompile Include="win\sandbox_poc\pocdll\handles.cc">
+      <Filter>win\sandbox_poc\pocdll</Filter>
+    </ClCompile>
+    <ClCompile Include="win\sandbox_poc\pocdll\processes_and_threads.cc">
+      <Filter>win\sandbox_poc\pocdll</Filter>
+    </ClCompile>
+    <ClCompile Include="win\sandbox_poc\pocdll\network.cc">
+      <Filter>win\sandbox_poc\pocdll</Filter>
+    </ClCompile>
+    <ClCompile Include="win\sandbox_poc\pocdll\registry.cc">
+      <Filter>win\sandbox_poc\pocdll</Filter>
+    </ClCompile>
+    <ClInclude Include="win\sandbox_poc\pocdll\exports.h">
+      <Filter>win\sandbox_poc\pocdll</Filter>
+    </ClInclude>
+    <ClCompile Include="win\sandbox_poc\pocdll\invasive.cc">
+      <Filter>win\sandbox_poc\pocdll</Filter>
+    </ClCompile>
+    <ClCompile Include="win\sandbox_poc\pocdll\spyware.cc">
+      <Filter>win\sandbox_poc\pocdll</Filter>
+    </ClCompile>
+    <ClCompile Include="win\sandbox_poc\pocdll\pocdll.cc">
+      <Filter>win\sandbox_poc\pocdll</Filter>
+    </ClCompile>
+    <ClCompile Include="win\sandbox_poc\pocdll\fs.cc">
+      <Filter>win\sandbox_poc\pocdll</Filter>
+    </ClCompile>
+    <ClInclude Include="win\sandbox_poc\pocdll\utils.h">
+      <Filter>win\sandbox_poc\pocdll</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

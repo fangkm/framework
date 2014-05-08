@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\nss">
+      <UniqueIdentifier>{3C09AD6B-82F0-6694-7902-5905A4E0AD0E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="curve25519-donna.c"/>
+    <ClCompile Include="random.cc"/>
+    <ClCompile Include="ec_signature_creator_nss.cc"/>
+    <ClInclude Include="rsa_private_key.h"/>
+    <ClInclude Include="encryptor.h"/>
+    <ClCompile Include="ec_private_key_nss.cc"/>
+    <ClCompile Include="sha2.cc"/>
+    <ClCompile Include="hmac_nss.cc"/>
+    <ClInclude Include="ghash.h"/>
+    <ClCompile Include="hkdf.cc"/>
+    <ClCompile Include="secure_util.cc"/>
+    <ClInclude Include="p224_spake.h"/>
+    <ClCompile Include="p224_spake.cc"/>
+    <ClInclude Include="hmac.h"/>
+    <ClCompile Include="signature_verifier_nss.cc"/>
+    <ClCompile Include="ghash.cc"/>
+    <None Include="crypto.gyp"/>
+    <ClInclude Include="capi_util.h"/>
+    <ClInclude Include="ec_signature_creator_impl.h"/>
+    <ClCompile Include="encryptor.cc"/>
+    <ClInclude Include="crypto_export.h"/>
+    <ClCompile Include="curve25519.cc"/>
+    <ClInclude Include="nss_util.h"/>
+    <ClInclude Include="crypto_module_blocking_password_delegate.h"/>
+    <ClCompile Include="capi_util.cc"/>
+    <ClInclude Include="signature_verifier.h"/>
+    <ClInclude Include="ec_private_key.h"/>
+    <ClCompile Include="hmac.cc"/>
+    <ClCompile Include="encryptor_nss.cc"/>
+    <ClCompile Include="nss_util.cc"/>
+    <ClInclude Include="p224.h"/>
+    <ClCompile Include="ec_signature_creator.cc"/>
+    <ClInclude Include="ec_signature_creator.h"/>
+    <ClInclude Include="curve25519.h"/>
+    <ClCompile Include="symmetric_key_nss.cc"/>
+    <ClInclude Include="hkdf.h"/>
+    <ClInclude Include="scoped_nss_types.h"/>
+    <ClCompile Include="rsa_private_key.cc"/>
+    <ClInclude Include="nss_util_internal.h"/>
+    <ClCompile Include="signature_creator_nss.cc"/>
+    <ClCompile Include="rsa_private_key_nss.cc"/>
+    <ClInclude Include="secure_hash.h"/>
+    <ClCompile Include="p224.cc"/>
+    <ClInclude Include="sha2.h"/>
+    <ClInclude Include="scoped_capi_types.h"/>
+    <ClCompile Include="secure_hash_default.cc"/>
+    <ClInclude Include="secure_util.h"/>
+    <ClInclude Include="symmetric_key.h"/>
+    <ClInclude Include="signature_creator.h"/>
+    <ClInclude Include="random.h"/>
+    <ClCompile Include="mock_apple_keychain.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="signature_verifier_openssl.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="symmetric_key_win.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="mock_apple_keychain_ios.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="encryptor_openssl.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="hmac_openssl.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="signature_creator_openssl.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="cssm_init.h">
+      <Filter>_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="secure_hash_openssl.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="cssm_init.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="mock_apple_keychain_mac.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <None Include="apple_keychain_mac.mm">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <ClInclude Include="apple_keychain.h">
+      <Filter>_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="mac_security_services_lock.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="ec_private_key_openssl.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="symmetric_key_openssl.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="openpgp_symmetric_encryption.h">
+      <Filter>_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="ec_signature_creator_openssl.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="hmac_win.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="rsa_private_key_openssl.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="openssl_util.h">
+      <Filter>_excluded_files</Filter>
+    </ClInclude>
+    <None Include="apple_keychain_ios.mm">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <ClInclude Include="mac_security_services_lock.h">
+      <Filter>_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="openpgp_symmetric_encryption.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="mock_apple_keychain.h">
+      <Filter>_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="openssl_util.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="third_party\nss\sha512.cc">
+      <Filter>third_party\nss</Filter>
+    </ClCompile>
+    <ClInclude Include="third_party\nss\chromium-sha256.h">
+      <Filter>third_party\nss</Filter>
+    </ClInclude>
+    <ClCompile Include="third_party\nss\secsign.cc">
+      <Filter>third_party\nss</Filter>
+    </ClCompile>
+    <ClInclude Include="third_party\nss\chromium-blapit.h">
+      <Filter>third_party\nss</Filter>
+    </ClInclude>
+    <ClInclude Include="third_party\nss\chromium-blapi.h">
+      <Filter>third_party\nss</Filter>
+    </ClInclude>
+    <ClCompile Include="third_party\nss\pk11akey.cc">
+      <Filter>third_party\nss</Filter>
+    </ClCompile>
+    <ClCompile Include="third_party\nss\rsawrapr.c">
+      <Filter>third_party\nss</Filter>
+    </ClCompile>
+    <ClInclude Include="third_party\nss\chromium-nss.h">
+      <Filter>third_party\nss</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

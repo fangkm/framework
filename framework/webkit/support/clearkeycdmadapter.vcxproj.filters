@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\renderer">
+      <UniqueIdentifier>{AC4EF684-2900-10EA-3D11-A6DF0901358C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\renderer\media">
+      <UniqueIdentifier>{2699B576-DA2C-16EE-9C4A-F0CAB500D719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\renderer\media\crypto">
+      <UniqueIdentifier>{DFFB1441-5E91-CEAB-DBC4-604225CE8161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\renderer\media\crypto\ppapi">
+      <UniqueIdentifier>{15C4068B-59E6-A58B-C933-FCE0F2E45305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\renderer\media\crypto\ppapi\cdm">
+      <UniqueIdentifier>{9D2557A0-D334-F1EB-617C-179BF2723096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="webkit_support.gyp"/>
+    <ClInclude Include="..\renderer\media\crypto\ppapi\linked_ptr.h">
+      <Filter>..\renderer\media\crypto\ppapi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\renderer\media\crypto\ppapi\cdm_wrapper.cc">
+      <Filter>..\renderer\media\crypto\ppapi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\renderer\media\crypto\ppapi\cdm\content_decryption_module.h">
+      <Filter>..\renderer\media\crypto\ppapi\cdm</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\build\precompile.cc">
+      <Filter>..\..\build</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

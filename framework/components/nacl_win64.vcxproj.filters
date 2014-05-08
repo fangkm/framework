@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="nacl">
+      <UniqueIdentifier>{71AFF0C1-999F-D34A-6D95-5A8D93FB7DF5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nacl\loader">
+      <UniqueIdentifier>{3E8AF183-CF37-3672-A18D-21E019961B7A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nacl\loader\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\components">
+      <UniqueIdentifier>{3AFDBA04-7EE3-7E7A-3B5A-73953F62668A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\components\nacl">
+      <UniqueIdentifier>{71AFF0C1-999F-D34A-6D95-5A8D93FB7DF5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\components\nacl\common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\components\nacl\broker">
+      <UniqueIdentifier>{63B9969E-7911-5968-A0DE-87341AD0D461}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="nacl.gyp"/>
+    <ClInclude Include="nacl\loader\nacl_validation_query.h">
+      <Filter>nacl\loader</Filter>
+    </ClInclude>
+    <ClCompile Include="nacl\loader\nacl_main.cc">
+      <Filter>nacl\loader</Filter>
+    </ClCompile>
+    <ClInclude Include="nacl\loader\nacl_main_platform_delegate.h">
+      <Filter>nacl\loader</Filter>
+    </ClInclude>
+    <ClInclude Include="nacl\loader\nacl_validation_db.h">
+      <Filter>nacl\loader</Filter>
+    </ClInclude>
+    <ClCompile Include="nacl\loader\nacl_main_platform_delegate_win.cc">
+      <Filter>nacl\loader</Filter>
+    </ClCompile>
+    <ClCompile Include="nacl\loader\nacl_listener.cc">
+      <Filter>nacl\loader</Filter>
+    </ClCompile>
+    <ClInclude Include="nacl\loader\nacl_ipc_adapter.h">
+      <Filter>nacl\loader</Filter>
+    </ClInclude>
+    <ClCompile Include="nacl\loader\nacl_ipc_adapter.cc">
+      <Filter>nacl\loader</Filter>
+    </ClCompile>
+    <ClInclude Include="nacl\loader\nacl_listener.h">
+      <Filter>nacl\loader</Filter>
+    </ClInclude>
+    <ClCompile Include="nacl\loader\nacl_validation_query.cc">
+      <Filter>nacl\loader</Filter>
+    </ClCompile>
+    <ClCompile Include="nacl\loader\nacl_main_platform_delegate_linux.cc">
+      <Filter>nacl\loader\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="nacl\loader\nacl_main_platform_delegate_mac.mm">
+      <Filter>nacl\loader\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="..\components\nacl\common\nacl_debug_exception_handler_win.cc">
+      <Filter>..\components\nacl\common</Filter>
+    </ClCompile>
+    <ClInclude Include="..\components\nacl\broker\nacl_broker_listener.h">
+      <Filter>..\components\nacl\broker</Filter>
+    </ClInclude>
+    <ClCompile Include="..\components\nacl\broker\nacl_broker_listener.cc">
+      <Filter>..\components\nacl\broker</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

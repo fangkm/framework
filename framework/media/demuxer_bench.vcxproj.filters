@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="tools">
+      <UniqueIdentifier>{A0946190-5491-4D66-7E51-19400E36F078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools\demuxer_bench">
+      <UniqueIdentifier>{411E8E69-2D8B-B0D4-EA47-5ED84911D84A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="media.gyp"/>
+    <ClCompile Include="tools\demuxer_bench\demuxer_bench.cc">
+      <Filter>tools\demuxer_bench</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

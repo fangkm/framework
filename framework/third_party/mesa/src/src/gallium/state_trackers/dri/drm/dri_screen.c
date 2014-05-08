@@ -1,0 +1,1 @@
+link ../common/dri_screen.c

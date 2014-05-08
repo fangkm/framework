@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\webkit">
+      <UniqueIdentifier>{6BB4ACEE-077E-03F4-A9A9-4276B7FD2E30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\webkit\support">
+      <UniqueIdentifier>{60E2CDAB-BE66-7795-2926-DDFA2378C4BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="webkit_support.gyp"/>
+    <ClInclude Include="..\..\webkit\support\mock_webclipboard_impl.h">
+      <Filter>..\..\webkit\support</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\webkit\support\mock_webclipboard_impl.cc">
+      <Filter>..\..\webkit\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\build\precompile.cc">
+      <Filter>..\..\build</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

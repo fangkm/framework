@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="$(OutDir)obj">
+      <UniqueIdentifier>{7BD4F48B-77B4-AB58-9E24-A7302D190D1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate">
+      <UniqueIdentifier>{14CEDE64-16A7-96A9-EF19-5C5D6085FF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\protoc_out">
+      <UniqueIdentifier>{456EFA50-5ADA-2D4B-BB76-1BD6B9BCA3A4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\protoc_out\components">
+      <UniqueIdentifier>{3AFDBA04-7EE3-7E7A-3B5A-73953F62668A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\protoc_out\components\variations">
+      <UniqueIdentifier>{312BF719-AC7C-65D2-2D9F-440AE49FCCF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\protoc_out\components\variations\proto">
+      <UniqueIdentifier>{E1E178F4-6F78-9A60-32B7-00150F9D2998}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="variations">
+      <UniqueIdentifier>{312BF719-AC7C-65D2-2D9F-440AE49FCCF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="variations\proto">
+      <UniqueIdentifier>{E1E178F4-6F78-9A60-32B7-00150F9D2998}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools">
+      <UniqueIdentifier>{A0946190-5491-4D66-7E51-19400E36F078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\protoc_wrapper">
+      <UniqueIdentifier>{34D2DD54-FDF8-D9D8-4C83-CA01DBAC57A6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\protoc_wrapper\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)">
+      <UniqueIdentifier>{ECA95933-7FA6-5798-4EC4-C0CAC6DD34DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\pyproto">
+      <UniqueIdentifier>{A5155811-51E5-1087-45BA-D2802E9B53B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\pyproto\components">
+      <UniqueIdentifier>{3AFDBA04-7EE3-7E7A-3B5A-73953F62668A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\pyproto\components\variations">
+      <UniqueIdentifier>{312BF719-AC7C-65D2-2D9F-440AE49FCCF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\pyproto\components\variations\proto">
+      <UniqueIdentifier>{E1E178F4-6F78-9A60-32B7-00150F9D2998}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="components.gyp"/>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\protoc_out\components\variations\proto\study.pb.h">
+      <Filter>$(OutDir)obj\global_intermediate\protoc_out\components\variations\proto</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\protoc_out\components\variations\proto\study.pb.cc">
+      <Filter>$(OutDir)obj\global_intermediate\protoc_out\components\variations\proto</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\protoc_out\components\variations\proto\variations_seed.pb.cc">
+      <Filter>$(OutDir)obj\global_intermediate\protoc_out\components\variations\proto</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\protoc_out\components\variations\proto\variations_seed.pb.h">
+      <Filter>$(OutDir)obj\global_intermediate\protoc_out\components\variations\proto</Filter>
+    </ClInclude>
+    <ClInclude Include="variations\entropy_provider.h">
+      <Filter>variations</Filter>
+    </ClInclude>
+    <ClCompile Include="variations\variations_associated_data.cc">
+      <Filter>variations</Filter>
+    </ClCompile>
+    <ClInclude Include="variations\variations_associated_data.h">
+      <Filter>variations</Filter>
+    </ClInclude>
+    <ClCompile Include="variations\variations_seed_processor.cc">
+      <Filter>variations</Filter>
+    </ClCompile>
+    <ClInclude Include="variations\variations_seed_processor.h">
+      <Filter>variations</Filter>
+    </ClInclude>
+    <ClCompile Include="variations\entropy_provider.cc">
+      <Filter>variations</Filter>
+    </ClCompile>
+    <ClCompile Include="variations\metrics_util.cc">
+      <Filter>variations</Filter>
+    </ClCompile>
+    <ClInclude Include="variations\metrics_util.h">
+      <Filter>variations</Filter>
+    </ClInclude>
+    <genproto Include="variations\proto\variations_seed.proto">
+      <Filter>variations\proto</Filter>
+    </genproto>
+    <genproto Include="variations\proto\study.proto">
+      <Filter>variations\proto</Filter>
+    </genproto>
+    <None Include="..\tools\protoc_wrapper\protoc_wrapper.py">
+      <Filter>..\tools\protoc_wrapper\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)\protoc.exe">
+      <Filter>$(OutDir)\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)\pyproto\components\variations\proto\study_pb2.py">
+      <Filter>$(OutDir)\pyproto\components\variations\proto</Filter>
+    </None>
+    <None Include="$(OutDir)\pyproto\components\variations\proto\variations_seed_pb2.py">
+      <Filter>$(OutDir)\pyproto\components\variations\proto</Filter>
+    </None>
+  </ItemGroup>
+</Project>

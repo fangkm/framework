@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="cookies">
+      <UniqueIdentifier>{3BB016F8-C1E9-BB16-0D08-8373C0A57C34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="url_request">
+      <UniqueIdentifier>{9F1F2433-AD73-F654-6911-9B3CC6F1556F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cert">
+      <UniqueIdentifier>{E370B541-EEA6-9A09-6530-CBD64A1147B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{DBBAC0A6-BB0A-CA51-45CC-DA4574B671E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proxy">
+      <UniqueIdentifier>{DB8B4CC8-9E72-B499-B612-B1CD65A064EE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dns">
+      <UniqueIdentifier>{D78B782C-4887-6E4F-B130-4892ECB17313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="socket">
+      <UniqueIdentifier>{1CB6C122-F983-4194-1807-39C03FB001C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\embedded_test_server">
+      <UniqueIdentifier>{F9C3C012-6337-9CB6-E699-0EBA4BF2B70A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\spawned_test_server">
+      <UniqueIdentifier>{2BD67AA5-E171-F0E8-25CD-C3C48637472F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\spawned_test_server\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="disk_cache">
+      <UniqueIdentifier>{5019651D-A4B6-2CA6-C769-E1358D75CDB5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="disk_cache\flash">
+      <UniqueIdentifier>{2C81D43F-4A99-0961-6041-FFA77032A467}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="net.gyp"/>
+    <ClInclude Include="cookies\cookie_monster_store_test.h">
+      <Filter>cookies</Filter>
+    </ClInclude>
+    <ClInclude Include="cookies\cookie_store_test_callbacks.h">
+      <Filter>cookies</Filter>
+    </ClInclude>
+    <ClCompile Include="cookies\cookie_monster_store_test.cc">
+      <Filter>cookies</Filter>
+    </ClCompile>
+    <ClCompile Include="cookies\cookie_store_test_helpers.cc">
+      <Filter>cookies</Filter>
+    </ClCompile>
+    <ClCompile Include="cookies\cookie_store_test_callbacks.cc">
+      <Filter>cookies</Filter>
+    </ClCompile>
+    <ClInclude Include="cookies\cookie_store_test_helpers.h">
+      <Filter>cookies</Filter>
+    </ClInclude>
+    <ClInclude Include="url_request\url_request_test_util.h">
+      <Filter>url_request</Filter>
+    </ClInclude>
+    <ClInclude Include="url_request\test_url_fetcher_factory.h">
+      <Filter>url_request</Filter>
+    </ClInclude>
+    <ClCompile Include="url_request\test_url_fetcher_factory.cc">
+      <Filter>url_request</Filter>
+    </ClCompile>
+    <ClCompile Include="url_request\url_request_test_util.cc">
+      <Filter>url_request</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+    <ClCompile Include="cert\mock_cert_verifier.cc">
+      <Filter>cert</Filter>
+    </ClCompile>
+    <ClInclude Include="cert\mock_cert_verifier.h">
+      <Filter>cert</Filter>
+    </ClInclude>
+    <ClInclude Include="base\test_completion_callback.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\capturing_net_log.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\load_timing_info_test_util.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\test_completion_callback.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\test_data_directory.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\mock_file_stream.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\load_timing_info_test_util.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\capturing_net_log.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\test_data_directory.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\mock_file_stream.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="proxy\proxy_config_service_common_unittest.h">
+      <Filter>proxy</Filter>
+    </ClInclude>
+    <ClCompile Include="proxy\proxy_config_service_common_unittest.cc">
+      <Filter>proxy</Filter>
+    </ClCompile>
+    <ClInclude Include="proxy\mock_proxy_script_fetcher.h">
+      <Filter>proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="proxy\mock_proxy_resolver.h">
+      <Filter>proxy</Filter>
+    </ClInclude>
+    <ClCompile Include="proxy\mock_proxy_script_fetcher.cc">
+      <Filter>proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="proxy\mock_proxy_resolver.cc">
+      <Filter>proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="dns\dns_test_util.cc">
+      <Filter>dns</Filter>
+    </ClCompile>
+    <ClCompile Include="dns\mock_host_resolver.cc">
+      <Filter>dns</Filter>
+    </ClCompile>
+    <ClCompile Include="dns\mock_mdns_socket_factory.cc">
+      <Filter>dns</Filter>
+    </ClCompile>
+    <ClInclude Include="dns\dns_test_util.h">
+      <Filter>dns</Filter>
+    </ClInclude>
+    <ClInclude Include="dns\mock_mdns_socket_factory.h">
+      <Filter>dns</Filter>
+    </ClInclude>
+    <ClInclude Include="dns\mock_host_resolver.h">
+      <Filter>dns</Filter>
+    </ClInclude>
+    <ClCompile Include="socket\socket_test_util.cc">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClInclude Include="socket\socket_test_util.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClInclude Include="test\net_test_suite.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\net_test_suite.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\python_utils.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cert_test_util.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\python_utils.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cert_test_util.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\embedded_test_server\http_response.cc">
+      <Filter>test\embedded_test_server</Filter>
+    </ClCompile>
+    <ClInclude Include="test\embedded_test_server\http_response.h">
+      <Filter>test\embedded_test_server</Filter>
+    </ClInclude>
+    <ClInclude Include="test\embedded_test_server\http_request.h">
+      <Filter>test\embedded_test_server</Filter>
+    </ClInclude>
+    <ClInclude Include="test\embedded_test_server\embedded_test_server.h">
+      <Filter>test\embedded_test_server</Filter>
+    </ClInclude>
+    <ClCompile Include="test\embedded_test_server\embedded_test_server.cc">
+      <Filter>test\embedded_test_server</Filter>
+    </ClCompile>
+    <ClCompile Include="test\embedded_test_server\http_connection.cc">
+      <Filter>test\embedded_test_server</Filter>
+    </ClCompile>
+    <ClCompile Include="test\embedded_test_server\http_request.cc">
+      <Filter>test\embedded_test_server</Filter>
+    </ClCompile>
+    <ClInclude Include="test\embedded_test_server\http_connection.h">
+      <Filter>test\embedded_test_server</Filter>
+    </ClInclude>
+    <ClCompile Include="test\spawned_test_server\local_test_server_win.cc">
+      <Filter>test\spawned_test_server</Filter>
+    </ClCompile>
+    <ClCompile Include="test\spawned_test_server\local_test_server.cc">
+      <Filter>test\spawned_test_server</Filter>
+    </ClCompile>
+    <ClCompile Include="test\spawned_test_server\base_test_server.cc">
+      <Filter>test\spawned_test_server</Filter>
+    </ClCompile>
+    <ClInclude Include="test\spawned_test_server\local_test_server.h">
+      <Filter>test\spawned_test_server</Filter>
+    </ClInclude>
+    <ClInclude Include="test\spawned_test_server\base_test_server.h">
+      <Filter>test\spawned_test_server</Filter>
+    </ClInclude>
+    <ClInclude Include="test\spawned_test_server\spawned_test_server.h">
+      <Filter>test\spawned_test_server</Filter>
+    </ClInclude>
+    <ClInclude Include="test\spawned_test_server\remote_test_server.h">
+      <Filter>test\spawned_test_server\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="test\spawned_test_server\spawner_communicator.cc">
+      <Filter>test\spawned_test_server\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\spawned_test_server\local_test_server_posix.cc">
+      <Filter>test\spawned_test_server\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\spawned_test_server\remote_test_server.cc">
+      <Filter>test\spawned_test_server\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="test\spawned_test_server\spawner_communicator.h">
+      <Filter>test\spawned_test_server\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="disk_cache\disk_cache_test_base.h">
+      <Filter>disk_cache</Filter>
+    </ClInclude>
+    <ClCompile Include="disk_cache\disk_cache_test_util.cc">
+      <Filter>disk_cache</Filter>
+    </ClCompile>
+    <ClInclude Include="disk_cache\disk_cache_test_util.h">
+      <Filter>disk_cache</Filter>
+    </ClInclude>
+    <ClCompile Include="disk_cache\disk_cache_test_base.cc">
+      <Filter>disk_cache</Filter>
+    </ClCompile>
+    <ClCompile Include="disk_cache\flash\flash_cache_test_base.cc">
+      <Filter>disk_cache\flash</Filter>
+    </ClCompile>
+    <ClInclude Include="disk_cache\flash\flash_cache_test_base.h">
+      <Filter>disk_cache\flash</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

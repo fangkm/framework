@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="user_prefs">
+      <UniqueIdentifier>{89DA2874-0FDA-5362-7473-6665778A30EF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="components.gyp"/>
+    <ClCompile Include="user_prefs\user_prefs.cc">
+      <Filter>user_prefs</Filter>
+    </ClCompile>
+    <ClInclude Include="user_prefs\user_prefs_export.h">
+      <Filter>user_prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="user_prefs\user_prefs.h">
+      <Filter>user_prefs</Filter>
+    </ClInclude>
+    <ClCompile Include="user_prefs\pref_registry_syncable.cc">
+      <Filter>user_prefs</Filter>
+    </ClCompile>
+    <ClInclude Include="user_prefs\pref_registry_syncable.h">
+      <Filter>user_prefs</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

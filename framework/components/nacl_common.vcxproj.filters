@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="nacl">
+      <UniqueIdentifier>{71AFF0C1-999F-D34A-6D95-5A8D93FB7DF5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nacl\common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="nacl_common.gyp"/>
+    <ClInclude Include="nacl\common\nacl_types.h">
+      <Filter>nacl\common</Filter>
+    </ClInclude>
+    <ClCompile Include="nacl\common\nacl_cmd_line.cc">
+      <Filter>nacl\common</Filter>
+    </ClCompile>
+    <ClInclude Include="nacl\common\nacl_cmd_line.h">
+      <Filter>nacl\common</Filter>
+    </ClInclude>
+    <ClInclude Include="nacl\common\nacl_messages.h">
+      <Filter>nacl\common</Filter>
+    </ClInclude>
+    <ClCompile Include="nacl\common\nacl_messages.cc">
+      <Filter>nacl\common</Filter>
+    </ClCompile>
+    <ClCompile Include="nacl\common\nacl_types.cc">
+      <Filter>nacl\common</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1 @@
+link ../intel/intel_pixel_bitmap.c

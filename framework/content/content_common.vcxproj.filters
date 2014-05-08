@@ -1,0 +1,617 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="port">
+      <UniqueIdentifier>{56285779-61EB-16AC-749B-C9867D0449BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="port\common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public">
+      <UniqueIdentifier>{0D2511BD-044F-C35F-ECCE-845899961E41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public\common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public\common\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\input">
+      <UniqueIdentifier>{2F6C04D2-C90B-4FD0-8BF5-B540F7C337DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\gpu">
+      <UniqueIdentifier>{52E8B949-3E67-CAB7-33D9-3F972FED789B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\gpu\media">
+      <UniqueIdentifier>{2699B576-DA2C-16EE-9C4A-F0CAB500D719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\gpu\client">
+      <UniqueIdentifier>{D5E3C9B9-F4E5-9856-CE8C-F9B03683EBB9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="content.gyp" />
+    <ClInclude Include="port\common\input_event_ack_state.h">
+      <Filter>port\common</Filter>
+    </ClInclude>
+    <ClCompile Include="public\common\ssl_status.cc">
+      <Filter>public\common</Filter>
+    </ClCompile>
+    <ClCompile Include="public\common\show_desktop_notification_params.cc">
+      <Filter>public\common</Filter>
+    </ClCompile>
+    <ClCompile Include="public\common\child_process_host_delegate.cc">
+      <Filter>public\common</Filter>
+    </ClCompile>
+    <ClInclude Include="public\common\console_message_level.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\ssl_status.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\menu_item.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\window_container_type.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClCompile Include="public\common\common_param_traits.cc">
+      <Filter>public\common</Filter>
+    </ClCompile>
+    <ClCompile Include="public\common\favicon_url.cc">
+      <Filter>public\common</Filter>
+    </ClCompile>
+    <ClInclude Include="public\common\process_type.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClCompile Include="public\common\url_constants.cc">
+      <Filter>public\common</Filter>
+    </ClCompile>
+    <ClInclude Include="public\common\injection_test_win.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\drop_data.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\url_utils.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\browser_plugin_permission_type.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\gpu_memory_stats.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\content_constants.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\url_constants.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClCompile Include="public\common\content_switches.cc">
+      <Filter>public\common</Filter>
+    </ClCompile>
+    <ClInclude Include="public\common\content_client.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\common_param_traits_macros.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\file_chooser_params.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClCompile Include="public\common\content_constants.cc">
+      <Filter>public\common</Filter>
+    </ClCompile>
+    <ClCompile Include="public\common\menu_item.cc">
+      <Filter>public\common</Filter>
+    </ClCompile>
+    <ClInclude Include="public\common\content_switches.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\referrer.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClCompile Include="public\common\window_container_type.cc">
+      <Filter>public\common</Filter>
+    </ClCompile>
+    <ClInclude Include="public\common\child_process_host.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\content_ipc_logging.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\javascript_message_type.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClCompile Include="public\common\content_client.cc">
+      <Filter>public\common</Filter>
+    </ClCompile>
+    <ClInclude Include="public\common\favicon_url.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClCompile Include="public\common\url_utils.cc">
+      <Filter>public\common</Filter>
+    </ClCompile>
+    <ClInclude Include="public\common\result_codes_list.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\top_controls_state_list.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\stop_find_action.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\bindings_policy.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\child_process_host_delegate.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClCompile Include="public\common\file_chooser_params.cc">
+      <Filter>public\common</Filter>
+    </ClCompile>
+    <ClInclude Include="public\common\url_fetcher.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\security_style.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\three_d_api_types.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\content_paths.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClCompile Include="public\common\drop_data.cc">
+      <Filter>public\common</Filter>
+    </ClCompile>
+    <ClInclude Include="public\common\sandbox_init.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClCompile Include="public\common\gpu_memory_stats.cc">
+      <Filter>public\common</Filter>
+    </ClCompile>
+    <ClInclude Include="public\common\sandboxed_process_launcher_delegate.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\content_descriptors.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\result_codes.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\main_function_params.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\top_controls_state.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\common_param_traits.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\show_desktop_notification_params.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\sandbox_type_mac.h">
+      <Filter>public\common\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\zygote_fork_delegate_linux.h">
+      <Filter>public\common\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\injection_test_mac.h">
+      <Filter>public\common\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\child_process_sandbox_support_linux.h">
+      <Filter>public\common\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\sandbox_linux.h">
+      <Filter>public\common\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+    <ClInclude Include="common\child_process_messages.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\sandbox_init_win.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\content_paths.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\sandbox_util.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\font_list.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\content_constants_internal.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\power_monitor_messages.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\font_cache_dispatcher_win.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\handle_enumerator_win.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\clipboard_messages.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\sandbox_win.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\cc_messages.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\font_list.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\savable_url_schemes.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\font_list_win.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\url_schemes.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\clipboard_messages.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\drag_event_source_info.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\edit_command.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\savable_url_schemes.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\text_input_client_messages.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\drag_messages.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\one_writer_seqlock.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\sandbox_win.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\mime_registry_messages.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\memory_benchmark_messages.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\navigation_gesture.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\one_writer_seqlock.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\message_router.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\content_param_traits_macros.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\content_param_traits.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\all_messages.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\process_type.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\cc_messages.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\inter_process_time_ticks_converter.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\sandbox_util.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\set_process_title.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\file_utilities_messages.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\handle_enumerator_win.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\content_param_traits.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\swapped_out_messages.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\swapped_out_messages.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\message_router.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\input_messages.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\inter_process_time_ticks_converter.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\drag_traits.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\url_schemes.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\content_message_generator.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\content_message_generator.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\child_process_host_impl.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\image_messages.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\content_export.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\font_cache_dispatcher_win.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\child_process_host_impl.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\content_constants_internal.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\content_ipc_logging.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\set_process_title.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\input\input_event_disposition.h">
+      <Filter>common\input</Filter>
+    </ClInclude>
+    <ClCompile Include="common\input\input_event_disposition.cc">
+      <Filter>common\input</Filter>
+    </ClCompile>
+    <ClCompile Include="common\input\input_param_traits.cc">
+      <Filter>common\input</Filter>
+    </ClCompile>
+    <ClInclude Include="common\input\ipc_input_event_payload.h">
+      <Filter>common\input</Filter>
+    </ClInclude>
+    <ClCompile Include="common\input\input_event.cc">
+      <Filter>common\input</Filter>
+    </ClCompile>
+    <ClInclude Include="common\input\input_event.h">
+      <Filter>common\input</Filter>
+    </ClInclude>
+    <ClCompile Include="common\input\event_packet.cc">
+      <Filter>common\input</Filter>
+    </ClCompile>
+    <ClInclude Include="common\input\event_packet.h">
+      <Filter>common\input</Filter>
+    </ClInclude>
+    <ClCompile Include="common\input\ipc_input_event_payload.cc">
+      <Filter>common\input</Filter>
+    </ClCompile>
+    <ClInclude Include="common\input\input_param_traits.h">
+      <Filter>common\input</Filter>
+    </ClInclude>
+    <ClInclude Include="common\gpu\sync_point_manager.h">
+      <Filter>common\gpu</Filter>
+    </ClInclude>
+    <ClCompile Include="common\gpu\gpu_memory_manager.cc">
+      <Filter>common\gpu</Filter>
+    </ClCompile>
+    <ClInclude Include="common\gpu\texture_image_transport_surface.h">
+      <Filter>common\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="common\gpu\image_transport_surface.h">
+      <Filter>common\gpu</Filter>
+    </ClInclude>
+    <ClCompile Include="common\gpu\image_transport_surface_win.cc">
+      <Filter>common\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="common\gpu\gpu_command_buffer_stub.cc">
+      <Filter>common\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="common\gpu\gpu_channel_manager.cc">
+      <Filter>common\gpu</Filter>
+    </ClCompile>
+    <ClInclude Include="common\gpu\gpu_channel.h">
+      <Filter>common\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="common\gpu\gpu_watchdog.h">
+      <Filter>common\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="common\gpu\surface_capturer.h">
+      <Filter>common\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="common\gpu\gpu_process_launch_causes.h">
+      <Filter>common\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="common\gpu\gpu_memory_uma_stats.h">
+      <Filter>common\gpu</Filter>
+    </ClInclude>
+    <ClCompile Include="common\gpu\gpu_memory_tracking.cc">
+      <Filter>common\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="common\gpu\gpu_surface_lookup.cc">
+      <Filter>common\gpu</Filter>
+    </ClCompile>
+    <ClInclude Include="common\gpu\gpu_messages.h">
+      <Filter>common\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="common\gpu\gpu_memory_allocation.h">
+      <Filter>common\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="common\gpu\gpu_memory_manager_client.h">
+      <Filter>common\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="common\gpu\gpu_surface_lookup.h">
+      <Filter>common\gpu</Filter>
+    </ClInclude>
+    <ClCompile Include="common\gpu\texture_image_transport_surface.cc">
+      <Filter>common\gpu</Filter>
+    </ClCompile>
+    <ClInclude Include="common\gpu\gpu_config.h">
+      <Filter>common\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="common\gpu\gpu_command_buffer_stub.h">
+      <Filter>common\gpu</Filter>
+    </ClInclude>
+    <ClCompile Include="common\gpu\gpu_channel.cc">
+      <Filter>common\gpu</Filter>
+    </ClCompile>
+    <ClInclude Include="common\gpu\stream_texture_manager_android.h">
+      <Filter>common\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="common\gpu\gpu_channel_manager.h">
+      <Filter>common\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="common\gpu\gpu_memory_manager.h">
+      <Filter>common\gpu</Filter>
+    </ClInclude>
+    <ClCompile Include="common\gpu\gpu_rendering_stats.cc">
+      <Filter>common\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="common\gpu\image_transport_surface.cc">
+      <Filter>common\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="common\gpu\sync_point_manager.cc">
+      <Filter>common\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="common\gpu\gpu_memory_manager_client.cc">
+      <Filter>common\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="common\gpu\surface_capturer.cc">
+      <Filter>common\gpu</Filter>
+    </ClCompile>
+    <ClInclude Include="common\gpu\gpu_memory_tracking.h">
+      <Filter>common\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="common\gpu\gpu_rendering_stats.h">
+      <Filter>common\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="common\gpu\media\gpu_video_encode_accelerator.h">
+      <Filter>common\gpu\media</Filter>
+    </ClInclude>
+    <ClCompile Include="common\gpu\media\h264_bit_reader.cc">
+      <Filter>common\gpu\media</Filter>
+    </ClCompile>
+    <ClInclude Include="common\gpu\media\h264_bit_reader.h">
+      <Filter>common\gpu\media</Filter>
+    </ClInclude>
+    <ClInclude Include="common\gpu\media\gl_surface_capturer.h">
+      <Filter>common\gpu\media</Filter>
+    </ClInclude>
+    <ClCompile Include="common\gpu\media\gl_surface_capturer.cc">
+      <Filter>common\gpu\media</Filter>
+    </ClCompile>
+    <ClInclude Include="common\gpu\media\dxva_video_decode_accelerator.h">
+      <Filter>common\gpu\media</Filter>
+    </ClInclude>
+    <ClCompile Include="common\gpu\media\gpu_video_decode_accelerator.cc">
+      <Filter>common\gpu\media</Filter>
+    </ClCompile>
+    <ClCompile Include="common\gpu\media\gpu_video_encode_accelerator.cc">
+      <Filter>common\gpu\media</Filter>
+    </ClCompile>
+    <ClInclude Include="common\gpu\media\gpu_video_decode_accelerator.h">
+      <Filter>common\gpu\media</Filter>
+    </ClInclude>
+    <ClInclude Include="common\gpu\media\h264_parser.h">
+      <Filter>common\gpu\media</Filter>
+    </ClInclude>
+    <ClCompile Include="common\gpu\media\video_decode_accelerator_impl.cc">
+      <Filter>common\gpu\media</Filter>
+    </ClCompile>
+    <ClInclude Include="common\gpu\media\video_decode_accelerator_impl.h">
+      <Filter>common\gpu\media</Filter>
+    </ClInclude>
+    <ClCompile Include="common\gpu\media\h264_parser.cc">
+      <Filter>common\gpu\media</Filter>
+    </ClCompile>
+    <ClCompile Include="common\gpu\media\dxva_video_decode_accelerator.cc">
+      <Filter>common\gpu\media</Filter>
+    </ClCompile>
+    <ClInclude Include="common\gpu\client\context_provider_command_buffer.h">
+      <Filter>common\gpu\client</Filter>
+    </ClInclude>
+    <ClCompile Include="common\gpu\client\command_buffer_proxy_impl.cc">
+      <Filter>common\gpu\client</Filter>
+    </ClCompile>
+    <ClCompile Include="common\gpu\client\gl_helper.cc">
+      <Filter>common\gpu\client</Filter>
+    </ClCompile>
+    <ClCompile Include="common\gpu\client\gpu_video_encode_accelerator_host.cc">
+      <Filter>common\gpu\client</Filter>
+    </ClCompile>
+    <ClCompile Include="common\gpu\client\context_provider_command_buffer.cc">
+      <Filter>common\gpu\client</Filter>
+    </ClCompile>
+    <ClInclude Include="common\gpu\client\command_buffer_proxy_impl.h">
+      <Filter>common\gpu\client</Filter>
+    </ClInclude>
+    <ClInclude Include="common\gpu\client\gl_surface_capturer_host.h">
+      <Filter>common\gpu\client</Filter>
+    </ClInclude>
+    <ClInclude Include="common\gpu\client\gpu_video_encode_accelerator_host.h">
+      <Filter>common\gpu\client</Filter>
+    </ClInclude>
+    <ClCompile Include="common\gpu\client\gl_helper_scaling.cc">
+      <Filter>common\gpu\client</Filter>
+    </ClCompile>
+    <ClCompile Include="common\gpu\client\gpu_channel_host.cc">
+      <Filter>common\gpu\client</Filter>
+    </ClCompile>
+    <ClInclude Include="common\gpu\client\gpu_channel_host.h">
+      <Filter>common\gpu\client</Filter>
+    </ClInclude>
+    <ClInclude Include="common\gpu\client\gl_helper_scaling.h">
+      <Filter>common\gpu\client</Filter>
+    </ClInclude>
+    <ClCompile Include="common\gpu\client\gl_surface_capturer_host.cc">
+      <Filter>common\gpu\client</Filter>
+    </ClCompile>
+    <ClInclude Include="common\gpu\client\webgraphicscontext3d_command_buffer_impl.h">
+      <Filter>common\gpu\client</Filter>
+    </ClInclude>
+    <ClCompile Include="common\gpu\client\gpu_video_decode_accelerator_host.cc">
+      <Filter>common\gpu\client</Filter>
+    </ClCompile>
+    <ClInclude Include="common\gpu\client\gpu_video_decode_accelerator_host.h">
+      <Filter>common\gpu\client</Filter>
+    </ClInclude>
+    <ClCompile Include="common\gpu\client\webgraphicscontext3d_command_buffer_impl.cc">
+      <Filter>common\gpu\client</Filter>
+    </ClCompile>
+    <ClInclude Include="common\gpu\client\gl_helper.h">
+      <Filter>common\gpu\client</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="browser">
+      <UniqueIdentifier>{24B57E1E-8660-A3AB-E8EF-7828EB881EF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\fileapi">
+      <UniqueIdentifier>{07449D65-155A-88FA-AE73-F56A090F72A2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="storage_browser.gyp"/>
+    <ClCompile Include="browser\fileapi\dump_file_system.cc">
+      <Filter>browser\fileapi</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

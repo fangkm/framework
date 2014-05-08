@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core">
+      <UniqueIdentifier>{16178836-FF57-2363-AA2B-8BAC1DC00026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\platform">
+      <UniqueIdentifier>{F040E8BA-F77A-8B19-E764-5FC5D53C4EF0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\platform\chromium">
+      <UniqueIdentifier>{A235D2A4-63B6-DD4D-7F7F-D3EA248BB602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\platform\chromium\support">
+      <UniqueIdentifier>{60E2CDAB-BE66-7795-2926-DDFA2378C4BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit">
+      <UniqueIdentifier>{1919EB75-19A6-2BAD-ABB0-47BF57C87A0F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit\Source">
+      <UniqueIdentifier>{26D65320-41C3-1A61-26C0-583D658C7F16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit\Source\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit\Source\build\win">
+      <UniqueIdentifier>{47FC5EC4-15EB-E92F-89D7-AFE51CF838A9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="web.gyp"/>
+    <ClCompile Include="WebCommon.cpp"/>
+    <ClCompile Include="..\core\platform\chromium\support\WebString.cpp">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\platform\chromium\support\WebCString.cpp">
+      <Filter>..\core\platform\chromium\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\third_party\WebKit\Source\build\win\Precompile.cpp">
+      <Filter>..\..\..\..\third_party\WebKit\Source\build\win</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

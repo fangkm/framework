@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="navigation_interception">
+      <UniqueIdentifier>{49E63454-EE4E-E445-11EA-E75A7286D7C4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="components.gyp"/>
+    <ClInclude Include="navigation_interception\intercept_navigation_resource_throttle.h">
+      <Filter>navigation_interception</Filter>
+    </ClInclude>
+    <ClCompile Include="navigation_interception\navigation_params.cc">
+      <Filter>navigation_interception</Filter>
+    </ClCompile>
+    <ClCompile Include="navigation_interception\intercept_navigation_resource_throttle.cc">
+      <Filter>navigation_interception</Filter>
+    </ClCompile>
+    <ClInclude Include="navigation_interception\navigation_params.h">
+      <Filter>navigation_interception</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

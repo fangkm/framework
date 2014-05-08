@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="trees">
+      <UniqueIdentifier>{6E2ECA78-269C-E38B-35F5-7DC0EB12DA6C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{02993FF4-6DD0-55B6-6A36-E99A964FF863}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cc_tests.gyp"/>
+    <ClCompile Include="test\cc_test_suite.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\lap_timer.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\run_all_unittests.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="trees\layer_tree_host_perftest.cc">
+      <Filter>trees</Filter>
+    </ClCompile>
+    <ClCompile Include="resources\worker_pool_perftest.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="resources\tile_manager_perftest.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="resources\raster_worker_pool_perftest.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="resources\picture_layer_tiling_perftest.cc">
+      <Filter>resources</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="base">
+      <UniqueIdentifier>{DBBAC0A6-BB0A-CA51-45CC-DA4574B671E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\simd">
+      <UniqueIdentifier>{D11A6EE5-9897-707D-CCC7-99DBD688FC1F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="media.gyp"/>
+    <ClCompile Include="base\simd\convert_rgb_to_yuv_ssse3.cc">
+      <Filter>base\simd</Filter>
+    </ClCompile>
+    <ClCompile Include="base\simd\convert_rgb_to_yuv_sse2.cc">
+      <Filter>base\simd</Filter>
+    </ClCompile>
+    <ClCompile Include="base\simd\filter_yuv_sse2.cc">
+      <Filter>base\simd</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="client">
+      <UniqueIdentifier>{D5E3C9B9-F4E5-9856-CE8C-F9B03683EBB9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="remote_root_window_host_win.h"/>
+    <ClCompile Include="window_tracker.cc"/>
+    <ClCompile Include="env.cc"/>
+    <ClInclude Include="window_delegate.h"/>
+    <None Include="aura.gyp"/>
+    <ClCompile Include="layout_manager.cc"/>
+    <ClInclude Include="root_window.h"/>
+    <ClInclude Include="window_tracker.h"/>
+    <ClCompile Include="window.cc"/>
+    <ClInclude Include="window_observer.h"/>
+    <ClCompile Include="remote_root_window_host_win.cc"/>
+    <ClInclude Include="root_window_transformer.h"/>
+    <ClCompile Include="focus_manager.cc"/>
+    <ClInclude Include="layout_manager.h"/>
+    <ClInclude Include="root_window_host_win.h"/>
+    <ClCompile Include="dispatcher_win.cc"/>
+    <ClInclude Include="focus_manager.h"/>
+    <ClCompile Include="root_window.cc"/>
+    <ClInclude Include="root_window_host_delegate.h"/>
+    <ClInclude Include="env_observer.h"/>
+    <ClInclude Include="root_window_host.h"/>
+    <ClInclude Include="env.h"/>
+    <ClInclude Include="window.h"/>
+    <ClCompile Include="root_window_host_win.cc"/>
+    <None Include="root_window_view_mac.mm">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <ClCompile Include="device_list_updater_aurax11.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <None Include="root_window_host_mac.mm">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <ClInclude Include="root_window_host_mac.h">
+      <Filter>_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="root_window_host_x11.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="device_list_updater_aurax11.h">
+      <Filter>_excluded_files</Filter>
+    </ClInclude>
+    <None Include="root_window_mac.mm">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <ClCompile Include="root_window_host_ozone.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="root_window_view_mac.h">
+      <Filter>_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="root_window_host_x11.h">
+      <Filter>_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="root_window_mac.h">
+      <Filter>_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="root_window_host_ozone.h">
+      <Filter>_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="client\capture_client.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClCompile Include="client\cursor_client.cc">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\drag_drop_delegate.cc">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClInclude Include="client\tooltip_client.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClCompile Include="client\dispatcher_client.cc">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\activation_delegate.cc">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\event_client.cc">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClInclude Include="client\user_action_client.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClCompile Include="client\activation_client.cc">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClInclude Include="client\visibility_client.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClCompile Include="client\aura_constants.cc">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\stacking_client.cc">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClInclude Include="client\event_client.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClCompile Include="client\focus_change_observer.cc">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClInclude Include="client\animation_host.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClCompile Include="client\animation_host.cc">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClInclude Include="client\activation_change_observer.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClCompile Include="client\visibility_client.cc">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClInclude Include="client\screen_position_client.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClCompile Include="client\cursor_client_observer.cc">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClInclude Include="client\window_types.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="client\stacking_client.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="client\activation_client.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClCompile Include="client\tooltip_client.cc">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClInclude Include="client\dispatcher_client.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClCompile Include="client\window_move_client.cc">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\capture_client.cc">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\drag_drop_client.cc">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\activation_change_observer.cc">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClInclude Include="client\aura_constants.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="client\window_move_client.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="client\activation_delegate.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="client\focus_client.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="client\cursor_client_observer.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="client\cursor_client.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="client\capture_delegate.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="client\focus_change_observer.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="client\drag_drop_delegate.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="client\drag_drop_client.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClCompile Include="client\screen_position_client.cc">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\default_capture_client.cc">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClInclude Include="client\default_capture_client.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClCompile Include="client\focus_client.cc">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\user_action_client.cc">
+      <Filter>client</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

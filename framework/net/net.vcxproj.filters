@@ -1,0 +1,3308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="spdy">
+      <UniqueIdentifier>{AAD090EF-CD85-FD6B-BEDD-269478261E53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ftp">
+      <UniqueIdentifier>{3C5821DD-4D17-2A5C-2B31-B36D3651482C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="udp">
+      <UniqueIdentifier>{211C5769-42A4-AE8C-199B-E83CAF1985A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="udp\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="quic">
+      <UniqueIdentifier>{55F59CD5-0C8C-CB1B-8281-0C87C29B2125}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="quic\crypto">
+      <UniqueIdentifier>{DFFB1441-5E91-CEAB-DBC4-604225CE8161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="quic\crypto\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="quic\congestion_control">
+      <UniqueIdentifier>{2D5690DE-2541-DD74-0890-0DB3F937A9FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="http">
+      <UniqueIdentifier>{075FFEAF-788D-F0F5-E367-25498E070A2C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="http\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="disk_cache">
+      <UniqueIdentifier>{5019651D-A4B6-2CA6-C769-E1358D75CDB5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="disk_cache\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="disk_cache\simple">
+      <UniqueIdentifier>{C7A804E5-A8DE-35E6-06AB-92C927958E86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="disk_cache\simple\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="disk_cache\flash">
+      <UniqueIdentifier>{2C81D43F-4A99-0961-6041-FFA77032A467}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="disk_cache\v3">
+      <UniqueIdentifier>{8D7E14D7-487A-B843-679C-A9853A057948}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\mozilla_security_manager">
+      <UniqueIdentifier>{321307B0-0453-DC51-C912-CB2B7269AB94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\mozilla_security_manager\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="socket_stream">
+      <UniqueIdentifier>{DCD31E67-99A6-B107-B3FA-3E73BA9D4648}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cookies">
+      <UniqueIdentifier>{3BB016F8-C1E9-BB16-0D08-8373C0A57C34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ssl">
+      <UniqueIdentifier>{9619347D-2389-BF68-D54C-476A14B10965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ssl\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cert">
+      <UniqueIdentifier>{E370B541-EEA6-9A09-6530-CBD64A1147B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cert\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{DBBAC0A6-BB0A-CA51-45CC-DA4574B671E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\registry_controlled_domains">
+      <UniqueIdentifier>{D73F75DF-23CD-654D-BE46-F759B469F227}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proxy">
+      <UniqueIdentifier>{DB8B4CC8-9E72-B499-B612-B1CD65A064EE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proxy\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dns">
+      <UniqueIdentifier>{D78B782C-4887-6E4F-B130-4892ECB17313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dns\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="android">
+      <UniqueIdentifier>{840B8E33-5F8C-45A0-5FD6-F07AA5687203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="android\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ocsp">
+      <UniqueIdentifier>{BB7839D9-83E7-1E2D-46C2-7E14A99514A3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ocsp\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="url_request">
+      <UniqueIdentifier>{9F1F2433-AD73-F654-6911-9B3CC6F1556F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="websockets">
+      <UniqueIdentifier>{EF2312FB-6C7F-BDD7-56A4-09C85626B3B9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="socket">
+      <UniqueIdentifier>{1CB6C122-F983-4194-1807-39C03FB001C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="socket\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="net.gyp"/>
+    <ClCompile Include="spdy\buffered_spdy_framer.cc">
+      <Filter>spdy</Filter>
+    </ClCompile>
+    <ClInclude Include="spdy\spdy_session.h">
+      <Filter>spdy</Filter>
+    </ClInclude>
+    <ClCompile Include="spdy\spdy_http_stream.cc">
+      <Filter>spdy</Filter>
+    </ClCompile>
+    <ClCompile Include="spdy\spdy_read_queue.cc">
+      <Filter>spdy</Filter>
+    </ClCompile>
+    <ClCompile Include="spdy\spdy_credential_state.cc">
+      <Filter>spdy</Filter>
+    </ClCompile>
+    <ClInclude Include="spdy\spdy_read_queue.h">
+      <Filter>spdy</Filter>
+    </ClInclude>
+    <ClCompile Include="spdy\spdy_header_block.cc">
+      <Filter>spdy</Filter>
+    </ClCompile>
+    <ClInclude Include="spdy\spdy_buffer.h">
+      <Filter>spdy</Filter>
+    </ClInclude>
+    <ClInclude Include="spdy\spdy_buffer_producer.h">
+      <Filter>spdy</Filter>
+    </ClInclude>
+    <ClCompile Include="spdy\spdy_write_queue.cc">
+      <Filter>spdy</Filter>
+    </ClCompile>
+    <ClCompile Include="spdy\spdy_websocket_stream.cc">
+      <Filter>spdy</Filter>
+    </ClCompile>
+    <ClInclude Include="spdy\spdy_websocket_stream.h">
+      <Filter>spdy</Filter>
+    </ClInclude>
+    <ClInclude Include="spdy\spdy_session_key.h">
+      <Filter>spdy</Filter>
+    </ClInclude>
+    <ClCompile Include="spdy\spdy_proxy_client_socket.cc">
+      <Filter>spdy</Filter>
+    </ClCompile>
+    <ClInclude Include="spdy\spdy_bitmasks.h">
+      <Filter>spdy</Filter>
+    </ClInclude>
+    <ClInclude Include="spdy\spdy_credential_builder.h">
+      <Filter>spdy</Filter>
+    </ClInclude>
+    <ClCompile Include="spdy\spdy_stream.cc">
+      <Filter>spdy</Filter>
+    </ClCompile>
+    <ClCompile Include="spdy\spdy_session.cc">
+      <Filter>spdy</Filter>
+    </ClCompile>
+    <ClInclude Include="spdy\spdy_proxy_client_socket.h">
+      <Filter>spdy</Filter>
+    </ClInclude>
+    <ClInclude Include="spdy\spdy_http_utils.h">
+      <Filter>spdy</Filter>
+    </ClInclude>
+    <ClCompile Include="spdy\spdy_buffer.cc">
+      <Filter>spdy</Filter>
+    </ClCompile>
+    <ClInclude Include="spdy\spdy_priority_forest.h">
+      <Filter>spdy</Filter>
+    </ClInclude>
+    <ClInclude Include="spdy\spdy_header_block.h">
+      <Filter>spdy</Filter>
+    </ClInclude>
+    <ClInclude Include="spdy\spdy_http_stream.h">
+      <Filter>spdy</Filter>
+    </ClInclude>
+    <ClCompile Include="spdy\spdy_buffer_producer.cc">
+      <Filter>spdy</Filter>
+    </ClCompile>
+    <ClCompile Include="spdy\spdy_protocol.cc">
+      <Filter>spdy</Filter>
+    </ClCompile>
+    <ClCompile Include="spdy\spdy_frame_builder.cc">
+      <Filter>spdy</Filter>
+    </ClCompile>
+    <ClCompile Include="spdy\spdy_credential_builder.cc">
+      <Filter>spdy</Filter>
+    </ClCompile>
+    <ClInclude Include="spdy\spdy_write_queue.h">
+      <Filter>spdy</Filter>
+    </ClInclude>
+    <ClInclude Include="spdy\write_blocked_list.h">
+      <Filter>spdy</Filter>
+    </ClInclude>
+    <ClInclude Include="spdy\spdy_session_pool.h">
+      <Filter>spdy</Filter>
+    </ClInclude>
+    <ClInclude Include="spdy\spdy_credential_state.h">
+      <Filter>spdy</Filter>
+    </ClInclude>
+    <ClCompile Include="spdy\spdy_session_pool.cc">
+      <Filter>spdy</Filter>
+    </ClCompile>
+    <ClInclude Include="spdy\buffered_spdy_framer.h">
+      <Filter>spdy</Filter>
+    </ClInclude>
+    <ClCompile Include="spdy\spdy_framer.cc">
+      <Filter>spdy</Filter>
+    </ClCompile>
+    <ClCompile Include="spdy\spdy_session_key.cc">
+      <Filter>spdy</Filter>
+    </ClCompile>
+    <ClCompile Include="spdy\spdy_http_utils.cc">
+      <Filter>spdy</Filter>
+    </ClCompile>
+    <ClInclude Include="spdy\spdy_framer.h">
+      <Filter>spdy</Filter>
+    </ClInclude>
+    <ClInclude Include="spdy\spdy_stream.h">
+      <Filter>spdy</Filter>
+    </ClInclude>
+    <ClInclude Include="spdy\spdy_protocol.h">
+      <Filter>spdy</Filter>
+    </ClInclude>
+    <ClInclude Include="spdy\spdy_frame_builder.h">
+      <Filter>spdy</Filter>
+    </ClInclude>
+    <ClInclude Include="spdy\spdy_frame_reader.h">
+      <Filter>spdy</Filter>
+    </ClInclude>
+    <ClCompile Include="spdy\spdy_frame_reader.cc">
+      <Filter>spdy</Filter>
+    </ClCompile>
+    <ClInclude Include="ftp\ftp_ctrl_response_buffer.h">
+      <Filter>ftp</Filter>
+    </ClInclude>
+    <ClCompile Include="ftp\ftp_directory_listing_parser_netware.cc">
+      <Filter>ftp</Filter>
+    </ClCompile>
+    <ClCompile Include="ftp\ftp_auth_cache.cc">
+      <Filter>ftp</Filter>
+    </ClCompile>
+    <ClInclude Include="ftp\ftp_request_info.h">
+      <Filter>ftp</Filter>
+    </ClInclude>
+    <ClInclude Include="ftp\ftp_response_info.h">
+      <Filter>ftp</Filter>
+    </ClInclude>
+    <ClInclude Include="ftp\ftp_transaction_factory.h">
+      <Filter>ftp</Filter>
+    </ClInclude>
+    <ClInclude Include="ftp\ftp_directory_listing_parser_vms.h">
+      <Filter>ftp</Filter>
+    </ClInclude>
+    <ClCompile Include="ftp\ftp_directory_listing_parser_vms.cc">
+      <Filter>ftp</Filter>
+    </ClCompile>
+    <ClCompile Include="ftp\ftp_network_session.cc">
+      <Filter>ftp</Filter>
+    </ClCompile>
+    <ClInclude Include="ftp\ftp_network_session.h">
+      <Filter>ftp</Filter>
+    </ClInclude>
+    <ClCompile Include="ftp\ftp_network_layer.cc">
+      <Filter>ftp</Filter>
+    </ClCompile>
+    <ClInclude Include="ftp\ftp_directory_listing_parser_os2.h">
+      <Filter>ftp</Filter>
+    </ClInclude>
+    <ClInclude Include="ftp\ftp_directory_listing_parser.h">
+      <Filter>ftp</Filter>
+    </ClInclude>
+    <ClInclude Include="ftp\ftp_transaction.h">
+      <Filter>ftp</Filter>
+    </ClInclude>
+    <ClCompile Include="ftp\ftp_util.cc">
+      <Filter>ftp</Filter>
+    </ClCompile>
+    <ClInclude Include="ftp\ftp_auth_cache.h">
+      <Filter>ftp</Filter>
+    </ClInclude>
+    <ClCompile Include="ftp\ftp_directory_listing_parser_os2.cc">
+      <Filter>ftp</Filter>
+    </ClCompile>
+    <ClInclude Include="ftp\ftp_directory_listing_parser_windows.h">
+      <Filter>ftp</Filter>
+    </ClInclude>
+    <ClCompile Include="ftp\ftp_ctrl_response_buffer.cc">
+      <Filter>ftp</Filter>
+    </ClCompile>
+    <ClCompile Include="ftp\ftp_directory_listing_parser_ls.cc">
+      <Filter>ftp</Filter>
+    </ClCompile>
+    <ClInclude Include="ftp\ftp_util.h">
+      <Filter>ftp</Filter>
+    </ClInclude>
+    <ClCompile Include="ftp\ftp_directory_listing_parser_windows.cc">
+      <Filter>ftp</Filter>
+    </ClCompile>
+    <ClInclude Include="ftp\ftp_network_layer.h">
+      <Filter>ftp</Filter>
+    </ClInclude>
+    <ClInclude Include="ftp\ftp_server_type_histograms.h">
+      <Filter>ftp</Filter>
+    </ClInclude>
+    <ClCompile Include="ftp\ftp_network_transaction.cc">
+      <Filter>ftp</Filter>
+    </ClCompile>
+    <ClCompile Include="ftp\ftp_directory_listing_parser.cc">
+      <Filter>ftp</Filter>
+    </ClCompile>
+    <ClInclude Include="ftp\ftp_directory_listing_parser_netware.h">
+      <Filter>ftp</Filter>
+    </ClInclude>
+    <ClCompile Include="ftp\ftp_response_info.cc">
+      <Filter>ftp</Filter>
+    </ClCompile>
+    <ClInclude Include="ftp\ftp_directory_listing_parser_ls.h">
+      <Filter>ftp</Filter>
+    </ClInclude>
+    <ClCompile Include="ftp\ftp_server_type_histograms.cc">
+      <Filter>ftp</Filter>
+    </ClCompile>
+    <ClInclude Include="ftp\ftp_network_transaction.h">
+      <Filter>ftp</Filter>
+    </ClInclude>
+    <ClInclude Include="udp\datagram_server_socket.h">
+      <Filter>udp</Filter>
+    </ClInclude>
+    <ClCompile Include="udp\udp_net_log_parameters.cc">
+      <Filter>udp</Filter>
+    </ClCompile>
+    <ClInclude Include="udp\udp_net_log_parameters.h">
+      <Filter>udp</Filter>
+    </ClInclude>
+    <ClInclude Include="udp\datagram_socket.h">
+      <Filter>udp</Filter>
+    </ClInclude>
+    <ClCompile Include="udp\udp_socket_win.cc">
+      <Filter>udp</Filter>
+    </ClCompile>
+    <ClInclude Include="udp\udp_client_socket.h">
+      <Filter>udp</Filter>
+    </ClInclude>
+    <ClInclude Include="udp\datagram_client_socket.h">
+      <Filter>udp</Filter>
+    </ClInclude>
+    <ClCompile Include="udp\udp_server_socket.cc">
+      <Filter>udp</Filter>
+    </ClCompile>
+    <ClInclude Include="udp\udp_socket.h">
+      <Filter>udp</Filter>
+    </ClInclude>
+    <ClInclude Include="udp\udp_socket_win.h">
+      <Filter>udp</Filter>
+    </ClInclude>
+    <ClCompile Include="udp\udp_client_socket.cc">
+      <Filter>udp</Filter>
+    </ClCompile>
+    <ClInclude Include="udp\udp_server_socket.h">
+      <Filter>udp</Filter>
+    </ClInclude>
+    <ClCompile Include="udp\udp_socket_libevent.cc">
+      <Filter>udp\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="udp\udp_socket_libevent.h">
+      <Filter>udp\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\quic_received_packet_manager.cc">
+      <Filter>quic</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\quic_config.h">
+      <Filter>quic</Filter>
+    </ClInclude>
+    <ClInclude Include="quic\quic_framer.h">
+      <Filter>quic</Filter>
+    </ClInclude>
+    <ClInclude Include="quic\quic_reliable_client_stream.h">
+      <Filter>quic</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\spdy_utils.cc">
+      <Filter>quic</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\quic_spdy_decompressor.h">
+      <Filter>quic</Filter>
+    </ClInclude>
+    <ClInclude Include="quic\quic_packet_generator.h">
+      <Filter>quic</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\quic_connection.cc">
+      <Filter>quic</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\quic_ack_notifier.h">
+      <Filter>quic</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\quic_data_reader.cc">
+      <Filter>quic</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\quic_crypto_client_stream_factory.h">
+      <Filter>quic</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\quic_sent_entropy_manager.cc">
+      <Filter>quic</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\quic_crypto_stream.h">
+      <Filter>quic</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\quic_ack_notifier.cc">
+      <Filter>quic</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\spdy_utils.h">
+      <Filter>quic</Filter>
+    </ClInclude>
+    <ClInclude Include="quic\quic_connection_helper.h">
+      <Filter>quic</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\quic_data_writer.cc">
+      <Filter>quic</Filter>
+    </ClCompile>
+    <ClCompile Include="quic\quic_reliable_client_stream.cc">
+      <Filter>quic</Filter>
+    </ClCompile>
+    <ClCompile Include="quic\quic_http_stream.cc">
+      <Filter>quic</Filter>
+    </ClCompile>
+    <ClCompile Include="quic\quic_config.cc">
+      <Filter>quic</Filter>
+    </ClCompile>
+    <ClCompile Include="quic\quic_time.cc">
+      <Filter>quic</Filter>
+    </ClCompile>
+    <ClCompile Include="quic\quic_stream_sequencer.cc">
+      <Filter>quic</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\quic_packet_creator.h">
+      <Filter>quic</Filter>
+    </ClInclude>
+    <ClInclude Include="quic\quic_stream_factory.h">
+      <Filter>quic</Filter>
+    </ClInclude>
+    <ClInclude Include="quic\quic_connection.h">
+      <Filter>quic</Filter>
+    </ClInclude>
+    <ClInclude Include="quic\quic_data_reader.h">
+      <Filter>quic</Filter>
+    </ClInclude>
+    <ClInclude Include="quic\quic_bandwidth.h">
+      <Filter>quic</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\quic_bandwidth.cc">
+      <Filter>quic</Filter>
+    </ClCompile>
+    <ClCompile Include="quic\quic_stream_factory.cc">
+      <Filter>quic</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\quic_crypto_client_stream.h">
+      <Filter>quic</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\quic_spdy_compressor.cc">
+      <Filter>quic</Filter>
+    </ClCompile>
+    <ClCompile Include="quic\quic_connection_helper.cc">
+      <Filter>quic</Filter>
+    </ClCompile>
+    <ClCompile Include="quic\reliable_quic_stream.cc">
+      <Filter>quic</Filter>
+    </ClCompile>
+    <ClCompile Include="quic\quic_framer.cc">
+      <Filter>quic</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\quic_connection_stats.h">
+      <Filter>quic</Filter>
+    </ClInclude>
+    <ClInclude Include="quic\quic_stream_sequencer.h">
+      <Filter>quic</Filter>
+    </ClInclude>
+    <ClInclude Include="quic\quic_spdy_compressor.h">
+      <Filter>quic</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\quic_crypto_client_stream.cc">
+      <Filter>quic</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\quic_http_stream.h">
+      <Filter>quic</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\quic_protocol.cc">
+      <Filter>quic</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\quic_time.h">
+      <Filter>quic</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\quic_session.cc">
+      <Filter>quic</Filter>
+    </ClCompile>
+    <ClCompile Include="quic\quic_clock.cc">
+      <Filter>quic</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\quic_crypto_server_stream.h">
+      <Filter>quic</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\quic_packet_creator.cc">
+      <Filter>quic</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\quic_fec_group.h">
+      <Filter>quic</Filter>
+    </ClInclude>
+    <ClInclude Include="quic\quic_data_writer.h">
+      <Filter>quic</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\quic_crypto_stream.cc">
+      <Filter>quic</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\reliable_quic_stream.h">
+      <Filter>quic</Filter>
+    </ClInclude>
+    <ClInclude Include="quic\quic_connection_logger.h">
+      <Filter>quic</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\quic_fec_group.cc">
+      <Filter>quic</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\quic_protocol.h">
+      <Filter>quic</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\quic_packet_generator.cc">
+      <Filter>quic</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\quic_client_session.h">
+      <Filter>quic</Filter>
+    </ClInclude>
+    <ClInclude Include="quic\quic_utils.h">
+      <Filter>quic</Filter>
+    </ClInclude>
+    <ClInclude Include="quic\quic_alarm.h">
+      <Filter>quic</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\quic_client_session.cc">
+      <Filter>quic</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\quic_clock.h">
+      <Filter>quic</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\quic_connection_logger.cc">
+      <Filter>quic</Filter>
+    </ClCompile>
+    <ClCompile Include="quic\quic_spdy_decompressor.cc">
+      <Filter>quic</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\quic_session.h">
+      <Filter>quic</Filter>
+    </ClInclude>
+    <ClInclude Include="quic\quic_blocked_writer_interface.h">
+      <Filter>quic</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\quic_utils.cc">
+      <Filter>quic</Filter>
+    </ClCompile>
+    <ClCompile Include="quic\quic_alarm.cc">
+      <Filter>quic</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\quic_sent_entropy_manager.h">
+      <Filter>quic</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\quic_crypto_server_stream.cc">
+      <Filter>quic</Filter>
+    </ClCompile>
+    <ClCompile Include="quic\quic_connection_stats.cc">
+      <Filter>quic</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\quic_received_packet_manager.h">
+      <Filter>quic</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\crypto\crypto_framer.cc">
+      <Filter>quic\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="quic\crypto\cert_compressor.cc">
+      <Filter>quic\crypto</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\crypto\ephemeral_key_source.h">
+      <Filter>quic\crypto</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\crypto\quic_decrypter.cc">
+      <Filter>quic\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="quic\crypto\channel_id.cc">
+      <Filter>quic\crypto</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\crypto\crypto_protocol.h">
+      <Filter>quic\crypto</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\crypto\crypto_server_config_protobuf.cc">
+      <Filter>quic\crypto</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\crypto\crypto_secret_boxer.h">
+      <Filter>quic\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="quic\crypto\aes_128_gcm_12_decrypter.h">
+      <Filter>quic\crypto</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\crypto\null_encrypter.cc">
+      <Filter>quic\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="quic\crypto\proof_verifier.cc">
+      <Filter>quic\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="quic\crypto\crypto_secret_boxer.cc">
+      <Filter>quic\crypto</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\crypto\channel_id.h">
+      <Filter>quic\crypto</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\crypto\common_cert_set.cc">
+      <Filter>quic\crypto</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\crypto\crypto_utils.h">
+      <Filter>quic\crypto</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\crypto\aes_128_gcm_12_encrypter_nss.cc">
+      <Filter>quic\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="quic\crypto\quic_random.cc">
+      <Filter>quic\crypto</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\crypto\proof_source.h">
+      <Filter>quic\crypto</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\crypto\quic_encrypter.cc">
+      <Filter>quic\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="quic\crypto\null_decrypter.cc">
+      <Filter>quic\crypto</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\crypto\null_decrypter.h">
+      <Filter>quic\crypto</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\crypto\aes_128_gcm_12_decrypter_nss.cc">
+      <Filter>quic\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="quic\crypto\crypto_utils.cc">
+      <Filter>quic\crypto</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\crypto\crypto_server_config_protobuf.h">
+      <Filter>quic\crypto</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\crypto\crypto_handshake.cc">
+      <Filter>quic\crypto</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\crypto\common_cert_set.h">
+      <Filter>quic\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="quic\crypto\null_encrypter.h">
+      <Filter>quic\crypto</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\crypto\curve25519_key_exchange.cc">
+      <Filter>quic\crypto</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\crypto\quic_encrypter.h">
+      <Filter>quic\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="quic\crypto\crypto_server_config.h">
+      <Filter>quic\crypto</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\crypto\channel_id_nss.cc">
+      <Filter>quic\crypto</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\crypto\crypto_handshake.h">
+      <Filter>quic\crypto</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\crypto\p256_key_exchange_nss.cc">
+      <Filter>quic\crypto</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\crypto\crypto_framer.h">
+      <Filter>quic\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="quic\crypto\source_address_token.h">
+      <Filter>quic\crypto</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\crypto\source_address_token.cc">
+      <Filter>quic\crypto</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\crypto\quic_random.h">
+      <Filter>quic\crypto</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\crypto\proof_verifier_chromium.cc">
+      <Filter>quic\crypto</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\crypto\cert_compressor.h">
+      <Filter>quic\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="quic\crypto\proof_source_chromium.h">
+      <Filter>quic\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="quic\crypto\aes_128_gcm_12_encrypter.h">
+      <Filter>quic\crypto</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\crypto\crypto_server_config.cc">
+      <Filter>quic\crypto</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\crypto\curve25519_key_exchange.h">
+      <Filter>quic\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="quic\crypto\strike_register.h">
+      <Filter>quic\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="quic\crypto\p256_key_exchange.h">
+      <Filter>quic\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="quic\crypto\quic_decrypter.h">
+      <Filter>quic\crypto</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\crypto\proof_source_chromium.cc">
+      <Filter>quic\crypto</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\crypto\key_exchange.h">
+      <Filter>quic\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="quic\crypto\proof_verifier_chromium.h">
+      <Filter>quic\crypto</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\crypto\strike_register.cc">
+      <Filter>quic\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="quic\crypto\aes_128_gcm_12_encrypter_openssl.cc">
+      <Filter>quic\crypto\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="quic\crypto\channel_id_openssl.cc">
+      <Filter>quic\crypto\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\crypto\scoped_evp_cipher_ctx.h">
+      <Filter>quic\crypto\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\crypto\aes_128_gcm_12_decrypter_openssl.cc">
+      <Filter>quic\crypto\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="quic\crypto\scoped_evp_cipher_ctx.cc">
+      <Filter>quic\crypto\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="quic\crypto\p256_key_exchange_openssl.cc">
+      <Filter>quic\crypto\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="quic\congestion_control\inter_arrival_overuse_detector.cc">
+      <Filter>quic\congestion_control</Filter>
+    </ClCompile>
+    <ClCompile Include="quic\congestion_control\channel_estimator.cc">
+      <Filter>quic\congestion_control</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\congestion_control\hybrid_slow_start.h">
+      <Filter>quic\congestion_control</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\congestion_control\paced_sender.cc">
+      <Filter>quic\congestion_control</Filter>
+    </ClCompile>
+    <ClCompile Include="quic\congestion_control\available_channel_estimator.cc">
+      <Filter>quic\congestion_control</Filter>
+    </ClCompile>
+    <ClCompile Include="quic\congestion_control\cubic.cc">
+      <Filter>quic\congestion_control</Filter>
+    </ClCompile>
+    <ClCompile Include="quic\congestion_control\inter_arrival_probe.cc">
+      <Filter>quic\congestion_control</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\congestion_control\tcp_receiver.h">
+      <Filter>quic\congestion_control</Filter>
+    </ClInclude>
+    <ClInclude Include="quic\congestion_control\cubic.h">
+      <Filter>quic\congestion_control</Filter>
+    </ClInclude>
+    <ClInclude Include="quic\congestion_control\leaky_bucket.h">
+      <Filter>quic\congestion_control</Filter>
+    </ClInclude>
+    <ClInclude Include="quic\congestion_control\receive_algorithm_interface.h">
+      <Filter>quic\congestion_control</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\congestion_control\inter_arrival_bitrate_ramp_up.cc">
+      <Filter>quic\congestion_control</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\congestion_control\quic_max_sized_map.h">
+      <Filter>quic\congestion_control</Filter>
+    </ClInclude>
+    <ClInclude Include="quic\congestion_control\fix_rate_sender.h">
+      <Filter>quic\congestion_control</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\congestion_control\tcp_cubic_sender.cc">
+      <Filter>quic\congestion_control</Filter>
+    </ClCompile>
+    <ClCompile Include="quic\congestion_control\fix_rate_sender.cc">
+      <Filter>quic\congestion_control</Filter>
+    </ClCompile>
+    <ClCompile Include="quic\congestion_control\send_algorithm_interface.cc">
+      <Filter>quic\congestion_control</Filter>
+    </ClCompile>
+    <ClCompile Include="quic\congestion_control\receive_algorithm_interface.cc">
+      <Filter>quic\congestion_control</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\congestion_control\inter_arrival_overuse_detector.h">
+      <Filter>quic\congestion_control</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\congestion_control\inter_arrival_receiver.cc">
+      <Filter>quic\congestion_control</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\congestion_control\inter_arrival_sender.h">
+      <Filter>quic\congestion_control</Filter>
+    </ClInclude>
+    <ClInclude Include="quic\congestion_control\available_channel_estimator.h">
+      <Filter>quic\congestion_control</Filter>
+    </ClInclude>
+    <ClInclude Include="quic\congestion_control\cube_root.h">
+      <Filter>quic\congestion_control</Filter>
+    </ClInclude>
+    <ClInclude Include="quic\congestion_control\inter_arrival_bitrate_ramp_up.h">
+      <Filter>quic\congestion_control</Filter>
+    </ClInclude>
+    <ClInclude Include="quic\congestion_control\quic_congestion_manager.h">
+      <Filter>quic\congestion_control</Filter>
+    </ClInclude>
+    <ClInclude Include="quic\congestion_control\paced_sender.h">
+      <Filter>quic\congestion_control</Filter>
+    </ClInclude>
+    <ClInclude Include="quic\congestion_control\inter_arrival_state_machine.h">
+      <Filter>quic\congestion_control</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\congestion_control\fix_rate_receiver.cc">
+      <Filter>quic\congestion_control</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\congestion_control\inter_arrival_probe.h">
+      <Filter>quic\congestion_control</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\congestion_control\inter_arrival_state_machine.cc">
+      <Filter>quic\congestion_control</Filter>
+    </ClCompile>
+    <ClCompile Include="quic\congestion_control\tcp_receiver.cc">
+      <Filter>quic\congestion_control</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\congestion_control\tcp_cubic_sender.h">
+      <Filter>quic\congestion_control</Filter>
+    </ClInclude>
+    <ClInclude Include="quic\congestion_control\fix_rate_receiver.h">
+      <Filter>quic\congestion_control</Filter>
+    </ClInclude>
+    <ClInclude Include="quic\congestion_control\channel_estimator.h">
+      <Filter>quic\congestion_control</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\congestion_control\cube_root.cc">
+      <Filter>quic\congestion_control</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\congestion_control\send_algorithm_interface.h">
+      <Filter>quic\congestion_control</Filter>
+    </ClInclude>
+    <ClCompile Include="quic\congestion_control\leaky_bucket.cc">
+      <Filter>quic\congestion_control</Filter>
+    </ClCompile>
+    <ClCompile Include="quic\congestion_control\quic_congestion_manager.cc">
+      <Filter>quic\congestion_control</Filter>
+    </ClCompile>
+    <ClCompile Include="quic\congestion_control\inter_arrival_sender.cc">
+      <Filter>quic\congestion_control</Filter>
+    </ClCompile>
+    <ClCompile Include="quic\congestion_control\hybrid_slow_start.cc">
+      <Filter>quic\congestion_control</Filter>
+    </ClCompile>
+    <ClInclude Include="quic\congestion_control\inter_arrival_receiver.h">
+      <Filter>quic\congestion_control</Filter>
+    </ClInclude>
+    <ClInclude Include="http\http_stream_base.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\http_auth_sspi_win.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\http_byte_range.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\http_version.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClCompile Include="http\http_auth_handler_ntlm.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="http\http_response_info.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="http\http_network_layer.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="http\http_security_headers.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClInclude Include="http\http_vary_data.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\http_pipelined_host_capability.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\http_pipelined_host.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\http_pipelined_host_impl.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClCompile Include="http\http_content_disposition.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClInclude Include="http\proxy_client_socket.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\http_stream_factory_impl.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\http_transaction_factory.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClCompile Include="http\http_cache_transaction.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClInclude Include="http\http_server_properties.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClCompile Include="http\http_network_transaction.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClInclude Include="http\http_cache_transaction.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClCompile Include="http\http_server_properties_impl.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="http\http_network_session_peer.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="http\http_auth_controller.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClInclude Include="http\http_security_headers.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClCompile Include="http\http_pipelined_host_forced.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClInclude Include="http\http_auth_filter.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\http_stream_parser.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\http_transaction_delegate.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClCompile Include="http\http_response_body_drainer.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="http\http_auth_sspi_win.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClInclude Include="http\http_stream_factory_impl_job.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\http_cache.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClCompile Include="http\http_vary_data.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClInclude Include="http\http_proxy_client_socket.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\http_auth_filter_win.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\http_status_code.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\http_transaction.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClCompile Include="http\http_auth_filter.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClInclude Include="http\http_response_body_drainer.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\http_auth_handler_basic.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClCompile Include="http\http_request_info.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClInclude Include="http\transport_security_state.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClCompile Include="http\http_pipelined_host_impl.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClInclude Include="http\http_request_headers.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClCompile Include="http\http_basic_stream.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClInclude Include="http\http_auth_handler_factory.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\http_stream_factory_impl_request.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClCompile Include="http\http_auth_cache.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="http\http_util.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="http\partial_data.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="http\http_response_headers.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClInclude Include="http\http_pipelined_host_forced.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\http_auth.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClCompile Include="http\http_proxy_client_socket.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClInclude Include="http\partial_data.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\http_auth_handler_negotiate.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClCompile Include="http\url_security_manager.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClInclude Include="http\http_network_layer.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\http_server_properties_impl.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClCompile Include="http\http_status_code.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClInclude Include="http\http_auth_handler_digest.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\des.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClCompile Include="http\http_server_properties.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="http\url_security_manager_win.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="http\transport_security_state.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClInclude Include="http\md4.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\http_network_transaction.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClCompile Include="http\http_auth_handler_basic.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="http\proxy_client_socket.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClInclude Include="http\proxy_connect_redirect_http_stream.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClCompile Include="http\http_byte_range.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="http\http_pipelined_host.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClInclude Include="http\url_security_manager.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClCompile Include="http\http_stream_factory.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="http\http_stream_factory_impl.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClInclude Include="http\transport_security_state_static.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClCompile Include="http\des.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClInclude Include="http\http_auth_cache.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\http_network_session.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClCompile Include="http\http_chunked_decoder.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="http\http_pipelined_stream.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="http\http_stream_factory_impl_request.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="http\http_stream_factory_impl_job.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="http\http_auth.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClInclude Include="http\http_stream.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\http_basic_stream.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\http_pipelined_host_pool.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\http_auth_handler.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClCompile Include="http\http_auth_handler.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="http\http_auth_handler_negotiate.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClInclude Include="http\http_content_disposition.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\http_auth_handler_ntlm.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\http_atom_list.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClCompile Include="http\http_auth_handler_factory.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="http\http_cache.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="http\http_auth_handler_ntlm_win.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="http\http_request_headers.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClInclude Include="http\http_pipelined_connection_impl.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\http_response_headers.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClCompile Include="http\http_pipelined_host_pool.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClInclude Include="http\http_pipelined_connection.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\http_chunked_decoder.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClCompile Include="http\http_stream_parser.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClInclude Include="http\http_network_session_peer.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\http_pipelined_stream.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\http_util.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\http_request_info.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClCompile Include="http\http_pipelined_connection_impl.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClInclude Include="http\http_proxy_client_socket_pool.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\http_response_info.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClCompile Include="http\proxy_connect_redirect_http_stream.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="http\md4.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="http\http_auth_handler_digest.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClInclude Include="http\http_stream_factory.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\http_auth_controller.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClCompile Include="http\http_util_icu.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="http\http_network_session.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="http\http_proxy_client_socket_pool.cc">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="http\http_auth_handler_ntlm_portable.cc">
+      <Filter>http\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="http\http_auth_gssapi_posix.cc">
+      <Filter>http\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="http\http_auth_gssapi_posix.h">
+      <Filter>http\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="http\url_security_manager_posix.cc">
+      <Filter>http\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="disk_cache\in_flight_backend_io.cc">
+      <Filter>disk_cache</Filter>
+    </ClCompile>
+    <ClInclude Include="disk_cache\disk_cache.h">
+      <Filter>disk_cache</Filter>
+    </ClInclude>
+    <ClCompile Include="disk_cache\rankings.cc">
+      <Filter>disk_cache</Filter>
+    </ClCompile>
+    <ClInclude Include="disk_cache\stress_support.h">
+      <Filter>disk_cache</Filter>
+    </ClInclude>
+    <ClInclude Include="disk_cache\mem_rankings.h">
+      <Filter>disk_cache</Filter>
+    </ClInclude>
+    <ClCompile Include="disk_cache\trace.cc">
+      <Filter>disk_cache</Filter>
+    </ClCompile>
+    <ClInclude Include="disk_cache\sparse_control.h">
+      <Filter>disk_cache</Filter>
+    </ClInclude>
+    <ClInclude Include="disk_cache\addr.h">
+      <Filter>disk_cache</Filter>
+    </ClInclude>
+    <ClInclude Include="disk_cache\file_lock.h">
+      <Filter>disk_cache</Filter>
+    </ClInclude>
+    <ClInclude Include="disk_cache\rankings.h">
+      <Filter>disk_cache</Filter>
+    </ClInclude>
+    <ClCompile Include="disk_cache\file.cc">
+      <Filter>disk_cache</Filter>
+    </ClCompile>
+    <ClInclude Include="disk_cache\disk_format_base.h">
+      <Filter>disk_cache</Filter>
+    </ClInclude>
+    <ClInclude Include="disk_cache\storage_block-inl.h">
+      <Filter>disk_cache</Filter>
+    </ClInclude>
+    <ClCompile Include="disk_cache\cache_util_win.cc">
+      <Filter>disk_cache</Filter>
+    </ClCompile>
+    <ClCompile Include="disk_cache\mem_backend_impl.cc">
+      <Filter>disk_cache</Filter>
+    </ClCompile>
+    <ClInclude Include="disk_cache\in_flight_io.h">
+      <Filter>disk_cache</Filter>
+    </ClInclude>
+    <ClCompile Include="disk_cache\backend_impl.cc">
+      <Filter>disk_cache</Filter>
+    </ClCompile>
+    <ClCompile Include="disk_cache\stats_histogram.cc">
+      <Filter>disk_cache</Filter>
+    </ClCompile>
+    <ClCompile Include="disk_cache\file_lock.cc">
+      <Filter>disk_cache</Filter>
+    </ClCompile>
+    <ClCompile Include="disk_cache\block_files.cc">
+      <Filter>disk_cache</Filter>
+    </ClCompile>
+    <ClCompile Include="disk_cache\stats.cc">
+      <Filter>disk_cache</Filter>
+    </ClCompile>
+    <ClInclude Include="disk_cache\mem_backend_impl.h">
+      <Filter>disk_cache</Filter>
+    </ClInclude>
+    <ClInclude Include="disk_cache\stats.h">
+      <Filter>disk_cache</Filter>
+    </ClInclude>
+    <ClCompile Include="disk_cache\net_log_parameters.cc">
+      <Filter>disk_cache</Filter>
+    </ClCompile>
+    <ClCompile Include="disk_cache\entry_impl.cc">
+      <Filter>disk_cache</Filter>
+    </ClCompile>
+    <ClInclude Include="disk_cache\tracing_cache_backend.h">
+      <Filter>disk_cache</Filter>
+    </ClInclude>
+    <ClCompile Include="disk_cache\mem_entry_impl.cc">
+      <Filter>disk_cache</Filter>
+    </ClCompile>
+    <ClInclude Include="disk_cache\bitmap.h">
+      <Filter>disk_cache</Filter>
+    </ClInclude>
+    <ClCompile Include="disk_cache\disk_format.cc">
+      <Filter>disk_cache</Filter>
+    </ClCompile>
+    <ClInclude Include="disk_cache\stats_histogram.h">
+      <Filter>disk_cache</Filter>
+    </ClInclude>
+    <ClInclude Include="disk_cache\mem_entry_impl.h">
+      <Filter>disk_cache</Filter>
+    </ClInclude>
+    <ClInclude Include="disk_cache\storage_block.h">
+      <Filter>disk_cache</Filter>
+    </ClInclude>
+    <ClCompile Include="disk_cache\addr.cc">
+      <Filter>disk_cache</Filter>
+    </ClCompile>
+    <ClInclude Include="disk_cache\errors.h">
+      <Filter>disk_cache</Filter>
+    </ClInclude>
+    <ClInclude Include="disk_cache\entry_impl.h">
+      <Filter>disk_cache</Filter>
+    </ClInclude>
+    <ClInclude Include="disk_cache\block_files.h">
+      <Filter>disk_cache</Filter>
+    </ClInclude>
+    <ClCompile Include="disk_cache\mem_rankings.cc">
+      <Filter>disk_cache</Filter>
+    </ClCompile>
+    <ClInclude Include="disk_cache\experiments.h">
+      <Filter>disk_cache</Filter>
+    </ClInclude>
+    <ClCompile Include="disk_cache\file_win.cc">
+      <Filter>disk_cache</Filter>
+    </ClCompile>
+    <ClInclude Include="disk_cache\disk_format.h">
+      <Filter>disk_cache</Filter>
+    </ClInclude>
+    <ClInclude Include="disk_cache\trace.h">
+      <Filter>disk_cache</Filter>
+    </ClInclude>
+    <ClInclude Include="disk_cache\mapped_file.h">
+      <Filter>disk_cache</Filter>
+    </ClInclude>
+    <ClInclude Include="disk_cache\cache_util.h">
+      <Filter>disk_cache</Filter>
+    </ClInclude>
+    <ClCompile Include="disk_cache\tracing_cache_backend.cc">
+      <Filter>disk_cache</Filter>
+    </ClCompile>
+    <ClInclude Include="disk_cache\in_flight_backend_io.h">
+      <Filter>disk_cache</Filter>
+    </ClInclude>
+    <ClInclude Include="disk_cache\file_block.h">
+      <Filter>disk_cache</Filter>
+    </ClInclude>
+    <ClInclude Include="disk_cache\backend_impl.h">
+      <Filter>disk_cache</Filter>
+    </ClInclude>
+    <ClCompile Include="disk_cache\sparse_control.cc">
+      <Filter>disk_cache</Filter>
+    </ClCompile>
+    <ClCompile Include="disk_cache\mapped_file_win.cc">
+      <Filter>disk_cache</Filter>
+    </ClCompile>
+    <ClInclude Include="disk_cache\file.h">
+      <Filter>disk_cache</Filter>
+    </ClInclude>
+    <ClCompile Include="disk_cache\bitmap.cc">
+      <Filter>disk_cache</Filter>
+    </ClCompile>
+    <ClCompile Include="disk_cache\cache_util.cc">
+      <Filter>disk_cache</Filter>
+    </ClCompile>
+    <ClCompile Include="disk_cache\eviction.cc">
+      <Filter>disk_cache</Filter>
+    </ClCompile>
+    <ClInclude Include="disk_cache\net_log_parameters.h">
+      <Filter>disk_cache</Filter>
+    </ClInclude>
+    <ClInclude Include="disk_cache\eviction.h">
+      <Filter>disk_cache</Filter>
+    </ClInclude>
+    <ClCompile Include="disk_cache\in_flight_io.cc">
+      <Filter>disk_cache</Filter>
+    </ClCompile>
+    <ClCompile Include="disk_cache\cache_creator.cc">
+      <Filter>disk_cache</Filter>
+    </ClCompile>
+    <ClInclude Include="disk_cache\histogram_macros.h">
+      <Filter>disk_cache</Filter>
+    </ClInclude>
+    <ClCompile Include="disk_cache\cache_util_posix.cc">
+      <Filter>disk_cache\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="disk_cache\mapped_file_avoid_mmap_posix.cc">
+      <Filter>disk_cache\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="disk_cache\mapped_file_posix.cc">
+      <Filter>disk_cache\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="disk_cache\file_posix.cc">
+      <Filter>disk_cache\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="disk_cache\simple\simple_net_log_parameters.h">
+      <Filter>disk_cache\simple</Filter>
+    </ClInclude>
+    <ClCompile Include="disk_cache\simple\simple_index.cc">
+      <Filter>disk_cache\simple</Filter>
+    </ClCompile>
+    <ClInclude Include="disk_cache\simple\simple_entry_operation.h">
+      <Filter>disk_cache\simple</Filter>
+    </ClInclude>
+    <ClInclude Include="disk_cache\simple\simple_index_file.h">
+      <Filter>disk_cache\simple</Filter>
+    </ClInclude>
+    <ClCompile Include="disk_cache\simple\simple_entry_operation.cc">
+      <Filter>disk_cache\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="disk_cache\simple\simple_index_file_win.cc">
+      <Filter>disk_cache\simple</Filter>
+    </ClCompile>
+    <ClInclude Include="disk_cache\simple\simple_util.h">
+      <Filter>disk_cache\simple</Filter>
+    </ClInclude>
+    <ClCompile Include="disk_cache\simple\simple_entry_impl.cc">
+      <Filter>disk_cache\simple</Filter>
+    </ClCompile>
+    <ClInclude Include="disk_cache\simple\simple_histogram_macros.h">
+      <Filter>disk_cache\simple</Filter>
+    </ClInclude>
+    <ClCompile Include="disk_cache\simple\simple_util.cc">
+      <Filter>disk_cache\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="disk_cache\simple\simple_net_log_parameters.cc">
+      <Filter>disk_cache\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="disk_cache\simple\simple_backend_impl.cc">
+      <Filter>disk_cache\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="disk_cache\simple\simple_entry_format.cc">
+      <Filter>disk_cache\simple</Filter>
+    </ClCompile>
+    <ClInclude Include="disk_cache\simple\simple_entry_impl.h">
+      <Filter>disk_cache\simple</Filter>
+    </ClInclude>
+    <ClCompile Include="disk_cache\simple\simple_synchronous_entry.cc">
+      <Filter>disk_cache\simple</Filter>
+    </ClCompile>
+    <ClInclude Include="disk_cache\simple\simple_entry_format.h">
+      <Filter>disk_cache\simple</Filter>
+    </ClInclude>
+    <ClInclude Include="disk_cache\simple\simple_synchronous_entry.h">
+      <Filter>disk_cache\simple</Filter>
+    </ClInclude>
+    <ClCompile Include="disk_cache\simple\simple_index_file.cc">
+      <Filter>disk_cache\simple</Filter>
+    </ClCompile>
+    <ClInclude Include="disk_cache\simple\simple_index.h">
+      <Filter>disk_cache\simple</Filter>
+    </ClInclude>
+    <ClInclude Include="disk_cache\simple\simple_backend_impl.h">
+      <Filter>disk_cache\simple</Filter>
+    </ClInclude>
+    <ClCompile Include="disk_cache\simple\simple_index_file_posix.cc">
+      <Filter>disk_cache\simple\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="disk_cache\flash\log_store.cc">
+      <Filter>disk_cache\flash</Filter>
+    </ClCompile>
+    <ClCompile Include="disk_cache\flash\segment.cc">
+      <Filter>disk_cache\flash</Filter>
+    </ClCompile>
+    <ClInclude Include="disk_cache\flash\internal_entry.h">
+      <Filter>disk_cache\flash</Filter>
+    </ClInclude>
+    <ClInclude Include="disk_cache\flash\flash_entry_impl.h">
+      <Filter>disk_cache\flash</Filter>
+    </ClInclude>
+    <ClInclude Include="disk_cache\flash\log_store.h">
+      <Filter>disk_cache\flash</Filter>
+    </ClInclude>
+    <ClInclude Include="disk_cache\flash\storage.h">
+      <Filter>disk_cache\flash</Filter>
+    </ClInclude>
+    <ClInclude Include="disk_cache\flash\format.h">
+      <Filter>disk_cache\flash</Filter>
+    </ClInclude>
+    <ClInclude Include="disk_cache\flash\segment.h">
+      <Filter>disk_cache\flash</Filter>
+    </ClInclude>
+    <ClCompile Include="disk_cache\flash\internal_entry.cc">
+      <Filter>disk_cache\flash</Filter>
+    </ClCompile>
+    <ClCompile Include="disk_cache\flash\log_store_entry.cc">
+      <Filter>disk_cache\flash</Filter>
+    </ClCompile>
+    <ClCompile Include="disk_cache\flash\flash_entry_impl.cc">
+      <Filter>disk_cache\flash</Filter>
+    </ClCompile>
+    <ClInclude Include="disk_cache\flash\log_store_entry.h">
+      <Filter>disk_cache\flash</Filter>
+    </ClInclude>
+    <ClCompile Include="disk_cache\flash\storage.cc">
+      <Filter>disk_cache\flash</Filter>
+    </ClCompile>
+    <ClInclude Include="disk_cache\v3\disk_format_v3.h">
+      <Filter>disk_cache\v3</Filter>
+    </ClInclude>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+    <ClInclude Include="third_party\mozilla_security_manager\nsNSSCertificateDB.h">
+      <Filter>third_party\mozilla_security_manager\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="third_party\mozilla_security_manager\nsKeygenHandler.cpp">
+      <Filter>third_party\mozilla_security_manager\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="third_party\mozilla_security_manager\nsPKCS12Blob.cpp">
+      <Filter>third_party\mozilla_security_manager\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="third_party\mozilla_security_manager\nsNSSCertificateDB.cpp">
+      <Filter>third_party\mozilla_security_manager\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="third_party\mozilla_security_manager\nsPKCS12Blob.h">
+      <Filter>third_party\mozilla_security_manager\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="third_party\mozilla_security_manager\nsKeygenHandler.h">
+      <Filter>third_party\mozilla_security_manager\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="socket_stream\socket_stream_job_manager.h">
+      <Filter>socket_stream</Filter>
+    </ClInclude>
+    <ClCompile Include="socket_stream\socket_stream_job_manager.cc">
+      <Filter>socket_stream</Filter>
+    </ClCompile>
+    <ClCompile Include="socket_stream\socket_stream_job.cc">
+      <Filter>socket_stream</Filter>
+    </ClCompile>
+    <ClInclude Include="socket_stream\socket_stream.h">
+      <Filter>socket_stream</Filter>
+    </ClInclude>
+    <ClInclude Include="socket_stream\socket_stream_metrics.h">
+      <Filter>socket_stream</Filter>
+    </ClInclude>
+    <ClCompile Include="socket_stream\socket_stream_metrics.cc">
+      <Filter>socket_stream</Filter>
+    </ClCompile>
+    <ClInclude Include="socket_stream\socket_stream_job.h">
+      <Filter>socket_stream</Filter>
+    </ClInclude>
+    <ClCompile Include="socket_stream\socket_stream.cc">
+      <Filter>socket_stream</Filter>
+    </ClCompile>
+    <ClCompile Include="cookies\canonical_cookie.cc">
+      <Filter>cookies</Filter>
+    </ClCompile>
+    <ClCompile Include="cookies\cookie_util.cc">
+      <Filter>cookies</Filter>
+    </ClCompile>
+    <ClInclude Include="cookies\cookie_monster.h">
+      <Filter>cookies</Filter>
+    </ClInclude>
+    <ClCompile Include="cookies\parsed_cookie.cc">
+      <Filter>cookies</Filter>
+    </ClCompile>
+    <ClInclude Include="cookies\parsed_cookie.h">
+      <Filter>cookies</Filter>
+    </ClInclude>
+    <ClInclude Include="cookies\cookie_options.h">
+      <Filter>cookies</Filter>
+    </ClInclude>
+    <ClCompile Include="cookies\cookie_constants.cc">
+      <Filter>cookies</Filter>
+    </ClCompile>
+    <ClInclude Include="cookies\cookie_store.h">
+      <Filter>cookies</Filter>
+    </ClInclude>
+    <ClCompile Include="cookies\cookie_monster.cc">
+      <Filter>cookies</Filter>
+    </ClCompile>
+    <ClInclude Include="cookies\canonical_cookie.h">
+      <Filter>cookies</Filter>
+    </ClInclude>
+    <ClCompile Include="cookies\cookie_store.cc">
+      <Filter>cookies</Filter>
+    </ClCompile>
+    <ClInclude Include="cookies\cookie_constants.h">
+      <Filter>cookies</Filter>
+    </ClInclude>
+    <ClInclude Include="cookies\cookie_util.h">
+      <Filter>cookies</Filter>
+    </ClInclude>
+    <ClInclude Include="ssl\client_cert_store.h">
+      <Filter>ssl</Filter>
+    </ClInclude>
+    <ClCompile Include="ssl\ssl_config_service_defaults.cc">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClInclude Include="ssl\ssl_client_auth_cache.h">
+      <Filter>ssl</Filter>
+    </ClInclude>
+    <ClCompile Include="ssl\server_bound_cert_store.cc">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="ssl\ssl_cipher_suite_names.cc">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClInclude Include="ssl\default_server_bound_cert_store.h">
+      <Filter>ssl</Filter>
+    </ClInclude>
+    <ClCompile Include="ssl\client_cert_store_impl_win.cc">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClInclude Include="ssl\server_bound_cert_service.h">
+      <Filter>ssl</Filter>
+    </ClInclude>
+    <ClCompile Include="ssl\ssl_info.cc">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClInclude Include="ssl\server_bound_cert_store.h">
+      <Filter>ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="ssl\ssl_info.h">
+      <Filter>ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="ssl\ssl_cert_request_info.h">
+      <Filter>ssl</Filter>
+    </ClInclude>
+    <ClCompile Include="ssl\default_server_bound_cert_store.cc">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="ssl\ssl_cert_request_info.cc">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClInclude Include="ssl\ssl_config_service_defaults.h">
+      <Filter>ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="ssl\ssl_cipher_suite_names.h">
+      <Filter>ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="ssl\ssl_client_cert_type.h">
+      <Filter>ssl</Filter>
+    </ClInclude>
+    <ClCompile Include="ssl\ssl_config_service.cc">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClInclude Include="ssl\client_cert_store_impl.h">
+      <Filter>ssl</Filter>
+    </ClInclude>
+    <ClCompile Include="ssl\server_bound_cert_service.cc">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="ssl\ssl_client_auth_cache.cc">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClInclude Include="ssl\ssl_config_service.h">
+      <Filter>ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="ssl\openssl_client_key_store.h">
+      <Filter>ssl\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="ssl\client_cert_store_impl_mac.cc">
+      <Filter>ssl\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="ssl\client_cert_store_impl_nss.cc">
+      <Filter>ssl\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="ssl\openssl_client_key_store.cc">
+      <Filter>ssl\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="cert\cert_verifier.h">
+      <Filter>cert</Filter>
+    </ClInclude>
+    <ClCompile Include="cert\cert_verify_proc_win.cc">
+      <Filter>cert</Filter>
+    </ClCompile>
+    <ClInclude Include="cert\cert_trust_anchor_provider.h">
+      <Filter>cert</Filter>
+    </ClInclude>
+    <ClInclude Include="cert\cert_verify_result.h">
+      <Filter>cert</Filter>
+    </ClInclude>
+    <ClCompile Include="cert\crl_set.cc">
+      <Filter>cert</Filter>
+    </ClCompile>
+    <ClCompile Include="cert\cert_status_flags.cc">
+      <Filter>cert</Filter>
+    </ClCompile>
+    <ClCompile Include="cert\x509_util.cc">
+      <Filter>cert</Filter>
+    </ClCompile>
+    <ClCompile Include="cert\x509_certificate_win.cc">
+      <Filter>cert</Filter>
+    </ClCompile>
+    <ClCompile Include="cert\x509_certificate.cc">
+      <Filter>cert</Filter>
+    </ClCompile>
+    <ClInclude Include="cert\x509_util_nss.h">
+      <Filter>cert</Filter>
+    </ClInclude>
+    <ClInclude Include="cert\x509_cert_types.h">
+      <Filter>cert</Filter>
+    </ClInclude>
+    <ClCompile Include="cert\x509_cert_types_win.cc">
+      <Filter>cert</Filter>
+    </ClCompile>
+    <ClInclude Include="cert\cert_status_flags.h">
+      <Filter>cert</Filter>
+    </ClInclude>
+    <ClInclude Include="cert\multi_threaded_cert_verifier.h">
+      <Filter>cert</Filter>
+    </ClInclude>
+    <ClInclude Include="cert\pem_tokenizer.h">
+      <Filter>cert</Filter>
+    </ClInclude>
+    <ClCompile Include="cert\x509_util_nss.cc">
+      <Filter>cert</Filter>
+    </ClCompile>
+    <ClCompile Include="cert\x509_cert_types.cc">
+      <Filter>cert</Filter>
+    </ClCompile>
+    <ClCompile Include="cert\test_root_certs_win.cc">
+      <Filter>cert</Filter>
+    </ClCompile>
+    <ClInclude Include="cert\x509_util.h">
+      <Filter>cert</Filter>
+    </ClInclude>
+    <ClCompile Include="cert\jwk_serializer_nss.cc">
+      <Filter>cert</Filter>
+    </ClCompile>
+    <ClCompile Include="cert\cert_database_win.cc">
+      <Filter>cert</Filter>
+    </ClCompile>
+    <ClInclude Include="cert\x509_certificate_net_log_param.h">
+      <Filter>cert</Filter>
+    </ClInclude>
+    <ClInclude Include="cert\single_request_cert_verifier.h">
+      <Filter>cert</Filter>
+    </ClInclude>
+    <ClInclude Include="cert\asn1_util.h">
+      <Filter>cert</Filter>
+    </ClInclude>
+    <ClCompile Include="cert\x509_certificate_net_log_param.cc">
+      <Filter>cert</Filter>
+    </ClCompile>
+    <ClCompile Include="cert\asn1_util.cc">
+      <Filter>cert</Filter>
+    </ClCompile>
+    <ClInclude Include="cert\cert_verify_proc_android.h">
+      <Filter>cert</Filter>
+    </ClInclude>
+    <ClInclude Include="cert\ev_root_ca_metadata.h">
+      <Filter>cert</Filter>
+    </ClInclude>
+    <ClInclude Include="cert\cert_verify_proc.h">
+      <Filter>cert</Filter>
+    </ClInclude>
+    <ClInclude Include="cert\cert_database.h">
+      <Filter>cert</Filter>
+    </ClInclude>
+    <ClCompile Include="cert\ev_root_ca_metadata.cc">
+      <Filter>cert</Filter>
+    </ClCompile>
+    <ClCompile Include="cert\cert_verifier.cc">
+      <Filter>cert</Filter>
+    </ClCompile>
+    <ClCompile Include="cert\multi_threaded_cert_verifier.cc">
+      <Filter>cert</Filter>
+    </ClCompile>
+    <ClCompile Include="cert\pem_tokenizer.cc">
+      <Filter>cert</Filter>
+    </ClCompile>
+    <ClCompile Include="cert\cert_database.cc">
+      <Filter>cert</Filter>
+    </ClCompile>
+    <ClCompile Include="cert\cert_verify_proc.cc">
+      <Filter>cert</Filter>
+    </ClCompile>
+    <ClCompile Include="cert\cert_verify_result.cc">
+      <Filter>cert</Filter>
+    </ClCompile>
+    <ClCompile Include="cert\single_request_cert_verifier.cc">
+      <Filter>cert</Filter>
+    </ClCompile>
+    <ClInclude Include="cert\x509_certificate.h">
+      <Filter>cert</Filter>
+    </ClInclude>
+    <ClInclude Include="cert\cert_verify_proc_win.h">
+      <Filter>cert</Filter>
+    </ClInclude>
+    <ClInclude Include="cert\jwk_serializer.h">
+      <Filter>cert</Filter>
+    </ClInclude>
+    <ClCompile Include="cert\test_root_certs.cc">
+      <Filter>cert</Filter>
+    </ClCompile>
+    <ClInclude Include="cert\crl_set.h">
+      <Filter>cert</Filter>
+    </ClInclude>
+    <ClInclude Include="cert\test_root_certs.h">
+      <Filter>cert</Filter>
+    </ClInclude>
+    <ClCompile Include="cert\x509_util_ios.cc">
+      <Filter>cert\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="cert\x509_cert_types_mac.cc">
+      <Filter>cert\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="cert\x509_certificate_ios.cc">
+      <Filter>cert\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="cert\x509_util_ios.h">
+      <Filter>cert\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="cert\jwk_serializer_openssl.cc">
+      <Filter>cert\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="cert\nss_cert_database.h">
+      <Filter>cert\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="cert\cert_database_ios.cc">
+      <Filter>cert\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="cert\cert_verify_proc_nss.cc">
+      <Filter>cert\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="cert\cert_verify_proc_openssl.h">
+      <Filter>cert\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="cert\cert_verify_proc_mac.cc">
+      <Filter>cert\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="cert\cert_verify_proc_openssl.cc">
+      <Filter>cert\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="cert\test_root_certs_mac.cc">
+      <Filter>cert\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="cert\x509_util_openssl.cc">
+      <Filter>cert\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="cert\test_root_certs_android.cc">
+      <Filter>cert\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="cert\test_root_certs_nss.cc">
+      <Filter>cert\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="cert\cert_database_nss.cc">
+      <Filter>cert\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="cert\x509_certificate_mac.cc">
+      <Filter>cert\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="cert\cert_database_openssl.cc">
+      <Filter>cert\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="cert\x509_util_mac.h">
+      <Filter>cert\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="cert\x509_util_mac.cc">
+      <Filter>cert\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="cert\nss_cert_database.cc">
+      <Filter>cert\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="cert\cert_database_android.cc">
+      <Filter>cert\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="cert\x509_certificate_openssl.cc">
+      <Filter>cert\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="cert\x509_certificate_nss.cc">
+      <Filter>cert\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="cert\cert_database_mac.cc">
+      <Filter>cert\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="cert\test_root_certs_openssl.cc">
+      <Filter>cert\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="cert\cert_verify_proc_nss.h">
+      <Filter>cert\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="cert\cert_verify_proc_mac.h">
+      <Filter>cert\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="cert\cert_verify_proc_android.cc">
+      <Filter>cert\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="cert\x509_util_openssl.h">
+      <Filter>cert\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="base\upload_data_stream.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\mime_util.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\dns_reloader.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\auth.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\linked_hash_map.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\net_util.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\connection_type_histograms.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\host_port_pair.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\data_url.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\file_stream_metrics.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\dns_util.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\data_url.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\io_buffer.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\mime_util.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\net_util.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\zap.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\net_util_win.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\int128.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\sys_addrinfo.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\network_change_notifier_win.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\net_log_source_type_list.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\network_time_notifier.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\keygen_handler.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\gzip_header.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\address_list.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\big_endian.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\url_util.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\connection_type_histograms.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\upload_progress.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\load_timing_info.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\file_stream_net_log_parameters.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\upload_element_reader.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\filter.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\winsock_init.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\upload_bytes_element_reader.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ip_endpoint.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\file_stream.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\sdch_filter.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\static_cookie_policy.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\net_log_logger.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\net_log_logger.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\host_mapping_rules.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\io_buffer.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\crypto_module.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\load_states_list.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\winsock_init.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\file_stream_context_win.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\winsock_util.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\big_endian.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\backoff_entry.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\network_delegate.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\gzip_header.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\rand_callback.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\sdch_manager.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\gzip_filter.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\upload_data.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\net_errors.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\upload_element_reader.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\load_flags.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\upload_bytes_element_reader.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\net_errors.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\backoff_entry.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\nss_memio.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\prioritized_dispatcher.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\nss_memio.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\load_timing_info.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\address_list.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\network_time_notifier.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\platform_mime_util.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\file_stream.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\file_stream_whence.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\sdch_filter.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\test_data_stream.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\net_error_list.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\host_mapping_rules.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\net_export.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\mime_sniffer.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\test_data_stream.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\priority_queue.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\upload_file_element_reader.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\keygen_handler_win.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\zap.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\filter.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\ip_endpoint.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\net_log_event_type_list.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\sdch_manager.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\net_log.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\network_delegate.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\auth.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\network_change_notifier_factory.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\bandwidth_metrics.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\upload_data_stream.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\address_family.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\prioritized_dispatcher.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\gzip_filter.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\host_port_pair.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\net_module.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\int128.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\platform_mime_util_win.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\escape.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\mime_sniffer.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\net_module.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\iovec.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\cache_type.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\static_cookie_policy.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\hash_value.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\dns_reloader.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\network_change_notifier_win.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\network_change_notifier.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\directory_lister.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\upload_element.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\request_priority.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\directory_lister.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\url_util.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\network_change_notifier.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\net_errors_win.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\completion_callback.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\net_log.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\file_stream_metrics_win.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\load_states.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\upload_element.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\file_stream_context.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\load_flags_list.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\file_stream_context.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\upload_file_element_reader.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\file_stream_net_log_parameters.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\hash_value.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\keygen_handler.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\upload_data.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\file_stream_metrics.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\bandwidth_metrics.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\dns_util.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\expiring_cache.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\winsock_util.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\escape.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\network_change_notifier_linux.h">
+      <Filter>base\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="base\crypto_module_openssl.cc">
+      <Filter>base\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\openssl_private_key_store_android.cc">
+      <Filter>base\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="base\network_config_watcher_mac.h">
+      <Filter>base\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="base\network_config_watcher_mac.cc">
+      <Filter>base\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\platform_mime_util_linux.cc">
+      <Filter>base\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\net_util_posix.cc">
+      <Filter>base\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="base\openssl_private_key_store.h">
+      <Filter>base\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="base\file_stream_context_posix.cc">
+      <Filter>base\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\keygen_handler_nss.cc">
+      <Filter>base\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\net_errors_posix.cc">
+      <Filter>base\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\crypto_module_nss.cc">
+      <Filter>base\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="base\network_change_notifier_mac.h">
+      <Filter>base\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="base\network_change_notifier_mac.cc">
+      <Filter>base\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\file_stream_metrics_posix.cc">
+      <Filter>base\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\network_change_notifier_linux.cc">
+      <Filter>base\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="base\address_tracker_linux.h">
+      <Filter>base\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="base\keygen_handler_openssl.cc">
+      <Filter>base\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="base\platform_mime_util_mac.mm">
+      <Filter>base\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="base\openssl_private_key_store_memory.cc">
+      <Filter>base\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\keygen_handler_mac.cc">
+      <Filter>base\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\address_tracker_linux.cc">
+      <Filter>base\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="base\registry_controlled_domains\registry_controlled_domain.h">
+      <Filter>base\registry_controlled_domains</Filter>
+    </ClInclude>
+    <ClCompile Include="base\registry_controlled_domains\registry_controlled_domain.cc">
+      <Filter>base\registry_controlled_domains</Filter>
+    </ClCompile>
+    <ClCompile Include="proxy\proxy_resolver_script_data.cc">
+      <Filter>proxy</Filter>
+    </ClCompile>
+    <ClInclude Include="proxy\proxy_config_service_fixed.h">
+      <Filter>proxy</Filter>
+    </ClInclude>
+    <ClCompile Include="proxy\dhcpcsvc_init_win.cc">
+      <Filter>proxy</Filter>
+    </ClCompile>
+    <ClInclude Include="proxy\polling_proxy_config_service.h">
+      <Filter>proxy</Filter>
+    </ClInclude>
+    <ClCompile Include="proxy\dhcp_proxy_script_fetcher.cc">
+      <Filter>proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="proxy\proxy_config_service_fixed.cc">
+      <Filter>proxy</Filter>
+    </ClCompile>
+    <ClInclude Include="proxy\proxy_config_service.h">
+      <Filter>proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="proxy\proxy_resolver_script_data.h">
+      <Filter>proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="proxy\proxy_bypass_rules.h">
+      <Filter>proxy</Filter>
+    </ClInclude>
+    <ClCompile Include="proxy\proxy_config_service_win.cc">
+      <Filter>proxy</Filter>
+    </ClCompile>
+    <ClInclude Include="proxy\multi_threaded_proxy_resolver.h">
+      <Filter>proxy</Filter>
+    </ClInclude>
+    <ClCompile Include="proxy\proxy_config_source.cc">
+      <Filter>proxy</Filter>
+    </ClCompile>
+    <ClInclude Include="proxy\proxy_script_decider.h">
+      <Filter>proxy</Filter>
+    </ClInclude>
+    <ClCompile Include="proxy\proxy_info.cc">
+      <Filter>proxy</Filter>
+    </ClCompile>
+    <ClInclude Include="proxy\proxy_resolver_error_observer.h">
+      <Filter>proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="proxy\proxy_config_service_android.h">
+      <Filter>proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="proxy\proxy_info.h">
+      <Filter>proxy</Filter>
+    </ClInclude>
+    <ClCompile Include="proxy\proxy_config.cc">
+      <Filter>proxy</Filter>
+    </ClCompile>
+    <ClInclude Include="proxy\dhcp_proxy_script_fetcher_win.h">
+      <Filter>proxy</Filter>
+    </ClInclude>
+    <ClCompile Include="proxy\dhcp_proxy_script_adapter_fetcher_win.cc">
+      <Filter>proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="proxy\proxy_script_fetcher_impl.cc">
+      <Filter>proxy</Filter>
+    </ClCompile>
+    <ClInclude Include="proxy\dhcp_proxy_script_fetcher_factory.h">
+      <Filter>proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="proxy\proxy_server.h">
+      <Filter>proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="proxy\proxy_resolver_winhttp.h">
+      <Filter>proxy</Filter>
+    </ClInclude>
+    <ClCompile Include="proxy\proxy_script_decider.cc">
+      <Filter>proxy</Filter>
+    </ClCompile>
+    <ClInclude Include="proxy\proxy_resolver_script.h">
+      <Filter>proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="proxy\proxy_service.h">
+      <Filter>proxy</Filter>
+    </ClInclude>
+    <ClCompile Include="proxy\proxy_server.cc">
+      <Filter>proxy</Filter>
+    </ClCompile>
+    <ClInclude Include="proxy\proxy_resolver.h">
+      <Filter>proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="proxy\proxy_config_service_win.h">
+      <Filter>proxy</Filter>
+    </ClInclude>
+    <ClCompile Include="proxy\proxy_service.cc">
+      <Filter>proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="proxy\proxy_list.cc">
+      <Filter>proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="proxy\polling_proxy_config_service.cc">
+      <Filter>proxy</Filter>
+    </ClCompile>
+    <ClInclude Include="proxy\proxy_config.h">
+      <Filter>proxy</Filter>
+    </ClInclude>
+    <ClCompile Include="proxy\dhcp_proxy_script_fetcher_win.cc">
+      <Filter>proxy</Filter>
+    </ClCompile>
+    <ClInclude Include="proxy\proxy_retry_info.h">
+      <Filter>proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="proxy\dhcp_proxy_script_fetcher.h">
+      <Filter>proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="proxy\proxy_script_fetcher_impl.h">
+      <Filter>proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="proxy\dhcpcsvc_init_win.h">
+      <Filter>proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="proxy\proxy_list.h">
+      <Filter>proxy</Filter>
+    </ClInclude>
+    <ClCompile Include="proxy\multi_threaded_proxy_resolver.cc">
+      <Filter>proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="proxy\proxy_bypass_rules.cc">
+      <Filter>proxy</Filter>
+    </ClCompile>
+    <ClInclude Include="proxy\proxy_script_fetcher.h">
+      <Filter>proxy</Filter>
+    </ClInclude>
+    <ClCompile Include="proxy\proxy_resolver_winhttp.cc">
+      <Filter>proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="proxy\network_delegate_error_observer.cc">
+      <Filter>proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="proxy\dhcp_proxy_script_fetcher_factory.cc">
+      <Filter>proxy</Filter>
+    </ClCompile>
+    <ClInclude Include="proxy\network_delegate_error_observer.h">
+      <Filter>proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="proxy\proxy_config_source.h">
+      <Filter>proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="proxy\dhcp_proxy_script_adapter_fetcher_win.h">
+      <Filter>proxy</Filter>
+    </ClInclude>
+    <ClCompile Include="proxy\proxy_config_service_mac.cc">
+      <Filter>proxy\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="proxy\proxy_resolver_mac.h">
+      <Filter>proxy\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="proxy\proxy_config_service_linux.cc">
+      <Filter>proxy\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="proxy\proxy_config_service_ios.cc">
+      <Filter>proxy\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="proxy\proxy_config_service_ios.h">
+      <Filter>proxy\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="proxy\proxy_config_service_android.cc">
+      <Filter>proxy\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="proxy\proxy_config_service_mac.h">
+      <Filter>proxy\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="proxy\proxy_config_service_linux.h">
+      <Filter>proxy\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="proxy\proxy_resolver_mac.cc">
+      <Filter>proxy\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="proxy\proxy_server_mac.cc">
+      <Filter>proxy\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="dns\mdns_cache.cc">
+      <Filter>dns</Filter>
+    </ClCompile>
+    <ClInclude Include="dns\dns_session.h">
+      <Filter>dns</Filter>
+    </ClInclude>
+    <ClCompile Include="dns\address_sorter_win.cc">
+      <Filter>dns</Filter>
+    </ClCompile>
+    <ClInclude Include="dns\dns_socket_pool.h">
+      <Filter>dns</Filter>
+    </ClInclude>
+    <ClInclude Include="dns\dns_transaction.h">
+      <Filter>dns</Filter>
+    </ClInclude>
+    <ClCompile Include="dns\serial_worker.cc">
+      <Filter>dns</Filter>
+    </ClCompile>
+    <ClInclude Include="dns\serial_worker.h">
+      <Filter>dns</Filter>
+    </ClInclude>
+    <ClInclude Include="dns\address_sorter.h">
+      <Filter>dns</Filter>
+    </ClInclude>
+    <ClCompile Include="dns\dns_response.cc">
+      <Filter>dns</Filter>
+    </ClCompile>
+    <ClInclude Include="dns\dns_config_service_win.h">
+      <Filter>dns</Filter>
+    </ClInclude>
+    <ClInclude Include="dns\record_parsed.h">
+      <Filter>dns</Filter>
+    </ClInclude>
+    <ClInclude Include="dns\mapped_host_resolver.h">
+      <Filter>dns</Filter>
+    </ClInclude>
+    <ClCompile Include="dns\dns_query.cc">
+      <Filter>dns</Filter>
+    </ClCompile>
+    <ClInclude Include="dns\dns_config_service.h">
+      <Filter>dns</Filter>
+    </ClInclude>
+    <ClCompile Include="dns\record_parsed.cc">
+      <Filter>dns</Filter>
+    </ClCompile>
+    <ClInclude Include="dns\dns_client.h">
+      <Filter>dns</Filter>
+    </ClInclude>
+    <ClCompile Include="dns\dns_client.cc">
+      <Filter>dns</Filter>
+    </ClCompile>
+    <ClCompile Include="dns\dns_transaction.cc">
+      <Filter>dns</Filter>
+    </ClCompile>
+    <ClCompile Include="dns\record_rdata.cc">
+      <Filter>dns</Filter>
+    </ClCompile>
+    <ClCompile Include="dns\single_request_host_resolver.cc">
+      <Filter>dns</Filter>
+    </ClCompile>
+    <ClInclude Include="dns\dns_response.h">
+      <Filter>dns</Filter>
+    </ClInclude>
+    <ClInclude Include="dns\host_resolver_impl.h">
+      <Filter>dns</Filter>
+    </ClInclude>
+    <ClCompile Include="dns\dns_socket_pool.cc">
+      <Filter>dns</Filter>
+    </ClCompile>
+    <ClCompile Include="dns\host_resolver.cc">
+      <Filter>dns</Filter>
+    </ClCompile>
+    <ClCompile Include="dns\dns_hosts.cc">
+      <Filter>dns</Filter>
+    </ClCompile>
+    <ClCompile Include="dns\host_cache.cc">
+      <Filter>dns</Filter>
+    </ClCompile>
+    <ClCompile Include="dns\mdns_client.cc">
+      <Filter>dns</Filter>
+    </ClCompile>
+    <ClInclude Include="dns\dns_query.h">
+      <Filter>dns</Filter>
+    </ClInclude>
+    <ClCompile Include="dns\host_resolver_impl.cc">
+      <Filter>dns</Filter>
+    </ClCompile>
+    <ClInclude Include="dns\host_cache.h">
+      <Filter>dns</Filter>
+    </ClInclude>
+    <ClInclude Include="dns\host_resolver_proc.h">
+      <Filter>dns</Filter>
+    </ClInclude>
+    <ClInclude Include="dns\record_rdata.h">
+      <Filter>dns</Filter>
+    </ClInclude>
+    <ClCompile Include="dns\dns_config_service.cc">
+      <Filter>dns</Filter>
+    </ClCompile>
+    <ClInclude Include="dns\mdns_client.h">
+      <Filter>dns</Filter>
+    </ClInclude>
+    <ClInclude Include="dns\host_resolver.h">
+      <Filter>dns</Filter>
+    </ClInclude>
+    <ClInclude Include="dns\single_request_host_resolver.h">
+      <Filter>dns</Filter>
+    </ClInclude>
+    <ClInclude Include="dns\dns_protocol.h">
+      <Filter>dns</Filter>
+    </ClInclude>
+    <ClCompile Include="dns\dns_session.cc">
+      <Filter>dns</Filter>
+    </ClCompile>
+    <ClCompile Include="dns\mdns_client_impl.cc">
+      <Filter>dns</Filter>
+    </ClCompile>
+    <ClInclude Include="dns\dns_hosts.h">
+      <Filter>dns</Filter>
+    </ClInclude>
+    <ClCompile Include="dns\mapped_host_resolver.cc">
+      <Filter>dns</Filter>
+    </ClCompile>
+    <ClCompile Include="dns\dns_config_service_win.cc">
+      <Filter>dns</Filter>
+    </ClCompile>
+    <ClCompile Include="dns\host_resolver_proc.cc">
+      <Filter>dns</Filter>
+    </ClCompile>
+    <ClInclude Include="dns\mdns_cache.h">
+      <Filter>dns</Filter>
+    </ClInclude>
+    <ClInclude Include="dns\mdns_client_impl.h">
+      <Filter>dns</Filter>
+    </ClInclude>
+    <ClCompile Include="dns\address_sorter_posix.cc">
+      <Filter>dns\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="dns\dns_config_service_posix.cc">
+      <Filter>dns\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="dns\dns_config_service_posix.h">
+      <Filter>dns\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="dns\notify_watcher_mac.cc">
+      <Filter>dns\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="dns\address_sorter_posix.h">
+      <Filter>dns\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="dns\notify_watcher_mac.h">
+      <Filter>dns\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="android\net_jni_registrar.cc">
+      <Filter>android\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="android\gurl_utils.h">
+      <Filter>android\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="android\keystore_openssl.h">
+      <Filter>android\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="android\cert_verify_result_android.h">
+      <Filter>android\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="android\keystore_openssl.cc">
+      <Filter>android\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="android\network_change_notifier_factory_android.cc">
+      <Filter>android\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="android\cert_verify_result_android_list.h">
+      <Filter>android\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="android\network_change_notifier_delegate_android.cc">
+      <Filter>android\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="android\keystore.cc">
+      <Filter>android\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="android\keystore.h">
+      <Filter>android\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="android\gurl_utils.cc">
+      <Filter>android\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="android\network_change_notifier_factory_android.h">
+      <Filter>android\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="android\network_change_notifier_android.cc">
+      <Filter>android\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="android\network_change_notifier_android.h">
+      <Filter>android\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="android\network_library.cc">
+      <Filter>android\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="android\network_change_notifier_delegate_android.h">
+      <Filter>android\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="android\network_library.h">
+      <Filter>android\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="android\net_jni_registrar.h">
+      <Filter>android\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="ocsp\nss_ocsp.cc">
+      <Filter>ocsp\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="ocsp\nss_ocsp.h">
+      <Filter>ocsp\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="url_request\url_request_error_job.h">
+      <Filter>url_request</Filter>
+    </ClInclude>
+    <ClCompile Include="url_request\url_request_netlog_params.cc">
+      <Filter>url_request</Filter>
+    </ClCompile>
+    <ClInclude Include="url_request\url_request_context_storage.h">
+      <Filter>url_request</Filter>
+    </ClInclude>
+    <ClCompile Include="url_request\url_request_throttler_header_adapter.cc">
+      <Filter>url_request</Filter>
+    </ClCompile>
+    <ClInclude Include="url_request\url_request_job.h">
+      <Filter>url_request</Filter>
+    </ClInclude>
+    <ClInclude Include="url_request\url_request_throttler_entry_interface.h">
+      <Filter>url_request</Filter>
+    </ClInclude>
+    <ClCompile Include="url_request\url_request.cc">
+      <Filter>url_request</Filter>
+    </ClCompile>
+    <ClInclude Include="url_request\url_request_data_job.h">
+      <Filter>url_request</Filter>
+    </ClInclude>
+    <ClCompile Include="url_request\view_cache_helper.cc">
+      <Filter>url_request</Filter>
+    </ClCompile>
+    <ClInclude Include="url_request\ftp_protocol_handler.h">
+      <Filter>url_request</Filter>
+    </ClInclude>
+    <ClInclude Include="url_request\fraudulent_certificate_reporter.h">
+      <Filter>url_request</Filter>
+    </ClInclude>
+    <ClInclude Include="url_request\http_user_agent_settings.h">
+      <Filter>url_request</Filter>
+    </ClInclude>
+    <ClCompile Include="url_request\url_request_context.cc">
+      <Filter>url_request</Filter>
+    </ClCompile>
+    <ClInclude Include="url_request\url_fetcher.h">
+      <Filter>url_request</Filter>
+    </ClInclude>
+    <ClCompile Include="url_request\url_request_file_job.cc">
+      <Filter>url_request</Filter>
+    </ClCompile>
+    <ClInclude Include="url_request\url_request_simple_job.h">
+      <Filter>url_request</Filter>
+    </ClInclude>
+    <ClCompile Include="url_request\url_fetcher_delegate.cc">
+      <Filter>url_request</Filter>
+    </ClCompile>
+    <ClCompile Include="url_request\url_request_file_dir_job.cc">
+      <Filter>url_request</Filter>
+    </ClCompile>
+    <ClCompile Include="url_request\url_request_job_factory_impl.cc">
+      <Filter>url_request</Filter>
+    </ClCompile>
+    <ClInclude Include="url_request\url_request_file_job.h">
+      <Filter>url_request</Filter>
+    </ClInclude>
+    <ClCompile Include="url_request\protocol_intercept_job_factory.cc">
+      <Filter>url_request</Filter>
+    </ClCompile>
+    <ClInclude Include="url_request\view_cache_helper.h">
+      <Filter>url_request</Filter>
+    </ClInclude>
+    <ClCompile Include="url_request\url_request_job_manager.cc">
+      <Filter>url_request</Filter>
+    </ClCompile>
+    <ClCompile Include="url_request\url_request_throttler_entry.cc">
+      <Filter>url_request</Filter>
+    </ClCompile>
+    <ClInclude Include="url_request\url_request_file_dir_job.h">
+      <Filter>url_request</Filter>
+    </ClInclude>
+    <ClInclude Include="url_request\url_fetcher_impl.h">
+      <Filter>url_request</Filter>
+    </ClInclude>
+    <ClInclude Include="url_request\url_fetcher_response_writer.h">
+      <Filter>url_request</Filter>
+    </ClInclude>
+    <ClInclude Include="url_request\url_request_filter.h">
+      <Filter>url_request</Filter>
+    </ClInclude>
+    <ClCompile Include="url_request\url_request_ftp_job.cc">
+      <Filter>url_request</Filter>
+    </ClCompile>
+    <ClCompile Include="url_request\url_request_redirect_job.cc">
+      <Filter>url_request</Filter>
+    </ClCompile>
+    <ClCompile Include="url_request\url_request_job_factory.cc">
+      <Filter>url_request</Filter>
+    </ClCompile>
+    <ClInclude Include="url_request\file_protocol_handler.h">
+      <Filter>url_request</Filter>
+    </ClInclude>
+    <ClInclude Include="url_request\url_request_context.h">
+      <Filter>url_request</Filter>
+    </ClInclude>
+    <ClInclude Include="url_request\url_request_job_factory.h">
+      <Filter>url_request</Filter>
+    </ClInclude>
+    <ClInclude Include="url_request\url_request_throttler_header_adapter.h">
+      <Filter>url_request</Filter>
+    </ClInclude>
+    <ClInclude Include="url_request\url_request_test_job.h">
+      <Filter>url_request</Filter>
+    </ClInclude>
+    <ClCompile Include="url_request\url_request_context_storage.cc">
+      <Filter>url_request</Filter>
+    </ClCompile>
+    <ClInclude Include="url_request\url_fetcher_core.h">
+      <Filter>url_request</Filter>
+    </ClInclude>
+    <ClCompile Include="url_request\url_request_data_job.cc">
+      <Filter>url_request</Filter>
+    </ClCompile>
+    <ClCompile Include="url_request\url_fetcher_core.cc">
+      <Filter>url_request</Filter>
+    </ClCompile>
+    <ClCompile Include="url_request\url_fetcher_response_writer.cc">
+      <Filter>url_request</Filter>
+    </ClCompile>
+    <ClCompile Include="url_request\ftp_protocol_handler.cc">
+      <Filter>url_request</Filter>
+    </ClCompile>
+    <ClCompile Include="url_request\url_request_test_job.cc">
+      <Filter>url_request</Filter>
+    </ClCompile>
+    <ClCompile Include="url_request\url_request_about_job.cc">
+      <Filter>url_request</Filter>
+    </ClCompile>
+    <ClCompile Include="url_request\url_request_job.cc">
+      <Filter>url_request</Filter>
+    </ClCompile>
+    <ClInclude Include="url_request\url_request.h">
+      <Filter>url_request</Filter>
+    </ClInclude>
+    <ClCompile Include="url_request\url_request_throttler_manager.cc">
+      <Filter>url_request</Filter>
+    </ClCompile>
+    <ClCompile Include="url_request\file_protocol_handler.cc">
+      <Filter>url_request</Filter>
+    </ClCompile>
+    <ClInclude Include="url_request\url_fetcher_delegate.h">
+      <Filter>url_request</Filter>
+    </ClInclude>
+    <ClCompile Include="url_request\url_request_context_builder.cc">
+      <Filter>url_request</Filter>
+    </ClCompile>
+    <ClInclude Include="url_request\url_request_status.h">
+      <Filter>url_request</Filter>
+    </ClInclude>
+    <ClInclude Include="url_request\url_request_job_factory_impl.h">
+      <Filter>url_request</Filter>
+    </ClInclude>
+    <ClInclude Include="url_request\url_request_redirect_job.h">
+      <Filter>url_request</Filter>
+    </ClInclude>
+    <ClInclude Include="url_request\url_request_ftp_job.h">
+      <Filter>url_request</Filter>
+    </ClInclude>
+    <ClInclude Include="url_request\url_request_context_getter.h">
+      <Filter>url_request</Filter>
+    </ClInclude>
+    <ClInclude Include="url_request\url_request_http_job.h">
+      <Filter>url_request</Filter>
+    </ClInclude>
+    <ClInclude Include="url_request\static_http_user_agent_settings.h">
+      <Filter>url_request</Filter>
+    </ClInclude>
+    <ClInclude Include="url_request\url_request_job_manager.h">
+      <Filter>url_request</Filter>
+    </ClInclude>
+    <ClInclude Include="url_request\url_request_throttler_header_interface.h">
+      <Filter>url_request</Filter>
+    </ClInclude>
+    <ClCompile Include="url_request\url_request_filter.cc">
+      <Filter>url_request</Filter>
+    </ClCompile>
+    <ClCompile Include="url_request\static_http_user_agent_settings.cc">
+      <Filter>url_request</Filter>
+    </ClCompile>
+    <ClInclude Include="url_request\url_request_about_job.h">
+      <Filter>url_request</Filter>
+    </ClInclude>
+    <ClInclude Include="url_request\url_request_throttler_entry.h">
+      <Filter>url_request</Filter>
+    </ClInclude>
+    <ClCompile Include="url_request\url_fetcher_impl.cc">
+      <Filter>url_request</Filter>
+    </ClCompile>
+    <ClInclude Include="url_request\url_request_netlog_params.h">
+      <Filter>url_request</Filter>
+    </ClInclude>
+    <ClCompile Include="url_request\url_request_http_job.cc">
+      <Filter>url_request</Filter>
+    </ClCompile>
+    <ClInclude Include="url_request\data_protocol_handler.h">
+      <Filter>url_request</Filter>
+    </ClInclude>
+    <ClInclude Include="url_request\url_request_context_builder.h">
+      <Filter>url_request</Filter>
+    </ClInclude>
+    <ClInclude Include="url_request\url_fetcher_factory.h">
+      <Filter>url_request</Filter>
+    </ClInclude>
+    <ClInclude Include="url_request\url_request_throttler_manager.h">
+      <Filter>url_request</Filter>
+    </ClInclude>
+    <ClInclude Include="url_request\protocol_intercept_job_factory.h">
+      <Filter>url_request</Filter>
+    </ClInclude>
+    <ClCompile Include="url_request\url_request_simple_job.cc">
+      <Filter>url_request</Filter>
+    </ClCompile>
+    <ClCompile Include="url_request\url_request_context_getter.cc">
+      <Filter>url_request</Filter>
+    </ClCompile>
+    <ClCompile Include="url_request\data_protocol_handler.cc">
+      <Filter>url_request</Filter>
+    </ClCompile>
+    <ClCompile Include="url_request\url_fetcher.cc">
+      <Filter>url_request</Filter>
+    </ClCompile>
+    <ClCompile Include="url_request\url_request_error_job.cc">
+      <Filter>url_request</Filter>
+    </ClCompile>
+    <ClInclude Include="websockets\websocket_channel.h">
+      <Filter>websockets</Filter>
+    </ClInclude>
+    <ClCompile Include="websockets\websocket_throttle.cc">
+      <Filter>websockets</Filter>
+    </ClCompile>
+    <ClInclude Include="websockets\websocket_handshake_handler.h">
+      <Filter>websockets</Filter>
+    </ClInclude>
+    <ClCompile Include="websockets\websocket_frame_parser.cc">
+      <Filter>websockets</Filter>
+    </ClCompile>
+    <ClInclude Include="websockets\websocket_mux.h">
+      <Filter>websockets</Filter>
+    </ClInclude>
+    <ClInclude Include="websockets\websocket_stream_base.h">
+      <Filter>websockets</Filter>
+    </ClInclude>
+    <ClCompile Include="websockets\websocket_stream.cc">
+      <Filter>websockets</Filter>
+    </ClCompile>
+    <ClCompile Include="websockets\websocket_errors.cc">
+      <Filter>websockets</Filter>
+    </ClCompile>
+    <ClInclude Include="websockets\websocket_frame.h">
+      <Filter>websockets</Filter>
+    </ClInclude>
+    <ClInclude Include="websockets\websocket_frame_parser.h">
+      <Filter>websockets</Filter>
+    </ClInclude>
+    <ClInclude Include="websockets\websocket_stream.h">
+      <Filter>websockets</Filter>
+    </ClInclude>
+    <ClInclude Include="websockets\websocket_basic_stream.h">
+      <Filter>websockets</Filter>
+    </ClInclude>
+    <ClInclude Include="websockets\websocket_throttle.h">
+      <Filter>websockets</Filter>
+    </ClInclude>
+    <ClInclude Include="websockets\websocket_net_log_params.h">
+      <Filter>websockets</Filter>
+    </ClInclude>
+    <ClCompile Include="websockets\websocket_handshake_handler.cc">
+      <Filter>websockets</Filter>
+    </ClCompile>
+    <ClInclude Include="websockets\websocket_handshake_constants.h">
+      <Filter>websockets</Filter>
+    </ClInclude>
+    <ClCompile Include="websockets\websocket_basic_stream.cc">
+      <Filter>websockets</Filter>
+    </ClCompile>
+    <ClCompile Include="websockets\websocket_frame.cc">
+      <Filter>websockets</Filter>
+    </ClCompile>
+    <ClCompile Include="websockets\websocket_net_log_params.cc">
+      <Filter>websockets</Filter>
+    </ClCompile>
+    <ClCompile Include="websockets\websocket_job.cc">
+      <Filter>websockets</Filter>
+    </ClCompile>
+    <ClCompile Include="websockets\websocket_channel.cc">
+      <Filter>websockets</Filter>
+    </ClCompile>
+    <ClInclude Include="websockets\websocket_errors.h">
+      <Filter>websockets</Filter>
+    </ClInclude>
+    <ClCompile Include="websockets\websocket_handshake_constants.cc">
+      <Filter>websockets</Filter>
+    </ClCompile>
+    <ClInclude Include="websockets\websocket_job.h">
+      <Filter>websockets</Filter>
+    </ClInclude>
+    <ClCompile Include="socket\stream_socket.cc">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClCompile Include="socket\client_socket_pool_base.cc">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClInclude Include="socket\socket_descriptor.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClInclude Include="socket\tcp_server_socket.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClInclude Include="socket\client_socket_pool_base.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClCompile Include="socket\client_socket_pool.cc">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClInclude Include="socket\buffered_write_stream_socket.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClInclude Include="socket\server_socket.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClInclude Include="socket\client_socket_pool.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClInclude Include="socket\ssl_client_socket.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClInclude Include="socket\tcp_socket_win.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClInclude Include="socket\socket.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClCompile Include="socket\client_socket_factory.cc">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClInclude Include="socket\ssl_socket.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClCompile Include="socket\socks_client_socket.cc">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClInclude Include="socket\socks_client_socket.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClCompile Include="socket\socket_descriptor.cc">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClCompile Include="socket\ssl_server_socket_nss.cc">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClInclude Include="socket\ssl_client_socket_nss.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClCompile Include="socket\client_socket_pool_histograms.cc">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClInclude Include="socket\ssl_client_socket_pool.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClCompile Include="socket\tcp_client_socket_win.cc">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClCompile Include="socket\tcp_socket_win.cc">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClCompile Include="socket\nss_ssl_util.cc">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClInclude Include="socket\ssl_server_socket_nss.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClInclude Include="socket\transport_client_socket_pool.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClInclude Include="socket\socket_net_log_params.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClCompile Include="socket\buffered_write_stream_socket.cc">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClInclude Include="socket\tcp_client_socket.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClInclude Include="socket\ssl_error_params.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClInclude Include="socket\stream_listen_socket.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClInclude Include="socket\socks_client_socket_pool.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClInclude Include="socket\tcp_socket.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClCompile Include="socket\client_socket_pool_manager_impl.cc">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClCompile Include="socket\socks_client_socket_pool.cc">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClCompile Include="socket\client_socket_pool_manager.cc">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClCompile Include="socket\socks5_client_socket.cc">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClInclude Include="socket\socks5_client_socket.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClCompile Include="socket\ssl_client_socket_pool.cc">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClInclude Include="socket\ssl_server_socket.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClInclude Include="socket\client_socket_pool_manager.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClInclude Include="socket\tcp_listen_socket.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClCompile Include="socket\transport_client_socket_pool.cc">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClInclude Include="socket\tcp_client_socket_win.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClInclude Include="socket\client_socket_handle.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClCompile Include="socket\ssl_client_socket.cc">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClInclude Include="socket\next_proto.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClCompile Include="socket\tcp_client_socket.cc">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClInclude Include="socket\nss_ssl_util.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClCompile Include="socket\ssl_client_socket_nss.cc">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClCompile Include="socket\stream_listen_socket.cc">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClCompile Include="socket\ssl_error_params.cc">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClInclude Include="socket\client_socket_pool_manager_impl.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClCompile Include="socket\tcp_listen_socket.cc">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClCompile Include="socket\tcp_server_socket.cc">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClInclude Include="socket\stream_socket.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClCompile Include="socket\socket_net_log_params.cc">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClCompile Include="socket\client_socket_handle.cc">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClInclude Include="socket\client_socket_factory.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClInclude Include="socket\client_socket_pool_histograms.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClCompile Include="socket\unix_domain_socket_posix.cc">
+      <Filter>socket\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="socket\ssl_server_socket_openssl.cc">
+      <Filter>socket\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="socket\tcp_client_socket_libevent.cc">
+      <Filter>socket\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="socket\tcp_client_socket_libevent.h">
+      <Filter>socket\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="socket\ssl_client_socket_openssl.cc">
+      <Filter>socket\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="socket\tcp_socket_libevent.cc">
+      <Filter>socket\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="socket\ssl_client_socket_openssl.h">
+      <Filter>socket\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="socket\tcp_socket_libevent.h">
+      <Filter>socket\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="socket\unix_domain_socket_posix.h">
+      <Filter>socket\_excluded_files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

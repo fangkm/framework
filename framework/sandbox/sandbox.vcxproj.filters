@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win">
+      <UniqueIdentifier>{47FC5EC4-15EB-E92F-89D7-AFE51CF838A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win\src\sidestep">
+      <UniqueIdentifier>{81610B3C-DE29-F74E-95E5-DA72C00CFD1B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win\wow_helper">
+      <UniqueIdentifier>{1BD51AD3-DBBD-EFD1-612A-FB9C893D4CC8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sandbox.gyp"/>
+    <ClInclude Include="win\src\job.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClCompile Include="win\src\policy_low_level.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClCompile Include="win\src\filesystem_policy.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClInclude Include="win\src\filesystem_interception.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClCompile Include="win\src\sid.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClInclude Include="win\src\named_pipe_dispatcher.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClInclude Include="win\src\broker_services.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClInclude Include="win\src\handle_closer.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClInclude Include="win\src\registry_dispatcher.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClCompile Include="win\src\interception.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClCompile Include="win\src\process_thread_policy.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClCompile Include="win\src\named_pipe_policy.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClCompile Include="win\src\sync_interception.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClCompile Include="win\src\acl.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClInclude Include="win\src\security_level.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClInclude Include="win\src\resolver.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClInclude Include="win\src\restricted_token_utils.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClCompile Include="win\src\resolver.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClCompile Include="win\src\sync_dispatcher.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClCompile Include="win\src\sidestep_resolver.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClCompile Include="win\src\app_container.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClInclude Include="win\src\sync_interception.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClCompile Include="win\src\policy_engine_opcodes.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClInclude Include="win\src\internal_types.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClCompile Include="win\src\registry_interception.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClInclude Include="win\src\sid.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClInclude Include="win\src\sandbox_utils.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClCompile Include="win\src\policy_engine_processor.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClCompile Include="win\src\win2k_threadpool.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClInclude Include="win\src\handle_interception.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClCompile Include="win\src\process_thread_interception.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClInclude Include="win\src\interceptors.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClInclude Include="win\src\target_interceptions.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClInclude Include="win\src\win2k_threadpool.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClInclude Include="win\src\process_mitigations.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClInclude Include="win\src\sandbox_policy_base.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClCompile Include="win\src\sandbox_utils.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClCompile Include="win\src\broker_services.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClCompile Include="win\src\crosscall_server.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClCompile Include="win\src\sharedmem_ipc_client.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClInclude Include="win\src\crosscall_client.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClInclude Include="win\src\policy_broker.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClInclude Include="win\src\interception.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClCompile Include="win\src\handle_policy.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClInclude Include="win\src\registry_interception.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClInclude Include="win\src\sidestep_resolver.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClInclude Include="win\src\policy_target.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClInclude Include="win\src\interception_agent.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClInclude Include="win\src\sync_policy.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClCompile Include="win\src\service_resolver.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClInclude Include="win\src\sandbox_types.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClInclude Include="win\src\eat_resolver.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClInclude Include="win\src\handle_policy.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClCompile Include="win\src\window.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClInclude Include="win\src\process_thread_policy.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClCompile Include="win\src\registry_dispatcher.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClInclude Include="win\src\nt_internals.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClCompile Include="win\src\sandbox.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClCompile Include="win\src\restricted_token_utils.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClInclude Include="win\src\filesystem_policy.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClInclude Include="win\src\sandbox_policy.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClInclude Include="win\src\win_utils.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClInclude Include="win\src\sandbox_nt_types.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClInclude Include="win\src\app_container.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClInclude Include="win\src\policy_engine_processor.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClInclude Include="win\src\sharedmem_ipc_server.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClInclude Include="win\src\handle_closer_agent.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClInclude Include="win\src\handle_dispatcher.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClCompile Include="win\src\target_services.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClInclude Include="win\src\policy_engine_params.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClCompile Include="win\src\target_process.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClCompile Include="win\src\sync_policy.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClCompile Include="win\src\sandbox_policy_base.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClInclude Include="win\src\policy_low_level.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClInclude Include="win\src\target_process.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClCompile Include="win\src\sharedmem_ipc_server.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClCompile Include="win\src\handle_closer_agent.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClInclude Include="win\src\process_thread_interception.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClInclude Include="win\src\process_thread_dispatcher.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClInclude Include="win\src\window.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClCompile Include="win\src\interception_agent.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClCompile Include="win\src\filesystem_interception.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClCompile Include="win\src\eat_resolver.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClCompile Include="win\src\named_pipe_dispatcher.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClCompile Include="win\src\service_resolver_32.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClInclude Include="win\src\policy_engine_opcodes.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClInclude Include="win\src\restricted_token.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClCompile Include="win\src\filesystem_dispatcher.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClCompile Include="win\src\named_pipe_interception.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClCompile Include="win\src\job.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClCompile Include="win\src\handle_dispatcher.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClInclude Include="win\src\shared_handles.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClCompile Include="win\src\handle_interception.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClCompile Include="win\src\Wow64.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClInclude Include="win\src\registry_policy.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClCompile Include="win\src\handle_table.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClInclude Include="win\src\crosscall_params.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClCompile Include="win\src\policy_broker.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClInclude Include="win\src\handle_table.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClCompile Include="win\src\registry_policy.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClInclude Include="win\src\named_pipe_policy.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClCompile Include="win\src\shared_handles.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClCompile Include="win\src\win_utils.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClInclude Include="win\src\ipc_tags.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClInclude Include="win\src\sandbox.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClInclude Include="win\src\filesystem_dispatcher.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClCompile Include="win\src\restricted_token.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClInclude Include="win\src\named_pipe_interception.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClInclude Include="win\src\target_services.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClInclude Include="win\src\acl.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClCompile Include="win\src\sandbox_nt_util.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClInclude Include="win\src\sandbox_factory.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClInclude Include="win\src\sync_dispatcher.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClCompile Include="win\src\process_thread_dispatcher.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClCompile Include="win\src\resolver_32.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClInclude Include="win\src\policy_params.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClCompile Include="win\src\target_interceptions.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClCompile Include="win\src\policy_target.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClInclude Include="win\src\Wow64.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClCompile Include="win\src\process_mitigations.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClInclude Include="win\src\sharedmem_ipc_client.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClInclude Include="win\src\crosscall_server.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClCompile Include="win\src\handle_closer.cc">
+      <Filter>win\src</Filter>
+    </ClCompile>
+    <ClInclude Include="win\src\service_resolver.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClInclude Include="win\src\interception_internal.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClInclude Include="win\src\sandbox_nt_util.h">
+      <Filter>win\src</Filter>
+    </ClInclude>
+    <ClCompile Include="win\src\sidestep\mini_disassembler.cpp">
+      <Filter>win\src\sidestep</Filter>
+    </ClCompile>
+    <ClInclude Include="win\src\sidestep\mini_disassembler.h">
+      <Filter>win\src\sidestep</Filter>
+    </ClInclude>
+    <ClCompile Include="win\src\sidestep\ia32_modrm_map.cpp">
+      <Filter>win\src\sidestep</Filter>
+    </ClCompile>
+    <ClCompile Include="win\src\sidestep\ia32_opcode_map.cpp">
+      <Filter>win\src\sidestep</Filter>
+    </ClCompile>
+    <ClInclude Include="win\src\sidestep\preamble_patcher.h">
+      <Filter>win\src\sidestep</Filter>
+    </ClInclude>
+    <ClCompile Include="win\src\sidestep\preamble_patcher_with_stub.cpp">
+      <Filter>win\src\sidestep</Filter>
+    </ClCompile>
+    <ClInclude Include="win\src\sidestep\mini_disassembler_types.h">
+      <Filter>win\src\sidestep</Filter>
+    </ClInclude>
+    <None Include="win\wow_helper\wow_helper.pdb">
+      <Filter>win\wow_helper</Filter>
+    </None>
+    <None Include="win\wow_helper\wow_helper.exe">
+      <Filter>win\wow_helper</Filter>
+    </None>
+  </ItemGroup>
+</Project>

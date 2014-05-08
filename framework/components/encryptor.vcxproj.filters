@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="webdata">
+      <UniqueIdentifier>{CBCC3417-9EC5-8AB4-2EBE-E1E5B86531E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="webdata\encryptor">
+      <UniqueIdentifier>{54C7F096-4D65-29C9-A3D0-33B93A198B30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="webdata\encryptor\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="components.gyp"/>
+    <ClCompile Include="webdata\encryptor\ie7_password.cc">
+      <Filter>webdata\encryptor</Filter>
+    </ClCompile>
+    <ClInclude Include="webdata\encryptor\ie7_password.h">
+      <Filter>webdata\encryptor</Filter>
+    </ClInclude>
+    <ClCompile Include="webdata\encryptor\encryptor_win.cc">
+      <Filter>webdata\encryptor</Filter>
+    </ClCompile>
+    <ClInclude Include="webdata\encryptor\encryptor.h">
+      <Filter>webdata\encryptor</Filter>
+    </ClInclude>
+    <ClInclude Include="webdata\encryptor\encryptor_password_mac.h">
+      <Filter>webdata\encryptor\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="webdata\encryptor\encryptor_mac.mm">
+      <Filter>webdata\encryptor\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="webdata\encryptor\encryptor_posix.cc">
+      <Filter>webdata\encryptor\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="webdata\encryptor\encryptor_password_mac.mm">
+      <Filter>webdata\encryptor\_excluded_files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

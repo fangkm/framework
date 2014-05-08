@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="tracing">
+      <UniqueIdentifier>{CE08FC7C-88C2-852D-9904-CEFED4CA8C0B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tracing.gyp"/>
+    <ClInclude Include="tracing\child_trace_message_filter.h">
+      <Filter>tracing</Filter>
+    </ClInclude>
+    <ClInclude Include="tracing\tracing_messages.h">
+      <Filter>tracing</Filter>
+    </ClInclude>
+    <ClCompile Include="tracing\child_trace_message_filter.cc">
+      <Filter>tracing</Filter>
+    </ClCompile>
+    <ClCompile Include="tracing\tracing_messages.cc">
+      <Filter>tracing</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

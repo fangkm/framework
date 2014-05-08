@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="public">
+      <UniqueIdentifier>{0D2511BD-044F-C35F-ECCE-845899961E41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public\child">
+      <UniqueIdentifier>{E3C40506-007B-C2D8-0589-97418FE2E754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="child">
+      <UniqueIdentifier>{E3C40506-007B-C2D8-0589-97418FE2E754}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="content.gyp" />
+    <ClInclude Include="public\child\image_decoder_utils.h">
+      <Filter>public\child</Filter>
+    </ClInclude>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+    <ClCompile Include="child\image_decoder.cc">
+      <Filter>child</Filter>
+    </ClCompile>
+    <ClInclude Include="child\child_thread.h">
+      <Filter>child</Filter>
+    </ClInclude>
+    <ClCompile Include="child\runtime_features.cc">
+      <Filter>child</Filter>
+    </ClCompile>
+    <ClInclude Include="child\child_histogram_message_filter.h">
+      <Filter>child</Filter>
+    </ClInclude>
+    <ClCompile Include="child\child_process.cc">
+      <Filter>child</Filter>
+    </ClCompile>
+    <ClInclude Include="child\child_process.h">
+      <Filter>child</Filter>
+    </ClInclude>
+    <ClInclude Include="child\thread_safe_sender.h">
+      <Filter>child</Filter>
+    </ClInclude>
+    <ClCompile Include="child\child_thread.cc">
+      <Filter>child</Filter>
+    </ClCompile>
+    <ClCompile Include="child\thread_safe_sender.cc">
+      <Filter>child</Filter>
+    </ClCompile>
+    <ClInclude Include="child\image_decoder.h">
+      <Filter>child</Filter>
+    </ClInclude>
+    <ClInclude Include="child\power_monitor_broadcast_source.h">
+      <Filter>child</Filter>
+    </ClInclude>
+    <ClCompile Include="child\child_histogram_message_filter.cc">
+      <Filter>child</Filter>
+    </ClCompile>
+    <ClInclude Include="child\runtime_features.h">
+      <Filter>child</Filter>
+    </ClInclude>
+    <ClCompile Include="child\power_monitor_broadcast_source.cc">
+      <Filter>child</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

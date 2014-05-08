@@ -1,0 +1,1634 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="nss">
+      <UniqueIdentifier>{3C09AD6B-82F0-6694-7902-5905A4E0AD0E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\pki">
+      <UniqueIdentifier>{7A364C32-33CE-20A2-D067-6EBC25E611FA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\smime">
+      <UniqueIdentifier>{7D5B767C-7416-4350-86E4-14ABFE52FE82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\certhigh">
+      <UniqueIdentifier>{2AC7E6C6-2C1B-A7F8-9BB7-6C7DAD784393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\certhigh\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\nss">
+      <UniqueIdentifier>{3C09AD6B-82F0-6694-7902-5905A4E0AD0E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\pk11wrap">
+      <UniqueIdentifier>{6DE5F830-F440-9AC3-4361-2354FF7C613A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\pk11wrap\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\dev">
+      <UniqueIdentifier>{51D92A3A-C0F8-78D6-DFF5-4F152A3AB774}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\util">
+      <UniqueIdentifier>{F977CC92-61A1-407C-2835-A38A3BBED548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\ssl">
+      <UniqueIdentifier>{9619347D-2389-BF68-D54C-476A14B10965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\base">
+      <UniqueIdentifier>{DBBAC0A6-BB0A-CA51-45CC-DA4574B671E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\libpkix">
+      <UniqueIdentifier>{8BB4B1A4-FCF4-E288-E3CE-E555FD1364F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\libpkix\include">
+      <UniqueIdentifier>{57CA55B8-BCC5-4000-CE3A-58972F82E9CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\libpkix\include\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\libpkix\pkix">
+      <UniqueIdentifier>{371972C5-CBF5-665C-9151-5CE633E5BCE7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\libpkix\pkix\certsel">
+      <UniqueIdentifier>{E0E2278F-68B6-2978-C163-C24F827A6670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\libpkix\pkix\certsel\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\libpkix\pkix\top">
+      <UniqueIdentifier>{19C65ABB-B5F4-6B41-A1B9-5E2F7F03079A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\libpkix\pkix\top\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\libpkix\pkix\results">
+      <UniqueIdentifier>{D0A124DE-13F2-3C1C-10C3-2BC71CF0FB70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\libpkix\pkix\results\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\libpkix\pkix\util">
+      <UniqueIdentifier>{F977CC92-61A1-407C-2835-A38A3BBED548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\libpkix\pkix\util\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\libpkix\pkix\crlsel">
+      <UniqueIdentifier>{CCDD607F-EE90-3B32-4894-1458623EF302}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\libpkix\pkix\crlsel\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\libpkix\pkix\checker">
+      <UniqueIdentifier>{1FA90970-EF14-9D10-618E-FA6F505000B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\libpkix\pkix\checker\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\libpkix\pkix\params">
+      <UniqueIdentifier>{03E9D615-4B3D-815B-DF1B-A441372A703C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\libpkix\pkix\params\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\libpkix\pkix\store">
+      <UniqueIdentifier>{B53446B3-D7CB-5CCA-1AB0-DE885C7DEC5A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\libpkix\pkix\store\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\libpkix\pkix_pl_nss">
+      <UniqueIdentifier>{CF69CBD7-E935-F629-E867-A81E2A78B1F5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\libpkix\pkix_pl_nss\pki">
+      <UniqueIdentifier>{7A364C32-33CE-20A2-D067-6EBC25E611FA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\libpkix\pkix_pl_nss\pki\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\libpkix\pkix_pl_nss\system">
+      <UniqueIdentifier>{AFD6A456-1D6D-10A7-15EC-A60913FD8BEC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\libpkix\pkix_pl_nss\system\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\libpkix\pkix_pl_nss\module">
+      <UniqueIdentifier>{29CF2906-7ABF-2D4A-DC05-E4181FCBCECD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\libpkix\pkix_pl_nss\module\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\certdb">
+      <UniqueIdentifier>{558C96B0-EE3E-116F-F09F-5E5864304E61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\cryptohi">
+      <UniqueIdentifier>{F454D308-7BAC-71DB-3B79-DBE0E604E86E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\softoken">
+      <UniqueIdentifier>{7EB847D6-C23D-361F-5698-0C56157BD9F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\pkcs7">
+      <UniqueIdentifier>{F4910E1F-E1D4-7BBE-F8BE-5DCDA506FCF2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\freebl">
+      <UniqueIdentifier>{6B2CDF80-8416-B07F-8C31-85F893E6F2E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\freebl\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\freebl\ecl">
+      <UniqueIdentifier>{A4AC9E56-0421-0F21-61C3-AEDDE6A0BE1E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\freebl\mpi">
+      <UniqueIdentifier>{158C02E7-45EF-A3D7-BA42-C9B7276C9461}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nss\lib\freebl\mpi\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="nss.gyp"/>
+    <ClCompile Include="nss\lib\pki\pki3hack.c">
+      <Filter>nss\lib\pki</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\pki\tdcache.c">
+      <Filter>nss\lib\pki</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\pki\pkistore.h">
+      <Filter>nss\lib\pki</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\pki\pkistore.c">
+      <Filter>nss\lib\pki</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\pki\certdecode.c">
+      <Filter>nss\lib\pki</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\pki\trustdomain.c">
+      <Filter>nss\lib\pki</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\pki\asymmkey.c">
+      <Filter>nss\lib\pki</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\pki\cryptocontext.c">
+      <Filter>nss\lib\pki</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\pki\nsspki.h">
+      <Filter>nss\lib\pki</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\pki\symmkey.c">
+      <Filter>nss\lib\pki</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\pki\pkim.h">
+      <Filter>nss\lib\pki</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\pki\pki.h">
+      <Filter>nss\lib\pki</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\pki\pki3hack.h">
+      <Filter>nss\lib\pki</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\pki\nsspkit.h">
+      <Filter>nss\lib\pki</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\pki\certificate.c">
+      <Filter>nss\lib\pki</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\pki\pkibase.c">
+      <Filter>nss\lib\pki</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\pki\pkit.h">
+      <Filter>nss\lib\pki</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\pki\pkitm.h">
+      <Filter>nss\lib\pki</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\smime\cms.h">
+      <Filter>nss\lib\smime</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\smime\cmslocal.h">
+      <Filter>nss\lib\smime</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\smime\cmst.h">
+      <Filter>nss\lib\smime</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\smime\smime.h">
+      <Filter>nss\lib\smime</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\smime\cmsreclist.h">
+      <Filter>nss\lib\smime</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\certhigh\certhigh.c">
+      <Filter>nss\lib\certhigh</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\certhigh\ocspti.h">
+      <Filter>nss\lib\certhigh</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\certhigh\ocspsig.c">
+      <Filter>nss\lib\certhigh</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\certhigh\certhtml.c">
+      <Filter>nss\lib\certhigh</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\certhigh\xcrldist.c">
+      <Filter>nss\lib\certhigh</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\certhigh\ocspt.h">
+      <Filter>nss\lib\certhigh</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\certhigh\certreq.c">
+      <Filter>nss\lib\certhigh</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\certhigh\ocsp.h">
+      <Filter>nss\lib\certhigh</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\certhigh\ocsp.c">
+      <Filter>nss\lib\certhigh</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\certhigh\ocspi.h">
+      <Filter>nss\lib\certhigh</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\certhigh\certvfy.c">
+      <Filter>nss\lib\certhigh</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\certhigh\crlv2.c">
+      <Filter>nss\lib\certhigh</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\certhigh\certvfypkixprint.c">
+      <Filter>nss\lib\certhigh\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\certhigh\certvfypkix.c">
+      <Filter>nss\lib\certhigh\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\nss\utilwrap.c">
+      <Filter>nss\lib\nss</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\nss\nssinit.c">
+      <Filter>nss\lib\nss</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\nss\nss.h">
+      <Filter>nss\lib\nss</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\nss\nssrenam.h">
+      <Filter>nss\lib\nss</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\pk11wrap\pk11sdr.c">
+      <Filter>nss\lib\pk11wrap</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\pk11wrap\pk11sdr.h">
+      <Filter>nss\lib\pk11wrap</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\pk11wrap\secmodi.h">
+      <Filter>nss\lib\pk11wrap</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\pk11wrap\pk11auth.c">
+      <Filter>nss\lib\pk11wrap</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\pk11wrap\pk11priv.h">
+      <Filter>nss\lib\pk11wrap</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\pk11wrap\pk11merge.c">
+      <Filter>nss\lib\pk11wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\pk11wrap\pk11load.c">
+      <Filter>nss\lib\pk11wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\pk11wrap\pk11skey.c">
+      <Filter>nss\lib\pk11wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\pk11wrap\pk11akey.c">
+      <Filter>nss\lib\pk11wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\pk11wrap\pk11slot.c">
+      <Filter>nss\lib\pk11wrap</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\pk11wrap\secmod.h">
+      <Filter>nss\lib\pk11wrap</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\pk11wrap\pk11pars.c">
+      <Filter>nss\lib\pk11wrap</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\pk11wrap\secmodt.h">
+      <Filter>nss\lib\pk11wrap</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\pk11wrap\pk11util.c">
+      <Filter>nss\lib\pk11wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\pk11wrap\pk11mech.c">
+      <Filter>nss\lib\pk11wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\pk11wrap\pk11nobj.c">
+      <Filter>nss\lib\pk11wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\pk11wrap\pk11err.c">
+      <Filter>nss\lib\pk11wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\pk11wrap\pk11obj.c">
+      <Filter>nss\lib\pk11wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\pk11wrap\pk11list.c">
+      <Filter>nss\lib\pk11wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\pk11wrap\pk11kea.c">
+      <Filter>nss\lib\pk11wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\pk11wrap\pk11cxt.c">
+      <Filter>nss\lib\pk11wrap</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\pk11wrap\pk11pub.h">
+      <Filter>nss\lib\pk11wrap</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\pk11wrap\secpkcs5.h">
+      <Filter>nss\lib\pk11wrap</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\pk11wrap\pk11pk12.c">
+      <Filter>nss\lib\pk11wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\pk11wrap\pk11pbe.c">
+      <Filter>nss\lib\pk11wrap</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\pk11wrap\pk11func.h">
+      <Filter>nss\lib\pk11wrap</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\pk11wrap\secmodti.h">
+      <Filter>nss\lib\pk11wrap</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\pk11wrap\pk11cert.c">
+      <Filter>nss\lib\pk11wrap</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\pk11wrap\dev3hack.h">
+      <Filter>nss\lib\pk11wrap</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\pk11wrap\dev3hack.c">
+      <Filter>nss\lib\pk11wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\pk11wrap\pk11pqg.c">
+      <Filter>nss\lib\pk11wrap</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\pk11wrap\pk11pqg.h">
+      <Filter>nss\lib\pk11wrap</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\pk11wrap\debug_module.c">
+      <Filter>nss\lib\pk11wrap\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\dev\devslot.c">
+      <Filter>nss\lib\dev</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\dev\nssdevt.h">
+      <Filter>nss\lib\dev</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\dev\devutil.c">
+      <Filter>nss\lib\dev</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\dev\ckhelper.c">
+      <Filter>nss\lib\dev</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\dev\ckhelper.h">
+      <Filter>nss\lib\dev</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\dev\devtoken.c">
+      <Filter>nss\lib\dev</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\dev\devt.h">
+      <Filter>nss\lib\dev</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\dev\dev.h">
+      <Filter>nss\lib\dev</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\dev\devtm.h">
+      <Filter>nss\lib\dev</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\dev\nssdev.h">
+      <Filter>nss\lib\dev</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\dev\devm.h">
+      <Filter>nss\lib\dev</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\util\secasn1d.c">
+      <Filter>nss\lib\util</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\util\utilparst.h">
+      <Filter>nss\lib\util</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\util\dersubr.c">
+      <Filter>nss\lib\util</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\util\nssilock.h">
+      <Filter>nss\lib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\util\ciferfam.h">
+      <Filter>nss\lib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\util\nssilckt.h">
+      <Filter>nss\lib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\util\hasht.h">
+      <Filter>nss\lib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\util\secdert.h">
+      <Filter>nss\lib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\util\SECerrs.h">
+      <Filter>nss\lib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\util\nsslocks.h">
+      <Filter>nss\lib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\util\secasn1t.h">
+      <Filter>nss\lib\util</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\util\secitem.c">
+      <Filter>nss\lib\util</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\util\templates.c">
+      <Filter>nss\lib\util</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\util\nssutil.h">
+      <Filter>nss\lib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\util\secerr.h">
+      <Filter>nss\lib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\util\nssb64t.h">
+      <Filter>nss\lib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\util\pkcs11f.h">
+      <Filter>nss\lib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\util\secoid.h">
+      <Filter>nss\lib\util</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\util\sectime.c">
+      <Filter>nss\lib\util</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\util\secdig.c">
+      <Filter>nss\lib\util</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\util\quickder.c">
+      <Filter>nss\lib\util</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\util\secdig.h">
+      <Filter>nss\lib\util</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\util\secoid.c">
+      <Filter>nss\lib\util</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\util\utilpars.c">
+      <Filter>nss\lib\util</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\util\secport.c">
+      <Filter>nss\lib\util</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\util\utilpars.h">
+      <Filter>nss\lib\util</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\util\oidstring.c">
+      <Filter>nss\lib\util</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\util\secdigt.h">
+      <Filter>nss\lib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\util\secder.h">
+      <Filter>nss\lib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\util\secitem.h">
+      <Filter>nss\lib\util</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\util\nssb64e.c">
+      <Filter>nss\lib\util</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\util\derdec.c">
+      <Filter>nss\lib\util</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\util\utilmod.c">
+      <Filter>nss\lib\util</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\util\pkcs11.h">
+      <Filter>nss\lib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\util\base64.h">
+      <Filter>nss\lib\util</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\util\errstrs.c">
+      <Filter>nss\lib\util</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\util\secasn1.h">
+      <Filter>nss\lib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\util\pkcs11t.h">
+      <Filter>nss\lib\util</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\util\utf8.c">
+      <Filter>nss\lib\util</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\util\nssilock.c">
+      <Filter>nss\lib\util</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\util\nssrwlk.h">
+      <Filter>nss\lib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\util\nssb64.h">
+      <Filter>nss\lib\util</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\util\nssb64d.c">
+      <Filter>nss\lib\util</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\util\secoidt.h">
+      <Filter>nss\lib\util</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\util\secalgid.c">
+      <Filter>nss\lib\util</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\util\derenc.c">
+      <Filter>nss\lib\util</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\util\seccomon.h">
+      <Filter>nss\lib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\util\utilrename.h">
+      <Filter>nss\lib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\util\pkcs11u.h">
+      <Filter>nss\lib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\util\secport.h">
+      <Filter>nss\lib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\util\pkcs11p.h">
+      <Filter>nss\lib\util</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\util\dertime.c">
+      <Filter>nss\lib\util</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\util\nssrwlkt.h">
+      <Filter>nss\lib\util</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\util\secasn1u.c">
+      <Filter>nss\lib\util</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\util\secasn1e.c">
+      <Filter>nss\lib\util</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\util\utilmodt.h">
+      <Filter>nss\lib\util</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\util\nssrwlk.c">
+      <Filter>nss\lib\util</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\util\portreg.c">
+      <Filter>nss\lib\util</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\util\portreg.h">
+      <Filter>nss\lib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\util\pkcs11n.h">
+      <Filter>nss\lib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\ssl\sslerr.h">
+      <Filter>nss\lib\ssl</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\base\hashops.c">
+      <Filter>nss\lib\base</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\base\error.c">
+      <Filter>nss\lib\base</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\base\nssbase.h">
+      <Filter>nss\lib\base</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\base\list.c">
+      <Filter>nss\lib\base</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\base\hash.c">
+      <Filter>nss\lib\base</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\base\nssbaset.h">
+      <Filter>nss\lib\base</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\base\item.c">
+      <Filter>nss\lib\base</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\base\nssutf8.c">
+      <Filter>nss\lib\base</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\base\tracker.c">
+      <Filter>nss\lib\base</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\base\base.h">
+      <Filter>nss\lib\base</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\base\libc.c">
+      <Filter>nss\lib\base</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\base\arena.c">
+      <Filter>nss\lib\base</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\base\errorval.c">
+      <Filter>nss\lib\base</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\base\baset.h">
+      <Filter>nss\lib\base</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\include\pkix_pl_system.h">
+      <Filter>nss\lib\libpkix\include\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\include\pkix_sample_modules.h">
+      <Filter>nss\lib\libpkix\include\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\include\pkix_certstore.h">
+      <Filter>nss\lib\libpkix\include\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\include\pkix_pl_pki.h">
+      <Filter>nss\lib\libpkix\include\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\include\pkix_util.h">
+      <Filter>nss\lib\libpkix\include\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\include\pkix_checker.h">
+      <Filter>nss\lib\libpkix\include\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\include\pkix_params.h">
+      <Filter>nss\lib\libpkix\include\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\include\pkix_certsel.h">
+      <Filter>nss\lib\libpkix\include\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\include\pkix.h">
+      <Filter>nss\lib\libpkix\include\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\include\pkixt.h">
+      <Filter>nss\lib\libpkix\include\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\include\pkix_results.h">
+      <Filter>nss\lib\libpkix\include\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\include\pkix_crlsel.h">
+      <Filter>nss\lib\libpkix\include\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\include\pkix_revchecker.h">
+      <Filter>nss\lib\libpkix\include\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\include\pkix_errorstrings.h">
+      <Filter>nss\lib\libpkix\include\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\pkix\certsel\pkix_certselector.h">
+      <Filter>nss\lib\libpkix\pkix\certsel\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\libpkix\pkix\certsel\pkix_certselector.c">
+      <Filter>nss\lib\libpkix\pkix\certsel\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\libpkix\pkix\certsel\pkix_comcertselparams.c">
+      <Filter>nss\lib\libpkix\pkix\certsel\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\libpkix\pkix\certsel\pkix_comcertselparams.h">
+      <Filter>nss\lib\libpkix\pkix\certsel\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\pkix\top\pkix_lifecycle.h">
+      <Filter>nss\lib\libpkix\pkix\top\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\libpkix\pkix\top\pkix_build.c">
+      <Filter>nss\lib\libpkix\pkix\top\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\libpkix\pkix\top\pkix_build.h">
+      <Filter>nss\lib\libpkix\pkix\top\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\libpkix\pkix\top\pkix_validate.c">
+      <Filter>nss\lib\libpkix\pkix\top\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\libpkix\pkix\top\pkix_lifecycle.c">
+      <Filter>nss\lib\libpkix\pkix\top\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\libpkix\pkix\top\pkix_validate.h">
+      <Filter>nss\lib\libpkix\pkix\top\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\libpkix\pkix\results\pkix_buildresult.c">
+      <Filter>nss\lib\libpkix\pkix\results\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\libpkix\pkix\results\pkix_buildresult.h">
+      <Filter>nss\lib\libpkix\pkix\results\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\pkix\results\pkix_verifynode.h">
+      <Filter>nss\lib\libpkix\pkix\results\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\libpkix\pkix\results\pkix_verifynode.c">
+      <Filter>nss\lib\libpkix\pkix\results\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\libpkix\pkix\results\pkix_valresult.h">
+      <Filter>nss\lib\libpkix\pkix\results\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\libpkix\pkix\results\pkix_valresult.c">
+      <Filter>nss\lib\libpkix\pkix\results\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\libpkix\pkix\results\pkix_policynode.h">
+      <Filter>nss\lib\libpkix\pkix\results\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\libpkix\pkix\results\pkix_policynode.c">
+      <Filter>nss\lib\libpkix\pkix\results\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\libpkix\pkix\util\pkix_logger.h">
+      <Filter>nss\lib\libpkix\pkix\util\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\libpkix\pkix\util\pkix_logger.c">
+      <Filter>nss\lib\libpkix\pkix\util\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\libpkix\pkix\util\pkix_error.h">
+      <Filter>nss\lib\libpkix\pkix\util\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\libpkix\pkix\util\pkix_tools.c">
+      <Filter>nss\lib\libpkix\pkix\util\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\libpkix\pkix\util\pkix_list.c">
+      <Filter>nss\lib\libpkix\pkix\util\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\libpkix\pkix\util\pkix_list.h">
+      <Filter>nss\lib\libpkix\pkix\util\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\pkix\util\pkix_tools.h">
+      <Filter>nss\lib\libpkix\pkix\util\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\libpkix\pkix\util\pkix_errpaths.c">
+      <Filter>nss\lib\libpkix\pkix\util\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\libpkix\pkix\util\pkix_error.c">
+      <Filter>nss\lib\libpkix\pkix\util\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\libpkix\pkix\crlsel\pkix_comcrlselparams.h">
+      <Filter>nss\lib\libpkix\pkix\crlsel\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\libpkix\pkix\crlsel\pkix_comcrlselparams.c">
+      <Filter>nss\lib\libpkix\pkix\crlsel\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\libpkix\pkix\crlsel\pkix_crlselector.h">
+      <Filter>nss\lib\libpkix\pkix\crlsel\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\libpkix\pkix\crlsel\pkix_crlselector.c">
+      <Filter>nss\lib\libpkix\pkix\crlsel\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\libpkix\pkix\checker\pkix_ocspchecker.c">
+      <Filter>nss\lib\libpkix\pkix\checker\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\libpkix\pkix\checker\pkix_ocspchecker.h">
+      <Filter>nss\lib\libpkix\pkix\checker\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\pkix\checker\pkix_signaturechecker.h">
+      <Filter>nss\lib\libpkix\pkix\checker\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\pkix\checker\pkix_certchainchecker.h">
+      <Filter>nss\lib\libpkix\pkix\checker\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\libpkix\pkix\checker\pkix_basicconstraintschecker.c">
+      <Filter>nss\lib\libpkix\pkix\checker\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\libpkix\pkix\checker\pkix_policychecker.c">
+      <Filter>nss\lib\libpkix\pkix\checker\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\libpkix\pkix\checker\pkix_nameconstraintschecker.h">
+      <Filter>nss\lib\libpkix\pkix\checker\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\pkix\checker\pkix_policychecker.h">
+      <Filter>nss\lib\libpkix\pkix\checker\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\libpkix\pkix\checker\pkix_signaturechecker.c">
+      <Filter>nss\lib\libpkix\pkix\checker\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\libpkix\pkix\checker\pkix_certchainchecker.c">
+      <Filter>nss\lib\libpkix\pkix\checker\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\libpkix\pkix\checker\pkix_expirationchecker.h">
+      <Filter>nss\lib\libpkix\pkix\checker\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\pkix\checker\pkix_revocationchecker.h">
+      <Filter>nss\lib\libpkix\pkix\checker\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\libpkix\pkix\checker\pkix_revocationchecker.c">
+      <Filter>nss\lib\libpkix\pkix\checker\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\libpkix\pkix\checker\pkix_nameconstraintschecker.c">
+      <Filter>nss\lib\libpkix\pkix\checker\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\libpkix\pkix\checker\pkix_namechainingchecker.c">
+      <Filter>nss\lib\libpkix\pkix\checker\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\libpkix\pkix\checker\pkix_targetcertchecker.h">
+      <Filter>nss\lib\libpkix\pkix\checker\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\libpkix\pkix\checker\pkix_revocationmethod.c">
+      <Filter>nss\lib\libpkix\pkix\checker\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\libpkix\pkix\checker\pkix_ekuchecker.c">
+      <Filter>nss\lib\libpkix\pkix\checker\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\libpkix\pkix\checker\pkix_ekuchecker.h">
+      <Filter>nss\lib\libpkix\pkix\checker\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\pkix\checker\pkix_namechainingchecker.h">
+      <Filter>nss\lib\libpkix\pkix\checker\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\pkix\checker\pkix_revocationmethod.h">
+      <Filter>nss\lib\libpkix\pkix\checker\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\pkix\checker\pkix_basicconstraintschecker.h">
+      <Filter>nss\lib\libpkix\pkix\checker\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\libpkix\pkix\checker\pkix_expirationchecker.c">
+      <Filter>nss\lib\libpkix\pkix\checker\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\libpkix\pkix\checker\pkix_crlchecker.h">
+      <Filter>nss\lib\libpkix\pkix\checker\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\libpkix\pkix\checker\pkix_crlchecker.c">
+      <Filter>nss\lib\libpkix\pkix\checker\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\libpkix\pkix\checker\pkix_targetcertchecker.c">
+      <Filter>nss\lib\libpkix\pkix\checker\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\libpkix\pkix\params\pkix_resourcelimits.c">
+      <Filter>nss\lib\libpkix\pkix\params\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\libpkix\pkix\params\pkix_trustanchor.c">
+      <Filter>nss\lib\libpkix\pkix\params\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\libpkix\pkix\params\pkix_procparams.c">
+      <Filter>nss\lib\libpkix\pkix\params\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\libpkix\pkix\params\pkix_procparams.h">
+      <Filter>nss\lib\libpkix\pkix\params\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\pkix\params\pkix_valparams.h">
+      <Filter>nss\lib\libpkix\pkix\params\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\pkix\params\pkix_trustanchor.h">
+      <Filter>nss\lib\libpkix\pkix\params\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\pkix\params\pkix_resourcelimits.h">
+      <Filter>nss\lib\libpkix\pkix\params\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\libpkix\pkix\params\pkix_valparams.c">
+      <Filter>nss\lib\libpkix\pkix\params\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\libpkix\pkix\store\pkix_store.c">
+      <Filter>nss\lib\libpkix\pkix\store\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\libpkix\pkix\store\pkix_store.h">
+      <Filter>nss\lib\libpkix\pkix\store\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\libpkix\pkix_pl_nss\pki\pkix_pl_ocspresponse.c">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\pki\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\libpkix\pkix_pl_nss\pki\pkix_pl_ocspresponse.h">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\pki\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\pkix_pl_nss\pki\pkix_pl_cert.h">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\pki\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\libpkix\pkix_pl_nss\pki\pkix_pl_cert.c">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\pki\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\libpkix\pkix_pl_nss\pki\pkix_pl_crldp.h">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\pki\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\libpkix\pkix_pl_nss\pki\pkix_pl_crl.c">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\pki\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\libpkix\pkix_pl_nss\pki\pkix_pl_x500name.h">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\pki\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\pkix_pl_nss\pki\pkix_pl_ocspcertid.h">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\pki\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\libpkix\pkix_pl_nss\pki\pkix_pl_ocspcertid.c">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\pki\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\libpkix\pkix_pl_nss\pki\pkix_pl_generalname.c">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\pki\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\libpkix\pkix_pl_nss\pki\pkix_pl_crlentry.h">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\pki\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\libpkix\pkix_pl_nss\pki\pkix_pl_certpolicymap.c">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\pki\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\libpkix\pkix_pl_nss\pki\pkix_pl_basicconstraints.c">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\pki\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\libpkix\pkix_pl_nss\pki\pkix_pl_date.h">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\pki\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\libpkix\pkix_pl_nss\pki\pkix_pl_date.c">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\pki\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\libpkix\pkix_pl_nss\pki\pkix_pl_certpolicymap.h">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\pki\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\libpkix\pkix_pl_nss\pki\pkix_pl_publickey.c">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\pki\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\libpkix\pkix_pl_nss\pki\pkix_pl_publickey.h">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\pki\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\pkix_pl_nss\pki\pkix_pl_crl.h">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\pki\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\libpkix\pkix_pl_nss\pki\pkix_pl_x500name.c">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\pki\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\libpkix\pkix_pl_nss\pki\pkix_pl_generalname.h">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\pki\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\pkix_pl_nss\pki\pkix_pl_infoaccess.h">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\pki\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\libpkix\pkix_pl_nss\pki\pkix_pl_infoaccess.c">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\pki\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\libpkix\pkix_pl_nss\pki\pkix_pl_crldp.c">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\pki\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\libpkix\pkix_pl_nss\pki\pkix_pl_crlentry.c">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\pki\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\libpkix\pkix_pl_nss\pki\pkix_pl_ocsprequest.h">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\pki\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\libpkix\pkix_pl_nss\pki\pkix_pl_nameconstraints.c">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\pki\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\libpkix\pkix_pl_nss\pki\pkix_pl_nameconstraints.h">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\pki\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\pkix_pl_nss\pki\pkix_pl_basicconstraints.h">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\pki\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\pkix_pl_nss\pki\pkix_pl_certpolicyqualifier.h">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\pki\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\libpkix\pkix_pl_nss\pki\pkix_pl_certpolicyqualifier.c">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\pki\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\libpkix\pkix_pl_nss\pki\pkix_pl_certpolicyinfo.h">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\pki\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\libpkix\pkix_pl_nss\pki\pkix_pl_certpolicyinfo.c">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\pki\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\libpkix\pkix_pl_nss\pki\pkix_pl_ocsprequest.c">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\pki\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\libpkix\pkix_pl_nss\system\pkix_pl_mem.h">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\system\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\pkix_pl_nss\system\pkix_pl_object.h">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\system\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\libpkix\pkix_pl_nss\system\pkix_pl_oid.c">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\system\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\libpkix\pkix_pl_nss\system\pkix_pl_hashtable.h">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\system\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\pkix_pl_nss\system\pkix_pl_string.h">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\system\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\pkix_pl_nss\system\pkix_pl_oid.h">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\system\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\pkix_pl_nss\system\pkix_pl_bigint.h">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\system\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\libpkix\pkix_pl_nss\system\pkix_pl_bigint.c">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\system\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\libpkix\pkix_pl_nss\system\pkix_pl_monitorlock.h">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\system\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\libpkix\pkix_pl_nss\system\pkix_pl_bytearray.c">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\system\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\libpkix\pkix_pl_nss\system\pkix_pl_lifecycle.c">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\system\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\libpkix\pkix_pl_nss\system\pkix_pl_common.h">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\system\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\libpkix\pkix_pl_nss\system\pkix_pl_primhash.c">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\system\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\libpkix\pkix_pl_nss\system\pkix_pl_lifecycle.h">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\system\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\libpkix\pkix_pl_nss\system\pkix_pl_mem.c">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\system\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\libpkix\pkix_pl_nss\system\pkix_pl_mutex.h">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\system\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\pkix_pl_nss\system\pkix_pl_primhash.h">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\system\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\libpkix\pkix_pl_nss\system\pkix_pl_string.c">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\system\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\libpkix\pkix_pl_nss\system\pkix_pl_hashtable.c">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\system\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\libpkix\pkix_pl_nss\system\pkix_pl_rwlock.h">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\system\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\libpkix\pkix_pl_nss\system\pkix_pl_error.c">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\system\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\libpkix\pkix_pl_nss\system\pkix_pl_common.c">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\system\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\libpkix\pkix_pl_nss\system\pkix_pl_rwlock.c">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\system\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\libpkix\pkix_pl_nss\system\pkix_pl_monitorlock.c">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\system\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\libpkix\pkix_pl_nss\system\pkix_pl_bytearray.h">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\system\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\libpkix\pkix_pl_nss\system\pkix_pl_object.c">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\system\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\libpkix\pkix_pl_nss\system\pkix_pl_mutex.c">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\system\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\libpkix\pkix_pl_nss\module\pkix_pl_socket.h">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\module\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\pkix_pl_nss\module\pkix_pl_ldapt.h">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\module\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\pkix_pl_nss\module\pkix_pl_httpdefaultclient.h">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\module\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\pkix_pl_nss\module\pkix_pl_ldapdefaultclient.h">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\module\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\pkix_pl_nss\module\pkix_pl_ldapresponse.h">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\module\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\libpkix\pkix_pl_nss\module\pkix_pl_ldapdefaultclient.c">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\module\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\libpkix\pkix_pl_nss\module\pkix_pl_httpdefaultclient.c">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\module\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\libpkix\pkix_pl_nss\module\pkix_pl_nsscontext.c">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\module\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\libpkix\pkix_pl_nss\module\pkix_pl_nsscontext.h">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\module\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\pkix_pl_nss\module\pkix_pl_httpcertstore.h">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\module\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\libpkix\pkix_pl_nss\module\pkix_pl_socket.c">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\module\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\libpkix\pkix_pl_nss\module\pkix_pl_colcertstore.h">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\module\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\libpkix\pkix_pl_nss\module\pkix_pl_colcertstore.c">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\module\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\libpkix\pkix_pl_nss\module\pkix_pl_ldaptemplates.c">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\module\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\libpkix\pkix_pl_nss\module\pkix_pl_ldapcertstore.h">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\module\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\pkix_pl_nss\module\pkix_pl_ldaprequest.h">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\module\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\libpkix\pkix_pl_nss\module\pkix_pl_httpcertstore.c">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\module\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\libpkix\pkix_pl_nss\module\pkix_pl_ldaprequest.c">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\module\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\libpkix\pkix_pl_nss\module\pkix_pl_ldapcertstore.c">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\module\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\libpkix\pkix_pl_nss\module\pkix_pl_aiamgr.c">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\module\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\libpkix\pkix_pl_nss\module\pkix_pl_ldapresponse.c">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\module\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\libpkix\pkix_pl_nss\module\pkix_pl_aiamgr.h">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\module\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\libpkix\pkix_pl_nss\module\pkix_pl_pk11certstore.h">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\module\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\libpkix\pkix_pl_nss\module\pkix_pl_pk11certstore.c">
+      <Filter>nss\lib\libpkix\pkix_pl_nss\module\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\certdb\certdb.h">
+      <Filter>nss\lib\certdb</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\certdb\certt.h">
+      <Filter>nss\lib\certdb</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\certdb\certdb.c">
+      <Filter>nss\lib\certdb</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\certdb\genname.c">
+      <Filter>nss\lib\certdb</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\certdb\genname.h">
+      <Filter>nss\lib\certdb</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\certdb\crl.c">
+      <Filter>nss\lib\certdb</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\certdb\xauthkid.c">
+      <Filter>nss\lib\certdb</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\certdb\certi.h">
+      <Filter>nss\lib\certdb</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\certdb\certxutl.h">
+      <Filter>nss\lib\certdb</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\certdb\certxutl.c">
+      <Filter>nss\lib\certdb</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\certdb\alg1485.c">
+      <Filter>nss\lib\certdb</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\certdb\xbsconst.c">
+      <Filter>nss\lib\certdb</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\certdb\xconst.c">
+      <Filter>nss\lib\certdb</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\certdb\xconst.h">
+      <Filter>nss\lib\certdb</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\certdb\certv3.c">
+      <Filter>nss\lib\certdb</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\certdb\stanpcertdb.c">
+      <Filter>nss\lib\certdb</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\certdb\cert.h">
+      <Filter>nss\lib\certdb</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\certdb\secname.c">
+      <Filter>nss\lib\certdb</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\certdb\polcyxtn.c">
+      <Filter>nss\lib\certdb</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\cryptohi\dsautil.c">
+      <Filter>nss\lib\cryptohi</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\cryptohi\cryptoht.h">
+      <Filter>nss\lib\cryptohi</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\cryptohi\key.h">
+      <Filter>nss\lib\cryptohi</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\cryptohi\keyi.h">
+      <Filter>nss\lib\cryptohi</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\cryptohi\keyt.h">
+      <Filter>nss\lib\cryptohi</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\cryptohi\sechash.h">
+      <Filter>nss\lib\cryptohi</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\cryptohi\seckey.c">
+      <Filter>nss\lib\cryptohi</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\cryptohi\cryptohi.h">
+      <Filter>nss\lib\cryptohi</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\cryptohi\keyhi.h">
+      <Filter>nss\lib\cryptohi</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\cryptohi\secsign.c">
+      <Filter>nss\lib\cryptohi</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\cryptohi\secvfy.c">
+      <Filter>nss\lib\cryptohi</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\cryptohi\keythi.h">
+      <Filter>nss\lib\cryptohi</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\cryptohi\sechash.c">
+      <Filter>nss\lib\cryptohi</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\softoken\tlsprf.c">
+      <Filter>nss\lib\softoken</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\softoken\sftkdbti.h">
+      <Filter>nss\lib\softoken</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\softoken\lowpbe.h">
+      <Filter>nss\lib\softoken</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\softoken\lowpbe.c">
+      <Filter>nss\lib\softoken</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\softoken\sftkdbt.h">
+      <Filter>nss\lib\softoken</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\softoken\lowkeyti.h">
+      <Filter>nss\lib\softoken</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\softoken\pkcs11i.h">
+      <Filter>nss\lib\softoken</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\softoken\sdb.c">
+      <Filter>nss\lib\softoken</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\softoken\sdb.h">
+      <Filter>nss\lib\softoken</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\softoken\lowkey.c">
+      <Filter>nss\lib\softoken</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\softoken\sftkpars.h">
+      <Filter>nss\lib\softoken</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\softoken\softkver.c">
+      <Filter>nss\lib\softoken</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\softoken\softkver.h">
+      <Filter>nss\lib\softoken</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\softoken\sftkhmac.c">
+      <Filter>nss\lib\softoken</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\softoken\sftkpwd.c">
+      <Filter>nss\lib\softoken</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\softoken\softoken.h">
+      <Filter>nss\lib\softoken</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\softoken\pkcs11ni.h">
+      <Filter>nss\lib\softoken</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\softoken\softoknt.h">
+      <Filter>nss\lib\softoken</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\softoken\sftkpars.c">
+      <Filter>nss\lib\softoken</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\softoken\rsawrapr.c">
+      <Filter>nss\lib\softoken</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\softoken\pkcs11.c">
+      <Filter>nss\lib\softoken</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\softoken\lowkeyi.h">
+      <Filter>nss\lib\softoken</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\softoken\padbuf.c">
+      <Filter>nss\lib\softoken</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\softoken\fipstokn.c">
+      <Filter>nss\lib\softoken</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\softoken\lgglue.c">
+      <Filter>nss\lib\softoken</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\softoken\fipstest.c">
+      <Filter>nss\lib\softoken</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\softoken\lgglue.h">
+      <Filter>nss\lib\softoken</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\softoken\sftkdb.c">
+      <Filter>nss\lib\softoken</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\softoken\pkcs11u.c">
+      <Filter>nss\lib\softoken</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\softoken\sftkdb.h">
+      <Filter>nss\lib\softoken</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\softoken\fipsaudt.c">
+      <Filter>nss\lib\softoken</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\softoken\pkcs11c.c">
+      <Filter>nss\lib\softoken</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\softoken\ecdecode.c">
+      <Filter>nss\lib\softoken</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\softoken\jpakesftk.c">
+      <Filter>nss\lib\softoken</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\pkcs7\pkcs7t.h">
+      <Filter>nss\lib\pkcs7</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\pkcs7\secpkcs7.h">
+      <Filter>nss\lib\pkcs7</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\pkcs7\p7common.c">
+      <Filter>nss\lib\pkcs7</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\pkcs7\p7encode.c">
+      <Filter>nss\lib\pkcs7</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\pkcs7\certread.c">
+      <Filter>nss\lib\pkcs7</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\pkcs7\p7local.h">
+      <Filter>nss\lib\pkcs7</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\pkcs7\p7local.c">
+      <Filter>nss\lib\pkcs7</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\pkcs7\p7create.c">
+      <Filter>nss\lib\pkcs7</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\pkcs7\secmime.h">
+      <Filter>nss\lib\pkcs7</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\pkcs7\secmime.c">
+      <Filter>nss\lib\pkcs7</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\pkcs7\p7decode.c">
+      <Filter>nss\lib\pkcs7</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\freebl\des.h">
+      <Filter>nss\lib\freebl</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\freebl\rawhash.c">
+      <Filter>nss\lib\freebl</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\freebl\dh.c">
+      <Filter>nss\lib\freebl</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\freebl\seed.h">
+      <Filter>nss\lib\freebl</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\freebl\des.c">
+      <Filter>nss\lib\freebl</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\freebl\seed.c">
+      <Filter>nss\lib\freebl</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\freebl\blapii.h">
+      <Filter>nss\lib\freebl</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\freebl\alg2268.c">
+      <Filter>nss\lib\freebl</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\freebl\aeskeywrap.c">
+      <Filter>nss\lib\freebl</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\freebl\blapit.h">
+      <Filter>nss\lib\freebl</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\freebl\camellia.h">
+      <Filter>nss\lib\freebl</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\freebl\camellia.c">
+      <Filter>nss\lib\freebl</Filter>
+    </ClCompile>
+    <None Include="nss\lib\freebl\rijndael32.tab">
+      <Filter>nss\lib\freebl</Filter>
+    </None>
+    <ClCompile Include="nss\lib\freebl\shvfy.c">
+      <Filter>nss\lib\freebl</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\freebl\rsa.c">
+      <Filter>nss\lib\freebl</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\freebl\ctr.c">
+      <Filter>nss\lib\freebl</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\freebl\ctr.h">
+      <Filter>nss\lib\freebl</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\freebl\secmpi.h">
+      <Filter>nss\lib\freebl</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\freebl\md2.c">
+      <Filter>nss\lib\freebl</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\freebl\hmacct.h">
+      <Filter>nss\lib\freebl</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\freebl\cts.c">
+      <Filter>nss\lib\freebl</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\freebl\arcfour.c">
+      <Filter>nss\lib\freebl</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\freebl\cts.h">
+      <Filter>nss\lib\freebl</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\freebl\desblapi.c">
+      <Filter>nss\lib\freebl</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\freebl\sha_fast.h">
+      <Filter>nss\lib\freebl</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\freebl\sha_fast.c">
+      <Filter>nss\lib\freebl</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\freebl\md5.c">
+      <Filter>nss\lib\freebl</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\freebl\build_config_mac.h">
+      <Filter>nss\lib\freebl</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\freebl\drbg.c">
+      <Filter>nss\lib\freebl</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\freebl\blapi.h">
+      <Filter>nss\lib\freebl</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\freebl\sha256.h">
+      <Filter>nss\lib\freebl</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\freebl\tlsprfalg.c">
+      <Filter>nss\lib\freebl</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\freebl\dsa.c">
+      <Filter>nss\lib\freebl</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\freebl\arcfive.c">
+      <Filter>nss\lib\freebl</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\freebl\shsign.h">
+      <Filter>nss\lib\freebl</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\freebl\gcm.c">
+      <Filter>nss\lib\freebl</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\freebl\gcm.h">
+      <Filter>nss\lib\freebl</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\freebl\alghmac.c">
+      <Filter>nss\lib\freebl</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\freebl\alghmac.h">
+      <Filter>nss\lib\freebl</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\freebl\secrng.h">
+      <Filter>nss\lib\freebl</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\freebl\ec.h">
+      <Filter>nss\lib\freebl</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\freebl\pqg.c">
+      <Filter>nss\lib\freebl</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\freebl\pqg.h">
+      <Filter>nss\lib\freebl</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\freebl\ec.c">
+      <Filter>nss\lib\freebl</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\freebl\rijndael.h">
+      <Filter>nss\lib\freebl</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\freebl\jpake.c">
+      <Filter>nss\lib\freebl</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\freebl\rijndael.c">
+      <Filter>nss\lib\freebl</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\freebl\hmacct.c">
+      <Filter>nss\lib\freebl</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\freebl\sysrand.c">
+      <Filter>nss\lib\freebl</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\freebl\sha512.c">
+      <Filter>nss\lib\freebl</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\freebl\unix_rand.c">
+      <Filter>nss\lib\freebl\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\freebl\win_rand.c">
+      <Filter>nss\lib\freebl\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\freebl\ecl\ec2.h">
+      <Filter>nss\lib\freebl\ecl</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\freebl\ecl\ecp_jac.c">
+      <Filter>nss\lib\freebl\ecl</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\freebl\ecl\ecp_521.c">
+      <Filter>nss\lib\freebl\ecl</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\freebl\ecl\ecl_curve.c">
+      <Filter>nss\lib\freebl\ecl</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\freebl\ecl\ecp_384.c">
+      <Filter>nss\lib\freebl\ecl</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\freebl\ecl\ec_naf.c">
+      <Filter>nss\lib\freebl\ecl</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\freebl\ecl\ecp_256.c">
+      <Filter>nss\lib\freebl\ecl</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\freebl\ecl\ecp_jm.c">
+      <Filter>nss\lib\freebl\ecl</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\freebl\ecl\ecl.h">
+      <Filter>nss\lib\freebl\ecl</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\freebl\ecl\ecp_256_32.c">
+      <Filter>nss\lib\freebl\ecl</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\freebl\ecl\ecp.h">
+      <Filter>nss\lib\freebl\ecl</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\freebl\ecl\ecp_aff.c">
+      <Filter>nss\lib\freebl\ecl</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\freebl\ecl\ecp_mont.c">
+      <Filter>nss\lib\freebl\ecl</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\freebl\ecl\ecl_gf.c">
+      <Filter>nss\lib\freebl\ecl</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\freebl\ecl\ecl-curve.h">
+      <Filter>nss\lib\freebl\ecl</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\freebl\ecl\ecl.c">
+      <Filter>nss\lib\freebl\ecl</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\freebl\ecl\ecl-exp.h">
+      <Filter>nss\lib\freebl\ecl</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\freebl\ecl\ecl_mult.c">
+      <Filter>nss\lib\freebl\ecl</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\freebl\ecl\ecl-priv.h">
+      <Filter>nss\lib\freebl\ecl</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\freebl\mpi\mplogic.h">
+      <Filter>nss\lib\freebl\mpi</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\freebl\mpi\mpi.c">
+      <Filter>nss\lib\freebl\mpi</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\freebl\mpi\mpmontg.c">
+      <Filter>nss\lib\freebl\mpi</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\freebl\mpi\mp_gf2m.c">
+      <Filter>nss\lib\freebl\mpi</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\freebl\mpi\mp_gf2m.h">
+      <Filter>nss\lib\freebl\mpi</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\freebl\mpi\mplogic.c">
+      <Filter>nss\lib\freebl\mpi</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\freebl\mpi\mpprime.c">
+      <Filter>nss\lib\freebl\mpi</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\freebl\mpi\mpprime.h">
+      <Filter>nss\lib\freebl\mpi</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\freebl\mpi\mpi_x86_asm.c">
+      <Filter>nss\lib\freebl\mpi</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\freebl\mpi\logtab.h">
+      <Filter>nss\lib\freebl\mpi</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\freebl\mpi\mp_gf2m-priv.h">
+      <Filter>nss\lib\freebl\mpi</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\freebl\mpi\mpcpucache.c">
+      <Filter>nss\lib\freebl\mpi</Filter>
+    </ClCompile>
+    <ClInclude Include="nss\lib\freebl\mpi\mpi-priv.h">
+      <Filter>nss\lib\freebl\mpi</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\freebl\mpi\mpi.h">
+      <Filter>nss\lib\freebl\mpi</Filter>
+    </ClInclude>
+    <ClInclude Include="nss\lib\freebl\mpi\mpi-config.h">
+      <Filter>nss\lib\freebl\mpi</Filter>
+    </ClInclude>
+    <ClCompile Include="nss\lib\freebl\mpi\primes.c">
+      <Filter>nss\lib\freebl\mpi\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\freebl\mpi\mpi_amd64.c">
+      <Filter>nss\lib\freebl\mpi\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\freebl\mpi\mpi_arm.c">
+      <Filter>nss\lib\freebl\mpi\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="nss\lib\freebl\mpi\mpi_arm_mac.c">
+      <Filter>nss\lib\freebl\mpi\_excluded_files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
