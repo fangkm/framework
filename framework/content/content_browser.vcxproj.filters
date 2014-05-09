@@ -40,9 +40,6 @@
     <ClInclude Include="public\browser\resource_dispatcher_host_login_delegate.h">
       <Filter>public\browser</Filter>
     </ClInclude>
-    <ClInclude Include="public\browser\content_browser_client.h">
-      <Filter>public\browser</Filter>
-    </ClInclude>
     <ClInclude Include="public\browser\notification_registrar.h">
       <Filter>public\browser</Filter>
     </ClInclude>
@@ -115,9 +112,6 @@
     <ClInclude Include="public\browser\notification_observer.h">
       <Filter>public\browser</Filter>
     </ClInclude>
-    <ClCompile Include="public\browser\content_browser_client.cc">
-      <Filter>public\browser</Filter>
-    </ClCompile>
     <ClInclude Include="public\browser\notification_service.h">
       <Filter>public\browser</Filter>
     </ClInclude>
@@ -400,5 +394,15 @@
     <ClInclude Include="browser\aura\image_transport_factory.h">
       <Filter>browser\aura</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="public\browser\content_main_client.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="public\browser\content_main_client.cc">
+      <Filter>public\browser</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

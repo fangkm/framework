@@ -9,7 +9,7 @@
 #include "content/public/common/content_switches.h"
 #include "ui/base/resource/resource_bundle.h"
 #include "ui/base/ui_base_paths.h"
-#include "director/main/director_content_browser_client.h"
+#include "director/main/director_content_main_client.h"
 
 namespace director {
 
@@ -49,10 +49,10 @@ void DirectorMainDelegate::PreSandboxStartup() {
   InitializeResourceBundle();
 }
 
-content::ContentBrowserClient*
+content::ContentMainClient*
     DirectorMainDelegate::CreateContentBrowserClient() {
-  browser_client_.reset(new DirectorContentBrowserClient);
-  return browser_client_.get();
+  main_client_.reset(new DirectorContentMainClient);
+  return main_client_.get();
 }
 
 void DirectorMainDelegate::InitializeResourceBundle() {

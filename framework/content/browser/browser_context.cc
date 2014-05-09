@@ -14,7 +14,7 @@
 #include "content/browser/storage_partition_impl_map.h"
 #include "content/common/child_process_host_impl.h"
 #include "content/public/browser/browser_thread.h"
-#include "content/public/browser/content_browser_client.h"
+#include "content/public/browser/content_main_client.h"
 #include "content/public/browser/site_instance.h"
 #include "net/cookies/cookie_monster.h"
 #include "net/cookies/cookie_store.h"

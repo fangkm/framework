@@ -6,11 +6,11 @@
 
 namespace content {
 
-int BrowserMainParts::PreCreateThreads() {
+int MainParts::PreCreateThreads() {
   return 0;
 }
 
-bool BrowserMainParts::MainMessageLoopRun(int* result_code) {
+bool MainParts::MainMessageLoopRun(int* result_code) {
   return false;
 }
 

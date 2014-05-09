@@ -1077,10 +1077,6 @@
       <Project>{2782280E-94F0-0E5D-B8B5-EB1E92EC7837}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="..\third_party\ffmpeg\ffmpeg.vcxproj">
-      <Project>{D7A94F58-576A-45D9-A45F-EB87C63ABBB0}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
     <ProjectReference Include="media_asm.vcxproj">
       <Project>{95a6b478-a45f-31b3-e8d9-063151204f45}</Project>
     </ProjectReference>

@@ -8,7 +8,7 @@
 #include "base/logging.h"
 #include "content/browser/site_instance_impl.h"
 #include "content/public/browser/browser_context.h"
-#include "content/public/browser/content_browser_client.h"
+#include "content/public/browser/content_main_client.h"
 #include "content/public/common/content_switches.h"
 #include "content/public/common/url_constants.h"
 

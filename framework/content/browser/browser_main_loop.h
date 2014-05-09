@@ -29,7 +29,7 @@ class NetworkChangeNotifier;
 }  // namespace net
 
 namespace content {
-class BrowserMainParts;
+class MainParts;
 class BrowserShutdownImpl;
 class BrowserThreadImpl;
 class StartupTaskRunner;
@@ -120,7 +120,7 @@ class CONTENT_EXPORT BrowserMainLoop {
 
   // Destroy parts_ before main_message_loop_ (required) and before other
   // classes constructed in content (but after main_thread_).
-  scoped_ptr<BrowserMainParts> parts_;
+  scoped_ptr<MainParts> parts_;
 
   // Members initialized in |InitializeMainThread()| ---------------------------
   // This must get destroyed before other threads that are created in parts_.

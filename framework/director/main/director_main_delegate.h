@@ -11,7 +11,7 @@
 
 namespace director {
 
-class DirectorContentBrowserClient;
+class DirectorContentMainClient;
 
 class DirectorMainDelegate : public content::ContentMainDelegate {
  public:
@@ -21,12 +21,12 @@ class DirectorMainDelegate : public content::ContentMainDelegate {
   // content::ContentMainDelegate implementation
   virtual bool BasicStartupComplete(int* exit_code) OVERRIDE;
   virtual void PreSandboxStartup() OVERRIDE;
-  virtual content::ContentBrowserClient* CreateContentBrowserClient() OVERRIDE;
+  virtual content::ContentMainClient* CreateContentBrowserClient() OVERRIDE;
 
  private:
   void InitializeResourceBundle();
 
-  scoped_ptr<DirectorContentBrowserClient> browser_client_;
+  scoped_ptr<DirectorContentMainClient> main_client_;
   content::ContentClient content_client_;
 
   DISALLOW_COPY_AND_ASSIGN(DirectorMainDelegate);

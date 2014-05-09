@@ -22,6 +22,7 @@
     <ProjectGuid>{F1E62465-70CA-1E73-EA7F-7CB8EE531238}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>content_browser</RootNamespace>
+    <ProjectName>content_main</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Label="Configuration">
@@ -295,7 +296,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClInclude>
-    <ClInclude Include="public\browser\content_browser_client.h" />
+    <ClInclude Include="public\browser\content_main_client.h" />
     <ClInclude Include="public\browser\notification_registrar.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
@@ -502,7 +503,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="public\browser\content_browser_client.cc" />
+    <ClCompile Include="public\browser\content_main_client.cc" />
     <ClCompile Include="public\browser\browser_child_process_observer.cc" />
     <ClCompile Include="public\browser\notification_registrar.cc">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>

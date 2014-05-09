@@ -30,7 +30,7 @@
 #include "content/browser/gpu/gpu_process_host.h"
 #include "content/public/browser/browser_main_parts.h"
 #include "content/public/browser/browser_shutdown.h"
-#include "content/public/browser/content_browser_client.h"
+#include "content/public/browser/content_main_client.h"
 #include "content/public/common/content_switches.h"
 #include "content/public/common/main_function_params.h"
 #include "content/public/common/result_codes.h"

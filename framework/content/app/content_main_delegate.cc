@@ -4,7 +4,7 @@
 
 #include "content/app/content_main_delegate.h"
 
-#include "content/public/browser/content_browser_client.h"
+#include "content/public/browser/content_main_client.h"
 
 namespace content {
 
@@ -42,11 +42,11 @@ ZygoteForkDelegate* ContentMainDelegate::ZygoteStarting() {
 
 #endif
 
-ContentBrowserClient* ContentMainDelegate::CreateContentBrowserClient() {
+ContentMainClient* ContentMainDelegate::CreateContentBrowserClient() {
 #if defined(CHROME_MULTIPLE_DLL_CHILD)
   return NULL;
 #else
-  return new ContentBrowserClient();
+  return new ContentMainClient();
 #endif
 }
 

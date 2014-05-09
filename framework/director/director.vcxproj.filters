@@ -24,10 +24,10 @@
     <ClCompile Include="main\director_main_delegate.cc">
       <Filter>main</Filter>
     </ClCompile>
-    <ClCompile Include="main\director_content_browser_client.cc">
+    <ClCompile Include="main\director_main_parts.cc">
       <Filter>main</Filter>
     </ClCompile>
-    <ClCompile Include="main\director_browser_main_parts.cc">
+    <ClCompile Include="main\director_content_main_client.cc">
       <Filter>main</Filter>
     </ClCompile>
   </ItemGroup>
@@ -35,10 +35,10 @@
     <ClInclude Include="main\director_main_delegate.h">
       <Filter>main</Filter>
     </ClInclude>
-    <ClInclude Include="main\director_content_browser_client.h">
+    <ClInclude Include="main\director_main_parts.h">
       <Filter>main</Filter>
     </ClInclude>
-    <ClInclude Include="main\director_browser_main_parts.h">
+    <ClInclude Include="main\director_content_main_client.h">
       <Filter>main</Filter>
     </ClInclude>
   </ItemGroup>

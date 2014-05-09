@@ -11,7 +11,7 @@
 namespace content {
 
 // This class contains different "stages" to be executed by |BrowserMain()|,
-// Each stage is represented by a single BrowserMainParts method, called from
+// Each stage is represented by a single MainParts method, called from
 // the corresponding method in |BrowserMainLoop| (e.g., EarlyInitialization())
 // which does the following:
 //  - calls a method (e.g., "PreEarlyInitialization()") which implements
@@ -47,10 +47,10 @@ namespace content {
 //    existing chunk which makes it longer than one or two lines, please move
 //    the code out into a separate method.)
 //
-class CONTENT_EXPORT BrowserMainParts {
+class CONTENT_EXPORT MainParts {
  public:
-  BrowserMainParts() {}
-  virtual ~BrowserMainParts() {}
+  MainParts() {}
+  virtual ~MainParts() {}
 
   virtual void PreEarlyInitialization() {}
 

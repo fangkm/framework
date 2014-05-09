@@ -40,7 +40,7 @@ class TargetPolicy;
 
 namespace content {
 
-class ContentBrowserClient;
+class ContentMainClient;
 class ContentClient;
 class ContentPluginClient;
 class ContentRendererClient;
@@ -58,8 +58,8 @@ ContentClient* GetContentClient();
 
 // Used for tests to override the relevant embedder interfaces. Each method
 // returns the old value.
-CONTENT_EXPORT ContentBrowserClient* SetBrowserClientForTesting(
-    ContentBrowserClient* b);
+CONTENT_EXPORT ContentMainClient* SetBrowserClientForTesting(
+    ContentMainClient* b);
 CONTENT_EXPORT ContentRendererClient* SetRendererClientForTesting(
     ContentRendererClient* r);
 CONTENT_EXPORT ContentUtilityClient* SetUtilityClientForTesting(
@@ -81,7 +81,7 @@ class CONTENT_EXPORT ContentClient {
   ContentClient();
   virtual ~ContentClient();
 
-  ContentBrowserClient* browser() { return browser_; }
+  ContentMainClient* browser() { return browser_; }
 
   // Sets the currently active URL.  Use GURL() to clear the URL.
   virtual void SetActiveURL(const GURL& url) {}
@@ -148,7 +148,7 @@ class CONTENT_EXPORT ContentClient {
   friend class InternalTestInitializer;
 
   // The embedder API for participating in browser logic.
-  ContentBrowserClient* browser_;
+  ContentMainClient* browser_;
 };
 
 }  // namespace content

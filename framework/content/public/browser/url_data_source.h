@@ -104,7 +104,7 @@ class CONTENT_EXPORT URLDataSource {
   // By default, only chrome: and chrome-devtools: requests are allowed.
   // Override in specific WebUI data sources to enable for additional schemes or
   // to implement fancier access control.  Typically used in concert with
-  // ContentBrowserClient::GetAdditionalWebUISchemes() to permit additional
+  // ContentMainClient::GetAdditionalWebUISchemes() to permit additional
   // WebUI scheme support for an embedder.
   virtual bool ShouldServiceRequest(const net::URLRequest* request) const;
 

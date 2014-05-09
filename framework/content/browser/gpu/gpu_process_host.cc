@@ -22,7 +22,7 @@
 #include "content/common/child_process_host_impl.h"
 #include "content/common/gpu/gpu_messages.h"
 #include "content/public/browser/browser_thread.h"
-#include "content/public/browser/content_browser_client.h"
+#include "content/public/browser/content_main_client.h"
 #include "content/public/common/content_client.h"
 #include "content/public/common/content_switches.h"
 #include "content/public/common/result_codes.h"

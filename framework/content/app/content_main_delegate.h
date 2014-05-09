@@ -12,7 +12,7 @@
 
 namespace content {
 
-class ContentBrowserClient;
+class ContentMainClient;
 struct MainFunctionParams;
 
 class CONTENT_EXPORT ContentMainDelegate {
@@ -48,7 +48,7 @@ class CONTENT_EXPORT ContentMainDelegate {
   // Called once per relevant process type to allow the embedder to customize
   // content. If an embedder wants the default (empty) implementation, don't
   // override this.
-  virtual ContentBrowserClient* CreateContentBrowserClient();
+  virtual ContentMainClient* CreateContentBrowserClient();
 };
 
 }  // namespace content

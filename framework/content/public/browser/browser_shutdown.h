@@ -14,15 +14,15 @@ namespace content {
 // data as possible before our time runs out.
 //
 // This causes the shutdown sequence embodied by
-// BrowserMainParts::PostMainMessageLoopRun through
-// BrowserMainParts::PostDestroyThreads to occur, i.e. we pretend the
+// MainParts::PostMainMessageLoopRun through
+// MainParts::PostDestroyThreads to occur, i.e. we pretend the
 // message loop finished, all threads are stopped in sequence and then
 // PostDestroyThreads is called.
 //
 // As this violates the normal order of shutdown, likely leaving the
 // process in a bad state, the last thing this function does is
 // terminate the process (right after calling
-// BrowserMainParts::PostDestroyThreads).
+// MainParts::PostDestroyThreads).
 CONTENT_EXPORT void ImmediateShutdownAndExitProcess();
 
 }  // namespace content

@@ -14,8 +14,8 @@ static ContentClient* g_client;
 
 class InternalTestInitializer {
  public:
-  static ContentBrowserClient* SetBrowser(ContentBrowserClient* b) {
-    ContentBrowserClient* rv = g_client->browser_;
+  static ContentMainClient* SetBrowser(ContentMainClient* b) {
+    ContentMainClient* rv = g_client->browser_;
     g_client->browser_ = b;
     return rv;
   }
@@ -30,7 +30,7 @@ ContentClient* GetContentClient() {
   return g_client;
 }
 
-ContentBrowserClient* SetBrowserClientForTesting(ContentBrowserClient* b) {
+ContentMainClient* SetBrowserClientForTesting(ContentMainClient* b) {
   return InternalTestInitializer::SetBrowser(b);
 }
 

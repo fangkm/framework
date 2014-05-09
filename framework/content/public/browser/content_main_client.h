@@ -64,14 +64,14 @@ struct ShowDesktopNotificationHostMsgParams;
 // (Often, the call out to the client can happen in a different part of the code
 // that either already has a hook out to the embedder, or calls out to one of
 // the observer interfaces.)
-class CONTENT_EXPORT ContentBrowserClient {
+class CONTENT_EXPORT ContentMainClient {
  public:
-  virtual ~ContentBrowserClient() {}
+  virtual ~ContentMainClient() {}
 
-  // Allows the embedder to set any number of custom BrowserMainParts
+  // Allows the embedder to set any number of custom MainParts
   // implementations for the browser startup code. See comments in
   // browser_main_parts.h.
-  virtual BrowserMainParts* CreateBrowserMainParts(
+  virtual MainParts* CreateBrowserMainParts(
       const MainFunctionParams& parameters);
 
   // Notifies that a BrowserChildProcessHost has been created.

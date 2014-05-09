@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "content/public/browser/content_browser_client.h"
+#include "content/public/browser/content_main_client.h"
 
 #include "base/files/file_path.h"
 #include "ui/gfx/image/image_skia.h"
@@ -10,20 +10,20 @@
 
 namespace content {
 
-BrowserMainParts* ContentBrowserClient::CreateBrowserMainParts(
+MainParts* ContentMainClient::CreateBrowserMainParts(
     const MainFunctionParams& parameters) {
   return NULL;
 }
 
-std::string ContentBrowserClient::GetApplicationLocale() {
+std::string ContentMainClient::GetApplicationLocale() {
   return "en-US";
 }
 
-std::string ContentBrowserClient::GetAcceptLangs(BrowserContext* context) {
+std::string ContentMainClient::GetAcceptLangs(BrowserContext* context) {
   return std::string();
 }
 
-gfx::ImageSkia* ContentBrowserClient::GetDefaultFavicon() {
+gfx::ImageSkia* ContentMainClient::GetDefaultFavicon() {
   static gfx::ImageSkia* empty = new gfx::ImageSkia();
   return empty;
 }

@@ -15,13 +15,13 @@ class ViewsDelegate;
 
 namespace director {
 
-class DirectorBrowserMainParts : public content::BrowserMainParts {
+class DirectorMainParts : public content::MainParts {
  public:
-  explicit DirectorBrowserMainParts(
+  explicit DirectorMainParts(
       const content::MainFunctionParams& parameters);
-  virtual ~DirectorBrowserMainParts();
+  virtual ~DirectorMainParts();
 
-  // Overridden from content::BrowserMainParts:
+  // Overridden from content::MainParts:
   virtual void PreMainMessageLoopRun() OVERRIDE;
   virtual bool MainMessageLoopRun(int* result_code) OVERRIDE;
   virtual void PostMainMessageLoopRun() OVERRIDE;
@@ -29,7 +29,7 @@ class DirectorBrowserMainParts : public content::BrowserMainParts {
  private:
   scoped_ptr<views::ViewsDelegate> views_delegate_;
 
-  DISALLOW_COPY_AND_ASSIGN(DirectorBrowserMainParts);
+  DISALLOW_COPY_AND_ASSIGN(DirectorMainParts);
 };
 
 }  // namespace director

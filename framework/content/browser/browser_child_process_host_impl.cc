@@ -20,7 +20,7 @@
 #include "content/public/browser/browser_child_process_observer.h"
 #include "content/public/browser/browser_thread.h"
 #include "content/public/browser/child_process_data.h"
-#include "content/public/browser/content_browser_client.h"
+#include "content/public/browser/content_main_client.h"
 #include "content/public/common/content_switches.h"
 #include "content/public/common/process_type.h"
 #include "content/public/common/result_codes.h"

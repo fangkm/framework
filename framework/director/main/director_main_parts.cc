@@ -1,4 +1,4 @@
-#include "director/main/director_browser_main_parts.h"
+#include "director/main/director_main_parts.h"
 
 #include "base/bind.h"
 #include "base/command_line.h"
@@ -21,14 +21,14 @@
 
 namespace director {
 
-DirectorBrowserMainParts::DirectorBrowserMainParts(
+DirectorMainParts::DirectorMainParts(
     const content::MainFunctionParams& parameters) {
 }
 
-DirectorBrowserMainParts::~DirectorBrowserMainParts() {
+DirectorMainParts::~DirectorMainParts() {
 }
 
-void DirectorBrowserMainParts::PreMainMessageLoopRun() {
+void DirectorMainParts::PreMainMessageLoopRun() {
   //browser_context_.reset(new content::BrowserContext(false, NULL));
 
 //#if !defined(OS_CHROMEOS) && defined(USE_AURA)
@@ -40,14 +40,14 @@ void DirectorBrowserMainParts::PreMainMessageLoopRun() {
   //ShowExamplesWindowWithContent(QUIT_ON_CLOSE, NULL);
 }
 
-void DirectorBrowserMainParts::PostMainMessageLoopRun() {
+void DirectorMainParts::PostMainMessageLoopRun() {
   views_delegate_.reset();
 #if defined(USE_AURA)
   aura::Env::DeleteInstance();
 #endif
 }
 
-bool DirectorBrowserMainParts::MainMessageLoopRun(int* result_code) {
+bool DirectorMainParts::MainMessageLoopRun(int* result_code) {
 #if !defined(USE_AURA)
   AcceleratorHandler accelerator_handler;
   base::RunLoop run_loop(&accelerator_handler);
