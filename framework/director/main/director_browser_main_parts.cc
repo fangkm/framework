@@ -1,8 +1,4 @@
-// Copyright (c) 2012 The Chromium Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
-
-#include "ui/views/examples/content_client/examples_browser_main_parts.h"
+#include "director/main/director_browser_main_parts.h"
 
 #include "base/bind.h"
 #include "base/command_line.h"
@@ -12,7 +8,6 @@
 #include "base/threading/thread.h"
 #include "base/threading/thread_restrictions.h"
 #include "content/public/common/content_switches.h"
-#include "ui/views/examples/examples_window_with_content.h"
 #include "ui/views/focus/accelerator_handler.h"
 #include "ui/views/test/desktop_test_views_delegate.h"
 #include "url/gurl.h"
@@ -24,37 +19,35 @@
 #include "ui/views/widget/native_widget_aura.h"
 #endif
 
-namespace views {
-namespace examples {
+namespace director {
 
-ExamplesBrowserMainParts::ExamplesBrowserMainParts(
+DirectorBrowserMainParts::DirectorBrowserMainParts(
     const content::MainFunctionParams& parameters) {
 }
 
-ExamplesBrowserMainParts::~ExamplesBrowserMainParts() {
+DirectorBrowserMainParts::~DirectorBrowserMainParts() {
 }
 
-void ExamplesBrowserMainParts::PreMainMessageLoopRun() {
+void DirectorBrowserMainParts::PreMainMessageLoopRun() {
   //browser_context_.reset(new content::BrowserContext(false, NULL));
 
-#if !defined(OS_CHROMEOS) && defined(USE_AURA)
-  gfx::Screen::SetScreenInstance(
-      gfx::SCREEN_TYPE_NATIVE, CreateDesktopScreen());
-#endif
-  views_delegate_.reset(new DesktopTestViewsDelegate);
+//#if !defined(OS_CHROMEOS) && defined(USE_AURA)
+//  gfx::Screen::SetScreenInstance(
+//      gfx::SCREEN_TYPE_NATIVE, CreateDesktopScreen());
+//#endif
+  //views_delegate_.reset(new views::DesktopTestViewsDelegate);
 
-  ShowExamplesWindowWithContent(QUIT_ON_CLOSE, NULL);
+  //ShowExamplesWindowWithContent(QUIT_ON_CLOSE, NULL);
 }
 
-void ExamplesBrowserMainParts::PostMainMessageLoopRun() {
+void DirectorBrowserMainParts::PostMainMessageLoopRun() {
   views_delegate_.reset();
 #if defined(USE_AURA)
   aura::Env::DeleteInstance();
 #endif
 }
 
-bool ExamplesBrowserMainParts::MainMessageLoopRun(int* result_code) {
-  // xxx: Hax here because this kills event handling.
+bool DirectorBrowserMainParts::MainMessageLoopRun(int* result_code) {
 #if !defined(USE_AURA)
   AcceleratorHandler accelerator_handler;
   base::RunLoop run_loop(&accelerator_handler);
@@ -65,5 +58,4 @@ bool ExamplesBrowserMainParts::MainMessageLoopRun(int* result_code) {
   return true;
 }
 
-}  // namespace examples
-}  // namespace views
+}  // namespace director

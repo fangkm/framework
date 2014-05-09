@@ -1,26 +1,20 @@
-// Copyright (c) 2012 The Chromium Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
+#include "director/main/director_content_browser_client.h"
 
-#include "ui/views/examples/content_client/examples_content_browser_client.h"
+#include "director/main/director_browser_main_parts.h"
 
-#include "ui/views/examples/content_client/examples_browser_main_parts.h"
+namespace director {
 
-namespace views {
-namespace examples {
-
-ExamplesContentBrowserClient::ExamplesContentBrowserClient()
+DirectorContentBrowserClient::DirectorContentBrowserClient()
     : examples_browser_main_parts_(NULL) {
 }
 
-ExamplesContentBrowserClient::~ExamplesContentBrowserClient() {
+DirectorContentBrowserClient::~DirectorContentBrowserClient() {
 }
 
-content::BrowserMainParts* ExamplesContentBrowserClient::CreateBrowserMainParts(
+content::BrowserMainParts* DirectorContentBrowserClient::CreateBrowserMainParts(
     const content::MainFunctionParams& parameters) {
-  examples_browser_main_parts_ =  new ExamplesBrowserMainParts(parameters);
+  examples_browser_main_parts_ =  new DirectorBrowserMainParts(parameters);
   return examples_browser_main_parts_;
 }
 
-}  // namespace examples
-}  // namespace views
+}  // namespace director

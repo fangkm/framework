@@ -1,9 +1,5 @@
-// Copyright (c) 2012 The Chromium Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
-
-#ifndef UI_VIEWS_EXAMPLES_CONTENT_CLIENT_EXAMPLES_BROWSER_MAIN_PARTS_H_
-#define UI_VIEWS_EXAMPLES_CONTENT_CLIENT_EXAMPLES_BROWSER_MAIN_PARTS_H_
+#ifndef _DIRECTOR_BROWSER_MAIN_PARTS_8CB2C2FD_6F8A_4396_9D9F_7415FDFE68B2_
+#define _DIRECTOR_BROWSER_MAIN_PARTS_8CB2C2FD_6F8A_4396_9D9F_7415FDFE68B2_
 
 #include "base/basictypes.h"
 #include "base/memory/scoped_ptr.h"
@@ -15,14 +11,15 @@ struct MainFunctionParams;
 
 namespace views {
 class ViewsDelegate;
+}
 
-namespace examples {
+namespace director {
 
-class ExamplesBrowserMainParts : public content::BrowserMainParts {
+class DirectorBrowserMainParts : public content::BrowserMainParts {
  public:
-  explicit ExamplesBrowserMainParts(
+  explicit DirectorBrowserMainParts(
       const content::MainFunctionParams& parameters);
-  virtual ~ExamplesBrowserMainParts();
+  virtual ~DirectorBrowserMainParts();
 
   // Overridden from content::BrowserMainParts:
   virtual void PreMainMessageLoopRun() OVERRIDE;
@@ -30,12 +27,11 @@ class ExamplesBrowserMainParts : public content::BrowserMainParts {
   virtual void PostMainMessageLoopRun() OVERRIDE;
 
  private:
-  scoped_ptr<ViewsDelegate> views_delegate_;
+  scoped_ptr<views::ViewsDelegate> views_delegate_;
 
-  DISALLOW_COPY_AND_ASSIGN(ExamplesBrowserMainParts);
+  DISALLOW_COPY_AND_ASSIGN(DirectorBrowserMainParts);
 };
 
-}  // namespace examples
-}  // namespace views
+}  // namespace director
 
-#endif  // UI_VIEWS_EXAMPLES_CONTENT_CLIENT_EXAMPLES_BROWSER_MAIN_PARTS_H_
+#endif  // _DIRECTOR_BROWSER_MAIN_PARTS_8CB2C2FD_6F8A_4396_9D9F_7415FDFE68B2_

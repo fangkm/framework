@@ -1,9 +1,5 @@
-// Copyright (c) 2012 The Chromium Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
-
-#ifndef UI_VIEWS_EXAMPLES_CONTENT_CLIENT_EXAMPLES_MAIN_DELEGATE_H_
-#define UI_VIEWS_EXAMPLES_CONTENT_CLIENT_EXAMPLES_MAIN_DELEGATE_H_
+#ifndef _DIRECTOR_MAIN_DELEGATE_22F6AB5B_BA8D_4752_9A7B_8B2630A01528_
+#define _DIRECTOR_MAIN_DELEGATE_22F6AB5B_BA8D_4752_9A7B_8B2630A01528_
 
 #include <string>
 
@@ -13,15 +9,14 @@
 #include "content/app/content_main_delegate.h"
 #include "content/public/common/content_client.h"
 
-namespace views {
-namespace examples {
+namespace director {
 
-class ExamplesContentBrowserClient;
+class DirectorContentBrowserClient;
 
-class ExamplesMainDelegate : public content::ContentMainDelegate {
+class DirectorMainDelegate : public content::ContentMainDelegate {
  public:
-  ExamplesMainDelegate();
-  virtual ~ExamplesMainDelegate();
+  DirectorMainDelegate();
+  virtual ~DirectorMainDelegate();
 
   // content::ContentMainDelegate implementation
   virtual bool BasicStartupComplete(int* exit_code) OVERRIDE;
@@ -31,13 +26,12 @@ class ExamplesMainDelegate : public content::ContentMainDelegate {
  private:
   void InitializeResourceBundle();
 
-  scoped_ptr<ExamplesContentBrowserClient> browser_client_;
+  scoped_ptr<DirectorContentBrowserClient> browser_client_;
   content::ContentClient content_client_;
 
-  DISALLOW_COPY_AND_ASSIGN(ExamplesMainDelegate);
+  DISALLOW_COPY_AND_ASSIGN(DirectorMainDelegate);
 };
 
-}  // namespace examples
-}  // namespace views
+}  // namespace director
 
-#endif  // UI_VIEWS_EXAMPLES_CONTENT_CLIENT_EXAMPLES_MAIN_DELEGATE_H_
+#endif  // _DIRECTOR_MAIN_DELEGATE_22F6AB5B_BA8D_4752_9A7B_8B2630A01528_
