@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="compiler">
+      <UniqueIdentifier>{041FFD28-E4BD-ABC0-5AF7-A6D1560FAC0E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="build_angle.gyp"/>
+    <ClCompile Include="compiler\ShaderLang.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\UnfoldShortCircuit.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\CodeGenHLSL.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\OutputHLSL.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClInclude Include="compiler\TranslatorHLSL.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\UnfoldShortCircuit.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\OutputHLSL.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\DetectDiscontinuity.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\SearchSymbol.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClCompile Include="compiler\DetectDiscontinuity.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\TranslatorHLSL.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\SearchSymbol.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\compiler">
+      <UniqueIdentifier>{041FFD28-E4BD-ABC0-5AF7-A6D1560FAC0E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="compiler">
+      <UniqueIdentifier>{041FFD28-E4BD-ABC0-5AF7-A6D1560FAC0E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="compiler\timing">
+      <UniqueIdentifier>{E1BE6BE7-5019-57F8-5C7D-26FC8CE74904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="compiler\depgraph">
+      <UniqueIdentifier>{233BE2B2-4E73-B3F0-20B8-25A55D8E5238}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="build_angle.gyp"/>
+    <ClInclude Include="third_party\compiler\ArrayBoundsClamper.h">
+      <Filter>third_party\compiler</Filter>
+    </ClInclude>
+    <ClCompile Include="third_party\compiler\ArrayBoundsClamper.cpp">
+      <Filter>third_party\compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\MapLongVariableNames.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClInclude Include="compiler\DirectiveHandler.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClCompile Include="compiler\Compiler.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\util.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClInclude Include="compiler\Types.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClCompile Include="compiler\Intermediate.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\DirectiveHandler.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClInclude Include="compiler\RemoveTree.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\InitializeDll.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClCompile Include="compiler\Uniform.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\RemoveTree.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\debug.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClInclude Include="compiler\Uniform.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\glslang.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClCompile Include="compiler\DetectCallDepth.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClInclude Include="compiler\ShHandle.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\Common.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClCompile Include="compiler\VariablePacker.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClInclude Include="compiler\RenameFunction.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\InitializeGlobals.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClCompile Include="compiler\VariableInfo.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\InitializeParseContext.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClInclude Include="compiler\VariablePacker.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\glslang_tab.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClCompile Include="compiler\InfoSink.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClInclude Include="compiler\HashNames.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\ValidateLimitations.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\osinclude.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\BuiltInFunctionEmulator.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\BaseTypes.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\ConstantUnion.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\QualifierAlive.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\InfoSink.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClCompile Include="compiler\BuiltInFunctionEmulator.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\ParseHelper.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClInclude Include="compiler\MMap.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClCompile Include="compiler\PoolAlloc.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\ForLoopUnroll.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClInclude Include="compiler\MapLongVariableNames.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClCompile Include="compiler\parseConst.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClInclude Include="compiler\ForLoopUnroll.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\Diagnostics.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClCompile Include="compiler\IntermTraverse.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\Diagnostics.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClInclude Include="compiler\localintermediate.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClCompile Include="compiler\glslang_lex.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClInclude Include="compiler\ExtensionBehavior.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\InitializeParseContext.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\VariableInfo.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClCompile Include="compiler\InitializeDll.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClInclude Include="compiler\intermediate.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\ParseHelper.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\SymbolTable.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClCompile Include="compiler\QualifierAlive.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClInclude Include="compiler\PoolAlloc.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\Initialize.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClCompile Include="compiler\SymbolTable.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClInclude Include="compiler\util.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClCompile Include="compiler\ossource_win.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\ValidateLimitations.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\glslang_tab.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\Initialize.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClInclude Include="compiler\debug.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClCompile Include="compiler\intermOut.cpp">
+      <Filter>compiler</Filter>
+    </ClCompile>
+    <ClInclude Include="compiler\DetectCallDepth.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\timing\RestrictFragmentShaderTiming.h">
+      <Filter>compiler\timing</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\timing\RestrictVertexShaderTiming.h">
+      <Filter>compiler\timing</Filter>
+    </ClInclude>
+    <ClCompile Include="compiler\timing\RestrictVertexShaderTiming.cpp">
+      <Filter>compiler\timing</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\timing\RestrictFragmentShaderTiming.cpp">
+      <Filter>compiler\timing</Filter>
+    </ClCompile>
+    <ClInclude Include="compiler\depgraph\DependencyGraphOutput.h">
+      <Filter>compiler\depgraph</Filter>
+    </ClInclude>
+    <ClCompile Include="compiler\depgraph\DependencyGraphOutput.cpp">
+      <Filter>compiler\depgraph</Filter>
+    </ClCompile>
+    <ClInclude Include="compiler\depgraph\DependencyGraphBuilder.h">
+      <Filter>compiler\depgraph</Filter>
+    </ClInclude>
+    <ClCompile Include="compiler\depgraph\DependencyGraph.cpp">
+      <Filter>compiler\depgraph</Filter>
+    </ClCompile>
+    <ClInclude Include="compiler\depgraph\DependencyGraph.h">
+      <Filter>compiler\depgraph</Filter>
+    </ClInclude>
+    <ClCompile Include="compiler\depgraph\DependencyGraphBuilder.cpp">
+      <Filter>compiler\depgraph</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\depgraph\DependencyGraphTraverse.cpp">
+      <Filter>compiler\depgraph</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
