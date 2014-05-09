@@ -294,10 +294,6 @@
       <Project>{2782280E-94F0-0E5D-B8B5-EB1E92EC7837}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\..\v8\tools\gyp\v8.vcxproj">
-      <Project>{70B50377-4BC2-EC77-1107-68D3531133AD}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
   <ImportGroup Label="ExtensionTargets"/>
