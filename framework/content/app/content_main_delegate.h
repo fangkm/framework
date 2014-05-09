@@ -48,7 +48,7 @@ class CONTENT_EXPORT ContentMainDelegate {
   // Called once per relevant process type to allow the embedder to customize
   // content. If an embedder wants the default (empty) implementation, don't
   // override this.
-  virtual ContentMainClient* CreateContentBrowserClient();
+  virtual ContentMainClient* CreateContentMainClient();
 };
 
 }  // namespace content

@@ -42,7 +42,7 @@ ZygoteForkDelegate* ContentMainDelegate::ZygoteStarting() {
 
 #endif
 
-ContentMainClient* ContentMainDelegate::CreateContentBrowserClient() {
+ContentMainClient* ContentMainDelegate::CreateContentMainClient() {
 #if defined(CHROME_MULTIPLE_DLL_CHILD)
   return NULL;
 #else

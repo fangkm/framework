@@ -21,7 +21,7 @@ class DirectorMainDelegate : public content::ContentMainDelegate {
   // content::ContentMainDelegate implementation
   virtual bool BasicStartupComplete(int* exit_code) OVERRIDE;
   virtual void PreSandboxStartup() OVERRIDE;
-  virtual content::ContentMainClient* CreateContentBrowserClient() OVERRIDE;
+  virtual content::ContentMainClient* CreateContentMainClient() OVERRIDE;
 
  private:
   void InitializeResourceBundle();

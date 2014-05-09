@@ -156,7 +156,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "compositor", "..\ui\composi
 		{D47BB582-6720-453B-BBC4-EF76C2F07370} = {D47BB582-6720-453B-BBC4-EF76C2F07370}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "content", "..\content\content_app_both.vcxproj", "{4BCEACEE-882C-C981-6E92-9D8F6EB303FB}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "content", "..\content\content.vcxproj", "{4BCEACEE-882C-C981-6E92-9D8F6EB303FB}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "content_main", "..\content\content_browser.vcxproj", "{F1E62465-70CA-1E73-EA7F-7CB8EE531238}"
 	ProjectSection(ProjectDependencies) = postProject

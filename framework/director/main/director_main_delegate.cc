@@ -15,10 +15,10 @@ namespace director {
 
 namespace {
 
-// {83FAC8EE-7A0E-4dbb-A3F6-6F500D7CAB1A}
-const GUID kViewsExamplesProviderName =
-    { 0x83fac8ee, 0x7a0e, 0x4dbb,
-        { 0xa3, 0xf6, 0x6f, 0x50, 0xd, 0x7c, 0xab, 0x1a } };
+// {39563016-6D52-49B5-B714-3ABB408B0E3C}
+const GUID kDirectorProviderName =
+    { 0x39563016, 0x6d52, 0x49b5, 
+			{ 0xb7, 0x14, 0x3a, 0xbb, 0x40, 0x8b, 0xe, 0x3c } };
 
 }  // namespace
 
@@ -40,7 +40,7 @@ bool DirectorMainDelegate::BasicStartupComplete(int* exit_code) {
   bool success = logging::InitLogging(settings);
   CHECK(success);
 
-  logging::LogEventProvider::Initialize(kViewsExamplesProviderName);
+  logging::LogEventProvider::Initialize(kDirectorProviderName);
 
   return false;
 }
@@ -50,7 +50,7 @@ void DirectorMainDelegate::PreSandboxStartup() {
 }
 
 content::ContentMainClient*
-    DirectorMainDelegate::CreateContentBrowserClient() {
+    DirectorMainDelegate::CreateContentMainClient() {
   main_client_.reset(new DirectorContentMainClient);
   return main_client_.get();
 }

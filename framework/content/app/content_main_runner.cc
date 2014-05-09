@@ -268,7 +268,7 @@ class ContentClientInitializer {
     ContentClient* content_client = GetContentClient();
     if (process_type.empty()) {
       if (delegate)
-        content_client->main_client_ = delegate->CreateContentBrowserClient();
+        content_client->main_client_ = delegate->CreateContentMainClient();
       if (!content_client->main_client_)
         content_client->main_client_ = &g_empty_content_browser_client.Get();
     }

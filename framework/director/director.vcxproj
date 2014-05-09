@@ -308,7 +308,7 @@
     <ProjectReference Include="..\components\tracing.vcxproj">
       <Project>{751d8c7a-6007-63cf-f857-c671143ae804}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\content\content_app_both.vcxproj">
+    <ProjectReference Include="..\content\content.vcxproj">
       <Project>{4bceacee-882c-c981-6e92-9d8f6eb303fb}</Project>
     </ProjectReference>
     <ProjectReference Include="..\content\content_browser.vcxproj">
