@@ -14,9 +14,9 @@ static ContentClient* g_client;
 
 class InternalTestInitializer {
  public:
-  static ContentMainClient* SetBrowser(ContentMainClient* b) {
-    ContentMainClient* rv = g_client->browser_;
-    g_client->browser_ = b;
+  static ContentMainClient* SetMainClient(ContentMainClient* b) {
+    ContentMainClient* rv = g_client->main_client_;
+    g_client->main_client_ = b;
     return rv;
   }
 };
@@ -31,12 +31,12 @@ ContentClient* GetContentClient() {
 }
 
 ContentMainClient* SetBrowserClientForTesting(ContentMainClient* b) {
-  return InternalTestInitializer::SetBrowser(b);
+  return InternalTestInitializer::SetMainClient(b);
 }
 
 
 ContentClient::ContentClient()
-    : browser_(NULL) {
+    : main_client_(NULL) {
 }
 
 ContentClient::~ContentClient() {

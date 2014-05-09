@@ -119,7 +119,7 @@ DownloadManager* BrowserContext::GetDownloadManager(
     DCHECK(rdh);
     DownloadManager* download_manager =
         new DownloadManagerImpl(
-            GetContentClient()->browser()->GetNetLog(), context);
+            GetContentClient()->MainClient()->GetNetLog(), context);
 
     context->SetUserData(
         kDownloadManagerKeyName,
@@ -165,7 +165,7 @@ StoragePartition* BrowserContext::GetStoragePartition(
   // TODO(ajwong): After GetDefaultStoragePartition() is removed, get rid of
   // this conditional and require that |site_instance| is non-NULL.
   if (site_instance) {
-    GetContentClient()->browser()->GetStoragePartitionConfigForSite(
+    GetContentClient()->MainClient()->GetStoragePartitionConfigForSite(
         browser_context, site_instance->GetSiteURL(), true,
         &partition_domain, &partition_name, &in_memory);
   }
@@ -181,7 +181,7 @@ StoragePartition* BrowserContext::GetStoragePartitionForSite(
   std::string partition_name;
   bool in_memory;
 
-  GetContentClient()->browser()->GetStoragePartitionConfigForSite(
+  GetContentClient()->MainClient()->GetStoragePartitionConfigForSite(
       browser_context, site, true, &partition_domain, &partition_name,
       &in_memory);
 

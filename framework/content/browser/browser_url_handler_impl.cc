@@ -86,7 +86,7 @@ BrowserURLHandlerImpl* BrowserURLHandlerImpl::GetInstance() {
 BrowserURLHandlerImpl::BrowserURLHandlerImpl() {
   AddHandlerPair(&HandleDebugUrl, BrowserURLHandlerImpl::null_handler());
 
-  GetContentClient()->browser()->BrowserURLHandlerCreated(this);
+  GetContentClient()->MainClient()->BrowserURLHandlerCreated(this);
 
   // view-source:
   AddHandlerPair(&HandleViewSource, &ReverseViewSource);

@@ -1069,7 +1069,7 @@ bool GpuProcessHost::LaunchGpuProcess(const std::string& channel_id) {
       browser_command_line, switches::kGLSwitchesCopiedFromGpuProcessHost,
       switches::kGLSwitchesCopiedFromGpuProcessHostNumSwitches);
 
-  GetContentClient()->browser()->AppendExtraCommandLineSwitches(
+  GetContentClient()->MainClient()->AppendExtraCommandLineSwitches(
       cmd_line, process_->GetData().id);
 
   GpuDataManagerImpl::GetInstance()->AppendGpuCommandLine(cmd_line);

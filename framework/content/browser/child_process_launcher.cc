@@ -208,7 +208,7 @@ class ChildProcessLauncher::Context
         FileDescriptorInfo(kPrimaryIPCChannel,
                                     base::FileDescriptor(ipcfd, false)));
 
-    GetContentClient()->browser()->
+    GetContentClient()->MainClient()->
         GetAdditionalMappedFilesForChildProcess(*cmd_line, child_process_id,
                                                 &files_to_register);
 
@@ -230,7 +230,7 @@ class ChildProcessLauncher::Context
                                     base::FileDescriptor(ipcfd, false)));
 
 #if !defined(OS_MACOSX)
-    GetContentClient()->browser()->
+    GetContentClient()->MainClient()->
         GetAdditionalMappedFilesForChildProcess(*cmd_line, child_process_id,
                                                 &files_to_register);
     if (use_zygote) {

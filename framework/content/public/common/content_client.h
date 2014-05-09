@@ -42,10 +42,6 @@ namespace content {
 
 class ContentMainClient;
 class ContentClient;
-class ContentPluginClient;
-class ContentRendererClient;
-class ContentUtilityClient;
-struct PepperPluginInfo;
 
 // Setter and getter for the client.  The client should be set early, before any
 // content code is called.
@@ -60,10 +56,6 @@ ContentClient* GetContentClient();
 // returns the old value.
 CONTENT_EXPORT ContentMainClient* SetBrowserClientForTesting(
     ContentMainClient* b);
-CONTENT_EXPORT ContentRendererClient* SetRendererClientForTesting(
-    ContentRendererClient* r);
-CONTENT_EXPORT ContentUtilityClient* SetUtilityClientForTesting(
-    ContentUtilityClient* u);
 
 // Returns the user agent string being used by the browser. SetContentClient()
 // must be called prior to calling this, and this routine must be used
@@ -81,10 +73,7 @@ class CONTENT_EXPORT ContentClient {
   ContentClient();
   virtual ~ContentClient();
 
-  ContentMainClient* browser() { return browser_; }
-
-  // Sets the currently active URL.  Use GURL() to clear the URL.
-  virtual void SetActiveURL(const GURL& url) {}
+  ContentMainClient* MainClient() { return main_client_; }
 
   // Sets the data on the current gpu.
   virtual void SetGpuInfo(const gpu::GPUInfo& gpu_info) {}
@@ -148,7 +137,7 @@ class CONTENT_EXPORT ContentClient {
   friend class InternalTestInitializer;
 
   // The embedder API for participating in browser logic.
-  ContentMainClient* browser_;
+  ContentMainClient* main_client_;
 };
 
 }  // namespace content

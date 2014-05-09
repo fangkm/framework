@@ -98,7 +98,7 @@ BrowserChildProcessHostImpl::BrowserChildProcessHostImpl(
   child_process_host_.reset(ChildProcessHost::Create(this));
 
   g_child_process_list.Get().push_back(this);
-  GetContentClient()->browser()->BrowserChildProcessHostCreated(this);
+  GetContentClient()->MainClient()->BrowserChildProcessHostCreated(this);
 }
 
 BrowserChildProcessHostImpl::~BrowserChildProcessHostImpl() {
@@ -131,7 +131,7 @@ void BrowserChildProcessHostImpl::Launch(
     CommandLine* cmd_line) {
   DCHECK(BrowserThread::CurrentlyOn(BrowserThread::IO));
 
-  GetContentClient()->browser()->AppendExtraCommandLineSwitches(
+  GetContentClient()->MainClient()->AppendExtraCommandLineSwitches(
       cmd_line, data_.id);
 
   const CommandLine& browser_command_line = *CommandLine::ForCurrentProcess();
