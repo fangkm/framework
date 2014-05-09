@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{9b790a44-a374-4c94-99ba-1f78cf22235d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\content">
+      <UniqueIdentifier>{47e89a25-6273-42f0-875d-363ae3b0474f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\content\app">
+      <UniqueIdentifier>{391ae82c-7379-4064-9386-32e06f2533e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{63418a71-a44e-48d6-aa17-8fa93e27834c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\content\app\startup_helper_win.cc">
+      <Filter>..\content\app</Filter>
+    </ClCompile>
+    <ClCompile Include="main\director_main.cc">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="main\director_main_delegate.cc">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="main\director_content_browser_client.cc">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="main\director_browser_main_parts.cc">
+      <Filter>main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main\director_main_delegate.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\director_content_browser_client.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\director_browser_main_parts.h">
+      <Filter>main</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
