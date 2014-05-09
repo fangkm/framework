@@ -1,0 +1,1751 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="geolocation">
+      <UniqueIdentifier>{42EA6ED6-A702-DB69-AED0-ED93767C1994}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gamepad">
+      <UniqueIdentifier>{930DED89-AB29-FBA2-2E5E-CDFDD19A7E73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="encoding">
+      <UniqueIdentifier>{1BF740A3-E205-AAA4-5CE5-7E55BAD66F46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="webaudio">
+      <UniqueIdentifier>{08C86603-A0A7-C9B2-CEAE-BDDE4EB98040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="webmidi">
+      <UniqueIdentifier>{F1C92683-501D-92BB-D620-04CEC51C3F8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="websockets">
+      <UniqueIdentifier>{EF2312FB-6C7F-BDD7-56A4-09C85626B3B9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="encryptedmedia">
+      <UniqueIdentifier>{5C85E201-BD52-C49F-B288-DB3F058E3D1B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit">
+      <UniqueIdentifier>{1919EB75-19A6-2BAD-ABB0-47BF57C87A0F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit\Source">
+      <UniqueIdentifier>{26D65320-41C3-1A61-26C0-583D658C7F16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit\Source\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit\Source\build\win">
+      <UniqueIdentifier>{47FC5EC4-15EB-E92F-89D7-AFE51CF838A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vibration">
+      <UniqueIdentifier>{6817CECB-A842-DA0A-7E6D-E8F81B9C2349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="webdatabase">
+      <UniqueIdentifier>{3A2BC2FE-BD8C-C591-6D05-0DC13DE856D5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="device_orientation">
+      <UniqueIdentifier>{7AFE5C68-7E78-200B-1609-6C0DBAEC6FC0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="speech">
+      <UniqueIdentifier>{6B7E6414-F041-7B74-8A68-78B9AFDFE9E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="donottrack">
+      <UniqueIdentifier>{BD182861-4CD5-D83C-85FC-B44C2A4F3CCA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="performance">
+      <UniqueIdentifier>{033A1E7F-AB2C-5213-0350-5A216E0F213C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="navigatorcontentutils">
+      <UniqueIdentifier>{271FB163-93EE-EF25-AAFA-D37464266C7A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mediasource">
+      <UniqueIdentifier>{70E4EFCA-A612-6F58-0014-6C8B63C50A06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="quota">
+      <UniqueIdentifier>{1BEA1856-1189-37CA-8138-9A45CAA7E310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="notifications">
+      <UniqueIdentifier>{8B864D51-51C2-204B-66F4-F7E9B50F2996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mediastream">
+      <UniqueIdentifier>{165B521C-54D1-D66A-48BD-22D9C1BF8929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="indexeddb">
+      <UniqueIdentifier>{2AF1D33C-3BAD-411B-CE20-0810BE24291B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="indexeddb\chromium">
+      <UniqueIdentifier>{A235D2A4-63B6-DD4D-7F7F-D3EA248BB602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto">
+      <UniqueIdentifier>{DFFB1441-5E91-CEAB-DBC4-604225CE8161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imagebitmap">
+      <UniqueIdentifier>{7C5AF9F5-1627-2C5E-2D1D-64875061DBB2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filesystem">
+      <UniqueIdentifier>{EE58ECC9-E664-3D5C-8B17-FB2FBB41FCCC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="modules.gyp"/>
+    <ClCompile Include="geolocation\Geolocation.cpp">
+      <Filter>geolocation</Filter>
+    </ClCompile>
+    <ClCompile Include="geolocation\Coordinates.cpp">
+      <Filter>geolocation</Filter>
+    </ClCompile>
+    <ClInclude Include="geolocation\NavigatorGeolocation.h">
+      <Filter>geolocation</Filter>
+    </ClInclude>
+    <ClCompile Include="geolocation\NavigatorGeolocation.cpp">
+      <Filter>geolocation</Filter>
+    </ClCompile>
+    <ClCompile Include="geolocation\GeolocationController.cpp">
+      <Filter>geolocation</Filter>
+    </ClCompile>
+    <ClInclude Include="gamepad\NavigatorGamepad.h">
+      <Filter>gamepad</Filter>
+    </ClInclude>
+    <ClInclude Include="gamepad\GamepadList.h">
+      <Filter>gamepad</Filter>
+    </ClInclude>
+    <ClCompile Include="gamepad\NavigatorGamepad.cpp">
+      <Filter>gamepad</Filter>
+    </ClCompile>
+    <ClCompile Include="gamepad\Gamepad.cpp">
+      <Filter>gamepad</Filter>
+    </ClCompile>
+    <ClInclude Include="gamepad\Gamepad.h">
+      <Filter>gamepad</Filter>
+    </ClInclude>
+    <ClCompile Include="gamepad\GamepadList.cpp">
+      <Filter>gamepad</Filter>
+    </ClCompile>
+    <ClInclude Include="encoding\TextEncoder.h">
+      <Filter>encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="encoding\TextDecoder.h">
+      <Filter>encoding</Filter>
+    </ClInclude>
+    <ClCompile Include="encoding\TextDecoder.cpp">
+      <Filter>encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="encoding\TextEncoder.cpp">
+      <Filter>encoding</Filter>
+    </ClCompile>
+    <ClInclude Include="webaudio\WaveShaperNode.h">
+      <Filter>webaudio</Filter>
+    </ClInclude>
+    <ClInclude Include="webaudio\AudioBasicInspectorNode.h">
+      <Filter>webaudio</Filter>
+    </ClInclude>
+    <ClInclude Include="webaudio\AudioScheduledSourceNode.h">
+      <Filter>webaudio</Filter>
+    </ClInclude>
+    <ClCompile Include="webaudio\AudioContext.cpp">
+      <Filter>webaudio</Filter>
+    </ClCompile>
+    <ClInclude Include="webaudio\AudioParam.h">
+      <Filter>webaudio</Filter>
+    </ClInclude>
+    <ClCompile Include="webaudio\AudioBufferSourceNode.cpp">
+      <Filter>webaudio</Filter>
+    </ClCompile>
+    <ClCompile Include="webaudio\AnalyserNode.cpp">
+      <Filter>webaudio</Filter>
+    </ClCompile>
+    <ClInclude Include="webaudio\BiquadProcessor.h">
+      <Filter>webaudio</Filter>
+    </ClInclude>
+    <ClCompile Include="webaudio\ScriptProcessorNode.cpp">
+      <Filter>webaudio</Filter>
+    </ClCompile>
+    <ClCompile Include="webaudio\PannerNode.cpp">
+      <Filter>webaudio</Filter>
+    </ClCompile>
+    <ClInclude Include="webaudio\OfflineAudioDestinationNode.h">
+      <Filter>webaudio</Filter>
+    </ClInclude>
+    <ClCompile Include="webaudio\AudioNode.cpp">
+      <Filter>webaudio</Filter>
+    </ClCompile>
+    <ClInclude Include="webaudio\DelayNode.h">
+      <Filter>webaudio</Filter>
+    </ClInclude>
+    <ClInclude Include="webaudio\AudioBufferSourceNode.h">
+      <Filter>webaudio</Filter>
+    </ClInclude>
+    <ClInclude Include="webaudio\OfflineAudioCompletionEvent.h">
+      <Filter>webaudio</Filter>
+    </ClInclude>
+    <ClInclude Include="webaudio\AudioContext.h">
+      <Filter>webaudio</Filter>
+    </ClInclude>
+    <ClInclude Include="webaudio\PannerNode.h">
+      <Filter>webaudio</Filter>
+    </ClInclude>
+    <ClCompile Include="webaudio\AudioParam.cpp">
+      <Filter>webaudio</Filter>
+    </ClCompile>
+    <ClInclude Include="webaudio\AudioBasicProcessorNode.h">
+      <Filter>webaudio</Filter>
+    </ClInclude>
+    <ClInclude Include="webaudio\AudioSourceNode.h">
+      <Filter>webaudio</Filter>
+    </ClInclude>
+    <ClCompile Include="webaudio\AudioScheduledSourceNode.cpp">
+      <Filter>webaudio</Filter>
+    </ClCompile>
+    <ClInclude Include="webaudio\AudioBufferCallback.h">
+      <Filter>webaudio</Filter>
+    </ClInclude>
+    <ClCompile Include="webaudio\OfflineAudioCompletionEvent.cpp">
+      <Filter>webaudio</Filter>
+    </ClCompile>
+    <ClInclude Include="webaudio\DelayProcessor.h">
+      <Filter>webaudio</Filter>
+    </ClInclude>
+    <ClCompile Include="webaudio\AudioBasicProcessorNode.cpp">
+      <Filter>webaudio</Filter>
+    </ClCompile>
+    <ClCompile Include="webaudio\AudioParamTimeline.cpp">
+      <Filter>webaudio</Filter>
+    </ClCompile>
+    <ClInclude Include="webaudio\MediaStreamAudioDestinationNode.h">
+      <Filter>webaudio</Filter>
+    </ClInclude>
+    <ClCompile Include="webaudio\AudioNodeOutput.cpp">
+      <Filter>webaudio</Filter>
+    </ClCompile>
+    <ClInclude Include="webaudio\AudioNodeOutput.h">
+      <Filter>webaudio</Filter>
+    </ClInclude>
+    <ClCompile Include="webaudio\AudioBasicInspectorNode.cpp">
+      <Filter>webaudio</Filter>
+    </ClCompile>
+    <ClInclude Include="webaudio\AudioProcessingEvent.h">
+      <Filter>webaudio</Filter>
+    </ClInclude>
+    <ClCompile Include="webaudio\DelayDSPKernel.cpp">
+      <Filter>webaudio</Filter>
+    </ClCompile>
+    <ClCompile Include="webaudio\WaveShaperDSPKernel.cpp">
+      <Filter>webaudio</Filter>
+    </ClCompile>
+    <ClInclude Include="webaudio\PeriodicWave.h">
+      <Filter>webaudio</Filter>
+    </ClInclude>
+    <ClCompile Include="webaudio\WaveShaperProcessor.cpp">
+      <Filter>webaudio</Filter>
+    </ClCompile>
+    <ClCompile Include="webaudio\AudioListener.cpp">
+      <Filter>webaudio</Filter>
+    </ClCompile>
+    <ClInclude Include="webaudio\AsyncAudioDecoder.h">
+      <Filter>webaudio</Filter>
+    </ClInclude>
+    <ClCompile Include="webaudio\DynamicsCompressorNode.cpp">
+      <Filter>webaudio</Filter>
+    </ClCompile>
+    <ClCompile Include="webaudio\MediaElementAudioSourceNode.cpp">
+      <Filter>webaudio</Filter>
+    </ClCompile>
+    <ClCompile Include="webaudio\AudioProcessingEvent.cpp">
+      <Filter>webaudio</Filter>
+    </ClCompile>
+    <ClInclude Include="webaudio\MediaStreamAudioSourceNode.h">
+      <Filter>webaudio</Filter>
+    </ClInclude>
+    <ClInclude Include="webaudio\ChannelSplitterNode.h">
+      <Filter>webaudio</Filter>
+    </ClInclude>
+    <ClCompile Include="webaudio\BiquadDSPKernel.cpp">
+      <Filter>webaudio</Filter>
+    </ClCompile>
+    <ClInclude Include="webaudio\WaveShaperDSPKernel.h">
+      <Filter>webaudio</Filter>
+    </ClInclude>
+    <ClInclude Include="webaudio\MediaElementAudioSourceNode.h">
+      <Filter>webaudio</Filter>
+    </ClInclude>
+    <ClCompile Include="webaudio\DefaultAudioDestinationNode.cpp">
+      <Filter>webaudio</Filter>
+    </ClCompile>
+    <ClInclude Include="webaudio\AudioSummingJunction.h">
+      <Filter>webaudio</Filter>
+    </ClInclude>
+    <ClCompile Include="webaudio\AsyncAudioDecoder.cpp">
+      <Filter>webaudio</Filter>
+    </ClCompile>
+    <ClInclude Include="webaudio\RealtimeAnalyser.h">
+      <Filter>webaudio</Filter>
+    </ClInclude>
+    <ClInclude Include="webaudio\AudioNode.h">
+      <Filter>webaudio</Filter>
+    </ClInclude>
+    <ClInclude Include="webaudio\ScriptProcessorNode.h">
+      <Filter>webaudio</Filter>
+    </ClInclude>
+    <ClInclude Include="webaudio\AudioDestinationNode.h">
+      <Filter>webaudio</Filter>
+    </ClInclude>
+    <ClInclude Include="webaudio\AnalyserNode.h">
+      <Filter>webaudio</Filter>
+    </ClInclude>
+    <ClInclude Include="webaudio\DefaultAudioDestinationNode.h">
+      <Filter>webaudio</Filter>
+    </ClInclude>
+    <ClCompile Include="webaudio\ConvolverNode.cpp">
+      <Filter>webaudio</Filter>
+    </ClCompile>
+    <ClCompile Include="webaudio\BiquadProcessor.cpp">
+      <Filter>webaudio</Filter>
+    </ClCompile>
+    <ClCompile Include="webaudio\MediaStreamAudioSourceNode.cpp">
+      <Filter>webaudio</Filter>
+    </ClCompile>
+    <ClCompile Include="webaudio\ChannelMergerNode.cpp">
+      <Filter>webaudio</Filter>
+    </ClCompile>
+    <ClInclude Include="webaudio\DynamicsCompressorNode.h">
+      <Filter>webaudio</Filter>
+    </ClInclude>
+    <ClCompile Include="webaudio\PeriodicWave.cpp">
+      <Filter>webaudio</Filter>
+    </ClCompile>
+    <ClInclude Include="webaudio\OfflineAudioContext.h">
+      <Filter>webaudio</Filter>
+    </ClInclude>
+    <ClCompile Include="webaudio\AudioNodeInput.cpp">
+      <Filter>webaudio</Filter>
+    </ClCompile>
+    <ClCompile Include="webaudio\DelayProcessor.cpp">
+      <Filter>webaudio</Filter>
+    </ClCompile>
+    <ClInclude Include="webaudio\BiquadDSPKernel.h">
+      <Filter>webaudio</Filter>
+    </ClInclude>
+    <ClInclude Include="webaudio\OscillatorNode.h">
+      <Filter>webaudio</Filter>
+    </ClInclude>
+    <ClInclude Include="webaudio\AudioNodeInput.h">
+      <Filter>webaudio</Filter>
+    </ClInclude>
+    <ClCompile Include="webaudio\RealtimeAnalyser.cpp">
+      <Filter>webaudio</Filter>
+    </ClCompile>
+    <ClInclude Include="webaudio\AudioBuffer.h">
+      <Filter>webaudio</Filter>
+    </ClInclude>
+    <ClInclude Include="webaudio\AudioParamTimeline.h">
+      <Filter>webaudio</Filter>
+    </ClInclude>
+    <ClInclude Include="webaudio\ChannelMergerNode.h">
+      <Filter>webaudio</Filter>
+    </ClInclude>
+    <ClInclude Include="webaudio\GainNode.h">
+      <Filter>webaudio</Filter>
+    </ClInclude>
+    <ClCompile Include="webaudio\OfflineAudioDestinationNode.cpp">
+      <Filter>webaudio</Filter>
+    </ClCompile>
+    <ClCompile Include="webaudio\OfflineAudioContext.cpp">
+      <Filter>webaudio</Filter>
+    </ClCompile>
+    <ClCompile Include="webaudio\BiquadFilterNode.cpp">
+      <Filter>webaudio</Filter>
+    </ClCompile>
+    <ClCompile Include="webaudio\AudioDestinationNode.cpp">
+      <Filter>webaudio</Filter>
+    </ClCompile>
+    <ClCompile Include="webaudio\OscillatorNode.cpp">
+      <Filter>webaudio</Filter>
+    </ClCompile>
+    <ClInclude Include="webaudio\DelayDSPKernel.h">
+      <Filter>webaudio</Filter>
+    </ClInclude>
+    <ClInclude Include="webaudio\BiquadFilterNode.h">
+      <Filter>webaudio</Filter>
+    </ClInclude>
+    <ClCompile Include="webaudio\MediaStreamAudioDestinationNode.cpp">
+      <Filter>webaudio</Filter>
+    </ClCompile>
+    <ClCompile Include="webaudio\AudioBuffer.cpp">
+      <Filter>webaudio</Filter>
+    </ClCompile>
+    <ClCompile Include="webaudio\AudioSummingJunction.cpp">
+      <Filter>webaudio</Filter>
+    </ClCompile>
+    <ClCompile Include="webaudio\ChannelSplitterNode.cpp">
+      <Filter>webaudio</Filter>
+    </ClCompile>
+    <ClInclude Include="webaudio\AudioListener.h">
+      <Filter>webaudio</Filter>
+    </ClInclude>
+    <ClCompile Include="webaudio\DelayNode.cpp">
+      <Filter>webaudio</Filter>
+    </ClCompile>
+    <ClInclude Include="webaudio\WaveShaperProcessor.h">
+      <Filter>webaudio</Filter>
+    </ClInclude>
+    <ClCompile Include="webaudio\GainNode.cpp">
+      <Filter>webaudio</Filter>
+    </ClCompile>
+    <ClInclude Include="webaudio\ConvolverNode.h">
+      <Filter>webaudio</Filter>
+    </ClInclude>
+    <ClCompile Include="webaudio\WaveShaperNode.cpp">
+      <Filter>webaudio</Filter>
+    </ClCompile>
+    <ClInclude Include="webmidi\MIDIOptions.h">
+      <Filter>webmidi</Filter>
+    </ClInclude>
+    <ClCompile Include="webmidi\NavigatorWebMIDI.cpp">
+      <Filter>webmidi</Filter>
+    </ClCompile>
+    <ClInclude Include="webmidi\MIDIAccess.h">
+      <Filter>webmidi</Filter>
+    </ClInclude>
+    <ClInclude Include="webmidi\MIDIController.h">
+      <Filter>webmidi</Filter>
+    </ClInclude>
+    <ClInclude Include="webmidi\MIDIOutput.h">
+      <Filter>webmidi</Filter>
+    </ClInclude>
+    <ClCompile Include="webmidi\MIDIController.cpp">
+      <Filter>webmidi</Filter>
+    </ClCompile>
+    <ClInclude Include="webmidi\MIDIErrorCallback.h">
+      <Filter>webmidi</Filter>
+    </ClInclude>
+    <ClCompile Include="webmidi\MIDIAccessPromise.cpp">
+      <Filter>webmidi</Filter>
+    </ClCompile>
+    <ClInclude Include="webmidi\NavigatorWebMIDI.h">
+      <Filter>webmidi</Filter>
+    </ClInclude>
+    <ClInclude Include="webmidi\MIDIInput.h">
+      <Filter>webmidi</Filter>
+    </ClInclude>
+    <ClCompile Include="webmidi\MIDIInput.cpp">
+      <Filter>webmidi</Filter>
+    </ClCompile>
+    <ClCompile Include="webmidi\MIDIPort.cpp">
+      <Filter>webmidi</Filter>
+    </ClCompile>
+    <ClInclude Include="webmidi\MIDIAccessPromise.h">
+      <Filter>webmidi</Filter>
+    </ClInclude>
+    <ClInclude Include="webmidi\MIDIPort.h">
+      <Filter>webmidi</Filter>
+    </ClInclude>
+    <ClCompile Include="webmidi\MIDIOutput.cpp">
+      <Filter>webmidi</Filter>
+    </ClCompile>
+    <ClInclude Include="webmidi\MIDIClient.h">
+      <Filter>webmidi</Filter>
+    </ClInclude>
+    <ClInclude Include="webmidi\MIDIConnectionEvent.h">
+      <Filter>webmidi</Filter>
+    </ClInclude>
+    <ClInclude Include="webmidi\MIDISuccessCallback.h">
+      <Filter>webmidi</Filter>
+    </ClInclude>
+    <ClCompile Include="webmidi\MIDIAccess.cpp">
+      <Filter>webmidi</Filter>
+    </ClCompile>
+    <ClInclude Include="webmidi\MIDIMessageEvent.h">
+      <Filter>webmidi</Filter>
+    </ClInclude>
+    <ClInclude Include="websockets\WebSocketExtensionParser.h">
+      <Filter>websockets</Filter>
+    </ClInclude>
+    <ClCompile Include="websockets\WebSocketDeflateFramer.cpp">
+      <Filter>websockets</Filter>
+    </ClCompile>
+    <ClInclude Include="websockets\WebSocketChannel.h">
+      <Filter>websockets</Filter>
+    </ClInclude>
+    <ClInclude Include="websockets\WebSocketDeflateFramer.h">
+      <Filter>websockets</Filter>
+    </ClInclude>
+    <ClInclude Include="websockets\ThreadableWebSocketChannelClientWrapper.h">
+      <Filter>websockets</Filter>
+    </ClInclude>
+    <ClInclude Include="websockets\MainThreadWebSocketChannel.h">
+      <Filter>websockets</Filter>
+    </ClInclude>
+    <ClInclude Include="websockets\WebSocketHandshakeResponse.h">
+      <Filter>websockets</Filter>
+    </ClInclude>
+    <ClInclude Include="websockets\WebSocketPerMessageDeflate.h">
+      <Filter>websockets</Filter>
+    </ClInclude>
+    <ClCompile Include="websockets\WebSocketChannel.cpp">
+      <Filter>websockets</Filter>
+    </ClCompile>
+    <ClCompile Include="websockets\WebSocket.cpp">
+      <Filter>websockets</Filter>
+    </ClCompile>
+    <ClInclude Include="websockets\WebSocketFrame.h">
+      <Filter>websockets</Filter>
+    </ClInclude>
+    <ClCompile Include="websockets\WebSocketHandshake.cpp">
+      <Filter>websockets</Filter>
+    </ClCompile>
+    <ClCompile Include="websockets\ThreadableWebSocketChannelClientWrapper.cpp">
+      <Filter>websockets</Filter>
+    </ClCompile>
+    <ClCompile Include="websockets\NewWebSocketChannelImpl.cpp">
+      <Filter>websockets</Filter>
+    </ClCompile>
+    <ClInclude Include="websockets\WebSocketDeflater.h">
+      <Filter>websockets</Filter>
+    </ClInclude>
+    <ClInclude Include="websockets\WebSocketChannelClient.h">
+      <Filter>websockets</Filter>
+    </ClInclude>
+    <ClCompile Include="websockets\WebSocketHandshakeRequest.cpp">
+      <Filter>websockets</Filter>
+    </ClCompile>
+    <ClCompile Include="websockets\WebSocketExtensionParser.cpp">
+      <Filter>websockets</Filter>
+    </ClCompile>
+    <ClCompile Include="websockets\MainThreadWebSocketChannel.cpp">
+      <Filter>websockets</Filter>
+    </ClCompile>
+    <ClCompile Include="websockets\WebSocketFrame.cpp">
+      <Filter>websockets</Filter>
+    </ClCompile>
+    <ClCompile Include="websockets\WebSocketDeflater.cpp">
+      <Filter>websockets</Filter>
+    </ClCompile>
+    <ClCompile Include="websockets\WebSocketPerMessageDeflate.cpp">
+      <Filter>websockets</Filter>
+    </ClCompile>
+    <ClInclude Include="websockets\WebSocket.h">
+      <Filter>websockets</Filter>
+    </ClInclude>
+    <ClInclude Include="websockets\WebSocketHandshake.h">
+      <Filter>websockets</Filter>
+    </ClInclude>
+    <ClCompile Include="websockets\WebSocketExtensionDispatcher.cpp">
+      <Filter>websockets</Filter>
+    </ClCompile>
+    <ClInclude Include="websockets\WorkerThreadableWebSocketChannel.h">
+      <Filter>websockets</Filter>
+    </ClInclude>
+    <ClInclude Include="websockets\WebSocketHandshakeRequest.h">
+      <Filter>websockets</Filter>
+    </ClInclude>
+    <ClInclude Include="websockets\WebSocketExtensionProcessor.h">
+      <Filter>websockets</Filter>
+    </ClInclude>
+    <ClInclude Include="websockets\CloseEvent.h">
+      <Filter>websockets</Filter>
+    </ClInclude>
+    <ClInclude Include="websockets\NewWebSocketChannelImpl.h">
+      <Filter>websockets</Filter>
+    </ClInclude>
+    <ClInclude Include="websockets\WebSocketExtensionDispatcher.h">
+      <Filter>websockets</Filter>
+    </ClInclude>
+    <ClCompile Include="websockets\WorkerThreadableWebSocketChannel.cpp">
+      <Filter>websockets</Filter>
+    </ClCompile>
+    <ClCompile Include="websockets\WebSocketHandshakeResponse.cpp">
+      <Filter>websockets</Filter>
+    </ClCompile>
+    <ClCompile Include="encryptedmedia\MediaKeyNeededEvent.cpp">
+      <Filter>encryptedmedia</Filter>
+    </ClCompile>
+    <ClInclude Include="encryptedmedia\MediaKeys.h">
+      <Filter>encryptedmedia</Filter>
+    </ClInclude>
+    <ClCompile Include="encryptedmedia\MediaKeys.cpp">
+      <Filter>encryptedmedia</Filter>
+    </ClCompile>
+    <ClInclude Include="encryptedmedia\MediaKeyNeededEvent.h">
+      <Filter>encryptedmedia</Filter>
+    </ClInclude>
+    <ClCompile Include="encryptedmedia\MediaKeyMessageEvent.cpp">
+      <Filter>encryptedmedia</Filter>
+    </ClCompile>
+    <ClInclude Include="encryptedmedia\MediaKeySession.h">
+      <Filter>encryptedmedia</Filter>
+    </ClInclude>
+    <ClInclude Include="encryptedmedia\MediaKeyMessageEvent.h">
+      <Filter>encryptedmedia</Filter>
+    </ClInclude>
+    <ClCompile Include="encryptedmedia\MediaKeySession.cpp">
+      <Filter>encryptedmedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\third_party\WebKit\Source\build\win\Precompile.cpp">
+      <Filter>..\..\..\..\third_party\WebKit\Source\build\win</Filter>
+    </ClCompile>
+    <ClInclude Include="vibration\NavigatorVibration.h">
+      <Filter>vibration</Filter>
+    </ClInclude>
+    <ClCompile Include="vibration\NavigatorVibration.cpp">
+      <Filter>vibration</Filter>
+    </ClCompile>
+    <ClInclude Include="webdatabase\SQLTransactionClient.h">
+      <Filter>webdatabase</Filter>
+    </ClInclude>
+    <ClCompile Include="webdatabase\DatabaseServer.cpp">
+      <Filter>webdatabase</Filter>
+    </ClCompile>
+    <ClInclude Include="webdatabase\DatabaseTracker.h">
+      <Filter>webdatabase</Filter>
+    </ClInclude>
+    <ClCompile Include="webdatabase\DatabaseBackendContext.cpp">
+      <Filter>webdatabase</Filter>
+    </ClCompile>
+    <ClInclude Include="webdatabase\DatabaseCallback.h">
+      <Filter>webdatabase</Filter>
+    </ClInclude>
+    <ClCompile Include="webdatabase\DatabaseTracker.cpp">
+      <Filter>webdatabase</Filter>
+    </ClCompile>
+    <ClInclude Include="webdatabase\SQLStatement.h">
+      <Filter>webdatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="webdatabase\DatabaseObserver.h">
+      <Filter>webdatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="webdatabase\DatabaseBackendSync.h">
+      <Filter>webdatabase</Filter>
+    </ClInclude>
+    <ClCompile Include="webdatabase\SQLTransaction.cpp">
+      <Filter>webdatabase</Filter>
+    </ClCompile>
+    <ClInclude Include="webdatabase\AbstractDatabaseServer.h">
+      <Filter>webdatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="webdatabase\DatabaseThread.h">
+      <Filter>webdatabase</Filter>
+    </ClInclude>
+    <ClCompile Include="webdatabase\ChangeVersionWrapper.cpp">
+      <Filter>webdatabase</Filter>
+    </ClCompile>
+    <ClInclude Include="webdatabase\SQLTransactionStateMachine.h">
+      <Filter>webdatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="webdatabase\AbstractSQLStatementBackend.h">
+      <Filter>webdatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="webdatabase\ChangeVersionWrapper.h">
+      <Filter>webdatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="webdatabase\SQLTransactionState.h">
+      <Filter>webdatabase</Filter>
+    </ClInclude>
+    <ClCompile Include="webdatabase\DatabaseTask.cpp">
+      <Filter>webdatabase</Filter>
+    </ClCompile>
+    <ClCompile Include="webdatabase\DatabaseManager.cpp">
+      <Filter>webdatabase</Filter>
+    </ClCompile>
+    <ClCompile Include="webdatabase\QuotaTracker.cpp">
+      <Filter>webdatabase</Filter>
+    </ClCompile>
+    <ClCompile Include="webdatabase\SQLTransactionCoordinator.cpp">
+      <Filter>webdatabase</Filter>
+    </ClCompile>
+    <ClCompile Include="webdatabase\DatabaseContext.cpp">
+      <Filter>webdatabase</Filter>
+    </ClCompile>
+    <ClCompile Include="webdatabase\DOMWindowWebDatabase.cpp">
+      <Filter>webdatabase</Filter>
+    </ClCompile>
+    <ClInclude Include="webdatabase\SQLTransactionSyncCallback.h">
+      <Filter>webdatabase</Filter>
+    </ClInclude>
+    <ClCompile Include="webdatabase\SQLTransactionSync.cpp">
+      <Filter>webdatabase</Filter>
+    </ClCompile>
+    <ClCompile Include="webdatabase\DatabaseSync.cpp">
+      <Filter>webdatabase</Filter>
+    </ClCompile>
+    <ClInclude Include="webdatabase\SQLCallbackWrapper.h">
+      <Filter>webdatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="webdatabase\DatabaseTask.h">
+      <Filter>webdatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="webdatabase\DatabaseSync.h">
+      <Filter>webdatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="webdatabase\DatabaseBackend.h">
+      <Filter>webdatabase</Filter>
+    </ClInclude>
+    <ClCompile Include="webdatabase\SQLTransactionClient.cpp">
+      <Filter>webdatabase</Filter>
+    </ClCompile>
+    <ClInclude Include="webdatabase\SQLError.h">
+      <Filter>webdatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="webdatabase\DatabaseServer.h">
+      <Filter>webdatabase</Filter>
+    </ClInclude>
+    <ClCompile Include="webdatabase\SQLStatementSync.cpp">
+      <Filter>webdatabase</Filter>
+    </ClCompile>
+    <ClInclude Include="webdatabase\DOMWindowWebDatabase.h">
+      <Filter>webdatabase</Filter>
+    </ClInclude>
+    <ClCompile Include="webdatabase\DatabaseBackendBase.cpp">
+      <Filter>webdatabase</Filter>
+    </ClCompile>
+    <ClInclude Include="webdatabase\DatabaseBasicTypes.h">
+      <Filter>webdatabase</Filter>
+    </ClInclude>
+    <ClCompile Include="webdatabase\SQLResultSetRowList.cpp">
+      <Filter>webdatabase</Filter>
+    </ClCompile>
+    <ClCompile Include="webdatabase\SQLStatement.cpp">
+      <Filter>webdatabase</Filter>
+    </ClCompile>
+    <ClInclude Include="webdatabase\DatabaseError.h">
+      <Filter>webdatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="webdatabase\SQLTransactionCoordinator.h">
+      <Filter>webdatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="webdatabase\DatabaseContext.h">
+      <Filter>webdatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="webdatabase\SQLTransactionSync.h">
+      <Filter>webdatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="webdatabase\SQLTransactionBackendSync.h">
+      <Filter>webdatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="webdatabase\SQLTransactionBackend.h">
+      <Filter>webdatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="webdatabase\AbstractSQLStatement.h">
+      <Filter>webdatabase</Filter>
+    </ClInclude>
+    <ClCompile Include="webdatabase\DatabaseBase.cpp">
+      <Filter>webdatabase</Filter>
+    </ClCompile>
+    <ClInclude Include="webdatabase\QuotaTracker.h">
+      <Filter>webdatabase</Filter>
+    </ClInclude>
+    <ClCompile Include="webdatabase\SQLTransactionStateMachine.cpp">
+      <Filter>webdatabase</Filter>
+    </ClCompile>
+    <ClCompile Include="webdatabase\DatabaseAuthorizer.cpp">
+      <Filter>webdatabase</Filter>
+    </ClCompile>
+    <ClInclude Include="webdatabase\DatabaseBase.h">
+      <Filter>webdatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="webdatabase\DatabaseManager.h">
+      <Filter>webdatabase</Filter>
+    </ClInclude>
+    <ClCompile Include="webdatabase\SQLTransactionBackendSync.cpp">
+      <Filter>webdatabase</Filter>
+    </ClCompile>
+    <ClInclude Include="webdatabase\DatabaseAuthorizer.h">
+      <Filter>webdatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="webdatabase\SQLStatementBackend.h">
+      <Filter>webdatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="webdatabase\SQLTransaction.h">
+      <Filter>webdatabase</Filter>
+    </ClInclude>
+    <ClCompile Include="webdatabase\Database.cpp">
+      <Filter>webdatabase</Filter>
+    </ClCompile>
+    <ClCompile Include="webdatabase\SQLTransactionBackend.cpp">
+      <Filter>webdatabase</Filter>
+    </ClCompile>
+    <ClInclude Include="webdatabase\DatabaseBackendContext.h">
+      <Filter>webdatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="webdatabase\SQLStatementSync.h">
+      <Filter>webdatabase</Filter>
+    </ClInclude>
+    <ClCompile Include="webdatabase\DatabaseThread.cpp">
+      <Filter>webdatabase</Filter>
+    </ClCompile>
+    <ClInclude Include="webdatabase\ChangeVersionData.h">
+      <Filter>webdatabase</Filter>
+    </ClInclude>
+    <ClCompile Include="webdatabase\SQLStatementBackend.cpp">
+      <Filter>webdatabase</Filter>
+    </ClCompile>
+    <ClCompile Include="webdatabase\SQLError.cpp">
+      <Filter>webdatabase</Filter>
+    </ClCompile>
+    <ClCompile Include="webdatabase\SQLResultSet.cpp">
+      <Filter>webdatabase</Filter>
+    </ClCompile>
+    <ClCompile Include="webdatabase\WorkerGlobalScopeWebDatabase.cpp">
+      <Filter>webdatabase</Filter>
+    </ClCompile>
+    <ClCompile Include="webdatabase\DatabaseBackend.cpp">
+      <Filter>webdatabase</Filter>
+    </ClCompile>
+    <ClCompile Include="webdatabase\DatabaseBackendSync.cpp">
+      <Filter>webdatabase</Filter>
+    </ClCompile>
+    <ClInclude Include="webdatabase\WorkerGlobalScopeWebDatabase.h">
+      <Filter>webdatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="webdatabase\DatabaseBackendBase.h">
+      <Filter>webdatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="device_orientation\DeviceMotionData.h">
+      <Filter>device_orientation</Filter>
+    </ClInclude>
+    <ClCompile Include="device_orientation\DeviceOrientationDispatcher.cpp">
+      <Filter>device_orientation</Filter>
+    </ClCompile>
+    <ClCompile Include="device_orientation\DeviceRotationRate.cpp">
+      <Filter>device_orientation</Filter>
+    </ClCompile>
+    <ClCompile Include="device_orientation\DeviceMotionDispatcher.cpp">
+      <Filter>device_orientation</Filter>
+    </ClCompile>
+    <ClInclude Include="device_orientation\NewDeviceOrientationController.h">
+      <Filter>device_orientation</Filter>
+    </ClInclude>
+    <ClCompile Include="device_orientation\DeviceAcceleration.cpp">
+      <Filter>device_orientation</Filter>
+    </ClCompile>
+    <ClCompile Include="device_orientation\NewDeviceOrientationController.cpp">
+      <Filter>device_orientation</Filter>
+    </ClCompile>
+    <ClCompile Include="device_orientation\DeviceSensorEventDispatcher.cpp">
+      <Filter>device_orientation</Filter>
+    </ClCompile>
+    <ClInclude Include="device_orientation\DeviceOrientationEvent.h">
+      <Filter>device_orientation</Filter>
+    </ClInclude>
+    <ClInclude Include="device_orientation\DeviceOrientationDispatcher.h">
+      <Filter>device_orientation</Filter>
+    </ClInclude>
+    <ClInclude Include="device_orientation\DeviceOrientationData.h">
+      <Filter>device_orientation</Filter>
+    </ClInclude>
+    <ClCompile Include="device_orientation\DeviceMotionController.cpp">
+      <Filter>device_orientation</Filter>
+    </ClCompile>
+    <ClInclude Include="device_orientation\DeviceRotationRate.h">
+      <Filter>device_orientation</Filter>
+    </ClInclude>
+    <ClInclude Include="device_orientation\DeviceAcceleration.h">
+      <Filter>device_orientation</Filter>
+    </ClInclude>
+    <ClCompile Include="device_orientation\DeviceSensorEventController.cpp">
+      <Filter>device_orientation</Filter>
+    </ClCompile>
+    <ClInclude Include="device_orientation\DeviceMotionController.h">
+      <Filter>device_orientation</Filter>
+    </ClInclude>
+    <ClCompile Include="device_orientation\DeviceOrientationEvent.cpp">
+      <Filter>device_orientation</Filter>
+    </ClCompile>
+    <ClInclude Include="device_orientation\DeviceSensorEventController.h">
+      <Filter>device_orientation</Filter>
+    </ClInclude>
+    <ClCompile Include="device_orientation\DeviceOrientationData.cpp">
+      <Filter>device_orientation</Filter>
+    </ClCompile>
+    <ClInclude Include="device_orientation\DeviceSensorEventDispatcher.h">
+      <Filter>device_orientation</Filter>
+    </ClInclude>
+    <ClCompile Include="device_orientation\DeviceMotionEvent.cpp">
+      <Filter>device_orientation</Filter>
+    </ClCompile>
+    <ClCompile Include="device_orientation\DeviceMotionData.cpp">
+      <Filter>device_orientation</Filter>
+    </ClCompile>
+    <ClInclude Include="device_orientation\DeviceMotionEvent.h">
+      <Filter>device_orientation</Filter>
+    </ClInclude>
+    <ClInclude Include="device_orientation\DeviceMotionDispatcher.h">
+      <Filter>device_orientation</Filter>
+    </ClInclude>
+    <ClInclude Include="speech\SpeechRecognitionResultList.h">
+      <Filter>speech</Filter>
+    </ClInclude>
+    <ClInclude Include="speech\SpeechSynthesisEvent.h">
+      <Filter>speech</Filter>
+    </ClInclude>
+    <ClCompile Include="speech\SpeechSynthesisEvent.cpp">
+      <Filter>speech</Filter>
+    </ClCompile>
+    <ClCompile Include="speech\SpeechRecognitionResultList.cpp">
+      <Filter>speech</Filter>
+    </ClCompile>
+    <ClInclude Include="speech\SpeechGrammarList.h">
+      <Filter>speech</Filter>
+    </ClInclude>
+    <ClCompile Include="speech\SpeechRecognitionResult.cpp">
+      <Filter>speech</Filter>
+    </ClCompile>
+    <ClInclude Include="speech\SpeechGrammar.h">
+      <Filter>speech</Filter>
+    </ClInclude>
+    <ClInclude Include="speech\SpeechSynthesisUtterance.h">
+      <Filter>speech</Filter>
+    </ClInclude>
+    <ClInclude Include="speech\DOMWindowSpeechSynthesis.h">
+      <Filter>speech</Filter>
+    </ClInclude>
+    <ClCompile Include="speech\SpeechGrammarList.cpp">
+      <Filter>speech</Filter>
+    </ClCompile>
+    <ClCompile Include="speech\SpeechRecognitionAlternative.cpp">
+      <Filter>speech</Filter>
+    </ClCompile>
+    <ClInclude Include="speech\SpeechRecognitionError.h">
+      <Filter>speech</Filter>
+    </ClInclude>
+    <ClInclude Include="speech\SpeechSynthesis.h">
+      <Filter>speech</Filter>
+    </ClInclude>
+    <ClInclude Include="speech\SpeechRecognitionClient.h">
+      <Filter>speech</Filter>
+    </ClInclude>
+    <ClCompile Include="speech\SpeechGrammar.cpp">
+      <Filter>speech</Filter>
+    </ClCompile>
+    <ClCompile Include="speech\SpeechSynthesisUtterance.cpp">
+      <Filter>speech</Filter>
+    </ClCompile>
+    <ClCompile Include="speech\SpeechRecognition.cpp">
+      <Filter>speech</Filter>
+    </ClCompile>
+    <ClInclude Include="speech\SpeechSynthesisVoice.h">
+      <Filter>speech</Filter>
+    </ClInclude>
+    <ClInclude Include="speech\SpeechRecognitionController.h">
+      <Filter>speech</Filter>
+    </ClInclude>
+    <ClCompile Include="speech\SpeechRecognitionError.cpp">
+      <Filter>speech</Filter>
+    </ClCompile>
+    <ClCompile Include="speech\SpeechRecognitionController.cpp">
+      <Filter>speech</Filter>
+    </ClCompile>
+    <ClInclude Include="speech\SpeechRecognition.h">
+      <Filter>speech</Filter>
+    </ClInclude>
+    <ClCompile Include="speech\SpeechSynthesis.cpp">
+      <Filter>speech</Filter>
+    </ClCompile>
+    <ClInclude Include="speech\SpeechRecognitionAlternative.h">
+      <Filter>speech</Filter>
+    </ClInclude>
+    <ClCompile Include="speech\SpeechSynthesisVoice.cpp">
+      <Filter>speech</Filter>
+    </ClCompile>
+    <ClCompile Include="speech\SpeechRecognitionEvent.cpp">
+      <Filter>speech</Filter>
+    </ClCompile>
+    <ClInclude Include="speech\SpeechRecognitionEvent.h">
+      <Filter>speech</Filter>
+    </ClInclude>
+    <ClInclude Include="speech\SpeechRecognitionResult.h">
+      <Filter>speech</Filter>
+    </ClInclude>
+    <ClCompile Include="speech\DOMWindowSpeechSynthesis.cpp">
+      <Filter>speech</Filter>
+    </ClCompile>
+    <ClCompile Include="donottrack\NavigatorDoNotTrack.cpp">
+      <Filter>donottrack</Filter>
+    </ClCompile>
+    <ClInclude Include="donottrack\NavigatorDoNotTrack.h">
+      <Filter>donottrack</Filter>
+    </ClInclude>
+    <ClCompile Include="performance\WorkerPerformance.cpp">
+      <Filter>performance</Filter>
+    </ClCompile>
+    <ClCompile Include="performance\WorkerGlobalScopePerformance.cpp">
+      <Filter>performance</Filter>
+    </ClCompile>
+    <ClInclude Include="performance\WorkerGlobalScopePerformance.h">
+      <Filter>performance</Filter>
+    </ClInclude>
+    <ClInclude Include="performance\WorkerPerformance.h">
+      <Filter>performance</Filter>
+    </ClInclude>
+    <ClCompile Include="navigatorcontentutils\NavigatorContentUtils.cpp">
+      <Filter>navigatorcontentutils</Filter>
+    </ClCompile>
+    <ClInclude Include="navigatorcontentutils\NavigatorContentUtils.h">
+      <Filter>navigatorcontentutils</Filter>
+    </ClInclude>
+    <ClInclude Include="navigatorcontentutils\NavigatorContentUtilsClient.h">
+      <Filter>navigatorcontentutils</Filter>
+    </ClInclude>
+    <ClInclude Include="mediasource\MediaSourceBase.h">
+      <Filter>mediasource</Filter>
+    </ClInclude>
+    <ClCompile Include="mediasource\WebKitSourceBufferList.cpp">
+      <Filter>mediasource</Filter>
+    </ClCompile>
+    <ClInclude Include="mediasource\SourceBuffer.h">
+      <Filter>mediasource</Filter>
+    </ClInclude>
+    <ClCompile Include="mediasource\MediaSource.cpp">
+      <Filter>mediasource</Filter>
+    </ClCompile>
+    <ClCompile Include="mediasource\SourceBufferList.cpp">
+      <Filter>mediasource</Filter>
+    </ClCompile>
+    <ClCompile Include="mediasource\URLMediaSource.cpp">
+      <Filter>mediasource</Filter>
+    </ClCompile>
+    <ClCompile Include="mediasource\WebKitMediaSource.cpp">
+      <Filter>mediasource</Filter>
+    </ClCompile>
+    <ClInclude Include="mediasource\WebKitSourceBuffer.h">
+      <Filter>mediasource</Filter>
+    </ClInclude>
+    <ClCompile Include="mediasource\SourceBuffer.cpp">
+      <Filter>mediasource</Filter>
+    </ClCompile>
+    <ClInclude Include="mediasource\MediaSource.h">
+      <Filter>mediasource</Filter>
+    </ClInclude>
+    <ClCompile Include="mediasource\WebKitSourceBuffer.cpp">
+      <Filter>mediasource</Filter>
+    </ClCompile>
+    <ClInclude Include="mediasource\WebKitSourceBufferList.h">
+      <Filter>mediasource</Filter>
+    </ClInclude>
+    <ClInclude Include="mediasource\URLMediaSource.h">
+      <Filter>mediasource</Filter>
+    </ClInclude>
+    <ClInclude Include="mediasource\SourceBufferList.h">
+      <Filter>mediasource</Filter>
+    </ClInclude>
+    <ClInclude Include="mediasource\WebKitMediaSource.h">
+      <Filter>mediasource</Filter>
+    </ClInclude>
+    <ClCompile Include="mediasource\MediaSourceBase.cpp">
+      <Filter>mediasource</Filter>
+    </ClCompile>
+    <ClInclude Include="mediasource\MediaSourceRegistry.h">
+      <Filter>mediasource</Filter>
+    </ClInclude>
+    <ClCompile Include="mediasource\MediaSourceRegistry.cpp">
+      <Filter>mediasource</Filter>
+    </ClCompile>
+    <ClInclude Include="quota\NavigatorStorageQuota.h">
+      <Filter>quota</Filter>
+    </ClInclude>
+    <ClCompile Include="quota\WebStorageQuotaCallbacksImpl.cpp">
+      <Filter>quota</Filter>
+    </ClCompile>
+    <ClInclude Include="quota\WebStorageQuotaCallbacksImpl.h">
+      <Filter>quota</Filter>
+    </ClInclude>
+    <ClInclude Include="quota\DOMWindowQuota.h">
+      <Filter>quota</Filter>
+    </ClInclude>
+    <ClCompile Include="quota\StorageQuota.cpp">
+      <Filter>quota</Filter>
+    </ClCompile>
+    <ClInclude Include="quota\StorageQuota.h">
+      <Filter>quota</Filter>
+    </ClInclude>
+    <ClInclude Include="quota\StorageUsageCallback.h">
+      <Filter>quota</Filter>
+    </ClInclude>
+    <ClCompile Include="quota\NavigatorStorageQuota.cpp">
+      <Filter>quota</Filter>
+    </ClCompile>
+    <ClCompile Include="quota\StorageErrorCallback.cpp">
+      <Filter>quota</Filter>
+    </ClCompile>
+    <ClCompile Include="quota\StorageInfo.cpp">
+      <Filter>quota</Filter>
+    </ClCompile>
+    <ClInclude Include="quota\StorageQuotaCallback.h">
+      <Filter>quota</Filter>
+    </ClInclude>
+    <ClCompile Include="quota\WorkerNavigatorStorageQuota.cpp">
+      <Filter>quota</Filter>
+    </ClCompile>
+    <ClInclude Include="quota\WorkerNavigatorStorageQuota.h">
+      <Filter>quota</Filter>
+    </ClInclude>
+    <ClInclude Include="quota\StorageErrorCallback.h">
+      <Filter>quota</Filter>
+    </ClInclude>
+    <ClCompile Include="quota\DOMWindowQuota.cpp">
+      <Filter>quota</Filter>
+    </ClCompile>
+    <ClInclude Include="quota\StorageInfo.h">
+      <Filter>quota</Filter>
+    </ClInclude>
+    <ClInclude Include="notifications\NotificationController.h">
+      <Filter>notifications</Filter>
+    </ClInclude>
+    <ClInclude Include="notifications\WorkerGlobalScopeNotifications.h">
+      <Filter>notifications</Filter>
+    </ClInclude>
+    <ClInclude Include="notifications\DOMWindowNotifications.h">
+      <Filter>notifications</Filter>
+    </ClInclude>
+    <ClInclude Include="notifications\NotificationPermissionCallback.h">
+      <Filter>notifications</Filter>
+    </ClInclude>
+    <ClCompile Include="notifications\WorkerGlobalScopeNotifications.cpp">
+      <Filter>notifications</Filter>
+    </ClCompile>
+    <ClInclude Include="notifications\Notification.h">
+      <Filter>notifications</Filter>
+    </ClInclude>
+    <ClCompile Include="notifications\DOMWindowNotifications.cpp">
+      <Filter>notifications</Filter>
+    </ClCompile>
+    <ClCompile Include="notifications\NotificationCenter.cpp">
+      <Filter>notifications</Filter>
+    </ClCompile>
+    <ClInclude Include="notifications\NotificationCenter.h">
+      <Filter>notifications</Filter>
+    </ClInclude>
+    <ClCompile Include="notifications\NotificationController.cpp">
+      <Filter>notifications</Filter>
+    </ClCompile>
+    <ClCompile Include="notifications\Notification.cpp">
+      <Filter>notifications</Filter>
+    </ClCompile>
+    <ClInclude Include="mediastream\RTCStatsResponse.h">
+      <Filter>mediastream</Filter>
+    </ClInclude>
+    <ClCompile Include="mediastream\SourceInfo.cpp">
+      <Filter>mediastream</Filter>
+    </ClCompile>
+    <ClInclude Include="mediastream\UserMediaClient.h">
+      <Filter>mediastream</Filter>
+    </ClInclude>
+    <ClCompile Include="mediastream\MediaStream.cpp">
+      <Filter>mediastream</Filter>
+    </ClCompile>
+    <ClInclude Include="mediastream\RTCErrorCallback.h">
+      <Filter>mediastream</Filter>
+    </ClInclude>
+    <ClCompile Include="mediastream\MediaStreamEvent.cpp">
+      <Filter>mediastream</Filter>
+    </ClCompile>
+    <ClCompile Include="mediastream\RTCStatsReport.cpp">
+      <Filter>mediastream</Filter>
+    </ClCompile>
+    <ClCompile Include="mediastream\RTCIceCandidateEvent.cpp">
+      <Filter>mediastream</Filter>
+    </ClCompile>
+    <ClInclude Include="mediastream\RTCPeerConnection.h">
+      <Filter>mediastream</Filter>
+    </ClInclude>
+    <ClCompile Include="mediastream\MediaConstraintsImpl.cpp">
+      <Filter>mediastream</Filter>
+    </ClCompile>
+    <ClCompile Include="mediastream\NavigatorMediaStream.cpp">
+      <Filter>mediastream</Filter>
+    </ClCompile>
+    <ClInclude Include="mediastream\URLMediaStream.h">
+      <Filter>mediastream</Filter>
+    </ClInclude>
+    <ClInclude Include="mediastream\RTCStatsReport.h">
+      <Filter>mediastream</Filter>
+    </ClInclude>
+    <ClInclude Include="mediastream\NavigatorUserMediaSuccessCallback.h">
+      <Filter>mediastream</Filter>
+    </ClInclude>
+    <ClCompile Include="mediastream\MediaStreamTrackSourcesRequest.cpp">
+      <Filter>mediastream</Filter>
+    </ClCompile>
+    <ClCompile Include="mediastream\URLMediaStream.cpp">
+      <Filter>mediastream</Filter>
+    </ClCompile>
+    <ClCompile Include="mediastream\MediaStreamRegistry.cpp">
+      <Filter>mediastream</Filter>
+    </ClCompile>
+    <ClInclude Include="mediastream\NavigatorUserMediaErrorCallback.h">
+      <Filter>mediastream</Filter>
+    </ClInclude>
+    <ClInclude Include="mediastream\RTCDataChannelEvent.h">
+      <Filter>mediastream</Filter>
+    </ClInclude>
+    <ClInclude Include="mediastream\RTCDTMFToneChangeEvent.h">
+      <Filter>mediastream</Filter>
+    </ClInclude>
+    <ClInclude Include="mediastream\MediaConstraintsImpl.h">
+      <Filter>mediastream</Filter>
+    </ClInclude>
+    <ClInclude Include="mediastream\NavigatorUserMediaError.h">
+      <Filter>mediastream</Filter>
+    </ClInclude>
+    <ClCompile Include="mediastream\UserMediaController.cpp">
+      <Filter>mediastream</Filter>
+    </ClCompile>
+    <ClCompile Include="mediastream\RTCDataChannel.cpp">
+      <Filter>mediastream</Filter>
+    </ClCompile>
+    <ClCompile Include="mediastream\WebMediaStreamTrackSourcesRequest.cpp">
+      <Filter>mediastream</Filter>
+    </ClCompile>
+    <ClCompile Include="mediastream\UserMediaRequest.cpp">
+      <Filter>mediastream</Filter>
+    </ClCompile>
+    <ClInclude Include="mediastream\MediaStreamTrackEvent.h">
+      <Filter>mediastream</Filter>
+    </ClInclude>
+    <ClCompile Include="mediastream\RTCVoidRequestImpl.cpp">
+      <Filter>mediastream</Filter>
+    </ClCompile>
+    <ClInclude Include="mediastream\RTCDataChannel.h">
+      <Filter>mediastream</Filter>
+    </ClInclude>
+    <ClInclude Include="mediastream\MediaStreamTrackSourcesRequest.h">
+      <Filter>mediastream</Filter>
+    </ClInclude>
+    <ClCompile Include="mediastream\RTCDTMFSender.cpp">
+      <Filter>mediastream</Filter>
+    </ClCompile>
+    <ClInclude Include="mediastream\MediaStreamTrackSourcesCallback.h">
+      <Filter>mediastream</Filter>
+    </ClInclude>
+    <ClInclude Include="mediastream\UserMediaController.h">
+      <Filter>mediastream</Filter>
+    </ClInclude>
+    <ClInclude Include="mediastream\MediaStream.h">
+      <Filter>mediastream</Filter>
+    </ClInclude>
+    <ClCompile Include="mediastream\RTCPeerConnection.cpp">
+      <Filter>mediastream</Filter>
+    </ClCompile>
+    <ClCompile Include="mediastream\MediaStreamTrackEvent.cpp">
+      <Filter>mediastream</Filter>
+    </ClCompile>
+    <ClInclude Include="mediastream\RTCStatsRequestImpl.h">
+      <Filter>mediastream</Filter>
+    </ClInclude>
+    <ClInclude Include="mediastream\MediaStreamEvent.h">
+      <Filter>mediastream</Filter>
+    </ClInclude>
+    <ClInclude Include="mediastream\RTCSessionDescription.h">
+      <Filter>mediastream</Filter>
+    </ClInclude>
+    <ClInclude Include="mediastream\MediaStreamRegistry.h">
+      <Filter>mediastream</Filter>
+    </ClInclude>
+    <ClInclude Include="mediastream\RTCIceCandidate.h">
+      <Filter>mediastream</Filter>
+    </ClInclude>
+    <ClInclude Include="mediastream\UserMediaRequest.h">
+      <Filter>mediastream</Filter>
+    </ClInclude>
+    <ClInclude Include="mediastream\RTCDTMFSender.h">
+      <Filter>mediastream</Filter>
+    </ClInclude>
+    <ClCompile Include="mediastream\RTCStatsRequestImpl.cpp">
+      <Filter>mediastream</Filter>
+    </ClCompile>
+    <ClInclude Include="mediastream\RTCSessionDescriptionRequestImpl.h">
+      <Filter>mediastream</Filter>
+    </ClInclude>
+    <ClInclude Include="mediastream\MediaStreamTrack.h">
+      <Filter>mediastream</Filter>
+    </ClInclude>
+    <ClInclude Include="mediastream\NavigatorMediaStream.h">
+      <Filter>mediastream</Filter>
+    </ClInclude>
+    <ClCompile Include="mediastream\RTCDataChannelEvent.cpp">
+      <Filter>mediastream</Filter>
+    </ClCompile>
+    <ClInclude Include="mediastream\SourceInfo.h">
+      <Filter>mediastream</Filter>
+    </ClInclude>
+    <ClCompile Include="mediastream\RTCIceCandidate.cpp">
+      <Filter>mediastream</Filter>
+    </ClCompile>
+    <ClCompile Include="mediastream\RTCSessionDescription.cpp">
+      <Filter>mediastream</Filter>
+    </ClCompile>
+    <ClInclude Include="mediastream\RTCVoidRequestImpl.h">
+      <Filter>mediastream</Filter>
+    </ClInclude>
+    <ClCompile Include="mediastream\RTCDTMFToneChangeEvent.cpp">
+      <Filter>mediastream</Filter>
+    </ClCompile>
+    <ClCompile Include="mediastream\MediaStreamTrack.cpp">
+      <Filter>mediastream</Filter>
+    </ClCompile>
+    <ClCompile Include="mediastream\RTCStatsResponse.cpp">
+      <Filter>mediastream</Filter>
+    </ClCompile>
+    <ClCompile Include="mediastream\RTCSessionDescriptionRequestImpl.cpp">
+      <Filter>mediastream</Filter>
+    </ClCompile>
+    <ClInclude Include="mediastream\RTCSessionDescriptionCallback.h">
+      <Filter>mediastream</Filter>
+    </ClInclude>
+    <ClInclude Include="mediastream\RTCIceCandidateEvent.h">
+      <Filter>mediastream</Filter>
+    </ClInclude>
+    <ClInclude Include="indexeddb\DOMWindowIndexedDatabase.h">
+      <Filter>indexeddb</Filter>
+    </ClInclude>
+    <ClInclude Include="indexeddb\IDBEventDispatcher.h">
+      <Filter>indexeddb</Filter>
+    </ClInclude>
+    <ClCompile Include="indexeddb\IDBDatabase.cpp">
+      <Filter>indexeddb</Filter>
+    </ClCompile>
+    <ClInclude Include="indexeddb\IndexedDB.h">
+      <Filter>indexeddb</Filter>
+    </ClInclude>
+    <ClCompile Include="indexeddb\IDBFactory.cpp">
+      <Filter>indexeddb</Filter>
+    </ClCompile>
+    <ClCompile Include="indexeddb\IDBPendingTransactionMonitor.cpp">
+      <Filter>indexeddb</Filter>
+    </ClCompile>
+    <ClInclude Include="indexeddb\IDBTracing.h">
+      <Filter>indexeddb</Filter>
+    </ClInclude>
+    <ClInclude Include="indexeddb\IDBObjectStore.h">
+      <Filter>indexeddb</Filter>
+    </ClInclude>
+    <ClInclude Include="indexeddb\IDBIndex.h">
+      <Filter>indexeddb</Filter>
+    </ClInclude>
+    <ClInclude Include="indexeddb\IDBCallbacks.h">
+      <Filter>indexeddb</Filter>
+    </ClInclude>
+    <ClCompile Include="indexeddb\WorkerGlobalScopeIndexedDatabase.cpp">
+      <Filter>indexeddb</Filter>
+    </ClCompile>
+    <ClCompile Include="indexeddb\IDBDatabaseCallbacksImpl.cpp">
+      <Filter>indexeddb</Filter>
+    </ClCompile>
+    <ClCompile Include="indexeddb\PageGroupIndexedDatabase.cpp">
+      <Filter>indexeddb</Filter>
+    </ClCompile>
+    <ClInclude Include="indexeddb\IDBDatabase.h">
+      <Filter>indexeddb</Filter>
+    </ClInclude>
+    <ClInclude Include="indexeddb\IDBDatabaseCallbacks.h">
+      <Filter>indexeddb</Filter>
+    </ClInclude>
+    <ClInclude Include="indexeddb\IDBPendingTransactionMonitor.h">
+      <Filter>indexeddb</Filter>
+    </ClInclude>
+    <ClCompile Include="indexeddb\IDBCursorWithValue.cpp">
+      <Filter>indexeddb</Filter>
+    </ClCompile>
+    <ClInclude Include="indexeddb\IDBFactoryBackendInterface.h">
+      <Filter>indexeddb</Filter>
+    </ClInclude>
+    <ClInclude Include="indexeddb\IDBKeyRange.h">
+      <Filter>indexeddb</Filter>
+    </ClInclude>
+    <ClInclude Include="indexeddb\IDBAny.h">
+      <Filter>indexeddb</Filter>
+    </ClInclude>
+    <ClInclude Include="indexeddb\IDBKeyPath.h">
+      <Filter>indexeddb</Filter>
+    </ClInclude>
+    <ClInclude Include="indexeddb\IDBHistograms.h">
+      <Filter>indexeddb</Filter>
+    </ClInclude>
+    <ClInclude Include="indexeddb\IDBFactory.h">
+      <Filter>indexeddb</Filter>
+    </ClInclude>
+    <ClCompile Include="indexeddb\IDBAny.cpp">
+      <Filter>indexeddb</Filter>
+    </ClCompile>
+    <ClCompile Include="indexeddb\IDBKey.cpp">
+      <Filter>indexeddb</Filter>
+    </ClCompile>
+    <ClInclude Include="indexeddb\WorkerGlobalScopeIndexedDatabase.h">
+      <Filter>indexeddb</Filter>
+    </ClInclude>
+    <ClCompile Include="indexeddb\IDBObjectStore.cpp">
+      <Filter>indexeddb</Filter>
+    </ClCompile>
+    <ClCompile Include="indexeddb\IDBOpenDBRequest.cpp">
+      <Filter>indexeddb</Filter>
+    </ClCompile>
+    <ClInclude Include="indexeddb\IDBDatabaseBackendInterface.h">
+      <Filter>indexeddb</Filter>
+    </ClInclude>
+    <ClInclude Include="indexeddb\IDBVersionChangeEvent.h">
+      <Filter>indexeddb</Filter>
+    </ClInclude>
+    <ClInclude Include="indexeddb\IDBKey.h">
+      <Filter>indexeddb</Filter>
+    </ClInclude>
+    <ClCompile Include="indexeddb\IDBVersionChangeEvent.cpp">
+      <Filter>indexeddb</Filter>
+    </ClCompile>
+    <ClInclude Include="indexeddb\IDBOpenDBRequest.h">
+      <Filter>indexeddb</Filter>
+    </ClInclude>
+    <ClInclude Include="indexeddb\IDBRequest.h">
+      <Filter>indexeddb</Filter>
+    </ClInclude>
+    <ClInclude Include="indexeddb\IDBCursorWithValue.h">
+      <Filter>indexeddb</Filter>
+    </ClInclude>
+    <ClInclude Include="indexeddb\IDBTransaction.h">
+      <Filter>indexeddb</Filter>
+    </ClInclude>
+    <ClCompile Include="indexeddb\DOMWindowIndexedDatabase.cpp">
+      <Filter>indexeddb</Filter>
+    </ClCompile>
+    <ClInclude Include="indexeddb\IDBDatabaseCallbacksImpl.h">
+      <Filter>indexeddb</Filter>
+    </ClInclude>
+    <ClInclude Include="indexeddb\IDBCursorBackendInterface.h">
+      <Filter>indexeddb</Filter>
+    </ClInclude>
+    <ClInclude Include="indexeddb\IDBCursor.h">
+      <Filter>indexeddb</Filter>
+    </ClInclude>
+    <ClCompile Include="indexeddb\IDBCursor.cpp">
+      <Filter>indexeddb</Filter>
+    </ClCompile>
+    <ClCompile Include="indexeddb\IDBTransaction.cpp">
+      <Filter>indexeddb</Filter>
+    </ClCompile>
+    <ClCompile Include="indexeddb\IDBRequest.cpp">
+      <Filter>indexeddb</Filter>
+    </ClCompile>
+    <ClInclude Include="indexeddb\PageGroupIndexedDatabase.h">
+      <Filter>indexeddb</Filter>
+    </ClInclude>
+    <ClCompile Include="indexeddb\IDBIndex.cpp">
+      <Filter>indexeddb</Filter>
+    </ClCompile>
+    <ClCompile Include="indexeddb\IDBKeyPath.cpp">
+      <Filter>indexeddb</Filter>
+    </ClCompile>
+    <ClInclude Include="indexeddb\IDBMetadata.h">
+      <Filter>indexeddb</Filter>
+    </ClInclude>
+    <ClCompile Include="indexeddb\IDBKeyRange.cpp">
+      <Filter>indexeddb</Filter>
+    </ClCompile>
+    <ClCompile Include="indexeddb\IDBEventDispatcher.cpp">
+      <Filter>indexeddb</Filter>
+    </ClCompile>
+    <ClInclude Include="indexeddb\chromium\IDBFactoryBackendInterfaceChromium.h">
+      <Filter>indexeddb\chromium</Filter>
+    </ClInclude>
+    <ClCompile Include="indexeddb\chromium\IDBFactoryBackendInterfaceChromium.cpp">
+      <Filter>indexeddb\chromium</Filter>
+    </ClCompile>
+    <ClInclude Include="crypto\AesCbcParams.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="crypto\KeyPair.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClCompile Include="crypto\Crypto.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClInclude Include="crypto\HmacParams.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClCompile Include="crypto\Key.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="crypto\Algorithm.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="crypto\SubtleCrypto.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClInclude Include="crypto\RsaSsaParams.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="crypto\Key.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClCompile Include="crypto\WorkerGlobalScopeCrypto.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="crypto\HmacParams.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClInclude Include="crypto\NormalizeAlgorithm.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClCompile Include="crypto\AesCbcParams.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClInclude Include="crypto\HmacKeyParams.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="crypto\DOMWindowCrypto.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="crypto\RsaKeyGenParams.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClCompile Include="crypto\RsaKeyGenParams.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClInclude Include="crypto\Crypto.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClCompile Include="crypto\RsaSsaParams.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClInclude Include="crypto\WorkerCrypto.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="crypto\AesKeyGenParams.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="crypto\Algorithm.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClCompile Include="crypto\HmacKeyParams.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="crypto\KeyPair.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClInclude Include="crypto\WorkerGlobalScopeCrypto.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClCompile Include="crypto\DOMWindowCrypto.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClInclude Include="crypto\SubtleCrypto.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClCompile Include="crypto\NormalizeAlgorithm.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="crypto\AesKeyGenParams.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="crypto\WorkerCrypto.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClInclude Include="crypto\CryptoResult.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClCompile Include="crypto\CryptoResult.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="imagebitmap\ImageBitmapFactories.cpp">
+      <Filter>imagebitmap</Filter>
+    </ClCompile>
+    <ClInclude Include="imagebitmap\ImageBitmapFactories.h">
+      <Filter>imagebitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="filesystem\DataTransferItemFileSystem.h">
+      <Filter>filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="filesystem\FileWriterCallback.h">
+      <Filter>filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="filesystem\MetadataCallback.h">
+      <Filter>filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="filesystem\Entry.h">
+      <Filter>filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="filesystem\FileSystemCallback.h">
+      <Filter>filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="filesystem\FileWriter.h">
+      <Filter>filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="filesystem\FileWriterSync.h">
+      <Filter>filesystem</Filter>
+    </ClInclude>
+    <ClCompile Include="filesystem\DirectoryReader.cpp">
+      <Filter>filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="filesystem\DOMFileSystemSync.cpp">
+      <Filter>filesystem</Filter>
+    </ClCompile>
+    <ClInclude Include="filesystem\DraggedIsolatedFileSystem.h">
+      <Filter>filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="filesystem\FileEntrySync.h">
+      <Filter>filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="filesystem\EntryBase.h">
+      <Filter>filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="filesystem\FileSystemCallbacks.h">
+      <Filter>filesystem</Filter>
+    </ClInclude>
+    <ClCompile Include="filesystem\DraggedIsolatedFileSystem.cpp">
+      <Filter>filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="filesystem\DOMWindowFileSystem.cpp">
+      <Filter>filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="filesystem\DOMFileSystemBase.cpp">
+      <Filter>filesystem</Filter>
+    </ClCompile>
+    <ClInclude Include="filesystem\DOMFilePath.h">
+      <Filter>filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="filesystem\EntriesCallback.h">
+      <Filter>filesystem</Filter>
+    </ClInclude>
+    <ClCompile Include="filesystem\FileSystemCallbacks.cpp">
+      <Filter>filesystem</Filter>
+    </ClCompile>
+    <ClInclude Include="filesystem\FileEntry.h">
+      <Filter>filesystem</Filter>
+    </ClInclude>
+    <ClCompile Include="filesystem\DOMFileSystem.cpp">
+      <Filter>filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="filesystem\EntrySync.cpp">
+      <Filter>filesystem</Filter>
+    </ClCompile>
+    <ClInclude Include="filesystem\FileSystemFlags.h">
+      <Filter>filesystem</Filter>
+    </ClInclude>
+    <ClCompile Include="filesystem\DirectoryReaderSync.cpp">
+      <Filter>filesystem</Filter>
+    </ClCompile>
+    <ClInclude Include="filesystem\EntryCallback.h">
+      <Filter>filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="filesystem\DirectoryReaderSync.h">
+      <Filter>filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="filesystem\WorkerGlobalScopeFileSystem.h">
+      <Filter>filesystem</Filter>
+    </ClInclude>
+    <ClCompile Include="filesystem\Entry.cpp">
+      <Filter>filesystem</Filter>
+    </ClCompile>
+    <ClInclude Include="filesystem\EntrySync.h">
+      <Filter>filesystem</Filter>
+    </ClInclude>
+    <ClCompile Include="filesystem\FileWriterBase.cpp">
+      <Filter>filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="filesystem\DOMFilePath.cpp">
+      <Filter>filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="filesystem\HTMLInputElementFileSystem.cpp">
+      <Filter>filesystem</Filter>
+    </ClCompile>
+    <ClInclude Include="filesystem\FileSystemClient.h">
+      <Filter>filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="filesystem\FileCallback.h">
+      <Filter>filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="filesystem\FileSystemType.h">
+      <Filter>filesystem</Filter>
+    </ClInclude>
+    <ClCompile Include="filesystem\FileWriter.cpp">
+      <Filter>filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="filesystem\FileEntry.cpp">
+      <Filter>filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="filesystem\EntryBase.cpp">
+      <Filter>filesystem</Filter>
+    </ClCompile>
+    <ClInclude Include="filesystem\DirectoryEntry.h">
+      <Filter>filesystem</Filter>
+    </ClInclude>
+    <ClCompile Include="filesystem\LocalFileSystem.cpp">
+      <Filter>filesystem</Filter>
+    </ClCompile>
+    <ClInclude Include="filesystem\ErrorCallback.h">
+      <Filter>filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="filesystem\FileWriterBase.h">
+      <Filter>filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="filesystem\WorkerLocalFileSystem.h">
+      <Filter>filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="filesystem\DOMFileSystemSync.h">
+      <Filter>filesystem</Filter>
+    </ClInclude>
+    <ClCompile Include="filesystem\DirectoryEntrySync.cpp">
+      <Filter>filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="filesystem\DataTransferItemFileSystem.cpp">
+      <Filter>filesystem</Filter>
+    </ClCompile>
+    <ClInclude Include="filesystem\Metadata.h">
+      <Filter>filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="filesystem\HTMLInputElementFileSystem.h">
+      <Filter>filesystem</Filter>
+    </ClInclude>
+    <ClCompile Include="filesystem\WorkerLocalFileSystem.cpp">
+      <Filter>filesystem</Filter>
+    </ClCompile>
+    <ClInclude Include="filesystem\DirectoryEntrySync.h">
+      <Filter>filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="filesystem\SyncCallbackHelper.h">
+      <Filter>filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="filesystem\DOMFileSystemBase.h">
+      <Filter>filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="filesystem\DirectoryReaderBase.h">
+      <Filter>filesystem</Filter>
+    </ClInclude>
+    <ClCompile Include="filesystem\FileEntrySync.cpp">
+      <Filter>filesystem</Filter>
+    </ClCompile>
+    <ClInclude Include="filesystem\DOMFileSystem.h">
+      <Filter>filesystem</Filter>
+    </ClInclude>
+    <ClCompile Include="filesystem\DirectoryEntry.cpp">
+      <Filter>filesystem</Filter>
+    </ClCompile>
+    <ClInclude Include="filesystem\DOMWindowFileSystem.h">
+      <Filter>filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="filesystem\DirectoryReader.h">
+      <Filter>filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="filesystem\FileWriterBaseCallback.h">
+      <Filter>filesystem</Filter>
+    </ClInclude>
+    <ClCompile Include="filesystem\WorkerGlobalScopeFileSystem.cpp">
+      <Filter>filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="filesystem\FileWriterSync.cpp">
+      <Filter>filesystem</Filter>
+    </ClCompile>
+    <ClInclude Include="filesystem\LocalFileSystem.h">
+      <Filter>filesystem</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

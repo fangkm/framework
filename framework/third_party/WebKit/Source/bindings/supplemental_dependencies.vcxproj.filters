@@ -1,0 +1,2210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core">
+      <UniqueIdentifier>{16178836-FF57-2363-AA2B-8BAC1DC00026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\xml">
+      <UniqueIdentifier>{48027D13-271A-5AC3-0BD0-ADB666616CFE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\xml\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\dom">
+      <UniqueIdentifier>{95A9DB90-1E7F-023A-E079-41927B6058A5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\dom\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\dom\shadow">
+      <UniqueIdentifier>{E7B66CB8-51D6-4755-7B5E-B0C674B9502D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\dom\shadow\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\svg">
+      <UniqueIdentifier>{B26ADB08-2A5F-6612-9BA2-9FE17A953D2B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\svg\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\workers">
+      <UniqueIdentifier>{3D4B84AF-1925-195A-D7D8-6E45D335B44B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\workers\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\storage">
+      <UniqueIdentifier>{58865380-DD0A-5071-E48F-7846A09B1814}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\storage\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\loader">
+      <UniqueIdentifier>{3E8AF183-CF37-3672-A18D-21E019961B7A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\loader\appcache">
+      <UniqueIdentifier>{DCADB86C-725F-CB9F-1EF6-EA4E2520E817}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\loader\appcache\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\fileapi">
+      <UniqueIdentifier>{07449D65-155A-88FA-AE73-F56A090F72A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\fileapi\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\html">
+      <UniqueIdentifier>{6B759987-DACC-E33B-CA3B-4ABB0218955E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\html\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\html\track">
+      <UniqueIdentifier>{32A30229-84E9-3151-A2EB-81BD6E279914}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\html\track\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\html\canvas">
+      <UniqueIdentifier>{DEA4AB51-B549-85A1-22D5-E0016A2DBD70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\html\canvas\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\html\ime">
+      <UniqueIdentifier>{94DDB6FC-0A93-3C79-4942-FD121B6829C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\html\ime\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\html\shadow">
+      <UniqueIdentifier>{E7B66CB8-51D6-4755-7B5E-B0C674B9502D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\html\shadow\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\plugins">
+      <UniqueIdentifier>{9DE023B3-F1C0-CF0D-AF52-3287B388D922}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\plugins\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\inspector">
+      <UniqueIdentifier>{781D0FAB-5D65-9B59-CD02-B1BEBA9FCDA6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\inspector\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\page">
+      <UniqueIdentifier>{0783969D-799E-590A-9409-265584256E20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\page\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\css">
+      <UniqueIdentifier>{87F14F59-6AAB-9D50-4AA6-3EAC67BD4AB0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\css\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules">
+      <UniqueIdentifier>{212BF124-DF0B-CDE7-390D-94BCC1C226CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\mediasource">
+      <UniqueIdentifier>{70E4EFCA-A612-6F58-0014-6C8B63C50A06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\mediasource\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\indexeddb">
+      <UniqueIdentifier>{2AF1D33C-3BAD-411B-CE20-0810BE24291B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\indexeddb\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\encryptedmedia">
+      <UniqueIdentifier>{5C85E201-BD52-C49F-B288-DB3F058E3D1B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\encryptedmedia\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\gamepad">
+      <UniqueIdentifier>{930DED89-AB29-FBA2-2E5E-CDFDD19A7E73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\gamepad\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\geolocation">
+      <UniqueIdentifier>{42EA6ED6-A702-DB69-AED0-ED93767C1994}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\geolocation\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\webaudio">
+      <UniqueIdentifier>{08C86603-A0A7-C9B2-CEAE-BDDE4EB98040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\webaudio\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\vibration">
+      <UniqueIdentifier>{6817CECB-A842-DA0A-7E6D-E8F81B9C2349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\vibration\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\quota">
+      <UniqueIdentifier>{1BEA1856-1189-37CA-8138-9A45CAA7E310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\quota\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\crypto">
+      <UniqueIdentifier>{DFFB1441-5E91-CEAB-DBC4-604225CE8161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\crypto\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\notifications">
+      <UniqueIdentifier>{8B864D51-51C2-204B-66F4-F7E9B50F2996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\notifications\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\webdatabase">
+      <UniqueIdentifier>{3A2BC2FE-BD8C-C591-6D05-0DC13DE856D5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\webdatabase\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\device_orientation">
+      <UniqueIdentifier>{7AFE5C68-7E78-200B-1609-6C0DBAEC6FC0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\device_orientation\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\speech">
+      <UniqueIdentifier>{6B7E6414-F041-7B74-8A68-78B9AFDFE9E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\speech\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\donottrack">
+      <UniqueIdentifier>{BD182861-4CD5-D83C-85FC-B44C2A4F3CCA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\donottrack\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\filesystem">
+      <UniqueIdentifier>{EE58ECC9-E664-3D5C-8B17-FB2FBB41FCCC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\filesystem\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\performance">
+      <UniqueIdentifier>{033A1E7F-AB2C-5213-0350-5A216E0F213C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\performance\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\webmidi">
+      <UniqueIdentifier>{F1C92683-501D-92BB-D620-04CEC51C3F8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\webmidi\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\navigatorcontentutils">
+      <UniqueIdentifier>{271FB163-93EE-EF25-AAFA-D37464266C7A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\navigatorcontentutils\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\websockets">
+      <UniqueIdentifier>{EF2312FB-6C7F-BDD7-56A4-09C85626B3B9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\websockets\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\mediastream">
+      <UniqueIdentifier>{165B521C-54D1-D66A-48BD-22D9C1BF8929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\mediastream\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit">
+      <UniqueIdentifier>{1919EB75-19A6-2BAD-ABB0-47BF57C87A0F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit\Source">
+      <UniqueIdentifier>{26D65320-41C3-1A61-26C0-583D658C7F16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit\Source\WebKit">
+      <UniqueIdentifier>{1919EB75-19A6-2BAD-ABB0-47BF57C87A0F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit\Source\WebKit\chromium">
+      <UniqueIdentifier>{A235D2A4-63B6-DD4D-7F7F-D3EA248BB602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts">
+      <UniqueIdentifier>{4FDF30BD-A895-58AC-A912-7C70A5371544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="derived_sources.gyp"/>
+    <None Include="idl_files_list.tmp">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <Midl Include="..\core\xml\XMLHttpRequestUpload.idl">
+      <Filter>..\core\xml\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\xml\XPathResult.idl">
+      <Filter>..\core\xml\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\xml\XPathExpression.idl">
+      <Filter>..\core\xml\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\xml\XMLHttpRequestProgressEvent.idl">
+      <Filter>..\core\xml\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\xml\XMLHttpRequest.idl">
+      <Filter>..\core\xml\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\xml\XPathNSResolver.idl">
+      <Filter>..\core\xml\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\xml\DOMParser.idl">
+      <Filter>..\core\xml\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\xml\XSLTProcessor.idl">
+      <Filter>..\core\xml\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\xml\XPathEvaluator.idl">
+      <Filter>..\core\xml\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\xml\XMLSerializer.idl">
+      <Filter>..\core\xml\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\ProgressEvent.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\DeviceOrientationEvent.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\Element.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\TouchList.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\Clipboard.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\CompositionEvent.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\WebKitNamedFlow.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\TouchEvent.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\ClientRectList.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\DOMStringMap.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\Entity.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\DOMStringList.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\SecurityPolicyViolationEvent.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\DataTransferItemList.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\DOMError.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\MessagePort.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\PromiseResolver.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\Text.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\HashChangeEvent.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\TransitionEvent.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\Document.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\Notation.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\Range.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\FocusEvent.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\Promise.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\ProcessingInstruction.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\NamedNodeMap.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\Event.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\AutocompleteErrorEvent.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\StringCallback.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\ChildNode.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\Attr.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\BeforeLoadEvent.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\CharacterData.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\DataTransferItem.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\EventTarget.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\DOMImplementation.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\PageTransitionEvent.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\PopStateEvent.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\WebKitNamedFlowCollection.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\DocumentType.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\MutationObserver.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\RequestAnimationFrameCallback.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\Node.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\MutationEvent.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\MutationRecord.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\DocumentFragment.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\KeyboardEvent.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\TextEvent.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\NodeFilter.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\CDATASection.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\MessageChannel.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\ResourceProgressEvent.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\MouseEvent.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\DOMException.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\ErrorEvent.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\WheelEvent.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\ParentNode.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\CustomEvent.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\WebKitAnimationEvent.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\DocumentFullscreen.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\NodeIterator.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\NodeList.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\Comment.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\Touch.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\MessageEvent.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\UIEvent.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\ClientRect.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\OverflowEvent.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\TreeWalker.idl">
+      <Filter>..\core\dom\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\shadow\ShadowRoot.idl">
+      <Filter>..\core\dom\shadow\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGGradientElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGSVGElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGTextPathElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGFEFuncGElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGPathSegMovetoRel.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGFEConvolveMatrixElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGFEFuncBElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGAnimatedPreserveAspectRatio.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGAltGlyphElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGPathSegLinetoVerticalAbs.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGFEFloodElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGMatrix.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGAnimationElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGPathSegLinetoHorizontalAbs.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGFontFaceSrcElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGPolygonElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGPathSegList.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGMPathElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGAnimatedBoolean.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGFontFaceNameElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGFilterElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGStyledElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGStringList.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGZoomEvent.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGDefsElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGHKernElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGFESpecularLightingElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGCircleElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGTextPositioningElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGFontElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGForeignObjectElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGAnimatedLengthList.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGAngle.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGPathSegCurvetoQuadraticAbs.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGFEFuncAElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGTests.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGTRefElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGPathSegArcAbs.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGRadialGradientElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGPaint.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGRectElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGPathSegCurvetoQuadraticRel.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGPreserveAspectRatio.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGPointList.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGPathSegCurvetoCubicAbs.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGPathSegLinetoVerticalRel.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGComponentTransferFunctionElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGRect.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGMaskElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGAltGlyphItemElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGAnimatedString.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGPathElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGViewSpec.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGClipPathElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGTextContentElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGFEDiffuseLightingElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGFEDisplacementMapElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGFEBlendElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGAnimatedNumberList.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGGElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGFontFaceUriElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGFEGaussianBlurElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGAnimateTransformElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGAnimatedTransformList.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGMarkerElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGUnitTypes.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGPathSegArcRel.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGPathSegCurvetoQuadraticSmoothRel.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGFECompositeElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGAnimatedAngle.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGAnimatedLength.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGPathSegMovetoAbs.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGFEMergeElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGFontFaceFormatElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGDescElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGTransformList.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGGlyphElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGPathSegLinetoAbs.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGAnimateMotionElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGGlyphRefElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGNumber.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGFEImageElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGFEMergeNodeElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGSetElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGFETileElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGRenderingIntent.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGDocument.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGLinearGradientElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGExternalResourcesRequired.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGAnimateColorElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGPolylineElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGViewElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGNumberList.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGFEDropShadowElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGCursorElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGAElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGPatternElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGUseElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGStyleElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGSwitchElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGMetadataElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGElementInstanceList.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGFEFuncRElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGTSpanElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGSymbolElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGURIReference.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGTextElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGEllipseElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGFitToViewBox.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGPathSegCurvetoQuadraticSmoothAbs.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGTransform.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGAnimatedNumber.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGAnimateElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGMissingGlyphElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGPoint.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGTitleElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGLengthList.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGAltGlyphDefElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGScriptElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGAnimatedRect.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGPathSegLinetoRel.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGPathSeg.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGZoomAndPan.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGColor.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGFontFaceElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGFEColorMatrixElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGImageElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGPathSegCurvetoCubicRel.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGAnimatedEnumeration.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGLength.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGStopElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGPathSegLinetoHorizontalRel.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGFETurbulenceElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGPathSegClosePath.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGAnimatedInteger.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGLineElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGPathSegCurvetoCubicSmoothRel.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGPathSegCurvetoCubicSmoothAbs.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGFEComponentTransferElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGFESpotLightElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGFEOffsetElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGFEPointLightElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGFEDistantLightElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGElementInstance.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGVKernElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGFEMorphologyElement.idl">
+      <Filter>..\core\svg\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\workers\WorkerLocation.idl">
+      <Filter>..\core\workers\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\workers\WorkerGlobalScope.idl">
+      <Filter>..\core\workers\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\workers\DedicatedWorkerGlobalScope.idl">
+      <Filter>..\core\workers\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\workers\Worker.idl">
+      <Filter>..\core\workers\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\workers\SharedWorkerGlobalScope.idl">
+      <Filter>..\core\workers\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\workers\AbstractWorker.idl">
+      <Filter>..\core\workers\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\workers\SharedWorker.idl">
+      <Filter>..\core\workers\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\storage\Storage.idl">
+      <Filter>..\core\storage\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\storage\StorageEvent.idl">
+      <Filter>..\core\storage\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\loader\appcache\DOMApplicationCache.idl">
+      <Filter>..\core\loader\appcache\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\fileapi\FileError.idl">
+      <Filter>..\core\fileapi\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\fileapi\File.idl">
+      <Filter>..\core\fileapi\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\fileapi\Stream.idl">
+      <Filter>..\core\fileapi\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\fileapi\FileException.idl">
+      <Filter>..\core\fileapi\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\fileapi\Blob.idl">
+      <Filter>..\core\fileapi\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\fileapi\FileReader.idl">
+      <Filter>..\core\fileapi\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\fileapi\FileList.idl">
+      <Filter>..\core\fileapi\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\fileapi\FileReaderSync.idl">
+      <Filter>..\core\fileapi\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLLegendElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLTextAreaElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLDivElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLTableCellElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLInputElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLDataListElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLDetailsElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLOListElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLTableSectionElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLHtmlElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLDialogElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLSpanElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLHeadElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLMediaElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\MediaKeyEvent.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\FormData.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLMarqueeElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLUListElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLPreElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLBRElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLLinkElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLOutputElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLEmbedElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLImageElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\ValidityState.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLMetaElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLAudioElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLTrackElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLFrameElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLLabelElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLFormControlsCollection.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLIFrameElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLFieldSetElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\MediaController.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLHeadingElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\TimeRanges.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLOptionsCollection.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLTableRowElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLMeterElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLAllCollection.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLSourceElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLQuoteElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\RadioNodeList.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLCollection.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLSelectElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLLIElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLCanvasElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLBodyElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\URL.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLButtonElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLTitleElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLProgressElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLVideoElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLOptGroupElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLStyleElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLHRElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLAreaElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\DOMSettableTokenList.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLAppletElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\DOMTokenList.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLTemplateElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLAnchorElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLObjectElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLDirectoryElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\ImageData.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLParamElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLDListElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLBaseElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLFormElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLMenuElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLMapElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLUnknownElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLScriptElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLOptionElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLTableColElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLDocument.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\MediaError.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLTableCaptionElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLTableElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\TextMetrics.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLParagraphElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLFontElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLFrameSetElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLModElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\VoidCallback.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\HTMLKeygenElement.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\MediaKeyError.idl">
+      <Filter>..\core\html\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\track\TextTrackList.idl">
+      <Filter>..\core\html\track\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\track\TextTrackCue.idl">
+      <Filter>..\core\html\track\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\track\TextTrackRegionList.idl">
+      <Filter>..\core\html\track\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\track\TextTrackRegion.idl">
+      <Filter>..\core\html\track\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\track\TextTrack.idl">
+      <Filter>..\core\html\track\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\track\TrackEvent.idl">
+      <Filter>..\core\html\track\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\track\TextTrackCueList.idl">
+      <Filter>..\core\html\track\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\OESTextureFloatLinear.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\Uint32Array.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\Uint8Array.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\OESStandardDerivatives.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\Float32Array.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\WebGLContextAttributes.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\WebGLCompressedTextureATC.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\OESVertexArrayObject.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\OESTextureHalfFloat.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\WebGLTexture.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\WebGLRenderbuffer.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\ArrayBufferView.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\Float64Array.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\WebGLVertexArrayObjectOES.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\WebGLShader.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\CanvasRenderingContext.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\WebGLLoseContext.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\OESTextureFloat.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\OESTextureHalfFloatLinear.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\WebGLBuffer.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\WebGLDebugShaders.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\WebGLProgram.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\WebGLCompressedTexturePVRTC.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\Int32Array.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\OESElementIndexUint.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\WebGLUniformLocation.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\WebGLDrawBuffers.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\ArrayBuffer.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\CanvasPattern.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\Int16Array.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\WebGLRenderingContext.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\Uint16Array.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\WebGLCompressedTextureS3TC.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\CanvasGradient.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\WebGLContextEvent.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\WebGLActiveInfo.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\Int8Array.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\WebGLShaderPrecisionFormat.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\ANGLEInstancedArrays.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\WebGLDebugRendererInfo.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\CanvasRenderingContext2D.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\WebGLFramebuffer.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\EXTFragDepth.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\DataView.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\WebGLDepthTexture.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\EXTTextureFilterAnisotropic.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\Path.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\Canvas2DContextAttributes.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\Uint8ClampedArray.idl">
+      <Filter>..\core\html\canvas\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\ime\InputMethodContext.idl">
+      <Filter>..\core\html\ime\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\ime\Composition.idl">
+      <Filter>..\core\html\ime\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\shadow\HTMLContentElement.idl">
+      <Filter>..\core\html\shadow\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\html\shadow\HTMLShadowElement.idl">
+      <Filter>..\core\html\shadow\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\plugins\MimeType.idl">
+      <Filter>..\core\plugins\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\plugins\MimeTypeArray.idl">
+      <Filter>..\core\plugins\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\plugins\PluginArray.idl">
+      <Filter>..\core\plugins\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\plugins\Plugin.idl">
+      <Filter>..\core\plugins\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\inspector\InjectedScriptHost.idl">
+      <Filter>..\core\inspector\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\inspector\JavaScriptCallFrame.idl">
+      <Filter>..\core\inspector\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\inspector\InspectorFrontendHost.idl">
+      <Filter>..\core\inspector\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\inspector\InspectorOverlayHost.idl">
+      <Filter>..\core\inspector\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\page\Location.idl">
+      <Filter>..\core\page\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\page\BarProp.idl">
+      <Filter>..\core\page\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\page\Navigator.idl">
+      <Filter>..\core\page\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\page\Performance.idl">
+      <Filter>..\core\page\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\page\Screen.idl">
+      <Filter>..\core\page\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\page\Window.idl">
+      <Filter>..\core\page\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\page\PerformanceMark.idl">
+      <Filter>..\core\page\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\page\History.idl">
+      <Filter>..\core\page\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\page\Selection.idl">
+      <Filter>..\core\page\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\page\SecurityPolicy.idl">
+      <Filter>..\core\page\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\page\EventSource.idl">
+      <Filter>..\core\page\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\page\SpeechInputEvent.idl">
+      <Filter>..\core\page\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\page\WorkerNavigator.idl">
+      <Filter>..\core\page\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\page\PerformanceResourceTiming.idl">
+      <Filter>..\core\page\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\page\WindowTimers.idl">
+      <Filter>..\core\page\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\page\PerformanceNavigation.idl">
+      <Filter>..\core\page\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\page\SpeechInputResult.idl">
+      <Filter>..\core\page\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\page\PerformanceEntry.idl">
+      <Filter>..\core\page\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\page\WebKitPoint.idl">
+      <Filter>..\core\page\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\page\PerformanceMeasure.idl">
+      <Filter>..\core\page\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\page\WindowPagePopup.idl">
+      <Filter>..\core\page\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\page\SpeechInputResultList.idl">
+      <Filter>..\core\page\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\page\PerformanceTiming.idl">
+      <Filter>..\core\page\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\page\MemoryInfo.idl">
+      <Filter>..\core\page\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\page\PagePopupController.idl">
+      <Filter>..\core\page\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\page\Console.idl">
+      <Filter>..\core\page\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\css\WebKitCSSFilterValue.idl">
+      <Filter>..\core\css\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\css\CSSViewportRule.idl">
+      <Filter>..\core\css\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\css\WebKitCSSTransformValue.idl">
+      <Filter>..\core\css\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\css\StyleSheetList.idl">
+      <Filter>..\core\css\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\css\RGBColor.idl">
+      <Filter>..\core\css\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\css\CSSPrimitiveValue.idl">
+      <Filter>..\core\css\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\css\WebKitCSSMatrix.idl">
+      <Filter>..\core\css\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\css\WebKitCSSKeyframesRule.idl">
+      <Filter>..\core\css\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\css\CSSSupportsRule.idl">
+      <Filter>..\core\css\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\css\MediaList.idl">
+      <Filter>..\core\css\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\css\CSSRule.idl">
+      <Filter>..\core\css\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\css\WebKitCSSKeyframeRule.idl">
+      <Filter>..\core\css\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\css\CSSCharsetRule.idl">
+      <Filter>..\core\css\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\css\StyleMedia.idl">
+      <Filter>..\core\css\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\css\StyleSheet.idl">
+      <Filter>..\core\css\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\css\CSSValue.idl">
+      <Filter>..\core\css\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\css\CSSValueList.idl">
+      <Filter>..\core\css\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\css\CSSHostRule.idl">
+      <Filter>..\core\css\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\css\Rect.idl">
+      <Filter>..\core\css\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\css\CSSMediaRule.idl">
+      <Filter>..\core\css\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\css\CSSStyleRule.idl">
+      <Filter>..\core\css\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\css\Counter.idl">
+      <Filter>..\core\css\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\css\CSSImportRule.idl">
+      <Filter>..\core\css\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\css\MediaQueryList.idl">
+      <Filter>..\core\css\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\css\WebKitCSSFilterRule.idl">
+      <Filter>..\core\css\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\css\WebKitCSSRegionRule.idl">
+      <Filter>..\core\css\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\css\CSSRuleList.idl">
+      <Filter>..\core\css\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\css\FontLoader.idl">
+      <Filter>..\core\css\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\css\CSSStyleSheet.idl">
+      <Filter>..\core\css\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\css\WebKitCSSMixFunctionValue.idl">
+      <Filter>..\core\css\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\css\CSSFontFaceLoadEvent.idl">
+      <Filter>..\core\css\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\css\CSSPageRule.idl">
+      <Filter>..\core\css\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\css\CSSFontFaceRule.idl">
+      <Filter>..\core\css\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\css\CSSStyleDeclaration.idl">
+      <Filter>..\core\css\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\core\css\CSS.idl">
+      <Filter>..\core\css\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\mediasource\SourceBuffer.idl">
+      <Filter>..\modules\mediasource\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\mediasource\WebKitSourceBuffer.idl">
+      <Filter>..\modules\mediasource\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\mediasource\WindowMediaSource.idl">
+      <Filter>..\modules\mediasource\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\mediasource\MediaSource.idl">
+      <Filter>..\modules\mediasource\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\mediasource\WebKitSourceBufferList.idl">
+      <Filter>..\modules\mediasource\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\mediasource\WebKitMediaSource.idl">
+      <Filter>..\modules\mediasource\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\mediasource\SourceBufferList.idl">
+      <Filter>..\modules\mediasource\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\indexeddb\IDBDatabase.idl">
+      <Filter>..\modules\indexeddb\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\indexeddb\IDBIndex.idl">
+      <Filter>..\modules\indexeddb\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\indexeddb\WorkerGlobalScopeIndexedDatabase.idl">
+      <Filter>..\modules\indexeddb\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\indexeddb\IDBRequest.idl">
+      <Filter>..\modules\indexeddb\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\indexeddb\IDBOpenDBRequest.idl">
+      <Filter>..\modules\indexeddb\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\indexeddb\IDBKeyRange.idl">
+      <Filter>..\modules\indexeddb\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\indexeddb\IDBCursor.idl">
+      <Filter>..\modules\indexeddb\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\indexeddb\IDBObjectStore.idl">
+      <Filter>..\modules\indexeddb\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\indexeddb\IDBTransaction.idl">
+      <Filter>..\modules\indexeddb\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\indexeddb\IDBFactory.idl">
+      <Filter>..\modules\indexeddb\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\indexeddb\IDBAny.idl">
+      <Filter>..\modules\indexeddb\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\indexeddb\IDBVersionChangeEvent.idl">
+      <Filter>..\modules\indexeddb\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\indexeddb\WindowIndexedDatabase.idl">
+      <Filter>..\modules\indexeddb\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\indexeddb\IDBCursorWithValue.idl">
+      <Filter>..\modules\indexeddb\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\encryptedmedia\MediaKeyNeededEvent.idl">
+      <Filter>..\modules\encryptedmedia\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\encryptedmedia\MediaKeyMessageEvent.idl">
+      <Filter>..\modules\encryptedmedia\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\encryptedmedia\MediaKeySession.idl">
+      <Filter>..\modules\encryptedmedia\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\encryptedmedia\MediaKeys.idl">
+      <Filter>..\modules\encryptedmedia\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\gamepad\Gamepad.idl">
+      <Filter>..\modules\gamepad\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\gamepad\NavigatorGamepad.idl">
+      <Filter>..\modules\gamepad\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\gamepad\GamepadList.idl">
+      <Filter>..\modules\gamepad\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\geolocation\NavigatorGeolocation.idl">
+      <Filter>..\modules\geolocation\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\geolocation\PositionCallback.idl">
+      <Filter>..\modules\geolocation\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\geolocation\PositionErrorCallback.idl">
+      <Filter>..\modules\geolocation\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\geolocation\PositionError.idl">
+      <Filter>..\modules\geolocation\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\geolocation\Geoposition.idl">
+      <Filter>..\modules\geolocation\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\geolocation\Coordinates.idl">
+      <Filter>..\modules\geolocation\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\geolocation\Geolocation.idl">
+      <Filter>..\modules\geolocation\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webaudio\DynamicsCompressorNode.idl">
+      <Filter>..\modules\webaudio\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webaudio\AudioParam.idl">
+      <Filter>..\modules\webaudio\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webaudio\AudioBuffer.idl">
+      <Filter>..\modules\webaudio\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webaudio\OfflineAudioCompletionEvent.idl">
+      <Filter>..\modules\webaudio\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webaudio\MediaStreamAudioDestinationNode.idl">
+      <Filter>..\modules\webaudio\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webaudio\DelayNode.idl">
+      <Filter>..\modules\webaudio\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webaudio\AudioListener.idl">
+      <Filter>..\modules\webaudio\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webaudio\AnalyserNode.idl">
+      <Filter>..\modules\webaudio\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webaudio\WaveTable.idl">
+      <Filter>..\modules\webaudio\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webaudio\ChannelSplitterNode.idl">
+      <Filter>..\modules\webaudio\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webaudio\WaveShaperNode.idl">
+      <Filter>..\modules\webaudio\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webaudio\ScriptProcessorNode.idl">
+      <Filter>..\modules\webaudio\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webaudio\MediaElementAudioSourceNode.idl">
+      <Filter>..\modules\webaudio\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webaudio\ChannelMergerNode.idl">
+      <Filter>..\modules\webaudio\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webaudio\AudioSourceNode.idl">
+      <Filter>..\modules\webaudio\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webaudio\GainNode.idl">
+      <Filter>..\modules\webaudio\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webaudio\OscillatorNode.idl">
+      <Filter>..\modules\webaudio\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webaudio\AudioProcessingEvent.idl">
+      <Filter>..\modules\webaudio\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webaudio\AudioBufferCallback.idl">
+      <Filter>..\modules\webaudio\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webaudio\PannerNode.idl">
+      <Filter>..\modules\webaudio\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webaudio\AudioContext.idl">
+      <Filter>..\modules\webaudio\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webaudio\AudioNode.idl">
+      <Filter>..\modules\webaudio\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webaudio\BiquadFilterNode.idl">
+      <Filter>..\modules\webaudio\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webaudio\MediaStreamAudioSourceNode.idl">
+      <Filter>..\modules\webaudio\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webaudio\OfflineAudioContext.idl">
+      <Filter>..\modules\webaudio\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webaudio\AudioBufferSourceNode.idl">
+      <Filter>..\modules\webaudio\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webaudio\ConvolverNode.idl">
+      <Filter>..\modules\webaudio\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webaudio\AudioDestinationNode.idl">
+      <Filter>..\modules\webaudio\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\vibration\NavigatorVibration.idl">
+      <Filter>..\modules\vibration\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\quota\WorkerNavigatorStorageQuota.idl">
+      <Filter>..\modules\quota\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\quota\StorageErrorCallback.idl">
+      <Filter>..\modules\quota\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\quota\StorageUsageCallback.idl">
+      <Filter>..\modules\quota\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\quota\StorageQuotaCallback.idl">
+      <Filter>..\modules\quota\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\quota\StorageInfo.idl">
+      <Filter>..\modules\quota\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\quota\NavigatorStorageQuota.idl">
+      <Filter>..\modules\quota\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\quota\WindowQuota.idl">
+      <Filter>..\modules\quota\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\quota\StorageQuota.idl">
+      <Filter>..\modules\quota\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\crypto\WorkerCrypto.idl">
+      <Filter>..\modules\crypto\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\crypto\WindowCrypto.idl">
+      <Filter>..\modules\crypto\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\crypto\Crypto.idl">
+      <Filter>..\modules\crypto\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\crypto\SubtleCrypto.idl">
+      <Filter>..\modules\crypto\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\crypto\WorkerGlobalScopeCrypto.idl">
+      <Filter>..\modules\crypto\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\notifications\Notification.idl">
+      <Filter>..\modules\notifications\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\notifications\WorkerGlobalScopeNotifications.idl">
+      <Filter>..\modules\notifications\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\notifications\NotificationPermissionCallback.idl">
+      <Filter>..\modules\notifications\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\notifications\NotificationCenter.idl">
+      <Filter>..\modules\notifications\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\notifications\WindowNotifications.idl">
+      <Filter>..\modules\notifications\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webdatabase\SQLStatementCallback.idl">
+      <Filter>..\modules\webdatabase\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webdatabase\SQLError.idl">
+      <Filter>..\modules\webdatabase\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webdatabase\SQLResultSet.idl">
+      <Filter>..\modules\webdatabase\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webdatabase\DatabaseSync.idl">
+      <Filter>..\modules\webdatabase\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webdatabase\SQLResultSetRowList.idl">
+      <Filter>..\modules\webdatabase\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webdatabase\WorkerGlobalScopeWebDatabase.idl">
+      <Filter>..\modules\webdatabase\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webdatabase\SQLTransactionSyncCallback.idl">
+      <Filter>..\modules\webdatabase\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webdatabase\SQLTransactionCallback.idl">
+      <Filter>..\modules\webdatabase\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webdatabase\DatabaseCallback.idl">
+      <Filter>..\modules\webdatabase\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webdatabase\SQLStatementErrorCallback.idl">
+      <Filter>..\modules\webdatabase\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webdatabase\SQLTransaction.idl">
+      <Filter>..\modules\webdatabase\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webdatabase\SQLException.idl">
+      <Filter>..\modules\webdatabase\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webdatabase\Database.idl">
+      <Filter>..\modules\webdatabase\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webdatabase\SQLTransactionSync.idl">
+      <Filter>..\modules\webdatabase\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webdatabase\WindowWebDatabase.idl">
+      <Filter>..\modules\webdatabase\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webdatabase\SQLTransactionErrorCallback.idl">
+      <Filter>..\modules\webdatabase\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\device_orientation\DeviceRotationRate.idl">
+      <Filter>..\modules\device_orientation\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\device_orientation\DeviceMotionEvent.idl">
+      <Filter>..\modules\device_orientation\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\device_orientation\DeviceAcceleration.idl">
+      <Filter>..\modules\device_orientation\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\speech\SpeechGrammar.idl">
+      <Filter>..\modules\speech\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\speech\SpeechGrammarList.idl">
+      <Filter>..\modules\speech\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\speech\SpeechRecognitionEvent.idl">
+      <Filter>..\modules\speech\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\speech\SpeechRecognitionResultList.idl">
+      <Filter>..\modules\speech\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\speech\WindowSpeechSynthesis.idl">
+      <Filter>..\modules\speech\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\speech\SpeechRecognition.idl">
+      <Filter>..\modules\speech\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\speech\SpeechRecognitionResult.idl">
+      <Filter>..\modules\speech\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\speech\SpeechRecognitionAlternative.idl">
+      <Filter>..\modules\speech\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\speech\SpeechSynthesisUtterance.idl">
+      <Filter>..\modules\speech\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\speech\SpeechSynthesisEvent.idl">
+      <Filter>..\modules\speech\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\speech\SpeechRecognitionError.idl">
+      <Filter>..\modules\speech\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\speech\SpeechSynthesis.idl">
+      <Filter>..\modules\speech\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\speech\SpeechSynthesisVoice.idl">
+      <Filter>..\modules\speech\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\donottrack\NavigatorDoNotTrack.idl">
+      <Filter>..\modules\donottrack\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\filesystem\EntriesCallback.idl">
+      <Filter>..\modules\filesystem\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\filesystem\EntrySync.idl">
+      <Filter>..\modules\filesystem\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\filesystem\Entry.idl">
+      <Filter>..\modules\filesystem\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\filesystem\FileWriter.idl">
+      <Filter>..\modules\filesystem\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\filesystem\DirectoryReader.idl">
+      <Filter>..\modules\filesystem\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\filesystem\FileEntrySync.idl">
+      <Filter>..\modules\filesystem\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\filesystem\DOMFileSystem.idl">
+      <Filter>..\modules\filesystem\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\filesystem\FileEntry.idl">
+      <Filter>..\modules\filesystem\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\filesystem\DirectoryReaderSync.idl">
+      <Filter>..\modules\filesystem\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\filesystem\FileWriterSync.idl">
+      <Filter>..\modules\filesystem\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\filesystem\FileCallback.idl">
+      <Filter>..\modules\filesystem\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\filesystem\MetadataCallback.idl">
+      <Filter>..\modules\filesystem\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\filesystem\Metadata.idl">
+      <Filter>..\modules\filesystem\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\filesystem\FileSystemCallback.idl">
+      <Filter>..\modules\filesystem\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\filesystem\ErrorCallback.idl">
+      <Filter>..\modules\filesystem\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\filesystem\DataTransferItemFileSystem.idl">
+      <Filter>..\modules\filesystem\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\filesystem\EntryArray.idl">
+      <Filter>..\modules\filesystem\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\filesystem\WindowFileSystem.idl">
+      <Filter>..\modules\filesystem\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\filesystem\HTMLInputElementFileSystem.idl">
+      <Filter>..\modules\filesystem\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\filesystem\WorkerGlobalScopeFileSystem.idl">
+      <Filter>..\modules\filesystem\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\filesystem\EntryArraySync.idl">
+      <Filter>..\modules\filesystem\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\filesystem\DOMFileSystemSync.idl">
+      <Filter>..\modules\filesystem\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\filesystem\FileWriterCallback.idl">
+      <Filter>..\modules\filesystem\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\filesystem\EntryCallback.idl">
+      <Filter>..\modules\filesystem\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\filesystem\DirectoryEntry.idl">
+      <Filter>..\modules\filesystem\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\filesystem\DirectoryEntrySync.idl">
+      <Filter>..\modules\filesystem\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\performance\WorkerGlobalScopePerformance.idl">
+      <Filter>..\modules\performance\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\performance\WorkerPerformance.idl">
+      <Filter>..\modules\performance\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webmidi\MIDIInput.idl">
+      <Filter>..\modules\webmidi\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webmidi\MIDIConnectionEvent.idl">
+      <Filter>..\modules\webmidi\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webmidi\MIDIAccessPromise.idl">
+      <Filter>..\modules\webmidi\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webmidi\MIDIErrorCallback.idl">
+      <Filter>..\modules\webmidi\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webmidi\NavigatorWebMIDI.idl">
+      <Filter>..\modules\webmidi\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webmidi\MIDIPort.idl">
+      <Filter>..\modules\webmidi\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webmidi\MIDIAccess.idl">
+      <Filter>..\modules\webmidi\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webmidi\MIDISuccessCallback.idl">
+      <Filter>..\modules\webmidi\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webmidi\MIDIOutput.idl">
+      <Filter>..\modules\webmidi\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\webmidi\MIDIMessageEvent.idl">
+      <Filter>..\modules\webmidi\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\navigatorcontentutils\NavigatorContentUtils.idl">
+      <Filter>..\modules\navigatorcontentutils\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\websockets\CloseEvent.idl">
+      <Filter>..\modules\websockets\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\websockets\WebSocket.idl">
+      <Filter>..\modules\websockets\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\mediastream\NavigatorUserMediaErrorCallback.idl">
+      <Filter>..\modules\mediastream\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\mediastream\RTCSessionDescription.idl">
+      <Filter>..\modules\mediastream\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\mediastream\NavigatorUserMediaSuccessCallback.idl">
+      <Filter>..\modules\mediastream\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\mediastream\RTCErrorCallback.idl">
+      <Filter>..\modules\mediastream\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\mediastream\MediaStreamTrackSourcesCallback.idl">
+      <Filter>..\modules\mediastream\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\mediastream\MediaStream.idl">
+      <Filter>..\modules\mediastream\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\mediastream\RTCDataChannel.idl">
+      <Filter>..\modules\mediastream\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\mediastream\RTCPeerConnection.idl">
+      <Filter>..\modules\mediastream\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\mediastream\RTCStatsResponse.idl">
+      <Filter>..\modules\mediastream\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\mediastream\RTCDTMFToneChangeEvent.idl">
+      <Filter>..\modules\mediastream\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\mediastream\MediaStreamEvent.idl">
+      <Filter>..\modules\mediastream\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\mediastream\RTCStatsCallback.idl">
+      <Filter>..\modules\mediastream\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\mediastream\MediaStreamTrackEvent.idl">
+      <Filter>..\modules\mediastream\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\mediastream\NavigatorMediaStream.idl">
+      <Filter>..\modules\mediastream\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\mediastream\RTCDataChannelEvent.idl">
+      <Filter>..\modules\mediastream\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\mediastream\RTCSessionDescriptionCallback.idl">
+      <Filter>..\modules\mediastream\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\mediastream\NavigatorUserMediaError.idl">
+      <Filter>..\modules\mediastream\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\mediastream\RTCDTMFSender.idl">
+      <Filter>..\modules\mediastream\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\mediastream\MediaStreamTrack.idl">
+      <Filter>..\modules\mediastream\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\mediastream\RTCIceCandidate.idl">
+      <Filter>..\modules\mediastream\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\mediastream\RTCIceCandidateEvent.idl">
+      <Filter>..\modules\mediastream\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\mediastream\RTCStatsReport.idl">
+      <Filter>..\modules\mediastream\_excluded_files</Filter>
+    </Midl>
+    <Midl Include="..\modules\mediastream\SourceInfo.idl">
+      <Filter>..\modules\mediastream\_excluded_files</Filter>
+    </Midl>
+    <ClCompile Include="..\..\..\..\third_party\WebKit\Source\WebKit\chromium\WinPrecompile.cpp">
+      <Filter>..\..\..\..\third_party\WebKit\Source\WebKit\chromium</Filter>
+    </ClCompile>
+    <None Include="scripts\preprocess_idls.py">
+      <Filter>scripts\_excluded_files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core">
+      <UniqueIdentifier>{16178836-FF57-2363-AA2B-8BAC1DC00026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\xml">
+      <UniqueIdentifier>{48027D13-271A-5AC3-0BD0-ADB666616CFE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\dom">
+      <UniqueIdentifier>{95A9DB90-1E7F-023A-E079-41927B6058A5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\svg">
+      <UniqueIdentifier>{B26ADB08-2A5F-6612-9BA2-9FE17A953D2B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\workers">
+      <UniqueIdentifier>{3D4B84AF-1925-195A-D7D8-6E45D335B44B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\testing">
+      <UniqueIdentifier>{681E52FB-4BB5-C8E2-1D1A-B7C4F2495A5E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\html">
+      <UniqueIdentifier>{6B759987-DACC-E33B-CA3B-4ABB0218955E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\html\canvas">
+      <UniqueIdentifier>{DEA4AB51-B549-85A1-22D5-E0016A2DBD70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\page">
+      <UniqueIdentifier>{0783969D-799E-590A-9409-265584256E20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\css">
+      <UniqueIdentifier>{87F14F59-6AAB-9D50-4AA6-3EAC67BD4AB0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules">
+      <UniqueIdentifier>{212BF124-DF0B-CDE7-390D-94BCC1C226CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\mediasource">
+      <UniqueIdentifier>{70E4EFCA-A612-6F58-0014-6C8B63C50A06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\geolocation">
+      <UniqueIdentifier>{42EA6ED6-A702-DB69-AED0-ED93767C1994}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\gamepad">
+      <UniqueIdentifier>{930DED89-AB29-FBA2-2E5E-CDFDD19A7E73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\imagebitmap">
+      <UniqueIdentifier>{7C5AF9F5-1627-2C5E-2D1D-64875061DBB2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\webaudio">
+      <UniqueIdentifier>{08C86603-A0A7-C9B2-CEAE-BDDE4EB98040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\vibration">
+      <UniqueIdentifier>{6817CECB-A842-DA0A-7E6D-E8F81B9C2349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\quota">
+      <UniqueIdentifier>{1BEA1856-1189-37CA-8138-9A45CAA7E310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\crypto">
+      <UniqueIdentifier>{DFFB1441-5E91-CEAB-DBC4-604225CE8161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\notifications">
+      <UniqueIdentifier>{8B864D51-51C2-204B-66F4-F7E9B50F2996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\webdatabase">
+      <UniqueIdentifier>{3A2BC2FE-BD8C-C591-6D05-0DC13DE856D5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\speech">
+      <UniqueIdentifier>{6B7E6414-F041-7B74-8A68-78B9AFDFE9E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\donottrack">
+      <UniqueIdentifier>{BD182861-4CD5-D83C-85FC-B44C2A4F3CCA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\indexeddb">
+      <UniqueIdentifier>{2AF1D33C-3BAD-411B-CE20-0810BE24291B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\filesystem">
+      <UniqueIdentifier>{EE58ECC9-E664-3D5C-8B17-FB2FBB41FCCC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\performance">
+      <UniqueIdentifier>{033A1E7F-AB2C-5213-0350-5A216E0F213C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\webmidi">
+      <UniqueIdentifier>{F1C92683-501D-92BB-D620-04CEC51C3F8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\navigatorcontentutils">
+      <UniqueIdentifier>{271FB163-93EE-EF25-AAFA-D37464266C7A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\modules\mediastream">
+      <UniqueIdentifier>{165B521C-54D1-D66A-48BD-22D9C1BF8929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit">
+      <UniqueIdentifier>{1919EB75-19A6-2BAD-ABB0-47BF57C87A0F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit\Source">
+      <UniqueIdentifier>{26D65320-41C3-1A61-26C0-583D658C7F16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit\Source\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit\Source\build\win">
+      <UniqueIdentifier>{47FC5EC4-15EB-E92F-89D7-AFE51CF838A9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="python_bindings_sources_rules.mk"/>
+    <None Include="derived_sources.gyp"/>
+    <Midl Include="..\core\xml\DocumentXPathEvaluator.idl">
+      <Filter>..\core\xml</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\DocumentFullscreen.idl">
+      <Filter>..\core\dom</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\RequestAnimationFrameCallback.idl">
+      <Filter>..\core\dom</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\StringCallback.idl">
+      <Filter>..\core\dom</Filter>
+    </Midl>
+    <Midl Include="..\core\dom\ChildNode.idl">
+      <Filter>..\core\dom</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGFitToViewBox.idl">
+      <Filter>..\core\svg</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGExternalResourcesRequired.idl">
+      <Filter>..\core\svg</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGFilterPrimitiveStandardAttributes.idl">
+      <Filter>..\core\svg</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGTests.idl">
+      <Filter>..\core\svg</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGZoomAndPan.idl">
+      <Filter>..\core\svg</Filter>
+    </Midl>
+    <Midl Include="..\core\svg\SVGURIReference.idl">
+      <Filter>..\core\svg</Filter>
+    </Midl>
+    <Midl Include="..\core\workers\AbstractWorker.idl">
+      <Filter>..\core\workers</Filter>
+    </Midl>
+    <Midl Include="..\core\testing\MallocStatistics.idl">
+      <Filter>..\core\testing</Filter>
+    </Midl>
+    <Midl Include="..\core\html\VoidCallback.idl">
+      <Filter>..\core\html</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\WebGLUniformLocation.idl">
+      <Filter>..\core\html\canvas</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\WebGLRenderbuffer.idl">
+      <Filter>..\core\html\canvas</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\WebGLVertexArrayObjectOES.idl">
+      <Filter>..\core\html\canvas</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\OESTextureHalfFloatLinear.idl">
+      <Filter>..\core\html\canvas</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\OESTextureFloatLinear.idl">
+      <Filter>..\core\html\canvas</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\WebGLBuffer.idl">
+      <Filter>..\core\html\canvas</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\WebGLShader.idl">
+      <Filter>..\core\html\canvas</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\WebGLProgram.idl">
+      <Filter>..\core\html\canvas</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\OESElementIndexUint.idl">
+      <Filter>..\core\html\canvas</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\CanvasPattern.idl">
+      <Filter>..\core\html\canvas</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\OESTextureFloat.idl">
+      <Filter>..\core\html\canvas</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\WebGLFramebuffer.idl">
+      <Filter>..\core\html\canvas</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\WebGLTexture.idl">
+      <Filter>..\core\html\canvas</Filter>
+    </Midl>
+    <Midl Include="..\core\html\canvas\EXTFragDepth.idl">
+      <Filter>..\core\html\canvas</Filter>
+    </Midl>
+    <Midl Include="..\core\page\WindowPagePopup.idl">
+      <Filter>..\core\page</Filter>
+    </Midl>
+    <Midl Include="..\core\page\MemoryInfo.idl">
+      <Filter>..\core\page</Filter>
+    </Midl>
+    <Midl Include="..\core\page\WindowBase64.idl">
+      <Filter>..\core\page</Filter>
+    </Midl>
+    <Midl Include="..\core\page\PerformanceNavigation.idl">
+      <Filter>..\core\page</Filter>
+    </Midl>
+    <Midl Include="..\core\page\WindowTimers.idl">
+      <Filter>..\core\page</Filter>
+    </Midl>
+    <Midl Include="..\core\css\RGBColor.idl">
+      <Filter>..\core\css</Filter>
+    </Midl>
+    <Midl Include="..\core\css\Rect.idl">
+      <Filter>..\core\css</Filter>
+    </Midl>
+    <Midl Include="..\modules\mediasource\WindowMediaSource.idl">
+      <Filter>..\modules\mediasource</Filter>
+    </Midl>
+    <Midl Include="..\modules\mediasource\URLMediaSource.idl">
+      <Filter>..\modules\mediasource</Filter>
+    </Midl>
+    <Midl Include="..\modules\geolocation\NavigatorGeolocation.idl">
+      <Filter>..\modules\geolocation</Filter>
+    </Midl>
+    <Midl Include="..\modules\geolocation\PositionCallback.idl">
+      <Filter>..\modules\geolocation</Filter>
+    </Midl>
+    <Midl Include="..\modules\geolocation\PositionErrorCallback.idl">
+      <Filter>..\modules\geolocation</Filter>
+    </Midl>
+    <Midl Include="..\modules\gamepad\NavigatorGamepad.idl">
+      <Filter>..\modules\gamepad</Filter>
+    </Midl>
+    <Midl Include="..\modules\imagebitmap\WindowImageBitmapFactories.idl">
+      <Filter>..\modules\imagebitmap</Filter>
+    </Midl>
+    <Midl Include="..\modules\imagebitmap\ImageBitmapFactories.idl">
+      <Filter>..\modules\imagebitmap</Filter>
+    </Midl>
+    <Midl Include="..\modules\webaudio\PeriodicWave.idl">
+      <Filter>..\modules\webaudio</Filter>
+    </Midl>
+    <Midl Include="..\modules\webaudio\AudioBufferCallback.idl">
+      <Filter>..\modules\webaudio</Filter>
+    </Midl>
+    <Midl Include="..\modules\vibration\NavigatorVibration.idl">
+      <Filter>..\modules\vibration</Filter>
+    </Midl>
+    <Midl Include="..\modules\quota\WindowQuota.idl">
+      <Filter>..\modules\quota</Filter>
+    </Midl>
+    <Midl Include="..\modules\quota\StorageErrorCallback.idl">
+      <Filter>..\modules\quota</Filter>
+    </Midl>
+    <Midl Include="..\modules\quota\StorageUsageCallback.idl">
+      <Filter>..\modules\quota</Filter>
+    </Midl>
+    <Midl Include="..\modules\quota\StorageQuotaCallback.idl">
+      <Filter>..\modules\quota</Filter>
+    </Midl>
+    <Midl Include="..\modules\quota\WorkerNavigatorStorageQuota.idl">
+      <Filter>..\modules\quota</Filter>
+    </Midl>
+    <Midl Include="..\modules\quota\NavigatorStorageQuota.idl">
+      <Filter>..\modules\quota</Filter>
+    </Midl>
+    <Midl Include="..\modules\crypto\WindowCrypto.idl">
+      <Filter>..\modules\crypto</Filter>
+    </Midl>
+    <Midl Include="..\modules\crypto\WorkerGlobalScopeCrypto.idl">
+      <Filter>..\modules\crypto</Filter>
+    </Midl>
+    <Midl Include="..\modules\notifications\NotificationPermissionCallback.idl">
+      <Filter>..\modules\notifications</Filter>
+    </Midl>
+    <Midl Include="..\modules\notifications\WindowNotifications.idl">
+      <Filter>..\modules\notifications</Filter>
+    </Midl>
+    <Midl Include="..\modules\notifications\WorkerGlobalScopeNotifications.idl">
+      <Filter>..\modules\notifications</Filter>
+    </Midl>
+    <Midl Include="..\modules\webdatabase\SQLStatementCallback.idl">
+      <Filter>..\modules\webdatabase</Filter>
+    </Midl>
+    <Midl Include="..\modules\webdatabase\WindowWebDatabase.idl">
+      <Filter>..\modules\webdatabase</Filter>
+    </Midl>
+    <Midl Include="..\modules\webdatabase\WorkerGlobalScopeWebDatabase.idl">
+      <Filter>..\modules\webdatabase</Filter>
+    </Midl>
+    <Midl Include="..\modules\webdatabase\DatabaseCallback.idl">
+      <Filter>..\modules\webdatabase</Filter>
+    </Midl>
+    <Midl Include="..\modules\webdatabase\SQLTransactionErrorCallback.idl">
+      <Filter>..\modules\webdatabase</Filter>
+    </Midl>
+    <Midl Include="..\modules\webdatabase\SQLTransactionSyncCallback.idl">
+      <Filter>..\modules\webdatabase</Filter>
+    </Midl>
+    <Midl Include="..\modules\webdatabase\SQLStatementErrorCallback.idl">
+      <Filter>..\modules\webdatabase</Filter>
+    </Midl>
+    <Midl Include="..\modules\webdatabase\SQLTransactionCallback.idl">
+      <Filter>..\modules\webdatabase</Filter>
+    </Midl>
+    <Midl Include="..\modules\speech\WindowSpeechSynthesis.idl">
+      <Filter>..\modules\speech</Filter>
+    </Midl>
+    <Midl Include="..\modules\donottrack\NavigatorDoNotTrack.idl">
+      <Filter>..\modules\donottrack</Filter>
+    </Midl>
+    <Midl Include="..\modules\indexeddb\WorkerGlobalScopeIndexedDatabase.idl">
+      <Filter>..\modules\indexeddb</Filter>
+    </Midl>
+    <Midl Include="..\modules\indexeddb\WindowIndexedDatabase.idl">
+      <Filter>..\modules\indexeddb</Filter>
+    </Midl>
+    <Midl Include="..\modules\filesystem\EntriesCallback.idl">
+      <Filter>..\modules\filesystem</Filter>
+    </Midl>
+    <Midl Include="..\modules\filesystem\FileSystemCallback.idl">
+      <Filter>..\modules\filesystem</Filter>
+    </Midl>
+    <Midl Include="..\modules\filesystem\WorkerGlobalScopeFileSystem.idl">
+      <Filter>..\modules\filesystem</Filter>
+    </Midl>
+    <Midl Include="..\modules\filesystem\ErrorCallback.idl">
+      <Filter>..\modules\filesystem</Filter>
+    </Midl>
+    <Midl Include="..\modules\filesystem\FileCallback.idl">
+      <Filter>..\modules\filesystem</Filter>
+    </Midl>
+    <Midl Include="..\modules\filesystem\FileWriterCallback.idl">
+      <Filter>..\modules\filesystem</Filter>
+    </Midl>
+    <Midl Include="..\modules\filesystem\EntryCallback.idl">
+      <Filter>..\modules\filesystem</Filter>
+    </Midl>
+    <Midl Include="..\modules\filesystem\DataTransferItemFileSystem.idl">
+      <Filter>..\modules\filesystem</Filter>
+    </Midl>
+    <Midl Include="..\modules\filesystem\WindowFileSystem.idl">
+      <Filter>..\modules\filesystem</Filter>
+    </Midl>
+    <Midl Include="..\modules\filesystem\MetadataCallback.idl">
+      <Filter>..\modules\filesystem</Filter>
+    </Midl>
+    <Midl Include="..\modules\filesystem\HTMLInputElementFileSystem.idl">
+      <Filter>..\modules\filesystem</Filter>
+    </Midl>
+    <Midl Include="..\modules\performance\WorkerGlobalScopePerformance.idl">
+      <Filter>..\modules\performance</Filter>
+    </Midl>
+    <Midl Include="..\modules\webmidi\MIDIErrorCallback.idl">
+      <Filter>..\modules\webmidi</Filter>
+    </Midl>
+    <Midl Include="..\modules\webmidi\MIDISuccessCallback.idl">
+      <Filter>..\modules\webmidi</Filter>
+    </Midl>
+    <Midl Include="..\modules\webmidi\NavigatorWebMIDI.idl">
+      <Filter>..\modules\webmidi</Filter>
+    </Midl>
+    <Midl Include="..\modules\navigatorcontentutils\NavigatorContentUtils.idl">
+      <Filter>..\modules\navigatorcontentutils</Filter>
+    </Midl>
+    <Midl Include="..\modules\mediastream\MediaStreamTrackSourcesCallback.idl">
+      <Filter>..\modules\mediastream</Filter>
+    </Midl>
+    <Midl Include="..\modules\mediastream\NavigatorUserMediaErrorCallback.idl">
+      <Filter>..\modules\mediastream</Filter>
+    </Midl>
+    <Midl Include="..\modules\mediastream\URLMediaStream.idl">
+      <Filter>..\modules\mediastream</Filter>
+    </Midl>
+    <Midl Include="..\modules\mediastream\RTCSessionDescriptionCallback.idl">
+      <Filter>..\modules\mediastream</Filter>
+    </Midl>
+    <Midl Include="..\modules\mediastream\RTCStatsCallback.idl">
+      <Filter>..\modules\mediastream</Filter>
+    </Midl>
+    <Midl Include="..\modules\mediastream\NavigatorMediaStream.idl">
+      <Filter>..\modules\mediastream</Filter>
+    </Midl>
+    <Midl Include="..\modules\mediastream\RTCErrorCallback.idl">
+      <Filter>..\modules\mediastream</Filter>
+    </Midl>
+    <Midl Include="..\modules\mediastream\NavigatorUserMediaSuccessCallback.idl">
+      <Filter>..\modules\mediastream</Filter>
+    </Midl>
+    <ClCompile Include="..\..\..\..\third_party\WebKit\Source\build\win\Precompile.cpp">
+      <Filter>..\..\..\..\third_party\WebKit\Source\build\win</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

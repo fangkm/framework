@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="page">
+      <UniqueIdentifier>{0783969D-799E-590A-9409-265584256E20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="page\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts">
+      <UniqueIdentifier>{4FDF30BD-A895-58AC-A912-7C70A5371544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts\templates">
+      <UniqueIdentifier>{65BD37FD-C3E2-5CBE-9D7E-7A2E93D16AAC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts\templates\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="core_derived_sources.gyp"/>
+    <None Include="page\make_settings.pl">
+      <Filter>page\_excluded_files</Filter>
+    </None>
+    <None Include="page\Settings.in">
+      <Filter>page\_excluded_files</Filter>
+    </None>
+    <None Include="page\RuntimeEnabledFeatures.in">
+      <Filter>page\_excluded_files</Filter>
+    </None>
+    <None Include="scripts\in_generator.py">
+      <Filter>scripts\_excluded_files</Filter>
+    </None>
+    <None Include="scripts\template_expander.py">
+      <Filter>scripts\_excluded_files</Filter>
+    </None>
+    <None Include="scripts\in_file.py">
+      <Filter>scripts\_excluded_files</Filter>
+    </None>
+    <None Include="scripts\name_macros.py">
+      <Filter>scripts\_excluded_files</Filter>
+    </None>
+    <None Include="scripts\license.py">
+      <Filter>scripts\_excluded_files</Filter>
+    </None>
+    <None Include="scripts\make_internal_runtime_flags.py">
+      <Filter>scripts\_excluded_files</Filter>
+    </None>
+    <None Include="scripts\templates\InternalRuntimeFlags.h.tmpl">
+      <Filter>scripts\templates\_excluded_files</Filter>
+    </None>
+    <None Include="scripts\templates\macros.tmpl">
+      <Filter>scripts\templates\_excluded_files</Filter>
+    </None>
+    <None Include="scripts\templates\InternalRuntimeFlags.idl.tmpl">
+      <Filter>scripts\templates\_excluded_files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

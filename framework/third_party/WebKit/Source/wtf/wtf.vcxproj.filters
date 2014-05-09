@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dtoa">
+      <UniqueIdentifier>{FEF8AE6F-D2B3-B84D-A8E4-2E0D701C7ABD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="text">
+      <UniqueIdentifier>{A03EF847-0682-89DE-DB5E-F3ADE72FEA2E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit">
+      <UniqueIdentifier>{1919EB75-19A6-2BAD-ABB0-47BF57C87A0F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit\Source">
+      <UniqueIdentifier>{26D65320-41C3-1A61-26C0-583D658C7F16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit\Source\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit\Source\build\win">
+      <UniqueIdentifier>{47FC5EC4-15EB-E92F-89D7-AFE51CF838A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unicode">
+      <UniqueIdentifier>{6632E6AC-350C-E2A2-6DEF-55B5B19FE666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unicode\icu">
+      <UniqueIdentifier>{16A1A08C-CD62-E501-A8C7-8BB00F1B8E2B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Alignment.h"/>
+    <ClInclude Include="ListHashSet.h"/>
+    <ClInclude Include="RefPtrHashMap.h"/>
+    <ClInclude Include="Locker.h"/>
+    <ClInclude Include="CheckedArithmetic.h"/>
+    <ClCompile Include="DynamicAnnotations.cpp"/>
+    <ClInclude Include="UnusedParam.h"/>
+    <ClInclude Include="ParallelJobsLibdispatch.h"/>
+    <ClInclude Include="BloomFilter.h"/>
+    <ClCompile Include="ParallelJobsGeneric.cpp"/>
+    <ClCompile Include="MainThread.cpp"/>
+    <ClInclude Include="HashFunctions.h"/>
+    <ClInclude Include="NullPtr.h"/>
+    <ClInclude Include="ThreadingPrimitives.h"/>
+    <ClInclude Include="TemporaryChange.h"/>
+    <ClCompile Include="RandomNumber.cpp"/>
+    <ClCompile Include="HashTable.cpp"/>
+    <ClInclude Include="OwnPtr.h"/>
+    <ClCompile Include="ArrayBufferView.cpp"/>
+    <ClInclude Include="DecimalNumber.h"/>
+    <ClInclude Include="ThreadFunctionInvocation.h"/>
+    <ClInclude Include="Complex.h"/>
+    <ClInclude Include="CryptographicallyRandomNumber.h"/>
+    <ClInclude Include="Float32Array.h"/>
+    <ClInclude Include="ASCIICType.h"/>
+    <ClInclude Include="Float64Array.h"/>
+    <ClInclude Include="ArrayBufferView.h"/>
+    <ClInclude Include="LeakAnnotations.h"/>
+    <ClInclude Include="Uint32Array.h"/>
+    <ClInclude Include="WeakPtr.h"/>
+    <ClCompile Include="CurrentTime.cpp"/>
+    <ClInclude Include="PassOwnArrayPtr.h"/>
+    <ClInclude Include="Int16Array.h"/>
+    <ClCompile Include="BitVector.cpp"/>
+    <ClInclude Include="Noncopyable.h"/>
+    <ClInclude Include="CurrentTime.h"/>
+    <ClInclude Include="WTF.h"/>
+    <ClInclude Include="NonCopyingSort.h"/>
+    <ClCompile Include="TypeTraits.cpp"/>
+    <ClInclude Include="ParallelJobs.h"/>
+    <ClInclude Include="OwnArrayPtr.h"/>
+    <ClInclude Include="RandomNumberSeed.h"/>
+    <ClInclude Include="LinkedStack.h"/>
+    <ClInclude Include="ParallelJobsGeneric.h"/>
+    <ClInclude Include="GregorianDateTime.h"/>
+    <ClInclude Include="Threading.h"/>
+    <ClInclude Include="SaturatedArithmetic.h"/>
+    <ClInclude Include="Vector.h"/>
+    <ClCompile Include="PageAllocator.cpp"/>
+    <ClInclude Include="MathExtras.h"/>
+    <ClInclude Include="TypedArrayBase.h"/>
+    <ClInclude Include="RefCountedLeakCounter.h"/>
+    <ClCompile Include="SHA1.cpp"/>
+    <ClInclude Include="HashSet.h"/>
+    <ClInclude Include="CPU.h"/>
+    <ClInclude Include="HashTableDeletedValueType.h"/>
+    <ClInclude Include="MessageQueue.h"/>
+    <ClInclude Include="AutodrainedPool.h"/>
+    <ClInclude Include="Int8Array.h"/>
+    <ClInclude Include="ThreadSafeRefCounted.h"/>
+    <ClInclude Include="PrintStream.h"/>
+    <ClCompile Include="NumberOfCores.cpp"/>
+    <ClInclude Include="GetPtr.h"/>
+    <ClInclude Include="DataLog.h"/>
+    <ClInclude Include="VMTags.h"/>
+    <ClCompile Include="ThreadSpecificWin.cpp"/>
+    <ClInclude Include="HashTraits.h"/>
+    <ClInclude Include="ByteOrder.h"/>
+    <ClCompile Include="SizeLimits.cpp"/>
+    <ClInclude Include="Deque.h"/>
+    <ClInclude Include="WTFExport.h"/>
+    <ClInclude Include="HashCountedSet.h"/>
+    <ClInclude Include="FastAllocBase.h"/>
+    <ClInclude Include="FastMalloc.h"/>
+    <ClCompile Include="DataLog.cpp"/>
+    <ClInclude Include="RefPtr.h"/>
+    <ClInclude Include="SpinLock.h"/>
+    <ClCompile Include="ThreadingWin.cpp"/>
+    <ClCompile Include="WTF.cpp"/>
+    <ClInclude Include="SHA1.h"/>
+    <ClInclude Include="OwnPtrCommon.h"/>
+    <ClInclude Include="PartitionAlloc.h"/>
+    <ClInclude Include="DateMath.h"/>
+    <ClInclude Include="RandomNumber.h"/>
+    <ClInclude Include="NotFound.h"/>
+    <ClInclude Include="PassTraits.h"/>
+    <ClCompile Include="Threading.cpp"/>
+    <ClInclude Include="Functional.h"/>
+    <ClInclude Include="Forward.h"/>
+    <ClInclude Include="Compiler.h"/>
+    <ClCompile Include="Assertions.cpp"/>
+    <ClInclude Include="DynamicAnnotations.h"/>
+    <ClInclude Include="HashIterators.h"/>
+    <ClInclude Include="Int32Array.h"/>
+    <ClInclude Include="ThreadSpecific.h"/>
+    <ClInclude Include="ArrayBufferContents.h"/>
+    <ClInclude Include="RetainPtr.h"/>
+    <ClInclude Include="MainThread.h"/>
+    <ClInclude Include="HexNumber.h"/>
+    <ClInclude Include="Uint16Array.h"/>
+    <ClInclude Include="dtoa.h"/>
+    <ClInclude Include="ThreadRestrictionVerifier.h"/>
+    <ClInclude Include="ArrayBufferDeallocationObserver.h"/>
+    <ClCompile Include="FastMalloc.cpp"/>
+    <ClCompile Include="DateMath.cpp"/>
+    <ClCompile Include="PrintStream.cpp"/>
+    <ClInclude Include="Uint8Array.h"/>
+    <ClCompile Include="WTFThreadData.cpp"/>
+    <ClInclude Include="IntegralTypedArrayBase.h"/>
+    <ClCompile Include="CryptographicallyRandomNumber.cpp"/>
+    <ClInclude Include="BitVector.h"/>
+    <ClCompile Include="NullPtr.cpp"/>
+    <ClInclude Include="PageAllocator.h"/>
+    <ClInclude Include="HashMap.h"/>
+    <ClInclude Include="FilePrintStream.h"/>
+    <ClInclude Include="Assertions.h"/>
+    <ClInclude Include="VectorTraits.h"/>
+    <ClInclude Include="StdLibExtras.h"/>
+    <ClCompile Include="RefCountedLeakCounter.cpp"/>
+    <ClInclude Include="NumberOfCores.h"/>
+    <ClInclude Include="BitArray.h"/>
+    <ClInclude Include="RefCounted.h"/>
+    <ClInclude Include="MallocZoneSupport.h"/>
+    <ClInclude Include="ProcessID.h"/>
+    <ClInclude Include="ArrayBuffer.h"/>
+    <ClCompile Include="FilePrintStream.cpp"/>
+    <ClInclude Include="PassRefPtr.h"/>
+    <ClInclude Include="PassOwnPtr.h"/>
+    <ClCompile Include="ArrayBuffer.cpp"/>
+    <ClInclude Include="HashTable.h"/>
+    <ClInclude Include="StringHasher.h"/>
+    <ClInclude Include="Atomics.h"/>
+    <ClCompile Include="DecimalNumber.cpp"/>
+    <ClCompile Include="dtoa.cpp"/>
+    <ClInclude Include="WTFThreadData.h"/>
+    <ClInclude Include="TypeTraits.h"/>
+    <ClInclude Include="StringExtras.h"/>
+    <ClCompile Include="GregorianDateTime.cpp"/>
+    <ClCompile Include="PartitionAlloc.cpp"/>
+    <ClCompile Include="ArrayBufferContents.cpp"/>
+    <None Include="wtf.gyp"/>
+    <ClInclude Include="DoublyLinkedList.h"/>
+    <ClInclude Include="StaticConstructors.h"/>
+    <ClCompile Include="ThreadIdentifierDataPthreads.cpp">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="TCPageMap.h">
+      <Filter>_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="ThreadingPthreads.cpp">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="TCSpinLock.h">
+      <Filter>_excluded_files</Filter>
+    </ClInclude>
+    <None Include="AutodrainedPoolMac.mm">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <ClInclude Include="TCSystemAlloc.h">
+      <Filter>_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadIdentifierDataPthreads.h">
+      <Filter>_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="TCSystemAlloc.cpp">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="TCPackedCache.h">
+      <Filter>_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="dtoa\fixed-dtoa.h">
+      <Filter>dtoa</Filter>
+    </ClInclude>
+    <ClCompile Include="dtoa\double-conversion.cc">
+      <Filter>dtoa</Filter>
+    </ClCompile>
+    <ClInclude Include="dtoa\bignum-dtoa.h">
+      <Filter>dtoa</Filter>
+    </ClInclude>
+    <ClInclude Include="dtoa\fast-dtoa.h">
+      <Filter>dtoa</Filter>
+    </ClInclude>
+    <ClCompile Include="dtoa\bignum-dtoa.cc">
+      <Filter>dtoa</Filter>
+    </ClCompile>
+    <ClInclude Include="dtoa\utils.h">
+      <Filter>dtoa</Filter>
+    </ClInclude>
+    <ClInclude Include="dtoa\strtod.h">
+      <Filter>dtoa</Filter>
+    </ClInclude>
+    <ClCompile Include="dtoa\fixed-dtoa.cc">
+      <Filter>dtoa</Filter>
+    </ClCompile>
+    <ClInclude Include="dtoa\bignum.h">
+      <Filter>dtoa</Filter>
+    </ClInclude>
+    <ClInclude Include="dtoa\cached-powers.h">
+      <Filter>dtoa</Filter>
+    </ClInclude>
+    <ClCompile Include="dtoa\cached-powers.cc">
+      <Filter>dtoa</Filter>
+    </ClCompile>
+    <ClCompile Include="dtoa\bignum.cc">
+      <Filter>dtoa</Filter>
+    </ClCompile>
+    <ClCompile Include="dtoa\strtod.cc">
+      <Filter>dtoa</Filter>
+    </ClCompile>
+    <ClInclude Include="dtoa\double-conversion.h">
+      <Filter>dtoa</Filter>
+    </ClInclude>
+    <ClCompile Include="dtoa\fast-dtoa.cc">
+      <Filter>dtoa</Filter>
+    </ClCompile>
+    <ClCompile Include="dtoa\diy-fp.cc">
+      <Filter>dtoa</Filter>
+    </ClCompile>
+    <ClInclude Include="dtoa\double.h">
+      <Filter>dtoa</Filter>
+    </ClInclude>
+    <ClInclude Include="dtoa\diy-fp.h">
+      <Filter>dtoa</Filter>
+    </ClInclude>
+    <ClCompile Include="text\TextCodecUserDefined.cpp">
+      <Filter>text</Filter>
+    </ClCompile>
+    <ClCompile Include="text\StringImpl.cpp">
+      <Filter>text</Filter>
+    </ClCompile>
+    <ClCompile Include="text\TextCodecUTF16.cpp">
+      <Filter>text</Filter>
+    </ClCompile>
+    <ClInclude Include="text\AtomicStringHash.h">
+      <Filter>text</Filter>
+    </ClInclude>
+    <ClInclude Include="text\StringOperators.h">
+      <Filter>text</Filter>
+    </ClInclude>
+    <ClCompile Include="text\TextCodec.cpp">
+      <Filter>text</Filter>
+    </ClCompile>
+    <ClInclude Include="text\StringConcatenate.h">
+      <Filter>text</Filter>
+    </ClInclude>
+    <ClCompile Include="text\CString.cpp">
+      <Filter>text</Filter>
+    </ClCompile>
+    <ClCompile Include="text\WTFString.cpp">
+      <Filter>text</Filter>
+    </ClCompile>
+    <ClCompile Include="text\TextPosition.cpp">
+      <Filter>text</Filter>
+    </ClCompile>
+    <ClCompile Include="text\Base64.cpp">
+      <Filter>text</Filter>
+    </ClCompile>
+    <ClCompile Include="text\AtomicString.cpp">
+      <Filter>text</Filter>
+    </ClCompile>
+    <ClCompile Include="text\TextCodecLatin1.cpp">
+      <Filter>text</Filter>
+    </ClCompile>
+    <ClInclude Include="text\WTFString.h">
+      <Filter>text</Filter>
+    </ClInclude>
+    <ClInclude Include="text\TextPosition.h">
+      <Filter>text</Filter>
+    </ClInclude>
+    <ClInclude Include="text\StringImpl.h">
+      <Filter>text</Filter>
+    </ClInclude>
+    <ClCompile Include="text\StringStatics.cpp">
+      <Filter>text</Filter>
+    </ClCompile>
+    <ClInclude Include="text\StringUTF8Adaptor.h">
+      <Filter>text</Filter>
+    </ClInclude>
+    <ClCompile Include="text\TextEncoding.cpp">
+      <Filter>text</Filter>
+    </ClCompile>
+    <ClInclude Include="text\Base64.h">
+      <Filter>text</Filter>
+    </ClInclude>
+    <ClInclude Include="text\IntegerToStringConversion.h">
+      <Filter>text</Filter>
+    </ClInclude>
+    <ClCompile Include="text\TextEncodingRegistry.cpp">
+      <Filter>text</Filter>
+    </ClCompile>
+    <ClCompile Include="text\StringBuilder.cpp">
+      <Filter>text</Filter>
+    </ClCompile>
+    <ClInclude Include="text\TextCodecASCIIFastPath.h">
+      <Filter>text</Filter>
+    </ClInclude>
+    <ClInclude Include="text\TextCodecUTF8.h">
+      <Filter>text</Filter>
+    </ClInclude>
+    <ClInclude Include="text\ASCIIFastPath.h">
+      <Filter>text</Filter>
+    </ClInclude>
+    <ClCompile Include="text\TextCodecUTF8.cpp">
+      <Filter>text</Filter>
+    </ClCompile>
+    <ClInclude Include="text\StringBuffer.h">
+      <Filter>text</Filter>
+    </ClInclude>
+    <ClInclude Include="text\AtomicString.h">
+      <Filter>text</Filter>
+    </ClInclude>
+    <ClInclude Include="text\StringHash.h">
+      <Filter>text</Filter>
+    </ClInclude>
+    <ClCompile Include="text\TextCodecICU.cpp">
+      <Filter>text</Filter>
+    </ClCompile>
+    <ClInclude Include="text\StringView.h">
+      <Filter>text</Filter>
+    </ClInclude>
+    <ClInclude Include="text\StringBuilder.h">
+      <Filter>text</Filter>
+    </ClInclude>
+    <ClInclude Include="text\CString.h">
+      <Filter>text</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\third_party\WebKit\Source\build\win\Precompile.cpp">
+      <Filter>..\..\..\..\third_party\WebKit\Source\build\win</Filter>
+    </ClCompile>
+    <ClCompile Include="unicode\UTF8.cpp">
+      <Filter>unicode</Filter>
+    </ClCompile>
+    <ClInclude Include="unicode\CharacterNames.h">
+      <Filter>unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="unicode\Collator.h">
+      <Filter>unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="unicode\Unicode.h">
+      <Filter>unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="unicode\UTF8.h">
+      <Filter>unicode</Filter>
+    </ClInclude>
+    <ClCompile Include="unicode\icu\CollatorICU.cpp">
+      <Filter>unicode\icu</Filter>
+    </ClCompile>
+    <ClInclude Include="unicode\icu\UnicodeIcu.h">
+      <Filter>unicode\icu</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

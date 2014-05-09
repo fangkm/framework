@@ -1,0 +1,2216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="platform">
+      <UniqueIdentifier>{F040E8BA-F77A-8B19-E764-5FC5D53C4EF0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\network">
+      <UniqueIdentifier>{C0E16F67-D855-B60F-8134-BA0CD12A3DD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\image-encoders">
+      <UniqueIdentifier>{AD5E99E0-E9FB-E924-417F-32CC91B2299A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\image-encoders\skia">
+      <UniqueIdentifier>{426FFB3D-87DA-BE1E-9819-8EDBC6A5D70A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\midi">
+      <UniqueIdentifier>{E3686288-AF21-E99D-46CF-28A44CD62AB0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\text">
+      <UniqueIdentifier>{A03EF847-0682-89DE-DB5E-F3ADE72FEA2E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\text\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\text\win">
+      <UniqueIdentifier>{47FC5EC4-15EB-E92F-89D7-AFE51CF838A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\text\mac">
+      <UniqueIdentifier>{DDBFF7CF-DBCF-B2FC-793A-DB701B563E8D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\text\mac\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\text\cf">
+      <UniqueIdentifier>{1F9157E6-8EBA-C62C-B992-D490A8959113}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\text\cf\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\text\transcoder">
+      <UniqueIdentifier>{391096AF-C7CA-03D0-505C-96CF6969707A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\sql">
+      <UniqueIdentifier>{AA0E6B2F-2654-D17A-6C54-BAAA7CB9395E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\sql\chromium">
+      <UniqueIdentifier>{A235D2A4-63B6-DD4D-7F7F-D3EA248BB602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\sql\chromium\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\image-decoders">
+      <UniqueIdentifier>{696144AE-9C0E-7CE0-561D-F8435AD3E6B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\image-decoders\ico">
+      <UniqueIdentifier>{7BC61B93-4AD2-8067-55F4-5CBA2F0C503D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\image-decoders\bmp">
+      <UniqueIdentifier>{C08C95BF-9646-DB44-5C81-9CB5B5F652A5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\image-decoders\jpeg">
+      <UniqueIdentifier>{7F4B9123-E510-DC17-3BAB-055FBF0994F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\image-decoders\gif">
+      <UniqueIdentifier>{0F98A17A-8DA4-F25F-2A9C-05B850275425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\image-decoders\webp">
+      <UniqueIdentifier>{6FD17F46-77C0-612D-D6FB-283052C82EB1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\image-decoders\png">
+      <UniqueIdentifier>{7BD19C75-C67E-FDB5-E1DF-D65D2766AECC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\cocoa">
+      <UniqueIdentifier>{7DE7C50E-B7F9-3610-CB61-C0F25CD5170C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\mac">
+      <UniqueIdentifier>{DDBFF7CF-DBCF-B2FC-793A-DB701B563E8D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\mac\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\animation">
+      <UniqueIdentifier>{32754A8C-EDC0-67D4-C2EE-20B9F5EB0ADB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\graphics">
+      <UniqueIdentifier>{B2A6AACF-46C0-13A9-176C-59F376D7CA47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\graphics\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\graphics\opentype">
+      <UniqueIdentifier>{6C4A9FF6-ABBF-20C5-E93B-B2D1C429A001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\graphics\win">
+      <UniqueIdentifier>{47FC5EC4-15EB-E92F-89D7-AFE51CF838A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\graphics\cg">
+      <UniqueIdentifier>{B8648A3C-5FF2-A1B9-57F3-5E60C4FA4760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\graphics\cg\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\graphics\harfbuzz">
+      <UniqueIdentifier>{E46CF1C1-8627-E69B-627B-B1948CBDB7D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\graphics\harfbuzz\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\graphics\cocoa">
+      <UniqueIdentifier>{7DE7C50E-B7F9-3610-CB61-C0F25CD5170C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\graphics\mac">
+      <UniqueIdentifier>{DDBFF7CF-DBCF-B2FC-793A-DB701B563E8D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\graphics\mac\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\graphics\transforms">
+      <UniqueIdentifier>{E7DCB681-2FE3-A9E3-4A16-03805E144975}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\graphics\filters">
+      <UniqueIdentifier>{B0590D60-4D76-E627-69CE-00D7235F5213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\graphics\filters\custom">
+      <UniqueIdentifier>{C40A63E8-DEC6-D9F6-B0C6-030D87C22C52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\graphics\skia">
+      <UniqueIdentifier>{426FFB3D-87DA-BE1E-9819-8EDBC6A5D70A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\graphics\skia\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\graphics\gpu">
+      <UniqueIdentifier>{52E8B949-3E67-CAB7-33D9-3F972FED789B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\graphics\chromium">
+      <UniqueIdentifier>{A235D2A4-63B6-DD4D-7F7F-D3EA248BB602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\graphics\chromium\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\win">
+      <UniqueIdentifier>{47FC5EC4-15EB-E92F-89D7-AFE51CF838A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\win\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\audio">
+      <UniqueIdentifier>{D4AF4849-65C6-75FE-2B6E-F6BD18C08214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\audio\mac">
+      <UniqueIdentifier>{DDBFF7CF-DBCF-B2FC-793A-DB701B563E8D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\audio\mac\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\audio\ipp">
+      <UniqueIdentifier>{73045B38-E75B-0178-A420-B13358106142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\audio\chromium">
+      <UniqueIdentifier>{A235D2A4-63B6-DD4D-7F7F-D3EA248BB602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\audio\chromium\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\audio\ffmpeg">
+      <UniqueIdentifier>{D4EF0570-F7DB-697C-F41C-C2D1A5CC3B21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\chromium">
+      <UniqueIdentifier>{A235D2A4-63B6-DD4D-7F7F-D3EA248BB602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\chromium\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\mock">
+      <UniqueIdentifier>{7C4729C5-C564-467B-5ED9-492FD611B9BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\mediastream">
+      <UniqueIdentifier>{165B521C-54D1-D66A-48BD-22D9C1BF8929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit">
+      <UniqueIdentifier>{1919EB75-19A6-2BAD-ABB0-47BF57C87A0F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit\Source">
+      <UniqueIdentifier>{26D65320-41C3-1A61-26C0-583D658C7F16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit\Source\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit\Source\build\win">
+      <UniqueIdentifier>{47FC5EC4-15EB-E92F-89D7-AFE51CF838A9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="core.gyp"/>
+    <ClCompile Include="platform\ThreadGlobalData.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\Partitions.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\Logging.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\ScrollAnimator.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\Widget.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\LinkHash.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\FloatConversion.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\LayoutTestSupport.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\ContentType.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\SecureTextInput.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\ScrollbarThemeOverlay.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\PlatformTouchPoint.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\ThreadTimers.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\DragData.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\Scrollbar.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\NotImplemented.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\PlatformSpeechSynthesizer.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\LifecycleContext.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\ScrollbarThemeNonMacCommon.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\SuddenTermination.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\SSLKeyGenerator.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\ScrollAnimatorNone.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\Pasteboard.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\PurgeableBuffer.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\Sound.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\CrossThreadCopier.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\PlatformInstrumentation.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\CrossThreadCopier.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\ScrollbarThemeOverlay.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\CalculationValue.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\LifecycleNotifier.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\SharedBuffer.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\Timer.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\PrerenderClient.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\LifecycleObserver.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\PlatformInstrumentation.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\DateComponents.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\MIMETypeFromURL.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\SharedBufferChunkReader.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\Cursor.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\Clock.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\KillRingNone.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\LocalizedStrings.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\LifecycleNotifier.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\SecureTextInput.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\AsyncFileSystemCallbacks.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\LengthBox.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\PlatformSpeechSynthesizer.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\ScrollableArea.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\Length.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\HashTools.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\SharedTimer.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\SerializedResource.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\LayoutTestSupport.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\ContextMenuItem.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\ContentType.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\PlatformEvent.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\ScrollbarThemeAuraOrGtk.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\PlatformEvent.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\KillRing.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\PrerenderHandle.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\ScrollAnimatorNone.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\ScrollbarThemeClient.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\ScrollbarThemeNonMacCommon.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\Scrollbar.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\PlatformTouchEvent.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\ScrollAnimator.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\ContextMenu.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\Clock.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\Decimal.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\UUID.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\ScrollbarThemeAuraOrGtk.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\FileChooser.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\ThreadTimers.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\UUID.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\PlatformSpeechSynthesisUtterance.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\DragImage.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\JSONValues.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\JSONValues.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\LifecycleObserver.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\EventTracer.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\FileMetadata.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\ScrollView.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\PlatformSpeechSynthesisUtterance.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\Task.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\LifecycleContext.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\Pasteboard.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\MIMETypeFromURL.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\CalculationValue.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\PlatformSpeechSynthesisVoice.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\Widget.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\PlatformSpeechSynthesisVoice.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\Partitions.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\ScrollbarTheme.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\ScrollbarTheme.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\LocalizedStrings.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\Language.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\PurgeableBuffer.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\ScrollbarThemeMacNonOverlayAPI.h">
+      <Filter>platform\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\ScrollbarThemeAndroid.cpp">
+      <Filter>platform\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\ScrollbarThemeMacCommon.h">
+      <Filter>platform\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="platform\ScrollbarThemeMacNonOverlayAPI.mm">
+      <Filter>platform\_excluded_files</Filter>
+    </None>
+    <None Include="platform\ScrollbarThemeMacOverlayAPI.mm">
+      <Filter>platform\_excluded_files</Filter>
+    </None>
+    <None Include="platform\ScrollbarThemeMacCommon.mm">
+      <Filter>platform\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="platform\ScrollbarThemeWin.h">
+      <Filter>platform\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\ScrollbarThemeWin.cpp">
+      <Filter>platform\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\ScrollbarThemeMacOverlayAPI.h">
+      <Filter>platform\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\Theme.cpp">
+      <Filter>platform\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\network\SocketStreamError.h">
+      <Filter>platform\network</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\network\SocketStreamHandle.cpp">
+      <Filter>platform\network</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\network\DNS.cpp">
+      <Filter>platform\network</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\network\ProxyServer.cpp">
+      <Filter>platform\network</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\network\ResourceError.h">
+      <Filter>platform\network</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\network\FormData.cpp">
+      <Filter>platform\network</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\network\ResourceResponse.cpp">
+      <Filter>platform\network</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\network\FormDataBuilder.h">
+      <Filter>platform\network</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\network\ParsedContentType.cpp">
+      <Filter>platform\network</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\network\HTTPParsers.cpp">
+      <Filter>platform\network</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\network\SocketStreamHandle.h">
+      <Filter>platform\network</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\network\BlobData.h">
+      <Filter>platform\network</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\network\ResourceRequest.h">
+      <Filter>platform\network</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\network\HTTPRequest.h">
+      <Filter>platform\network</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\network\SocketStreamHandleInternal.h">
+      <Filter>platform\network</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\network\SocketStreamError.cpp">
+      <Filter>platform\network</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\network\MIMEHeader.cpp">
+      <Filter>platform\network</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\network\ResourceResponse.h">
+      <Filter>platform\network</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\network\HTTPHeaderMap.cpp">
+      <Filter>platform\network</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\network\NetworkStateNotifier.cpp">
+      <Filter>platform\network</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\network\HTTPParsers.h">
+      <Filter>platform\network</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\network\ParsedContentType.h">
+      <Filter>platform\network</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\network\HTTPRequest.cpp">
+      <Filter>platform\network</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\network\ResourceError.cpp">
+      <Filter>platform\network</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\network\SocketStreamHandleClient.h">
+      <Filter>platform\network</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\network\NetworkStateNotifier.h">
+      <Filter>platform\network</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\network\FormDataBuilder.cpp">
+      <Filter>platform\network</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\network\ResourceRequest.cpp">
+      <Filter>platform\network</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\network\BlobData.cpp">
+      <Filter>platform\network</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\network\DNS.h">
+      <Filter>platform\network</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\image-encoders\skia\WEBPImageEncoder.cpp">
+      <Filter>platform\image-encoders\skia</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\image-encoders\skia\PNGImageEncoder.cpp">
+      <Filter>platform\image-encoders\skia</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\image-encoders\skia\JPEGImageEncoder.cpp">
+      <Filter>platform\image-encoders\skia</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\image-encoders\skia\PNGImageEncoder.h">
+      <Filter>platform\image-encoders\skia</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\image-encoders\skia\JPEGImageEncoder.h">
+      <Filter>platform\image-encoders\skia</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\image-encoders\skia\WEBPImageEncoder.h">
+      <Filter>platform\image-encoders\skia</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\midi\MIDIAccessorClient.h">
+      <Filter>platform\midi</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\midi\MIDIAccessor.h">
+      <Filter>platform\midi</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\midi\MIDIAccessor.cpp">
+      <Filter>platform\midi</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\text\TextEncodingDetectorICU.cpp">
+      <Filter>platform\text</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\text\TextBreakIteratorInternalICU.cpp">
+      <Filter>platform\text</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\text\AtomicStringKeyedMRUCache.h">
+      <Filter>platform\text</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\text\PlatformLocale.h">
+      <Filter>platform\text</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\text\PlatformLocale.cpp">
+      <Filter>platform\text</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\text\QuotedPrintable.h">
+      <Filter>platform\text</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\text\LineEnding.cpp">
+      <Filter>platform\text</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\text\SuffixTree.h">
+      <Filter>platform\text</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\text\TextStream.cpp">
+      <Filter>platform\text</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\text\TextBreakIteratorICU.cpp">
+      <Filter>platform\text</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\text\TextEncodingDetector.h">
+      <Filter>platform\text</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\text\QuotedPrintable.cpp">
+      <Filter>platform\text</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\text\RegularExpression.cpp">
+      <Filter>platform\text</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\text\LocaleToScriptMapping.h">
+      <Filter>platform\text</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\text\SegmentedString.cpp">
+      <Filter>platform\text</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\text\LocaleToScriptMappingDefault.cpp">
+      <Filter>platform\text</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\text\ParserUtilities.h">
+      <Filter>platform\text</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\text\BidiContext.cpp">
+      <Filter>platform\text</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\text\TextBreakIterator.cpp">
+      <Filter>platform\text</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\text\DateTimeFormat.cpp">
+      <Filter>platform\text</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\text\UnicodeRange.cpp">
+      <Filter>platform\text</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\text\TextBoundaries.cpp">
+      <Filter>platform\text</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\text\LocaleICU.cpp">
+      <Filter>platform\text\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\text\LocaleICU.h">
+      <Filter>platform\text\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\text\win\LocaleWin.cpp">
+      <Filter>platform\text\win</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\text\win\LocaleWin.h">
+      <Filter>platform\text\win</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\text\mac\LocaleMac.h">
+      <Filter>platform\text\mac\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="platform\text\mac\LocaleMac.mm">
+      <Filter>platform\text\mac\_excluded_files</Filter>
+    </None>
+    <None Include="platform\text\mac\StringMac.mm">
+      <Filter>platform\text\mac\_excluded_files</Filter>
+    </None>
+    <None Include="platform\text\mac\StringImplMac.mm">
+      <Filter>platform\text\mac\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="platform\text\cf\AtomicStringCF.cpp">
+      <Filter>platform\text\cf\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\text\cf\StringCF.cpp">
+      <Filter>platform\text\cf\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\text\cf\StringImplCF.cpp">
+      <Filter>platform\text\cf\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\text\transcoder\FontTranscoder.cpp">
+      <Filter>platform\text\transcoder</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\text\transcoder\FontTranscoder.h">
+      <Filter>platform\text\transcoder</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\sql\SQLiteTransaction.cpp">
+      <Filter>platform\sql</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\sql\SQLiteAuthorizer.cpp">
+      <Filter>platform\sql</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\sql\SQLiteFileSystem.h">
+      <Filter>platform\sql</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\sql\SQLiteDatabase.cpp">
+      <Filter>platform\sql</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\sql\SQLValue.cpp">
+      <Filter>platform\sql</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\sql\SQLiteStatement.cpp">
+      <Filter>platform\sql</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\sql\SQLiteStatement.h">
+      <Filter>platform\sql</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\sql\chromium\SQLiteFileSystemChromiumWin.cpp">
+      <Filter>platform\sql\chromium</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\sql\chromium\SQLiteFileSystemChromium.cpp">
+      <Filter>platform\sql\chromium</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\sql\chromium\SQLiteFileSystemChromiumPosix.cpp">
+      <Filter>platform\sql\chromium\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\image-decoders\ImageDecoder.h">
+      <Filter>platform\image-decoders</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\image-decoders\ImageDecoder.cpp">
+      <Filter>platform\image-decoders</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\image-decoders\ImageFrame.cpp">
+      <Filter>platform\image-decoders</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\image-decoders\ico\ICOImageDecoder.h">
+      <Filter>platform\image-decoders\ico</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\image-decoders\ico\ICOImageDecoder.cpp">
+      <Filter>platform\image-decoders\ico</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\image-decoders\bmp\BMPImageReader.cpp">
+      <Filter>platform\image-decoders\bmp</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\image-decoders\bmp\BMPImageReader.h">
+      <Filter>platform\image-decoders\bmp</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\image-decoders\bmp\BMPImageDecoder.cpp">
+      <Filter>platform\image-decoders\bmp</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\image-decoders\bmp\BMPImageDecoder.h">
+      <Filter>platform\image-decoders\bmp</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\image-decoders\jpeg\JPEGImageDecoder.h">
+      <Filter>platform\image-decoders\jpeg</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\image-decoders\jpeg\JPEGImageDecoder.cpp">
+      <Filter>platform\image-decoders\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\image-decoders\gif\GIFImageDecoder.cpp">
+      <Filter>platform\image-decoders\gif</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\image-decoders\gif\GIFImageReader.h">
+      <Filter>platform\image-decoders\gif</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\image-decoders\gif\GIFImageReader.cpp">
+      <Filter>platform\image-decoders\gif</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\image-decoders\gif\GIFImageDecoder.h">
+      <Filter>platform\image-decoders\gif</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\image-decoders\webp\WEBPImageDecoder.cpp">
+      <Filter>platform\image-decoders\webp</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\image-decoders\webp\WEBPImageDecoder.h">
+      <Filter>platform\image-decoders\webp</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\image-decoders\png\PNGImageDecoder.h">
+      <Filter>platform\image-decoders\png</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\image-decoders\png\PNGImageDecoder.cpp">
+      <Filter>platform\image-decoders\png</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\cocoa\KeyEventCocoa.h">
+      <Filter>platform\cocoa</Filter>
+    </ClInclude>
+    <None Include="platform\cocoa\KeyEventCocoa.mm">
+      <Filter>platform\cocoa</Filter>
+    </None>
+    <ClInclude Include="platform\mac\NSScrollerImpDetails.h">
+      <Filter>platform\mac\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\mac\ScrollAnimatorMac.h">
+      <Filter>platform\mac\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="platform\mac\NSScrollerImpDetails.mm">
+      <Filter>platform\mac\_excluded_files</Filter>
+    </None>
+    <None Include="platform\mac\ThemeMac.mm">
+      <Filter>platform\mac\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="platform\mac\ThemeMac.h">
+      <Filter>platform\mac\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\mac\ScrollElasticityController.h">
+      <Filter>platform\mac\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="platform\mac\ScrollElasticityController.mm">
+      <Filter>platform\mac\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="platform\mac\LocalCurrentGraphicsContext.h">
+      <Filter>platform\mac\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="platform\mac\BlockExceptions.mm">
+      <Filter>platform\mac\_excluded_files</Filter>
+    </None>
+    <None Include="platform\mac\ScrollAnimatorMac.mm">
+      <Filter>platform\mac\_excluded_files</Filter>
+    </None>
+    <None Include="platform\mac\KillRingMac.mm">
+      <Filter>platform\mac\_excluded_files</Filter>
+    </None>
+    <None Include="platform\mac\LocalCurrentGraphicsContext.mm">
+      <Filter>platform\mac\_excluded_files</Filter>
+    </None>
+    <None Include="platform\mac\WebFontCache.mm">
+      <Filter>platform\mac\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="platform\animation\CSSAnimationData.cpp">
+      <Filter>platform\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\animation\CSSAnimationDataList.cpp">
+      <Filter>platform\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\GraphicsContext3D.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\ImageOrientation.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\Latin1TextIterator.h">
+      <Filter>platform\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\PathTraversalState.h">
+      <Filter>platform\graphics</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\BitmapImage.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\GraphicsContext3DImagePacking.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\StrokeData.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\InbandTextTrackPrivate.h">
+      <Filter>platform\graphics</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\Path.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\LayoutBoxExtent.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\ContentDecryptionModule.h">
+      <Filter>platform\graphics</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\Font.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\ShadowBlur.h">
+      <Filter>platform\graphics</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\GraphicsLayerTransform.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\FontFallbackList.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\SurrogatePairAwareTextIterator.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\Extensions3D.h">
+      <Filter>platform\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\ANGLEWebKitBridge.h">
+      <Filter>platform\graphics</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\GraphicsContext.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\FontPlatformData.h">
+      <Filter>platform\graphics</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\FontFamily.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\DrawLooper.h">
+      <Filter>platform\graphics</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\FontFeatureSettings.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\PathTraversalState.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\Pattern.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\DrawLooper.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\FontData.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\StringTruncator.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\InbandTextTrackPrivateClient.h">
+      <Filter>platform\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\WidthIterator.h">
+      <Filter>platform\graphics</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\SimpleFontData.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\SegmentedFontData.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\GraphicsLayer.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\ShadowBlur.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\ImageSource.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\FontFastPath.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\GraphicsTypes.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\MediaPlayer.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\ANGLEWebKitBridge.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\ImageBuffer.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\ContentDecryptionModule.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\Color.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\FontDescription.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\TextRun.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\UnitBezier.h">
+      <Filter>platform\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\GeneratedImage.h">
+      <Filter>platform\graphics</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\GlyphPageTreeNode.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\SVGGlyph.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\CrossfadeGeneratedImage.h">
+      <Filter>platform\graphics</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\Gradient.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\GraphicsContextAnnotation.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\RoundedRect.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\Image.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\CrossfadeGeneratedImage.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\MediaPlayer.h">
+      <Filter>platform\graphics</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\GeneratedImage.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\FontCache.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\ContentDecryptionModuleSession.h">
+      <Filter>platform\graphics</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\FrameData.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\FrameData.h">
+      <Filter>platform\graphics</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\GeneratorGeneratedImage.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\WidthIterator.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\SurrogatePairAwareTextIterator.h">
+      <Filter>platform\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\SegmentedFontData.h">
+      <Filter>platform\graphics</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\Extensions3D.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\ContentDecryptionModuleSession.cpp">
+      <Filter>platform\graphics</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\GraphicsLayerTransform.h">
+      <Filter>platform\graphics</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\FontPlatformData.cpp">
+      <Filter>platform\graphics\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\opentype\OpenTypeTypes.h">
+      <Filter>platform\graphics\opentype</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\opentype\OpenTypeVerticalData.cpp">
+      <Filter>platform\graphics\opentype</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\opentype\OpenTypeSanitizer.cpp">
+      <Filter>platform\graphics\opentype</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\opentype\OpenTypeUtilities.cpp">
+      <Filter>platform\graphics\opentype</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\opentype\OpenTypeSanitizer.h">
+      <Filter>platform\graphics\opentype</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\opentype\OpenTypeVerticalData.h">
+      <Filter>platform\graphics\opentype</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\opentype\OpenTypeUtilities.h">
+      <Filter>platform\graphics\opentype</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\win\FontCustomPlatformDataWin.cpp">
+      <Filter>platform\graphics\win</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\cg\IntRectCG.cpp">
+      <Filter>platform\graphics\cg\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\cg\FloatRectCG.cpp">
+      <Filter>platform\graphics\cg\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\cg\IntPointCG.cpp">
+      <Filter>platform\graphics\cg\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\cg\FloatPointCG.cpp">
+      <Filter>platform\graphics\cg\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\cg\IntSizeCG.cpp">
+      <Filter>platform\graphics\cg\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\cg\FloatSizeCG.cpp">
+      <Filter>platform\graphics\cg\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\harfbuzz\FontPlatformDataHarfBuzz.cpp">
+      <Filter>platform\graphics\harfbuzz\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\harfbuzz\FontPlatformDataHarfBuzz.h">
+      <Filter>platform\graphics\harfbuzz\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\harfbuzz\HarfBuzzFace.cpp">
+      <Filter>platform\graphics\harfbuzz\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\harfbuzz\HarfBuzzFaceCoreText.cpp">
+      <Filter>platform\graphics\harfbuzz\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\harfbuzz\FontHarfBuzz.cpp">
+      <Filter>platform\graphics\harfbuzz\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\harfbuzz\HarfBuzzFace.h">
+      <Filter>platform\graphics\harfbuzz\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\harfbuzz\HarfBuzzShaper.h">
+      <Filter>platform\graphics\harfbuzz\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\harfbuzz\HarfBuzzFaceSkia.cpp">
+      <Filter>platform\graphics\harfbuzz\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\harfbuzz\HarfBuzzShaper.cpp">
+      <Filter>platform\graphics\harfbuzz\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="platform\graphics\cocoa\FontPlatformDataCocoa.mm">
+      <Filter>platform\graphics\cocoa</Filter>
+    </None>
+    <ClCompile Include="platform\graphics\mac\FontComplexTextMac.cpp">
+      <Filter>platform\graphics\mac\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\mac\ColorMac.h">
+      <Filter>platform\graphics\mac\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="platform\graphics\mac\IntRectMac.mm">
+      <Filter>platform\graphics\mac\_excluded_files</Filter>
+    </None>
+    <None Include="platform\graphics\mac\ColorMac.mm">
+      <Filter>platform\graphics\mac\_excluded_files</Filter>
+    </None>
+    <None Include="platform\graphics\mac\IntPointMac.mm">
+      <Filter>platform\graphics\mac\_excluded_files</Filter>
+    </None>
+    <None Include="platform\graphics\mac\ComplexTextControllerCoreText.mm">
+      <Filter>platform\graphics\mac\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="platform\graphics\mac\ComplexTextController.cpp">
+      <Filter>platform\graphics\mac\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="platform\graphics\mac\FloatRectMac.mm">
+      <Filter>platform\graphics\mac\_excluded_files</Filter>
+    </None>
+    <None Include="platform\graphics\mac\SimpleFontDataMac.mm">
+      <Filter>platform\graphics\mac\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="platform\graphics\mac\ComplexTextController.h">
+      <Filter>platform\graphics\mac\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="platform\graphics\mac\FloatSizeMac.mm">
+      <Filter>platform\graphics\mac\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="platform\graphics\mac\FontCustomPlatformDataMac.cpp">
+      <Filter>platform\graphics\mac\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\mac\GlyphPageTreeNodeMac.cpp">
+      <Filter>platform\graphics\mac\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\mac\SimpleFontDataCoreText.cpp">
+      <Filter>platform\graphics\mac\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="platform\graphics\mac\FontCacheMac.mm">
+      <Filter>platform\graphics\mac\_excluded_files</Filter>
+    </None>
+    <None Include="platform\graphics\mac\IntSizeMac.mm">
+      <Filter>platform\graphics\mac\_excluded_files</Filter>
+    </None>
+    <None Include="platform\graphics\mac\FloatPointMac.mm">
+      <Filter>platform\graphics\mac\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="platform\graphics\mac\FontMac.cpp">
+      <Filter>platform\graphics\mac\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\transforms\InterpolatedTransformOperation.h">
+      <Filter>platform\graphics\transforms</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\transforms\Matrix3DTransformOperation.h">
+      <Filter>platform\graphics\transforms</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\transforms\TranslateTransformOperation.cpp">
+      <Filter>platform\graphics\transforms</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\transforms\Matrix3DTransformOperation.cpp">
+      <Filter>platform\graphics\transforms</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\transforms\InterpolatedTransformOperation.cpp">
+      <Filter>platform\graphics\transforms</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\transforms\ScaleTransformOperation.cpp">
+      <Filter>platform\graphics\transforms</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\transforms\ScaleTransformOperation.h">
+      <Filter>platform\graphics\transforms</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\transforms\MatrixTransformOperation.cpp">
+      <Filter>platform\graphics\transforms</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\transforms\TransformOperations.cpp">
+      <Filter>platform\graphics\transforms</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\transforms\MatrixTransformOperation.h">
+      <Filter>platform\graphics\transforms</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\transforms\SkewTransformOperation.h">
+      <Filter>platform\graphics\transforms</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\transforms\PerspectiveTransformOperation.cpp">
+      <Filter>platform\graphics\transforms</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\transforms\PerspectiveTransformOperation.h">
+      <Filter>platform\graphics\transforms</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\transforms\TransformState.cpp">
+      <Filter>platform\graphics\transforms</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\transforms\TranslateTransformOperation.h">
+      <Filter>platform\graphics\transforms</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\transforms\TransformState.h">
+      <Filter>platform\graphics\transforms</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\transforms\SkewTransformOperation.cpp">
+      <Filter>platform\graphics\transforms</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\transforms\IdentityTransformOperation.h">
+      <Filter>platform\graphics\transforms</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\transforms\RotateTransformOperation.h">
+      <Filter>platform\graphics\transforms</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\transforms\RotateTransformOperation.cpp">
+      <Filter>platform\graphics\transforms</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\filters\FEDiffuseLighting.h">
+      <Filter>platform\graphics\filters</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\filters\SourceGraphic.cpp">
+      <Filter>platform\graphics\filters</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\filters\SkiaImageFilterBuilder.h">
+      <Filter>platform\graphics\filters</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\filters\FEFlood.cpp">
+      <Filter>platform\graphics\filters</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\filters\FEComposite.h">
+      <Filter>platform\graphics\filters</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\filters\FEDiffuseLighting.cpp">
+      <Filter>platform\graphics\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\filters\FETile.cpp">
+      <Filter>platform\graphics\filters</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\filters\SourceAlpha.h">
+      <Filter>platform\graphics\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\filters\ReferenceFilter.h">
+      <Filter>platform\graphics\filters</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\filters\FEOffset.cpp">
+      <Filter>platform\graphics\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\filters\FEComposite.cpp">
+      <Filter>platform\graphics\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\filters\FEBlend.cpp">
+      <Filter>platform\graphics\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\filters\SkiaImageFilterBuilder.cpp">
+      <Filter>platform\graphics\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\filters\FilterOperation.cpp">
+      <Filter>platform\graphics\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\filters\DistantLightSource.cpp">
+      <Filter>platform\graphics\filters</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\filters\FilterOperation.h">
+      <Filter>platform\graphics\filters</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\filters\SourceAlpha.cpp">
+      <Filter>platform\graphics\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\filters\FEMerge.cpp">
+      <Filter>platform\graphics\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\filters\FEDropShadow.cpp">
+      <Filter>platform\graphics\filters</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\filters\FEOffset.h">
+      <Filter>platform\graphics\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\filters\DistantLightSource.h">
+      <Filter>platform\graphics\filters</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\filters\FETurbulence.cpp">
+      <Filter>platform\graphics\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\filters\FEColorMatrix.cpp">
+      <Filter>platform\graphics\filters</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\filters\FEConvolveMatrix.h">
+      <Filter>platform\graphics\filters</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\filters\FESpecularLighting.cpp">
+      <Filter>platform\graphics\filters</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\filters\FEFlood.h">
+      <Filter>platform\graphics\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\filters\PointLightSource.h">
+      <Filter>platform\graphics\filters</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\filters\FilterOperations.cpp">
+      <Filter>platform\graphics\filters</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\filters\FEComponentTransfer.h">
+      <Filter>platform\graphics\filters</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\filters\FEMorphology.cpp">
+      <Filter>platform\graphics\filters</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\filters\FETile.h">
+      <Filter>platform\graphics\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\filters\SourceGraphic.h">
+      <Filter>platform\graphics\filters</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\filters\FEDisplacementMap.cpp">
+      <Filter>platform\graphics\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\filters\FELighting.cpp">
+      <Filter>platform\graphics\filters</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\filters\FELighting.h">
+      <Filter>platform\graphics\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\filters\FESpecularLighting.h">
+      <Filter>platform\graphics\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\filters\FEMerge.h">
+      <Filter>platform\graphics\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\filters\SpotLightSource.h">
+      <Filter>platform\graphics\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\filters\FEGaussianBlur.h">
+      <Filter>platform\graphics\filters</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\filters\FEComponentTransfer.cpp">
+      <Filter>platform\graphics\filters</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\filters\FilterEffect.h">
+      <Filter>platform\graphics\filters</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\filters\ReferenceFilter.cpp">
+      <Filter>platform\graphics\filters</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\filters\FEDropShadow.h">
+      <Filter>platform\graphics\filters</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\filters\FEGaussianBlur.cpp">
+      <Filter>platform\graphics\filters</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\filters\Filter.h">
+      <Filter>platform\graphics\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\filters\LightSource.h">
+      <Filter>platform\graphics\filters</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\filters\FEConvolveMatrix.cpp">
+      <Filter>platform\graphics\filters</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\filters\FilterOperations.h">
+      <Filter>platform\graphics\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\filters\FEMorphology.h">
+      <Filter>platform\graphics\filters</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\filters\SpotLightSource.cpp">
+      <Filter>platform\graphics\filters</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\filters\FETurbulence.h">
+      <Filter>platform\graphics\filters</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\filters\PointLightSource.cpp">
+      <Filter>platform\graphics\filters</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\filters\FEColorMatrix.h">
+      <Filter>platform\graphics\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\filters\FEDisplacementMap.h">
+      <Filter>platform\graphics\filters</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\filters\FilterEffect.cpp">
+      <Filter>platform\graphics\filters</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\filters\FEBlend.h">
+      <Filter>platform\graphics\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\filters\custom\CustomFilterTransformParameter.h">
+      <Filter>platform\graphics\filters\custom</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\filters\custom\CustomFilterMesh.cpp">
+      <Filter>platform\graphics\filters\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\filters\custom\CustomFilterOperation.cpp">
+      <Filter>platform\graphics\filters\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\filters\custom\CustomFilterMeshGenerator.cpp">
+      <Filter>platform\graphics\filters\custom</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\filters\custom\CustomFilterMesh.h">
+      <Filter>platform\graphics\filters\custom</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\filters\custom\CustomFilterCompiledProgram.h">
+      <Filter>platform\graphics\filters\custom</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\filters\custom\FECustomFilter.h">
+      <Filter>platform\graphics\filters\custom</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\filters\custom\CustomFilterProgram.cpp">
+      <Filter>platform\graphics\filters\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\filters\custom\CustomFilterProgramInfo.cpp">
+      <Filter>platform\graphics\filters\custom</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\filters\custom\CustomFilterNumberParameter.h">
+      <Filter>platform\graphics\filters\custom</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\filters\custom\CustomFilterCompiledProgram.cpp">
+      <Filter>platform\graphics\filters\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\filters\custom\CustomFilterParameterList.cpp">
+      <Filter>platform\graphics\filters\custom</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\filters\custom\CustomFilterArrayParameter.h">
+      <Filter>platform\graphics\filters\custom</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\filters\custom\CustomFilterParameterList.h">
+      <Filter>platform\graphics\filters\custom</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\filters\custom\CustomFilterGlobalContext.cpp">
+      <Filter>platform\graphics\filters\custom</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\filters\custom\ValidatedCustomFilterOperation.h">
+      <Filter>platform\graphics\filters\custom</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\filters\custom\ValidatedCustomFilterOperation.cpp">
+      <Filter>platform\graphics\filters\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\filters\custom\CustomFilterValidatedProgram.cpp">
+      <Filter>platform\graphics\filters\custom</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\filters\custom\CustomFilterParameter.h">
+      <Filter>platform\graphics\filters\custom</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\filters\custom\CustomFilterProgramClient.h">
+      <Filter>platform\graphics\filters\custom</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\filters\custom\CustomFilterGlobalContext.h">
+      <Filter>platform\graphics\filters\custom</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\filters\custom\CustomFilterRenderer.h">
+      <Filter>platform\graphics\filters\custom</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\filters\custom\CustomFilterRenderer.cpp">
+      <Filter>platform\graphics\filters\custom</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\filters\custom\CustomFilterProgram.h">
+      <Filter>platform\graphics\filters\custom</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\filters\custom\CustomFilterProgramInfo.h">
+      <Filter>platform\graphics\filters\custom</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\filters\custom\FECustomFilter.cpp">
+      <Filter>platform\graphics\filters\custom</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\filters\custom\CustomFilterValidatedProgram.h">
+      <Filter>platform\graphics\filters\custom</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\filters\custom\CustomFilterConstants.h">
+      <Filter>platform\graphics\filters\custom</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\filters\custom\CustomFilterMeshGenerator.h">
+      <Filter>platform\graphics\filters\custom</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\filters\custom\CustomFilterOperation.h">
+      <Filter>platform\graphics\filters\custom</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\skia\FontPlatformDataSkia.cpp">
+      <Filter>platform\graphics\skia</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\skia\SkiaUtils.cpp">
+      <Filter>platform\graphics\skia</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\skia\SkiaSharedBufferStream.cpp">
+      <Filter>platform\graphics\skia</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\skia\SkiaUtils.h">
+      <Filter>platform\graphics\skia</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\skia\OpaqueRegionSkia.cpp">
+      <Filter>platform\graphics\skia</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\skia\NativeImageSkia.h">
+      <Filter>platform\graphics\skia</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\skia\OpaqueRegionSkia.h">
+      <Filter>platform\graphics\skia</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\skia\SkiaSharedBufferStream.h">
+      <Filter>platform\graphics\skia</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\skia\SkiaFontWin.h">
+      <Filter>platform\graphics\skia</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\skia\SkiaFontWin.cpp">
+      <Filter>platform\graphics\skia</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\skia\NativeImageSkia.cpp">
+      <Filter>platform\graphics\skia</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\skia\FontCustomPlatformDataSkia.cpp">
+      <Filter>platform\graphics\skia\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\skia\FontCacheSkia.cpp">
+      <Filter>platform\graphics\skia\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\skia\SimpleFontDataSkia.cpp">
+      <Filter>platform\graphics\skia\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\skia\GlyphPageTreeNodeSkia.cpp">
+      <Filter>platform\graphics\skia\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\skia\FontCacheSkiaWin.cpp">
+      <Filter>platform\graphics\skia\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\gpu\DrawingBuffer.cpp">
+      <Filter>platform\graphics\gpu</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\gpu\SharedGraphicsContext3D.h">
+      <Filter>platform\graphics\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\gpu\DrawingBuffer.h">
+      <Filter>platform\graphics\gpu</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\gpu\SharedGraphicsContext3D.cpp">
+      <Filter>platform\graphics\gpu</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\chromium\ImageDecodingStore.h">
+      <Filter>platform\graphics\chromium</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\chromium\FontChromiumWin.cpp">
+      <Filter>platform\graphics\chromium</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\chromium\UniscribeHelper.cpp">
+      <Filter>platform\graphics\chromium</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\chromium\DiscardablePixelRef.cpp">
+      <Filter>platform\graphics\chromium</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\chromium\ThreadSafeDataTransport.cpp">
+      <Filter>platform\graphics\chromium</Filter>
+    </ClCompile>
+    <None Include="platform\graphics\chromium\CrossProcessFontLoading.mm">
+      <Filter>platform\graphics\chromium</Filter>
+    </None>
+    <ClInclude Include="platform\graphics\chromium\TransformSkMatrix44Conversions.h">
+      <Filter>platform\graphics\chromium</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\chromium\Canvas2DLayerBridge.h">
+      <Filter>platform\graphics\chromium</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\chromium\FontPlatformDataChromiumWin.cpp">
+      <Filter>platform\graphics\chromium</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\chromium\UniscribeHelperTextRun.h">
+      <Filter>platform\graphics\chromium</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\chromium\OpaqueRectTrackingContentLayerDelegate.cpp">
+      <Filter>platform\graphics\chromium</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\chromium\CrossProcessFontLoading.h">
+      <Filter>platform\graphics\chromium</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\chromium\OpaqueRectTrackingContentLayerDelegate.h">
+      <Filter>platform\graphics\chromium</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\chromium\TransparencyWin.cpp">
+      <Filter>platform\graphics\chromium</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\chromium\SimpleFontDataChromiumWin.cpp">
+      <Filter>platform\graphics\chromium</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\chromium\FontUtilsChromiumWin.h">
+      <Filter>platform\graphics\chromium</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\chromium\FontRenderStyle.h">
+      <Filter>platform\graphics\chromium</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\chromium\AnimationTranslationUtil.h">
+      <Filter>platform\graphics\chromium</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\chromium\AnimationTranslationUtil.cpp">
+      <Filter>platform\graphics\chromium</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\chromium\UniscribeHelperTextRun.cpp">
+      <Filter>platform\graphics\chromium</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\chromium\ImageDecodingStore.cpp">
+      <Filter>platform\graphics\chromium</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\chromium\ScaledImageFragment.h">
+      <Filter>platform\graphics\chromium</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\chromium\TransparencyWin.h">
+      <Filter>platform\graphics\chromium</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\chromium\LazyDecodingPixelRef.h">
+      <Filter>platform\graphics\chromium</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\chromium\ScaledImageFragment.cpp">
+      <Filter>platform\graphics\chromium</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\chromium\GlyphPageTreeNodeChromiumWin.cpp">
+      <Filter>platform\graphics\chromium</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\chromium\Canvas2DLayerBridge.cpp">
+      <Filter>platform\graphics\chromium</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\chromium\ImageFrameGenerator.h">
+      <Filter>platform\graphics\chromium</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\chromium\TransformSkMatrix44Conversions.cpp">
+      <Filter>platform\graphics\chromium</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\chromium\Canvas2DLayerManager.h">
+      <Filter>platform\graphics\chromium</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\chromium\DiscardablePixelRef.h">
+      <Filter>platform\graphics\chromium</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\chromium\FontUtilsChromiumWin.cpp">
+      <Filter>platform\graphics\chromium</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\chromium\FontCacheChromiumWin.cpp">
+      <Filter>platform\graphics\chromium</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\chromium\UniscribeHelper.h">
+      <Filter>platform\graphics\chromium</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\chromium\ImageFrameGenerator.cpp">
+      <Filter>platform\graphics\chromium</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\chromium\DeferredImageDecoder.h">
+      <Filter>platform\graphics\chromium</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\graphics\chromium\ThreadSafeDataTransport.h">
+      <Filter>platform\graphics\chromium</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\chromium\Canvas2DLayerManager.cpp">
+      <Filter>platform\graphics\chromium</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\chromium\DeferredImageDecoder.cpp">
+      <Filter>platform\graphics\chromium</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\chromium\FontPlatformDataChromiumWin.h">
+      <Filter>platform\graphics\chromium</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\chromium\LazyDecodingPixelRef.cpp">
+      <Filter>platform\graphics\chromium</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\graphics\chromium\VDMXParser.h">
+      <Filter>platform\graphics\chromium\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\graphics\chromium\VDMXParser.cpp">
+      <Filter>platform\graphics\chromium\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\chromium\FontCacheChromiumLinux.cpp">
+      <Filter>platform\graphics\chromium\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\graphics\chromium\FontCacheAndroid.cpp">
+      <Filter>platform\graphics\chromium\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\win\SystemInfo.cpp">
+      <Filter>platform\win</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\win\SystemInfo.h">
+      <Filter>platform\win\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\audio\HRTFPanner.h">
+      <Filter>platform\audio</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\audio\AudioDSPKernelProcessor.cpp">
+      <Filter>platform\audio</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\audio\SincResampler.h">
+      <Filter>platform\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\audio\UpSampler.h">
+      <Filter>platform\audio</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\audio\AudioResampler.cpp">
+      <Filter>platform\audio</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\audio\AudioIOCallback.h">
+      <Filter>platform\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\audio\ReverbConvolver.h">
+      <Filter>platform\audio</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\audio\Distance.cpp">
+      <Filter>platform\audio</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\audio\ReverbConvolverStage.h">
+      <Filter>platform\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\audio\ReverbInputBuffer.h">
+      <Filter>platform\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\audio\Reverb.h">
+      <Filter>platform\audio</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\audio\HRTFKernel.cpp">
+      <Filter>platform\audio</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\audio\Cone.h">
+      <Filter>platform\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\audio\DirectConvolver.h">
+      <Filter>platform\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\audio\AudioDestination.h">
+      <Filter>platform\audio</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\audio\AudioUtilities.cpp">
+      <Filter>platform\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\audio\AudioFIFO.cpp">
+      <Filter>platform\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\audio\HRTFPanner.cpp">
+      <Filter>platform\audio</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\audio\AudioArray.h">
+      <Filter>platform\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\audio\Biquad.h">
+      <Filter>platform\audio</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\audio\AudioPullFIFO.cpp">
+      <Filter>platform\audio</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\audio\HRTFDatabaseLoader.h">
+      <Filter>platform\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\audio\AudioPullFIFO.h">
+      <Filter>platform\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\audio\DownSampler.h">
+      <Filter>platform\audio</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\audio\AudioChannel.cpp">
+      <Filter>platform\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\audio\Cone.cpp">
+      <Filter>platform\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\audio\DynamicsCompressorKernel.cpp">
+      <Filter>platform\audio</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\audio\AudioUtilities.h">
+      <Filter>platform\audio</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\audio\MultiChannelResampler.cpp">
+      <Filter>platform\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\audio\DynamicsCompressor.cpp">
+      <Filter>platform\audio</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\audio\AudioSourceProviderClient.h">
+      <Filter>platform\audio</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\audio\ReverbConvolver.cpp">
+      <Filter>platform\audio</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\audio\AudioProcessor.h">
+      <Filter>platform\audio</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\audio\ReverbConvolverStage.cpp">
+      <Filter>platform\audio</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\audio\ZeroPole.h">
+      <Filter>platform\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\audio\AudioChannel.h">
+      <Filter>platform\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\audio\FFTFrame.h">
+      <Filter>platform\audio</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\audio\Biquad.cpp">
+      <Filter>platform\audio</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\audio\VectorMath.h">
+      <Filter>platform\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\audio\AudioBus.h">
+      <Filter>platform\audio</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\audio\ReverbInputBuffer.cpp">
+      <Filter>platform\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\audio\DirectConvolver.cpp">
+      <Filter>platform\audio</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\audio\ReverbAccumulationBuffer.h">
+      <Filter>platform\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\audio\AudioFIFO.h">
+      <Filter>platform\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\audio\AudioResamplerKernel.h">
+      <Filter>platform\audio</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\audio\HRTFDatabaseLoader.cpp">
+      <Filter>platform\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\audio\AudioBus.cpp">
+      <Filter>platform\audio</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\audio\EqualPowerPanner.h">
+      <Filter>platform\audio</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\audio\AudioResamplerKernel.cpp">
+      <Filter>platform\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\audio\SincResampler.cpp">
+      <Filter>platform\audio</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\audio\AudioDSPKernel.h">
+      <Filter>platform\audio</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\audio\HRTFDatabase.cpp">
+      <Filter>platform\audio</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\audio\Distance.h">
+      <Filter>platform\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\audio\HRTFDatabase.h">
+      <Filter>platform\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\audio\AudioSourceProvider.h">
+      <Filter>platform\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\audio\MultiChannelResampler.h">
+      <Filter>platform\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\audio\FFTConvolver.h">
+      <Filter>platform\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\audio\DenormalDisabler.h">
+      <Filter>platform\audio</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\audio\FFTFrame.cpp">
+      <Filter>platform\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\audio\HRTFElevation.cpp">
+      <Filter>platform\audio</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\audio\HRTFElevation.h">
+      <Filter>platform\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\audio\HRTFKernel.h">
+      <Filter>platform\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\audio\AudioResampler.h">
+      <Filter>platform\audio</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\audio\ZeroPole.cpp">
+      <Filter>platform\audio</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\audio\Panner.h">
+      <Filter>platform\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\audio\AudioDSPKernelProcessor.h">
+      <Filter>platform\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\audio\DynamicsCompressorKernel.h">
+      <Filter>platform\audio</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\audio\FFTConvolver.cpp">
+      <Filter>platform\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\audio\VectorMath.cpp">
+      <Filter>platform\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\audio\FFTFrameStub.cpp">
+      <Filter>platform\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\audio\Reverb.cpp">
+      <Filter>platform\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\audio\UpSampler.cpp">
+      <Filter>platform\audio</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\audio\DynamicsCompressor.h">
+      <Filter>platform\audio</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\audio\EqualPowerPanner.cpp">
+      <Filter>platform\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\audio\Panner.cpp">
+      <Filter>platform\audio</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\audio\AudioFileReader.h">
+      <Filter>platform\audio</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\audio\ReverbAccumulationBuffer.cpp">
+      <Filter>platform\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\audio\DownSampler.cpp">
+      <Filter>platform\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\audio\mac\FFTFrameMac.cpp">
+      <Filter>platform\audio\mac\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\audio\ipp\FFTFrameIPP.cpp">
+      <Filter>platform\audio\ipp</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\audio\chromium\AudioBusChromium.cpp">
+      <Filter>platform\audio\chromium</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\audio\chromium\AudioDestinationChromium.h">
+      <Filter>platform\audio\chromium</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\audio\chromium\AudioDestinationChromium.cpp">
+      <Filter>platform\audio\chromium</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\audio\chromium\FFTFrameOpenMAXDLAndroid.cpp">
+      <Filter>platform\audio\chromium\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\audio\ffmpeg\FFTFrameFFMPEG.cpp">
+      <Filter>platform\audio\ffmpeg</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\chromium\FramelessScrollView.h">
+      <Filter>platform\chromium</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\chromium\PrerenderHandle.cpp">
+      <Filter>platform\chromium</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\chromium\ClipboardUtilitiesChromium.h">
+      <Filter>platform\chromium</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\chromium\ClipboardMimeTypes.cpp">
+      <Filter>platform\chromium</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\chromium\PlatformSpeechSynthesizerChromium.cpp">
+      <Filter>platform\chromium</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\chromium\SoundChromiumWin.cpp">
+      <Filter>platform\chromium</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\chromium\ClipboardChromiumWin.cpp">
+      <Filter>platform\chromium</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\chromium\ClipboardUtilitiesChromium.cpp">
+      <Filter>platform\chromium</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\chromium\ChromiumDataObject.h">
+      <Filter>platform\chromium</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\chromium\ClipboardMimeTypes.h">
+      <Filter>platform\chromium</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\chromium\FramelessScrollViewClient.h">
+      <Filter>platform\chromium</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\chromium\FileSystemChromium.cpp">
+      <Filter>platform\chromium</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\chromium\ChromiumDataObjectItem.h">
+      <Filter>platform\chromium</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\chromium\PlatformKeyboardEventChromium.cpp">
+      <Filter>platform\chromium</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\chromium\KeyboardCodes.h">
+      <Filter>platform\chromium</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\chromium\MemoryUsageSupportChromium.cpp">
+      <Filter>platform\chromium</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\chromium\PlatformThemeChromiumDefault.cpp">
+      <Filter>platform\chromium</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\chromium\ClipboardChromium.h">
+      <Filter>platform\chromium</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\chromium\KeyCodeConversion.h">
+      <Filter>platform\chromium</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\chromium\SSLKeyGeneratorChromium.cpp">
+      <Filter>platform\chromium</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\chromium\HistogramSupportChromium.cpp">
+      <Filter>platform\chromium</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\chromium\Prerender.cpp">
+      <Filter>platform\chromium</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\chromium\PlatformThemeChromiumDefault.h">
+      <Filter>platform\chromium</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\chromium\TraceEvent.h">
+      <Filter>platform\chromium</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\chromium\PlatformScreenChromium.cpp">
+      <Filter>platform\chromium</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\chromium\SuddenTerminationChromium.cpp">
+      <Filter>platform\chromium</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\chromium\ChromiumDataObject.cpp">
+      <Filter>platform\chromium</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\chromium\LanguageChromium.cpp">
+      <Filter>platform\chromium</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\chromium\ChromiumDataObjectItem.cpp">
+      <Filter>platform\chromium</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\chromium\ClipboardChromium.cpp">
+      <Filter>platform\chromium</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\chromium\FramelessScrollView.cpp">
+      <Filter>platform\chromium</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\chromium\Prerender.h">
+      <Filter>platform\chromium</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\chromium\StatsCounterChromium.cpp">
+      <Filter>platform\chromium</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\chromium\MIMETypeRegistryChromium.cpp">
+      <Filter>platform\chromium</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\chromium\SharedTimerChromium.cpp">
+      <Filter>platform\chromium</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\chromium\SoundChromiumPosix.cpp">
+      <Filter>platform\chromium\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\chromium\KeyCodeConversionGtk.cpp">
+      <Filter>platform\chromium\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\chromium\ClipboardChromiumPosix.cpp">
+      <Filter>platform\chromium\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\chromium\KeyCodeConversionAndroid.cpp">
+      <Filter>platform\chromium\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\mock\ScrollbarThemeMock.h">
+      <Filter>platform\mock</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\mock\ScrollbarThemeOverlayMock.h">
+      <Filter>platform\mock</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\mock\DeviceOrientationClientMock.cpp">
+      <Filter>platform\mock</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\mock\MIDIClientMock.cpp">
+      <Filter>platform\mock</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\mock\GeolocationClientMock.cpp">
+      <Filter>platform\mock</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\mock\ScrollbarThemeMock.cpp">
+      <Filter>platform\mock</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\mock\MIDIClientMock.h">
+      <Filter>platform\mock</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\mock\PlatformSpeechSynthesizerMock.cpp">
+      <Filter>platform\mock</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\mock\PlatformSpeechSynthesizerMock.h">
+      <Filter>platform\mock</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\mediastream\MediaStreamCenter.cpp">
+      <Filter>platform\mediastream</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\mediastream\MediaStreamComponent.cpp">
+      <Filter>platform\mediastream</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\mediastream\RTCDataChannelHandler.h">
+      <Filter>platform\mediastream</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\mediastream\MediaStreamCenter.h">
+      <Filter>platform\mediastream</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\mediastream\RTCDTMFSenderHandler.h">
+      <Filter>platform\mediastream</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\mediastream\RTCStatsRequest.h">
+      <Filter>platform\mediastream</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\mediastream\MediaStreamDescriptor.cpp">
+      <Filter>platform\mediastream</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\mediastream\RTCDataChannelHandlerClient.h">
+      <Filter>platform\mediastream</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\mediastream\RTCDTMFSenderHandlerClient.h">
+      <Filter>platform\mediastream</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\mediastream\RTCPeerConnectionHandlerClient.h">
+      <Filter>platform\mediastream</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\mediastream\MediaStreamDescriptor.h">
+      <Filter>platform\mediastream</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\mediastream\MediaStreamSource.cpp">
+      <Filter>platform\mediastream</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\mediastream\RTCDataChannelHandler.cpp">
+      <Filter>platform\mediastream</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\mediastream\RTCPeerConnectionHandler.cpp">
+      <Filter>platform\mediastream</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\mediastream\RTCVoidRequest.h">
+      <Filter>platform\mediastream</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\mediastream\MediaStreamSource.h">
+      <Filter>platform\mediastream</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\mediastream\MediaStreamComponent.h">
+      <Filter>platform\mediastream</Filter>
+    </ClInclude>
+    <ClCompile Include="platform\mediastream\RTCDTMFSenderHandler.cpp">
+      <Filter>platform\mediastream</Filter>
+    </ClCompile>
+    <ClInclude Include="platform\mediastream\RTCConfiguration.h">
+      <Filter>platform\mediastream</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\mediastream\MediaConstraints.h">
+      <Filter>platform\mediastream</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\mediastream\RTCPeerConnectionHandler.h">
+      <Filter>platform\mediastream</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\mediastream\RTCSessionDescriptionRequest.h">
+      <Filter>platform\mediastream</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\third_party\WebKit\Source\build\win\Precompile.cpp">
+      <Filter>..\..\..\..\third_party\WebKit\Source\build\win</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

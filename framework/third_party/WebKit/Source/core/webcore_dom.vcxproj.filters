@@ -1,0 +1,1007 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit">
+      <UniqueIdentifier>{1919EB75-19A6-2BAD-ABB0-47BF57C87A0F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit\Source">
+      <UniqueIdentifier>{26D65320-41C3-1A61-26C0-583D658C7F16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit\Source\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit\Source\build\win">
+      <UniqueIdentifier>{47FC5EC4-15EB-E92F-89D7-AFE51CF838A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dom">
+      <UniqueIdentifier>{95A9DB90-1E7F-023A-E079-41927B6058A5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dom\default">
+      <UniqueIdentifier>{31D42551-2B0D-C48A-E634-BD03656DF1DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dom\default\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dom\default\chromium">
+      <UniqueIdentifier>{A235D2A4-63B6-DD4D-7F7F-D3EA248BB602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dom\shadow">
+      <UniqueIdentifier>{E7B66CB8-51D6-4755-7B5E-B0C674B9502D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="core.gyp"/>
+    <ClCompile Include="..\..\..\..\third_party\WebKit\Source\build\win\Precompile.cpp">
+      <Filter>..\..\..\..\third_party\WebKit\Source\build\win</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\DocumentLifecycleObserver.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\MutationCallback.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\LiveNodeList.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\CompositionEvent.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\CustomElementLifecycleCallbacks.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\ChildNodeList.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\ClassNodeList.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\DOMStringList.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\CustomElementException.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\CustomElementDefinition.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\ContextLifecycleObserver.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\ScriptedAnimationController.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\CustomElement.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\NodeWithIndex.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\ElementTraversal.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\DOMTokenList.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\DOMError.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\DocumentType.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\DocumentStyleSheetCollection.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\BeforeUnloadEvent.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\NamedNodeMap.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\ParentNode.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\PageTransitionEvent.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\NamedFlow.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\MouseRelatedEvent.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\CustomElementCallbackScheduler.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\CustomElementCallbackQueue.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\WheelController.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\NodeTraversal.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\SelectorQuery.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\DOMNamedFlowCollection.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\SecurityContext.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\GestureEvent.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\DocumentLifecycleObserver.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\NodeRareData.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\EventTarget.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\ScopedEventQueue.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\DocumentSharedObjectPool.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\VisitedLinkState.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\ShadowTreeStyleSheetCollection.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\CustomElementRegistry.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\MouseEvent.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\TransformSourceLibxslt.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\CheckedRadioButtons.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\WindowEventContext.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\MutationRecord.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\Traversal.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\LiveNodeList.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\UIEvent.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\Notation.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\Promise.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\CustomElementCallbackDispatcher.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\TagNodeList.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\CustomEvent.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\ResourceProgressEvent.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\NamedNodesCollection.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\TreeScope.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\DeviceOrientationController.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\Node.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\TouchList.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\DatasetDOMStringMap.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\StyleSheetScopingNodeList.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\StyleSheetCollections.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\CustomElementCallbackScheduler.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\Comment.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\NameNodeList.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\WebKitAnimationEvent.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\Entity.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\NodeRenderingTraversal.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\DocumentOrderedMap.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\ScriptLoader.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\NodeIterator.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\DocumentMarkerController.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\Clipboard.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\MutationObserverRegistration.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\NodeFilterCondition.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\DecodedDataDocumentParser.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\BeforeTextInsertedEvent.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\CustomElementRegistrationContext.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\IdTargetObserverRegistry.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\DocumentInit.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\EventContext.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\PseudoElement.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\WheelController.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\CustomElementRegistry.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\PromiseResolver.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\IgnoreDestructiveWriteCountIncrementer.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\DocumentStyleSheetCollection.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\DOMStringList.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\KeyboardEvent.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\DataTransferItem.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\UserActionElementSet.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\EventDispatchMediator.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\Document.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\ScriptableDocumentParser.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\DOMTokenList.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\CDATASection.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\CustomElement.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\WheelEvent.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\OverflowEvent.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\StyleElement.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\DOMStringMap.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\ClientRect.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\DocumentEventQueue.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\MutationObserver.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\GenericEventQueue.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\ClientRectList.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\NamedFlow.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\CustomElementCallbackInvocation.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\CustomElementUpgradeCandidateMap.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\ContextLifecycleObserver.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\DOMStringMap.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\EventNames.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\ContextFeatures.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\ResourceProgressEvent.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\ClipboardEvent.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\HashChangeEvent.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\PendingScript.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\SecurityContext.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\IdTargetObserver.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\Element.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\CrossThreadTask.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\BeforeTextInsertedEvent.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\DocumentOrderedList.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\BeforeUnloadEvent.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\TouchEvent.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\PositionIterator.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\DOMException.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\NodeFilter.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\DOMSettableTokenList.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\CustomElementDefinition.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\StyleSheetCollection.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\VisitedLinkState.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\DOMSettableTokenList.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\ActiveDOMObject.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\ElementRareData.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\NodeFilter.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\MessageChannel.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\ScriptLoader.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\UserGestureIndicator.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\ShadowTreeStyleSheetCollection.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\CustomElementUpgradeCandidateMap.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\NameNodeList.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\MutationEvent.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\NamedNodesCollection.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\TextLinkColors.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\EventDispatchMediator.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\EventListenerMap.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\CompositionEvent.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\DataTransferItem.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\ElementRareData.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\CDATASection.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\TouchEvent.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\UserTypingGestureIndicator.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\SimulatedClickOptions.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\IdTargetObserver.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\EventPathWalker.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\IconURL.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\TreeScopeAdopter.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\NamedFlowCollection.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\DocumentInit.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\ProgressEvent.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\StyleSheetScopingNodeList.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\EventPathWalker.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\UserActionElementSet.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\ClipboardEvent.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\WheelEvent.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\DocumentParser.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\MessageEvent.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\CustomElementRegistrationContext.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\OverflowEvent.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\CustomEvent.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\StringCallback.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\CustomElementDescriptor.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\TreeScope.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\EventRetargeter.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\IdTargetObserverRegistry.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\TreeWalker.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\EventDispatcher.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\GestureEvent.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\TransitionEvent.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\TouchList.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\Microtask.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\Event.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\ScriptExecutionContext.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\CustomElementCallbackInvocation.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\SelectorQuery.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\RequestAnimationFrameCallback.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\NodeFilterCondition.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\Touch.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\TransitionEvent.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\DataTransferItemList.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\RawDataDocumentParser.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\ContextFeatures.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\DOMNamedFlowCollection.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\DocumentFragment.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\MessageEvent.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\ViewportArguments.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\MutationObserverInterestGroup.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\Element.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\StyleElement.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\DocumentMarker.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\TextEvent.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\Microtask.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\DocumentOrderedList.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\FullscreenElementStack.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\CharacterData.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\CustomElementObserver.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\CustomElementCallbackQueue.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\ChildListMutationScope.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\ContextLifecycleNotifier.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\MutationRecord.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\WebKitAnimationEvent.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\PopStateEvent.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\NodeTraversal.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\NodeRenderingContext.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\NodeRenderingContext.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\NodeIterator.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\ErrorEvent.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\FocusEvent.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\DeviceOrientationController.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\NodeRenderStyle.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\TagNodeList.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\CustomElementObserver.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\ChildListMutationScope.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\QualifiedName.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\TransformSource.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\EventRetargeter.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\PositionIterator.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\BeforeLoadEvent.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\Attr.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\ScriptedAnimationController.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\StaticNodeList.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\ScriptableDocumentParser.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\NodeRareData.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\ContextLifecycleNotifier.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\EventDispatcher.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\StringCallback.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\DOMImplementation.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\EventQueue.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\UIEventWithKeyState.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\ClassNodeList.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\ScriptRunner.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\CustomElementDescriptorHash.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\ClientRectList.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\Touch.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\TreeScopeAdopter.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\StaticNodeList.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\MessagePortChannel.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\Position.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\ScopedEventQueue.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\PageTransitionEvent.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\ContainerNodeAlgorithms.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\DOMError.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\WindowEventContext.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\CustomElementException.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\CustomElementCallbackDispatcher.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\DecodedDataDocumentParser.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\Range.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\MutationObserverRegistration.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\TextLinkColors.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\ContainerNode.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\GenericEventQueue.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\EventSender.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\NodeList.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\Notation.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\SpaceSplitString.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\TreeWalker.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\MutationObserver.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\MessagePort.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\DocumentFullscreen.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\MutationObserverInterestGroup.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\MutationEvent.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\EventContext.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\ContainerNodeAlgorithms.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\SecurityPolicyViolationEvent.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\ViewportArguments.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\AutocompleteErrorEvent.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\TextEvent.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\ClientRect.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\PopStateEvent.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\FocusEvent.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\FullscreenElementStack.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\ErrorEvent.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\ChildNodeList.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\Traversal.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\DatasetDOMStringMap.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\StyleSheetCollections.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\DocumentEventQueue.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\ProgressEvent.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\StyleSheetCollection.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\ProcessingInstruction.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\NamedFlowCollection.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\MessageChannel.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\DOMException.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\Text.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\ProcessingInstruction.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\IconURL.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\NodeRenderingTraversal.h">
+      <Filter>dom</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\Comment.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\DocumentFullscreen.cpp">
+      <Filter>dom</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\default\PlatformMessagePortChannel.cpp">
+      <Filter>dom\default\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\default\PlatformMessagePortChannel.h">
+      <Filter>dom\default\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\default\chromium\PlatformMessagePortChannelChromium.h">
+      <Filter>dom\default\chromium</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\default\chromium\PlatformMessagePortChannelChromium.cpp">
+      <Filter>dom\default\chromium</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\shadow\ContentDistribution.cpp">
+      <Filter>dom\shadow</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\shadow\ContentDistribution.h">
+      <Filter>dom\shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\shadow\ShadowRoot.h">
+      <Filter>dom\shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\shadow\ComposedTreeWalker.h">
+      <Filter>dom\shadow</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\shadow\SelectRuleFeatureSet.cpp">
+      <Filter>dom\shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\shadow\ShadowRoot.cpp">
+      <Filter>dom\shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\shadow\ComposedTreeWalker.cpp">
+      <Filter>dom\shadow</Filter>
+    </ClCompile>
+    <ClInclude Include="dom\shadow\ElementShadow.h">
+      <Filter>dom\shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\shadow\SelectRuleFeatureSet.h">
+      <Filter>dom\shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\shadow\ShadowRootRareData.h">
+      <Filter>dom\shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="dom\shadow\InsertionPoint.h">
+      <Filter>dom\shadow</Filter>
+    </ClInclude>
+    <ClCompile Include="dom\shadow\InsertionPoint.cpp">
+      <Filter>dom\shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="dom\shadow\ElementShadow.cpp">
+      <Filter>dom\shadow</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

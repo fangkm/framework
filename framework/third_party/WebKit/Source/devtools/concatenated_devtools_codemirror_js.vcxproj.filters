@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="front_end">
+      <UniqueIdentifier>{6D8DAB43-30B5-AD32-8708-1A9AD7168A0A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front_end\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front_end\cm">
+      <UniqueIdentifier>{C087BA39-83B0-631F-785A-15636B3FFD6F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front_end\cm\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts">
+      <UniqueIdentifier>{4FDF30BD-A895-58AC-A912-7C70A5371544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="devtools.gyp"/>
+    <None Include="front_end\CodeMirrorUtils.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\CodeMirrorTextEditor.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\cm\xml.js">
+      <Filter>front_end\cm\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\cm\php.js">
+      <Filter>front_end\cm\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\cm\headlesscodemirror.js">
+      <Filter>front_end\cm\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\cm\htmlembedded.js">
+      <Filter>front_end\cm\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\cm\coffeescript.js">
+      <Filter>front_end\cm\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\cm\comment.js">
+      <Filter>front_end\cm\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\cm\htmlmixed.js">
+      <Filter>front_end\cm\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\cm\python.js">
+      <Filter>front_end\cm\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\cm\markselection.js">
+      <Filter>front_end\cm\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\cm\codemirror.js">
+      <Filter>front_end\cm\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\cm\overlay.js">
+      <Filter>front_end\cm\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\cm\css.js">
+      <Filter>front_end\cm\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\cm\clike.js">
+      <Filter>front_end\cm\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\cm\matchbrackets.js">
+      <Filter>front_end\cm\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\cm\closebrackets.js">
+      <Filter>front_end\cm\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\cm\javascript.js">
+      <Filter>front_end\cm\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\cm\shell.js">
+      <Filter>front_end\cm\_excluded_files</Filter>
+    </None>
+    <None Include="scripts\inline_js_imports.py">
+      <Filter>scripts\_excluded_files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

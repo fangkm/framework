@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="xml">
+      <UniqueIdentifier>{48027D13-271A-5AC3-0BD0-ADB666616CFE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xml\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mathml">
+      <UniqueIdentifier>{BD4060DA-BBB5-D521-FFB8-13D2D87BF798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mathml\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform">
+      <UniqueIdentifier>{F040E8BA-F77A-8B19-E764-5FC5D53C4EF0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core">
+      <UniqueIdentifier>{16178836-FF57-2363-AA2B-8BAC1DC00026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\css">
+      <UniqueIdentifier>{87F14F59-6AAB-9D50-4AA6-3EAC67BD4AB0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\css\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\scripts">
+      <UniqueIdentifier>{4FDF30BD-A895-58AC-A912-7C70A5371544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\core\scripts\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\bindings">
+      <UniqueIdentifier>{BDD847E6-3B5D-27DC-A93A-863DCFC98735}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\bindings\v8">
+      <UniqueIdentifier>{946EAFF9-E694-C502-F1AD-017A2D933CD2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\bindings\v8\custom">
+      <UniqueIdentifier>{C40A63E8-DEC6-D9F6-B0C6-030D87C22C52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\bindings\v8\custom\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dom">
+      <UniqueIdentifier>{95A9DB90-1E7F-023A-E079-41927B6058A5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dom\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="svg">
+      <UniqueIdentifier>{B26ADB08-2A5F-6612-9BA2-9FE17A953D2B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="svg\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="page">
+      <UniqueIdentifier>{0783969D-799E-590A-9409-265584256E20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="page\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj">
+      <UniqueIdentifier>{7BD4F48B-77B4-AB58-9E24-A7302D190D1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate">
+      <UniqueIdentifier>{14CEDE64-16A7-96A9-EF19-5C5D6085FF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\blink">
+      <UniqueIdentifier>{CB7CC51B-500D-7E25-A6FF-B160892E1B55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\blink\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="html">
+      <UniqueIdentifier>{6B759987-DACC-E33B-CA3B-4ABB0218955E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="html\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="html\parser">
+      <UniqueIdentifier>{9215FA42-5BA2-ECEB-BA53-D339C91D39B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="html\parser\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{B04C9517-4899-BF61-5765-73B2BCEA89BC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\pagepopups">
+      <UniqueIdentifier>{D33237F1-3DA1-2E97-715D-D75A9F6FE16A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\pagepopups\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\pagepopups\chromium">
+      <UniqueIdentifier>{A235D2A4-63B6-DD4D-7F7F-D3EA248BB602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\pagepopups\chromium\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts">
+      <UniqueIdentifier>{4FDF30BD-A895-58AC-A912-7C70A5371544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts\templates">
+      <UniqueIdentifier>{65BD37FD-C3E2-5CBE-9D7E-7A2E93D16AAC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts\templates\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fetch">
+      <UniqueIdentifier>{1775FCBC-C410-8B05-7529-9DDE89A76E0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fetch\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="css">
+      <UniqueIdentifier>{87F14F59-6AAB-9D50-4AA6-3EAC67BD4AB0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="css\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="core_derived_sources.gyp"/>
+    <bison Include="xml\XPathGrammar.y">
+      <Filter>xml</Filter>
+    </bison>
+    <None Include="xml\XMLViewer.css">
+      <Filter>xml\_excluded_files</Filter>
+    </None>
+    <None Include="xml\XMLViewer.js">
+      <Filter>xml\_excluded_files</Filter>
+    </None>
+    <None Include="xml\xmlattrs.in">
+      <Filter>xml\_excluded_files</Filter>
+    </None>
+    <None Include="xml\xmlnsattrs.in">
+      <Filter>xml\_excluded_files</Filter>
+    </None>
+    <None Include="mathml\mathattrs.in">
+      <Filter>mathml\_excluded_files</Filter>
+    </None>
+    <None Include="mathml\mathtags.in">
+      <Filter>mathml\_excluded_files</Filter>
+    </None>
+    <gperf Include="platform\ColorData.gperf">
+      <Filter>platform</Filter>
+    </gperf>
+    <ClCompile Include="..\core\css\CSSParser-in.cpp">
+      <Filter>..\core\css\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="..\core\scripts\make_token_matcher.py">
+      <Filter>..\core\scripts\_excluded_files</Filter>
+    </None>
+    <None Include="..\bindings\v8\custom\V8ArrayBufferViewCustomScript.js">
+      <Filter>..\bindings\v8\custom\_excluded_files</Filter>
+    </None>
+    <None Include="dom\EventAliases.in">
+      <Filter>dom\_excluded_files</Filter>
+    </None>
+    <None Include="dom\EventTargetFactory.in">
+      <Filter>dom\_excluded_files</Filter>
+    </None>
+    <None Include="svg\svgattrs.in">
+      <Filter>svg\_excluded_files</Filter>
+    </None>
+    <None Include="svg\svgtags.in">
+      <Filter>svg\_excluded_files</Filter>
+    </None>
+    <None Include="svg\xlinkattrs.in">
+      <Filter>svg\_excluded_files</Filter>
+    </None>
+    <None Include="page\RuntimeEnabledFeatures.in">
+      <Filter>page\_excluded_files</Filter>
+    </None>
+    <bison Include="$(OutDir)obj\global_intermediate\blink\CSSGrammar.y">
+      <Filter>$(OutDir)obj\global_intermediate\blink</Filter>
+    </bison>
+    <None Include="$(OutDir)obj\global_intermediate\blink\EventInterfaces.in">
+      <Filter>$(OutDir)obj\global_intermediate\blink\_excluded_files</Filter>
+    </None>
+    <None Include="html\HTMLTagNames.in">
+      <Filter>html\_excluded_files</Filter>
+    </None>
+    <None Include="html\HTMLAttributeNames.in">
+      <Filter>html\_excluded_files</Filter>
+    </None>
+    <None Include="html\parser\HTMLEntityNames.in">
+      <Filter>html\parser\_excluded_files</Filter>
+    </None>
+    <None Include="html\parser\create-html-entity-table">
+      <Filter>html\parser\_excluded_files</Filter>
+    </None>
+    <None Include="Resources\pagepopups\colorSuggestionPicker.js">
+      <Filter>Resources\pagepopups\_excluded_files</Filter>
+    </None>
+    <None Include="Resources\pagepopups\pickerCommon.js">
+      <Filter>Resources\pagepopups\_excluded_files</Filter>
+    </None>
+    <None Include="Resources\pagepopups\calendarPicker.js">
+      <Filter>Resources\pagepopups\_excluded_files</Filter>
+    </None>
+    <None Include="Resources\pagepopups\suggestionPicker.js">
+      <Filter>Resources\pagepopups\_excluded_files</Filter>
+    </None>
+    <None Include="Resources\pagepopups\colorSuggestionPicker.css">
+      <Filter>Resources\pagepopups\_excluded_files</Filter>
+    </None>
+    <None Include="Resources\pagepopups\calendarPicker.css">
+      <Filter>Resources\pagepopups\_excluded_files</Filter>
+    </None>
+    <None Include="Resources\pagepopups\suggestionPicker.css">
+      <Filter>Resources\pagepopups\_excluded_files</Filter>
+    </None>
+    <None Include="Resources\pagepopups\pickerCommon.css">
+      <Filter>Resources\pagepopups\_excluded_files</Filter>
+    </None>
+    <None Include="Resources\pagepopups\chromium\calendarPickerChromium.css">
+      <Filter>Resources\pagepopups\chromium\_excluded_files</Filter>
+    </None>
+    <None Include="Resources\pagepopups\chromium\pickerCommonChromium.css">
+      <Filter>Resources\pagepopups\chromium\_excluded_files</Filter>
+    </None>
+    <None Include="scripts\preprocessor.pm">
+      <Filter>scripts\_excluded_files</Filter>
+    </None>
+    <None Include="scripts\make_runtime_features.py">
+      <Filter>scripts\_excluded_files</Filter>
+    </None>
+    <None Include="scripts\name_macros.py">
+      <Filter>scripts\_excluded_files</Filter>
+    </None>
+    <None Include="scripts\name_utilities.py">
+      <Filter>scripts\_excluded_files</Filter>
+    </None>
+    <None Include="scripts\make_names.pl">
+      <Filter>scripts\_excluded_files</Filter>
+    </None>
+    <None Include="scripts\make_style_shorthands.py">
+      <Filter>scripts\_excluded_files</Filter>
+    </None>
+    <None Include="scripts\license.py">
+      <Filter>scripts\_excluded_files</Filter>
+    </None>
+    <None Include="scripts\StaticString.pm">
+      <Filter>scripts\_excluded_files</Filter>
+    </None>
+    <None Include="scripts\in_generator.py">
+      <Filter>scripts\_excluded_files</Filter>
+    </None>
+    <None Include="scripts\make_css_property_names.py">
+      <Filter>scripts\_excluded_files</Filter>
+    </None>
+    <None Include="scripts\make_css_value_keywords.py">
+      <Filter>scripts\_excluded_files</Filter>
+    </None>
+    <None Include="scripts\make_style_builder.py">
+      <Filter>scripts\_excluded_files</Filter>
+    </None>
+    <None Include="scripts\Hasher.pm">
+      <Filter>scripts\_excluded_files</Filter>
+    </None>
+    <None Include="scripts\in_file.py">
+      <Filter>scripts\_excluded_files</Filter>
+    </None>
+    <None Include="scripts\make_event_factory.py">
+      <Filter>scripts\_excluded_files</Filter>
+    </None>
+    <None Include="scripts\template_expander.py">
+      <Filter>scripts\_excluded_files</Filter>
+    </None>
+    <None Include="scripts\templates\StyleBuilder.cpp.tmpl">
+      <Filter>scripts\templates\_excluded_files</Filter>
+    </None>
+    <None Include="scripts\templates\macros.tmpl">
+      <Filter>scripts\templates\_excluded_files</Filter>
+    </None>
+    <None Include="scripts\templates\RuntimeEnabledFeatures.h.tmpl">
+      <Filter>scripts\templates\_excluded_files</Filter>
+    </None>
+    <None Include="scripts\templates\RuntimeEnabledFeatures.cpp.tmpl">
+      <Filter>scripts\templates\_excluded_files</Filter>
+    </None>
+    <None Include="scripts\templates\StylePropertyShorthand.cpp.tmpl">
+      <Filter>scripts\templates\_excluded_files</Filter>
+    </None>
+    <None Include="scripts\templates\StylePropertyShorthand.h.tmpl">
+      <Filter>scripts\templates\_excluded_files</Filter>
+    </None>
+    <None Include="scripts\templates\StyleBuilderFunctions.cpp.tmpl">
+      <Filter>scripts\templates\_excluded_files</Filter>
+    </None>
+    <None Include="scripts\templates\StyleBuilderFunctions.h.tmpl">
+      <Filter>scripts\templates\_excluded_files</Filter>
+    </None>
+    <None Include="fetch\FetchInitiatorTypeNames.in">
+      <Filter>fetch\_excluded_files</Filter>
+    </None>
+    <None Include="css\CSSShorthands.in">
+      <Filter>css\_excluded_files</Filter>
+    </None>
+    <None Include="css\themeChromiumLinux.css">
+      <Filter>css\_excluded_files</Filter>
+    </None>
+    <None Include="css\themeChromiumSkia.css">
+      <Filter>css\_excluded_files</Filter>
+    </None>
+    <None Include="css\quirks.css">
+      <Filter>css\_excluded_files</Filter>
+    </None>
+    <None Include="css\make-css-file-arrays.pl">
+      <Filter>css\_excluded_files</Filter>
+    </None>
+    <None Include="css\mediaControls.css">
+      <Filter>css\_excluded_files</Filter>
+    </None>
+    <None Include="css\SVGCSSValueKeywords.in">
+      <Filter>css\_excluded_files</Filter>
+    </None>
+    <None Include="css\html.css">
+      <Filter>css\_excluded_files</Filter>
+    </None>
+    <None Include="css\mediaControlsAndroid.css">
+      <Filter>css\_excluded_files</Filter>
+    </None>
+    <None Include="css\CSSGrammar.y.includes">
+      <Filter>css\_excluded_files</Filter>
+    </None>
+    <None Include="css\CSSGrammar.y.in">
+      <Filter>css\_excluded_files</Filter>
+    </None>
+    <None Include="css\svg.css">
+      <Filter>css\_excluded_files</Filter>
+    </None>
+    <None Include="css\FontFamilyNames.in">
+      <Filter>css\_excluded_files</Filter>
+    </None>
+    <None Include="css\CSSProperties.in">
+      <Filter>css\_excluded_files</Filter>
+    </None>
+    <None Include="css\CSSPropertyNames.in">
+      <Filter>css\_excluded_files</Filter>
+    </None>
+    <None Include="css\SVGCSSPropertyNames.in">
+      <Filter>css\_excluded_files</Filter>
+    </None>
+    <None Include="css\CSSValueKeywords.in">
+      <Filter>css\_excluded_files</Filter>
+    </None>
+    <None Include="css\themeWinQuirks.css">
+      <Filter>css\_excluded_files</Filter>
+    </None>
+    <None Include="css\themeChromiumAndroid.css">
+      <Filter>css\_excluded_files</Filter>
+    </None>
+    <None Include="css\view-source.css">
+      <Filter>css\_excluded_files</Filter>
+    </None>
+    <None Include="css\fullscreen.css">
+      <Filter>css\_excluded_files</Filter>
+    </None>
+    <None Include="css\themeChromium.css">
+      <Filter>css\_excluded_files</Filter>
+    </None>
+    <None Include="css\xhtmlmp.css">
+      <Filter>css\_excluded_files</Filter>
+    </None>
+    <None Include="css\themeWin.css">
+      <Filter>css\_excluded_files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

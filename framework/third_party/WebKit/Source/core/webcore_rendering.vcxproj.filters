@@ -1,0 +1,3980 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xml">
+      <UniqueIdentifier>{48027D13-271A-5AC3-0BD0-ADB666616CFE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xml\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xml\parser">
+      <UniqueIdentifier>{9215FA42-5BA2-ECEB-BA53-D339C91D39B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xml\parser\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit">
+      <UniqueIdentifier>{1919EB75-19A6-2BAD-ABB0-47BF57C87A0F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit\Source">
+      <UniqueIdentifier>{26D65320-41C3-1A61-26C0-583D658C7F16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit\Source\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit\Source\build\win">
+      <UniqueIdentifier>{47FC5EC4-15EB-E92F-89D7-AFE51CF838A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fileapi">
+      <UniqueIdentifier>{07449D65-155A-88FA-AE73-F56A090F72A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fileapi\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="workers">
+      <UniqueIdentifier>{3D4B84AF-1925-195A-D7D8-6E45D335B44B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="workers\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins">
+      <UniqueIdentifier>{9DE023B3-F1C0-CF0D-AF52-3287B388D922}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="storage">
+      <UniqueIdentifier>{58865380-DD0A-5071-E48F-7846A09B1814}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="storage\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="accessibility">
+      <UniqueIdentifier>{873DE697-7E51-06CB-5ED2-F4A475CEFD57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="accessibility\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="loader">
+      <UniqueIdentifier>{3E8AF183-CF37-3672-A18D-21E019961B7A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="loader\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="loader\appcache">
+      <UniqueIdentifier>{DCADB86C-725F-CB9F-1EF6-EA4E2520E817}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="loader\appcache\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="loader\archive">
+      <UniqueIdentifier>{4F202B5C-4614-1BE9-3E29-4BBF66EC1351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="loader\archive\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rendering">
+      <UniqueIdentifier>{6CF23BC7-A20E-08E4-0802-6C731774EA39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rendering\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rendering\shapes">
+      <UniqueIdentifier>{FD98981F-27D3-103B-C62F-4A033FCD495E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rendering\svg">
+      <UniqueIdentifier>{B26ADB08-2A5F-6612-9BA2-9FE17A953D2B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rendering\svg\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rendering\style">
+      <UniqueIdentifier>{BE67EF32-35B8-3B4B-1145-A46AB751253F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="animation">
+      <UniqueIdentifier>{32754A8C-EDC0-67D4-C2EE-20B9F5EB0ADB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="animation\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="animation\css">
+      <UniqueIdentifier>{87F14F59-6AAB-9D50-4AA6-3EAC67BD4AB0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="animation\css\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fetch">
+      <UniqueIdentifier>{1775FCBC-C410-8B05-7529-9DDE89A76E0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fetch\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inspector">
+      <UniqueIdentifier>{781D0FAB-5D65-9B59-CD02-B1BEBA9FCDA6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inspector\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editing">
+      <UniqueIdentifier>{9C5F9FBC-BAEA-445A-6F8D-BE962569579E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editing\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editing\chromium">
+      <UniqueIdentifier>{A235D2A4-63B6-DD4D-7F7F-D3EA248BB602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editing\chromium\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="page">
+      <UniqueIdentifier>{0783969D-799E-590A-9409-265584256E20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="page\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="page\animation">
+      <UniqueIdentifier>{32754A8C-EDC0-67D4-C2EE-20B9F5EB0ADB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="page\animation\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="page\scrolling">
+      <UniqueIdentifier>{D42767E0-FEE8-1BB5-6D5B-FE71DCF074EE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="page\scrolling\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="css">
+      <UniqueIdentifier>{87F14F59-6AAB-9D50-4AA6-3EAC67BD4AB0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="css\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="css\resolver">
+      <UniqueIdentifier>{475860E7-0330-B186-0916-0376A5E34471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="css\resolver\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="history">
+      <UniqueIdentifier>{DFF1F85A-B765-5EDD-189E-14283DDFC252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="history\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="core.gyp"/>
+    <ClInclude Include="Init.h">
+      <Filter>_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="Init.cpp">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="xml\XMLSerializer.h">
+      <Filter>xml\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\XMLTreeViewer.h">
+      <Filter>xml\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="xml\XMLErrors.cpp">
+      <Filter>xml\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="xml\NativeXPathNSResolver.cpp">
+      <Filter>xml\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="xml\XSLTProcessorLibxslt.cpp">
+      <Filter>xml\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="xml\XPathNSResolver.h">
+      <Filter>xml\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\XPathVariableReference.h">
+      <Filter>xml\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="xml\XPathFunctions.cpp">
+      <Filter>xml\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="xml\XMLHttpRequest.cpp">
+      <Filter>xml\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="xml\XMLHttpRequestUpload.h">
+      <Filter>xml\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="xml\XPathVariableReference.cpp">
+      <Filter>xml\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="xml\XMLErrors.h">
+      <Filter>xml\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="xml\XSLStyleSheetLibxslt.cpp">
+      <Filter>xml\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="xml\XPathUtil.cpp">
+      <Filter>xml\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="xml\XPathPredicate.cpp">
+      <Filter>xml\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="xml\XPathFunctions.h">
+      <Filter>xml\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="xml\XPathExpression.cpp">
+      <Filter>xml\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="xml\XPathEvaluator.h">
+      <Filter>xml\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\DOMParser.h">
+      <Filter>xml\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\XMLHttpRequestProgressEventThrottle.h">
+      <Filter>xml\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="xml\XPathResult.cpp">
+      <Filter>xml\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="xml\XPathExpressionNode.cpp">
+      <Filter>xml\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="xml\XPathEvaluator.cpp">
+      <Filter>xml\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="xml\XMLHttpRequestUpload.cpp">
+      <Filter>xml\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="xml\XSLTUnicodeSort.cpp">
+      <Filter>xml\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="xml\XPathNodeSet.cpp">
+      <Filter>xml\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="xml\XMLHttpRequestProgressEventThrottle.cpp">
+      <Filter>xml\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="xml\XMLHttpRequestProgressEvent.h">
+      <Filter>xml\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="xml\DocumentXPathEvaluator.cpp">
+      <Filter>xml\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="xml\XPathValue.h">
+      <Filter>xml\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\XPathStep.h">
+      <Filter>xml\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\XPathPredicate.h">
+      <Filter>xml\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\XMLHttpRequestEventTarget.h">
+      <Filter>xml\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="xml\XPathNSResolver.cpp">
+      <Filter>xml\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="xml\XMLHttpRequest.h">
+      <Filter>xml\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="xml\XSLTProcessor.cpp">
+      <Filter>xml\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="xml\XSLStyleSheet.h">
+      <Filter>xml\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="xml\XPathPath.cpp">
+      <Filter>xml\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="xml\XSLImportRule.cpp">
+      <Filter>xml\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="xml\XPathParser.cpp">
+      <Filter>xml\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="xml\XPathNodeSet.h">
+      <Filter>xml\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\XSLTExtensions.h">
+      <Filter>xml\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\XPathResult.h">
+      <Filter>xml\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\XPathParser.h">
+      <Filter>xml\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\XSLTProcessor.h">
+      <Filter>xml\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="xml\XMLTreeViewer.cpp">
+      <Filter>xml\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="xml\DOMParser.cpp">
+      <Filter>xml\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="xml\XPathStep.cpp">
+      <Filter>xml\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="xml\XPathPath.h">
+      <Filter>xml\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="xml\XSLTExtensions.cpp">
+      <Filter>xml\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="xml\NativeXPathNSResolver.h">
+      <Filter>xml\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\XSLImportRule.h">
+      <Filter>xml\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\XPathExpression.h">
+      <Filter>xml\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="xml\XMLSerializer.cpp">
+      <Filter>xml\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="xml\XSLTUnicodeSort.h">
+      <Filter>xml\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\DocumentXPathEvaluator.h">
+      <Filter>xml\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\XPathExpressionNode.h">
+      <Filter>xml\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="xml\XPathValue.cpp">
+      <Filter>xml\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="xml\XPathUtil.h">
+      <Filter>xml\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="xml\parser\XMLDocumentParser.cpp">
+      <Filter>xml\parser\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="xml\parser\XMLDocumentParserScope.h">
+      <Filter>xml\parser\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="xml\parser\XMLDocumentParserScope.cpp">
+      <Filter>xml\parser\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="xml\parser\MarkupTokenizerInlines.h">
+      <Filter>xml\parser\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\parser\XMLParserInput.h">
+      <Filter>xml\parser\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\parser\XMLDocumentParser.h">
+      <Filter>xml\parser\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\third_party\WebKit\Source\build\win\Precompile.cpp">
+      <Filter>..\..\..\..\third_party\WebKit\Source\build\win</Filter>
+    </ClCompile>
+    <ClCompile Include="fileapi\FileReaderLoader.cpp">
+      <Filter>fileapi\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="fileapi\FileReaderLoader.h">
+      <Filter>fileapi\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="fileapi\File.h">
+      <Filter>fileapi\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="fileapi\BlobRegistry.h">
+      <Filter>fileapi\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="fileapi\Stream.cpp">
+      <Filter>fileapi\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="fileapi\FileReaderLoaderClient.h">
+      <Filter>fileapi\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="fileapi\FileList.cpp">
+      <Filter>fileapi\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="fileapi\FileReaderSync.cpp">
+      <Filter>fileapi\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="fileapi\FileError.cpp">
+      <Filter>fileapi\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="fileapi\FileError.h">
+      <Filter>fileapi\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="fileapi\Stream.h">
+      <Filter>fileapi\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="fileapi\BlobURL.cpp">
+      <Filter>fileapi\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="fileapi\FileReaderSync.h">
+      <Filter>fileapi\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="fileapi\BlobBuilder.h">
+      <Filter>fileapi\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="fileapi\BlobBuilder.cpp">
+      <Filter>fileapi\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="fileapi\BlobRegistry.cpp">
+      <Filter>fileapi\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="fileapi\FileReader.h">
+      <Filter>fileapi\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="fileapi\Blob.cpp">
+      <Filter>fileapi\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="fileapi\BlobURL.h">
+      <Filter>fileapi\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="fileapi\FileReader.cpp">
+      <Filter>fileapi\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="fileapi\FileList.h">
+      <Filter>fileapi\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="fileapi\File.cpp">
+      <Filter>fileapi\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="fileapi\Blob.h">
+      <Filter>fileapi\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="workers\WorkerObjectProxy.h">
+      <Filter>workers\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="workers\AbstractWorker.cpp">
+      <Filter>workers\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="workers\SharedWorkerRepository.h">
+      <Filter>workers\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="workers\WorkerGlobalScope.cpp">
+      <Filter>workers\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="workers\SharedWorkerGlobalScope.cpp">
+      <Filter>workers\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="workers\WorkerScriptLoaderClient.h">
+      <Filter>workers\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="workers\Worker.cpp">
+      <Filter>workers\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="workers\WorkerThreadStartupData.h">
+      <Filter>workers\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="workers\WorkerClients.h">
+      <Filter>workers\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="workers\WorkerEventQueue.h">
+      <Filter>workers\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="workers\WorkerThreadStartupData.cpp">
+      <Filter>workers\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="workers\DedicatedWorkerThread.cpp">
+      <Filter>workers\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="workers\Worker.h">
+      <Filter>workers\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="workers\WorkerLocation.cpp">
+      <Filter>workers\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="workers\DedicatedWorkerThread.h">
+      <Filter>workers\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="workers\SharedWorkerGlobalScope.h">
+      <Filter>workers\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="workers\WorkerThread.cpp">
+      <Filter>workers\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="workers\WorkerGlobalScope.h">
+      <Filter>workers\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="workers\DedicatedWorkerGlobalScope.cpp">
+      <Filter>workers\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="workers\WorkerMessagingProxy.cpp">
+      <Filter>workers\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="workers\WorkerGlobalScopeProxy.cpp">
+      <Filter>workers\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="workers\WorkerScriptLoader.cpp">
+      <Filter>workers\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="workers\WorkerLocation.h">
+      <Filter>workers\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="workers\SharedWorker.h">
+      <Filter>workers\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="workers\WorkerLoaderProxy.h">
+      <Filter>workers\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="workers\WorkerMessagingProxy.h">
+      <Filter>workers\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="workers\WorkerConsole.h">
+      <Filter>workers\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="workers\SharedWorker.cpp">
+      <Filter>workers\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="workers\DedicatedWorkerGlobalScope.h">
+      <Filter>workers\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="workers\AbstractWorker.h">
+      <Filter>workers\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="workers\WorkerEventQueue.cpp">
+      <Filter>workers\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="workers\SharedWorkerThread.h">
+      <Filter>workers\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="workers\SharedWorkerThread.cpp">
+      <Filter>workers\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="workers\WorkerGlobalScopeProxy.h">
+      <Filter>workers\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="workers\WorkerReportingProxy.h">
+      <Filter>workers\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="workers\WorkerScriptLoader.h">
+      <Filter>workers\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="workers\WorkerConsole.cpp">
+      <Filter>workers\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="workers\WorkerRunLoop.cpp">
+      <Filter>workers\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="plugins\PluginListBuilder.h">
+      <Filter>plugins\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="plugins\DOMPluginArray.cpp">
+      <Filter>plugins\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="plugins\PluginView.h">
+      <Filter>plugins\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="plugins\IFrameShimSupport.h">
+      <Filter>plugins\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="plugins\PluginData.h">
+      <Filter>plugins\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="plugins\DOMMimeType.h">
+      <Filter>plugins\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="plugins\DOMMimeTypeArray.cpp">
+      <Filter>plugins\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="plugins\IFrameShimSupport.cpp">
+      <Filter>plugins\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="plugins\PluginData.cpp">
+      <Filter>plugins\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="plugins\DOMPluginArray.h">
+      <Filter>plugins\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="plugins\PluginListBuilder.cpp">
+      <Filter>plugins\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="plugins\DOMPlugin.cpp">
+      <Filter>plugins\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="plugins\DOMPlugin.h">
+      <Filter>plugins\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="plugins\DOMMimeType.cpp">
+      <Filter>plugins\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="plugins\DOMMimeTypeArray.h">
+      <Filter>plugins\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="storage\Storage.cpp">
+      <Filter>storage\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="storage\StorageNamespace.h">
+      <Filter>storage\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="storage\StorageArea.h">
+      <Filter>storage\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="storage\StorageEvent.h">
+      <Filter>storage\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="storage\StorageEvent.cpp">
+      <Filter>storage\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="storage\Storage.h">
+      <Filter>storage\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="accessibility\AccessibilityProgressIndicator.h">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="accessibility\AccessibilitySVGRoot.cpp">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="accessibility\AccessibilityMediaControls.h">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="accessibility\AccessibilityTableCell.h">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="accessibility\AccessibilityTableColumn.h">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="accessibility\AccessibilityListBox.cpp">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="accessibility\AccessibilityNodeObject.cpp">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="accessibility\AccessibilityTable.h">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="accessibility\AccessibilityTable.cpp">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="accessibility\AccessibilityTableCell.cpp">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="accessibility\AccessibilityListBox.h">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="accessibility\AccessibilityMediaControls.cpp">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="accessibility\AccessibilityList.cpp">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="accessibility\AccessibilityTableHeaderContainer.h">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="accessibility\AccessibilityObject.cpp">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="accessibility\AccessibilityTableRow.cpp">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="accessibility\AccessibilityMenuListPopup.cpp">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="accessibility\AccessibilityScrollbar.h">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="accessibility\AccessibilityMockObject.cpp">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="accessibility\AccessibilityProgressIndicator.cpp">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="accessibility\AccessibilitySpinButton.cpp">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="accessibility\AccessibilityRenderObject.cpp">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="accessibility\AccessibilityImageMapLink.cpp">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="accessibility\AccessibilityMenuListOption.h">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="accessibility\AccessibilityARIAGridRow.cpp">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="accessibility\AccessibilityNodeObject.h">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="accessibility\AXObjectCache.cpp">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="accessibility\AccessibilityScrollView.h">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="accessibility\AccessibilityScrollView.cpp">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="accessibility\AccessibilitySpinButton.h">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="accessibility\AccessibilityList.h">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="accessibility\AccessibilityListBoxOption.cpp">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="accessibility\AccessibilityARIAGridCell.h">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="accessibility\AccessibilitySlider.h">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="accessibility\AccessibilitySVGRoot.h">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="accessibility\AccessibilityMenuList.h">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="accessibility\AccessibilityARIAGrid.cpp">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="accessibility\AccessibilityMenuListPopup.h">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="accessibility\AccessibilityListBoxOption.h">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="accessibility\AccessibilityARIAGridRow.h">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="accessibility\AccessibilityMenuListOption.cpp">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="accessibility\AccessibilityMockObject.h">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="accessibility\AccessibilityImageMapLink.h">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="accessibility\AccessibilityTableRow.h">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="accessibility\AccessibilityARIAGridCell.cpp">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="accessibility\AccessibilityTableColumn.cpp">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="accessibility\AccessibilityARIAGrid.h">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="accessibility\AccessibilityTableHeaderContainer.cpp">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="accessibility\AccessibilityMenuList.cpp">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="accessibility\AccessibilityRenderObject.h">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="accessibility\AccessibilityScrollbar.cpp">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="accessibility\AccessibilitySlider.cpp">
+      <Filter>accessibility\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="loader\DocumentThreadableLoaderClient.h">
+      <Filter>loader\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="loader\TextTrackLoader.cpp">
+      <Filter>loader\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="loader\UniqueIdentifier.cpp">
+      <Filter>loader\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="loader\ImageLoader.cpp">
+      <Filter>loader\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="loader\ProgressTracker.cpp">
+      <Filter>loader\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="loader\LinkLoader.cpp">
+      <Filter>loader\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="loader\WorkerThreadableLoader.cpp">
+      <Filter>loader\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="loader\NavigationPolicy.h">
+      <Filter>loader\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="loader\LinkLoaderClient.h">
+      <Filter>loader\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="loader\WorkerThreadableLoader.h">
+      <Filter>loader\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="loader\ThreadableLoaderClient.h">
+      <Filter>loader\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="loader\FrameLoader.cpp">
+      <Filter>loader\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="loader\DocumentLoadTiming.cpp">
+      <Filter>loader\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="loader\IconController.cpp">
+      <Filter>loader\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="loader\NavigationAction.h">
+      <Filter>loader\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="loader\EmptyClients.cpp">
+      <Filter>loader\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="loader\PingLoader.h">
+      <Filter>loader\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="loader\SinkDocument.h">
+      <Filter>loader\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="loader\PingLoader.cpp">
+      <Filter>loader\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="loader\ThreadableLoaderClientWrapper.h">
+      <Filter>loader\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="loader\LinkLoader.h">
+      <Filter>loader\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="loader\FormState.cpp">
+      <Filter>loader\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="loader\NavigationPolicy.cpp">
+      <Filter>loader\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="loader\MixedContentChecker.h">
+      <Filter>loader\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="loader\Prerenderer.cpp">
+      <Filter>loader\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="loader\Prerenderer.h">
+      <Filter>loader\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="loader\DocumentLoader.cpp">
+      <Filter>loader\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="loader\FrameLoaderStateMachine.cpp">
+      <Filter>loader\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="loader\PrerendererClient.cpp">
+      <Filter>loader\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="loader\TextResourceDecoderBuilder.h">
+      <Filter>loader\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="loader\FrameFetchContext.h">
+      <Filter>loader\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="loader\UniqueIdentifier.h">
+      <Filter>loader\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="loader\ImageLoader.h">
+      <Filter>loader\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="loader\EmptyClients.h">
+      <Filter>loader\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="loader\FrameFetchContext.cpp">
+      <Filter>loader\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="loader\DocumentWriter.cpp">
+      <Filter>loader\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="loader\ThreadableLoader.cpp">
+      <Filter>loader\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="loader\MixedContentChecker.cpp">
+      <Filter>loader\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="loader\NavigationScheduler.cpp">
+      <Filter>loader\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="loader\TextTrackLoader.h">
+      <Filter>loader\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="loader\IconController.h">
+      <Filter>loader\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="loader\DocumentThreadableLoader.cpp">
+      <Filter>loader\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="loader\NavigationAction.cpp">
+      <Filter>loader\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="loader\FrameLoadRequest.h">
+      <Filter>loader\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="loader\CookieJar.cpp">
+      <Filter>loader\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="loader\CrossOriginPreflightResultCache.cpp">
+      <Filter>loader\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="loader\SubstituteData.h">
+      <Filter>loader\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="loader\DocumentThreadableLoader.h">
+      <Filter>loader\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="loader\FormSubmission.cpp">
+      <Filter>loader\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="loader\TextResourceDecoderBuilder.cpp">
+      <Filter>loader\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="loader\SinkDocument.cpp">
+      <Filter>loader\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="loader\PrerendererClient.h">
+      <Filter>loader\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="loader\HistoryController.cpp">
+      <Filter>loader\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="loader\appcache\ApplicationCache.cpp">
+      <Filter>loader\appcache\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="loader\appcache\ApplicationCache.h">
+      <Filter>loader\appcache\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="loader\appcache\ApplicationCacheHost.h">
+      <Filter>loader\appcache\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="loader\archive\MHTMLParser.cpp">
+      <Filter>loader\archive\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="loader\archive\MHTMLArchive.h">
+      <Filter>loader\archive\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="loader\archive\MHTMLArchive.cpp">
+      <Filter>loader\archive\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="loader\archive\ArchiveResource.cpp">
+      <Filter>loader\archive\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="loader\archive\MHTMLParser.h">
+      <Filter>loader\archive\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="loader\archive\ArchiveResourceCollection.h">
+      <Filter>loader\archive\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="loader\archive\ArchiveResourceCollection.cpp">
+      <Filter>loader\archive\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\RenderDetailsMarker.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\InlineFlowBox.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderTextControl.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\RenderThemeChromiumFontProvider.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\RenderMultiColumnSet.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderMarquee.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderButton.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\OrderIterator.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\SubtreeLayoutScope.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\RenderTableSection.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderMediaControls.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\RenderScrollbar.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\RenderTableCell.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\RenderRegionSet.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\LayoutRepainter.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\RenderFlowThread.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\RenderInline.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\EllipsisBox.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\RenderCounter.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\FloatingObjects.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderThemeChromiumDefault.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderInputSpeech.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\RenderNamedFlowThread.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\RenderWordBreak.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\RenderTableCaption.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\RenderTable.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\RenderView.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderRegion.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderBlock.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\RenderScrollbarTheme.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\RenderMediaControlElements.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\RenderFlexibleBox.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderMenuList.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderObjectChildList.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderMeter.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderListItem.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\ImageQualityController.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\RenderListBox.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\TextAutosizer.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\RenderReplica.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\RenderLayerModelObject.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderLineBoxList.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\CompositingReasons.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\RenderQuote.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\FloatingObjects.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\InlineIterator.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\FixedTableLayout.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderLayerCompositor.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\RenderMedia.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\RenderQuote.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\RenderTextControl.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\RenderHTMLCanvas.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\RenderInputSpeech.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\HitTestingTransformState.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\RenderFrame.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\RenderCombineText.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\RenderGeometryMap.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\RenderProgress.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\RenderThemeChromiumAndroid.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\RenderMarquee.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\RenderMediaControlElements.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\RenderThemeChromiumSkia.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\RenderRegionSet.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\RenderTextControlMultiLine.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\OrderIterator.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\RenderProgress.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderSlider.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\RenderMeter.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\CounterNode.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\RenderThemeChromiumDefault.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\AutoTableLayout.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\RenderTableSection.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\RenderFullScreen.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\RenderCombineText.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderListBox.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderRubyRun.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderLayer.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderMediaControlsChromium.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\RenderRegion.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\RenderLayerFilterInfo.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\LayoutState.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\TrailingFloatsRootInlineBox.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\RenderCounter.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderScrollbarPart.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\FilterEffectRenderer.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\RenderRuby.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\RenderTheme.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\RenderTableRow.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\RenderVideo.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\Pagination.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\RenderDeprecatedFlexibleBox.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\RenderTextControlSingleLine.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderTableRow.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\RenderInline.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\RenderThemeChromiumMac.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\BidiRun.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\RenderLayerScrollableArea.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderFlowThread.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\RenderIFrame.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\RenderTextFragment.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\RenderMultiColumnFlowThread.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\ScrollBehavior.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderReplaced.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderNamedFlowThread.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderBox.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderReplica.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderImageResource.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderFrame.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\break_lines.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\RenderFullScreen.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderListMarker.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderEmbeddedObject.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\RenderLayerFilterInfo.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\RenderTable.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\TextAutosizer.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\RenderDeprecatedFlexibleBox.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderTreeAsText.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderScrollbarTheme.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\InlineBox.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\RenderApplet.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\RenderGeometryMap.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\FlowThreadController.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\RenderFieldset.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\RenderTextTrackCue.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\PointerEventsHitRules.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\RenderMediaControlsChromium.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\RenderRuby.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderHTMLCanvas.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\RenderTextControlSingleLine.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\break_lines.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\Pagination.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderImageResourceStyleImage.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\RenderButton.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\EllipsisBox.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\RenderThemeChromiumFontProviderWin.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\RenderGrid.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\HitTestLocation.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\RenderIFrame.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\RenderSlider.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\RenderRubyRun.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\RenderLayerBacking.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderBR.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderRubyText.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\HitTestingTransformState.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\CounterNode.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderMedia.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\RenderFrameSet.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\RenderGrid.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderTextControlMultiLine.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\VerticalPositionCache.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\ImageQualityController.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\RenderTableCol.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\RenderScrollbar.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\RenderScrollbarPart.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\RenderMultiColumnFlowThread.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\SubtreeLayoutScope.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\FilterEffectRenderer.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\RenderVideo.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\RenderMultiColumnBlock.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\BidiRun.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderObject.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderThemeChromiumFontProvider.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderBlockLineLayout.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderText.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderMultiColumnBlock.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\RenderMediaControls.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\RenderFileUploadControl.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\RenderTheme.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderBoxModelObject.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\RenderListMarker.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\RenderThemeChromiumSkia.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\RenderMenuList.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\RenderLayerCompositor.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\RenderSearchField.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderWordBreak.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\AutoTableLayout.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\InlineTextBox.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\PartialLayoutState.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\RenderTableCaption.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\RenderRubyBase.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\RenderWidget.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\RenderRubyText.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\RenderSearchField.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\PointerEventsHitRules.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\RenderSelectionInfo.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\RenderTableCell.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\RenderTableCol.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RootInlineBox.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderApplet.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderTextTrackCue.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderRubyBase.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\FixedTableLayout.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\RenderPart.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\HitTestResult.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\RenderMultiColumnSet.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\RenderFlexibleBox.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\RenderImage.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderFrameSet.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\TableLayout.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\FlowThreadController.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\HitTestLocation.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderTextFragment.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderDetailsMarker.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderFileUploadControl.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderFieldset.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderThemeChromiumWin.cpp">
+      <Filter>rendering\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderThemeChromiumAndroid.cpp">
+      <Filter>rendering\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\RenderThemeChromiumFontProviderLinux.cpp">
+      <Filter>rendering\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\RenderThemeChromiumWin.h">
+      <Filter>rendering\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="rendering\RenderThemeChromiumMac.mm">
+      <Filter>rendering\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="rendering\shapes\RasterShape.cpp">
+      <Filter>rendering\shapes</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\shapes\RectangleShape.h">
+      <Filter>rendering\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\shapes\PolygonShape.h">
+      <Filter>rendering\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\shapes\ShapeInterval.h">
+      <Filter>rendering\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\shapes\ShapeInfo.h">
+      <Filter>rendering\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\shapes\RasterShape.h">
+      <Filter>rendering\shapes</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\shapes\ShapeInfo.cpp">
+      <Filter>rendering\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\shapes\Shape.cpp">
+      <Filter>rendering\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\shapes\ShapeInsideInfo.cpp">
+      <Filter>rendering\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\shapes\PolygonShape.cpp">
+      <Filter>rendering\shapes</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\shapes\Shape.h">
+      <Filter>rendering\shapes</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\shapes\ShapeOutsideInfo.cpp">
+      <Filter>rendering\shapes</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\shapes\ShapeInsideInfo.h">
+      <Filter>rendering\shapes</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\shapes\RectangleShape.cpp">
+      <Filter>rendering\shapes</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\shapes\ShapeOutsideInfo.h">
+      <Filter>rendering\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\svg\SVGTextLayoutEngine.h">
+      <Filter>rendering\svg\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\svg\SVGRenderingContext.cpp">
+      <Filter>rendering\svg\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\svg\SVGResourcesCache.cpp">
+      <Filter>rendering\svg\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\svg\SVGTextLayoutEngineBaseline.cpp">
+      <Filter>rendering\svg\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\svg\SVGPathData.cpp">
+      <Filter>rendering\svg\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\svg\SVGTextLayoutEngineSpacing.h">
+      <Filter>rendering\svg\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\svg\SVGTextFragment.h">
+      <Filter>rendering\svg\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\svg\SVGInlineTextBox.h">
+      <Filter>rendering\svg\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\svg\SVGRenderTreeAsText.h">
+      <Filter>rendering\svg\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\svg\SVGRenderingContext.h">
+      <Filter>rendering\svg\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\svg\SVGTextChunkBuilder.h">
+      <Filter>rendering\svg\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\svg\SVGTextLayoutAttributesBuilder.h">
+      <Filter>rendering\svg\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\svg\SVGTextMetricsBuilder.h">
+      <Filter>rendering\svg\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\svg\SVGTextRunRenderingContext.h">
+      <Filter>rendering\svg\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\svg\SVGTextLayoutAttributesBuilder.cpp">
+      <Filter>rendering\svg\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\svg\SVGTextChunkBuilder.cpp">
+      <Filter>rendering\svg\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\svg\SVGTextQuery.h">
+      <Filter>rendering\svg\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\svg\SVGResourcesCycleSolver.h">
+      <Filter>rendering\svg\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\svg\SVGTextMetrics.h">
+      <Filter>rendering\svg\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\svg\SVGTextLayoutEngine.cpp">
+      <Filter>rendering\svg\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\svg\SVGResourcesCycleSolver.cpp">
+      <Filter>rendering\svg\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\svg\SVGInlineFlowBox.h">
+      <Filter>rendering\svg\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\svg\SVGMarkerData.h">
+      <Filter>rendering\svg\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\svg\SVGInlineTextBox.cpp">
+      <Filter>rendering\svg\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\svg\SVGTextMetricsBuilder.cpp">
+      <Filter>rendering\svg\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\svg\SVGTextLayoutEngineSpacing.cpp">
+      <Filter>rendering\svg\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\svg\SVGRenderSupport.cpp">
+      <Filter>rendering\svg\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\svg\SVGResources.cpp">
+      <Filter>rendering\svg\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\svg\SVGTextRunRenderingContext.cpp">
+      <Filter>rendering\svg\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\svg\SVGTextLayoutEngineBaseline.h">
+      <Filter>rendering\svg\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\svg\SVGRenderSupport.h">
+      <Filter>rendering\svg\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\svg\SVGRootInlineBox.h">
+      <Filter>rendering\svg\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\svg\SVGTextChunk.h">
+      <Filter>rendering\svg\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\svg\SVGResources.h">
+      <Filter>rendering\svg\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\svg\SVGTextLayoutAttributes.h">
+      <Filter>rendering\svg\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\svg\SVGInlineFlowBox.cpp">
+      <Filter>rendering\svg\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\svg\SVGRenderTreeAsText.cpp">
+      <Filter>rendering\svg\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\svg\SVGRootInlineBox.cpp">
+      <Filter>rendering\svg\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\svg\SVGTextQuery.cpp">
+      <Filter>rendering\svg\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\svg\SVGPathData.h">
+      <Filter>rendering\svg\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\svg\SVGTextChunk.cpp">
+      <Filter>rendering\svg\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\svg\SVGTextLayoutAttributes.cpp">
+      <Filter>rendering\svg\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\svg\SVGTextMetrics.cpp">
+      <Filter>rendering\svg\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\style\CounterDirectives.cpp">
+      <Filter>rendering\style</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\style\StyleMarqueeData.cpp">
+      <Filter>rendering\style</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\style\StyleFlexibleBoxData.cpp">
+      <Filter>rendering\style</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\style\StyleFetchedImageSet.cpp">
+      <Filter>rendering\style</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\style\StyleInheritedData.cpp">
+      <Filter>rendering\style</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\style\NinePieceImage.cpp">
+      <Filter>rendering\style</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\style\StyleBoxData.cpp">
+      <Filter>rendering\style</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\style\StyleGridItemData.cpp">
+      <Filter>rendering\style</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\style\StyleBackgroundData.cpp">
+      <Filter>rendering\style</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\style\StyleCustomFilterProgram.h">
+      <Filter>rendering\style</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\style\BasicShapes.cpp">
+      <Filter>rendering\style</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\style\StyleFilterData.cpp">
+      <Filter>rendering\style</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\style\StyleCustomFilterProgram.cpp">
+      <Filter>rendering\style</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\style\KeyframeList.h">
+      <Filter>rendering\style</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\style\GridCoordinate.h">
+      <Filter>rendering\style</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\style\StylePendingShader.h">
+      <Filter>rendering\style</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\style\ShadowData.cpp">
+      <Filter>rendering\style</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\style\StyleRareNonInheritedData.cpp">
+      <Filter>rendering\style</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\style\StyleDeprecatedFlexibleBoxData.cpp">
+      <Filter>rendering\style</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\style\StyleCustomFilterProgramCache.h">
+      <Filter>rendering\style</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\style\StyleShader.h">
+      <Filter>rendering\style</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\style\ContentData.cpp">
+      <Filter>rendering\style</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\style\StyleFetchedShader.cpp">
+      <Filter>rendering\style</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\style\StyleVisualData.cpp">
+      <Filter>rendering\style</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\style\FillLayer.cpp">
+      <Filter>rendering\style</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\style\StyleGeneratedImage.cpp">
+      <Filter>rendering\style</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\style\RenderStyle.h">
+      <Filter>rendering\style</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\style\StyleGridData.cpp">
+      <Filter>rendering\style</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\style\StyleCustomFilterProgramCache.cpp">
+      <Filter>rendering\style</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\style\StyleFetchedImage.cpp">
+      <Filter>rendering\style</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\style\StyleTransformData.cpp">
+      <Filter>rendering\style</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\style\QuotesData.h">
+      <Filter>rendering\style</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\style\StyleSurroundData.cpp">
+      <Filter>rendering\style</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\style\StyleMultiColData.cpp">
+      <Filter>rendering\style</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\style\KeyframeList.cpp">
+      <Filter>rendering\style</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\style\StylePendingImage.h">
+      <Filter>rendering\style</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\style\StyleFetchedShader.h">
+      <Filter>rendering\style</Filter>
+    </ClInclude>
+    <ClCompile Include="rendering\style\QuotesData.cpp">
+      <Filter>rendering\style</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\style\RenderStyle.cpp">
+      <Filter>rendering\style</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\style\StyleRareInheritedData.cpp">
+      <Filter>rendering\style</Filter>
+    </ClCompile>
+    <ClInclude Include="rendering\style\CachedUAStyle.h">
+      <Filter>rendering\style</Filter>
+    </ClInclude>
+    <ClCompile Include="animation\AnimatableImage.cpp">
+      <Filter>animation\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="animation\AnimatableColor.cpp">
+      <Filter>animation\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="animation\TimedItemCalculations.h">
+      <Filter>animation\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="animation\TimedItem.h">
+      <Filter>animation\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="animation\AnimatableColor.h">
+      <Filter>animation\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="animation\DocumentTimeline.h">
+      <Filter>animation\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="animation\AnimatableValue.cpp">
+      <Filter>animation\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="animation\ActiveAnimations.h">
+      <Filter>animation\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="animation\AnimatableLengthBox.h">
+      <Filter>animation\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="animation\Timing.h">
+      <Filter>animation\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="animation\AnimationStack.h">
+      <Filter>animation\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="animation\AnimatableNumber.cpp">
+      <Filter>animation\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="animation\KeyframeAnimationEffect.h">
+      <Filter>animation\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="animation\Animation.cpp">
+      <Filter>animation\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="animation\InertAnimation.h">
+      <Filter>animation\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="animation\AnimatableNeutral.h">
+      <Filter>animation\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="animation\Animation.h">
+      <Filter>animation\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="animation\DocumentTimeline.cpp">
+      <Filter>animation\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="animation\AnimatableTransform.cpp">
+      <Filter>animation\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="animation\InertAnimation.cpp">
+      <Filter>animation\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="animation\KeyframeAnimationEffect.cpp">
+      <Filter>animation\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="animation\AnimationEffect.h">
+      <Filter>animation\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="animation\AnimatableImage.h">
+      <Filter>animation\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="animation\TimedItem.cpp">
+      <Filter>animation\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="animation\AnimatableLengthBox.cpp">
+      <Filter>animation\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="animation\AnimatableNumber.h">
+      <Filter>animation\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="animation\AnimatableValue.h">
+      <Filter>animation\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="animation\AnimatableUnknown.h">
+      <Filter>animation\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="animation\Player.h">
+      <Filter>animation\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="animation\Player.cpp">
+      <Filter>animation\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="animation\AnimatableTransform.h">
+      <Filter>animation\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="animation\css\CSSAnimatableValueFactory.cpp">
+      <Filter>animation\css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="animation\css\CSSAnimations.cpp">
+      <Filter>animation\css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="animation\css\CSSAnimatableValueFactory.h">
+      <Filter>animation\css\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="animation\css\CSSAnimations.h">
+      <Filter>animation\css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="fetch\ResourceLoaderSet.cpp">
+      <Filter>fetch\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="fetch\ShaderResource.h">
+      <Filter>fetch\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="fetch\FetchContext.cpp">
+      <Filter>fetch\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="fetch\DocumentResource.h">
+      <Filter>fetch\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="fetch\MemoryCache.cpp">
+      <Filter>fetch\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="fetch\Resource.cpp">
+      <Filter>fetch\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="fetch\ResourceFetcher.h">
+      <Filter>fetch\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="fetch\DocumentResource.cpp">
+      <Filter>fetch\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="fetch\FetchRequest.h">
+      <Filter>fetch\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="fetch\RawResource.h">
+      <Filter>fetch\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="fetch\ImageResource.cpp">
+      <Filter>fetch\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="fetch\DocumentResourceReference.h">
+      <Filter>fetch\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="fetch\RawResource.cpp">
+      <Filter>fetch\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="fetch\ResourceLoader.cpp">
+      <Filter>fetch\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="fetch\ScriptResource.h">
+      <Filter>fetch\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="fetch\FontResource.h">
+      <Filter>fetch\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="fetch\FetchRequest.cpp">
+      <Filter>fetch\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="fetch\Resource.h">
+      <Filter>fetch\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="fetch\CachedMetadata.cpp">
+      <Filter>fetch\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="fetch\TextResourceDecoder.h">
+      <Filter>fetch\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="fetch\XSLStyleSheetResource.cpp">
+      <Filter>fetch\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="fetch\ScriptResource.cpp">
+      <Filter>fetch\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="fetch\CrossOriginAccessControl.cpp">
+      <Filter>fetch\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="fetch\CSSStyleSheetResource.cpp">
+      <Filter>fetch\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="fetch\FetchInitiatorInfo.h">
+      <Filter>fetch\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="fetch\TextResourceDecoder.cpp">
+      <Filter>fetch\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="fetch\ResourcePtr.h">
+      <Filter>fetch\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="fetch\FontResource.cpp">
+      <Filter>fetch\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="fetch\FetchContext.h">
+      <Filter>fetch\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="fetch\CSSStyleSheetResource.h">
+      <Filter>fetch\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="fetch\ResourceLoader.h">
+      <Filter>fetch\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="fetch\ResourcePtr.cpp">
+      <Filter>fetch\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="fetch\ResourceFetcher.cpp">
+      <Filter>fetch\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="fetch\MemoryCache.h">
+      <Filter>fetch\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="fetch\ResourceLoaderSet.h">
+      <Filter>fetch\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="fetch\ResourceClientWalker.h">
+      <Filter>fetch\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="fetch\TextTrackResource.h">
+      <Filter>fetch\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="fetch\ResourceLoaderOptions.h">
+      <Filter>fetch\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="fetch\CrossOriginAccessControl.h">
+      <Filter>fetch\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="fetch\ImageResource.h">
+      <Filter>fetch\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="fetch\TextTrackResource.cpp">
+      <Filter>fetch\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="fetch\CachedMetadata.h">
+      <Filter>fetch\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="fetch\XSLStyleSheetResource.h">
+      <Filter>fetch\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="fetch\ShaderResource.cpp">
+      <Filter>fetch\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="inspector\ScriptGCEventListener.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="inspector\InspectorHistory.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="inspector\InjectedScriptBase.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="inspector\JavaScriptCallFrame.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="inspector\InspectorDatabaseResource.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="inspector\InspectorOverlayHost.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="inspector\InspectorStateClient.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="inspector\JSONParser.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="inspector\InspectorResourceAgent.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="inspector\WorkerConsoleAgent.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="inspector\TimelineTraceEventProcessor.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="inspector\DOMPatchSupport.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="inspector\PageDebuggerAgent.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="inspector\ScriptCallFrame.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="inspector\DOMPatchSupport.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="inspector\NetworkResourcesData.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="inspector\InspectorFrontendHost.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="inspector\PageRuntimeAgent.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="inspector\InspectorDatabaseInstrumentation.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="inspector\InjectedScriptCanvasModule.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="inspector\InspectorDatabaseResource.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="inspector\InspectorStyleTextEditor.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="inspector\ScriptProfile.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="inspector\TimelineRecordFactory.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="inspector\PageRuntimeAgent.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="inspector\InspectorMemoryAgent.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="inspector\InjectedScriptCanvasModule.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="inspector\WorkerInspectorController.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="inspector\InspectorPageAgent.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="inspector\ScriptCallFrame.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="inspector\InspectorHeapProfilerAgent.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="inspector\InspectorConsoleInstrumentation.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="inspector\InspectorState.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="inspector\InspectorOverlay.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="inspector\InspectorInstrumentationCustomInl.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="inspector\InspectorWorkerAgent.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="inspector\InspectorLayerTreeAgent.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="inspector\InspectorStyleSheet.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="inspector\InspectorCSSAgent.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="inspector\InspectorStyleTextEditor.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="inspector\BindingVisitors.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="inspector\InjectedScript.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="inspector\InjectedScriptManager.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="inspector\InspectorCounters.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="inspector\TimelineRecordFactory.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="inspector\InspectorClient.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="inspector\InspectorApplicationCacheAgent.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="inspector\InspectorCSSAgent.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="inspector\InspectorTimelineAgent.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="inspector\InspectorOverlayHost.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="inspector\InspectorController.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="inspector\ConsoleAPITypes.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="inspector\InspectorConsoleAgent.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="inspector\IdentifiersFactory.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="inspector\ScriptArguments.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="inspector\InjectedScriptModule.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="inspector\InspectorAgent.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="inspector\TimelineTraceEventProcessor.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="inspector\JavaScriptCallFrame.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="inspector\InspectorBaseAgent.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="inspector\InjectedScriptModule.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="inspector\InjectedScriptHost.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="inspector\WorkerConsoleAgent.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="inspector\PageConsoleAgent.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="inspector\InspectorDebuggerAgent.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="inspector\InspectorResourceAgent.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="inspector\PageDebuggerAgent.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="inspector\InspectorDatabaseAgent.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="inspector\ConsoleMessage.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="inspector\WorkerRuntimeAgent.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="inspector\InspectorApplicationCacheAgent.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="inspector\InspectorRuntimeAgent.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="inspector\InspectorDOMAgent.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="inspector\ScriptCallStack.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="inspector\InspectorIndexedDBAgent.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="inspector\InspectorProfilerAgent.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="inspector\ContentSearchUtils.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="inspector\InspectorTimelineAgent.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="inspector\ScriptProfile.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="inspector\InspectorOverlay.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="inspector\WorkerDebuggerAgent.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="inspector\JSONParser.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="inspector\InjectedScriptHost.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="inspector\InspectorFrontendHost.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="inspector\InjectedScriptManager.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="inspector\InspectorFileSystemAgent.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="inspector\ScriptCallStack.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="inspector\InspectorInputAgent.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="inspector\InspectorWorkerAgent.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="inspector\InspectorStyleSheet.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="inspector\InspectorMemoryAgent.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="inspector\InspectorCanvasAgent.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="inspector\IdentifiersFactory.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="inspector\InspectorDebuggerAgent.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="inspector\WorkerRuntimeAgent.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="inspector\InspectorFrontendChannel.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="inspector\InjectedScript.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="inspector\InspectorDOMDebuggerAgent.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="inspector\InstrumentingAgents.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="inspector\InspectorCounters.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="inspector\DOMEditor.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="inspector\InspectorCanvasInstrumentation.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="inspector\InjectedScriptBase.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="inspector\DOMEditor.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="inspector\InspectorDatabaseAgent.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="inspector\ConsoleMessage.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="inspector\ScriptArguments.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="inspector\NetworkResourcesData.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="inspector\InspectorLayerTreeAgent.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="inspector\InspectorHeapProfilerAgent.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="inspector\InspectorDOMStorageAgent.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="inspector\InspectorState.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="inspector\InspectorDOMDebuggerAgent.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="inspector\InspectorIndexedDBAgent.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="inspector\InspectorDOMStorageAgent.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="inspector\PageConsoleAgent.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="inspector\InspectorInstrumentation.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="inspector\InspectorFileSystemAgent.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="inspector\InspectorConsoleAgent.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="inspector\InspectorCanvasAgent.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="inspector\InspectorProfilerAgent.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="inspector\InspectorHistory.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="inspector\InspectorInputAgent.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="inspector\InspectorPageAgent.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="inspector\ContentSearchUtils.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="inspector\WorkerInspectorController.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="inspector\WorkerDebuggerAgent.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="inspector\InspectorRuntimeAgent.cpp">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="inspector\InspectorInstrumentation.h">
+      <Filter>inspector\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="editing\FormatBlockCommand.h">
+      <Filter>editing\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="editing\SetSelectionCommand.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="editing\TextCheckingHelper.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="editing\SplitElementCommand.h">
+      <Filter>editing\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="editing\UnlinkCommand.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="editing\RenderedPosition.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="editing\SplitTextNodeContainingElementCommand.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="editing\FormatBlockCommand.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="editing\IndentOutdentCommand.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="editing\htmlediting.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="editing\SplitTextNodeCommand.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="editing\InsertTextCommand.h">
+      <Filter>editing\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="editing\WrapContentsInDummySpanCommand.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="editing\RenderedPosition.h">
+      <Filter>editing\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="editing\markup.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="editing\InputMethodController.h">
+      <Filter>editing\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="editing\InsertLineBreakCommand.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="editing\RemoveNodePreservingChildrenCommand.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="editing\ModifySelectionListLevel.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="editing\SmartReplaceICU.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="editing\ApplyStyleCommand.h">
+      <Filter>editing\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="editing\EditCommand.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="editing\InsertIntoTextNodeCommand.h">
+      <Filter>editing\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="editing\RemoveCSSPropertyCommand.h">
+      <Filter>editing\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="editing\SurroundingText.h">
+      <Filter>editing\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="editing\InsertIntoTextNodeCommand.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="editing\SplitTextNodeContainingElementCommand.h">
+      <Filter>editing\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="editing\MarkupAccumulator.h">
+      <Filter>editing\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="editing\WrapContentsInDummySpanCommand.h">
+      <Filter>editing\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="editing\ModifySelectionListLevel.h">
+      <Filter>editing\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="editing\SpellingCorrectionCommand.h">
+      <Filter>editing\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="editing\MergeIdenticalElementsCommand.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="editing\ReplaceSelectionCommand.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="editing\TextIterator.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="editing\DeleteSelectionCommand.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="editing\UnlinkCommand.h">
+      <Filter>editing\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="editing\SplitElementCommand.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="editing\MergeIdenticalElementsCommand.h">
+      <Filter>editing\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="editing\SimplifyMarkupCommand.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="editing\EditingStyle.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="editing\SpellCheckRequester.h">
+      <Filter>editing\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="editing\InsertTextCommand.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="editing\RemoveFormatCommand.h">
+      <Filter>editing\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="editing\BreakBlockquoteCommand.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="editing\UndoStep.h">
+      <Filter>editing\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="editing\TextInsertionBaseCommand.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="editing\InsertListCommand.h">
+      <Filter>editing\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="editing\InsertParagraphSeparatorCommand.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="editing\EditorCommand.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="editing\AppendNodeCommand.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="editing\BreakBlockquoteCommand.h">
+      <Filter>editing\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="editing\RemoveCSSPropertyCommand.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="editing\CompositeEditCommand.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="editing\RemoveNodePreservingChildrenCommand.h">
+      <Filter>editing\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="editing\CreateLinkCommand.h">
+      <Filter>editing\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="editing\Editor.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="editing\InsertLineBreakCommand.h">
+      <Filter>editing\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="editing\SetSelectionCommand.h">
+      <Filter>editing\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="editing\ApplyStyleCommand.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="editing\TextCheckingHelper.h">
+      <Filter>editing\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="editing\SpellCheckRequester.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="editing\InsertNodeBeforeCommand.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="editing\InsertNodeBeforeCommand.h">
+      <Filter>editing\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="editing\ReplaceNodeWithSpanCommand.h">
+      <Filter>editing\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="editing\RemoveNodeCommand.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="editing\TypingCommand.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="editing\FrameSelection.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="editing\ReplaceNodeWithSpanCommand.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="editing\TextInsertionBaseCommand.h">
+      <Filter>editing\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="editing\IndentOutdentCommand.h">
+      <Filter>editing\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="editing\InsertParagraphSeparatorCommand.h">
+      <Filter>editing\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="editing\RemoveNodeCommand.h">
+      <Filter>editing\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="editing\VisibleUnits.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="editing\VisiblePosition.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="editing\VisibleSelection.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="editing\AppendNodeCommand.h">
+      <Filter>editing\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="editing\ApplyBlockElementCommand.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="editing\SpellingCorrectionCommand.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="editing\SetNodeAttributeCommand.h">
+      <Filter>editing\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="editing\SplitTextNodeCommand.h">
+      <Filter>editing\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="editing\SetNodeAttributeCommand.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="editing\HTMLInterchange.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="editing\RemoveFormatCommand.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="editing\DeleteFromTextNodeCommand.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="editing\InputMethodController.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="editing\CompositionUnderline.h">
+      <Filter>editing\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="editing\CreateLinkCommand.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="editing\Caret.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="editing\SmartReplaceCF.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="editing\DeleteFromTextNodeCommand.h">
+      <Filter>editing\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="editing\MoveSelectionCommand.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="editing\InsertListCommand.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="editing\MarkupAccumulator.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="editing\SurroundingText.cpp">
+      <Filter>editing\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="editing\Caret.h">
+      <Filter>editing\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="editing\chromium\EditorChromium.cpp">
+      <Filter>editing\chromium\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\DiagnosticLoggingKeys.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\PerformanceNavigation.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="page\LayoutMilestones.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="page\DOMWindowTimers.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="page\TouchDisambiguation.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="page\Console.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="page\ContextMenuController.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\FrameActionScheduler.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\Chrome.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="page\SpeechInputResult.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="page\NavigatorID.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="page\ContextMenuProvider.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="page\BarProp.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="page\DeviceController.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="page\DOMWindowLifecycleObserver.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="page\TouchAdjustment.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\DOMWindow.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\SuspendableTimer.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="page\SpeechInputClient.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="page\UseCounter.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\Settings.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\RuntimeEnabledFeaturesCustom.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\EventHandler.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\Navigator.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="page\Navigator.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="page\DeviceController.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="page\EventSource.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="page\MouseEventWithHitTestResults.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="page\PageLifecycleNotifier.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="page\PagePopupController.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\PointerLockController.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="page\FrameActionScheduler.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="page\FrameDestructionObserver.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="page\WindowFocusAllowedIndicator.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\TouchDisambiguation.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="page\PointerLockController.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="page\SpeechInput.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="page\PageSerializer.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="page\Location.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="page\PerformanceEntry.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\DOMWindowProperty.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\Page.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\PerformanceResourceTiming.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\PageGroup.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="page\DOMWindow.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="page\FrameTree.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="page\DOMWindowLifecycleNotifier.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="page\Performance.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="page\DOMPoint.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="page\CreateWindow.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="page\TouchAdjustment.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="page\PerformanceTiming.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="page\DOMWindowTimers.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\SpeechInput.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="page\SpeechInputEvent.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="page\Screen.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="page\PerformanceEntry.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="page\PageScaleConstraints.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="page\AutoscrollController.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="page\CreateWindow.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\Screen.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="page\PagePopupClient.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="page\NavigatorBase.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="page\WorkerNavigator.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="page\Frame.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\EventSource.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\DOMWindowPagePopup.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="page\NavigatorOnLine.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="page\SuspendableTimer.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="page\WindowFeatures.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\DOMSecurityPolicy.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="page\PageScaleConstraintsSet.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="page\PerformanceMark.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="page\DOMWindowLifecycleNotifier.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="page\ConsoleBase.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="page\PagePopupController.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="page\ImageBitmap.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="page\Location.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\PageLifecycleObserver.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="page\PageLifecycleObserver.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="page\DOMWindowPagePopup.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="page\SpeechInputListener.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="page\PageScaleConstraintsSet.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\BarProp.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="page\NavigatorBase.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="page\History.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="page\PageVisibilityState.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="page\PerformanceMeasure.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="page\DOMWindowLifecycleObserver.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="page\PerformanceNavigation.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="page\PerformanceTiming.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\PageConsole.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\DragController.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\PrintContext.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\AutoscrollController.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="page\RuntimeCSSEnabled.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="page\DiagnosticLoggingKeys.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="page\DOMTimer.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="page\FocusController.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\DOMSelection.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\PerformanceUserTiming.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\UserContentURLPattern.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\ContentSecurityPolicyResponseHeaders.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\FrameDestructionObserver.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="page\DeviceClient.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="page\PageGroupLoadDeferrer.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="page\PerformanceResourceTiming.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="page\SpatialNavigation.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\SpeechInputEvent.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\ContentSecurityPolicy.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\Console.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\PageScaleConstraints.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\SpeechInputResult.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="page\MouseEventWithHitTestResults.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="page\NavigatorID.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="page\SpeechInputResultList.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="page\DOMWindowProperty.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="page\ResourceTimingInfo.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="page\History.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\DOMTimer.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\ConsoleBase.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\FrameView.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="page\PerformanceUserTiming.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="page\DOMWindowBase64.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="page\PageLifecycleNotifier.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\PageGroupLoadDeferrer.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\PagePopupClient.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\DOMWindowBase64.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="page\PopupOpeningObserver.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="page\ImageBitmap.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\SpeechInputResultList.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\RuntimeCSSEnabled.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\MemoryInfo.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="page\DOMSelection.h">
+      <Filter>page\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="page\Performance.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\WorkerNavigator.cpp">
+      <Filter>page\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\animation\KeyframeAnimation.cpp">
+      <Filter>page\animation\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="page\animation\ImplicitAnimation.h">
+      <Filter>page\animation\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="page\animation\AnimationController.cpp">
+      <Filter>page\animation\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="page\animation\AnimationControllerPrivate.h">
+      <Filter>page\animation\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="page\animation\KeyframeAnimation.h">
+      <Filter>page\animation\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="page\animation\CSSPropertyAnimation.cpp">
+      <Filter>page\animation\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="page\animation\AnimationBase.h">
+      <Filter>page\animation\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="page\animation\AnimationBase.cpp">
+      <Filter>page\animation\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="page\animation\CSSPropertyAnimation.h">
+      <Filter>page\animation\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="page\animation\CompositeAnimation.h">
+      <Filter>page\animation\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="page\animation\ImplicitAnimation.cpp">
+      <Filter>page\animation\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\animation\CompositeAnimation.cpp">
+      <Filter>page\animation\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="page\scrolling\ScrollingCoordinator.h">
+      <Filter>page\scrolling\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="page\scrolling\ScrollingCoordinator.cpp">
+      <Filter>page\scrolling\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="page\scrolling\ScrollingConstraints.cpp">
+      <Filter>page\scrolling\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="page\scrolling\ScrollingConstraints.h">
+      <Filter>page\scrolling\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\CSSSegmentedFontFace.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\ElementRuleCollector.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\CSSProperty.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\MediaFeatureNames.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\CSSFontFaceRule.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\InspectorCSSOMWrappers.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\MediaQueryMatcher.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\CSSCanvasValue.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\CSSParserMode.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\MediaQueryExp.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\CSSFontFaceSource.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\StyleInvalidationAnalysis.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\DOMWindowCSS.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\CSSParser.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\CSSSupportsRule.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\CSSCharsetRule.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\CSSViewportRule.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\FontLoader.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\CSSImageValue.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\CSSTimingFunctionValue.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\MediaQuery.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\CSSValueList.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\CSSFontFaceLoadEvent.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\CSSInheritedValue.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\CSSSVGDocumentValue.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\CSSGradientValue.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\CSSFunctionValue.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\CSSRuleList.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\CSSArrayFunctionValue.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\CSSMatrix.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\RGBColor.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\CSSStyleSheet.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\StyleSheetList.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\DOMWindowCSS.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\CSSPageRule.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\StyleColor.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\CSSReflectValue.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\SiblingTraversalStrategies.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\CSSSelector.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\CSSGradientValue.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\ShadowValue.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\CSSBorderImage.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\CSSCrossfadeValue.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\StylePropertyShorthandCustom.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\CSSRuleList.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\CSSValuePool.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\PageRuleCollector.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\CSSMediaRule.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\SelectorChecker.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\CSSOMUtils.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\FontLoader.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\CSSInitialValue.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\CSSShaderValue.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\CSSVariableValue.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\MediaQueryEvaluator.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\MediaQueryList.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\CSSKeyframesRule.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\RuleSet.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\FontSize.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\SVGCSSComputedStyleDeclaration.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\CSSDefaultStyleSheets.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\StyleMedia.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\MediaQueryList.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\CSSStyleSheet.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\MediaList.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\DocumentRuleSets.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\CSSViewportRule.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\CSSFilterValue.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\StyleMedia.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\FontValue.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\StyleSheetContents.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\CSSPageRule.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\CSSBorderImageSliceValue.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\CSSAspectRatioValue.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\RuleFeature.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\StylePropertySet.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\InspectorCSSOMWrappers.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\MediaQueryMatcher.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\CSSSegmentedFontFace.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\CSSUnicodeRangeValue.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\CSSFontFace.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\CSSSelectorList.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\CSSBasicShapes.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\ElementRuleCollector.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\SelectorChecker.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\SelectorFilter.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\PageRuleCollector.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\CSSArrayFunctionValue.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\CSSParserValues.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\CSSRegionRule.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\StylePropertySet.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\FontValue.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\RuleFeature.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\CSSStyleDeclaration.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\CSSImageGeneratorValue.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\FontFeatureValue.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\CSSUnknownRule.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\CSSCalculationValue.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\CSSFontFaceSrcValue.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\CSSHostRule.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\CSSImportRule.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\CSSToStyleMap.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\CSSGroupingRule.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\CSSMixFunctionValue.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\ShadowValue.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\StyleRuleImport.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\MediaQueryListListener.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\CSSDefaultStyleSheets.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\CSSPropertySourceData.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\MediaList.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\CSSFontFaceLoadEvent.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\StylePropertySerializer.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\Rect.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\CSSLineBoxContainValue.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\CSSValue.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\CSSValuePool.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\StyleRule.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\StyleSheet.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\CSSImageSetValue.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\CSSGridTemplateValue.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\MediaQueryListListener.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\CSSSVGDocumentValue.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\FontSize.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\CSSSelectorList.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\CSSStyleRule.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\CSSStyleRule.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\CSSRule.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\CSSFilterValue.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\CSSInheritedValue.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\CSSFilterRule.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\CSSSupportsRule.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\CSSFunctionValue.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\Counter.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\CSSHostRule.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\CSSCalculationValue.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\CSSBorderImage.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\PropertySetCSSStyleDeclaration.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\CSSToStyleMap.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\CSSPrimitiveValueMappings.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\CSSRule.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\CSSGridTemplateValue.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\StyleSheetList.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\CSSOMUtils.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\CSSGroupingRule.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\PseudoStyleRequest.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\CSSCursorImageValue.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\CSSBorderImageSliceValue.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\MediaQuery.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\CSSImportRule.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\StyleSheet.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\CSSTimingFunctionValue.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\CSSRegionRule.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\CSSFilterRule.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\CSSMediaRule.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\StyleRule.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\BasicShapeFunctions.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\MediaFeatureNames.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\CSSKeyframesRule.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\CSSCharsetRule.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\SelectorCheckerFastPath.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\StylePropertySerializer.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\StyleRuleImport.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\CSSMatrix.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\CSSFontFaceRule.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\CSSUnicodeRangeValue.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\CSSCanvasValue.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\CSSFontSelector.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\CSSComputedStyleDeclaration.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\CSSStyleDeclaration.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\StyleInvalidationAnalysis.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\CSSFontFaceSrcValue.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\SVGCSSParser.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\CSSKeyframeRule.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\PropertySetCSSStyleDeclaration.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\RuleSet.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\CSSInitialValue.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\CSSVariablesMap.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\StyleSheetContents.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\SelectorCheckerFastPath.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\MediaQueryExp.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\CSSFontFace.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\FontFeatureValue.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\DocumentRuleSets.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\CSSKeyframeRule.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\CSSAspectRatioValue.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\CSSShaderValue.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\CSSFontFaceSource.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\CSSTransformValue.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\CSSVariablesMap.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\MediaQueryEvaluator.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\SelectorFilter.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\CSSFontSelector.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\CSSCrossfadeValue.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\CSSMixFunctionValue.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\RGBColor.h">
+      <Filter>css\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\LengthFunctions.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\CSSPrimitiveValue.cpp">
+      <Filter>css\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\resolver\TransformBuilder.h">
+      <Filter>css\resolver\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\resolver\ScopedStyleResolver.h">
+      <Filter>css\resolver\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\resolver\ScopedStyleResolver.cpp">
+      <Filter>css\resolver\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\resolver\SharedStyleFinder.h">
+      <Filter>css\resolver\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\resolver\AnimatedStyleBuilder.cpp">
+      <Filter>css\resolver\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\resolver\FontBuilder.cpp">
+      <Filter>css\resolver\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\resolver\ElementStyleResources.h">
+      <Filter>css\resolver\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\resolver\StyleBuilderCustom.cpp">
+      <Filter>css\resolver\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\resolver\StyleAdjuster.h">
+      <Filter>css\resolver\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\resolver\StyleResolverState.cpp">
+      <Filter>css\resolver\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\resolver\StyleResourceLoader.h">
+      <Filter>css\resolver\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\resolver\FontBuilder.h">
+      <Filter>css\resolver\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\resolver\AnimatedStyleBuilder.h">
+      <Filter>css\resolver\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\resolver\FilterOperationResolver.h">
+      <Filter>css\resolver\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\resolver\ElementResolveContext.h">
+      <Filter>css\resolver\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\resolver\TransformBuilder.cpp">
+      <Filter>css\resolver\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\resolver\MatchResult.h">
+      <Filter>css\resolver\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\resolver\MatchResult.cpp">
+      <Filter>css\resolver\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\resolver\StyleResolverState.h">
+      <Filter>css\resolver\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\resolver\MatchedPropertiesCache.cpp">
+      <Filter>css\resolver\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\resolver\MediaQueryResult.h">
+      <Filter>css\resolver\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\resolver\ViewportStyleResolver.cpp">
+      <Filter>css\resolver\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\resolver\ViewportStyleResolver.h">
+      <Filter>css\resolver\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\resolver\StyleAdjuster.cpp">
+      <Filter>css\resolver\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\resolver\FilterOperationResolver.cpp">
+      <Filter>css\resolver\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\resolver\StyleResourceLoader.cpp">
+      <Filter>css\resolver\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\resolver\StyleBuilderCustom.h">
+      <Filter>css\resolver\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\resolver\StyleResolver.cpp">
+      <Filter>css\resolver\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="css\resolver\MatchedPropertiesCache.h">
+      <Filter>css\resolver\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\resolver\StyleResolver.h">
+      <Filter>css\resolver\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="css\resolver\MatchRequest.h">
+      <Filter>css\resolver\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="css\resolver\ElementResolveContext.cpp">
+      <Filter>css\resolver\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\resolver\ElementStyleResources.cpp">
+      <Filter>css\resolver\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="css\resolver\SharedStyleFinder.cpp">
+      <Filter>css\resolver\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="history\BackForwardController.cpp">
+      <Filter>history\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="history\HistoryItem.cpp">
+      <Filter>history\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="history\BackForwardClient.h">
+      <Filter>history\_excluded_files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

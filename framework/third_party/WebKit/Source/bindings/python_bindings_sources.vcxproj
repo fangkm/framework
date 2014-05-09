@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{60F426B3-56A6-5354-2561-50E5608E75A0}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>python_bindings_sources</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
+  <PropertyGroup Label="Configuration">
+    <CharacterSet>Unicode</CharacterSet>
+    <ConfigurationType>Utility</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props"/>
+  <ImportGroup Label="ExtensionSettings"/>
+  <ImportGroup Label="PropertySheets">
+    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props"/>
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros"/>
+  <PropertyGroup>
+    <ExecutablePath>$(ExecutablePath);$(MSBuildProjectDirectory)\..\..\..\..\third_party\cygwin\bin\;$(MSBuildProjectDirectory)\..\..\..\..\third_party\python_26\</ExecutablePath>
+    <OutDir>..\..\..\..\build\$(Configuration)\</OutDir>
+    <IntDir>$(OutDir)obj\$(ProjectName)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <TargetName>$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\..\third_party\wtl\include;C:\Program Files (x86)\Windows Kits\8.0\Include\shared;C:\Program Files (x86)\Windows Kits\8.0\Include\um;C:\Program Files (x86)\Windows Kits\8.0\Include\winrt;$(VSInstallDir)\VC\atlmfc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4351;4355;4396;4503;4819;4100;4121;4125;4127;4130;4131;4189;4201;4238;4244;4245;4310;4428;4481;4505;4510;4512;4530;4610;4611;4701;4702;4706;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>false</ExceptionHandling>
+      <ForcedIncludeFiles>Precompile.h</ForcedIncludeFiles>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <MinimalRebuild>false</MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Precompile.h</PrecompiledHeaderFile>
+      <PreprocessorDefinitions>_DEBUG;ANGLE_DX11;WTF_VECTOR_INITIAL_SIZE=4;_WIN32_WINNT=0x0602;WINVER=0x0602;WIN32;_WINDOWS;NOMINMAX;PSAPI_VERSION=1;_CRT_RAND_S;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS;WIN32_LEAN_AND_MEAN;_ATL_NO_OPENGL;_HAS_EXCEPTIONS=0;_SECURE_ATL;CHROMIUM_BUILD;TOOLKIT_VIEWS=1;USE_AURA=1;USE_ASH=1;USE_DEFAULT_RENDER_THEME=1;USE_LIBJPEG_TURBO=1;ENABLE_ONE_CLICK_SIGNIN;ENABLE_REMOTING=1;ENABLE_WEBRTC=1;ENABLE_PEPPER_CDMS;ENABLE_CONFIGURATION_POLICY;ENABLE_INPUT_SPEECH;ENABLE_NOTIFICATIONS;ENABLE_GPU=1;ENABLE_EGLIMAGE=1;__STD_C;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;NTDDI_VERSION=0x06020000;ENABLE_TASK_MANAGER=1;ENABLE_EXTENSIONS=1;ENABLE_PLUGIN_INSTALLATION=1;ENABLE_PLUGINS=1;ENABLE_SESSION_SERVICE=1;ENABLE_THEMES=1;ENABLE_AUTOFILL_DIALOG=1;ENABLE_BACKGROUND=1;ENABLE_AUTOMATION=1;ENABLE_GOOGLE_NOW=1;CLD_VERSION=1;ENABLE_FULL_PRINTING=1;ENABLE_PRINTING=1;ENABLE_SPELLCHECK=1;ENABLE_CAPTIVE_PORTAL_DETECTION=1;ENABLE_APP_LIST=1;ENABLE_SETTINGS_APP=1;ENABLE_MANAGED_USERS=1;ENABLE_MDNS=1;_CRT_NONSTDC_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;DYNAMIC_ANNOTATIONS_ENABLED=1;WTF_USE_DYNAMIC_ANNOTATIONS=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Lib>
+      <AdditionalLibraryDirectories>C:\Program Files (x86)\Windows Kits\8.0/Lib/win8/um/x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+    <Link>
+      <AdditionalDependencies>wininet.lib;dnsapi.lib;version.lib;msimg32.lib;ws2_32.lib;usp10.lib;psapi.lib;dbghelp.lib;winmm.lib;shlwapi.lib;kernel32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;user32.lib;uuid.lib;odbc32.lib;odbccp32.lib;delayimp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Program Files (x86)\Windows Kits\8.0/Lib/win8/um/x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/safeseh /dynamicbase /ignore:4199 /ignore:4221 /nxcompat /largeaddressaware %(AdditionalOptions)</AdditionalOptions>
+      <DelayLoadDLLs>dbghelp.dll;dwmapi.dll;shell32.dll;uxtheme.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
+      <FixedBaseAddress>false</FixedBaseAddress>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>$(OutDir)lib\$(TargetName).lib</ImportLibrary>
+      <MapFileName>$(OutDir)$(TargetName).map</MapFileName>
+      <ProgramDatabaseFile>$(TargetPath).pdb</ProgramDatabaseFile>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Midl>
+      <DllDataFileName>%(Filename).dlldata.c</DllDataFileName>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>../../../..;$(OutDir)obj/global_intermediate;..\..\..\..\third_party\wtl\include;C:\Program Files (x86)\Windows Kits\8.0\Include\shared;C:\Program Files (x86)\Windows Kits\8.0\Include\um;C:\Program Files (x86)\Windows Kits\8.0\Include\winrt;$(VSInstallDir)\VC\atlmfc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;ANGLE_DX11;WTF_VECTOR_INITIAL_SIZE=4;_WIN32_WINNT=0x0602;WINVER=0x0602;WIN32;_WINDOWS;NOMINMAX;PSAPI_VERSION=1;_CRT_RAND_S;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS;WIN32_LEAN_AND_MEAN;_ATL_NO_OPENGL;_HAS_EXCEPTIONS=0;_SECURE_ATL;CHROMIUM_BUILD;TOOLKIT_VIEWS=1;USE_AURA=1;USE_ASH=1;USE_DEFAULT_RENDER_THEME=1;USE_LIBJPEG_TURBO=1;ENABLE_ONE_CLICK_SIGNIN;ENABLE_REMOTING=1;ENABLE_WEBRTC=1;ENABLE_PEPPER_CDMS;ENABLE_CONFIGURATION_POLICY;ENABLE_INPUT_SPEECH;ENABLE_NOTIFICATIONS;ENABLE_GPU=1;ENABLE_EGLIMAGE=1;__STD_C;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;NTDDI_VERSION=0x06020000;ENABLE_TASK_MANAGER=1;ENABLE_EXTENSIONS=1;ENABLE_PLUGIN_INSTALLATION=1;ENABLE_PLUGINS=1;ENABLE_SESSION_SERVICE=1;ENABLE_THEMES=1;ENABLE_AUTOFILL_DIALOG=1;ENABLE_BACKGROUND=1;ENABLE_AUTOMATION=1;ENABLE_GOOGLE_NOW=1;CLD_VERSION=1;ENABLE_FULL_PRINTING=1;ENABLE_PRINTING=1;ENABLE_SPELLCHECK=1;ENABLE_CAPTIVE_PORTAL_DETECTION=1;ENABLE_APP_LIST=1;ENABLE_SETTINGS_APP=1;ENABLE_MANAGED_USERS=1;ENABLE_MDNS=1;_CRT_NONSTDC_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;DYNAMIC_ANNOTATIONS_ENABLED=1;WTF_USE_DYNAMIC_ANNOTATIONS=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\..\third_party\wtl\include;C:\Program Files (x86)\Windows Kits\8.0\Include\shared;C:\Program Files (x86)\Windows Kits\8.0\Include\um;C:\Program Files (x86)\Windows Kits\8.0\Include\winrt;$(VSInstallDir)\VC\atlmfc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4351;4355;4396;4503;4819;4100;4121;4125;4127;4130;4131;4189;4201;4238;4244;4245;4310;4428;4481;4505;4510;4512;4530;4610;4611;4701;4702;4706;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>false</ExceptionHandling>
+      <ForcedIncludeFiles>Precompile.h</ForcedIncludeFiles>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <MinimalRebuild>false</MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Precompile.h</PrecompiledHeaderFile>
+      <PreprocessorDefinitions>_DEBUG;ANGLE_DX11;WTF_VECTOR_INITIAL_SIZE=4;_WIN32_WINNT=0x0602;WINVER=0x0602;WIN32;_WINDOWS;NOMINMAX;PSAPI_VERSION=1;_CRT_RAND_S;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS;WIN32_LEAN_AND_MEAN;_ATL_NO_OPENGL;_HAS_EXCEPTIONS=0;_SECURE_ATL;CHROMIUM_BUILD;TOOLKIT_VIEWS=1;USE_AURA=1;USE_ASH=1;USE_DEFAULT_RENDER_THEME=1;USE_LIBJPEG_TURBO=1;ENABLE_ONE_CLICK_SIGNIN;ENABLE_REMOTING=1;ENABLE_WEBRTC=1;ENABLE_PEPPER_CDMS;ENABLE_CONFIGURATION_POLICY;ENABLE_INPUT_SPEECH;ENABLE_NOTIFICATIONS;ENABLE_GPU=1;ENABLE_EGLIMAGE=1;__STD_C;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;NTDDI_VERSION=0x06020000;ENABLE_TASK_MANAGER=1;ENABLE_EXTENSIONS=1;ENABLE_PLUGIN_INSTALLATION=1;ENABLE_PLUGINS=1;ENABLE_SESSION_SERVICE=1;ENABLE_THEMES=1;ENABLE_AUTOFILL_DIALOG=1;ENABLE_BACKGROUND=1;ENABLE_AUTOMATION=1;ENABLE_GOOGLE_NOW=1;CLD_VERSION=1;ENABLE_FULL_PRINTING=1;ENABLE_PRINTING=1;ENABLE_SPELLCHECK=1;ENABLE_CAPTIVE_PORTAL_DETECTION=1;ENABLE_APP_LIST=1;ENABLE_SETTINGS_APP=1;ENABLE_MANAGED_USERS=1;ENABLE_MDNS=1;_CRT_NONSTDC_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;DYNAMIC_ANNOTATIONS_ENABLED=1;WTF_USE_DYNAMIC_ANNOTATIONS=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Lib>
+      <AdditionalLibraryDirectories>C:\Program Files (x86)\Windows Kits\8.0/Lib/win8/um/x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+    <Link>
+      <AdditionalDependencies>wininet.lib;dnsapi.lib;version.lib;msimg32.lib;ws2_32.lib;usp10.lib;psapi.lib;dbghelp.lib;winmm.lib;shlwapi.lib;kernel32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;user32.lib;uuid.lib;odbc32.lib;odbccp32.lib;delayimp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Program Files (x86)\Windows Kits\8.0/Lib/win8/um/x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/dynamicbase /ignore:4199 /ignore:4221 /nxcompat %(AdditionalOptions)</AdditionalOptions>
+      <DelayLoadDLLs>dbghelp.dll;dwmapi.dll;shell32.dll;uxtheme.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
+      <FixedBaseAddress>false</FixedBaseAddress>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>olepro32.lib</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(OutDir)lib\$(TargetName).lib</ImportLibrary>
+      <MapFileName>$(OutDir)$(TargetName).map</MapFileName>
+      <ProgramDatabaseFile>$(TargetPath).pdb</ProgramDatabaseFile>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <Midl>
+      <DllDataFileName>%(Filename).dlldata.c</DllDataFileName>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>../../../..;$(OutDir)obj/global_intermediate;..\..\..\..\third_party\wtl\include;C:\Program Files (x86)\Windows Kits\8.0\Include\shared;C:\Program Files (x86)\Windows Kits\8.0\Include\um;C:\Program Files (x86)\Windows Kits\8.0\Include\winrt;$(VSInstallDir)\VC\atlmfc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;ANGLE_DX11;WTF_VECTOR_INITIAL_SIZE=4;_WIN32_WINNT=0x0602;WINVER=0x0602;WIN32;_WINDOWS;NOMINMAX;PSAPI_VERSION=1;_CRT_RAND_S;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS;WIN32_LEAN_AND_MEAN;_ATL_NO_OPENGL;_HAS_EXCEPTIONS=0;_SECURE_ATL;CHROMIUM_BUILD;TOOLKIT_VIEWS=1;USE_AURA=1;USE_ASH=1;USE_DEFAULT_RENDER_THEME=1;USE_LIBJPEG_TURBO=1;ENABLE_ONE_CLICK_SIGNIN;ENABLE_REMOTING=1;ENABLE_WEBRTC=1;ENABLE_PEPPER_CDMS;ENABLE_CONFIGURATION_POLICY;ENABLE_INPUT_SPEECH;ENABLE_NOTIFICATIONS;ENABLE_GPU=1;ENABLE_EGLIMAGE=1;__STD_C;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;NTDDI_VERSION=0x06020000;ENABLE_TASK_MANAGER=1;ENABLE_EXTENSIONS=1;ENABLE_PLUGIN_INSTALLATION=1;ENABLE_PLUGINS=1;ENABLE_SESSION_SERVICE=1;ENABLE_THEMES=1;ENABLE_AUTOFILL_DIALOG=1;ENABLE_BACKGROUND=1;ENABLE_AUTOMATION=1;ENABLE_GOOGLE_NOW=1;CLD_VERSION=1;ENABLE_FULL_PRINTING=1;ENABLE_PRINTING=1;ENABLE_SPELLCHECK=1;ENABLE_CAPTIVE_PORTAL_DETECTION=1;ENABLE_APP_LIST=1;ENABLE_SETTINGS_APP=1;ENABLE_MANAGED_USERS=1;ENABLE_MDNS=1;_CRT_NONSTDC_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;DYNAMIC_ANNOTATIONS_ENABLED=1;WTF_USE_DYNAMIC_ANNOTATIONS=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\..\third_party\wtl\include;C:\Program Files (x86)\Windows Kits\8.0\Include\shared;C:\Program Files (x86)\Windows Kits\8.0\Include\um;C:\Program Files (x86)\Windows Kits\8.0\Include\winrt;$(VSInstallDir)\VC\atlmfc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/MP /Oy- %(AdditionalOptions)</AdditionalOptions>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4351;4355;4396;4503;4819;4100;4121;4125;4127;4130;4131;4189;4201;4238;4244;4245;4310;4428;4481;4505;4510;4512;4530;4610;4611;4701;4702;4706;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>false</ExceptionHandling>
+      <ForcedIncludeFiles>Precompile.h</ForcedIncludeFiles>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild>false</MinimalRebuild>
+      <OmitFramePointers>false</OmitFramePointers>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Precompile.h</PrecompiledHeaderFile>
+      <PreprocessorDefinitions>ANGLE_DX11;WTF_VECTOR_INITIAL_SIZE=4;_WIN32_WINNT=0x0602;WINVER=0x0602;WIN32;_WINDOWS;NOMINMAX;PSAPI_VERSION=1;_CRT_RAND_S;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS;WIN32_LEAN_AND_MEAN;_ATL_NO_OPENGL;_HAS_EXCEPTIONS=0;_SECURE_ATL;CHROMIUM_BUILD;TOOLKIT_VIEWS=1;USE_AURA=1;USE_ASH=1;USE_DEFAULT_RENDER_THEME=1;USE_LIBJPEG_TURBO=1;ENABLE_ONE_CLICK_SIGNIN;ENABLE_REMOTING=1;ENABLE_WEBRTC=1;ENABLE_PEPPER_CDMS;ENABLE_CONFIGURATION_POLICY;ENABLE_INPUT_SPEECH;ENABLE_NOTIFICATIONS;ENABLE_GPU=1;ENABLE_EGLIMAGE=1;__STD_C;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;NTDDI_VERSION=0x06020000;ENABLE_TASK_MANAGER=1;ENABLE_EXTENSIONS=1;ENABLE_PLUGIN_INSTALLATION=1;ENABLE_PLUGINS=1;ENABLE_SESSION_SERVICE=1;ENABLE_THEMES=1;ENABLE_AUTOFILL_DIALOG=1;ENABLE_BACKGROUND=1;ENABLE_AUTOMATION=1;ENABLE_GOOGLE_NOW=1;CLD_VERSION=1;ENABLE_FULL_PRINTING=1;ENABLE_PRINTING=1;ENABLE_SPELLCHECK=1;ENABLE_CAPTIVE_PORTAL_DETECTION=1;ENABLE_APP_LIST=1;ENABLE_SETTINGS_APP=1;ENABLE_MANAGED_USERS=1;ENABLE_MDNS=1;_CRT_NONSTDC_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;NDEBUG;NVALGRIND;DYNAMIC_ANNOTATIONS_ENABLED=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Lib>
+      <AdditionalLibraryDirectories>C:\Program Files (x86)\Windows Kits\8.0/Lib/win8/um/x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+    <Link>
+      <AdditionalDependencies>wininet.lib;dnsapi.lib;version.lib;msimg32.lib;ws2_32.lib;usp10.lib;psapi.lib;dbghelp.lib;winmm.lib;shlwapi.lib;kernel32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;user32.lib;uuid.lib;odbc32.lib;odbccp32.lib;delayimp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Program Files (x86)\Windows Kits\8.0/Lib/win8/um/x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/safeseh /dynamicbase /ignore:4199 /ignore:4221 /nxcompat /largeaddressaware %(AdditionalOptions)</AdditionalOptions>
+      <DelayLoadDLLs>dbghelp.dll;dwmapi.dll;shell32.dll;uxtheme.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <FixedBaseAddress>false</FixedBaseAddress>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>$(OutDir)lib\$(TargetName).lib</ImportLibrary>
+      <MapFileName>$(OutDir)$(TargetName).map</MapFileName>
+      <OptimizeReferences>true</OptimizeReferences>
+      <Profile>true</Profile>
+      <ProgramDatabaseFile>$(TargetPath).pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Midl>
+      <DllDataFileName>%(Filename).dlldata.c</DllDataFileName>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>../../../..;$(OutDir)obj/global_intermediate;..\..\..\..\third_party\wtl\include;C:\Program Files (x86)\Windows Kits\8.0\Include\shared;C:\Program Files (x86)\Windows Kits\8.0\Include\um;C:\Program Files (x86)\Windows Kits\8.0\Include\winrt;$(VSInstallDir)\VC\atlmfc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>ANGLE_DX11;WTF_VECTOR_INITIAL_SIZE=4;_WIN32_WINNT=0x0602;WINVER=0x0602;WIN32;_WINDOWS;NOMINMAX;PSAPI_VERSION=1;_CRT_RAND_S;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS;WIN32_LEAN_AND_MEAN;_ATL_NO_OPENGL;_HAS_EXCEPTIONS=0;_SECURE_ATL;CHROMIUM_BUILD;TOOLKIT_VIEWS=1;USE_AURA=1;USE_ASH=1;USE_DEFAULT_RENDER_THEME=1;USE_LIBJPEG_TURBO=1;ENABLE_ONE_CLICK_SIGNIN;ENABLE_REMOTING=1;ENABLE_WEBRTC=1;ENABLE_PEPPER_CDMS;ENABLE_CONFIGURATION_POLICY;ENABLE_INPUT_SPEECH;ENABLE_NOTIFICATIONS;ENABLE_GPU=1;ENABLE_EGLIMAGE=1;__STD_C;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;NTDDI_VERSION=0x06020000;ENABLE_TASK_MANAGER=1;ENABLE_EXTENSIONS=1;ENABLE_PLUGIN_INSTALLATION=1;ENABLE_PLUGINS=1;ENABLE_SESSION_SERVICE=1;ENABLE_THEMES=1;ENABLE_AUTOFILL_DIALOG=1;ENABLE_BACKGROUND=1;ENABLE_AUTOMATION=1;ENABLE_GOOGLE_NOW=1;CLD_VERSION=1;ENABLE_FULL_PRINTING=1;ENABLE_PRINTING=1;ENABLE_SPELLCHECK=1;ENABLE_CAPTIVE_PORTAL_DETECTION=1;ENABLE_APP_LIST=1;ENABLE_SETTINGS_APP=1;ENABLE_MANAGED_USERS=1;ENABLE_MDNS=1;_CRT_NONSTDC_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;NDEBUG;NVALGRIND;DYNAMIC_ANNOTATIONS_ENABLED=0;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\..\third_party\wtl\include;C:\Program Files (x86)\Windows Kits\8.0\Include\shared;C:\Program Files (x86)\Windows Kits\8.0\Include\um;C:\Program Files (x86)\Windows Kits\8.0\Include\winrt;$(VSInstallDir)\VC\atlmfc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/MP /Oy- %(AdditionalOptions)</AdditionalOptions>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4351;4355;4396;4503;4819;4100;4121;4125;4127;4130;4131;4189;4201;4238;4244;4245;4310;4428;4481;4505;4510;4512;4530;4610;4611;4701;4702;4706;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>false</ExceptionHandling>
+      <ForcedIncludeFiles>Precompile.h</ForcedIncludeFiles>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild>false</MinimalRebuild>
+      <OmitFramePointers>false</OmitFramePointers>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Precompile.h</PrecompiledHeaderFile>
+      <PreprocessorDefinitions>ANGLE_DX11;WTF_VECTOR_INITIAL_SIZE=4;_WIN32_WINNT=0x0602;WINVER=0x0602;WIN32;_WINDOWS;NOMINMAX;PSAPI_VERSION=1;_CRT_RAND_S;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS;WIN32_LEAN_AND_MEAN;_ATL_NO_OPENGL;_HAS_EXCEPTIONS=0;_SECURE_ATL;CHROMIUM_BUILD;TOOLKIT_VIEWS=1;USE_AURA=1;USE_ASH=1;USE_DEFAULT_RENDER_THEME=1;USE_LIBJPEG_TURBO=1;ENABLE_ONE_CLICK_SIGNIN;ENABLE_REMOTING=1;ENABLE_WEBRTC=1;ENABLE_PEPPER_CDMS;ENABLE_CONFIGURATION_POLICY;ENABLE_INPUT_SPEECH;ENABLE_NOTIFICATIONS;ENABLE_GPU=1;ENABLE_EGLIMAGE=1;__STD_C;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;NTDDI_VERSION=0x06020000;ENABLE_TASK_MANAGER=1;ENABLE_EXTENSIONS=1;ENABLE_PLUGIN_INSTALLATION=1;ENABLE_PLUGINS=1;ENABLE_SESSION_SERVICE=1;ENABLE_THEMES=1;ENABLE_AUTOFILL_DIALOG=1;ENABLE_BACKGROUND=1;ENABLE_AUTOMATION=1;ENABLE_GOOGLE_NOW=1;CLD_VERSION=1;ENABLE_FULL_PRINTING=1;ENABLE_PRINTING=1;ENABLE_SPELLCHECK=1;ENABLE_CAPTIVE_PORTAL_DETECTION=1;ENABLE_APP_LIST=1;ENABLE_SETTINGS_APP=1;ENABLE_MANAGED_USERS=1;ENABLE_MDNS=1;_CRT_NONSTDC_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;NDEBUG;NVALGRIND;DYNAMIC_ANNOTATIONS_ENABLED=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Lib>
+      <AdditionalLibraryDirectories>C:\Program Files (x86)\Windows Kits\8.0/Lib/win8/um/x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+    <Link>
+      <AdditionalDependencies>wininet.lib;dnsapi.lib;version.lib;msimg32.lib;ws2_32.lib;usp10.lib;psapi.lib;dbghelp.lib;winmm.lib;shlwapi.lib;kernel32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;user32.lib;uuid.lib;odbc32.lib;odbccp32.lib;delayimp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Program Files (x86)\Windows Kits\8.0/Lib/win8/um/x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/dynamicbase /ignore:4199 /ignore:4221 /nxcompat %(AdditionalOptions)</AdditionalOptions>
+      <DelayLoadDLLs>dbghelp.dll;dwmapi.dll;shell32.dll;uxtheme.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <FixedBaseAddress>false</FixedBaseAddress>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>olepro32.lib</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(OutDir)lib\$(TargetName).lib</ImportLibrary>
+      <MapFileName>$(OutDir)$(TargetName).map</MapFileName>
+      <OptimizeReferences>true</OptimizeReferences>
+      <Profile>true</Profile>
+      <ProgramDatabaseFile>$(TargetPath).pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <Midl>
+      <DllDataFileName>%(Filename).dlldata.c</DllDataFileName>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>../../../..;$(OutDir)obj/global_intermediate;..\..\..\..\third_party\wtl\include;C:\Program Files (x86)\Windows Kits\8.0\Include\shared;C:\Program Files (x86)\Windows Kits\8.0\Include\um;C:\Program Files (x86)\Windows Kits\8.0\Include\winrt;$(VSInstallDir)\VC\atlmfc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>ANGLE_DX11;WTF_VECTOR_INITIAL_SIZE=4;_WIN32_WINNT=0x0602;WINVER=0x0602;WIN32;_WINDOWS;NOMINMAX;PSAPI_VERSION=1;_CRT_RAND_S;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS;WIN32_LEAN_AND_MEAN;_ATL_NO_OPENGL;_HAS_EXCEPTIONS=0;_SECURE_ATL;CHROMIUM_BUILD;TOOLKIT_VIEWS=1;USE_AURA=1;USE_ASH=1;USE_DEFAULT_RENDER_THEME=1;USE_LIBJPEG_TURBO=1;ENABLE_ONE_CLICK_SIGNIN;ENABLE_REMOTING=1;ENABLE_WEBRTC=1;ENABLE_PEPPER_CDMS;ENABLE_CONFIGURATION_POLICY;ENABLE_INPUT_SPEECH;ENABLE_NOTIFICATIONS;ENABLE_GPU=1;ENABLE_EGLIMAGE=1;__STD_C;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;NTDDI_VERSION=0x06020000;ENABLE_TASK_MANAGER=1;ENABLE_EXTENSIONS=1;ENABLE_PLUGIN_INSTALLATION=1;ENABLE_PLUGINS=1;ENABLE_SESSION_SERVICE=1;ENABLE_THEMES=1;ENABLE_AUTOFILL_DIALOG=1;ENABLE_BACKGROUND=1;ENABLE_AUTOMATION=1;ENABLE_GOOGLE_NOW=1;CLD_VERSION=1;ENABLE_FULL_PRINTING=1;ENABLE_PRINTING=1;ENABLE_SPELLCHECK=1;ENABLE_CAPTIVE_PORTAL_DETECTION=1;ENABLE_APP_LIST=1;ENABLE_SETTINGS_APP=1;ENABLE_MANAGED_USERS=1;ENABLE_MDNS=1;_CRT_NONSTDC_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;NDEBUG;NVALGRIND;DYNAMIC_ANNOTATIONS_ENABLED=0;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="derived_sources.gyp"/>
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="..\core\xml\DocumentXPathEvaluator.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\core\dom\DocumentFullscreen.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\core\dom\RequestAnimationFrameCallback.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\core\dom\StringCallback.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\core\dom\ChildNode.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\core\svg\SVGFitToViewBox.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\core\svg\SVGExternalResourcesRequired.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\core\svg\SVGFilterPrimitiveStandardAttributes.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\core\svg\SVGTests.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\core\svg\SVGZoomAndPan.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\core\svg\SVGURIReference.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\core\workers\AbstractWorker.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\core\testing\MallocStatistics.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\core\html\VoidCallback.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\core\html\canvas\WebGLUniformLocation.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\core\html\canvas\WebGLRenderbuffer.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\core\html\canvas\WebGLVertexArrayObjectOES.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\core\html\canvas\OESTextureHalfFloatLinear.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\core\html\canvas\OESTextureFloatLinear.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\core\html\canvas\WebGLBuffer.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\core\html\canvas\WebGLShader.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\core\html\canvas\WebGLProgram.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\core\html\canvas\OESElementIndexUint.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\core\html\canvas\CanvasPattern.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\core\html\canvas\OESTextureFloat.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\core\html\canvas\WebGLFramebuffer.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\core\html\canvas\WebGLTexture.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\core\html\canvas\EXTFragDepth.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\core\page\WindowPagePopup.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\core\page\MemoryInfo.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\core\page\WindowBase64.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\core\page\PerformanceNavigation.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\core\page\WindowTimers.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\core\css\RGBColor.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\core\css\Rect.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\mediasource\WindowMediaSource.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\mediasource\URLMediaSource.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\geolocation\NavigatorGeolocation.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\geolocation\PositionCallback.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\geolocation\PositionErrorCallback.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\gamepad\NavigatorGamepad.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\imagebitmap\WindowImageBitmapFactories.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\imagebitmap\ImageBitmapFactories.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\webaudio\PeriodicWave.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\webaudio\AudioBufferCallback.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\vibration\NavigatorVibration.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\quota\WindowQuota.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\quota\StorageErrorCallback.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\quota\StorageUsageCallback.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\quota\StorageQuotaCallback.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\quota\WorkerNavigatorStorageQuota.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\quota\NavigatorStorageQuota.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\crypto\WindowCrypto.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\crypto\WorkerGlobalScopeCrypto.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\notifications\NotificationPermissionCallback.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\notifications\WindowNotifications.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\notifications\WorkerGlobalScopeNotifications.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\webdatabase\SQLStatementCallback.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\webdatabase\WindowWebDatabase.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\webdatabase\WorkerGlobalScopeWebDatabase.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\webdatabase\DatabaseCallback.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\webdatabase\SQLTransactionErrorCallback.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\webdatabase\SQLTransactionSyncCallback.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\webdatabase\SQLStatementErrorCallback.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\webdatabase\SQLTransactionCallback.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\speech\WindowSpeechSynthesis.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\donottrack\NavigatorDoNotTrack.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\indexeddb\WorkerGlobalScopeIndexedDatabase.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\indexeddb\WindowIndexedDatabase.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\filesystem\EntriesCallback.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\filesystem\FileSystemCallback.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\filesystem\WorkerGlobalScopeFileSystem.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\filesystem\ErrorCallback.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\filesystem\FileCallback.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\filesystem\FileWriterCallback.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\filesystem\EntryCallback.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\filesystem\DataTransferItemFileSystem.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\filesystem\WindowFileSystem.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\filesystem\MetadataCallback.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\filesystem\HTMLInputElementFileSystem.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\performance\WorkerGlobalScopePerformance.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\webmidi\MIDIErrorCallback.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\webmidi\MIDISuccessCallback.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\webmidi\NavigatorWebMIDI.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\navigatorcontentutils\NavigatorContentUtils.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\mediastream\MediaStreamTrackSourcesCallback.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\mediastream\NavigatorUserMediaErrorCallback.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\mediastream\URLMediaStream.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\mediastream\RTCSessionDescriptionCallback.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\mediastream\RTCStatsCallback.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\mediastream\NavigatorMediaStream.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\mediastream\RTCErrorCallback.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+    <Midl Include="..\modules\mediastream\NavigatorUserMediaSuccessCallback.idl">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Midl>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\third_party\WebKit\Source\build\win\Precompile.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="python_bindings_sources_rules.mk">
+      <FileType>Document</FileType>
+      <Command>call call &quot;$(ProjectDir)..\..\..\..\third_party\cygwin\setup_env.bat&quot; &amp;&amp; set CYGWIN=nontsec&amp;&amp; set /a NUMBER_OF_PROCESSORS_PLUS_1=%NUMBER_OF_PROCESSORS%+1&amp;&amp; set INTDIR=$(IntDir)&amp;&amp; set OUTDIR=$(OutDir)&amp;&amp; bash -c &quot;\&quot;make\&quot; \&quot;OutDir=`cygpath -m \\\&quot;${OUTDIR}\\\&quot;`\&quot; \&quot;IntDir=`cygpath -m \\\&quot;${INTDIR}\\\&quot;`\&quot; \&quot;-j\&quot; \&quot;${NUMBER_OF_PROCESSORS_PLUS_1}\&quot; \&quot;-f\&quot; \&quot;python_bindings_sources_rules.mk\&quot;&quot;</Command>
+      <Message>Running external rules for python_bindings_sources</Message>
+      <Outputs>$(OutDir)obj\global_intermediate\blink\bindings\V8CanvasPattern.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8AbstractWorker.h;$(OutDir)obj\global_intermediate\blink\bindings\V8StorageUsageCallback.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8DocumentXPathEvaluator.h;$(OutDir)obj\global_intermediate\blink\bindings\V8DatabaseCallback.h;$(OutDir)obj\global_intermediate\blink\bindings\V8SQLTransactionErrorCallback.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8WindowTimers.h;$(OutDir)obj\global_intermediate\blink\bindings\V8WindowNotifications.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8RequestAnimationFrameCallback.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8SVGZoomAndPan.h;$(OutDir)obj\global_intermediate\blink\bindings\V8WebGLUniformLocation.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8StringCallback.h;$(OutDir)obj\global_intermediate\blink\bindings\V8FileCallback.h;$(OutDir)obj\global_intermediate\blink\bindings\V8WindowIndexedDatabase.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8WebGLTexture.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8NavigatorUserMediaErrorCallback.h;$(OutDir)obj\global_intermediate\blink\bindings\V8WindowWebDatabase.h;$(OutDir)obj\global_intermediate\blink\bindings\V8NavigatorDoNotTrack.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8NavigatorUserMediaSuccessCallback.h;$(OutDir)obj\global_intermediate\blink\bindings\V8NavigatorStorageQuota.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8WebGLTexture.h;$(OutDir)obj\global_intermediate\blink\bindings\V8NavigatorVibration.h;$(OutDir)obj\global_intermediate\blink\bindings\V8WindowPagePopup.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8SVGFilterPrimitiveStandardAttributes.h;$(OutDir)obj\global_intermediate\blink\bindings\V8FileWriterCallback.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8RGBColor.h;$(OutDir)obj\global_intermediate\blink\bindings\V8ChildNode.h;$(OutDir)obj\global_intermediate\blink\bindings\V8NavigatorUserMediaErrorCallback.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8DocumentXPathEvaluator.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8WebGLProgram.h;$(OutDir)obj\global_intermediate\blink\bindings\V8WebGLBuffer.h;$(OutDir)obj\global_intermediate\blink\bindings\V8SQLTransactionCallback.h;$(OutDir)obj\global_intermediate\blink\bindings\V8WebGLProgram.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8WebGLVertexArrayObjectOES.h;$(OutDir)obj\global_intermediate\blink\bindings\V8StorageErrorCallback.h;$(OutDir)obj\global_intermediate\blink\bindings\V8NavigatorVibration.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8WebGLRenderbuffer.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8NavigatorStorageQuota.h;$(OutDir)obj\global_intermediate\blink\bindings\V8FileSystemCallback.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8WorkerGlobalScopeIndexedDatabase.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8Rect.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8NavigatorGamepad.h;$(OutDir)obj\global_intermediate\blink\bindings\V8PositionErrorCallback.h;$(OutDir)obj\global_intermediate\blink\bindings\V8SVGTests.h;$(OutDir)obj\global_intermediate\blink\bindings\V8WindowCrypto.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8Rect.h;$(OutDir)obj\global_intermediate\blink\bindings\V8PeriodicWave.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8AudioBufferCallback.h;$(OutDir)obj\global_intermediate\blink\bindings\V8WorkerGlobalScopeWebDatabase.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8ImageBitmapFactories.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8WebGLRenderbuffer.h;$(OutDir)obj\global_intermediate\blink\bindings\V8OESTextureFloat.h;$(OutDir)obj\global_intermediate\blink\bindings\V8CanvasPattern.h;$(OutDir)obj\global_intermediate\blink\bindings\V8NavigatorGamepad.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8SVGFitToViewBox.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8WorkerGlobalScopeFileSystem.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8WorkerGlobalScopeWebDatabase.h;$(OutDir)obj\global_intermediate\blink\bindings\V8SQLTransactionSyncCallback.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8FileCallback.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8WebGLShader.h;$(OutDir)obj\global_intermediate\blink\bindings\V8SVGZoomAndPan.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8FileSystemCallback.h;$(OutDir)obj\global_intermediate\blink\bindings\V8SVGFilterPrimitiveStandardAttributes.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8WorkerGlobalScopeCrypto.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8AudioBufferCallback.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8WorkerGlobalScopeNotifications.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8EXTFragDepth.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8WindowMediaSource.h;$(OutDir)obj\global_intermediate\blink\bindings\V8RTCSessionDescriptionCallback.h;$(OutDir)obj\global_intermediate\blink\bindings\V8ErrorCallback.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8MediaStreamTrackSourcesCallback.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8WindowBase64.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8SVGExternalResourcesRequired.h;$(OutDir)obj\global_intermediate\blink\bindings\V8EntryCallback.h;$(OutDir)obj\global_intermediate\blink\bindings\V8HTMLInputElementFileSystem.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8SVGTests.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8RequestAnimationFrameCallback.h;$(OutDir)obj\global_intermediate\blink\bindings\V8DataTransferItemFileSystem.h;$(OutDir)obj\global_intermediate\blink\bindings\V8WindowIndexedDatabase.h;$(OutDir)obj\global_intermediate\blink\bindings\V8URLMediaStream.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8WindowMediaSource.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8VoidCallback.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8StorageQuotaCallback.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8MIDIErrorCallback.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8SQLStatementErrorCallback.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8SVGExternalResourcesRequired.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8NavigatorWebMIDI.h;$(OutDir)obj\global_intermediate\blink\bindings\V8MemoryInfo.h;$(OutDir)obj\global_intermediate\blink\bindings\V8WebGLFramebuffer.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8NavigatorMediaStream.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8PerformanceNavigation.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8NotificationPermissionCallback.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8EntriesCallback.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8WindowFileSystem.h;$(OutDir)obj\global_intermediate\blink\bindings\V8WindowFileSystem.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8EntryCallback.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8NotificationPermissionCallback.h;$(OutDir)obj\global_intermediate\blink\bindings\V8PerformanceNavigation.h;$(OutDir)obj\global_intermediate\blink\bindings\V8URLMediaStream.h;$(OutDir)obj\global_intermediate\blink\bindings\V8OESTextureHalfFloatLinear.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8OESTextureHalfFloatLinear.h;$(OutDir)obj\global_intermediate\blink\bindings\V8WorkerGlobalScopePerformance.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8MediaStreamTrackSourcesCallback.h;$(OutDir)obj\global_intermediate\blink\bindings\V8AbstractWorker.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8WindowSpeechSynthesis.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8OESTextureFloat.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8StorageUsageCallback.h;$(OutDir)obj\global_intermediate\blink\bindings\V8ErrorCallback.h;$(OutDir)obj\global_intermediate\blink\bindings\V8WorkerGlobalScopeNotifications.h;$(OutDir)obj\global_intermediate\blink\bindings\V8OESTextureFloatLinear.h;$(OutDir)obj\global_intermediate\blink\bindings\V8WindowPagePopup.h;$(OutDir)obj\global_intermediate\blink\bindings\V8SQLStatementCallback.h;$(OutDir)obj\global_intermediate\blink\bindings\V8MIDISuccessCallback.h;$(OutDir)obj\global_intermediate\blink\bindings\V8WorkerGlobalScopeFileSystem.h;$(OutDir)obj\global_intermediate\blink\bindings\V8NavigatorUserMediaSuccessCallback.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8PositionCallback.h;$(OutDir)obj\global_intermediate\blink\bindings\V8NavigatorMediaStream.h;$(OutDir)obj\global_intermediate\blink\bindings\V8NavigatorContentUtils.h;$(OutDir)obj\global_intermediate\blink\bindings\V8ChildNode.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8WindowCrypto.h;$(OutDir)obj\global_intermediate\blink\bindings\V8HTMLInputElementFileSystem.h;$(OutDir)obj\global_intermediate\blink\bindings\V8StringCallback.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8MetadataCallback.h;$(OutDir)obj\global_intermediate\blink\bindings\V8SQLTransactionErrorCallback.h;$(OutDir)obj\global_intermediate\blink\bindings\V8NavigatorContentUtils.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8PositionErrorCallback.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8SQLTransactionCallback.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8FileWriterCallback.h;$(OutDir)obj\global_intermediate\blink\bindings\V8DataTransferItemFileSystem.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8MetadataCallback.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8URLMediaSource.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8DatabaseCallback.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8PeriodicWave.h;$(OutDir)obj\global_intermediate\blink\bindings\V8WebGLVertexArrayObjectOES.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8MemoryInfo.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8WorkerGlobalScopeIndexedDatabase.h;$(OutDir)obj\global_intermediate\blink\bindings\V8MallocStatistics.h;$(OutDir)obj\global_intermediate\blink\bindings\V8EntriesCallback.h;$(OutDir)obj\global_intermediate\blink\bindings\V8NavigatorDoNotTrack.h;$(OutDir)obj\global_intermediate\blink\bindings\V8URLMediaSource.h;$(OutDir)obj\global_intermediate\blink\bindings\V8RGBColor.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8RTCSessionDescriptionCallback.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8WindowQuota.h;$(OutDir)obj\global_intermediate\blink\bindings\V8WindowSpeechSynthesis.h;$(OutDir)obj\global_intermediate\blink\bindings\V8DocumentFullscreen.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8DocumentFullscreen.h;$(OutDir)obj\global_intermediate\blink\bindings\V8StorageErrorCallback.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8WebGLBuffer.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8WorkerGlobalScopePerformance.h;$(OutDir)obj\global_intermediate\blink\bindings\V8NavigatorGeolocation.h;$(OutDir)obj\global_intermediate\blink\bindings\V8StorageQuotaCallback.h;$(OutDir)obj\global_intermediate\blink\bindings\V8SQLStatementCallback.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8RTCErrorCallback.h;$(OutDir)obj\global_intermediate\blink\bindings\V8WindowImageBitmapFactories.h;$(OutDir)obj\global_intermediate\blink\bindings\V8WebGLUniformLocation.h;$(OutDir)obj\global_intermediate\blink\bindings\V8SVGFitToViewBox.h;$(OutDir)obj\global_intermediate\blink\bindings\V8RTCStatsCallback.h;$(OutDir)obj\global_intermediate\blink\bindings\V8WindowWebDatabase.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8NavigatorGeolocation.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8SVGURIReference.h;$(OutDir)obj\global_intermediate\blink\bindings\V8EXTFragDepth.h;$(OutDir)obj\global_intermediate\blink\bindings\V8OESElementIndexUint.h;$(OutDir)obj\global_intermediate\blink\bindings\V8WindowBase64.h;$(OutDir)obj\global_intermediate\blink\bindings\V8PositionCallback.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8WebGLFramebuffer.h;$(OutDir)obj\global_intermediate\blink\bindings\V8SVGURIReference.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8WebGLShader.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8OESElementIndexUint.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8WindowTimers.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8MallocStatistics.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8OESTextureFloatLinear.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8WorkerNavigatorStorageQuota.h;$(OutDir)obj\global_intermediate\blink\bindings\V8WorkerGlobalScopeCrypto.h;$(OutDir)obj\global_intermediate\blink\bindings\V8SQLTransactionSyncCallback.h;$(OutDir)obj\global_intermediate\blink\bindings\V8RTCErrorCallback.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8VoidCallback.h;$(OutDir)obj\global_intermediate\blink\bindings\V8WindowQuota.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8WindowNotifications.h;$(OutDir)obj\global_intermediate\blink\bindings\V8WindowImageBitmapFactories.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8NavigatorWebMIDI.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8MIDIErrorCallback.h;$(OutDir)obj\global_intermediate\blink\bindings\V8ImageBitmapFactories.h;$(OutDir)obj\global_intermediate\blink\bindings\V8WorkerNavigatorStorageQuota.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8MIDISuccessCallback.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8RTCStatsCallback.cpp;$(OutDir)obj\global_intermediate\blink\bindings\V8SQLStatementErrorCallback.h</Outputs>
+      <AdditionalInputs>..\core\svg\SVGTests.idl;scripts\idl_reader.py;..\modules\crypto\WorkerGlobalScopeCrypto.idl;..\core\css\RGBColor.idl;..\..\..\..\tools\idl_parser\idl_lexer.py;..\modules\performance\WorkerGlobalScopePerformance.idl;templates\interface.h;..\core\workers\AbstractWorker.idl;..\modules\mediastream\MediaStreamTrackSourcesCallback.idl;scripts\idl_definitions.py;..\modules\webdatabase\SQLStatementCallback.idl;templates\interface_base.cpp;..\modules\mediastream\NavigatorUserMediaErrorCallback.idl;..\core\svg\SVGFitToViewBox.idl;..\modules\filesystem\FileSystemCallback.idl;..\modules\quota\WindowQuota.idl;..\core\html\canvas\WebGLRenderbuffer.idl;templates\interface.cpp;..\modules\navigatorcontentutils\NavigatorContentUtils.idl;..\modules\webdatabase\WindowWebDatabase.idl;..\modules\crypto\WindowCrypto.idl;..\modules\webaudio\PeriodicWave.idl;..\core\dom\DocumentFullscreen.idl;..\modules\notifications\NotificationPermissionCallback.idl;..\modules\donottrack\NavigatorDoNotTrack.idl;..\core\svg\SVGExternalResourcesRequired.idl;$(OutDir)obj\global_intermediate\blink\InterfaceDependencies.txt;..\modules\webdatabase\WorkerGlobalScopeWebDatabase.idl;..\modules\mediastream\RTCErrorCallback.idl;$(OutDir)obj\global_intermediate\blink\WorkerGlobalScopeConstructors.idl;scripts\idl_compiler.py;..\core\page\WindowPagePopup.idl;..\core\html\canvas\WebGLVertexArrayObjectOES.idl;..\modules\webmidi\MIDIErrorCallback.idl;..\..\..\..\tools\idl_parser\idl_node.py;..\modules\webdatabase\SQLTransactionErrorCallback.idl;templates\callback_interface.h;..\core\html\canvas\OESTextureHalfFloatLinear.idl;..\..\..\..\third_party\ply\lex.py;..\core\html\canvas\OESTextureFloatLinear.idl;..\core\html\canvas\WebGLBuffer.idl;..\modules\imagebitmap\WindowImageBitmapFactories.idl;..\core\page\MemoryInfo.idl;scripts\blink_idl_parser.py;..\modules\mediastream\URLMediaStream.idl;..\modules\speech\WindowSpeechSynthesis.idl;..\modules\webdatabase\DatabaseCallback.idl;..\modules\mediastream\RTCSessionDescriptionCallback.idl;..\core\html\canvas\WebGLShader.idl;..\modules\mediastream\RTCStatsCallback.idl;..\modules\filesystem\FileWriterCallback.idl;scripts\v8_attributes.py;..\core\dom\RequestAnimationFrameCallback.idl;..\core\html\canvas\WebGLProgram.idl;..\..\..\..\third_party\ply\yacc.py;scripts\IDLAttributes.txt;templates\callback_interface.cpp;..\modules\geolocation\NavigatorGeolocation.idl;..\modules\filesystem\WorkerGlobalScopeFileSystem.idl;templates\attributes.cpp;scripts\v8_interface.py;..\core\html\canvas\OESElementIndexUint.idl;..\modules\mediastream\NavigatorMediaStream.idl;..\modules\imagebitmap\ImageBitmapFactories.idl;$(OutDir)obj\global_intermediate\blink\SharedWorkerGlobalScopeConstructors.idl;..\modules\filesystem\ErrorCallback.idl;..\modules\webdatabase\SQLTransactionSyncCallback.idl;..\core\page\WindowBase64.idl;..\modules\webmidi\MIDISuccessCallback.idl;scripts\interface_dependency_resolver.py;..\modules\mediasource\WindowMediaSource.idl;..\modules\webmidi\NavigatorWebMIDI.idl;..\modules\quota\StorageErrorCallback.idl;..\modules\vibration\NavigatorVibration.idl;..\modules\webaudio\AudioBufferCallback.idl;..\modules\quota\StorageUsageCallback.idl;..\modules\filesystem\EntriesCallback.idl;..\core\html\canvas\CanvasPattern.idl;..\core\svg\SVGFilterPrimitiveStandardAttributes.idl;..\modules\filesystem\FileCallback.idl;..\modules\geolocation\PositionCallback.idl;..\core\html\canvas\WebGLUniformLocation.idl;..\core\dom\StringCallback.idl;..\core\html\VoidCallback.idl;..\modules\geolocation\PositionErrorCallback.idl;..\modules\webdatabase\SQLStatementErrorCallback.idl;..\modules\quota\StorageQuotaCallback.idl;..\modules\mediastream\NavigatorUserMediaSuccessCallback.idl;..\modules\gamepad\NavigatorGamepad.idl;..\modules\quota\WorkerNavigatorStorageQuota.idl;scripts\idl_validator.py;$(OutDir)obj\global_intermediate\blink\DedicatedWorkerGlobalScopeConstructors.idl;scripts\blink_idl_lexer.py;$(OutDir)obj\global_intermediate\blink\WindowConstructors.idl;..\modules\filesystem\EntryCallback.idl;..\..\..\..\tools\idl_parser\idl_parser.py;..\modules\filesystem\DataTransferItemFileSystem.idl;..\core\page\PerformanceNavigation.idl;..\modules\filesystem\WindowFileSystem.idl;..\core\page\WindowTimers.idl;..\core\testing\MallocStatistics.idl;..\core\svg\SVGZoomAndPan.idl;scripts\v8_callback_interface.py;..\modules\webdatabase\SQLTransactionCallback.idl;..\core\html\canvas\OESTextureFloat.idl;..\core\html\canvas\WebGLFramebuffer.idl;..\modules\mediasource\URLMediaSource.idl;..\core\dom\ChildNode.idl;scripts\idl_definitions_builder.py;..\core\html\canvas\WebGLTexture.idl;..\modules\quota\NavigatorStorageQuota.idl;..\core\css\Rect.idl;..\core\html\canvas\EXTFragDepth.idl;..\modules\filesystem\MetadataCallback.idl;..\modules\filesystem\HTMLInputElementFileSystem.idl;scripts\code_generator_v8.py;..\core\svg\SVGURIReference.idl;..\modules\indexeddb\WorkerGlobalScopeIndexedDatabase.idl;scripts\v8_types.py;scripts\v8_utilities.py;..\modules\notifications\WorkerGlobalScopeNotifications.idl;..\modules\indexeddb\WindowIndexedDatabase.idl;..\core\xml\DocumentXPathEvaluator.idl;..\modules\notifications\WindowNotifications.idl</AdditionalInputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="interface_dependencies.vcxproj">
+      <Project>{E4E44EF6-378F-0010-DFFF-57BCB2B76724}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\core\generate_test_support_idls.vcxproj">
+      <Project>{6C153395-BA11-59E0-E82E-858CE32D9370}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
+  <ImportGroup Label="ExtensionTargets"/>
+</Project>

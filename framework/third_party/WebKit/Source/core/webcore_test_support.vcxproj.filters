@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="$(OutDir)obj">
+      <UniqueIdentifier>{7BD4F48B-77B4-AB58-9E24-A7302D190D1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate">
+      <UniqueIdentifier>{14CEDE64-16A7-96A9-EF19-5C5D6085FF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\blink">
+      <UniqueIdentifier>{CB7CC51B-500D-7E25-A6FF-B160892E1B55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\blink\bindings">
+      <UniqueIdentifier>{BDD847E6-3B5D-27DC-A93A-863DCFC98735}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="testing">
+      <UniqueIdentifier>{681E52FB-4BB5-C8E2-1D1A-B7C4F2495A5E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="testing\v8">
+      <UniqueIdentifier>{946EAFF9-E694-C502-F1AD-017A2D933CD2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit">
+      <UniqueIdentifier>{1919EB75-19A6-2BAD-ABB0-47BF57C87A0F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit\Source">
+      <UniqueIdentifier>{26D65320-41C3-1A61-26C0-583D658C7F16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit\Source\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit\Source\build\win">
+      <UniqueIdentifier>{47FC5EC4-15EB-E92F-89D7-AFE51CF838A9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="core.gyp"/>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\blink\InternalSettingsGenerated.h">
+      <Filter>$(OutDir)obj\global_intermediate\blink</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\InternalSettingsGenerated.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\blink\bindings\V8InternalProfilers.h">
+      <Filter>$(OutDir)obj\global_intermediate\blink\bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\blink\bindings\V8InternalSettings.h">
+      <Filter>$(OutDir)obj\global_intermediate\blink\bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\blink\bindings\V8TypeConversions.h">
+      <Filter>$(OutDir)obj\global_intermediate\blink\bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\blink\bindings\V8MallocStatistics.h">
+      <Filter>$(OutDir)obj\global_intermediate\blink\bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\blink\bindings\V8InternalRuntimeFlags.h">
+      <Filter>$(OutDir)obj\global_intermediate\blink\bindings</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\bindings\V8InternalRuntimeFlags.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink\bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\bindings\V8LayerRectList.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink\bindings</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\blink\bindings\V8InternalSettingsGenerated.h">
+      <Filter>$(OutDir)obj\global_intermediate\blink\bindings</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\bindings\V8GCObservation.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink\bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\bindings\V8InternalSettingsGenerated.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink\bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\bindings\V8LayerRect.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink\bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\bindings\V8Internals.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink\bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\bindings\V8TypeConversions.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink\bindings</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\blink\bindings\V8LayerRectList.h">
+      <Filter>$(OutDir)obj\global_intermediate\blink\bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\blink\bindings\V8Internals.h">
+      <Filter>$(OutDir)obj\global_intermediate\blink\bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\blink\bindings\V8LayerRect.h">
+      <Filter>$(OutDir)obj\global_intermediate\blink\bindings</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\bindings\V8MallocStatistics.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink\bindings</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\blink\bindings\V8GCObservation.h">
+      <Filter>$(OutDir)obj\global_intermediate\blink\bindings</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\bindings\V8InternalProfilers.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink\bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\bindings\V8InternalSettings.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink\bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="testing\InternalSettings.cpp">
+      <Filter>testing</Filter>
+    </ClCompile>
+    <ClInclude Include="testing\TypeConversions.h">
+      <Filter>testing</Filter>
+    </ClInclude>
+    <ClInclude Include="testing\InspectorFrontendClientLocal.h">
+      <Filter>testing</Filter>
+    </ClInclude>
+    <ClCompile Include="testing\LayerRectList.cpp">
+      <Filter>testing</Filter>
+    </ClCompile>
+    <ClInclude Include="testing\MockPagePopupDriver.h">
+      <Filter>testing</Filter>
+    </ClInclude>
+    <ClCompile Include="testing\GCObservation.cpp">
+      <Filter>testing</Filter>
+    </ClCompile>
+    <ClCompile Include="testing\MockPagePopupDriver.cpp">
+      <Filter>testing</Filter>
+    </ClCompile>
+    <ClInclude Include="testing\Internals.h">
+      <Filter>testing</Filter>
+    </ClInclude>
+    <ClInclude Include="testing\InternalProfilers.h">
+      <Filter>testing</Filter>
+    </ClInclude>
+    <ClCompile Include="testing\InternalProfilers.cpp">
+      <Filter>testing</Filter>
+    </ClCompile>
+    <ClCompile Include="testing\InspectorFrontendClientLocal.cpp">
+      <Filter>testing</Filter>
+    </ClCompile>
+    <ClInclude Include="testing\MallocStatistics.h">
+      <Filter>testing</Filter>
+    </ClInclude>
+    <ClInclude Include="testing\LayerRect.h">
+      <Filter>testing</Filter>
+    </ClInclude>
+    <ClInclude Include="testing\InternalSettings.h">
+      <Filter>testing</Filter>
+    </ClInclude>
+    <ClInclude Include="testing\LayerRectList.h">
+      <Filter>testing</Filter>
+    </ClInclude>
+    <ClInclude Include="testing\GCObservation.h">
+      <Filter>testing</Filter>
+    </ClInclude>
+    <ClCompile Include="testing\Internals.cpp">
+      <Filter>testing</Filter>
+    </ClCompile>
+    <ClInclude Include="testing\v8\WebCoreTestSupport.h">
+      <Filter>testing\v8</Filter>
+    </ClInclude>
+    <ClCompile Include="testing\v8\WebCoreTestSupport.cpp">
+      <Filter>testing\v8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\third_party\WebKit\Source\build\win\Precompile.cpp">
+      <Filter>..\..\..\..\third_party\WebKit\Source\build\win</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

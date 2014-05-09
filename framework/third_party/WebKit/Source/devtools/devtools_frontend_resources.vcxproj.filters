@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="front_end">
+      <UniqueIdentifier>{6D8DAB43-30B5-AD32-8708-1A9AD7168A0A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front_end\Images">
+      <UniqueIdentifier>{FDE2D151-C225-C2A8-D6EC-CFF3DF41CABC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="devtools.gyp"/>
+    <None Include="front_end\Images\domain.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\glossyHeaderSelectedPressed.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\timelinePillRed.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\spinnerInactiveSelected.gif">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\segmentSelectedEnd.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\indexedDBObjectStore.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\breakpointConditional2_2x.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\trackHoriz.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\paneSettingsButtons.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\searchNext.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\glossyHeaderPressed.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\deleteIcon.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\localStorage.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\databaseTable.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\searchSmallBrightBlue.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\trackVert.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\graphLabelCalloutLeft.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\spinner.gif">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\breakpointConditional2.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\resourcesTimeGraphIcon.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\thumbVert.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\spinnerActive.gif">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\paneElementStateButtons.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\breakpointBorder.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\programCounterBorder.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\settingsListRemove.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\statusbarResizerHorizontal.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\searchSmallBlue.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\namedFlowOverflow.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\paneRefreshButtons.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\timelineHollowPillOrange.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\regionEmpty.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\segmentSelected.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\radioDot.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\timelinePillGreen.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\timelinePillGray.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\statusbarButtonGlyphs2x.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\searchSmallWhite.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\timelineHollowPillGreen.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\paneFilterButtons.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\segment.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\profileIcon.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\database.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\glossyHeader.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\thumbActiveVert.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\popoverBackground.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\resourcePlainIcon.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\sessionStorage.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\segmentEnd.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\checker.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\spinnerActiveSelected.gif">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\statusbarResizerVertical.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\resourceJSIcon.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\segmentHover.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\breakpoint2.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\regionFit.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\profileGroupIcon.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\spinnerInactive.gif">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\timelineHollowPillGray.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\timelineHollowPillYellow.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\thumbHoverHoriz.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\settingsListRemove_2x.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\thumbHoriz.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\fileSystem.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\resourcePlainIconSmall.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\timelinePillBlue.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\popoverArrows.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\resourceCSSIcon.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\searchSmallGray.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\addIcon.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\timelinePillOrange.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\glossyHeaderSelected.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\breakpointCounterBorder.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\timelinePillYellow.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\applicationCache.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\timelineHollowPillBlue.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\thumbActiveHoriz.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\indexedDBIndex.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\indexedDB.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\frame.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\back.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\resourceDocumentIconSmall.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\statusbarButtonGlyphs.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\toolbarItemSelected.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\resourceDocumentIcon.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\timelineHollowPillRed.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\breakpointConditionalBorder.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\thumbHoverVert.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\paneAddButtons.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\forward.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\timelineHollowPillPurple.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\breakpoint2_2x.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\timelinePillPurple.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\regionOverset.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\searchPrev.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\graphLabelCalloutRight.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\profileSmallIcon.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\cookie.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\breakpointConditionalCounterBorder.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+    <None Include="front_end\Images\segmentHoverEnd.png">
+      <Filter>front_end\Images</Filter>
+    </None>
+  </ItemGroup>
+</Project>

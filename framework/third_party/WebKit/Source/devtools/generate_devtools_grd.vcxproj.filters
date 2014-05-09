@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="scripts">
+      <UniqueIdentifier>{4FDF30BD-A895-58AC-A912-7C70A5371544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front_end">
+      <UniqueIdentifier>{6D8DAB43-30B5-AD32-8708-1A9AD7168A0A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front_end\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front_end\Images">
+      <UniqueIdentifier>{FDE2D151-C225-C2A8-D6EC-CFF3DF41CABC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front_end\Images\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front_end\cm">
+      <UniqueIdentifier>{C087BA39-83B0-631F-785A-15636B3FFD6F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front_end\cm\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)">
+      <UniqueIdentifier>{ECA95933-7FA6-5798-4EC4-C0CAC6DD34DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\resources">
+      <UniqueIdentifier>{02993FF4-6DD0-55B6-6A36-E99A964FF863}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\resources\inspector">
+      <UniqueIdentifier>{781D0FAB-5D65-9B59-CD02-B1BEBA9FCDA6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\resources\inspector\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="devtools.gyp"/>
+    <None Include="scripts\generate_devtools_grd.py">
+      <Filter>scripts\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\flameChart.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\auditsPanel.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\dataGrid.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\timelinePanel.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\splitView.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\networkLogView.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\networkPanel.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\breadcrumbList.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\helpScreen.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\navigatorView.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\tabbedPane.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\filteredItemSelectionDialog.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\elementsPanel.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\scriptsPanel.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\resourceView.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\buildSystemOnly.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\revisionHistory.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\panelEnablerView.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\indexedDBViews.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\sidebarPane.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\resourcesPanel.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\inspectorCommon.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\cssNamedFlows.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\heapProfiler.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\layersPanel.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\breakpointsList.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\spectrum.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\profilesPanel.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\canvasProfiler.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\screencastView.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\textPrompt.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\glossyHeaderSelectedPressed.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\spinnerInactiveSelected.gif">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\segmentSelectedEnd.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\breakpointConditional2_2x.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\trackHoriz.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\paneSettingsButtons.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\deleteIcon.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\trackVert.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\graphLabelCalloutLeft.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\localStorage.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\programCounterBorder.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\settingsListRemove.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\statusbarResizerHorizontal.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\toolbarItemSelected.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\regionEmpty.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\radioDot.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\timelineHollowPillGreen.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\paneFilterButtons.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\glossyHeader.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\breakpointCounterBorder.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\checker.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\applicationCache.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\profileIcon.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\resourceJSIcon.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\segmentHover.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\breakpoint2.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\timelineHollowPillGray.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\timelineHollowPillYellow.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\thumbHoverHoriz.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\settingsListRemove_2x.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\thumbHoriz.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\resourcePlainIconSmall.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\searchSmallGray.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\addIcon.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\glossyHeaderSelected.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\resourcePlainIcon.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\timelineHollowPillBlue.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\thumbActiveHoriz.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\indexedDBIndex.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\indexedDB.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\resourceDocumentIconSmall.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\statusbarButtonGlyphs.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\breakpointConditionalBorder.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\paneAddButtons.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\forward.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\timelinePillPurple.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\regionOverset.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\segmentHoverEnd.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\domain.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\spinner.gif">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\frame.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\indexedDBObjectStore.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\glossyHeaderPressed.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\searchSmallBrightBlue.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\resourcesTimeGraphIcon.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\breakpointBorder.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\searchSmallBlue.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\thumbVert.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\paneRefreshButtons.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\timelineHollowPillOrange.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\spinnerActive.gif">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\segmentSelected.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\timelinePillGreen.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\timelinePillGray.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\searchSmallWhite.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\segment.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\statusbarResizerVertical.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\database.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\cookie.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\popoverBackground.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\thumbActiveVert.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\sessionStorage.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\databaseTable.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\spinnerActiveSelected.gif">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\segmentEnd.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\regionFit.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\profileGroupIcon.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\breakpointConditionalCounterBorder.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\fileSystem.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\timelinePillBlue.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\popoverArrows.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\resourceCSSIcon.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\timelinePillOrange.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\timelinePillYellow.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\breakpointConditional2.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\namedFlowOverflow.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\back.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\resourceDocumentIcon.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\searchNext.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\timelineHollowPillRed.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\paneElementStateButtons.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\thumbHoverVert.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\spinnerInactive.gif">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\timelinePillRed.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\timelineHollowPillPurple.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\breakpoint2_2x.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\searchPrev.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\graphLabelCalloutRight.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\profileSmallIcon.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Images\statusbarButtonGlyphs2x.png">
+      <Filter>front_end\Images\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\cm\codemirror.css">
+      <Filter>front_end\cm\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\cm\cmdevtools.css">
+      <Filter>front_end\cm\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)\resources\inspector\ResourcesPanel.js">
+      <Filter>$(OutDir)\resources\inspector\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)\resources\inspector\AuditsPanel.js">
+      <Filter>$(OutDir)\resources\inspector\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)\resources\inspector\ScriptFormatterWorker.js">
+      <Filter>$(OutDir)\resources\inspector\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)\resources\inspector\NetworkPanel.js">
+      <Filter>$(OutDir)\resources\inspector\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)\resources\inspector\CodeMirrorTextEditor.js">
+      <Filter>$(OutDir)\resources\inspector\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)\resources\inspector\inspector.js">
+      <Filter>$(OutDir)\resources\inspector\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)\resources\inspector\ElementsPanel.js">
+      <Filter>$(OutDir)\resources\inspector\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)\resources\inspector\ScriptsPanel.js">
+      <Filter>$(OutDir)\resources\inspector\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)\resources\inspector\HeapSnapshotWorker.js">
+      <Filter>$(OutDir)\resources\inspector\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)\resources\inspector\devtools.html">
+      <Filter>$(OutDir)\resources\inspector\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)\resources\inspector\ProfilesPanel.js">
+      <Filter>$(OutDir)\resources\inspector\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)\resources\inspector\devtools_extension_api.js">
+      <Filter>$(OutDir)\resources\inspector\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)\resources\inspector\TimelinePanel.js">
+      <Filter>$(OutDir)\resources\inspector\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)\resources\inspector\inspector.css">
+      <Filter>$(OutDir)\resources\inspector\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)\resources\inspector\LayersPanel.js">
+      <Filter>$(OutDir)\resources\inspector\_excluded_files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

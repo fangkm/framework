@@ -1,0 +1,1610 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="html">
+      <UniqueIdentifier>{6B759987-DACC-E33B-CA3B-4ABB0218955E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="html\canvas">
+      <UniqueIdentifier>{DEA4AB51-B549-85A1-22D5-E0016A2DBD70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="html\ime">
+      <UniqueIdentifier>{94DDB6FC-0A93-3C79-4942-FD121B6829C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="html\track">
+      <UniqueIdentifier>{32A30229-84E9-3151-A2EB-81BD6E279914}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="html\parser">
+      <UniqueIdentifier>{9215FA42-5BA2-ECEB-BA53-D339C91D39B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="html\forms">
+      <UniqueIdentifier>{263A6BAB-AEFD-62FE-04FB-34686D39A749}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="html\shadow">
+      <UniqueIdentifier>{E7B66CB8-51D6-4755-7B5E-B0C674B9502D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="html\shadow\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit">
+      <UniqueIdentifier>{1919EB75-19A6-2BAD-ABB0-47BF57C87A0F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit\Source">
+      <UniqueIdentifier>{26D65320-41C3-1A61-26C0-583D658C7F16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit\Source\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit\Source\build\win">
+      <UniqueIdentifier>{47FC5EC4-15EB-E92F-89D7-AFE51CF838A9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="core.gyp"/>
+    <ClInclude Include="html\HTMLObjectElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\HTMLPreElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HTMLBaseElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\MediaDocument.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\TypeAhead.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\HTMLDimension.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HTMLNameCollection.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\LabelableElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLAreaElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\SubmitInputType.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\PublicURLManager.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\TelephoneInputType.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\HTMLHeadingElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\HTMLTitleElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\BaseButtonInputType.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HTMLDialogElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLLegendElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\LinkResource.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLOListElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLImport.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLTableRowsCollection.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\HTMLDivElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HTMLFieldSetElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLFrameSetElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLModElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\HTMLDialogElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\BaseClickableWithKeyInputType.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\BaseDateAndTimeInputType.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HTMLLinkElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\ButtonInputType.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\LabelsNodeList.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\BaseMultipleFieldsDateAndTimeInputType.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\HTMLOListElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HTMLLabelElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\ValidationMessage.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\TimeRanges.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\ImageDocument.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\WeekInputType.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HTMLTextFormControlElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\MediaDocument.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\HTMLUListElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HTMLDimension.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\HTMLModElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\MediaError.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HTMLSourceElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\BaseCheckableInputType.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\HTMLBaseElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\HTMLMarqueeElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\LinkRelAttribute.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HTMLPlugInImageElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLCanvasElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\LinkImport.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HTMLHeadingElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLSelectElementWin.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\HTMLTableSectionElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\EmailInputType.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLTableCellElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\HTMLQuoteElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\HTMLSummaryElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\SearchInputType.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\BaseCheckableInputType.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\PasswordInputType.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\ImageData.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\DateInputType.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\HTMLUnknownElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\HTMLTrackElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\ClassList.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\HTMLHRElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\BaseButtonInputType.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\HTMLBDIElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HTMLAppletElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\HTMLTableColElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HTMLMediaSource.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\HTMLLinkElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\HTMLVideoElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\HTMLNameCollection.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\URLRegistry.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\PluginDocument.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\HTMLMeterElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\HTMLMetaElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\InputType.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLScriptElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\FormController.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\HTMLParagraphElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\LinkImport.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLDirectoryElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLImageElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\TextFieldInputType.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\ImageDocument.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HTMLTablePartElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\ColorInputType.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\HTMLAllCollection.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\URLInputType.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HTMLHtmlElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLMeterElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLKeygenElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLSpanElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\BaseMultipleFieldsDateAndTimeInputType.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\HTMLDataListElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HTMLTableColElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLVideoElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLPreElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\HTMLProgressElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HTMLParamElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\HiddenInputType.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HTMLImportLoader.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\BaseDateAndTimeInputType.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\EmailInputType.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\TelephoneInputType.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HTMLBodyElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLCollection.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\DOMFormData.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\BaseClickableWithKeyInputType.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\RadioInputType.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\HTMLTableElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\TextDocument.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\HTMLDetailsElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\PluginDocument.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\ResetInputType.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\NumberInputType.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\HTMLImport.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\RadioNodeList.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\BaseTextInputType.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\ValidationMessage.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HTMLAudioElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\ValidityState.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\HTMLTableRowElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\DOMFormData.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\MediaFragmentURIParser.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\MediaKeyEvent.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\DOMURL.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\TextInputType.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HTMLPlugInElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\DateTimeLocalInputType.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLProgressElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\WeekInputType.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\HTMLSourceElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\RangeInputType.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\HTMLMenuElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\HTMLBodyElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\MediaKeyEvent.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLTableElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\RadioInputType.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLDataListElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\HTMLMediaSource.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\HTMLMapElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HTMLObjectElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLUListElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\FormDataList.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\TextDocument.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLMediaElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\HTMLAudioElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HTMLMetaElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\MonthInputType.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\HTMLViewSourceDocument.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HTMLTableSectionElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\MonthInputType.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\InputType.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HTMLTextAreaElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\HTMLEmbedElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\ColorInputType.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HTMLMarqueeElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\LinkRelAttribute.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\HTMLTableCaptionElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\BaseChooserOnlyDateAndTimeInputType.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HTMLMapElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLStyleElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\HTMLImageElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HTMLTemplateElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\HTMLBRElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HTMLDListElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLFormControlElementWithState.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLHRElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\FormAssociatedElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\ClassList.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\HTMLImportLoaderClient.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\HTMLScriptElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HTMLSummaryElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\PasswordInputType.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\HTMLLabelElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\TextMetrics.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\ButtonInputType.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\HTMLImportLoader.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\StepRange.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\DateTimeFieldsState.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\LabelsNodeList.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\FormDataList.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HTMLFormControlsCollection.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\MediaController.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLFormElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\RadioNodeList.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\HTMLSelectElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\FormController.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\InputTypeNames.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLTableCaptionElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLDetailsElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLButtonElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\HTMLDListElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HTMLAllCollection.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\HTMLParamElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\FileInputType.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\HTMLAnchorElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\InputTypeNames.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\HTMLLIElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HTMLTitleElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\HTMLTemplateElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\BaseChooserOnlyDateAndTimeInputType.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\HTMLButtonElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HTMLMenuElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\BaseTextInputType.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLHeadElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\HTMLFontElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\HTMLLegendElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HTMLQuoteElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\TextFieldInputType.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\ImageInputType.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\HTMLFrameSetElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HTMLOutputElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLTrackElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLOptGroupElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\DOMURL.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\HTMLImageLoader.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\MediaFragmentURIParser.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\TimeRanges.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLDocument.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\TimeInputType.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HTMLAnchorElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\HTMLOptGroupElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HTMLSelectElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\TextInputType.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLParagraphElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLIFrameElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLFrameElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\StepRange.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\HTMLStyleElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\ImageData.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\PublicURLManager.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\CheckboxInputType.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\HTMLOptionsCollection.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HTMLImportsController.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLLIElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLImageLoader.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\ImageInputType.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\HTMLFormControlsCollection.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HTMLInputElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLOptionElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLFrameElementBase.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\HTMLDirectoryElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\TypeAhead.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\DateTimeFieldsState.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\HTMLAreaElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HTMLDivElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLTableRowElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLFrameOwnerElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\MediaController.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\HTMLFieldSetElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\TimeInputType.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\DateInputType.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\FileInputType.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\HTMLHtmlElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\HTMLCanvasElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HTMLEmbedElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\HTMLSpanElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\DateTimeLocalInputType.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\LinkResource.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HTMLBRElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\MediaKeyError.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HTMLViewSourceDocument.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\HTMLImportsController.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\SearchInputType.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\NumberInputType.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\HTMLTableRowsCollection.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HiddenInputType.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLFormControlElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HTMLOptionsCollection.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\ResetInputType.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\HTMLOutputElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\HTMLKeygenElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\URLInputType.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\ValidityState.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\SubmitInputType.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="html\HTMLOptionElement.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\HTMLFontElement.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClInclude Include="html\CheckboxInputType.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClCompile Include="html\RangeInputType.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="html\canvas\DataView.cpp">
+      <Filter>html\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="html\canvas\Canvas2DContextAttributes.cpp">
+      <Filter>html\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="html\canvas\OESTextureFloatLinear.cpp">
+      <Filter>html\canvas</Filter>
+    </ClCompile>
+    <ClInclude Include="html\canvas\OESStandardDerivatives.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClCompile Include="html\canvas\WebGLContextAttributes.cpp">
+      <Filter>html\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="html\canvas\WebGLFramebuffer.cpp">
+      <Filter>html\canvas</Filter>
+    </ClCompile>
+    <ClInclude Include="html\canvas\OESTextureFloatLinear.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClCompile Include="html\canvas\WebGLTexture.cpp">
+      <Filter>html\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="html\canvas\WebGLLoseContext.cpp">
+      <Filter>html\canvas</Filter>
+    </ClCompile>
+    <ClInclude Include="html\canvas\OESTextureFloat.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClCompile Include="html\canvas\WebGLCompressedTextureATC.cpp">
+      <Filter>html\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="html\canvas\CanvasGradient.cpp">
+      <Filter>html\canvas</Filter>
+    </ClCompile>
+    <ClInclude Include="html\canvas\WebGLCompressedTextureATC.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClCompile Include="html\canvas\CanvasStyle.cpp">
+      <Filter>html\canvas</Filter>
+    </ClCompile>
+    <ClInclude Include="html\canvas\OESTextureHalfFloat.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClCompile Include="html\canvas\OESTextureHalfFloatLinear.cpp">
+      <Filter>html\canvas</Filter>
+    </ClCompile>
+    <ClInclude Include="html\canvas\WebGLContextEvent.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClCompile Include="html\canvas\WebGLContextObject.cpp">
+      <Filter>html\canvas</Filter>
+    </ClCompile>
+    <ClInclude Include="html\canvas\WebGLVertexArrayObjectOES.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="html\canvas\WebGLObject.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="html\canvas\EXTFragDepth.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="html\canvas\WebGLCompressedTexturePVRTC.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClCompile Include="html\canvas\WebGLExtension.cpp">
+      <Filter>html\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="html\canvas\EXTTextureFilterAnisotropic.cpp">
+      <Filter>html\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="html\canvas\WebGLDrawBuffers.cpp">
+      <Filter>html\canvas</Filter>
+    </ClCompile>
+    <ClInclude Include="html\canvas\CanvasRenderingContext.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="html\canvas\WebGLProgram.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="html\canvas\WebGLExtension.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="html\canvas\CanvasPathMethods.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClCompile Include="html\canvas\WebGLDebugShaders.cpp">
+      <Filter>html\canvas</Filter>
+    </ClCompile>
+    <ClInclude Include="html\canvas\OESTextureHalfFloatLinear.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="html\canvas\ANGLEInstancedArrays.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClCompile Include="html\canvas\OESVertexArrayObject.cpp">
+      <Filter>html\canvas</Filter>
+    </ClCompile>
+    <ClInclude Include="html\canvas\WebGLActiveInfo.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClCompile Include="html\canvas\OESTextureFloat.cpp">
+      <Filter>html\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="html\canvas\WebGLObject.cpp">
+      <Filter>html\canvas</Filter>
+    </ClCompile>
+    <ClInclude Include="html\canvas\WebGLDebugShaders.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClCompile Include="html\canvas\WebGLDepthTexture.cpp">
+      <Filter>html\canvas</Filter>
+    </ClCompile>
+    <ClInclude Include="html\canvas\CanvasContextAttributes.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="html\canvas\CheckedInt.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="html\canvas\WebGLGetInfo.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClCompile Include="html\canvas\WebGLSharedObject.cpp">
+      <Filter>html\canvas</Filter>
+    </ClCompile>
+    <ClInclude Include="html\canvas\WebGLDepthTexture.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClCompile Include="html\canvas\WebGLGetInfo.cpp">
+      <Filter>html\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="html\canvas\CanvasRenderingContext.cpp">
+      <Filter>html\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="html\canvas\OESStandardDerivatives.cpp">
+      <Filter>html\canvas</Filter>
+    </ClCompile>
+    <ClInclude Include="html\canvas\WebGLFramebuffer.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClCompile Include="html\canvas\WebGLVertexArrayObjectOES.cpp">
+      <Filter>html\canvas</Filter>
+    </ClCompile>
+    <ClInclude Include="html\canvas\WebGLBuffer.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="html\canvas\CanvasRenderingContext2D.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClCompile Include="html\canvas\WebGLRenderbuffer.cpp">
+      <Filter>html\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="html\canvas\OESElementIndexUint.cpp">
+      <Filter>html\canvas</Filter>
+    </ClCompile>
+    <ClInclude Include="html\canvas\WebGLContextAttributes.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClCompile Include="html\canvas\ANGLEInstancedArrays.cpp">
+      <Filter>html\canvas</Filter>
+    </ClCompile>
+    <ClInclude Include="html\canvas\CanvasPattern.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="html\canvas\Canvas2DContextAttributes.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClCompile Include="html\canvas\CanvasRenderingContext2D.cpp">
+      <Filter>html\canvas</Filter>
+    </ClCompile>
+    <ClInclude Include="html\canvas\WebGLContextGroup.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClCompile Include="html\canvas\WebGLBuffer.cpp">
+      <Filter>html\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="html\canvas\WebGLShader.cpp">
+      <Filter>html\canvas</Filter>
+    </ClCompile>
+    <ClInclude Include="html\canvas\DataView.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClCompile Include="html\canvas\WebGLProgram.cpp">
+      <Filter>html\canvas</Filter>
+    </ClCompile>
+    <ClInclude Include="html\canvas\WebGLRenderingContext.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="html\canvas\WebGLRenderbuffer.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="html\canvas\OESElementIndexUint.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="html\canvas\WebGLLoseContext.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClCompile Include="html\canvas\WebGLCompressedTextureS3TC.cpp">
+      <Filter>html\canvas</Filter>
+    </ClCompile>
+    <ClInclude Include="html\canvas\WebGLShaderPrecisionFormat.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClCompile Include="html\canvas\WebGLContextGroup.cpp">
+      <Filter>html\canvas</Filter>
+    </ClCompile>
+    <ClInclude Include="html\canvas\WebGLContextObject.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="html\canvas\EXTTextureFilterAnisotropic.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClCompile Include="html\canvas\WebGLDebugRendererInfo.cpp">
+      <Filter>html\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="html\canvas\WebGLShaderPrecisionFormat.cpp">
+      <Filter>html\canvas</Filter>
+    </ClCompile>
+    <ClInclude Include="html\canvas\WebGLShader.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClCompile Include="html\canvas\CanvasPathMethods.cpp">
+      <Filter>html\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="html\canvas\EXTFragDepth.cpp">
+      <Filter>html\canvas</Filter>
+    </ClCompile>
+    <ClInclude Include="html\canvas\WebGLSharedObject.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="html\canvas\WebGLDrawBuffers.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="html\canvas\WebGLCompressedTextureS3TC.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClCompile Include="html\canvas\CanvasPattern.cpp">
+      <Filter>html\canvas</Filter>
+    </ClCompile>
+    <ClInclude Include="html\canvas\DOMPath.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClCompile Include="html\canvas\WebGLContextEvent.cpp">
+      <Filter>html\canvas</Filter>
+    </ClCompile>
+    <ClInclude Include="html\canvas\WebGLUniformLocation.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="html\canvas\WebGLDebugRendererInfo.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="html\canvas\CanvasGradient.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="html\canvas\OESVertexArrayObject.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClCompile Include="html\canvas\OESTextureHalfFloat.cpp">
+      <Filter>html\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="html\canvas\WebGLUniformLocation.cpp">
+      <Filter>html\canvas</Filter>
+    </ClCompile>
+    <ClInclude Include="html\canvas\CanvasStyle.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClCompile Include="html\canvas\CanvasContextAttributes.cpp">
+      <Filter>html\canvas</Filter>
+    </ClCompile>
+    <ClInclude Include="html\canvas\WebGLTexture.h">
+      <Filter>html\canvas</Filter>
+    </ClInclude>
+    <ClCompile Include="html\canvas\WebGLRenderingContext.cpp">
+      <Filter>html\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="html\canvas\WebGLCompressedTexturePVRTC.cpp">
+      <Filter>html\canvas</Filter>
+    </ClCompile>
+    <ClInclude Include="html\ime\Composition.h">
+      <Filter>html\ime</Filter>
+    </ClInclude>
+    <ClCompile Include="html\ime\InputMethodContext.cpp">
+      <Filter>html\ime</Filter>
+    </ClCompile>
+    <ClCompile Include="html\ime\Composition.cpp">
+      <Filter>html\ime</Filter>
+    </ClCompile>
+    <ClInclude Include="html\ime\InputMethodContext.h">
+      <Filter>html\ime</Filter>
+    </ClInclude>
+    <ClCompile Include="html\track\TextTrackRegion.cpp">
+      <Filter>html\track</Filter>
+    </ClCompile>
+    <ClCompile Include="html\track\WebVTTTokenizer.cpp">
+      <Filter>html\track</Filter>
+    </ClCompile>
+    <ClCompile Include="html\track\LoadableTextTrack.cpp">
+      <Filter>html\track</Filter>
+    </ClCompile>
+    <ClCompile Include="html\track\TextTrackRegionList.cpp">
+      <Filter>html\track</Filter>
+    </ClCompile>
+    <ClCompile Include="html\track\TextTrackCueList.cpp">
+      <Filter>html\track</Filter>
+    </ClCompile>
+    <ClCompile Include="html\track\TrackEvent.cpp">
+      <Filter>html\track</Filter>
+    </ClCompile>
+    <ClCompile Include="html\track\WebVTTParser.cpp">
+      <Filter>html\track</Filter>
+    </ClCompile>
+    <ClCompile Include="html\track\TextTrack.cpp">
+      <Filter>html\track</Filter>
+    </ClCompile>
+    <ClInclude Include="html\track\WebVTTToken.h">
+      <Filter>html\track</Filter>
+    </ClInclude>
+    <ClInclude Include="html\track\TextTrackCueList.h">
+      <Filter>html\track</Filter>
+    </ClInclude>
+    <ClCompile Include="html\track\TextTrackList.cpp">
+      <Filter>html\track</Filter>
+    </ClCompile>
+    <ClInclude Include="html\track\TextTrackRegion.h">
+      <Filter>html\track</Filter>
+    </ClInclude>
+    <ClCompile Include="html\track\InbandTextTrack.cpp">
+      <Filter>html\track</Filter>
+    </ClCompile>
+    <ClInclude Include="html\track\TextTrackRegionList.h">
+      <Filter>html\track</Filter>
+    </ClInclude>
+    <ClInclude Include="html\track\WebVTTTokenizer.h">
+      <Filter>html\track</Filter>
+    </ClInclude>
+    <ClInclude Include="html\track\TextTrack.h">
+      <Filter>html\track</Filter>
+    </ClInclude>
+    <ClCompile Include="html\track\WebVTTElement.cpp">
+      <Filter>html\track</Filter>
+    </ClCompile>
+    <ClInclude Include="html\track\WebVTTElement.h">
+      <Filter>html\track</Filter>
+    </ClInclude>
+    <ClInclude Include="html\track\LoadableTextTrack.h">
+      <Filter>html\track</Filter>
+    </ClInclude>
+    <ClCompile Include="html\track\TrackBase.cpp">
+      <Filter>html\track</Filter>
+    </ClCompile>
+    <ClInclude Include="html\track\TextTrackCueGeneric.h">
+      <Filter>html\track</Filter>
+    </ClInclude>
+    <ClCompile Include="html\track\TextTrackCueGeneric.cpp">
+      <Filter>html\track</Filter>
+    </ClCompile>
+    <ClInclude Include="html\track\WebVTTParser.h">
+      <Filter>html\track</Filter>
+    </ClInclude>
+    <ClInclude Include="html\track\TextTrackCue.h">
+      <Filter>html\track</Filter>
+    </ClInclude>
+    <ClCompile Include="html\track\TextTrackCue.cpp">
+      <Filter>html\track</Filter>
+    </ClCompile>
+    <ClInclude Include="html\track\InbandTextTrack.h">
+      <Filter>html\track</Filter>
+    </ClInclude>
+    <ClCompile Include="html\parser\TextDocumentParser.cpp">
+      <Filter>html\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="html\parser\HTMLTokenizer.cpp">
+      <Filter>html\parser</Filter>
+    </ClCompile>
+    <ClInclude Include="html\parser\AtomicHTMLToken.h">
+      <Filter>html\parser</Filter>
+    </ClInclude>
+    <ClCompile Include="html\parser\HTMLPreloadScanner.cpp">
+      <Filter>html\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="html\parser\HTMLDocumentParser.cpp">
+      <Filter>html\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="html\parser\HTMLIdentifier.cpp">
+      <Filter>html\parser</Filter>
+    </ClCompile>
+    <ClInclude Include="html\parser\HTMLConstructionSite.h">
+      <Filter>html\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="html\parser\HTMLScriptRunnerHost.h">
+      <Filter>html\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="html\parser\HTMLScriptRunner.h">
+      <Filter>html\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="html\parser\NestingLevelIncrementer.h">
+      <Filter>html\parser</Filter>
+    </ClInclude>
+    <ClCompile Include="html\parser\HTMLScriptRunner.cpp">
+      <Filter>html\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="html\parser\HTMLResourcePreloader.cpp">
+      <Filter>html\parser</Filter>
+    </ClCompile>
+    <ClInclude Include="html\parser\HTMLStackItem.h">
+      <Filter>html\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="html\parser\HTMLTreeBuilderSimulator.h">
+      <Filter>html\parser</Filter>
+    </ClInclude>
+    <ClCompile Include="html\parser\HTMLMetaCharsetParser.cpp">
+      <Filter>html\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="html\parser\HTMLFormattingElementList.cpp">
+      <Filter>html\parser</Filter>
+    </ClCompile>
+    <ClInclude Include="html\parser\HTMLParserThread.h">
+      <Filter>html\parser</Filter>
+    </ClInclude>
+    <ClCompile Include="html\parser\HTMLParserOptions.cpp">
+      <Filter>html\parser</Filter>
+    </ClCompile>
+    <ClInclude Include="html\parser\HTMLPreloadScanner.h">
+      <Filter>html\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="html\parser\HTMLDocumentParser.h">
+      <Filter>html\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="html\parser\CSSPreloadScanner.h">
+      <Filter>html\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="html\parser\HTMLInputStream.h">
+      <Filter>html\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="html\parser\HTMLIdentifier.h">
+      <Filter>html\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="html\parser\HTMLFormattingElementList.h">
+      <Filter>html\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="html\parser\HTMLTokenizer.h">
+      <Filter>html\parser</Filter>
+    </ClInclude>
+    <ClCompile Include="html\parser\XSSAuditor.cpp">
+      <Filter>html\parser</Filter>
+    </ClCompile>
+    <ClInclude Include="html\parser\InputStreamPreprocessor.h">
+      <Filter>html\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="html\parser\HTMLSourceTracker.h">
+      <Filter>html\parser</Filter>
+    </ClInclude>
+    <ClCompile Include="html\parser\HTMLConstructionSite.cpp">
+      <Filter>html\parser</Filter>
+    </ClCompile>
+    <ClInclude Include="html\parser\HTMLToken.h">
+      <Filter>html\parser</Filter>
+    </ClInclude>
+    <ClCompile Include="html\parser\HTMLParserThread.cpp">
+      <Filter>html\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="html\parser\HTMLSourceTracker.cpp">
+      <Filter>html\parser</Filter>
+    </ClCompile>
+    <ClInclude Include="html\parser\HTMLParserOptions.h">
+      <Filter>html\parser</Filter>
+    </ClInclude>
+    <ClCompile Include="html\parser\CompactHTMLToken.cpp">
+      <Filter>html\parser</Filter>
+    </ClCompile>
+    <ClInclude Include="html\parser\CompactHTMLToken.h">
+      <Filter>html\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="html\parser\HTMLEntitySearch.h">
+      <Filter>html\parser</Filter>
+    </ClInclude>
+    <ClCompile Include="html\parser\BackgroundHTMLParser.cpp">
+      <Filter>html\parser</Filter>
+    </ClCompile>
+    <ClInclude Include="html\parser\HTMLParserScheduler.h">
+      <Filter>html\parser</Filter>
+    </ClInclude>
+    <ClCompile Include="html\parser\HTMLEntitySearch.cpp">
+      <Filter>html\parser</Filter>
+    </ClCompile>
+    <ClInclude Include="html\parser\TextDocumentParser.h">
+      <Filter>html\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="html\parser\BackgroundHTMLInputStream.h">
+      <Filter>html\parser</Filter>
+    </ClInclude>
+    <ClCompile Include="html\parser\HTMLParserScheduler.cpp">
+      <Filter>html\parser</Filter>
+    </ClCompile>
+    <ClInclude Include="html\parser\HTMLMetaCharsetParser.h">
+      <Filter>html\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="html\parser\HTMLEntityTable.h">
+      <Filter>html\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="html\parser\HTMLResourcePreloader.h">
+      <Filter>html\parser</Filter>
+    </ClInclude>
+    <ClCompile Include="html\parser\HTMLTreeBuilder.cpp">
+      <Filter>html\parser</Filter>
+    </ClCompile>
+    <ClInclude Include="html\parser\HTMLEntityParser.h">
+      <Filter>html\parser</Filter>
+    </ClInclude>
+    <ClCompile Include="html\parser\HTMLParserIdioms.cpp">
+      <Filter>html\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="html\parser\XSSAuditorDelegate.cpp">
+      <Filter>html\parser</Filter>
+    </ClCompile>
+    <ClInclude Include="html\parser\HTMLTreeBuilder.h">
+      <Filter>html\parser</Filter>
+    </ClInclude>
+    <ClCompile Include="html\parser\HTMLViewSourceParser.cpp">
+      <Filter>html\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="html\parser\HTMLElementStack.cpp">
+      <Filter>html\parser</Filter>
+    </ClCompile>
+    <ClInclude Include="html\parser\HTMLElementStack.h">
+      <Filter>html\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="html\parser\XSSAuditorDelegate.h">
+      <Filter>html\parser</Filter>
+    </ClInclude>
+    <ClCompile Include="html\parser\CSSPreloadScanner.cpp">
+      <Filter>html\parser</Filter>
+    </ClCompile>
+    <ClInclude Include="html\parser\HTMLViewSourceParser.h">
+      <Filter>html\parser</Filter>
+    </ClInclude>
+    <ClCompile Include="html\parser\HTMLTreeBuilderSimulator.cpp">
+      <Filter>html\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="html\parser\BackgroundHTMLInputStream.cpp">
+      <Filter>html\parser</Filter>
+    </ClCompile>
+    <ClInclude Include="html\parser\XSSAuditor.h">
+      <Filter>html\parser</Filter>
+    </ClInclude>
+    <ClCompile Include="html\parser\HTMLEntityParser.cpp">
+      <Filter>html\parser</Filter>
+    </ClCompile>
+    <ClInclude Include="html\parser\BackgroundHTMLParser.h">
+      <Filter>html\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="html\forms\InputTypeView.h">
+      <Filter>html\forms</Filter>
+    </ClInclude>
+    <ClCompile Include="html\forms\InputTypeView.cpp">
+      <Filter>html\forms</Filter>
+    </ClCompile>
+    <ClInclude Include="html\shadow\MediaControlElements.h">
+      <Filter>html\shadow</Filter>
+    </ClInclude>
+    <ClCompile Include="html\shadow\HTMLShadowElement.cpp">
+      <Filter>html\shadow</Filter>
+    </ClCompile>
+    <ClInclude Include="html\shadow\TextControlInnerElements.h">
+      <Filter>html\shadow</Filter>
+    </ClInclude>
+    <ClCompile Include="html\shadow\DateTimeFieldElements.cpp">
+      <Filter>html\shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="html\shadow\ClearButtonElement.cpp">
+      <Filter>html\shadow</Filter>
+    </ClCompile>
+    <ClInclude Include="html\shadow\DateTimeNumericFieldElement.h">
+      <Filter>html\shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="html\shadow\DateTimeEditElement.h">
+      <Filter>html\shadow</Filter>
+    </ClInclude>
+    <ClCompile Include="html\shadow\TextControlInnerElements.cpp">
+      <Filter>html\shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="html\shadow\MediaControls.cpp">
+      <Filter>html\shadow</Filter>
+    </ClCompile>
+    <ClInclude Include="html\shadow\ClearButtonElement.h">
+      <Filter>html\shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="html\shadow\MediaControlElementTypes.h">
+      <Filter>html\shadow</Filter>
+    </ClInclude>
+    <ClCompile Include="html\shadow\DetailsMarkerControl.cpp">
+      <Filter>html\shadow</Filter>
+    </ClCompile>
+    <ClInclude Include="html\shadow\MediaControlsChromium.h">
+      <Filter>html\shadow</Filter>
+    </ClInclude>
+    <ClCompile Include="html\shadow\SpinButtonElement.cpp">
+      <Filter>html\shadow</Filter>
+    </ClCompile>
+    <ClInclude Include="html\shadow\MeterShadowElement.h">
+      <Filter>html\shadow</Filter>
+    </ClInclude>
+    <ClCompile Include="html\shadow\DateTimeFieldElement.cpp">
+      <Filter>html\shadow</Filter>
+    </ClCompile>
+    <ClInclude Include="html\shadow\DateTimeFieldElement.h">
+      <Filter>html\shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="html\shadow\HTMLShadowElement.h">
+      <Filter>html\shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="html\shadow\ShadowElementNames.h">
+      <Filter>html\shadow</Filter>
+    </ClInclude>
+    <ClCompile Include="html\shadow\DateTimeSymbolicFieldElement.cpp">
+      <Filter>html\shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="html\shadow\ProgressShadowElement.cpp">
+      <Filter>html\shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="html\shadow\DateTimeNumericFieldElement.cpp">
+      <Filter>html\shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="html\shadow\ShadowElementNames.cpp">
+      <Filter>html\shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="html\shadow\HTMLContentElement.cpp">
+      <Filter>html\shadow</Filter>
+    </ClCompile>
+    <ClInclude Include="html\shadow\DateTimeFieldElements.h">
+      <Filter>html\shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="html\shadow\MediaControls.h">
+      <Filter>html\shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="html\shadow\SliderThumbElement.h">
+      <Filter>html\shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="html\shadow\PasswordGeneratorButtonElement.h">
+      <Filter>html\shadow</Filter>
+    </ClInclude>
+    <ClCompile Include="html\shadow\MediaControlElements.cpp">
+      <Filter>html\shadow</Filter>
+    </ClCompile>
+    <ClInclude Include="html\shadow\ProgressShadowElement.h">
+      <Filter>html\shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="html\shadow\HTMLContentElement.h">
+      <Filter>html\shadow</Filter>
+    </ClInclude>
+    <ClCompile Include="html\shadow\MeterShadowElement.cpp">
+      <Filter>html\shadow</Filter>
+    </ClCompile>
+    <ClInclude Include="html\shadow\SpinButtonElement.h">
+      <Filter>html\shadow</Filter>
+    </ClInclude>
+    <ClCompile Include="html\shadow\PickerIndicatorElement.cpp">
+      <Filter>html\shadow</Filter>
+    </ClCompile>
+    <ClInclude Include="html\shadow\PickerIndicatorElement.h">
+      <Filter>html\shadow</Filter>
+    </ClInclude>
+    <ClCompile Include="html\shadow\MediaControlsChromium.cpp">
+      <Filter>html\shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="html\shadow\MediaControlElementTypes.cpp">
+      <Filter>html\shadow</Filter>
+    </ClCompile>
+    <ClInclude Include="html\shadow\MediaControlsChromiumAndroid.h">
+      <Filter>html\shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="html\shadow\DateTimeSymbolicFieldElement.h">
+      <Filter>html\shadow</Filter>
+    </ClInclude>
+    <ClCompile Include="html\shadow\PasswordGeneratorButtonElement.cpp">
+      <Filter>html\shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="html\shadow\SliderThumbElement.cpp">
+      <Filter>html\shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="html\shadow\DateTimeEditElement.cpp">
+      <Filter>html\shadow</Filter>
+    </ClCompile>
+    <ClInclude Include="html\shadow\DetailsMarkerControl.h">
+      <Filter>html\shadow</Filter>
+    </ClInclude>
+    <ClCompile Include="html\shadow\MediaControlsChromiumAndroid.cpp">
+      <Filter>html\shadow\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\third_party\WebKit\Source\build\win\Precompile.cpp">
+      <Filter>..\..\..\..\third_party\WebKit\Source\build\win</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

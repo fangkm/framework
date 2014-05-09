@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="front_end">
+      <UniqueIdentifier>{6D8DAB43-30B5-AD32-8708-1A9AD7168A0A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front_end\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts">
+      <UniqueIdentifier>{4FDF30BD-A895-58AC-A912-7C70A5371544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="devtools.gyp"/>
+    <None Include="front_end\ResourcesPanel.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ApplicationCacheItemsView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\DatabaseTableView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\FileSystemView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\IndexedDBViews.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\FileContentView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\DatabaseQueryView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\DirectoryContentView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\DOMStorageItemsView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="scripts\inline_js_imports.py">
+      <Filter>scripts\_excluded_files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

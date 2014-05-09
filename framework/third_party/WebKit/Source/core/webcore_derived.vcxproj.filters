@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="$(OutDir)obj">
+      <UniqueIdentifier>{7BD4F48B-77B4-AB58-9E24-A7302D190D1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate">
+      <UniqueIdentifier>{14CEDE64-16A7-96A9-EF19-5C5D6085FF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\blink">
+      <UniqueIdentifier>{CB7CC51B-500D-7E25-A6FF-B160892E1B55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\blink\bindings">
+      <UniqueIdentifier>{BDD847E6-3B5D-27DC-A93A-863DCFC98735}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\bindings">
+      <UniqueIdentifier>{BDD847E6-3B5D-27DC-A93A-863DCFC98735}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\bindings\v8">
+      <UniqueIdentifier>{946EAFF9-E694-C502-F1AD-017A2D933CD2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\bindings\v8\custom">
+      <UniqueIdentifier>{C40A63E8-DEC6-D9F6-B0C6-030D87C22C52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit">
+      <UniqueIdentifier>{1919EB75-19A6-2BAD-ABB0-47BF57C87A0F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit\Source">
+      <UniqueIdentifier>{26D65320-41C3-1A61-26C0-583D658C7F16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit\Source\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\third_party\WebKit\Source\build\win">
+      <UniqueIdentifier>{47FC5EC4-15EB-E92F-89D7-AFE51CF838A9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="core.gyp"/>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\XMLNSNames.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\HTMLNames.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\InspectorInstrumentationImpl.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\HTMLElementFactory.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\CalendarPicker.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\PickerCommon.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\StylePropertyShorthand.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\blink\InspectorConsoleInstrumentationInl.h">
+      <Filter>$(OutDir)obj\global_intermediate\blink</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\blink\EventTargetInterfaces.h">
+      <Filter>$(OutDir)obj\global_intermediate\blink</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\StyleBuilder.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\ColorSuggestionPicker.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\blink\InspectorCanvasInstrumentationInl.h">
+      <Filter>$(OutDir)obj\global_intermediate\blink</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\CSSPropertyNames.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\blink\InspectorOverridesInl.h">
+      <Filter>$(OutDir)obj\global_intermediate\blink</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\MathMLNames.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\ColorData.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\SVGNames.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\blink\EventInterfaces.h">
+      <Filter>$(OutDir)obj\global_intermediate\blink</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\V8SVGElementWrapperFactory.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\FontFamilyNames.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\InspectorTypeBuilder.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\SVGElementFactory.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\StyleBuilderFunctions.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\blink\InspectorDatabaseInstrumentationInl.h">
+      <Filter>$(OutDir)obj\global_intermediate\blink</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\InspectorFrontend.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\InspectorBackendDispatcher.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\blink\InstrumentingAgentsInl.h">
+      <Filter>$(OutDir)obj\global_intermediate\blink</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\CSSValueKeywords.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\XMLNames.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\CSSGrammar.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\V8HTMLElementWrapperFactory.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\blink\EventTargetHeaders.h">
+      <Filter>$(OutDir)obj\global_intermediate\blink</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\UserAgentStyleSheetsData.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\XPathGrammar.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\blink\EventHeaders.h">
+      <Filter>$(OutDir)obj\global_intermediate\blink</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\XLinkNames.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\CSSParser.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\FetchInitiatorTypeNames.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\HTMLEntityTable.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\blink\InspectorInstrumentationInl.h">
+      <Filter>$(OutDir)obj\global_intermediate\blink</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\RuntimeEnabledFeatures.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\Event.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\bindings\V8DerivedSources04.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink\bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\bindings\V8DerivedSources13.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink\bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\bindings\V8DerivedSources11.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink\bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\bindings\V8DerivedSources10.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink\bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\bindings\V8DerivedSources08.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink\bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\bindings\V8DerivedSources02.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink\bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\bindings\V8DerivedSources15.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink\bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\bindings\V8DerivedSources06.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink\bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\bindings\V8DerivedSources12.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink\bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\bindings\V8DerivedSources01.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink\bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\bindings\V8DerivedSources03.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink\bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\bindings\V8DerivedSources07.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink\bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\bindings\V8DerivedSources19.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink\bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\bindings\V8DerivedSources09.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink\bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\bindings\V8DerivedSources16.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink\bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\bindings\V8DerivedSources17.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink\bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\bindings\V8DerivedSources05.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink\bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\bindings\V8DerivedSources14.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink\bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\blink\bindings\V8DerivedSources18.cpp">
+      <Filter>$(OutDir)obj\global_intermediate\blink\bindings</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\V8NPObject.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\V8ObjectConstructor.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\WorkerScriptController.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\V8WorkerGlobalScopeEventListener.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\V8HiddenPropertyName.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\RetainedObjectInfo.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\V8Binding.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\ScriptInstance.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\V8EventListener.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\V8ErrorHandler.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\WrapperTypeInfo.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\CustomElementWrapper.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\ExceptionStatePlaceholder.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\V8MutationCallback.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\DOMWrapperWorld.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\DOMWrapperMap.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\V8AbstractEventListener.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\V8Initializer.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\V8ThrowException.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\V8PerContextData.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\V8GCForContextDispose.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\ArrayValue.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\IDBBindingUtilities.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\ScriptProfiler.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\NPV8Object.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\NPV8Object.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\ScriptCallStackFactory.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\CustomElementWrapper.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\RetainedDOMInfo.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\V8EventListenerList.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\ScriptCallStackFactory.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\ExceptionState.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\DateExtension.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\ActiveDOMCallback.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\V8NPUtils.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\ScopedPersistent.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\V8ScriptRunner.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\V8DOMWrapper.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\V8Initializer.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\UnsafePersistent.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\DOMDataStore.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\ScriptObject.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\V8DOMActivityLogger.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\V8NodeFilterCondition.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\PageScriptDebugServer.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\V8NPUtils.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\ActiveDOMCallback.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\V8ErrorHandler.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\ScriptScope.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\ScriptEventListener.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\V8EventListenerList.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\V8StringResource.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\V8DOMConfiguration.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\V8PerContextData.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\ScriptScope.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\ExceptionMessages.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\ScriptHeapSnapshot.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\V8Callback.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\V8ThrowException.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\DOMRequestState.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\V8ValueCache.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\ScriptPreprocessor.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\ScriptController.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\ExceptionState.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\RetainedDOMInfo.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\ScriptState.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\V8ValueCache.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\WorkerScriptDebugServer.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\PageScriptDebugServer.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\V8ObjectConstructor.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\IDBBindingUtilities.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\ScriptState.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\V8LazyEventListener.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\V8WorkerGlobalScopeEventListener.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\ScriptString.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\ScriptDebugServer.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\V8GCController.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\V8Utilities.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\ScriptObject.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\V8NodeFilterCondition.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\BindingSecurity.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\CustomElementBinding.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\DOMDataStore.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\ScriptInstance.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\ScriptValue.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\Dictionary.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\npruntime.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\V8EventListener.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\ExceptionStatePlaceholder.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\V8NPObject.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\ExceptionMessages.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\SerializedScriptValue.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\V8StringResource.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\V8GCController.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\ScriptSourceCode.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\ScriptFunctionCall.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\V8MutationCallback.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\V8LazyEventListener.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\V8CustomElementLifecycleCallbacks.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\npruntime_priv.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\ScriptWrappable.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\ScriptString.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\ScriptPromiseResolver.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\V8RecursionScope.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\ScriptValue.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\ScriptDebugServer.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\V8WindowShell.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\CustomElementBinding.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\V8DOMConfiguration.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\V8CustomElementLifecycleCallbacks.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\V8Utilities.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\WorkerScriptDebugServer.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\WorkerScriptController.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\Dictionary.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\CustomElementConstructorBuilder.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\V8PerIsolateData.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\ScriptGCEvent.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\V8GCForContextDispose.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\ArrayValue.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\ScriptFunctionCall.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\ScriptEventListener.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\V8HiddenPropertyName.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\DateExtension.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\V8PerIsolateData.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\V8DOMWrapper.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\ScheduledAction.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\SerializedScriptValue.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\V8Callback.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\V8Binding.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\ScriptPromiseResolver.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\ScriptGCEvent.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\ScriptProfiler.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\V8AbstractEventListener.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\ScheduledAction.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\V8WindowShell.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\ScriptController.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\ScriptPreprocessor.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\ScriptHeapSnapshot.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\BindingSecurity.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\CustomElementConstructorBuilder.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\V8RecursionScope.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\V8ScriptRunner.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\DOMWrapperWorld.cpp">
+      <Filter>..\bindings\v8</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\npruntime_impl.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\SharedPersistent.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\V8BindingMacros.h">
+      <Filter>..\bindings\v8</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\custom\V8SVGDocumentCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8PopStateEventCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8SVGElementCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8HTMLOptionsCollectionCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8CanvasRenderingContextCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8HTMLCollectionCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8ErrorEventCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8MessageChannelCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8SQLResultSetRowListCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8HTMLElementCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\custom\V8Int32ArrayCustom.h">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\custom\V8FormDataCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8EntrySyncCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\custom\V8Uint8ArrayCustom.h">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\custom\V8CustomEventCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8HTMLDocumentCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\custom\V8Float32ArrayCustom.h">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\custom\V8MessagePortCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8WebKitPointCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8TreeWalkerCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\custom\V8ArrayBufferViewCustom.h">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\custom\V8IDBAnyCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8PannerNodeCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8TrackEventCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\custom\V8Int8ArrayCustom.h">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\custom\V8WorkerCryptoCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\custom\V8HTMLImageElementConstructor.h">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\v8\custom\V8DataViewCustom.h">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\custom\V8CryptoCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8EventCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8LocationCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8ElementCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8PromiseCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8AudioNodeCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8ArrayBufferCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8AlgorithmCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\custom\V8CustomXPathNSResolver.h">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\custom\V8SVGLengthCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8XMLHttpRequestCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\custom\V8Uint8ClampedArrayCustom.h">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\custom\V8WebGLRenderingContextCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8TextCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8SQLTransactionCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8OscillatorNodeCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8HTMLLinkElementCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8PerformanceEntryCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8CSSValueCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8MessageEventCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8FileReaderCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8DocumentCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8HTMLPlugInElementCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8MutationObserverCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8AudioContextCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8NodeCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8CSSStyleDeclarationCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8HTMLFormControlsCollectionCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8GeolocationCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8PromiseResolverCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8HTMLMediaElementCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8HTMLAllCollectionCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8DeviceMotionEventCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\custom\V8Int16ArrayCustom.h">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\custom\V8DeviceOrientationEventCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8NodeIteratorCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8WorkerCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8HistoryCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8EventTargetCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8ArrayBufferViewCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\custom\V8ArrayBufferCustom.h">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\custom\V8CanvasRenderingContext2DCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\custom\V8Float64ArrayCustom.h">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\custom\V8InjectedScriptHostCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8SVGPathSegCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\custom\V8Uint32ArrayCustom.h">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\custom\V8DocumentLocationCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8BlobCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8InjectedScriptManager.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8ImageDataCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8CustomSQLStatementErrorCallback.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\custom\V8TypedArrayCustom.h">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\custom\V8HTMLImageElementConstructor.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClInclude Include="..\bindings\v8\custom\V8Uint16ArrayCustom.h">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClInclude>
+    <ClCompile Include="..\bindings\v8\custom\V8WindowCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8EntryCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8DedicatedWorkerGlobalScopeCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8AudioBufferSourceNodeCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8BiquadFilterNodeCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8JavaScriptCallFrameCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8CSSRuleCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8InspectorFrontendHostCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8CustomXPathNSResolver.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8ClipboardCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8DataViewCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8WorkerGlobalScopeCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8SQLTransactionSyncCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8HTMLFrameElementCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8HTMLCanvasElementCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8XSLTProcessorCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8StyleSheetCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\v8\custom\V8NodeListCustom.cpp">
+      <Filter>..\bindings\v8\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\third_party\WebKit\Source\build\win\Precompile.cpp">
+      <Filter>..\..\..\..\third_party\WebKit\Source\build\win</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

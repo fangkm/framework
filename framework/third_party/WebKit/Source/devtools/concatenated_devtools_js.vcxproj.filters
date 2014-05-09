@@ -1,0 +1,866 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="$(OutDir)obj">
+      <UniqueIdentifier>{7BD4F48B-77B4-AB58-9E24-A7302D190D1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate">
+      <UniqueIdentifier>{14CEDE64-16A7-96A9-EF19-5C5D6085FF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\blink">
+      <UniqueIdentifier>{CB7CC51B-500D-7E25-A6FF-B160892E1B55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\blink\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front_end">
+      <UniqueIdentifier>{6D8DAB43-30B5-AD32-8708-1A9AD7168A0A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front_end\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front_end\cm">
+      <UniqueIdentifier>{C087BA39-83B0-631F-785A-15636B3FFD6F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front_end\cm\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts">
+      <UniqueIdentifier>{4FDF30BD-A895-58AC-A912-7C70A5371544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="devtools.gyp"/>
+    <None Include="$(OutDir)obj\global_intermediate\blink\InspectorBackendCommands.js">
+      <Filter>$(OutDir)obj\global_intermediate\blink\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Linkifier.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\FileManager.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\WorkersSidebarPane.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\flameChart.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\IndexedDBModel.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\SimpleWorkspaceProvider.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\CanvasProfileView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ApplicationCacheModel.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\HeapSnapshotDataGrids.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ResourceUtils.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\RequestHeadersView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ObjectPropertiesSection.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Script.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\timelinePanel.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\CPUProfileView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\StatusBarButton.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\IndexedDBViews.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\CSSStyleModel.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\UISourceCodeFrame.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\networkLogView.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\CSSNamedFlowView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\BreakpointsSidebarPane.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ParsedURL.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\treeoutline.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\MemoryStatistics.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\helpScreen.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\HAREntry.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\StylesSidebarPane.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\LayerTree.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\FileUtils.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\NavigatorOverlayController.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\StyleSheetOutlineDialog.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\inspector.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\tabbedPane.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\UIUtils.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ResourceWebSocketFrameView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\profilesPanel.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\CookieParser.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\SettingsScreen.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ElementsTreeOutline.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\DefaultScriptMapping.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Object.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\InspectorFrontendAPI.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\GoToLineDialog.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\TimelinePresentationModel.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\SidebarOverlay.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ContentProvider.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Workspace.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\CSSMetadata.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\scriptsPanel.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\AdvancedSearchController.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\CompletionDictionary.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Checkbox.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\LayersPanel.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\AuditLauncherView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ElementsPanel.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Placard.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ScriptsSearchScope.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\HelpScreen.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\CompilerScriptMapping.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ResourcesPanel.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\JavaScriptSourceFrame.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\TimelineOverviewPane.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\RequestResponseView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\DebuggerScriptMapping.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ViewportControl.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\TextPrompt.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\DOMStorageItemsView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\TimelinePanel.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ProfilesPanel.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\CodeMirrorUtils.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\HeapSnapshotProxy.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\DOMPresentationUtils.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\HeapSnapshotView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Database.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\CanvasReplayStateView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\FileSystemProjectDelegate.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\NetworkRequest.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ScriptFormatter.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\HeapSnapshotLoader.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ScriptFormatterWorker.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\SidebarTreeElement.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\cssNamedFlows.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\TimelineGrid.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ResourceScriptMapping.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\DOMStorage.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\NetworkUISourceCodeProvider.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\DOMExtension.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ScriptSnippetModel.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Layers3DView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ApplicationCacheItemsView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ExtensionAuditCategory.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\indexedDBViews.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\SourceFrame.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\DOMSyntaxHighlighter.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\RemoteObject.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ExtensionView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\PresentationConsoleMessageHelper.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\SoftContextMenu.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\SuggestBox.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\FileContentView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\NetworkPanelDescriptor.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ContextMenu.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ProgressIndicator.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\layersPanel.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\RequestCookiesView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\breakpointsList.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Tests.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\TabbedEditorContainer.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\breadcrumbList.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\TimelineFrameController.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\HeapSnapshot.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Spectrum.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\LayerTreeModel.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\TopDownProfileDataGridTree.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\NetworkManager.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\SidebarPane.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\dialog.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ShowMoreDataGridNode.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ShortcutsScreen.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\SourceMapping.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\View.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\TestController.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Dialog.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Progress.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ElementsPanelDescriptor.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\auditsPanel.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\IsolatedFileSystemManager.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\FilePathScoreFunction.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\InspectorBackend.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Section.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ResourceView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\dataGrid.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\KeyboardShortcut.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ConsoleView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\splitView.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\AuditRules.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\JavaScriptFormatter.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\networkPanel.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\TimelinePanelDescriptor.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ExtensionServer.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\DOMBreakpointsSidebarPane.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ExtensionPanel.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\OverridesView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\PropertiesSection.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\PlatformFontsSidebarPane.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\AuditFormatters.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\RequestView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\NetworkItemView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\RequestPreviewView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ContentProviders.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\inspectorSyntaxHighlight.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\TextEditor.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ConsoleMessage.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\TimelineModel.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\DataGrid.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\filteredItemSelectionDialog.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\elementsPanel.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\RequestJSONView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\InspectorView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\OverviewGrid.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\UIString.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Settings.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\SplitView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ScriptsPanel.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\BottomUpProfileDataGridTree.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ProfilesPanelDescriptor.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\WorkspaceController.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\DatabaseQueryView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\DOMCountersGraph.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\IsolatedFileSystem.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\EditFileSystemDialog.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\resourceView.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\NativeBreakpointsSidebarPane.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ResourceType.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\UserMetrics.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\EventListenersSidebarPane.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\jsdifflib.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Panel.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\FileSystemMapping.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\NetworkLog.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\revisionHistory.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\PropertiesSidebarPane.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ObjectPopoverHelper.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\TabbedPane.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\NavigatorView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Popover.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\DevToolsExtensionAPI.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\FontView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\SnippetStorage.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\DatabaseTableView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\inspector.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\DebuggerModel.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Toolbar.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\InspectElementModeController.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\InspectorFrontendHostStub.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\AuditController.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ScopeChainSidebarPane.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\panelEnablerView.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\MetricsSidebarPane.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ConsoleModel.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\AuditsPanel.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Drawer.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\RequestHTMLView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\CookiesTable.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\CookieItemsView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\TracingAgent.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\SidebarView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ConsolePanel.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Resource.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\BreakpointManager.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\StylesSourceMapping.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ScriptsPanelDescriptor.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\buildSystemOnly.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\TextRange.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\LayersPanelDescriptor.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\TimelineManager.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ProfileLauncherView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\SourceMap.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\sidebarPane.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ContentProviderBasedProjectDelegate.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\resourcesPanel.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ExtensionAPI.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\EmptyView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\popover.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\utilities.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\inspectorCommon.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\SASSSourceMapping.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ScriptsNavigator.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\UISourceCode.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\LayerDetailsView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\WatchExpressionsSidebarPane.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\DirectoryContentView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\AuditCategories.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\TextUtils.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\OverridesSupport.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\CSSNamedFlowCollectionsView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\DOMAgent.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ExtensionRegistryStub.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\inspector.html">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\JSHeapSnapshot.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\HeapSnapshotWorker.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\CallStackSidebarPane.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\FlameChart.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\heapProfiler.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\CodeMirrorTextEditor.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\RuntimeModel.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ImageView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\FileSystemView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\AuditResultView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\navigatorView.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\FileSystemModel.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\FilteredItemSelectionDialog.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\DockController.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\LiveEditSupport.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\HeapSnapshotWorkerDispatcher.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ResourceTreeModel.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\RequestTimingView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\SearchController.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\spectrum.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\CSSStyleSheetMapping.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\Color.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\NetworkPanel.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\WorkerManager.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\canvasProfiler.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ScreencastView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\ProfileDataGridTree.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\HandlerRegistry.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\screencastView.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\HeapSnapshotGridNodes.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\textPrompt.css">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\RevisionHistoryView.js">
+      <Filter>front_end\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\cm\cmdevtools.css">
+      <Filter>front_end\cm\_excluded_files</Filter>
+    </None>
+    <None Include="front_end\cm\codemirror.css">
+      <Filter>front_end\cm\_excluded_files</Filter>
+    </None>
+    <None Include="scripts\concatenate_js_files.py">
+      <Filter>scripts\_excluded_files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
