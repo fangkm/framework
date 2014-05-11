@@ -4,7 +4,7 @@
 
 #include "content/public/browser/browser_child_process_observer.h"
 
-#include "content/browser/browser_child_process_host_impl.h"
+#include "content/primary/browser_child_process_host_impl.h"
 
 namespace content {
 

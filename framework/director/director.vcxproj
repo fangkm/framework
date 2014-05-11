@@ -584,15 +584,21 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\content\app\startup_helper_win.cc" />
-    <ClCompile Include="main\director_main_parts.cc" />
-    <ClCompile Include="main\director_content_main_client.cc" />
-    <ClCompile Include="main\director_main.cc" />
-    <ClCompile Include="main\director_main_delegate.cc" />
+    <ClCompile Include="content\director_content_main_client.cc" />
+    <ClCompile Include="content\director_main.cc" />
+    <ClCompile Include="content\director_main_delegate.cc" />
+    <ClCompile Include="content\director_main_parts.cc" />
+    <ClCompile Include="main\director_context.cc" />
+    <ClCompile Include="main\director_views_delegate.cc" />
+    <ClCompile Include="views\main_window.cc" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="main\director_main_parts.h" />
-    <ClInclude Include="main\director_content_main_client.h" />
-    <ClInclude Include="main\director_main_delegate.h" />
+    <ClInclude Include="content\director_content_main_client.h" />
+    <ClInclude Include="content\director_main_delegate.h" />
+    <ClInclude Include="content\director_main_parts.h" />
+    <ClInclude Include="main\director_context.h" />
+    <ClInclude Include="main\director_views_delegate.h" />
+    <ClInclude Include="views\main_window.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />

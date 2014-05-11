@@ -30,7 +30,7 @@ extern const char kFontListSequenceToken[];
 // |kFontListSequenceToken| to prevent race conditions.
 //
 // Most callers will want to use the GetFontListAsync function in
-// content/browser/font_list_async.h which does an asynchronous call.
+// content/primary/font_list_async.h which does an asynchronous call.
 scoped_ptr<base::ListValue> GetFontList_SlowBlocking();
 
 }  // namespace content

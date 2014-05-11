@@ -1,0 +1,15 @@
+#ifndef _DIRECTOR_CONTEXT_B325D5FD_0816_4B9C_9D1C_32E540F8D5A0_
+#define _DIRECTOR_CONTEXT_B325D5FD_0816_4B9C_9D1C_32E540F8D5A0_
+
+#include "base/basictypes.h"
+#include "base/memory/scoped_ptr.h"
+
+namespace director {
+
+class DirectorContext {
+public:
+};
+
+}  // namespace director
+
+#endif  // _DIRECTOR_CONTEXT_B325D5FD_0816_4B9C_9D1C_32E540F8D5A0_

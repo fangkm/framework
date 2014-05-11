@@ -7,7 +7,7 @@
 #include <algorithm>
 
 #include "base/logging.h"
-#include "content/browser/notification_service_impl.h"
+#include "content/primary/notification_service_impl.h"
 
 namespace content {
 

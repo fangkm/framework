@@ -10,7 +10,7 @@
 
 namespace content {
 
-// This class contains different "stages" to be executed by |BrowserMain()|,
+// This class contains different "stages" to be executed by |PrimaryMain()|,
 // Each stage is represented by a single MainParts method, called from
 // the corresponding method in |BrowserMainLoop| (e.g., EarlyInitialization())
 // which does the following:
@@ -77,7 +77,7 @@ class CONTENT_EXPORT MainParts {
 
   // Returns true if the message loop was run, false otherwise.
   // If this returns false, the default implementation will be run.
-  // May set |result_code|, which will be returned by |BrowserMain()|.
+  // May set |result_code|, which will be returned by |PrimaryMain()|.
   virtual bool MainMessageLoopRun(int* result_code);
 
   // This happens after the main message loop has stopped, but before

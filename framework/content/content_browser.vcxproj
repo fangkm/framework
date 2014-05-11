@@ -280,6 +280,35 @@
     <None Include="content.gyp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="primary\aura\browser_compositor_output_surface.h" />
+    <ClInclude Include="primary\aura\browser_compositor_output_surface_proxy.h" />
+    <ClInclude Include="primary\aura\gpu_process_transport_factory.h" />
+    <ClInclude Include="primary\aura\image_transport_factory.h" />
+    <ClInclude Include="primary\aura\no_transport_image_transport_factory.h" />
+    <ClInclude Include="primary\aura\reflector_impl.h" />
+    <ClInclude Include="primary\aura\software_browser_compositor_output_surface.h" />
+    <ClInclude Include="primary\aura\software_output_device_win.h" />
+    <ClInclude Include="primary\browser_child_process_host_impl.h" />
+    <ClInclude Include="primary\browser_main_loop.h" />
+    <ClInclude Include="primary\browser_process_sub_thread.h" />
+    <ClInclude Include="primary\browser_shutdown_profile_dumper.h" />
+    <ClInclude Include="primary\browser_thread_impl.h" />
+    <ClInclude Include="primary\byte_stream.h" />
+    <ClInclude Include="primary\child_process_launcher.h" />
+    <ClInclude Include="primary\gpu\browser_gpu_channel_host_factory.h" />
+    <ClInclude Include="primary\gpu\compositor_util.h" />
+    <ClInclude Include="primary\gpu\gpu_data_manager_impl.h" />
+    <ClInclude Include="primary\gpu\gpu_data_manager_impl_private.h" />
+    <ClInclude Include="primary\gpu\gpu_process_host.h" />
+    <ClInclude Include="primary\gpu\gpu_surface_tracker.h" />
+    <ClInclude Include="primary\gpu\shader_disk_cache.h" />
+    <ClInclude Include="primary\gpu\webgl_conformance_test_list_autogen.h" />
+    <ClInclude Include="primary\notification_service_impl.h" />
+    <ClInclude Include="primary\power_monitor_message_broadcaster.h" />
+    <ClInclude Include="primary\power_save_blocker_impl.h" />
+    <ClInclude Include="primary\primary_main.h" />
+    <ClInclude Include="primary\startup_task_runner.h" />
+    <ClInclude Include="primary\system_message_window_win.h" />
     <ClInclude Include="public\browser\access_token_store.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
@@ -443,45 +472,6 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClInclude>
-    <ClInclude Include="browser\power_monitor_message_broadcaster.h" />
-    <ClInclude Include="browser\browser_process_sub_thread.h" />
-    <ClInclude Include="browser\browser_child_process_host_impl.h" />
-    <ClInclude Include="browser\power_save_blocker_impl.h" />
-    <ClInclude Include="browser\browser_thread_impl.h" />
-    <ClInclude Include="browser\child_process_launcher.h" />
-    <ClInclude Include="browser\byte_stream.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClInclude>
-    <ClInclude Include="browser\browser_url_handler_impl.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClInclude>
-    <ClInclude Include="browser\browser_shutdown_profile_dumper.h" />
-    <ClInclude Include="browser\startup_task_runner.h" />
-    <ClInclude Include="browser\browser_main_loop.h" />
-    <ClInclude Include="browser\browser_main.h" />
-    <ClInclude Include="browser\browsing_instance.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClInclude>
-    <ClInclude Include="browser\system_message_window_win.h" />
-    <ClInclude Include="browser\notification_service_impl.h" />
-    <ClInclude Include="browser\gpu\gpu_data_manager_impl.h" />
-    <ClInclude Include="browser\gpu\browser_gpu_channel_host_factory.h" />
-    <ClInclude Include="browser\gpu\shader_disk_cache.h" />
-    <ClInclude Include="browser\gpu\gpu_data_manager_impl_private.h" />
-    <ClInclude Include="browser\gpu\compositor_util.h" />
-    <ClInclude Include="browser\gpu\gpu_process_host.h" />
-    <ClInclude Include="browser\gpu\gpu_surface_tracker.h" />
-    <ClInclude Include="browser\aura\no_transport_image_transport_factory.h" />
-    <ClInclude Include="browser\aura\browser_compositor_output_surface.h" />
-    <ClInclude Include="browser\aura\reflector_impl.h" />
-    <ClInclude Include="browser\aura\software_browser_compositor_output_surface.h" />
-    <ClInclude Include="browser\aura\gpu_process_transport_factory.h" />
-    <ClInclude Include="browser\aura\browser_compositor_output_surface_proxy.h" />
-    <ClInclude Include="browser\aura\software_output_device_win.h" />
-    <ClInclude Include="browser\aura\image_transport_factory.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\build\precompile.cc">
@@ -490,6 +480,45 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="primary\aura\browser_compositor_output_surface.cc" />
+    <ClCompile Include="primary\aura\browser_compositor_output_surface_proxy.cc" />
+    <ClCompile Include="primary\aura\gpu_process_transport_factory.cc" />
+    <ClCompile Include="primary\aura\image_transport_factory.cc" />
+    <ClCompile Include="primary\aura\no_transport_image_transport_factory.cc" />
+    <ClCompile Include="primary\aura\reflector_impl.cc" />
+    <ClCompile Include="primary\aura\software_browser_compositor_output_surface.cc" />
+    <ClCompile Include="primary\aura\software_output_device_win.cc" />
+    <ClCompile Include="primary\browser_child_process_host_impl.cc" />
+    <ClCompile Include="primary\browser_context.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="primary\browser_ipc_logging.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="primary\browser_main_loop.cc" />
+    <ClCompile Include="primary\browser_main_runner.cc" />
+    <ClCompile Include="primary\browser_process_sub_thread.cc" />
+    <ClCompile Include="primary\browser_shutdown_profile_dumper.cc" />
+    <ClCompile Include="primary\browser_thread_impl.cc" />
+    <ClCompile Include="primary\byte_stream.cc" />
+    <ClCompile Include="primary\child_process_launcher.cc" />
+    <ClCompile Include="primary\gpu\browser_gpu_channel_host_factory.cc" />
+    <ClCompile Include="primary\gpu\compositor_util.cc" />
+    <ClCompile Include="primary\gpu\gpu_data_manager_impl.cc" />
+    <ClCompile Include="primary\gpu\gpu_data_manager_impl_private.cc" />
+    <ClCompile Include="primary\gpu\gpu_process_host.cc" />
+    <ClCompile Include="primary\gpu\gpu_surface_tracker.cc" />
+    <ClCompile Include="primary\gpu\shader_disk_cache.cc" />
+    <ClCompile Include="primary\notification_service_impl.cc" />
+    <ClCompile Include="primary\power_monitor_message_broadcaster.cc" />
+    <ClCompile Include="primary\power_monitor_message_broadcaster_unittest.cc" />
+    <ClCompile Include="primary\power_save_blocker_impl.cc" />
+    <ClCompile Include="primary\power_save_blocker_win.cc" />
+    <ClCompile Include="primary\primary_main.cc" />
+    <ClCompile Include="primary\startup_task_runner.cc" />
+    <ClCompile Include="primary\system_message_window_win.cc" />
     <ClCompile Include="public\browser\browser_child_process_host_delegate.cc" />
     <ClCompile Include="public\browser\resource_request_details.cc">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
@@ -519,55 +548,6 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="public\browser\browser_main_parts.cc" />
-    <ClCompile Include="browser\browser_thread_impl.cc" />
-    <ClCompile Include="browser\power_monitor_message_broadcaster.cc" />
-    <ClCompile Include="browser\browsing_instance.cc">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="browser\browser_main_loop.cc" />
-    <ClCompile Include="browser\browser_main_runner.cc" />
-    <ClCompile Include="browser\byte_stream.cc">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="browser\browser_context.cc">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="browser\browser_process_sub_thread.cc" />
-    <ClCompile Include="browser\browser_shutdown_profile_dumper.cc" />
-    <ClCompile Include="browser\power_save_blocker_impl.cc" />
-    <ClCompile Include="browser\notification_service_impl.cc" />
-    <ClCompile Include="browser\child_process_launcher.cc" />
-    <ClCompile Include="browser\browser_main.cc" />
-    <ClCompile Include="browser\browser_child_process_host_impl.cc" />
-    <ClCompile Include="browser\startup_task_runner.cc" />
-    <ClCompile Include="browser\browser_ipc_logging.cc">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="browser\system_message_window_win.cc" />
-    <ClCompile Include="browser\power_save_blocker_win.cc" />
-    <ClCompile Include="browser\browser_url_handler_impl.cc">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="browser\gpu\gpu_process_host.cc" />
-    <ClCompile Include="browser\gpu\shader_disk_cache.cc" />
-    <ClCompile Include="browser\gpu\browser_gpu_channel_host_factory.cc" />
-    <ClCompile Include="browser\gpu\gpu_data_manager_impl_private.cc" />
-    <ClCompile Include="browser\gpu\gpu_data_manager_impl.cc" />
-    <ClCompile Include="browser\gpu\compositor_util.cc" />
-    <ClCompile Include="browser\gpu\gpu_surface_tracker.cc" />
-    <ClCompile Include="browser\aura\software_output_device_win.cc" />
-    <ClCompile Include="browser\aura\software_browser_compositor_output_surface.cc" />
-    <ClCompile Include="browser\aura\browser_compositor_output_surface_proxy.cc" />
-    <ClCompile Include="browser\aura\browser_compositor_output_surface.cc" />
-    <ClCompile Include="browser\aura\no_transport_image_transport_factory.cc" />
-    <ClCompile Include="browser\aura\gpu_process_transport_factory.cc" />
-    <ClCompile Include="browser\aura\image_transport_factory.cc" />
-    <ClCompile Include="browser\aura\reflector_impl.cc" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\skia\skia.vcxproj">

@@ -15,7 +15,7 @@ namespace win {
 //
 // Chromium currently has two separate systems that use accessibility ids:
 // * views (ui/views/accessibility), and
-// * web (content/browser/accessibility)
+// * web (content/primary/accessibility)
 //
 // These constants ensure they use non-overlapping id ranges.
 

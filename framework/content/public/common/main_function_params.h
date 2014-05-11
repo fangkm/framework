@@ -41,7 +41,7 @@ struct MainFunctionParams {
 #elif defined(OS_MACOSX)
   base::mac::ScopedNSAutoreleasePool* autorelease_pool;
 #endif
-  // Used by InProcessBrowserTest. If non-null BrowserMain schedules this
+  // Used by InProcessBrowserTest. If non-null PrimaryMain schedules this
   // task to run on the MessageLoop and BrowserInit is not invoked.
   base::Closure* ui_task;
 };

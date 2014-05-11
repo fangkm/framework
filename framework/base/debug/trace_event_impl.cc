@@ -963,7 +963,7 @@ TraceLog* TraceLog::GetInstance() {
 
 // static
 // Note, if you add more options here you also need to update:
-// content/browser/devtools/devtools_tracing_handler:TraceOptionsFromString
+// content/primary/devtools/devtools_tracing_handler:TraceOptionsFromString
 TraceLog::Options TraceLog::TraceOptionsFromString(const std::string& options) {
   std::vector<std::string> split;
   base::SplitString(options, ',', &split);

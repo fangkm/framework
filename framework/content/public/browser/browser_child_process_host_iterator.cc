@@ -5,7 +5,7 @@
 #include "content/public/browser/browser_child_process_host_iterator.h"
 
 #include "base/logging.h"
-#include "content/browser/browser_child_process_host_impl.h"
+#include "content/primary/browser_child_process_host_impl.h"
 #include "content/public/browser/browser_thread.h"
 
 namespace content {

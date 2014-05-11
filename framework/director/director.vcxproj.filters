@@ -10,35 +10,59 @@
     <Filter Include="..\content\app">
       <UniqueIdentifier>{391ae82c-7379-4064-9386-32e06f2533e8}</UniqueIdentifier>
     </Filter>
-    <Filter Include="main">
+    <Filter Include="content">
       <UniqueIdentifier>{63418a71-a44e-48d6-aa17-8fa93e27834c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{674a8fd4-8f1e-44fe-ab8a-3e1d9af0d890}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="views">
+      <UniqueIdentifier>{d5be4161-688d-40ad-887d-6b23c8930eb9}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\content\app\startup_helper_win.cc">
       <Filter>..\content\app</Filter>
     </ClCompile>
-    <ClCompile Include="main\director_main.cc">
+    <ClCompile Include="content\director_content_main_client.cc">
+      <Filter>content</Filter>
+    </ClCompile>
+    <ClCompile Include="content\director_main.cc">
+      <Filter>content</Filter>
+    </ClCompile>
+    <ClCompile Include="content\director_main_delegate.cc">
+      <Filter>content</Filter>
+    </ClCompile>
+    <ClCompile Include="content\director_main_parts.cc">
+      <Filter>content</Filter>
+    </ClCompile>
+    <ClCompile Include="views\main_window.cc">
+      <Filter>views</Filter>
+    </ClCompile>
+    <ClCompile Include="main\director_views_delegate.cc">
       <Filter>main</Filter>
     </ClCompile>
-    <ClCompile Include="main\director_main_delegate.cc">
-      <Filter>main</Filter>
-    </ClCompile>
-    <ClCompile Include="main\director_main_parts.cc">
-      <Filter>main</Filter>
-    </ClCompile>
-    <ClCompile Include="main\director_content_main_client.cc">
+    <ClCompile Include="main\director_context.cc">
       <Filter>main</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="main\director_main_delegate.h">
+    <ClInclude Include="content\director_content_main_client.h">
+      <Filter>content</Filter>
+    </ClInclude>
+    <ClInclude Include="content\director_main_delegate.h">
+      <Filter>content</Filter>
+    </ClInclude>
+    <ClInclude Include="content\director_main_parts.h">
+      <Filter>content</Filter>
+    </ClInclude>
+    <ClInclude Include="views\main_window.h">
+      <Filter>views</Filter>
+    </ClInclude>
+    <ClInclude Include="main\director_views_delegate.h">
       <Filter>main</Filter>
     </ClInclude>
-    <ClInclude Include="main\director_main_parts.h">
-      <Filter>main</Filter>
-    </ClInclude>
-    <ClInclude Include="main\director_content_main_client.h">
+    <ClInclude Include="main\director_context.h">
       <Filter>main</Filter>
     </ClInclude>
   </ItemGroup>

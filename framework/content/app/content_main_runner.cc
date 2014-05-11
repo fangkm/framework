@@ -25,8 +25,8 @@
 #include "base/strings/string_number_conversions.h"
 #include "base/strings/string_util.h"
 #include "base/strings/stringprintf.h"
-#include "content/browser/browser_main.h"
-#include "content/browser/gpu/gpu_process_host.h"
+#include "content/primary/primary_main.h"
+#include "content/primary/gpu/gpu_process_host.h"
 #include "content/common/set_process_title.h"
 #include "content/common/url_schemes.h"
 #include "content/gpu/in_process_gpu_thread.h"
@@ -64,7 +64,7 @@
 #include "base/mac/scoped_nsautorelease_pool.h"
 #if !defined(OS_IOS)
 #include "base/power_monitor/power_monitor_device_source.h"
-#include "content/browser/mach_broker_mac.h"
+#include "content/primary/mach_broker_mac.h"
 #include "content/common/sandbox_init_mac.h"
 #endif  // !OS_IOS
 #endif  // OS_WIN
@@ -282,77 +282,8 @@ struct MainFunction {
   int (*function)(const MainFunctionParams&);
 };
 
-#if defined(OS_POSIX) && !defined(OS_MACOSX) && !defined(OS_ANDROID)
-// On platforms that use the zygote, we have a special subset of
-// subprocesses that are launched via the zygote.  This function
-// fills in some process-launching bits around ZygoteMain().
-// Returns the exit code of the subprocess.
-int RunZygote(const MainFunctionParams& main_function_params,
-              ContentMainDelegate* delegate) {
-  static const MainFunction kMainFunctions[] = {
-    { switches::kRendererProcess,    RendererMain },
-    { switches::kWorkerProcess,      WorkerMain },
-#if defined(ENABLE_PLUGINS)
-    { switches::kPpapiPluginProcess, PpapiPluginMain },
-#endif
-    { switches::kUtilityProcess,     UtilityMain },
-  };
-
-  scoped_ptr<ZygoteForkDelegate> zygote_fork_delegate;
-  if (delegate) {
-    zygote_fork_delegate.reset(delegate->ZygoteStarting());
-    // Each Renderer we spawn will re-attempt initialization of the media
-    // libraries, at which point failure will be detected and handled, so
-    // we do not need to cope with initialization failures here.
-    base::FilePath media_path;
-    if (PathService::Get(DIR_MEDIA_LIBS, &media_path))
-      media::InitializeMediaLibrary(media_path);
-  }
-
-  // This function call can return multiple times, once per fork().
-  if (!ZygoteMain(main_function_params, zygote_fork_delegate.get()))
-    return 1;
-
-  if (delegate) delegate->ZygoteForked();
-
-  // Zygote::HandleForkRequest may have reallocated the command
-  // line so update it here with the new version.
-  const CommandLine& command_line = *CommandLine::ForCurrentProcess();
-  std::string process_type =
-      command_line.GetSwitchValueASCII(switches::kProcessType);
-  ContentClientInitializer::Set(process_type, delegate);
-
-  // If a custom user agent was passed on the command line, we need
-  // to (re)set it now, rather than using the default one the zygote
-  // initialized.
-  if (command_line.HasSwitch(switches::kUserAgent)) {
-    webkit_glue::SetUserAgent(
-        command_line.GetSwitchValueASCII(switches::kUserAgent), true);
-  }
-
-  // The StatsTable must be initialized in each process; we already
-  // initialized for the browser process, now we need to initialize
-  // within the new processes as well.
-  InitializeStatsTable(command_line);
-
-  MainFunctionParams main_params(command_line);
-
-  for (size_t i = 0; i < arraysize(kMainFunctions); ++i) {
-    if (process_type == kMainFunctions[i].name)
-      return kMainFunctions[i].function(main_params);
-  }
-
-  if (delegate)
-    return delegate->RunProcess(process_type, main_params);
-
-  NOTREACHED() << "Unknown zygote process type: " << process_type;
-  return 1;
-}
-#endif  // defined(OS_POSIX) && !defined(OS_MACOSX) && !defined(OS_ANDROID)
-
-#if !defined(OS_IOS)
 // Run the FooMain() for a given process type.
-// If |process_type| is empty, runs BrowserMain().
+// If |process_type| is empty, runs PrimaryMain().
 // Returns the exit code for this process.
 int RunNamedProcessTypeMain(
     const std::string& process_type,
@@ -360,7 +291,7 @@ int RunNamedProcessTypeMain(
     ContentMainDelegate* delegate) {
   static const MainFunction kMainFunctions[] = {
 #if !defined(CHROME_MULTIPLE_DLL_CHILD)
-    { "",                            BrowserMain },
+    { "",                            PrimaryMain },
 #endif
 #if !defined(CHROME_MULTIPLE_DLL_BROWSER)
     { switches::kGpuProcess,         GpuMain },
@@ -406,7 +337,6 @@ int RunNamedProcessTypeMain(
   NOTREACHED() << "Unknown process type: " << process_type;
   return 1;
 }
-#endif  // !OS_IOS
 
 class ContentMainRunnerImpl : public ContentMainRunner {
  public:
