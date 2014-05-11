@@ -6,7 +6,7 @@
 #define CONTENT_BROWSER_POWER_SAVE_BLOCKER_IMPL_H_
 
 #include "base/memory/ref_counted.h"
-#include "content/public/browser/power_save_blocker.h"
+#include "content/public/primary/power_save_blocker.h"
 #include "ui/gfx/native_widget_types.h"
 
 namespace content {

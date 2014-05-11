@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "content/public/browser/browser_message_filter.h"
+#include "content/public/primary/browser_message_filter.h"
 
 #include "base/bind.h"
 #include "base/bind_helpers.h"
@@ -10,7 +10,7 @@
 #include "base/process/kill.h"
 #include "base/process/process_handle.h"
 #include "base/task_runner.h"
-#include "content/public/browser/user_metrics.h"
+#include "content/public/primary/user_metrics.h"
 #include "content/public/common/result_codes.h"
 #include "ipc/ipc_sync_message.h"
 

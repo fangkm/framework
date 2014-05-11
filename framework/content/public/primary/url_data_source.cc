@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "content/public/browser/url_data_source.h"
+#include "content/public/primary/url_data_source.h"
 
 #include "content/primary/webui/url_data_manager.h"
-#include "content/public/browser/browser_thread.h"
+#include "content/public/primary/browser_thread.h"
 #include "content/public/common/url_constants.h"
 #include "net/url_request/url_request.h"
 

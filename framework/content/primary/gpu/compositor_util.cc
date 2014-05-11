@@ -7,7 +7,7 @@
 #include "base/command_line.h"
 #include "base/metrics/field_trial.h"
 #include "build/build_config.h"
-#include "content/public/browser/gpu_data_manager.h"
+#include "content/public/primary/gpu_data_manager.h"
 #include "content/public/common/content_constants.h"
 #include "content/public/common/content_switches.h"
 #include "gpu/config/gpu_feature_type.h"

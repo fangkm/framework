@@ -311,9 +311,6 @@
     <ProjectReference Include="..\content\content.vcxproj">
       <Project>{4bceacee-882c-c981-6e92-9d8f6eb303fb}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\content\content_browser.vcxproj">
-      <Project>{f1e62465-70ca-1e73-ea7f-7cb8ee531238}</Project>
-    </ProjectReference>
     <ProjectReference Include="..\content\content_child.vcxproj">
       <Project>{3f3a6171-08af-73ad-826d-82be99e50f05}</Project>
     </ProjectReference>
@@ -322,6 +319,9 @@
     </ProjectReference>
     <ProjectReference Include="..\content\content_gpu.vcxproj">
       <Project>{2a864f29-9324-f706-3237-92f41d25d6d9}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\content\content_main.vcxproj">
+      <Project>{f1e62465-70ca-1e73-ea7f-7cb8ee531238}</Project>
     </ProjectReference>
     <ProjectReference Include="..\crypto\crypto.vcxproj">
       <Project>{28f9cba0-2089-10fe-4a56-556c6f01ba24}</Project>

@@ -11,7 +11,7 @@
 #include "content/primary/gpu/gpu_surface_tracker.h"
 #include "content/common/gpu/gpu_messages.h"
 #include "content/common/child_process_host_impl.h"
-#include "content/public/browser/browser_thread.h"
+#include "content/public/primary/browser_thread.h"
 #include "content/public/common/content_client.h"
 #include "ipc/ipc_forwarding_message_filter.h"
 

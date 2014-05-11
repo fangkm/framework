@@ -6,7 +6,7 @@
 
 #include "base/threading/thread_checker.h"
 #include "content/primary/gpu/gpu_process_host.h"
-#include "content/public/browser/browser_thread.h"
+#include "content/public/primary/browser_thread.h"
 #include "gpu/command_buffer/common/constants.h"
 #include "net/base/cache_type.h"
 #include "net/base/io_buffer.h"

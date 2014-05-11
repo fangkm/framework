@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "content/public/browser/browser_context.h"
+#include "content/public/primary/browser_context.h"
 
 #if !defined(OS_IOS)
 #include "content/primary/appcache/chrome_appcache_service.h"
@@ -13,9 +13,9 @@
 #include "content/primary/storage_partition_impl.h"
 #include "content/primary/storage_partition_impl_map.h"
 #include "content/common/child_process_host_impl.h"
-#include "content/public/browser/browser_thread.h"
-#include "content/public/browser/content_main_client.h"
-#include "content/public/browser/site_instance.h"
+#include "content/public/primary/browser_thread.h"
+#include "content/public/primary/content_main_client.h"
+#include "content/public/primary/site_instance.h"
 #include "net/cookies/cookie_monster.h"
 #include "net/cookies/cookie_store.h"
 #include "net/ssl/server_bound_cert_service.h"

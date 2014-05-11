@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="..">
@@ -7,11 +7,390 @@
     <Filter Include="..\build">
       <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="public">
+      <UniqueIdentifier>{0D2511BD-044F-C35F-ECCE-845899961E41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="primary">
+      <UniqueIdentifier>{82387ef7-f0df-4f20-b296-c220e12d435f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="primary\gpu">
+      <UniqueIdentifier>{78cf5c4b-1d78-4d47-bd01-19be4b86d790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="primary\aura">
+      <UniqueIdentifier>{0b381c66-49bc-474c-acfa-0abe524079fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public\primary">
+      <UniqueIdentifier>{24B57E1E-8660-A3AB-E8EF-7828EB881EF4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="content.gyp"/>
+    <None Include="content.gyp" />
     <ClCompile Include="..\build\precompile.cc">
       <Filter>..\build</Filter>
+    </ClCompile>
+    <ClInclude Include="public\primary\access_token_store.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="public\primary\profiler_controller.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="public\primary\resource_context.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="public\primary\resource_dispatcher_host_login_delegate.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="public\primary\notification_registrar.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="public\primary\browser_child_process_host_delegate.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="public\primary\browser_main_parts.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="public\primary\browser_message_filter.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="public\primary\browser_main_runner.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClCompile Include="public\primary\browser_child_process_host_delegate.cc">
+      <Filter>public\primary</Filter>
+    </ClCompile>
+    <ClInclude Include="public\primary\child_process_security_policy.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="public\primary\resource_throttle.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="public\primary\gpu_data_manager.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="public\primary\notification_details.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="public\primary\page_navigator.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="public\primary\url_data_source.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClCompile Include="public\primary\resource_request_details.cc">
+      <Filter>public\primary</Filter>
+    </ClCompile>
+    <ClInclude Include="public\primary\browser_child_process_observer.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="public\primary\resource_request_info.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClCompile Include="public\primary\resource_dispatcher_host_delegate.cc">
+      <Filter>public\primary</Filter>
+    </ClCompile>
+    <ClInclude Include="public\primary\resource_controller.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="public\primary\certificate_request_result_type.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClCompile Include="public\primary\page_navigator.cc">
+      <Filter>public\primary</Filter>
+    </ClCompile>
+    <ClInclude Include="public\primary\user_metrics.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="public\primary\cert_store.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="public\primary\browser_child_process_host_iterator.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="public\primary\notification_observer.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="public\primary\notification_service.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="public\primary\notification_types.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="public\primary\profiler_subscriber.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="public\primary\resource_dispatcher_host.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClCompile Include="public\primary\browser_child_process_observer.cc">
+      <Filter>public\primary</Filter>
+    </ClCompile>
+    <ClInclude Include="public\primary\browser_thread.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="public\primary\quota_permission_context.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClCompile Include="public\primary\notification_registrar.cc">
+      <Filter>public\primary</Filter>
+    </ClCompile>
+    <ClInclude Include="public\primary\power_save_blocker.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="public\primary\child_process_data.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClCompile Include="public\primary\url_data_source.cc">
+      <Filter>public\primary</Filter>
+    </ClCompile>
+    <ClInclude Include="public\primary\stream_handle.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="public\primary\resource_dispatcher_host_delegate.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="public\primary\trace_subscriber.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="public\primary\browser_context.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="public\primary\resource_request_details.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="public\primary\browser_url_handler.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="public\primary\save_page_type.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="public\primary\browser_thread_delegate.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="public\primary\browser_accessibility_state.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="public\primary\browser_child_process_host.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="public\primary\trace_controller.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClCompile Include="public\primary\browser_child_process_host_iterator.cc">
+      <Filter>public\primary</Filter>
+    </ClCompile>
+    <ClInclude Include="public\primary\overscroll_configuration.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="public\primary\browser_shutdown.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="public\primary\color_chooser.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClCompile Include="public\primary\browser_message_filter.cc">
+      <Filter>public\primary</Filter>
+    </ClCompile>
+    <ClInclude Include="public\primary\gpu_data_manager_observer.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClCompile Include="public\primary\browser_main_parts.cc">
+      <Filter>public\primary</Filter>
+    </ClCompile>
+    <ClInclude Include="public\primary\notification_source.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="public\primary\content_main_client.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="primary\aura\browser_compositor_output_surface.h">
+      <Filter>primary\aura</Filter>
+    </ClInclude>
+    <ClInclude Include="primary\aura\browser_compositor_output_surface_proxy.h">
+      <Filter>primary\aura</Filter>
+    </ClInclude>
+    <ClInclude Include="primary\aura\gpu_process_transport_factory.h">
+      <Filter>primary\aura</Filter>
+    </ClInclude>
+    <ClInclude Include="primary\aura\image_transport_factory.h">
+      <Filter>primary\aura</Filter>
+    </ClInclude>
+    <ClInclude Include="primary\aura\no_transport_image_transport_factory.h">
+      <Filter>primary\aura</Filter>
+    </ClInclude>
+    <ClInclude Include="primary\aura\reflector_impl.h">
+      <Filter>primary\aura</Filter>
+    </ClInclude>
+    <ClInclude Include="primary\aura\software_browser_compositor_output_surface.h">
+      <Filter>primary\aura</Filter>
+    </ClInclude>
+    <ClInclude Include="primary\aura\software_output_device_win.h">
+      <Filter>primary\aura</Filter>
+    </ClInclude>
+    <ClInclude Include="primary\gpu\browser_gpu_channel_host_factory.h">
+      <Filter>primary\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="primary\gpu\compositor_util.h">
+      <Filter>primary\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="primary\gpu\gpu_data_manager_impl.h">
+      <Filter>primary\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="primary\gpu\gpu_data_manager_impl_private.h">
+      <Filter>primary\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="primary\gpu\gpu_process_host.h">
+      <Filter>primary\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="primary\gpu\gpu_surface_tracker.h">
+      <Filter>primary\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="primary\gpu\shader_disk_cache.h">
+      <Filter>primary\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="primary\gpu\webgl_conformance_test_list_autogen.h">
+      <Filter>primary\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="primary\browser_child_process_host_impl.h">
+      <Filter>primary</Filter>
+    </ClInclude>
+    <ClInclude Include="primary\browser_main_loop.h">
+      <Filter>primary</Filter>
+    </ClInclude>
+    <ClInclude Include="primary\browser_process_sub_thread.h">
+      <Filter>primary</Filter>
+    </ClInclude>
+    <ClInclude Include="primary\browser_shutdown_profile_dumper.h">
+      <Filter>primary</Filter>
+    </ClInclude>
+    <ClInclude Include="primary\browser_thread_impl.h">
+      <Filter>primary</Filter>
+    </ClInclude>
+    <ClInclude Include="primary\byte_stream.h">
+      <Filter>primary</Filter>
+    </ClInclude>
+    <ClInclude Include="primary\child_process_launcher.h">
+      <Filter>primary</Filter>
+    </ClInclude>
+    <ClInclude Include="primary\notification_service_impl.h">
+      <Filter>primary</Filter>
+    </ClInclude>
+    <ClInclude Include="primary\power_monitor_message_broadcaster.h">
+      <Filter>primary</Filter>
+    </ClInclude>
+    <ClInclude Include="primary\power_save_blocker_impl.h">
+      <Filter>primary</Filter>
+    </ClInclude>
+    <ClInclude Include="primary\primary_main.h">
+      <Filter>primary</Filter>
+    </ClInclude>
+    <ClInclude Include="primary\startup_task_runner.h">
+      <Filter>primary</Filter>
+    </ClInclude>
+    <ClInclude Include="primary\system_message_window_win.h">
+      <Filter>primary</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="public\primary\content_main_client.cc">
+      <Filter>public\primary</Filter>
+    </ClCompile>
+    <ClCompile Include="primary\aura\browser_compositor_output_surface.cc">
+      <Filter>primary\aura</Filter>
+    </ClCompile>
+    <ClCompile Include="primary\aura\browser_compositor_output_surface_proxy.cc">
+      <Filter>primary\aura</Filter>
+    </ClCompile>
+    <ClCompile Include="primary\aura\gpu_process_transport_factory.cc">
+      <Filter>primary\aura</Filter>
+    </ClCompile>
+    <ClCompile Include="primary\aura\image_transport_factory.cc">
+      <Filter>primary\aura</Filter>
+    </ClCompile>
+    <ClCompile Include="primary\aura\no_transport_image_transport_factory.cc">
+      <Filter>primary\aura</Filter>
+    </ClCompile>
+    <ClCompile Include="primary\aura\reflector_impl.cc">
+      <Filter>primary\aura</Filter>
+    </ClCompile>
+    <ClCompile Include="primary\aura\software_browser_compositor_output_surface.cc">
+      <Filter>primary\aura</Filter>
+    </ClCompile>
+    <ClCompile Include="primary\aura\software_output_device_win.cc">
+      <Filter>primary\aura</Filter>
+    </ClCompile>
+    <ClCompile Include="primary\gpu\browser_gpu_channel_host_factory.cc">
+      <Filter>primary\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="primary\gpu\compositor_util.cc">
+      <Filter>primary\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="primary\gpu\gpu_data_manager_impl.cc">
+      <Filter>primary\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="primary\gpu\gpu_data_manager_impl_private.cc">
+      <Filter>primary\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="primary\gpu\gpu_process_host.cc">
+      <Filter>primary\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="primary\gpu\gpu_surface_tracker.cc">
+      <Filter>primary\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="primary\gpu\shader_disk_cache.cc">
+      <Filter>primary\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="primary\browser_child_process_host_impl.cc">
+      <Filter>primary</Filter>
+    </ClCompile>
+    <ClCompile Include="primary\browser_context.cc">
+      <Filter>primary</Filter>
+    </ClCompile>
+    <ClCompile Include="primary\browser_main_loop.cc">
+      <Filter>primary</Filter>
+    </ClCompile>
+    <ClCompile Include="primary\browser_main_runner.cc">
+      <Filter>primary</Filter>
+    </ClCompile>
+    <ClCompile Include="primary\browser_process_sub_thread.cc">
+      <Filter>primary</Filter>
+    </ClCompile>
+    <ClCompile Include="primary\browser_shutdown_profile_dumper.cc">
+      <Filter>primary</Filter>
+    </ClCompile>
+    <ClCompile Include="primary\browser_thread_impl.cc">
+      <Filter>primary</Filter>
+    </ClCompile>
+    <ClCompile Include="primary\byte_stream.cc">
+      <Filter>primary</Filter>
+    </ClCompile>
+    <ClCompile Include="primary\child_process_launcher.cc">
+      <Filter>primary</Filter>
+    </ClCompile>
+    <ClCompile Include="primary\notification_service_impl.cc">
+      <Filter>primary</Filter>
+    </ClCompile>
+    <ClCompile Include="primary\power_monitor_message_broadcaster.cc">
+      <Filter>primary</Filter>
+    </ClCompile>
+    <ClCompile Include="primary\power_monitor_message_broadcaster_unittest.cc">
+      <Filter>primary</Filter>
+    </ClCompile>
+    <ClCompile Include="primary\power_save_blocker_impl.cc">
+      <Filter>primary</Filter>
+    </ClCompile>
+    <ClCompile Include="primary\power_save_blocker_win.cc">
+      <Filter>primary</Filter>
+    </ClCompile>
+    <ClCompile Include="primary\primary_main.cc">
+      <Filter>primary</Filter>
+    </ClCompile>
+    <ClCompile Include="primary\startup_task_runner.cc">
+      <Filter>primary</Filter>
+    </ClCompile>
+    <ClCompile Include="primary\system_message_window_win.cc">
+      <Filter>primary</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

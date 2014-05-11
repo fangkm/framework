@@ -14,7 +14,7 @@
 #include "base/memory/ref_counted.h"
 #include "base/memory/ref_counted_memory.h"
 #include "content/common/content_export.h"
-#include "content/public/browser/global_request_id.h"
+#include "content/public/primary/global_request_id.h"
 #include "content/public/common/page_transition_types.h"
 #include "content/public/common/referrer.h"
 #include "ui/base/window_open_disposition.h"

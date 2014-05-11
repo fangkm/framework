@@ -10,8 +10,8 @@
 #define CONTENT_PUBLIC_BROWSER_NOTIFICATION_SERVICE_H_
 
 #include "content/common/content_export.h"
-#include "content/public/browser/notification_details.h"
-#include "content/public/browser/notification_source.h"
+#include "content/public/primary/notification_details.h"
+#include "content/public/primary/notification_source.h"
 
 namespace content {
 

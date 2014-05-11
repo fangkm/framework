@@ -7,7 +7,7 @@
 
 #include "base/process/process.h"
 #include "content/common/content_export.h"
-#include "content/public/browser/browser_thread.h"
+#include "content/public/primary/browser_thread.h"
 #include "ipc/ipc_channel_proxy.h"
 
 #if defined(OS_WIN)

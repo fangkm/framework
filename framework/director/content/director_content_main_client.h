@@ -5,7 +5,7 @@
 
 #include "base/compiler_specific.h"
 #include "base/memory/scoped_ptr.h"
-#include "content/public/browser/content_main_client.h"
+#include "content/public/primary/content_main_client.h"
 
 namespace director {
 

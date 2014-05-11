@@ -6,7 +6,7 @@
 
 #include "base/debug/trace_event.h"
 #include "content/common/content_constants_internal.h"
-#include "content/public/browser/browser_main_runner.h"
+#include "content/public/primary/browser_main_runner.h"
 
 namespace content {
 

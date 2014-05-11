@@ -12,7 +12,7 @@
 
 #if defined(TOOLKIT_GTK)
 #include "base/bind.h"
-#include "content/public/browser/browser_thread.h"
+#include "content/public/primary/browser_thread.h"
 #include "ui/gfx/gtk_native_view_id_manager.h"
 #endif  // defined(TOOLKIT_GTK)
 

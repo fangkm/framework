@@ -6,8 +6,8 @@
 
 #include "base/lazy_instance.h"
 #include "base/threading/thread_local.h"
-#include "content/public/browser/notification_observer.h"
-#include "content/public/browser/notification_types.h"
+#include "content/public/primary/notification_observer.h"
+#include "content/public/primary/notification_types.h"
 
 namespace  content {
 

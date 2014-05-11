@@ -10,7 +10,7 @@
 #include "base/strings/utf_string_conversions.h"
 #include "base/win/scoped_handle.h"
 #include "base/win/windows_version.h"
-#include "content/public/browser/browser_thread.h"
+#include "content/public/primary/browser_thread.h"
 
 namespace content {
 namespace {

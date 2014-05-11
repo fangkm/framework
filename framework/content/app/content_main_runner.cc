@@ -32,7 +32,7 @@
 #include "content/gpu/in_process_gpu_thread.h"
 #include "content/app/content_main_delegate.h"
 #include "content/app/startup_helper_win.h"
-#include "content/public/browser/content_main_client.h"
+#include "content/public/primary/content_main_client.h"
 #include "content/public/common/content_client.h"
 #include "content/public/common/content_constants.h"
 #include "content/public/common/content_paths.h"

@@ -13,8 +13,8 @@
 #include "base/synchronization/waitable_event_watcher.h"
 #include "content/primary/child_process_launcher.h"
 #include "content/primary/power_monitor_message_broadcaster.h"
-#include "content/public/browser/browser_child_process_host.h"
-#include "content/public/browser/child_process_data.h"
+#include "content/public/primary/browser_child_process_host.h"
+#include "content/public/primary/child_process_data.h"
 #include "content/public/common/child_process_host_delegate.h"
 
 namespace content {

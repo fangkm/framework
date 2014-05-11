@@ -9,7 +9,7 @@
 #include "base/memory/ref_counted.h"
 #include "base/memory/scoped_ptr.h"
 #include "content/primary/browser_process_sub_thread.h"
-#include "content/public/browser/browser_main_runner.h"
+#include "content/public/primary/browser_main_runner.h"
 
 class CommandLine;
 

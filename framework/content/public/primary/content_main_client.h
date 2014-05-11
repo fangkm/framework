@@ -16,7 +16,7 @@
 #include "base/memory/scoped_vector.h"
 #include "base/values.h"
 #include "content/public/common/content_client.h"
-#include "content/public/browser/browser_main_parts.h"
+#include "content/public/primary/browser_main_parts.h"
 #include "content/public/common/window_container_type.h"
 #include "ui/base/window_open_disposition.h"
 

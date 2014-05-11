@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "content/public/browser/browser_child_process_host_iterator.h"
+#include "content/public/primary/browser_child_process_host_iterator.h"
 
 #include "base/logging.h"
 #include "content/primary/browser_child_process_host_impl.h"
-#include "content/public/browser/browser_thread.h"
+#include "content/public/primary/browser_thread.h"
 
 namespace content {
 

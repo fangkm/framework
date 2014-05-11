@@ -4,7 +4,7 @@
 
 #include "content/primary/aura/software_output_device_win.h"
 
-#include "content/public/browser/browser_thread.h"
+#include "content/public/primary/browser_thread.h"
 #include "third_party/skia/include/core/SkBitmap.h"
 #include "third_party/skia/include/core/SkDevice.h"
 #include "ui/compositor/compositor.h"

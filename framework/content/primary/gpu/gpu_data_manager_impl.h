@@ -17,7 +17,7 @@
 #include "base/synchronization/lock.h"
 #include "base/time/time.h"
 #include "base/values.h"
-#include "content/public/browser/gpu_data_manager.h"
+#include "content/public/primary/gpu_data_manager.h"
 #include "content/public/common/gpu_memory_stats.h"
 #include "content/public/common/three_d_api_types.h"
 #include "gpu/config/gpu_info.h"

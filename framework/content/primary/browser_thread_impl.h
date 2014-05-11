@@ -7,7 +7,7 @@
 
 #include "base/threading/thread.h"
 #include "content/common/content_export.h"
-#include "content/public/browser/browser_thread.h"
+#include "content/public/primary/browser_thread.h"
 
 namespace content {
 
