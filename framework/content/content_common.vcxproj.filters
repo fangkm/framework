@@ -39,49 +39,19 @@
     <ClInclude Include="port\common\input_event_ack_state.h">
       <Filter>port\common</Filter>
     </ClInclude>
-    <ClCompile Include="public\common\ssl_status.cc">
-      <Filter>public\common</Filter>
-    </ClCompile>
-    <ClCompile Include="public\common\show_desktop_notification_params.cc">
-      <Filter>public\common</Filter>
-    </ClCompile>
     <ClCompile Include="public\common\child_process_host_delegate.cc">
       <Filter>public\common</Filter>
     </ClCompile>
-    <ClInclude Include="public\common\console_message_level.h">
-      <Filter>public\common</Filter>
-    </ClInclude>
-    <ClInclude Include="public\common\ssl_status.h">
-      <Filter>public\common</Filter>
-    </ClInclude>
-    <ClInclude Include="public\common\menu_item.h">
-      <Filter>public\common</Filter>
-    </ClInclude>
-    <ClInclude Include="public\common\window_container_type.h">
-      <Filter>public\common</Filter>
-    </ClInclude>
     <ClCompile Include="public\common\common_param_traits.cc">
       <Filter>public\common</Filter>
     </ClCompile>
     <ClInclude Include="public\common\process_type.h">
       <Filter>public\common</Filter>
     </ClInclude>
-    <ClCompile Include="public\common\url_constants.cc">
-      <Filter>public\common</Filter>
-    </ClCompile>
-    <ClInclude Include="public\common\injection_test_win.h">
-      <Filter>public\common</Filter>
-    </ClInclude>
-    <ClInclude Include="public\common\browser_plugin_permission_type.h">
-      <Filter>public\common</Filter>
-    </ClInclude>
     <ClInclude Include="public\common\gpu_memory_stats.h">
       <Filter>public\common</Filter>
     </ClInclude>
     <ClInclude Include="public\common\content_constants.h">
-      <Filter>public\common</Filter>
-    </ClInclude>
-    <ClInclude Include="public\common\url_constants.h">
       <Filter>public\common</Filter>
     </ClInclude>
     <ClCompile Include="public\common\content_switches.cc">
@@ -93,31 +63,13 @@
     <ClInclude Include="public\common\common_param_traits_macros.h">
       <Filter>public\common</Filter>
     </ClInclude>
-    <ClInclude Include="public\common\file_chooser_params.h">
-      <Filter>public\common</Filter>
-    </ClInclude>
     <ClCompile Include="public\common\content_constants.cc">
-      <Filter>public\common</Filter>
-    </ClCompile>
-    <ClCompile Include="public\common\menu_item.cc">
       <Filter>public\common</Filter>
     </ClCompile>
     <ClInclude Include="public\common\content_switches.h">
       <Filter>public\common</Filter>
     </ClInclude>
-    <ClInclude Include="public\common\referrer.h">
-      <Filter>public\common</Filter>
-    </ClInclude>
-    <ClCompile Include="public\common\window_container_type.cc">
-      <Filter>public\common</Filter>
-    </ClCompile>
     <ClInclude Include="public\common\child_process_host.h">
-      <Filter>public\common</Filter>
-    </ClInclude>
-    <ClInclude Include="public\common\content_ipc_logging.h">
-      <Filter>public\common</Filter>
-    </ClInclude>
-    <ClInclude Include="public\common\javascript_message_type.h">
       <Filter>public\common</Filter>
     </ClInclude>
     <ClCompile Include="public\common\content_client.cc">
@@ -126,25 +78,7 @@
     <ClInclude Include="public\common\result_codes_list.h">
       <Filter>public\common</Filter>
     </ClInclude>
-    <ClInclude Include="public\common\top_controls_state_list.h">
-      <Filter>public\common</Filter>
-    </ClInclude>
-    <ClInclude Include="public\common\stop_find_action.h">
-      <Filter>public\common</Filter>
-    </ClInclude>
-    <ClInclude Include="public\common\bindings_policy.h">
-      <Filter>public\common</Filter>
-    </ClInclude>
     <ClInclude Include="public\common\child_process_host_delegate.h">
-      <Filter>public\common</Filter>
-    </ClInclude>
-    <ClCompile Include="public\common\file_chooser_params.cc">
-      <Filter>public\common</Filter>
-    </ClCompile>
-    <ClInclude Include="public\common\url_fetcher.h">
-      <Filter>public\common</Filter>
-    </ClInclude>
-    <ClInclude Include="public\common\security_style.h">
       <Filter>public\common</Filter>
     </ClInclude>
     <ClInclude Include="public\common\three_d_api_types.h">
@@ -171,13 +105,7 @@
     <ClInclude Include="public\common\main_function_params.h">
       <Filter>public\common</Filter>
     </ClInclude>
-    <ClInclude Include="public\common\top_controls_state.h">
-      <Filter>public\common</Filter>
-    </ClInclude>
     <ClInclude Include="public\common\common_param_traits.h">
-      <Filter>public\common</Filter>
-    </ClInclude>
-    <ClInclude Include="public\common\show_desktop_notification_params.h">
       <Filter>public\common</Filter>
     </ClInclude>
     <ClCompile Include="..\build\precompile.cc">
@@ -195,22 +123,13 @@
     <ClCompile Include="common\sandbox_util.cc">
       <Filter>common</Filter>
     </ClCompile>
-    <ClInclude Include="common\font_list.h">
-      <Filter>common</Filter>
-    </ClInclude>
     <ClInclude Include="common\content_constants_internal.h">
       <Filter>common</Filter>
     </ClInclude>
     <ClInclude Include="common\power_monitor_messages.h">
       <Filter>common</Filter>
     </ClInclude>
-    <ClCompile Include="common\font_cache_dispatcher_win.cc">
-      <Filter>common</Filter>
-    </ClCompile>
     <ClCompile Include="common\handle_enumerator_win.cc">
-      <Filter>common</Filter>
-    </ClCompile>
-    <ClCompile Include="common\clipboard_messages.cc">
       <Filter>common</Filter>
     </ClCompile>
     <ClCompile Include="common\sandbox_win.cc">
@@ -219,39 +138,9 @@
     <ClCompile Include="common\cc_messages.cc">
       <Filter>common</Filter>
     </ClCompile>
-    <ClCompile Include="common\font_list.cc">
-      <Filter>common</Filter>
-    </ClCompile>
-    <ClCompile Include="common\font_list_win.cc">
-      <Filter>common</Filter>
-    </ClCompile>
-    <ClInclude Include="common\clipboard_messages.h">
-      <Filter>common</Filter>
-    </ClInclude>
-    <ClInclude Include="common\edit_command.h">
-      <Filter>common</Filter>
-    </ClInclude>
-    <ClInclude Include="common\text_input_client_messages.h">
-      <Filter>common</Filter>
-    </ClInclude>
-    <ClInclude Include="common\one_writer_seqlock.h">
-      <Filter>common</Filter>
-    </ClInclude>
     <ClInclude Include="common\sandbox_win.h">
       <Filter>common</Filter>
     </ClInclude>
-    <ClInclude Include="common\mime_registry_messages.h">
-      <Filter>common</Filter>
-    </ClInclude>
-    <ClInclude Include="common\memory_benchmark_messages.h">
-      <Filter>common</Filter>
-    </ClInclude>
-    <ClInclude Include="common\navigation_gesture.h">
-      <Filter>common</Filter>
-    </ClInclude>
-    <ClCompile Include="common\one_writer_seqlock.cc">
-      <Filter>common</Filter>
-    </ClCompile>
     <ClCompile Include="common\message_router.cc">
       <Filter>common</Filter>
     </ClCompile>
@@ -270,16 +159,10 @@
     <ClInclude Include="common\cc_messages.h">
       <Filter>common</Filter>
     </ClInclude>
-    <ClInclude Include="common\inter_process_time_ticks_converter.h">
-      <Filter>common</Filter>
-    </ClInclude>
     <ClInclude Include="common\sandbox_util.h">
       <Filter>common</Filter>
     </ClInclude>
     <ClInclude Include="common\set_process_title.h">
-      <Filter>common</Filter>
-    </ClInclude>
-    <ClInclude Include="common\file_utilities_messages.h">
       <Filter>common</Filter>
     </ClInclude>
     <ClInclude Include="common\handle_enumerator_win.h">
@@ -288,21 +171,12 @@
     <ClInclude Include="common\content_param_traits.h">
       <Filter>common</Filter>
     </ClInclude>
-    <ClCompile Include="common\swapped_out_messages.cc">
-      <Filter>common</Filter>
-    </ClCompile>
-    <ClInclude Include="common\swapped_out_messages.h">
-      <Filter>common</Filter>
-    </ClInclude>
     <ClInclude Include="common\message_router.h">
       <Filter>common</Filter>
     </ClInclude>
     <ClInclude Include="common\input_messages.h">
       <Filter>common</Filter>
     </ClInclude>
-    <ClCompile Include="common\inter_process_time_ticks_converter.cc">
-      <Filter>common</Filter>
-    </ClCompile>
     <ClCompile Include="common\content_message_generator.cc">
       <Filter>common</Filter>
     </ClCompile>
@@ -318,16 +192,10 @@
     <ClInclude Include="common\content_export.h">
       <Filter>common</Filter>
     </ClInclude>
-    <ClInclude Include="common\font_cache_dispatcher_win.h">
-      <Filter>common</Filter>
-    </ClInclude>
     <ClInclude Include="common\child_process_host_impl.h">
       <Filter>common</Filter>
     </ClInclude>
     <ClCompile Include="common\content_constants_internal.cc">
-      <Filter>common</Filter>
-    </ClCompile>
-    <ClCompile Include="common\content_ipc_logging.cc">
       <Filter>common</Filter>
     </ClCompile>
     <ClCompile Include="common\set_process_title.cc">

@@ -18,7 +18,6 @@
 #include "ui/base/window_open_disposition.h"
 #include "content/public/common/content_client.h"
 #include "content/public/primary/primary_main_parts.h"
-#include "content/public/common/window_container_type.h"
 
 class CommandLine;
 
@@ -48,8 +47,6 @@ class AccessTokenStore;
 class PrimaryChildProcessHost;
 
 struct MainFunctionParams;
-struct Referrer;
-struct ShowDesktopNotificationHostMsgParams;
 
 // Embedder API (or SPI) for participating in browser logic, to be implemented
 // by the client of the content browser. See ChromeContentBrowserClient for the

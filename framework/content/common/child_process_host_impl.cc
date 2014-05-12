@@ -23,12 +23,6 @@
 #include "ipc/ipc_channel.h"
 #include "ipc/ipc_logging.h"
 
-#if defined(OS_LINUX)
-#include "base/linux_util.h"
-#elif defined(OS_WIN)
-#include "content/common/font_cache_dispatcher_win.h"
-#endif  // OS_LINUX
-
 #if defined(OS_MACOSX)
 namespace {
 
@@ -132,9 +126,6 @@ ChildProcessHostImpl::ChildProcessHostImpl(ChildProcessHostDelegate* delegate)
     : delegate_(delegate),
       peer_handle_(base::kNullProcessHandle),
       opening_channel_(false) {
-#if defined(OS_WIN)
-  AddFilter(new FontCacheDispatcher());
-#endif
 }
 
 ChildProcessHostImpl::~ChildProcessHostImpl() {

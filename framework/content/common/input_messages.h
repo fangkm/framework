@@ -9,7 +9,6 @@
 #include "base/strings/string16.h"
 #include "content/common/content_export.h"
 #include "content/common/content_param_traits.h"
-#include "content/common/edit_command.h"
 #include "content/common/input/input_event.h"
 #include "content/common/input/input_event_disposition.h"
 #include "content/common/input/input_param_traits.h"
@@ -39,11 +38,6 @@ IPC_ENUM_TRAITS_MAX_VALUE(content::InputEventAckState,
 IPC_ENUM_TRAITS_MAX_VALUE(content::InputEventDisposition,
                           content::INPUT_EVENT_DISPOSITION_MAX)
 
-IPC_STRUCT_TRAITS_BEGIN(content::EditCommand)
-  IPC_STRUCT_TRAITS_MEMBER(name)
-  IPC_STRUCT_TRAITS_MEMBER(value)
-IPC_STRUCT_TRAITS_END()
-
 IPC_STRUCT_TRAITS_BEGIN(content::IPCInputEventPayload)
   IPC_STRUCT_TRAITS_MEMBER(message)
 IPC_STRUCT_TRAITS_END()
@@ -62,20 +56,6 @@ IPC_MESSAGE_ROUTED2(InputMsg_HandleEventPacket,
 // Sends the cursor visibility state to the render widget.
 IPC_MESSAGE_ROUTED1(InputMsg_CursorVisibilityChange,
                     bool /* is_visible */)
-
-// This message notifies the renderer that the next key event is bound to one
-// or more pre-defined edit commands. If the next key event is not handled
-// by webkit, the specified edit commands shall be executed against current
-// focused frame.
-// Parameters
-// * edit_commands (see chrome/common/edit_command_types.h)
-//   Contains one or more edit commands.
-// See third_party/WebKit/Source/WebCore/editing/EditorCommand.cpp for detailed
-// definition of webkit edit commands.
-//
-// This message must be sent just before sending a key event.
-IPC_MESSAGE_ROUTED1(InputMsg_SetEditCommandsForNextKeyEvent,
-                    std::vector<content::EditCommand> /* edit_commands */)
 
 // Message payload is the name/value of a WebCore edit command to execute.
 IPC_MESSAGE_ROUTED2(InputMsg_ExecuteEditCommand,

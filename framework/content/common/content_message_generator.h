@@ -6,13 +6,7 @@
 
 #include "content/common/child_process_messages.h"
 #include "content/common/cc_messages.h"
-#include "content/common/clipboard_messages.h"
-#include "content/common/file_utilities_messages.h"
 #include "content/common/gpu/gpu_messages.h"
 #include "content/common/image_messages.h"
 #include "content/common/input_messages.h"
-
-#include "content/common/memory_benchmark_messages.h"
-#include "content/common/mime_registry_messages.h"
 #include "content/common/power_monitor_messages.h"
-#include "content/common/text_input_client_messages.h"
