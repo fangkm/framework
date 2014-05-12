@@ -5,7 +5,7 @@
 #include "content/public/primary/url_data_source.h"
 
 #include "content/primary/webui/url_data_manager.h"
-#include "content/public/primary/browser_thread.h"
+#include "content/public/primary/primary_thread.h"
 #include "content/public/common/url_constants.h"
 #include "net/url_request/url_request.h"
 
@@ -18,7 +18,7 @@ void URLDataSource::Add(BrowserContext* browser_context,
 
 base::MessageLoop* URLDataSource::MessageLoopForRequestPath(
     const std::string& path) const {
-  return BrowserThread::UnsafeGetMessageLoopForThread(BrowserThread::UI);
+  return PrimaryThread::UnsafeGetMessageLoopForThread(PrimaryThread::UI);
 }
 
 bool URLDataSource::ShouldReplaceExistingSource() const {

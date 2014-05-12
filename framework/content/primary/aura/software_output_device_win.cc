@@ -4,7 +4,7 @@
 
 #include "content/primary/aura/software_output_device_win.h"
 
-#include "content/public/primary/browser_thread.h"
+#include "content/public/primary/primary_thread.h"
 #include "third_party/skia/include/core/SkBitmap.h"
 #include "third_party/skia/include/core/SkDevice.h"
 #include "ui/compositor/compositor.h"
@@ -19,18 +19,18 @@ SoftwareOutputDeviceWin::SoftwareOutputDeviceWin(ui::Compositor* compositor)
     : hwnd_(compositor->widget()),
       is_hwnd_composited_(false) {
   // TODO(skaslev) Remove this when crbug.com/180702 is fixed.
-  DCHECK(BrowserThread::CurrentlyOn(BrowserThread::UI));
+  DCHECK(PrimaryThread::CurrentlyOn(PrimaryThread::UI));
 
   LONG style = GetWindowLong(hwnd_, GWL_EXSTYLE);
   is_hwnd_composited_ = !!(style & WS_EX_COMPOSITED);
 }
 
 SoftwareOutputDeviceWin::~SoftwareOutputDeviceWin() {
-  DCHECK(BrowserThread::CurrentlyOn(BrowserThread::UI));
+  DCHECK(PrimaryThread::CurrentlyOn(PrimaryThread::UI));
 }
 
 void SoftwareOutputDeviceWin::Resize(gfx::Size viewport_size) {
-  DCHECK(BrowserThread::CurrentlyOn(BrowserThread::UI));
+  DCHECK(PrimaryThread::CurrentlyOn(PrimaryThread::UI));
 
   if (viewport_size_ == viewport_size)
     return;
@@ -43,7 +43,7 @@ void SoftwareOutputDeviceWin::Resize(gfx::Size viewport_size) {
 }
 
 SkCanvas* SoftwareOutputDeviceWin::BeginPaint(gfx::Rect damage_rect) {
-  DCHECK(BrowserThread::CurrentlyOn(BrowserThread::UI));
+  DCHECK(PrimaryThread::CurrentlyOn(PrimaryThread::UI));
   DCHECK(contents_);
 
   damage_rect_ = damage_rect;
@@ -51,7 +51,7 @@ SkCanvas* SoftwareOutputDeviceWin::BeginPaint(gfx::Rect damage_rect) {
 }
 
 void SoftwareOutputDeviceWin::EndPaint(cc::SoftwareFrameData* frame_data) {
-  DCHECK(BrowserThread::CurrentlyOn(BrowserThread::UI));
+  DCHECK(PrimaryThread::CurrentlyOn(PrimaryThread::UI));
   DCHECK(contents_);
   DCHECK(frame_data);
 

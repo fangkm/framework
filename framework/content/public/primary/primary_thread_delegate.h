@@ -8,16 +8,16 @@
 namespace content {
 
 // A class with this type may be registered via
-// BrowserThread::SetDelegate.
+// PrimaryThread::SetDelegate.
 //
 // If registered as such, it will schedule to run Init() before the
 // message loop begins and the schedule InitAsync() as the first
-// task on its message loop (after the BrowserThread has done its own
+// task on its message loop (after the PrimaryThread has done its own
 // initialization), and receive a CleanUp call right after the message
-// loop ends (and before the BrowserThread has done its own clean-up).
-class BrowserThreadDelegate {
+// loop ends (and before the PrimaryThread has done its own clean-up).
+class PrimaryThreadDelegate {
  public:
-  virtual ~BrowserThreadDelegate() {}
+  virtual ~PrimaryThreadDelegate() {}
 
   // Called prior to starting the message loop
   virtual void Init() = 0;

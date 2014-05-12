@@ -6,18 +6,18 @@
 
 #include "base/debug/trace_event.h"
 #include "content/common/content_constants_internal.h"
-#include "content/public/primary/browser_main_runner.h"
+#include "content/public/primary/primary_main_runner.h"
 
 namespace content {
 
 // Main routine for running as the Browser process.
 int PrimaryMain(const MainFunctionParams& parameters) {
   TRACE_EVENT_BEGIN_ETW("PrimaryMain", 0, "");
-  base::debug::TraceLog::GetInstance()->SetProcessName("Browser");
+  base::debug::TraceLog::GetInstance()->SetProcessName("Primary");
   base::debug::TraceLog::GetInstance()->SetProcessSortIndex(
-      kTraceEventBrowserProcessSortIndex);
+      kTraceEventPrimaryProcessSortIndex);
 
-  scoped_ptr<BrowserMainRunner> main_runner(BrowserMainRunner::Create());
+  scoped_ptr<PrimaryMainRunner> main_runner(PrimaryMainRunner::Create());
 
   int exit_code = main_runner->Initialize(parameters);
   if (exit_code >= 0)

@@ -280,22 +280,22 @@
     <None Include="content.gyp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="primary\aura\browser_compositor_output_surface.h" />
-    <ClInclude Include="primary\aura\browser_compositor_output_surface_proxy.h" />
+    <ClInclude Include="primary\aura\primary_compositor_output_surface.h" />
+    <ClInclude Include="primary\aura\primary_compositor_output_surface_proxy.h" />
     <ClInclude Include="primary\aura\gpu_process_transport_factory.h" />
     <ClInclude Include="primary\aura\image_transport_factory.h" />
     <ClInclude Include="primary\aura\no_transport_image_transport_factory.h" />
     <ClInclude Include="primary\aura\reflector_impl.h" />
     <ClInclude Include="primary\aura\software_browser_compositor_output_surface.h" />
     <ClInclude Include="primary\aura\software_output_device_win.h" />
-    <ClInclude Include="primary\browser_child_process_host_impl.h" />
-    <ClInclude Include="primary\browser_main_loop.h" />
-    <ClInclude Include="primary\browser_process_sub_thread.h" />
-    <ClInclude Include="primary\browser_shutdown_profile_dumper.h" />
-    <ClInclude Include="primary\browser_thread_impl.h" />
+    <ClInclude Include="primary\primary_child_process_host_impl.h" />
+    <ClInclude Include="primary\primary_main_loop.h" />
+    <ClInclude Include="primary\primary_process_sub_thread.h" />
+    <ClInclude Include="primary\primary_shutdown_profile_dumper.h" />
+    <ClInclude Include="primary\primary_thread_impl.h" />
     <ClInclude Include="primary\byte_stream.h" />
     <ClInclude Include="primary\child_process_launcher.h" />
-    <ClInclude Include="primary\gpu\browser_gpu_channel_host_factory.h" />
+    <ClInclude Include="primary\gpu\primary_gpu_channel_host_factory.h" />
     <ClInclude Include="primary\gpu\compositor_util.h" />
     <ClInclude Include="primary\gpu\gpu_data_manager_impl.h" />
     <ClInclude Include="primary\gpu\gpu_data_manager_impl_private.h" />
@@ -326,17 +326,14 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClInclude>
     <ClInclude Include="public\primary\content_main_client.h" />
-    <ClInclude Include="public\primary\notification_registrar.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClInclude>
+    <ClInclude Include="public\primary\notification_registrar.h" />
     <ClInclude Include="public\primary\browser_child_process_host_delegate.h" />
-    <ClInclude Include="public\primary\browser_main_parts.h" />
+    <ClInclude Include="public\primary\primary_main_parts.h" />
     <ClInclude Include="public\primary\browser_message_filter.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClInclude>
-    <ClInclude Include="public\primary\browser_main_runner.h" />
+    <ClInclude Include="public\primary\primary_main_runner.h" />
     <ClInclude Include="public\primary\child_process_security_policy.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
@@ -346,10 +343,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClInclude>
     <ClInclude Include="public\primary\gpu_data_manager.h" />
-    <ClInclude Include="public\primary\notification_details.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClInclude>
+    <ClInclude Include="public\primary\notification_details.h" />
     <ClInclude Include="public\primary\page_navigator.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
@@ -367,31 +361,14 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClInclude>
-    <ClInclude Include="public\primary\certificate_request_result_type.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClInclude>
     <ClInclude Include="public\primary\user_metrics.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClInclude>
-    <ClInclude Include="public\primary\cert_store.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClInclude>
     <ClInclude Include="public\primary\browser_child_process_host_iterator.h" />
-    <ClInclude Include="public\primary\notification_observer.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClInclude>
-    <ClInclude Include="public\primary\notification_service.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClInclude>
-    <ClInclude Include="public\primary\notification_types.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClInclude>
+    <ClInclude Include="public\primary\notification_observer.h" />
+    <ClInclude Include="public\primary\notification_service.h" />
+    <ClInclude Include="public\primary\notification_types.h" />
     <ClInclude Include="public\primary\profiler_subscriber.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
@@ -400,7 +377,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClInclude>
-    <ClInclude Include="public\primary\browser_thread.h" />
+    <ClInclude Include="public\primary\primary_thread.h" />
     <ClInclude Include="public\primary\quota_permission_context.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
@@ -441,7 +418,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClInclude>
-    <ClInclude Include="public\primary\browser_thread_delegate.h" />
+    <ClInclude Include="public\primary\primary_thread_delegate.h" />
     <ClInclude Include="public\primary\browser_accessibility_state.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
@@ -464,10 +441,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClInclude>
     <ClInclude Include="public\primary\gpu_data_manager_observer.h" />
-    <ClInclude Include="public\primary\notification_source.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClInclude>
+    <ClInclude Include="public\primary\notification_source.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\build\precompile.cc">
@@ -476,27 +450,23 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="primary\aura\browser_compositor_output_surface.cc" />
-    <ClCompile Include="primary\aura\browser_compositor_output_surface_proxy.cc" />
+    <ClCompile Include="primary\aura\primary_compositor_output_surface.cc" />
+    <ClCompile Include="primary\aura\primary_compositor_output_surface_proxy.cc" />
     <ClCompile Include="primary\aura\gpu_process_transport_factory.cc" />
     <ClCompile Include="primary\aura\image_transport_factory.cc" />
     <ClCompile Include="primary\aura\no_transport_image_transport_factory.cc" />
     <ClCompile Include="primary\aura\reflector_impl.cc" />
     <ClCompile Include="primary\aura\software_browser_compositor_output_surface.cc" />
     <ClCompile Include="primary\aura\software_output_device_win.cc" />
-    <ClCompile Include="primary\browser_child_process_host_impl.cc" />
-    <ClCompile Include="primary\browser_context.cc">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="primary\browser_main_loop.cc" />
-    <ClCompile Include="primary\browser_main_runner.cc" />
-    <ClCompile Include="primary\browser_process_sub_thread.cc" />
-    <ClCompile Include="primary\browser_shutdown_profile_dumper.cc" />
-    <ClCompile Include="primary\browser_thread_impl.cc" />
+    <ClCompile Include="primary\primary_child_process_host_impl.cc" />
+    <ClCompile Include="primary\primary_main_loop.cc" />
+    <ClCompile Include="primary\primary_main_runner.cc" />
+    <ClCompile Include="primary\primary_process_sub_thread.cc" />
+    <ClCompile Include="primary\primary_shutdown_profile_dumper.cc" />
+    <ClCompile Include="primary\primary_thread_impl.cc" />
     <ClCompile Include="primary\byte_stream.cc" />
     <ClCompile Include="primary\child_process_launcher.cc" />
-    <ClCompile Include="primary\gpu\browser_gpu_channel_host_factory.cc" />
+    <ClCompile Include="primary\gpu\primary_gpu_channel_host_factory.cc" />
     <ClCompile Include="primary\gpu\compositor_util.cc" />
     <ClCompile Include="primary\gpu\gpu_data_manager_impl.cc" />
     <ClCompile Include="primary\gpu\gpu_data_manager_impl_private.cc" />
@@ -526,10 +496,7 @@
     </ClCompile>
     <ClCompile Include="public\primary\content_main_client.cc" />
     <ClCompile Include="public\primary\browser_child_process_observer.cc" />
-    <ClCompile Include="public\primary\notification_registrar.cc">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
+    <ClCompile Include="public\primary\notification_registrar.cc" />
     <ClCompile Include="public\primary\url_data_source.cc">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
@@ -539,7 +506,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="public\primary\browser_main_parts.cc" />
+    <ClCompile Include="public\primary\primary_main_parts.cc" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\base\base.vcxproj">

@@ -20,26 +20,26 @@
 namespace content {
 
 class BrowserChildProcessHostIterator;
-class BrowserChildProcessObserver;
+class PrimaryChildProcessObserver;
 
 // Plugins/workers and other child processes that live on the IO thread use this
 // class. RenderProcessHostImpl is the main exception that doesn't use this
 /// class because it lives on the UI thread.
-class CONTENT_EXPORT BrowserChildProcessHostImpl
-    : public BrowserChildProcessHost,
+class CONTENT_EXPORT PrimaryChildProcessHostImpl
+    : public PrimaryChildProcessHost,
       public NON_EXPORTED_BASE(ChildProcessHostDelegate),
       public ChildProcessLauncher::Client {
  public:
-  BrowserChildProcessHostImpl(
+  PrimaryChildProcessHostImpl(
       int process_type,
-      BrowserChildProcessHostDelegate* delegate);
-  virtual ~BrowserChildProcessHostImpl();
+      PrimaryChildProcessHostDelegate* delegate);
+  virtual ~PrimaryChildProcessHostImpl();
 
-  // Terminates all child processes and deletes each BrowserChildProcessHost
+  // Terminates all child processes and deletes each PrimaryChildProcessHost
   // instance.
   static void TerminateAll();
 
-  // BrowserChildProcessHost implementation:
+  // PrimaryChildProcessHost implementation:
   virtual bool Send(IPC::Message* message) OVERRIDE;
   virtual void Launch(
 #if defined(OS_WIN)
@@ -73,17 +73,17 @@ class CONTENT_EXPORT BrowserChildProcessHostImpl
   // Called when an instance of a particular child is created in a page.
   static void NotifyProcessInstanceCreated(const ChildProcessData& data);
 
-  BrowserChildProcessHostDelegate* delegate() const { return delegate_; }
+  PrimaryChildProcessHostDelegate* delegate() const { return delegate_; }
 
-  typedef std::list<BrowserChildProcessHostImpl*> BrowserChildProcessList;
+  typedef std::list<PrimaryChildProcessHostImpl*> PrimaryChildProcessList;
  private:
   friend class BrowserChildProcessHostIterator;
-  friend class BrowserChildProcessObserver;
+  friend class PrimaryChildProcessObserver;
 
-  static BrowserChildProcessList* GetIterator();
+  static PrimaryChildProcessList* GetIterator();
 
-  static void AddObserver(BrowserChildProcessObserver* observer);
-  static void RemoveObserver(BrowserChildProcessObserver* observer);
+  static void AddObserver(PrimaryChildProcessObserver* observer);
+  static void RemoveObserver(PrimaryChildProcessObserver* observer);
 
   // ChildProcessHostDelegate implementation:
   virtual bool CanShutdown() OVERRIDE;
@@ -101,7 +101,7 @@ class CONTENT_EXPORT BrowserChildProcessHostImpl
 #endif
 
   ChildProcessData data_;
-  BrowserChildProcessHostDelegate* delegate_;
+  PrimaryChildProcessHostDelegate* delegate_;
   scoped_ptr<ChildProcessHost> child_process_host_;
 
   scoped_ptr<ChildProcessLauncher> child_process_;

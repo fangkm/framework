@@ -327,7 +327,7 @@ gfx::Image& ResourceBundle::GetImageNamed(int resource_id) {
     // TODO(oshima): Consider reading the image size from png IHDR chunk and
     // skip decoding here and remove #ifdef below.
     // ResourceBundle::GetSharedInstance() is destroyed after the
-    // BrowserMainLoop has finished running. |image_skia| is guaranteed to be
+    // PrimaryMainLoop has finished running. |image_skia| is guaranteed to be
     // destroyed before the resource bundle is destroyed.
 #if defined(OS_CHROMEOS)
     ui::ScaleFactor scale_factor_to_load = ui::GetMaxScaleFactor();

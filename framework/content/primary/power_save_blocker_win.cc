@@ -10,7 +10,7 @@
 #include "base/strings/utf_string_conversions.h"
 #include "base/win/scoped_handle.h"
 #include "base/win/windows_version.h"
-#include "content/public/primary/browser_thread.h"
+#include "content/public/primary/primary_thread.h"
 
 namespace content {
 namespace {
@@ -132,7 +132,7 @@ class PowerSaveBlockerImpl::Delegate
 };
 
 void PowerSaveBlockerImpl::Delegate::ApplyBlock() {
-  DCHECK(BrowserThread::CurrentlyOn(BrowserThread::UI));
+  DCHECK(PrimaryThread::CurrentlyOn(PrimaryThread::UI));
   if (base::win::GetVersion() < base::win::VERSION_WIN7)
     return ApplySimpleBlock(type_, 1);
 
@@ -140,7 +140,7 @@ void PowerSaveBlockerImpl::Delegate::ApplyBlock() {
 }
 
 void PowerSaveBlockerImpl::Delegate::RemoveBlock() {
-  DCHECK(BrowserThread::CurrentlyOn(BrowserThread::UI));
+  DCHECK(PrimaryThread::CurrentlyOn(PrimaryThread::UI));
   if (base::win::GetVersion() < base::win::VERSION_WIN7)
     return ApplySimpleBlock(type_, -1);
 
@@ -160,14 +160,14 @@ POWER_REQUEST_TYPE PowerSaveBlockerImpl::Delegate::RequestType() {
 PowerSaveBlockerImpl::PowerSaveBlockerImpl(PowerSaveBlockerType type,
                                            const std::string& reason)
     : delegate_(new Delegate(type, reason)) {
-  BrowserThread::PostTask(
-      BrowserThread::UI, FROM_HERE,
+  PrimaryThread::PostTask(
+      PrimaryThread::UI, FROM_HERE,
       base::Bind(&Delegate::ApplyBlock, delegate_));
 }
 
 PowerSaveBlockerImpl::~PowerSaveBlockerImpl() {
-  BrowserThread::PostTask(
-      BrowserThread::UI, FROM_HERE,
+  PrimaryThread::PostTask(
+      PrimaryThread::UI, FROM_HERE,
       base::Bind(&Delegate::RemoveBlock, delegate_));
 }
 

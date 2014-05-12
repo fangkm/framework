@@ -39,10 +39,10 @@ void BrowserMessageFilter::OnChannelConnected(int32 peer_pid) {
 }
 
 bool BrowserMessageFilter::OnMessageReceived(const IPC::Message& message) {
-  BrowserThread::ID thread = BrowserThread::IO;
+  PrimaryThread::ID thread = PrimaryThread::IO;
   OverrideThreadForMessage(message, &thread);
 
-  if (thread == BrowserThread::IO) {
+  if (thread == PrimaryThread::IO) {
     scoped_refptr<base::TaskRunner> runner =
         OverrideTaskRunnerForMessage(message);
     if (runner.get()) {
@@ -56,10 +56,10 @@ bool BrowserMessageFilter::OnMessageReceived(const IPC::Message& message) {
     return DispatchMessage(message);
   }
 
-  if (thread == BrowserThread::UI && !CheckCanDispatchOnUI(message, this))
+  if (thread == PrimaryThread::UI && !CheckCanDispatchOnUI(message, this))
     return true;
 
-  BrowserThread::PostTask(
+  PrimaryThread::PostTask(
       thread, FROM_HERE,
       base::Bind(base::IgnoreResult(&BrowserMessageFilter::DispatchMessage),
                  this, message));
@@ -90,9 +90,9 @@ bool BrowserMessageFilter::Send(IPC::Message* message) {
     return false;
   }
 
-  if (!BrowserThread::CurrentlyOn(BrowserThread::IO)) {
-    BrowserThread::PostTask(
-        BrowserThread::IO,
+  if (!PrimaryThread::CurrentlyOn(PrimaryThread::IO)) {
+    PrimaryThread::PostTask(
+        PrimaryThread::IO,
         FROM_HERE,
         base::Bind(base::IgnoreResult(&BrowserMessageFilter::Send), this,
                    message));
@@ -107,7 +107,7 @@ bool BrowserMessageFilter::Send(IPC::Message* message) {
 }
 
 void BrowserMessageFilter::OverrideThreadForMessage(const IPC::Message& message,
-                                                    BrowserThread::ID* thread) {
+                                                    PrimaryThread::ID* thread) {
 }
 
 base::TaskRunner* BrowserMessageFilter::OverrideTaskRunnerForMessage(
@@ -155,7 +155,7 @@ BrowserMessageFilter::~BrowserMessageFilter() {
 bool BrowserMessageFilter::DispatchMessage(const IPC::Message& message) {
   bool message_was_ok = true;
   bool rv = OnMessageReceived(message, &message_was_ok);
-  DCHECK(BrowserThread::CurrentlyOn(BrowserThread::IO) || rv) <<
+  DCHECK(PrimaryThread::CurrentlyOn(PrimaryThread::IO) || rv) <<
       "Must handle messages that were dispatched to another thread!";
   if (!message_was_ok) {
     content::RecordAction(UserMetricsAction("BadMessageTerminate_BMF"));

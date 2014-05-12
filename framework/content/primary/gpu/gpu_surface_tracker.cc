@@ -12,7 +12,7 @@
 
 #if defined(TOOLKIT_GTK)
 #include "base/bind.h"
-#include "content/public/primary/browser_thread.h"
+#include "content/public/primary/primary_thread.h"
 #include "ui/gfx/gtk_native_view_id_manager.h"
 #endif  // defined(TOOLKIT_GTK)
 
@@ -23,7 +23,7 @@ namespace {
 
 void ReleasePermanentXIDDispatcher(
     const gfx::PluginWindowHandle& surface) {
-  DCHECK(BrowserThread::CurrentlyOn(BrowserThread::UI));
+  DCHECK(PrimaryThread::CurrentlyOn(PrimaryThread::UI));
 
   GtkNativeViewManager* manager = GtkNativeViewManager::GetInstance();
   manager->ReleasePermanentXID(surface);
@@ -52,7 +52,7 @@ SurfaceRefPluginWindow::SurfaceRefPluginWindow(
 
 SurfaceRefPluginWindow::~SurfaceRefPluginWindow() {
   if (surface_ != gfx::kNullPluginWindow) {
-    BrowserThread::PostTask(BrowserThread::UI,
+    PrimaryThread::PostTask(PrimaryThread::UI,
                             FROM_HERE,
                             base::Bind(&ReleasePermanentXIDDispatcher,
                                        surface_));

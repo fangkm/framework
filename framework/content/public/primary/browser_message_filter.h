@@ -7,7 +7,7 @@
 
 #include "base/process/process.h"
 #include "content/common/content_export.h"
-#include "content/public/primary/browser_thread.h"
+#include "content/public/primary/primary_thread.h"
 #include "ipc/ipc_channel_proxy.h"
 
 #if defined(OS_WIN)
@@ -49,7 +49,7 @@ class CONTENT_EXPORT BrowserMessageFilter
   // browser thread, change |thread| to the id of the target thread
   virtual void OverrideThreadForMessage(
       const IPC::Message& message,
-      BrowserThread::ID* thread);
+      PrimaryThread::ID* thread);
 
   // If you want the message to be dispatched via the SequencedWorkerPool,
   // return a non-null task runner which will target tasks accordingly.

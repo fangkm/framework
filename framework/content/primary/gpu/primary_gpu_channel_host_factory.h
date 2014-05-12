@@ -14,12 +14,12 @@
 
 namespace content {
 
-class CONTENT_EXPORT BrowserGpuChannelHostFactory
+class CONTENT_EXPORT PrimaryGpuChannelHostFactory
     : public GpuChannelHostFactory {
  public:
   static void Initialize();
   static void Terminate();
-  static BrowserGpuChannelHostFactory* instance() { return instance_; }
+  static PrimaryGpuChannelHostFactory* instance() { return instance_; }
 
   // GpuChannelHostFactory implementation.
   virtual bool IsMainThread() OVERRIDE;
@@ -69,8 +69,8 @@ class CONTENT_EXPORT BrowserGpuChannelHostFactory
     gpu::GPUInfo gpu_info;
   };
 
-  BrowserGpuChannelHostFactory();
-  virtual ~BrowserGpuChannelHostFactory();
+  PrimaryGpuChannelHostFactory();
+  virtual ~PrimaryGpuChannelHostFactory();
 
   void CreateViewCommandBufferOnIO(
       CreateRequest* request,
@@ -100,9 +100,9 @@ class CONTENT_EXPORT BrowserGpuChannelHostFactory
   scoped_refptr<GpuChannelHost> gpu_channel_;
   int gpu_host_id_;
 
-  static BrowserGpuChannelHostFactory* instance_;
+  static PrimaryGpuChannelHostFactory* instance_;
 
-  DISALLOW_COPY_AND_ASSIGN(BrowserGpuChannelHostFactory);
+  DISALLOW_COPY_AND_ASSIGN(PrimaryGpuChannelHostFactory);
 };
 
 }  // namespace content

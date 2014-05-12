@@ -27,11 +27,11 @@ class Thread;
 
 namespace content {
 
-class BrowserThreadDelegate;
-class BrowserThreadImpl;
+class PrimaryThreadDelegate;
+class PrimaryThreadImpl;
 
 ///////////////////////////////////////////////////////////////////////////////
-// BrowserThread
+// PrimaryThread
 //
 // Utility functions for threads that are known by a browser-wide
 // name.  For example, there is one IO thread for the entire browser
@@ -40,7 +40,7 @@ class BrowserThreadImpl;
 //
 // Invoke a task by thread ID:
 //
-//   BrowserThread::PostTask(BrowserThread::IO, FROM_HERE, task);
+//   PrimaryThread::PostTask(PrimaryThread::IO, FROM_HERE, task);
 //
 // The return value is false if the task couldn't be posted because the target
 // thread doesn't exist.  If this could lead to data loss, you need to check the
@@ -52,7 +52,7 @@ class BrowserThreadImpl;
 // task is posted to is guaranteed to outlive the current thread, then no locks
 // are used.  You should never need to cache pointers to MessageLoops, since
 // they're not thread safe.
-class CONTENT_EXPORT BrowserThread {
+class CONTENT_EXPORT PrimaryThread {
  public:
   // An enumeration of the well-known threads.
   // NOTE: threads must be listed in the order of their life-time, with each
@@ -207,11 +207,11 @@ class CONTENT_EXPORT BrowserThread {
   // This must not be called before the thread is started, or after
   // the thread is stopped, or it will DCHECK.
   //
-  // Ownership remains with the BrowserThread implementation, so you
+  // Ownership remains with the PrimaryThread implementation, so you
   // must not delete the pointer.
   static base::MessageLoop* UnsafeGetMessageLoopForThread(ID identifier);
 
-  // Sets the delegate for the specified BrowserThread.
+  // Sets the delegate for the specified PrimaryThread.
   //
   // Only one delegate may be registered at a time.  Delegates may be
   // unregistered by providing a NULL pointer.
@@ -219,7 +219,7 @@ class CONTENT_EXPORT BrowserThread {
   // If the caller unregisters a delegate before CleanUp has been
   // called, it must perform its own locking to ensure the delegate is
   // not deleted while unregistering.
-  static void SetDelegate(ID identifier, BrowserThreadDelegate* delegate);
+  static void SetDelegate(ID identifier, PrimaryThreadDelegate* delegate);
 
   // Use these templates in conjuction with RefCountedThreadSafe when you want
   // to ensure that an object is deleted on a specific thread.  This is needed
@@ -249,11 +249,11 @@ class CONTENT_EXPORT BrowserThread {
   // Sample usage:
   // class Foo
   //     : public base::RefCountedThreadSafe<
-  //           Foo, BrowserThread::DeleteOnIOThread> {
+  //           Foo, PrimaryThread::DeleteOnIOThread> {
   //
   // ...
   //  private:
-  //   friend struct BrowserThread::DeleteOnThread<BrowserThread::IO>;
+  //   friend struct PrimaryThread::DeleteOnThread<PrimaryThread::IO>;
   //   friend class base::DeleteHelper<Foo>;
   //
   //   ~Foo();
@@ -263,10 +263,10 @@ class CONTENT_EXPORT BrowserThread {
   struct DeleteOnDBThread : public DeleteOnThread<DB> { };
 
  private:
-  friend class BrowserThreadImpl;
+  friend class PrimaryThreadImpl;
 
-  BrowserThread() {}
-  DISALLOW_COPY_AND_ASSIGN(BrowserThread);
+  PrimaryThread() {}
+  DISALLOW_COPY_AND_ASSIGN(PrimaryThread);
 };
 
 }  // namespace content

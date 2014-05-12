@@ -23,23 +23,23 @@ class FilePath;
 
 namespace content {
 
-class BrowserChildProcessHostDelegate;
+class PrimaryChildProcessHostDelegate;
 class ChildProcessHost;
 class SandboxedProcessLauncherDelegate;
 struct ChildProcessData;
 
 // This represents child processes of the browser process, i.e. plugins. They
 // will get terminated at browser shutdown.
-class CONTENT_EXPORT BrowserChildProcessHost : public IPC::Sender {
+class CONTENT_EXPORT PrimaryChildProcessHost : public IPC::Sender {
  public:
   // Used to create a child process host. The delegate must outlive this object.
   // |process_type| needs to be either an enum value from ProcessType or an
   // embedder-defined value.
-  static BrowserChildProcessHost* Create(
+  static PrimaryChildProcessHost* Create(
       int process_type,
-      BrowserChildProcessHostDelegate* delegate);
+      PrimaryChildProcessHostDelegate* delegate);
 
-  virtual ~BrowserChildProcessHost() {}
+  virtual ~PrimaryChildProcessHost() {}
 
   // Derived classes call this to launch the child process asynchronously.
   // Takes ownership of |cmd_line| and |delegate|.
@@ -70,7 +70,7 @@ class CONTENT_EXPORT BrowserChildProcessHost : public IPC::Sender {
   // Sets the user-visible name of the process.
   virtual void SetName(const string16& name) = 0;
 
-  // Set the handle of the process. BrowserChildProcessHost will do this when
+  // Set the handle of the process. PrimaryChildProcessHost will do this when
   // the Launch method is used to start the process. However if the owner
   // of this object doesn't call Launch and starts the process in another way,
   // they need to call this method so that the process handle is associated with

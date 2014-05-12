@@ -13,12 +13,12 @@ namespace content {
 struct MainFunctionParams;
 
 // This class is responsible for browser initialization, running and shutdown.
-class CONTENT_EXPORT BrowserMainRunner {
+class CONTENT_EXPORT PrimaryMainRunner {
  public:
-  virtual ~BrowserMainRunner() {}
+  virtual ~PrimaryMainRunner() {}
 
-  // Create a new BrowserMainRunner object.
-  static BrowserMainRunner* Create();
+  // Create a new PrimaryMainRunner object.
+  static PrimaryMainRunner* Create();
 
   // Initialize all necessary browser state. The |parameters| values will be
   // copied.

@@ -5,23 +5,23 @@
 #include "content/public/primary/browser_child_process_host_iterator.h"
 
 #include "base/logging.h"
-#include "content/primary/browser_child_process_host_impl.h"
-#include "content/public/primary/browser_thread.h"
+#include "content/primary/primary_child_process_host_impl.h"
+#include "content/public/primary/primary_thread.h"
 
 namespace content {
 
 BrowserChildProcessHostIterator::BrowserChildProcessHostIterator()
     : all_(true), process_type_(PROCESS_TYPE_UNKNOWN) {
-  CHECK(BrowserThread::CurrentlyOn(BrowserThread::IO)) <<
+  CHECK(PrimaryThread::CurrentlyOn(PrimaryThread::IO)) <<
         "BrowserChildProcessHostIterator must be used on the IO thread.";
-  iterator_ = BrowserChildProcessHostImpl::GetIterator()->begin();
+  iterator_ = PrimaryChildProcessHostImpl::GetIterator()->begin();
 }
 
 BrowserChildProcessHostIterator::BrowserChildProcessHostIterator(int type)
     : all_(false), process_type_(type) {
-  CHECK(BrowserThread::CurrentlyOn(BrowserThread::IO)) <<
+  CHECK(PrimaryThread::CurrentlyOn(PrimaryThread::IO)) <<
         "BrowserChildProcessHostIterator must be used on the IO thread.";
-  iterator_ = BrowserChildProcessHostImpl::GetIterator()->begin();
+  iterator_ = PrimaryChildProcessHostImpl::GetIterator()->begin();
   if (!Done() && (*iterator_)->GetData().process_type != process_type_)
     ++(*this);
 }
@@ -43,7 +43,7 @@ bool BrowserChildProcessHostIterator::operator++() {
 }
 
 bool BrowserChildProcessHostIterator::Done() {
-  return iterator_ == BrowserChildProcessHostImpl::GetIterator()->end();
+  return iterator_ == PrimaryChildProcessHostImpl::GetIterator()->end();
 }
 
 const ChildProcessData& BrowserChildProcessHostIterator::GetData() {
@@ -56,7 +56,7 @@ bool BrowserChildProcessHostIterator::Send(IPC::Message* message) {
   return (*iterator_)->Send(message);
 }
 
-BrowserChildProcessHostDelegate*
+PrimaryChildProcessHostDelegate*
     BrowserChildProcessHostIterator::GetDelegate() {
   return (*iterator_)->delegate();
 }

@@ -12,11 +12,11 @@
 #include "base/message_loop/message_loop.h"
 #include "cc/output/compositor_frame.h"
 #include "cc/output/output_surface.h"
-#include "content/primary/aura/browser_compositor_output_surface.h"
-#include "content/primary/aura/browser_compositor_output_surface_proxy.h"
+#include "content/primary/aura/primary_compositor_output_surface.h"
+#include "content/primary/aura/primary_compositor_output_surface_proxy.h"
 #include "content/primary/aura/reflector_impl.h"
 #include "content/primary/aura/software_browser_compositor_output_surface.h"
-#include "content/primary/gpu/browser_gpu_channel_host_factory.h"
+#include "content/primary/gpu/primary_gpu_channel_host_factory.h"
 #include "content/primary/gpu/gpu_data_manager_impl.h"
 #include "content/primary/gpu/gpu_surface_tracker.h"
 #include "content/common/gpu/client/context_provider_command_buffer.h"
@@ -467,7 +467,7 @@ GpuProcessTransportFactory::CreateContextCommon(
   attrs.stencil = false;
   attrs.antialias = false;
   attrs.noAutomaticFlushes = true;
-  GpuChannelHostFactory* factory = BrowserGpuChannelHostFactory::instance();
+  GpuChannelHostFactory* factory = PrimaryGpuChannelHostFactory::instance();
   GURL url("chrome://gpu/GpuProcessTransportFactory::CreateContextCommon");
   scoped_ptr<WebGraphicsContext3DCommandBufferImpl> context(
       new WebGraphicsContext3DCommandBufferImpl(

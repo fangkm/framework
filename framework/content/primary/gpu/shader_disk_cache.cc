@@ -6,7 +6,7 @@
 
 #include "base/threading/thread_checker.h"
 #include "content/primary/gpu/gpu_process_host.h"
-#include "content/public/primary/browser_thread.h"
+#include "content/public/primary/primary_thread.h"
 #include "gpu/command_buffer/common/constants.h"
 #include "net/base/cache_type.h"
 #include "net/base/io_buffer.h"
@@ -149,7 +149,7 @@ ShaderDiskCacheEntry::ShaderDiskCacheEntry(base::WeakPtr<ShaderDiskCache> cache,
 
 ShaderDiskCacheEntry::~ShaderDiskCacheEntry() {
   if (entry_)
-    BrowserThread::PostTask(BrowserThread::IO, FROM_HERE,
+    PrimaryThread::PostTask(PrimaryThread::IO, FROM_HERE,
                             base::Bind(&EntryCloser, entry_));
 }
 
@@ -347,7 +347,7 @@ int ShaderDiskReadHelper::IterationComplete(int rv) {
 
 ShaderDiskReadHelper::~ShaderDiskReadHelper() {
   if (entry_)
-    BrowserThread::PostTask(BrowserThread::IO, FROM_HERE,
+    PrimaryThread::PostTask(PrimaryThread::IO, FROM_HERE,
                             base::Bind(&EntryCloser, entry_));
 }
 
@@ -365,16 +365,16 @@ ShaderClearHelper::ShaderClearHelper(scoped_refptr<ShaderDiskCache> cache,
 }
 
 ShaderClearHelper::~ShaderClearHelper() {
-  DCHECK(BrowserThread::CurrentlyOn(BrowserThread::IO));
+  DCHECK(PrimaryThread::CurrentlyOn(PrimaryThread::IO));
 }
 
 void ShaderClearHelper::Clear() {
-  DCHECK(BrowserThread::CurrentlyOn(BrowserThread::IO));
+  DCHECK(PrimaryThread::CurrentlyOn(PrimaryThread::IO));
   DoClearShaderCache(net::OK);
 }
 
 void ShaderClearHelper::DoClearShaderCache(int rv) {
-  DCHECK(BrowserThread::CurrentlyOn(BrowserThread::IO));
+  DCHECK(PrimaryThread::CurrentlyOn(PrimaryThread::IO));
 
   // Hold a ref to ourselves so when we do the CacheCleared call we don't get
   // auto-deleted when our ref count drops to zero.
@@ -459,7 +459,7 @@ void ShaderCacheFactory::ClearByPath(const base::FilePath& path,
                                      const base::Time& delete_begin,
                                      const base::Time& delete_end,
                                      const base::Closure& callback) {
-  DCHECK(BrowserThread::CurrentlyOn(BrowserThread::IO));
+  DCHECK(PrimaryThread::CurrentlyOn(PrimaryThread::IO));
   DCHECK(!callback.is_null());
 
   scoped_refptr<ShaderClearHelper> helper = new ShaderClearHelper(
@@ -483,7 +483,7 @@ void ShaderCacheFactory::ClearByPath(const base::FilePath& path,
 }
 
 void ShaderCacheFactory::CacheCleared(const base::FilePath& path) {
-  DCHECK(BrowserThread::CurrentlyOn(BrowserThread::IO));
+  DCHECK(PrimaryThread::CurrentlyOn(PrimaryThread::IO));
 
   ShaderClearMap::iterator iter = shader_clear_map_.find(path);
   if (iter == shader_clear_map_.end()) {
@@ -528,7 +528,7 @@ void ShaderDiskCache::Init() {
       cache_path_.Append(kGpuCachePath),
       gpu::kDefaultMaxProgramCacheMemoryBytes,
       true,
-      BrowserThread::GetMessageLoopProxyForThread(BrowserThread::CACHE).get(),
+      PrimaryThread::GetMessageLoopProxyForThread(PrimaryThread::CACHE).get(),
       NULL,
       &backend_,
       base::Bind(&ShaderDiskCache::CacheCreatedCallback, this));

@@ -9,7 +9,7 @@
 #include "base/memory/ref_counted.h"
 #include "base/power_monitor/power_observer.h"
 #include "content/common/content_export.h"
-#include "content/public/primary/browser_thread.h"
+#include "content/public/primary/primary_thread.h"
 
 namespace IPC {
   class Sender;

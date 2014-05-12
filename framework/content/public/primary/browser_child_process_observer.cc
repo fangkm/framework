@@ -4,19 +4,19 @@
 
 #include "content/public/primary/browser_child_process_observer.h"
 
-#include "content/primary/browser_child_process_host_impl.h"
+#include "content/primary/primary_child_process_host_impl.h"
 
 namespace content {
 
 // static
-void BrowserChildProcessObserver::Add(BrowserChildProcessObserver* observer) {
-  BrowserChildProcessHostImpl::AddObserver(observer);
+void PrimaryChildProcessObserver::Add(PrimaryChildProcessObserver* observer) {
+  PrimaryChildProcessHostImpl::AddObserver(observer);
 }
 
 // static
-void BrowserChildProcessObserver::Remove(
-    BrowserChildProcessObserver* observer) {
-  BrowserChildProcessHostImpl::RemoveObserver(observer);
+void PrimaryChildProcessObserver::Remove(
+    PrimaryChildProcessObserver* observer) {
+  PrimaryChildProcessHostImpl::RemoveObserver(observer);
 }
 
 }  // namespace content

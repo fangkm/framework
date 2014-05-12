@@ -10,10 +10,10 @@
 
 namespace content {
 
-// Interface that all users of BrowserChildProcessHost need to provide.
-class CONTENT_EXPORT BrowserChildProcessHostDelegate : public IPC::Listener {
+// Interface that all users of PrimaryChildProcessHost need to provide.
+class CONTENT_EXPORT PrimaryChildProcessHostDelegate : public IPC::Listener {
  public:
-  virtual ~BrowserChildProcessHostDelegate() {}
+  virtual ~PrimaryChildProcessHostDelegate() {}
 
   // Delegates return true if it's ok to shut down the child process (which is
   // the default return value). The exception is if the host is in the middle of

@@ -6,7 +6,7 @@
 
 namespace content {
 
-bool BrowserChildProcessHostDelegate::CanShutdown() {
+bool PrimaryChildProcessHostDelegate::CanShutdown() {
   return true;
 }
 

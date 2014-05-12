@@ -60,7 +60,7 @@ class CONTENT_EXPORT URLDataSource {
 
   // Returns the MessageLoop on which the delegate wishes to have
   // StartDataRequest called to handle the request for |path|. The default
-  // implementation returns BrowserThread::UI. If the delegate does not care
+  // implementation returns PrimaryThread::UI. If the delegate does not care
   // which thread StartDataRequest is called on, this should return NULL. It may
   // be beneficial to return NULL for requests that are safe to handle directly
   // on the IO thread.  This can improve performance by satisfying such requests

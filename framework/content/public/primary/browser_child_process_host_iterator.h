@@ -14,8 +14,8 @@ class Message;
 }
 
 namespace content {
-class BrowserChildProcessHostDelegate;
-class BrowserChildProcessHostImpl;
+class PrimaryChildProcessHostDelegate;
+class PrimaryChildProcessHostImpl;
 struct ChildProcessData;
 
 // This class allows iteration through either all child processes, or ones of a
@@ -33,15 +33,15 @@ class CONTENT_EXPORT BrowserChildProcessHostIterator {
   bool Done();
   const ChildProcessData& GetData();
   bool Send(IPC::Message* message);
-  BrowserChildProcessHostDelegate* GetDelegate();
+  PrimaryChildProcessHostDelegate* GetDelegate();
 
  private:
   bool all_;
   int process_type_;
-  std::list<BrowserChildProcessHostImpl*>::iterator iterator_;
+  std::list<PrimaryChildProcessHostImpl*>::iterator iterator_;
 };
 
-// Helper class so that subclasses of BrowserChildProcessHostDelegate can be
+// Helper class so that subclasses of PrimaryChildProcessHostDelegate can be
 // iterated with no casting needing. Note that because of the components build,
 // this class can only be used by BCPHD implementations that live in content,
 // otherwise link errors will result.

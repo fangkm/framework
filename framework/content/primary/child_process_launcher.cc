@@ -15,7 +15,7 @@
 #include "base/process/process.h"
 #include "base/synchronization/lock.h"
 #include "base/threading/thread.h"
-#include "content/public/primary/browser_thread.h"
+#include "content/public/primary/primary_thread.h"
 #include "content/public/primary/content_main_client.h"
 #include "content/public/common/content_descriptors.h"
 #include "content/public/common/content_switches.h"
@@ -51,7 +51,7 @@ class ChildProcessLauncher::Context
  public:
   Context()
       : client_(NULL),
-        client_thread_id_(BrowserThread::UI),
+        client_thread_id_(PrimaryThread::UI),
         termination_status_(base::TERMINATION_STATUS_NORMAL_TERMINATION),
         exit_code_(RESULT_CODE_NORMAL_EXIT),
         starting_(true)
@@ -82,7 +82,7 @@ class ChildProcessLauncher::Context
       Client* client) {
     client_ = client;
 
-    CHECK(BrowserThread::GetCurrentThreadIdentifier(&client_thread_id_));
+    CHECK(PrimaryThread::GetCurrentThreadIdentifier(&client_thread_id_));
 
 #if defined(OS_ANDROID)
     // We need to close the client end of the IPC channel to reliably detect
@@ -90,8 +90,8 @@ class ChildProcessLauncher::Context
     // process which is asynchronous on Android.
     ipcfd_ = ipcfd;
 #endif
-    BrowserThread::PostTask(
-        BrowserThread::PROCESS_LAUNCHER, FROM_HERE,
+    PrimaryThread::PostTask(
+        PrimaryThread::PROCESS_LAUNCHER, FROM_HERE,
         base::Bind(
             &Context::LaunchInternal,
             make_scoped_refptr(this),
@@ -113,16 +113,16 @@ class ChildProcessLauncher::Context
   static void OnChildProcessStarted(
       // |this_object| is NOT thread safe. Only use it to post a task back.
       scoped_refptr<Context> this_object,
-      BrowserThread::ID client_thread_id,
+      PrimaryThread::ID client_thread_id,
       const base::TimeTicks begin_launch_time,
       base::ProcessHandle handle) {
     RecordHistograms(begin_launch_time);
-    if (BrowserThread::CurrentlyOn(client_thread_id)) {
+    if (PrimaryThread::CurrentlyOn(client_thread_id)) {
       // This is always invoked on the UI thread which is commonly the
       // |client_thread_id| so we can shortcut one PostTask.
       this_object->Notify(handle);
     } else {
-      BrowserThread::PostTask(
+      PrimaryThread::PostTask(
           client_thread_id, FROM_HERE,
           base::Bind(
               &ChildProcessLauncher::Context::Notify,
@@ -135,7 +135,7 @@ class ChildProcessLauncher::Context
   void ResetClient() {
     // No need for locking as this function gets called on the same thread that
     // client_ would be used.
-    CHECK(BrowserThread::CurrentlyOn(client_thread_id_));
+    CHECK(PrimaryThread::CurrentlyOn(client_thread_id_));
     client_ = NULL;
   }
 
@@ -153,11 +153,11 @@ class ChildProcessLauncher::Context
 
   static void RecordHistograms(const base::TimeTicks begin_launch_time) {
     base::TimeDelta launch_time = base::TimeTicks::Now() - begin_launch_time;
-    if (BrowserThread::CurrentlyOn(BrowserThread::PROCESS_LAUNCHER)) {
+    if (PrimaryThread::CurrentlyOn(PrimaryThread::PROCESS_LAUNCHER)) {
       RecordLaunchHistograms(launch_time);
     } else {
-      BrowserThread::PostTask(
-          BrowserThread::PROCESS_LAUNCHER, FROM_HERE,
+      PrimaryThread::PostTask(
+          PrimaryThread::PROCESS_LAUNCHER, FROM_HERE,
           base::Bind(&ChildProcessLauncher::Context::RecordLaunchHistograms,
                      launch_time));
     }
@@ -178,7 +178,7 @@ class ChildProcessLauncher::Context
   static void LaunchInternal(
       // |this_object| is NOT thread safe. Only use it to post a task back.
       scoped_refptr<Context> this_object,
-      BrowserThread::ID client_thread_id,
+      PrimaryThread::ID client_thread_id,
       int child_process_id,
 #if defined(OS_WIN)
       SandboxedProcessLauncherDelegate* delegate,
@@ -299,7 +299,7 @@ class ChildProcessLauncher::Context
 #if !defined(OS_ANDROID)
   if (handle)
     RecordHistograms(begin_launch_time);
-  BrowserThread::PostTask(
+  PrimaryThread::PostTask(
       client_thread_id, FROM_HERE,
       base::Bind(
           &Context::Notify,
@@ -344,8 +344,8 @@ class ChildProcessLauncher::Context
 
     // On Posix, EnsureProcessTerminated can lead to 2 seconds of sleep!  So
     // don't this on the UI/IO threads.
-    BrowserThread::PostTask(
-        BrowserThread::PROCESS_LAUNCHER, FROM_HERE,
+    PrimaryThread::PostTask(
+        PrimaryThread::PROCESS_LAUNCHER, FROM_HERE,
         base::Bind(
             &Context::TerminateInternal,
 #if defined(OS_POSIX) && !defined(OS_MACOSX) && !defined(OS_ANDROID)
@@ -392,7 +392,7 @@ class ChildProcessLauncher::Context
   }
 
   Client* client_;
-  BrowserThread::ID client_thread_id_;
+  PrimaryThread::ID client_thread_id_;
   base::Process process_;
   base::TerminationStatus termination_status_;
   int exit_code_;
@@ -486,8 +486,8 @@ base::TerminationStatus ChildProcessLauncher::GetChildTerminationStatus(
 }
 
 void ChildProcessLauncher::SetProcessBackgrounded(bool background) {
-  BrowserThread::PostTask(
-      BrowserThread::PROCESS_LAUNCHER, FROM_HERE,
+  PrimaryThread::PostTask(
+      PrimaryThread::PROCESS_LAUNCHER, FROM_HERE,
       base::Bind(
           &ChildProcessLauncher::Context::SetProcessBackgrounded,
           GetHandle(), background));

@@ -41,7 +41,7 @@ namespace chrome_browser_net {
 class Predictor;
 }
 namespace content {
-class BrowserGpuChannelHostFactory;
+class PrimaryGpuChannelHostFactory;
 class BrowserTestBase;
 class GLHelper;
 class GpuChannelHost;
@@ -202,7 +202,7 @@ class BASE_EXPORT ThreadRestrictions {
   friend class browser_sync::UIModelWorker;       // http://crbug.com/19757
   friend class chrome_browser_net::Predictor;     // http://crbug.com/78451
   friend class
-      content::BrowserGpuChannelHostFactory;      // http://crbug.com/125248
+      content::PrimaryGpuChannelHostFactory;      // http://crbug.com/125248
   friend class content::GLHelper;                 // http://crbug.com/125415
   friend class content::GpuChannelHost;           // http://crbug.com/125264
   friend class content::TextInputClientMac;       // http://crbug.com/121917

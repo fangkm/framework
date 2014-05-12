@@ -3,7 +3,7 @@
 
 #include "base/basictypes.h"
 #include "base/memory/scoped_ptr.h"
-#include "content/public/primary/browser_main_parts.h"
+#include "content/public/primary/primary_main_parts.h"
 
 namespace content {
 struct MainFunctionParams;

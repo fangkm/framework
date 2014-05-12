@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "content/public/primary/browser_main_runner.h"
+#include "content/public/primary/primary_main_runner.h"
 
 #include "base/allocator/allocator_shim.h"
 #include "base/base_switches.h"
@@ -11,8 +11,8 @@
 #include "base/logging.h"
 #include "base/metrics/histogram.h"
 #include "base/metrics/statistics_recorder.h"
-#include "content/primary/browser_main_loop.h"
-#include "content/primary/browser_shutdown_profile_dumper.h"
+#include "content/primary/primary_main_loop.h"
+#include "content/primary/primary_shutdown_profile_dumper.h"
 #include "content/primary/notification_service_impl.h"
 #include "content/public/common/content_switches.h"
 #include "content/public/common/main_function_params.h"
@@ -28,18 +28,18 @@ bool g_exited_main_message_loop = false;
 
 namespace content {
 
-class BrowserMainRunnerImpl : public BrowserMainRunner {
+class PrimaryMainRunnerImpl : public PrimaryMainRunner {
  public:
-  BrowserMainRunnerImpl()
+  PrimaryMainRunnerImpl()
       : initialization_started_(false), is_shutdown_(false) {}
 
-  virtual ~BrowserMainRunnerImpl() {
+  virtual ~PrimaryMainRunnerImpl() {
     if (initialization_started_ && !is_shutdown_)
       Shutdown();
   }
 
   virtual int Initialize(const MainFunctionParams& parameters) OVERRIDE {
-    TRACE_EVENT0("startup", "BrowserMainRunnerImpl::Initialize");
+    TRACE_EVENT0("startup", "PrimaryMainRunnerImpl::Initialize");
     // On Android we normally initialize the browser in a series of UI thread
     // tasks. While this is happening a second request can come from the OS or
     // another application to start the browser. If this happens then we must
@@ -81,7 +81,7 @@ class BrowserMainRunnerImpl : public BrowserMainRunner {
       ole_initializer_.reset(new ui::ScopedOleInitializer);
 #endif  // OS_WIN
 
-      main_loop_.reset(new BrowserMainLoop(parameters));
+      main_loop_.reset(new PrimaryMainLoop(parameters));
 
       main_loop_->Init();
 
@@ -129,13 +129,13 @@ class BrowserMainRunnerImpl : public BrowserMainRunner {
     // needs to write the result to disc. For that a dumper needs to get created
     // which will dump the traces to disc when it gets destroyed.
     const CommandLine& command_line = *CommandLine::ForCurrentProcess();
-    scoped_ptr<BrowserShutdownProfileDumper> profiler;
+    scoped_ptr<PrimaryShutdownProfileDumper> profiler;
     if (command_line.HasSwitch(switches::kTraceShutdown))
-      profiler.reset(new BrowserShutdownProfileDumper());
+      profiler.reset(new PrimaryShutdownProfileDumper());
 
     {
       // The trace event has to stay between profiler creation and destruction.
-      TRACE_EVENT0("shutdown", "BrowserMainRunner");
+      TRACE_EVENT0("shutdown", "PrimaryMainRunner");
       g_exited_main_message_loop = true;
 
       main_loop_->ShutdownThreadsAndCleanUp();
@@ -161,17 +161,17 @@ class BrowserMainRunnerImpl : public BrowserMainRunner {
   bool is_shutdown_;
 
   scoped_ptr<NotificationServiceImpl> notification_service_;
-  scoped_ptr<BrowserMainLoop> main_loop_;
+  scoped_ptr<PrimaryMainLoop> main_loop_;
 #if defined(OS_WIN)
   scoped_ptr<ui::ScopedOleInitializer> ole_initializer_;
 #endif
 
-  DISALLOW_COPY_AND_ASSIGN(BrowserMainRunnerImpl);
+  DISALLOW_COPY_AND_ASSIGN(PrimaryMainRunnerImpl);
 };
 
 // static
-BrowserMainRunner* BrowserMainRunner::Create() {
-  return new BrowserMainRunnerImpl();
+PrimaryMainRunner* PrimaryMainRunner::Create() {
+  return new PrimaryMainRunnerImpl();
 }
 
 }  // namespace content

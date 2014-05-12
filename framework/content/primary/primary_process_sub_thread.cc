@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "content/primary/browser_process_sub_thread.h"
+#include "content/primary/primary_process_sub_thread.h"
 
 #include "base/debug/leak_tracker.h"
 #include "base/threading/thread_restrictions.h"
 #include "build/build_config.h"
-#include "content/primary/browser_child_process_host_impl.h"
+#include "content/primary/primary_child_process_host_impl.h"
 #include "content/primary/notification_service_impl.h"
 #include "net/url_request/url_fetcher.h"
 #include "net/url_request/url_request.h"
@@ -18,24 +18,24 @@
 
 namespace content {
 
-BrowserProcessSubThread::BrowserProcessSubThread(BrowserThread::ID identifier)
-    : BrowserThreadImpl(identifier) {
+PrimaryProcessSubThread::PrimaryProcessSubThread(PrimaryThread::ID identifier)
+    : PrimaryThreadImpl(identifier) {
 }
 
-BrowserProcessSubThread::~BrowserProcessSubThread() {
+PrimaryProcessSubThread::~PrimaryProcessSubThread() {
   Stop();
 }
 
-void BrowserProcessSubThread::Init() {
+void PrimaryProcessSubThread::Init() {
 #if defined(OS_WIN)
   com_initializer_.reset(new base::win::ScopedCOMInitializer());
 #endif
 
   notification_service_.reset(new NotificationServiceImpl());
 
-  BrowserThreadImpl::Init();
+  PrimaryThreadImpl::Init();
 
-  if (BrowserThread::CurrentlyOn(BrowserThread::IO)) {
+  if (PrimaryThread::CurrentlyOn(PrimaryThread::IO)) {
     // Though this thread is called the "IO" thread, it actually just routes
     // messages around; it shouldn't be allowed to perform any blocking disk
     // I/O.
@@ -44,11 +44,11 @@ void BrowserProcessSubThread::Init() {
   }
 }
 
-void BrowserProcessSubThread::CleanUp() {
-  if (BrowserThread::CurrentlyOn(BrowserThread::IO))
+void PrimaryProcessSubThread::CleanUp() {
+  if (PrimaryThread::CurrentlyOn(PrimaryThread::IO))
     IOThreadPreCleanUp();
 
-  BrowserThreadImpl::CleanUp();
+  PrimaryThreadImpl::CleanUp();
 
   notification_service_.reset();
 
@@ -57,7 +57,7 @@ void BrowserProcessSubThread::CleanUp() {
 #endif
 }
 
-void BrowserProcessSubThread::IOThreadPreCleanUp() {
+void PrimaryProcessSubThread::IOThreadPreCleanUp() {
   // Kill all things that might be holding onto
   // net::URLRequest/net::URLRequestContexts.
 
@@ -66,9 +66,9 @@ void BrowserProcessSubThread::IOThreadPreCleanUp() {
 
 #if !defined(OS_IOS)
   // If any child processes are still running, terminate them and
-  // and delete the BrowserChildProcessHost instances to release whatever
+  // and delete the PrimaryChildProcessHost instances to release whatever
   // IO thread only resources they are referencing.
-  BrowserChildProcessHostImpl::TerminateAll();
+  PrimaryChildProcessHostImpl::TerminateAll();
 #endif  // !defined(OS_IOS)
 }
 

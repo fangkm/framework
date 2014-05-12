@@ -8,8 +8,8 @@
 #include "base/basictypes.h"
 #include "base/memory/ref_counted.h"
 #include "base/memory/scoped_ptr.h"
-#include "content/primary/browser_process_sub_thread.h"
-#include "content/public/primary/browser_main_runner.h"
+#include "content/primary/primary_process_sub_thread.h"
+#include "content/public/primary/primary_main_runner.h"
 
 class CommandLine;
 
@@ -30,8 +30,8 @@ class NetworkChangeNotifier;
 
 namespace content {
 class MainParts;
-class BrowserShutdownImpl;
-class BrowserThreadImpl;
+class PrimaryShutdownImpl;
+class PrimaryThreadImpl;
 class StartupTaskRunner;
 class SystemMessageWindowWin;
 struct MainFunctionParams;
@@ -42,16 +42,16 @@ class DeviceMonitorLinux;
 class DeviceMonitorMac;
 #endif
 
-// Implements the main browser loop stages called from BrowserMainRunner.
-// See comments in browser_main_parts.h for additional info.
-class CONTENT_EXPORT BrowserMainLoop {
+// Implements the main browser loop stages called from PrimaryMainRunner.
+// See comments in primary_main_parts.h for additional info.
+class CONTENT_EXPORT PrimaryMainLoop {
  public:
   // Returns the current instance. This is used to get access to the getters
   // that return objects which are owned by this class.
-  static BrowserMainLoop* GetInstance();
+  static PrimaryMainLoop* GetInstance();
 
-  explicit BrowserMainLoop(const MainFunctionParams& parameters);
-  virtual ~BrowserMainLoop();
+  explicit PrimaryMainLoop(const MainFunctionParams& parameters);
+  virtual ~PrimaryMainLoop();
 
   void Init();
 
@@ -77,7 +77,7 @@ class CONTENT_EXPORT BrowserMainLoop {
  private:
   class MemoryObserver;
   // For ShutdownThreadsAndCleanUp.
-  friend class BrowserShutdownImpl;
+  friend class PrimaryShutdownImpl;
 
   void InitializeMainThread();
 
@@ -88,7 +88,7 @@ class CONTENT_EXPORT BrowserMainLoop {
   int CreateThreads();
 
   // Called right after the browser threads have been started.
-  int BrowserThreadsStarted();
+  int PrimaryThreadsStarted();
 
   int PreMainMessageLoopRun();
 
@@ -124,19 +124,19 @@ class CONTENT_EXPORT BrowserMainLoop {
 
   // Members initialized in |InitializeMainThread()| ---------------------------
   // This must get destroyed before other threads that are created in parts_.
-  scoped_ptr<BrowserThreadImpl> main_thread_;
+  scoped_ptr<PrimaryThreadImpl> main_thread_;
 
   // Members initialized in |RunMainMessageLoopParts()| ------------------------
-  scoped_ptr<BrowserProcessSubThread> db_thread_;
-  scoped_ptr<BrowserProcessSubThread> file_user_blocking_thread_;
-  scoped_ptr<BrowserProcessSubThread> file_thread_;
-  scoped_ptr<BrowserProcessSubThread> process_launcher_thread_;
-  scoped_ptr<BrowserProcessSubThread> cache_thread_;
-  scoped_ptr<BrowserProcessSubThread> io_thread_;
+  scoped_ptr<PrimaryProcessSubThread> db_thread_;
+  scoped_ptr<PrimaryProcessSubThread> file_user_blocking_thread_;
+  scoped_ptr<PrimaryProcessSubThread> file_thread_;
+  scoped_ptr<PrimaryProcessSubThread> process_launcher_thread_;
+  scoped_ptr<PrimaryProcessSubThread> cache_thread_;
+  scoped_ptr<PrimaryProcessSubThread> io_thread_;
   scoped_ptr<MemoryObserver> memory_observer_;
   scoped_ptr<base::debug::TraceMemoryController> trace_memory_controller_;
 
-  DISALLOW_COPY_AND_ASSIGN(BrowserMainLoop);
+  DISALLOW_COPY_AND_ASSIGN(PrimaryMainLoop);
 };
 
 }  // namespace content

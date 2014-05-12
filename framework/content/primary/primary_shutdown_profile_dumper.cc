@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "content/primary/browser_shutdown_profile_dumper.h"
+#include "content/primary/primary_shutdown_profile_dumper.h"
 
 #include "base/base_switches.h"
 #include "base/command_line.h"
@@ -15,16 +15,16 @@
 
 namespace content {
 
-BrowserShutdownProfileDumper::BrowserShutdownProfileDumper()
+PrimaryShutdownProfileDumper::PrimaryShutdownProfileDumper()
     : blocks_(0),
       dump_file_(NULL) {
 }
 
-BrowserShutdownProfileDumper::~BrowserShutdownProfileDumper() {
+PrimaryShutdownProfileDumper::~PrimaryShutdownProfileDumper() {
   WriteTracesToDisc(GetFileName());
 }
 
-void BrowserShutdownProfileDumper::WriteTracesToDisc(
+void PrimaryShutdownProfileDumper::WriteTracesToDisc(
     const base::FilePath& file_name) {
   // Note: I have seen a usage of 0.000xx% when dumping - which fits easily.
   // Since the tracer stops when the trace buffer is filled, we'd rather save
@@ -44,11 +44,11 @@ void BrowserShutdownProfileDumper::WriteTracesToDisc(
   WriteString("[");
 
   base::debug::TraceLog::GetInstance()->Flush(
-      base::Bind(&BrowserShutdownProfileDumper::WriteTraceDataCollected,
+      base::Bind(&PrimaryShutdownProfileDumper::WriteTraceDataCollected,
       base::Unretained(this)));
 }
 
-base::FilePath BrowserShutdownProfileDumper::GetFileName() {
+base::FilePath PrimaryShutdownProfileDumper::GetFileName() {
   const CommandLine& command_line = *CommandLine::ForCurrentProcess();
   base::FilePath trace_file =
       command_line.GetSwitchValuePath(switches::kTraceShutdownFile);
@@ -60,7 +60,7 @@ base::FilePath BrowserShutdownProfileDumper::GetFileName() {
   return base::FilePath().AppendASCII("chrometrace.log");
 }
 
-void BrowserShutdownProfileDumper::WriteTraceDataCollected(
+void PrimaryShutdownProfileDumper::WriteTraceDataCollected(
     const scoped_refptr<base::RefCountedString>& events_str,
     bool has_more_events) {
   if (!IsFileValid())
@@ -80,15 +80,15 @@ void BrowserShutdownProfileDumper::WriteTraceDataCollected(
   }
 }
 
-bool BrowserShutdownProfileDumper::IsFileValid() {
+bool PrimaryShutdownProfileDumper::IsFileValid() {
   return dump_file_ && (ferror(dump_file_) == 0);
 }
 
-void BrowserShutdownProfileDumper::WriteString(const std::string& string) {
+void PrimaryShutdownProfileDumper::WriteString(const std::string& string) {
   WriteChars(string.data(), string.size());
 }
 
-void BrowserShutdownProfileDumper::WriteChars(const char* chars, size_t size) {
+void PrimaryShutdownProfileDumper::WriteChars(const char* chars, size_t size) {
   if (!IsFileValid())
     return;
 
@@ -100,7 +100,7 @@ void BrowserShutdownProfileDumper::WriteChars(const char* chars, size_t size) {
   }
 }
 
-void BrowserShutdownProfileDumper::CloseFile() {
+void PrimaryShutdownProfileDumper::CloseFile() {
   if (!dump_file_)
     return;
   file_util::CloseFile(dump_file_);

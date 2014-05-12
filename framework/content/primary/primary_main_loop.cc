@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "content/primary/browser_main_loop.h"
+#include "content/primary/primary_main_loop.h"
 
 #include "base/bind.h"
 #include "base/command_line.h"
@@ -22,13 +22,13 @@
 #include "base/system_monitor/system_monitor.h"
 #include "base/threading/thread_restrictions.h"
 #include "base/timer/hi_res_timer_manager.h"
-#include "content/primary/browser_thread_impl.h"
+#include "content/primary/primary_thread_impl.h"
 #include "content/primary/startup_task_runner.h"
-#include "content/primary/gpu/browser_gpu_channel_host_factory.h"
+#include "content/primary/gpu/primary_gpu_channel_host_factory.h"
 #include "content/primary/gpu/compositor_util.h"
 #include "content/primary/gpu/gpu_data_manager_impl.h"
 #include "content/primary/gpu/gpu_process_host.h"
-#include "content/public/primary/browser_main_parts.h"
+#include "content/public/primary/primary_main_parts.h"
 #include "content/public/primary/browser_shutdown.h"
 #include "content/public/primary/content_main_client.h"
 #include "content/public/common/content_switches.h"
@@ -98,16 +98,16 @@
 
 namespace content {
 
-// The currently-running BrowserMainLoop.  There can be one or zero.
-BrowserMainLoop* g_current_browser_main_loop = NULL;
+// The currently-running PrimaryMainLoop.  There can be one or zero.
+PrimaryMainLoop* g_current_primary_main_loop = NULL;
 
 // This is just to be able to keep ShutdownThreadsAndCleanUp out of
-// the public interface of BrowserMainLoop.
-class BrowserShutdownImpl {
+// the public interface of PrimaryMainLoop.
+class PrimaryShutdownImpl {
  public:
   static void ImmediateShutdownAndExitProcess() {
-    DCHECK(g_current_browser_main_loop);
-    g_current_browser_main_loop->ShutdownThreadsAndCleanUp();
+    DCHECK(g_current_primary_main_loop);
+    g_current_primary_main_loop->ShutdownThreadsAndCleanUp();
 
 #if defined(OS_WIN)
     // At this point the message loop is still running yet we've shut everything
@@ -122,11 +122,11 @@ class BrowserShutdownImpl {
 };
 
 void ImmediateShutdownAndExitProcess() {
-  BrowserShutdownImpl::ImmediateShutdownAndExitProcess();
+  PrimaryShutdownImpl::ImmediateShutdownAndExitProcess();
 }
 
 // For measuring memory usage after each task. Behind a command line flag.
-class BrowserMainLoop::MemoryObserver : public base::MessageLoop::TaskObserver {
+class PrimaryMainLoop::MemoryObserver : public base::MessageLoop::TaskObserver {
  public:
   MemoryObserver() {}
   virtual ~MemoryObserver() {}
@@ -153,40 +153,40 @@ class BrowserMainLoop::MemoryObserver : public base::MessageLoop::TaskObserver {
 };
 
 
-// BrowserMainLoop construction / destruction =============================
+// PrimaryMainLoop construction / destruction =============================
 
-BrowserMainLoop* BrowserMainLoop::GetInstance() {
-  DCHECK(BrowserThread::CurrentlyOn(BrowserThread::UI));
-  return g_current_browser_main_loop;
+PrimaryMainLoop* PrimaryMainLoop::GetInstance() {
+  DCHECK(PrimaryThread::CurrentlyOn(PrimaryThread::UI));
+  return g_current_primary_main_loop;
 }
 
-BrowserMainLoop::BrowserMainLoop(const MainFunctionParams& parameters)
+PrimaryMainLoop::PrimaryMainLoop(const MainFunctionParams& parameters)
     : parameters_(parameters),
       parsed_command_line_(parameters.command_line),
       result_code_(RESULT_CODE_NORMAL_EXIT),
       created_threads_(false) {
-  DCHECK(!g_current_browser_main_loop);
-  g_current_browser_main_loop = this;
+  DCHECK(!g_current_primary_main_loop);
+  g_current_primary_main_loop = this;
 }
 
-BrowserMainLoop::~BrowserMainLoop() {
-  DCHECK_EQ(this, g_current_browser_main_loop);
+PrimaryMainLoop::~PrimaryMainLoop() {
+  DCHECK_EQ(this, g_current_primary_main_loop);
 #if !defined(OS_IOS)
   ui::Clipboard::DestroyClipboardForCurrentThread();
 #endif  // !defined(OS_IOS)
-  g_current_browser_main_loop = NULL;
+  g_current_primary_main_loop = NULL;
 }
 
-void BrowserMainLoop::Init() {
-  TRACE_EVENT0("startup", "BrowserMainLoop::Init")
+void PrimaryMainLoop::Init() {
+  TRACE_EVENT0("startup", "PrimaryMainLoop::Init")
   parts_.reset(
       GetContentClient()->MainClient()->CreateBrowserMainParts(parameters_));
 }
 
-// BrowserMainLoop stages ==================================================
+// PrimaryMainLoop stages ==================================================
 
-void BrowserMainLoop::EarlyInitialization() {
-  TRACE_EVENT0("startup", "BrowserMainLoop::EarlyInitialization");
+void PrimaryMainLoop::EarlyInitialization() {
+  TRACE_EVENT0("startup", "PrimaryMainLoop::EarlyInitialization");
 #if defined(USE_X11)
   if (parsed_command_line_.HasSwitch(switches::kSingleProcess) ||
       parsed_command_line_.HasSwitch(switches::kInProcessGPU)) {
@@ -219,11 +219,11 @@ void BrowserMainLoop::EarlyInitialization() {
     parts_->PostEarlyInitialization();
 }
 
-void BrowserMainLoop::MainMessageLoopStart() {
-  TRACE_EVENT0("startup", "BrowserMainLoop::MainMessageLoopStart")
+void PrimaryMainLoop::MainMessageLoopStart() {
+  TRACE_EVENT0("startup", "PrimaryMainLoop::MainMessageLoopStart")
   if (parts_) {
     TRACE_EVENT0("startup",
-        "BrowserMainLoop::MainMessageLoopStart:PreMainMessageLoopStart");
+        "PrimaryMainLoop::MainMessageLoopStart:PreMainMessageLoopStart");
     parts_->PreMainMessageLoopStart();
   }
 
@@ -243,21 +243,21 @@ void BrowserMainLoop::MainMessageLoopStart() {
   InitializeMainThread();
 
   {
-    TRACE_EVENT0("startup", "BrowserMainLoop::Subsystem:SystemMonitor")
+    TRACE_EVENT0("startup", "PrimaryMainLoop::Subsystem:SystemMonitor")
     system_monitor_.reset(new base::SystemMonitor);
   }
   {
-    TRACE_EVENT0("startup", "BrowserMainLoop::Subsystem:PowerMonitor")
+    TRACE_EVENT0("startup", "PrimaryMainLoop::Subsystem:PowerMonitor")
     scoped_ptr<base::PowerMonitorSource> power_monitor_source(
       new base::PowerMonitorDeviceSource());
     power_monitor_.reset(new base::PowerMonitor(power_monitor_source.Pass()));
   }
   {
-    TRACE_EVENT0("startup", "BrowserMainLoop::Subsystem:HighResTimerManager")
+    TRACE_EVENT0("startup", "PrimaryMainLoop::Subsystem:HighResTimerManager")
     hi_res_timer_manager_.reset(new base::HighResolutionTimerManager);
   }
   {
-    TRACE_EVENT0("startup", "BrowserMainLoop::Subsystem:NetworkChangeNotifier")
+    TRACE_EVENT0("startup", "PrimaryMainLoop::Subsystem:NetworkChangeNotifier")
     network_change_notifier_.reset(net::NetworkChangeNotifier::Create());
   }
 
@@ -281,13 +281,13 @@ void BrowserMainLoop::MainMessageLoopStart() {
 
 #if defined(OS_ANDROID)
   {
-    TRACE_EVENT0("startup", "BrowserMainLoop::Subsystem:SurfaceTexturePeer")
+    TRACE_EVENT0("startup", "PrimaryMainLoop::Subsystem:SurfaceTexturePeer")
     SurfaceTexturePeer::InitInstance(new SurfaceTexturePeerBrowserImpl());
   }
 #endif
 
   if (parsed_command_line_.HasSwitch(switches::kMemoryMetrics)) {
-    TRACE_EVENT0("startup", "BrowserMainLoop::Subsystem:MemoryObserver")
+    TRACE_EVENT0("startup", "PrimaryMainLoop::Subsystem:MemoryObserver")
     memory_observer_.reset(new MemoryObserver());
     base::MessageLoop::current()->AddTaskObserver(memory_observer_.get());
   }
@@ -301,18 +301,18 @@ void BrowserMainLoop::MainMessageLoopStart() {
 #endif
 }
 
-int BrowserMainLoop::PreCreateThreads() {
+int PrimaryMainLoop::PreCreateThreads() {
   if (parts_) {
     TRACE_EVENT0("startup",
-        "BrowserMainLoop::CreateThreads:PreCreateThreads");
+        "PrimaryMainLoop::CreateThreads:PreCreateThreads");
     result_code_ = parts_->PreCreateThreads();
   }
 
   return result_code_;
 }
 
-void BrowserMainLoop::CreateStartupTasks() {
-  TRACE_EVENT0("startup", "BrowserMainLoop::CreateStartupTasks");
+void PrimaryMainLoop::CreateStartupTasks() {
+  TRACE_EVENT0("startup", "PrimaryMainLoop::CreateStartupTasks");
 
   // First time through, we really want to create all the tasks
   if (!startup_task_runner_.get()) {
@@ -326,19 +326,19 @@ void BrowserMainLoop::CreateStartupTasks() {
         base::MessageLoop::current()->message_loop_proxy()));
 #endif
     StartupTask pre_create_threads =
-        base::Bind(&BrowserMainLoop::PreCreateThreads, base::Unretained(this));
+        base::Bind(&PrimaryMainLoop::PreCreateThreads, base::Unretained(this));
     startup_task_runner_->AddTask(pre_create_threads);
 
     StartupTask create_threads =
-        base::Bind(&BrowserMainLoop::CreateThreads, base::Unretained(this));
+        base::Bind(&PrimaryMainLoop::CreateThreads, base::Unretained(this));
     startup_task_runner_->AddTask(create_threads);
 
     StartupTask browser_thread_started = base::Bind(
-        &BrowserMainLoop::BrowserThreadsStarted, base::Unretained(this));
+        &PrimaryMainLoop::PrimaryThreadsStarted, base::Unretained(this));
     startup_task_runner_->AddTask(browser_thread_started);
 
     StartupTask pre_main_message_loop_run = base::Bind(
-        &BrowserMainLoop::PreMainMessageLoopRun, base::Unretained(this));
+        &PrimaryMainLoop::PreMainMessageLoopRun, base::Unretained(this));
     startup_task_runner_->AddTask(pre_main_message_loop_run);
 
 #if defined(OS_ANDROID)
@@ -361,8 +361,8 @@ void BrowserMainLoop::CreateStartupTasks() {
 #endif
 }
 
-int BrowserMainLoop::CreateThreads() {
-  TRACE_EVENT0("startup", "BrowserMainLoop::CreateThreads");
+int PrimaryMainLoop::CreateThreads() {
+  TRACE_EVENT0("startup", "PrimaryMainLoop::CreateThreads");
 
   base::Thread::Options default_options;
   base::Thread::Options io_message_loop_options;
@@ -370,34 +370,34 @@ int BrowserMainLoop::CreateThreads() {
   base::Thread::Options ui_message_loop_options;
   ui_message_loop_options.message_loop_type = base::MessageLoop::TYPE_UI;
 
-  // Start threads in the order they occur in the BrowserThread::ID
-  // enumeration, except for BrowserThread::UI which is the main
+  // Start threads in the order they occur in the PrimaryThread::ID
+  // enumeration, except for PrimaryThread::UI which is the main
   // thread.
   //
   // Must be size_t so we can increment it.
-  for (size_t thread_id = BrowserThread::UI + 1;
-       thread_id < BrowserThread::ID_COUNT;
+  for (size_t thread_id = PrimaryThread::UI + 1;
+       thread_id < PrimaryThread::ID_COUNT;
        ++thread_id) {
-    scoped_ptr<BrowserProcessSubThread>* thread_to_start = NULL;
+    scoped_ptr<PrimaryProcessSubThread>* thread_to_start = NULL;
     base::Thread::Options* options = &default_options;
 
     switch (thread_id) {
-      case BrowserThread::DB:
+      case PrimaryThread::DB:
         TRACE_EVENT_BEGIN1("startup",
-            "BrowserMainLoop::CreateThreads:start",
-            "Thread", "BrowserThread::DB");
+            "PrimaryMainLoop::CreateThreads:start",
+            "Thread", "PrimaryThread::DB");
         thread_to_start = &db_thread_;
         break;
-      case BrowserThread::FILE_USER_BLOCKING:
+      case PrimaryThread::FILE_USER_BLOCKING:
         TRACE_EVENT_BEGIN1("startup",
-            "BrowserMainLoop::CreateThreads:start",
-            "Thread", "BrowserThread::FILE_USER_BLOCKING");
+            "PrimaryMainLoop::CreateThreads:start",
+            "Thread", "PrimaryThread::FILE_USER_BLOCKING");
         thread_to_start = &file_user_blocking_thread_;
         break;
-      case BrowserThread::FILE:
+      case PrimaryThread::FILE:
         TRACE_EVENT_BEGIN1("startup",
-            "BrowserMainLoop::CreateThreads:start",
-            "Thread", "BrowserThread::FILE");
+            "PrimaryMainLoop::CreateThreads:start",
+            "Thread", "PrimaryThread::FILE");
         thread_to_start = &file_thread_;
 #if defined(OS_WIN)
         // On Windows, the FILE thread needs to be have a UI message loop
@@ -408,53 +408,53 @@ int BrowserMainLoop::CreateThreads() {
         options = &io_message_loop_options;
 #endif
         break;
-      case BrowserThread::PROCESS_LAUNCHER:
+      case PrimaryThread::PROCESS_LAUNCHER:
         TRACE_EVENT_BEGIN1("startup",
-            "BrowserMainLoop::CreateThreads:start",
-            "Thread", "BrowserThread::PROCESS_LAUNCHER");
+            "PrimaryMainLoop::CreateThreads:start",
+            "Thread", "PrimaryThread::PROCESS_LAUNCHER");
         thread_to_start = &process_launcher_thread_;
         break;
-      case BrowserThread::CACHE:
+      case PrimaryThread::CACHE:
         TRACE_EVENT_BEGIN1("startup",
-            "BrowserMainLoop::CreateThreads:start",
-            "Thread", "BrowserThread::CACHE");
+            "PrimaryMainLoop::CreateThreads:start",
+            "Thread", "PrimaryThread::CACHE");
         thread_to_start = &cache_thread_;
         options = &io_message_loop_options;
         break;
-      case BrowserThread::IO:
+      case PrimaryThread::IO:
         TRACE_EVENT_BEGIN1("startup",
-            "BrowserMainLoop::CreateThreads:start",
-            "Thread", "BrowserThread::IO");
+            "PrimaryMainLoop::CreateThreads:start",
+            "Thread", "PrimaryThread::IO");
         thread_to_start = &io_thread_;
         options = &io_message_loop_options;
         break;
-      case BrowserThread::UI:
-      case BrowserThread::ID_COUNT:
+      case PrimaryThread::UI:
+      case PrimaryThread::ID_COUNT:
       default:
         NOTREACHED();
         break;
     }
 
-    BrowserThread::ID id = static_cast<BrowserThread::ID>(thread_id);
+    PrimaryThread::ID id = static_cast<PrimaryThread::ID>(thread_id);
 
     if (thread_to_start) {
-      (*thread_to_start).reset(new BrowserProcessSubThread(id));
+      (*thread_to_start).reset(new PrimaryProcessSubThread(id));
       (*thread_to_start)->StartWithOptions(*options);
     } else {
       NOTREACHED();
     }
 
-    TRACE_EVENT_END0("startup", "BrowserMainLoop::CreateThreads:start");
+    TRACE_EVENT_END0("startup", "PrimaryMainLoop::CreateThreads:start");
 
   }
   created_threads_ = true;
   return result_code_;
 }
 
-int BrowserMainLoop::PreMainMessageLoopRun() {
+int PrimaryMainLoop::PreMainMessageLoopRun() {
   if (parts_) {
     TRACE_EVENT0("startup",
-        "BrowserMainLoop::CreateThreads:PreMainMessageLoopRun");
+        "PrimaryMainLoop::CreateThreads:PreMainMessageLoopRun");
     parts_->PreMainMessageLoopRun();
   }
 
@@ -465,7 +465,7 @@ int BrowserMainLoop::PreMainMessageLoopRun() {
   return result_code_;
 }
 
-void BrowserMainLoop::RunMainMessageLoopParts() {
+void PrimaryMainLoop::RunMainMessageLoopParts() {
   TRACE_EVENT_BEGIN_ETW("PrimaryMain:MESSAGE_LOOP", 0, "");
 
   bool ran_main_loop = false;
@@ -478,25 +478,25 @@ void BrowserMainLoop::RunMainMessageLoopParts() {
   TRACE_EVENT_END_ETW("PrimaryMain:MESSAGE_LOOP", 0, "");
 }
 
-void BrowserMainLoop::ShutdownThreadsAndCleanUp() {
+void PrimaryMainLoop::ShutdownThreadsAndCleanUp() {
 
   if (!created_threads_) {
     // Called early, nothing to do
     return;
   }
-  TRACE_EVENT0("shutdown", "BrowserMainLoop::ShutdownThreadsAndCleanUp")
+  TRACE_EVENT0("shutdown", "PrimaryMainLoop::ShutdownThreadsAndCleanUp")
 
   // Teardown may start in PostMainMessageLoopRun, and during teardown we
   // need to be able to perform IO.
   base::ThreadRestrictions::SetIOAllowed(true);
-  BrowserThread::PostTask(
-      BrowserThread::IO, FROM_HERE,
+  PrimaryThread::PostTask(
+      PrimaryThread::IO, FROM_HERE,
       base::Bind(base::IgnoreResult(&base::ThreadRestrictions::SetIOAllowed),
                  true));
 
   if (parts_) {
     TRACE_EVENT0("shutdown",
-                 "BrowserMainLoop::Subsystem:PostMainMessageLoopRun");
+                 "PrimaryMainLoop::Subsystem:PostMainMessageLoopRun");
     parts_->PostMainMessageLoopRun();
   }
 
@@ -507,7 +507,7 @@ void BrowserMainLoop::ShutdownThreadsAndCleanUp() {
 #if defined(USE_AURA)
   {
     TRACE_EVENT0("shutdown",
-                 "BrowserMainLoop::Subsystem:ImageTransportFactory");
+                 "PrimaryMainLoop::Subsystem:ImageTransportFactory");
     ImageTransportFactory::Terminate();
   }
 #endif
@@ -525,16 +525,16 @@ void BrowserMainLoop::ShutdownThreadsAndCleanUp() {
 #endif  // !defined(OS_IOS)
 
   // Must be size_t so we can subtract from it.
-  for (size_t thread_id = BrowserThread::ID_COUNT - 1;
-       thread_id >= (BrowserThread::UI + 1);
+  for (size_t thread_id = PrimaryThread::ID_COUNT - 1;
+       thread_id >= (PrimaryThread::UI + 1);
        --thread_id) {
     // Find the thread object we want to stop. Looping over all valid
-    // BrowserThread IDs and DCHECKing on a missing case in the switch
+    // PrimaryThread IDs and DCHECKing on a missing case in the switch
     // statement helps avoid a mismatch between this code and the
-    // BrowserThread::ID enumeration.
+    // PrimaryThread::ID enumeration.
     //
     // The destruction order is the reverse order of occurrence in the
-    // BrowserThread::ID list. The rationale for the order is as
+    // PrimaryThread::ID list. The rationale for the order is as
     // follows (need to be filled in a bit):
     //
     //
@@ -546,39 +546,39 @@ void BrowserMainLoop::ShutdownThreadsAndCleanUp() {
     //
     // - (Not sure why DB stops last.)
     switch (thread_id) {
-      case BrowserThread::DB: {
-          TRACE_EVENT0("shutdown", "BrowserMainLoop::Subsystem:DBThread");
+      case PrimaryThread::DB: {
+          TRACE_EVENT0("shutdown", "PrimaryMainLoop::Subsystem:DBThread");
           db_thread_.reset();
         }
         break;
-      case BrowserThread::FILE_USER_BLOCKING: {
+      case PrimaryThread::FILE_USER_BLOCKING: {
           TRACE_EVENT0("shutdown",
-                       "BrowserMainLoop::Subsystem:FileUserBlockingThread");
+                       "PrimaryMainLoop::Subsystem:FileUserBlockingThread");
           file_user_blocking_thread_.reset();
         }
         break;
-      case BrowserThread::FILE: {
-          TRACE_EVENT0("shutdown", "BrowserMainLoop::Subsystem:FileThread");
+      case PrimaryThread::FILE: {
+          TRACE_EVENT0("shutdown", "PrimaryMainLoop::Subsystem:FileThread");
           file_thread_.reset();
         }
         break;
-      case BrowserThread::PROCESS_LAUNCHER: {
-          TRACE_EVENT0("shutdown", "BrowserMainLoop::Subsystem:LauncherThread");
+      case PrimaryThread::PROCESS_LAUNCHER: {
+          TRACE_EVENT0("shutdown", "PrimaryMainLoop::Subsystem:LauncherThread");
           process_launcher_thread_.reset();
         }
         break;
-      case BrowserThread::CACHE: {
-          TRACE_EVENT0("shutdown", "BrowserMainLoop::Subsystem:CacheThread");
+      case PrimaryThread::CACHE: {
+          TRACE_EVENT0("shutdown", "PrimaryMainLoop::Subsystem:CacheThread");
           cache_thread_.reset();
         }
         break;
-      case BrowserThread::IO: {
-          TRACE_EVENT0("shutdown", "BrowserMainLoop::Subsystem:IOThread");
+      case PrimaryThread::IO: {
+          TRACE_EVENT0("shutdown", "PrimaryMainLoop::Subsystem:IOThread");
           io_thread_.reset();
         }
         break;
-      case BrowserThread::UI:
-      case BrowserThread::ID_COUNT:
+      case PrimaryThread::UI:
+      case PrimaryThread::ID_COUNT:
       default:
         NOTREACHED();
         break;
@@ -592,28 +592,28 @@ void BrowserMainLoop::ShutdownThreadsAndCleanUp() {
   // it here (which will block until required operations are complete) gives
   // more head start for those operations to finish.
   {
-    TRACE_EVENT0("shutdown", "BrowserMainLoop::Subsystem:ThreadPool");
-    BrowserThreadImpl::ShutdownThreadPool();
+    TRACE_EVENT0("shutdown", "PrimaryMainLoop::Subsystem:ThreadPool");
+    PrimaryThreadImpl::ShutdownThreadPool();
   }
 
 #if !defined(OS_IOS)
   // Must happen after the IO thread is shutdown since this may be accessed from
   // it.
   {
-    TRACE_EVENT0("shutdown", "BrowserMainLoop::Subsystem:GPUChannelFactory");
-    BrowserGpuChannelHostFactory::Terminate();
+    TRACE_EVENT0("shutdown", "PrimaryMainLoop::Subsystem:GPUChannelFactory");
+    PrimaryGpuChannelHostFactory::Terminate();
   }
 
 #endif  // !defined(OS_IOS)
 
   if (parts_) {
-    TRACE_EVENT0("shutdown", "BrowserMainLoop::Subsystem:PostDestroyThreads");
+    TRACE_EVENT0("shutdown", "PrimaryMainLoop::Subsystem:PostDestroyThreads");
     parts_->PostDestroyThreads();
   }
 }
 
-void BrowserMainLoop::InitializeMainThread() {
-  TRACE_EVENT0("startup", "BrowserMainLoop::InitializeMainThread")
+void PrimaryMainLoop::InitializeMainThread() {
+  TRACE_EVENT0("startup", "PrimaryMainLoop::InitializeMainThread")
   const char* kThreadName = "CrBrowserMain";
   base::PlatformThread::SetName(kThreadName);
   if (main_message_loop_)
@@ -621,11 +621,11 @@ void BrowserMainLoop::InitializeMainThread() {
 
   // Register the main thread by instantiating it, but don't call any methods.
   main_thread_.reset(
-      new BrowserThreadImpl(BrowserThread::UI, base::MessageLoop::current()));
+      new PrimaryThreadImpl(PrimaryThread::UI, base::MessageLoop::current()));
 }
 
-int BrowserMainLoop::BrowserThreadsStarted() {
-  TRACE_EVENT0("startup", "BrowserMainLoop::BrowserThreadsStarted")
+int PrimaryMainLoop::PrimaryThreadsStarted() {
+  TRACE_EVENT0("startup", "PrimaryMainLoop::PrimaryThreadsStarted")
 
 #if defined(OS_ANDROID)
   // Up the priority of anything that touches with display tasks
@@ -638,7 +638,7 @@ int BrowserMainLoop::BrowserThreadsStarted() {
 
 #if !defined(OS_IOS)
 
-  BrowserGpuChannelHostFactory::Initialize();
+  PrimaryGpuChannelHostFactory::Initialize();
 #if defined(USE_AURA)
   ImageTransportFactory::Initialize();
 #endif
@@ -680,8 +680,8 @@ int BrowserMainLoop::BrowserThreadsStarted() {
       !parsed_command_line_.HasSwitch(switches::kInProcessGPU)) {
     TRACE_EVENT_INSTANT0("gpu", "Post task to launch GPU process",
                          TRACE_EVENT_SCOPE_THREAD);
-    BrowserThread::PostTask(
-        BrowserThread::IO, FROM_HERE, base::Bind(
+    PrimaryThread::PostTask(
+        PrimaryThread::IO, FROM_HERE, base::Bind(
             base::IgnoreResult(&GpuProcessHost::Get),
             GpuProcessHost::GPU_PROCESS_KIND_SANDBOXED,
             CAUSE_FOR_GPU_LAUNCH_BROWSER_STARTUP));
@@ -690,8 +690,8 @@ int BrowserMainLoop::BrowserThreadsStarted() {
   return result_code_;
 }
 
-void BrowserMainLoop::InitializeToolkit() {
-  TRACE_EVENT0("startup", "BrowserMainLoop::InitializeToolkit")
+void PrimaryMainLoop::InitializeToolkit() {
+  TRACE_EVENT0("startup", "PrimaryMainLoop::InitializeToolkit")
   // TODO(evan): this function is rather subtle, due to the variety
   // of intersecting ifdefs we have.  To keep it easy to follow, there
   // are no #else branches on any #ifs.
@@ -736,7 +736,7 @@ void BrowserMainLoop::InitializeToolkit() {
     parts_->ToolkitInitialized();
 }
 
-void BrowserMainLoop::MainMessageLoopRun() {
+void PrimaryMainLoop::MainMessageLoopRun() {
 #if defined(OS_ANDROID)
   // Android's main message loop is the Java message loop.
   NOTREACHED();

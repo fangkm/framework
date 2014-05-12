@@ -18,7 +18,7 @@
 #include "cc/base/switches.h"
 #include "content/primary/gpu/gpu_process_host.h"
 #include "content/common/gpu/gpu_messages.h"
-#include "content/public/primary/browser_thread.h"
+#include "content/public/primary/primary_thread.h"
 #include "content/public/primary/gpu_data_manager_observer.h"
 #include "content/public/common/content_client.h"
 #include "content/public/common/content_constants.h"
@@ -837,11 +837,11 @@ void GpuDataManagerImplPrivate::AddLogMessage(
 
 void GpuDataManagerImplPrivate::ProcessCrashed(
     base::TerminationStatus exit_code) {
-  if (!BrowserThread::CurrentlyOn(BrowserThread::UI)) {
+  if (!PrimaryThread::CurrentlyOn(PrimaryThread::UI)) {
     // Unretained is ok, because it's posted to UI thread, the thread
     // where the singleton GpuDataManagerImpl lives until the end.
-    BrowserThread::PostTask(
-        BrowserThread::UI,
+    PrimaryThread::PostTask(
+        PrimaryThread::UI,
         FROM_HERE,
         base::Bind(&GpuDataManagerImpl::ProcessCrashed,
                    base::Unretained(owner_),
@@ -900,8 +900,8 @@ bool GpuDataManagerImplPrivate::Are3DAPIsBlocked(const GURL& url,
   if (blocked) {
     // Unretained is ok, because it's posted to UI thread, the thread
     // where the singleton GpuDataManagerImpl lives until the end.
-    BrowserThread::PostTask(
-        BrowserThread::UI, FROM_HERE,
+    PrimaryThread::PostTask(
+        PrimaryThread::UI, FROM_HERE,
         base::Bind(&GpuDataManagerImpl::Notify3DAPIBlocked,
                    base::Unretained(owner_), url, render_process_id,
                    render_view_id, requester));

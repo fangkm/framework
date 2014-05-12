@@ -63,8 +63,8 @@ namespace content {
 //      scoped_ptr<ByteStreamWriter> writer;
 //      scoped_ptr<ByteStreamReader> reader;
 //      CreateByteStream(
-//          BrowserThread::GetMessageLoopProxyForThread(BrowserThread::IO),
-//          BrowserThread::GetMessageLoopProxyForThread(BrowserThread::FILE),
+//          PrimaryThread::GetMessageLoopProxyForThread(PrimaryThread::IO),
+//          PrimaryThread::GetMessageLoopProxyForThread(PrimaryThread::FILE),
 //          kStreamBufferSize /* e.g. 10240.  */,
 //          &writer,
 //          &reader);         // Presumed passed to FILE thread for reading.

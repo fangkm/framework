@@ -26,11 +26,11 @@ namespace content {
 // Use the class with a scoped_ptr to get files written in the destructor.
 // Note that we cannot use the asynchronous file writer since the
 // |SequencedWorkerPool| will get killed in the shutdown process.
-class BrowserShutdownProfileDumper {
+class PrimaryShutdownProfileDumper {
  public:
-  BrowserShutdownProfileDumper();
+  PrimaryShutdownProfileDumper();
 
-  ~BrowserShutdownProfileDumper();
+  ~PrimaryShutdownProfileDumper();
 
  private:
   // Writes all traces which happened to disk.
@@ -62,7 +62,7 @@ class BrowserShutdownProfileDumper {
   // For dumping the content to disc.
   FILE* dump_file_;
 
-  DISALLOW_COPY_AND_ASSIGN(BrowserShutdownProfileDumper);
+  DISALLOW_COPY_AND_ASSIGN(PrimaryShutdownProfileDumper);
 };
 
 }  // namespace content

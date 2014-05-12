@@ -39,13 +39,13 @@ struct ChannelHandle;
 }
 
 namespace content {
-class BrowserChildProcessHostImpl;
+class PrimaryChildProcessHostImpl;
 class GpuMainThread;
 class ShaderDiskCache;
 
 typedef base::Thread* (*GpuMainThreadFactoryFunction)(const std::string& id);
 
-class GpuProcessHost : public BrowserChildProcessHostDelegate,
+class GpuProcessHost : public PrimaryChildProcessHostDelegate,
                        public IPC::Sender,
                        public base::NonThreadSafe {
  public:
@@ -141,7 +141,7 @@ class GpuProcessHost : public BrowserChildProcessHostDelegate,
   // Post an IPC message to the UI shim's message handler on the UI thread.
   void RouteOnUIThread(const IPC::Message& message);
 
-  // BrowserChildProcessHostDelegate implementation.
+  // PrimaryChildProcessHostDelegate implementation.
   virtual bool OnMessageReceived(const IPC::Message& message) OVERRIDE;
   virtual void OnChannelConnected(int32 peer_pid) OVERRIDE;
   virtual void OnProcessLaunched() OVERRIDE;
@@ -232,7 +232,7 @@ class GpuProcessHost : public BrowserChildProcessHostDelegate,
 
   static bool hardware_gpu_enabled_;
 
-  scoped_ptr<BrowserChildProcessHostImpl> process_;
+  scoped_ptr<PrimaryChildProcessHostImpl> process_;
 
   // Track the URLs of the pages which have live offscreen contexts,
   // assumed to be associated with untrusted content such as WebGL.

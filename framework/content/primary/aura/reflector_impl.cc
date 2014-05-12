@@ -6,7 +6,7 @@
 
 #include "base/bind.h"
 #include "base/location.h"
-#include "content/primary/aura/browser_compositor_output_surface.h"
+#include "content/primary/aura/primary_compositor_output_surface.h"
 #include "content/common/gpu/client/gl_helper.h"
 #include "ui/compositor/layer.h"
 

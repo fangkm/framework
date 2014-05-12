@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "content/primary/aura/browser_compositor_output_surface.h"
+#include "content/primary/aura/primary_compositor_output_surface.h"
 
 #include "base/bind.h"
 #include "base/command_line.h"

@@ -16,12 +16,12 @@
 #include "base/metrics/histogram.h"
 #include "base/sha1.h"
 #include "base/threading/thread.h"
-#include "content/primary/browser_child_process_host_impl.h"
+#include "content/primary/primary_child_process_host_impl.h"
 #include "content/primary/gpu/gpu_data_manager_impl.h"
 #include "content/primary/gpu/shader_disk_cache.h"
 #include "content/common/child_process_host_impl.h"
 #include "content/common/gpu/gpu_messages.h"
-#include "content/public/primary/browser_thread.h"
+#include "content/public/primary/primary_thread.h"
 #include "content/public/primary/content_main_client.h"
 #include "content/public/common/content_client.h"
 #include "content/public/common/content_switches.h"
@@ -76,9 +76,9 @@ void SendGpuProcessMessage(GpuProcessHost::GpuProcessKind kind,
 void AcceleratedSurfaceBuffersSwappedCompletedForGPU(int host_id,
                                                      int route_id,
                                                      bool alive) {
-  if (!BrowserThread::CurrentlyOn(BrowserThread::IO)) {
-    BrowserThread::PostTask(
-        BrowserThread::IO,
+  if (!PrimaryThread::CurrentlyOn(PrimaryThread::IO)) {
+    PrimaryThread::PostTask(
+        PrimaryThread::IO,
         FROM_HERE,
         base::Bind(&AcceleratedSurfaceBuffersSwappedCompletedForGPU,
                    host_id,
@@ -108,9 +108,9 @@ void AcceleratedSurfaceBuffersSwappedCompletedForRenderer(
     base::TimeTicks timebase,
     base::TimeDelta interval,
     const ui::LatencyInfo& latency_info) {
-  if (!BrowserThread::CurrentlyOn(BrowserThread::UI)) {
-    BrowserThread::PostTask(
-        BrowserThread::UI,
+  if (!PrimaryThread::CurrentlyOn(PrimaryThread::UI)) {
+    PrimaryThread::PostTask(
+        PrimaryThread::UI,
         FROM_HERE,
         base::Bind(&AcceleratedSurfaceBuffersSwappedCompletedForRenderer,
                    surface_id, timebase, interval, latency_info));
@@ -275,7 +275,7 @@ bool GpuProcessHost::ValidateHost(GpuProcessHost* host) {
 // static
 GpuProcessHost* GpuProcessHost::Get(GpuProcessKind kind,
                                     CauseForGpuLaunch cause) {
-  DCHECK(BrowserThread::CurrentlyOn(BrowserThread::IO));
+  DCHECK(PrimaryThread::CurrentlyOn(PrimaryThread::IO));
 
   // Don't grant further access to GPU if it is not allowed.
   GpuDataManagerImpl* gpu_data_manager = GpuDataManagerImpl::GetInstance();
@@ -308,9 +308,9 @@ GpuProcessHost* GpuProcessHost::Get(GpuProcessKind kind,
 // static
 void GpuProcessHost::GetProcessHandles(
     const GpuDataManager::GetGpuProcessHandlesCallback& callback)  {
-  if (!BrowserThread::CurrentlyOn(BrowserThread::IO)) {
-    BrowserThread::PostTask(
-        BrowserThread::IO,
+  if (!PrimaryThread::CurrentlyOn(PrimaryThread::IO)) {
+    PrimaryThread::PostTask(
+        PrimaryThread::IO,
         FROM_HERE,
         base::Bind(&GpuProcessHost::GetProcessHandles, callback));
     return;
@@ -321,8 +321,8 @@ void GpuProcessHost::GetProcessHandles(
     if (host && ValidateHost(host))
       handles.push_back(host->process_->GetHandle());
   }
-  BrowserThread::PostTask(
-      BrowserThread::UI,
+  PrimaryThread::PostTask(
+      PrimaryThread::UI,
       FROM_HERE,
       base::Bind(callback, handles));
 }
@@ -331,8 +331,8 @@ void GpuProcessHost::GetProcessHandles(
 void GpuProcessHost::SendOnIO(GpuProcessKind kind,
                               CauseForGpuLaunch cause,
                               IPC::Message* message) {
-  if (!BrowserThread::PostTask(
-          BrowserThread::IO, FROM_HERE,
+  if (!PrimaryThread::PostTask(
+          PrimaryThread::IO, FROM_HERE,
           base::Bind(
               &SendGpuProcessMessage, kind, cause, message))) {
     delete message;
@@ -348,7 +348,7 @@ void GpuProcessHost::RegisterGpuMainThreadFactory(
 
 // static
 GpuProcessHost* GpuProcessHost::FromID(int host_id) {
-  DCHECK(BrowserThread::CurrentlyOn(BrowserThread::IO));
+  DCHECK(PrimaryThread::CurrentlyOn(PrimaryThread::IO));
 
   for (int i = 0; i < GPU_PROCESS_KIND_COUNT; ++i) {
     GpuProcessHost* host = g_gpu_process_hosts[i];
@@ -379,7 +379,7 @@ GpuProcessHost::GpuProcessHost(int host_id, GpuProcessKind kind)
 
   g_gpu_process_hosts[kind] = this;
 
-  process_.reset(new BrowserChildProcessHostImpl(PROCESS_TYPE_GPU, this));
+  process_.reset(new PrimaryChildProcessHostImpl(PROCESS_TYPE_GPU, this));
 }
 
 GpuProcessHost::~GpuProcessHost() {

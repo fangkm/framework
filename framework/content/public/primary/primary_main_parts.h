@@ -12,7 +12,7 @@ namespace content {
 
 // This class contains different "stages" to be executed by |PrimaryMain()|,
 // Each stage is represented by a single MainParts method, called from
-// the corresponding method in |BrowserMainLoop| (e.g., EarlyInitialization())
+// the corresponding method in |PrimaryMainLoop| (e.g., EarlyInitialization())
 // which does the following:
 //  - calls a method (e.g., "PreEarlyInitialization()") which implements
 //    platform / tookit specific code for that stage.

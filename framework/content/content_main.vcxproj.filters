@@ -46,13 +46,7 @@
     <ClInclude Include="public\primary\browser_child_process_host_delegate.h">
       <Filter>public\primary</Filter>
     </ClInclude>
-    <ClInclude Include="public\primary\browser_main_parts.h">
-      <Filter>public\primary</Filter>
-    </ClInclude>
     <ClInclude Include="public\primary\browser_message_filter.h">
-      <Filter>public\primary</Filter>
-    </ClInclude>
-    <ClInclude Include="public\primary\browser_main_runner.h">
       <Filter>public\primary</Filter>
     </ClInclude>
     <ClCompile Include="public\primary\browser_child_process_host_delegate.cc">
@@ -91,16 +85,10 @@
     <ClInclude Include="public\primary\resource_controller.h">
       <Filter>public\primary</Filter>
     </ClInclude>
-    <ClInclude Include="public\primary\certificate_request_result_type.h">
-      <Filter>public\primary</Filter>
-    </ClInclude>
     <ClCompile Include="public\primary\page_navigator.cc">
       <Filter>public\primary</Filter>
     </ClCompile>
     <ClInclude Include="public\primary\user_metrics.h">
-      <Filter>public\primary</Filter>
-    </ClInclude>
-    <ClInclude Include="public\primary\cert_store.h">
       <Filter>public\primary</Filter>
     </ClInclude>
     <ClInclude Include="public\primary\browser_child_process_host_iterator.h">
@@ -124,9 +112,6 @@
     <ClCompile Include="public\primary\browser_child_process_observer.cc">
       <Filter>public\primary</Filter>
     </ClCompile>
-    <ClInclude Include="public\primary\browser_thread.h">
-      <Filter>public\primary</Filter>
-    </ClInclude>
     <ClInclude Include="public\primary\quota_permission_context.h">
       <Filter>public\primary</Filter>
     </ClInclude>
@@ -163,9 +148,6 @@
     <ClInclude Include="public\primary\save_page_type.h">
       <Filter>public\primary</Filter>
     </ClInclude>
-    <ClInclude Include="public\primary\browser_thread_delegate.h">
-      <Filter>public\primary</Filter>
-    </ClInclude>
     <ClInclude Include="public\primary\browser_accessibility_state.h">
       <Filter>public\primary</Filter>
     </ClInclude>
@@ -193,9 +175,6 @@
     <ClInclude Include="public\primary\gpu_data_manager_observer.h">
       <Filter>public\primary</Filter>
     </ClInclude>
-    <ClCompile Include="public\primary\browser_main_parts.cc">
-      <Filter>public\primary</Filter>
-    </ClCompile>
     <ClInclude Include="public\primary\notification_source.h">
       <Filter>public\primary</Filter>
     </ClInclude>
@@ -203,12 +182,6 @@
   <ItemGroup>
     <ClInclude Include="public\primary\content_main_client.h">
       <Filter>public\primary</Filter>
-    </ClInclude>
-    <ClInclude Include="primary\aura\browser_compositor_output_surface.h">
-      <Filter>primary\aura</Filter>
-    </ClInclude>
-    <ClInclude Include="primary\aura\browser_compositor_output_surface_proxy.h">
-      <Filter>primary\aura</Filter>
     </ClInclude>
     <ClInclude Include="primary\aura\gpu_process_transport_factory.h">
       <Filter>primary\aura</Filter>
@@ -227,9 +200,6 @@
     </ClInclude>
     <ClInclude Include="primary\aura\software_output_device_win.h">
       <Filter>primary\aura</Filter>
-    </ClInclude>
-    <ClInclude Include="primary\gpu\browser_gpu_channel_host_factory.h">
-      <Filter>primary\gpu</Filter>
     </ClInclude>
     <ClInclude Include="primary\gpu\compositor_util.h">
       <Filter>primary\gpu</Filter>
@@ -251,21 +221,6 @@
     </ClInclude>
     <ClInclude Include="primary\gpu\webgl_conformance_test_list_autogen.h">
       <Filter>primary\gpu</Filter>
-    </ClInclude>
-    <ClInclude Include="primary\browser_child_process_host_impl.h">
-      <Filter>primary</Filter>
-    </ClInclude>
-    <ClInclude Include="primary\browser_main_loop.h">
-      <Filter>primary</Filter>
-    </ClInclude>
-    <ClInclude Include="primary\browser_process_sub_thread.h">
-      <Filter>primary</Filter>
-    </ClInclude>
-    <ClInclude Include="primary\browser_shutdown_profile_dumper.h">
-      <Filter>primary</Filter>
-    </ClInclude>
-    <ClInclude Include="primary\browser_thread_impl.h">
-      <Filter>primary</Filter>
     </ClInclude>
     <ClInclude Include="primary\byte_stream.h">
       <Filter>primary</Filter>
@@ -291,16 +246,46 @@
     <ClInclude Include="primary\system_message_window_win.h">
       <Filter>primary</Filter>
     </ClInclude>
+    <ClInclude Include="primary\primary_main_loop.h">
+      <Filter>primary</Filter>
+    </ClInclude>
+    <ClInclude Include="public\primary\primary_main_runner.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="primary\primary_process_sub_thread.h">
+      <Filter>primary</Filter>
+    </ClInclude>
+    <ClInclude Include="public\primary\primary_thread.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="public\primary\primary_thread_delegate.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="primary\primary_thread_impl.h">
+      <Filter>primary</Filter>
+    </ClInclude>
+    <ClInclude Include="public\primary\primary_main_parts.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="primary\primary_shutdown_profile_dumper.h">
+      <Filter>primary</Filter>
+    </ClInclude>
+    <ClInclude Include="primary\primary_child_process_host_impl.h">
+      <Filter>primary</Filter>
+    </ClInclude>
+    <ClInclude Include="primary\aura\primary_compositor_output_surface.h">
+      <Filter>primary\aura</Filter>
+    </ClInclude>
+    <ClInclude Include="primary\gpu\primary_gpu_channel_host_factory.h">
+      <Filter>primary\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="primary\aura\primary_compositor_output_surface_proxy.h">
+      <Filter>primary\aura</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="public\primary\content_main_client.cc">
       <Filter>public\primary</Filter>
-    </ClCompile>
-    <ClCompile Include="primary\aura\browser_compositor_output_surface.cc">
-      <Filter>primary\aura</Filter>
-    </ClCompile>
-    <ClCompile Include="primary\aura\browser_compositor_output_surface_proxy.cc">
-      <Filter>primary\aura</Filter>
     </ClCompile>
     <ClCompile Include="primary\aura\gpu_process_transport_factory.cc">
       <Filter>primary\aura</Filter>
@@ -320,9 +305,6 @@
     <ClCompile Include="primary\aura\software_output_device_win.cc">
       <Filter>primary\aura</Filter>
     </ClCompile>
-    <ClCompile Include="primary\gpu\browser_gpu_channel_host_factory.cc">
-      <Filter>primary\gpu</Filter>
-    </ClCompile>
     <ClCompile Include="primary\gpu\compositor_util.cc">
       <Filter>primary\gpu</Filter>
     </ClCompile>
@@ -340,27 +322,6 @@
     </ClCompile>
     <ClCompile Include="primary\gpu\shader_disk_cache.cc">
       <Filter>primary\gpu</Filter>
-    </ClCompile>
-    <ClCompile Include="primary\browser_child_process_host_impl.cc">
-      <Filter>primary</Filter>
-    </ClCompile>
-    <ClCompile Include="primary\browser_context.cc">
-      <Filter>primary</Filter>
-    </ClCompile>
-    <ClCompile Include="primary\browser_main_loop.cc">
-      <Filter>primary</Filter>
-    </ClCompile>
-    <ClCompile Include="primary\browser_main_runner.cc">
-      <Filter>primary</Filter>
-    </ClCompile>
-    <ClCompile Include="primary\browser_process_sub_thread.cc">
-      <Filter>primary</Filter>
-    </ClCompile>
-    <ClCompile Include="primary\browser_shutdown_profile_dumper.cc">
-      <Filter>primary</Filter>
-    </ClCompile>
-    <ClCompile Include="primary\browser_thread_impl.cc">
-      <Filter>primary</Filter>
     </ClCompile>
     <ClCompile Include="primary\byte_stream.cc">
       <Filter>primary</Filter>
@@ -391,6 +352,36 @@
     </ClCompile>
     <ClCompile Include="primary\system_message_window_win.cc">
       <Filter>primary</Filter>
+    </ClCompile>
+    <ClCompile Include="primary\primary_main_loop.cc">
+      <Filter>primary</Filter>
+    </ClCompile>
+    <ClCompile Include="primary\primary_main_runner.cc">
+      <Filter>primary</Filter>
+    </ClCompile>
+    <ClCompile Include="primary\primary_process_sub_thread.cc">
+      <Filter>primary</Filter>
+    </ClCompile>
+    <ClCompile Include="primary\primary_thread_impl.cc">
+      <Filter>primary</Filter>
+    </ClCompile>
+    <ClCompile Include="public\primary\primary_main_parts.cc">
+      <Filter>public\primary</Filter>
+    </ClCompile>
+    <ClCompile Include="primary\primary_shutdown_profile_dumper.cc">
+      <Filter>primary</Filter>
+    </ClCompile>
+    <ClCompile Include="primary\primary_child_process_host_impl.cc">
+      <Filter>primary</Filter>
+    </ClCompile>
+    <ClCompile Include="primary\gpu\primary_gpu_channel_host_factory.cc">
+      <Filter>primary\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="primary\aura\primary_compositor_output_surface.cc">
+      <Filter>primary\aura</Filter>
+    </ClCompile>
+    <ClCompile Include="primary\aura\primary_compositor_output_surface_proxy.cc">
+      <Filter>primary\aura</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

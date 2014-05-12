@@ -75,7 +75,7 @@ void NotificationServiceImpl::RemoveObserver(NotificationObserver* observer,
   // the wrong thread, and as a result another thread's NotificationServiceImpl
   // has its deleted pointer in its map.  A garbge object will be called in the
   // future.
-  // NOTE: when this check shows crashes, use BrowserThread::DeleteOnIOThread or
+  // NOTE: when this check shows crashes, use PrimaryThread::DeleteOnIOThread or
   // other variants as the trait on the object.
   CHECK(HasKey(observers_[type], source));
 

@@ -20,7 +20,7 @@ extern const uint16 kMaxPluginSideLength;
 extern const uint32 kMaxPluginSize;
 
 // Constants used to organize content processes in about:tracing.
-CONTENT_EXPORT extern const int kTraceEventBrowserProcessSortIndex;
+CONTENT_EXPORT extern const int kTraceEventPrimaryProcessSortIndex;
 CONTENT_EXPORT extern const int kTraceEventRendererProcessSortIndex;
 CONTENT_EXPORT extern const int kTraceEventPluginProcessSortIndex;
 CONTENT_EXPORT extern const int kTraceEventPpapiProcessSortIndex;

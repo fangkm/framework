@@ -7,23 +7,23 @@
 
 #include "base/threading/thread.h"
 #include "content/common/content_export.h"
-#include "content/public/primary/browser_thread.h"
+#include "content/public/primary/primary_thread.h"
 
 namespace content {
 
-class CONTENT_EXPORT BrowserThreadImpl : public BrowserThread,
+class CONTENT_EXPORT PrimaryThreadImpl : public PrimaryThread,
                                          public base::Thread {
  public:
-  // Construct a BrowserThreadImpl with the supplied identifier.  It is an error
-  // to construct a BrowserThreadImpl that already exists.
-  explicit BrowserThreadImpl(BrowserThread::ID identifier);
+  // Construct a PrimaryThreadImpl with the supplied identifier.  It is an error
+  // to construct a PrimaryThreadImpl that already exists.
+  explicit PrimaryThreadImpl(PrimaryThread::ID identifier);
 
   // Special constructor for the main (UI) thread and unittests. If a
   // |message_loop| is provied, we use a dummy thread here since the main
   // thread already exists.
-  BrowserThreadImpl(BrowserThread::ID identifier,
+  PrimaryThreadImpl(PrimaryThread::ID identifier,
                     base::MessageLoop* message_loop);
-  virtual ~BrowserThreadImpl();
+  virtual ~PrimaryThreadImpl();
 
   static void ShutdownThreadPool();
 
@@ -33,10 +33,10 @@ class CONTENT_EXPORT BrowserThreadImpl : public BrowserThread,
   virtual void CleanUp() OVERRIDE;
 
  private:
-  // We implement all the functionality of the public BrowserThread
-  // functions, but state is stored in the BrowserThreadImpl to keep
-  // the API cleaner. Therefore make BrowserThread a friend class.
-  friend class BrowserThread;
+  // We implement all the functionality of the public PrimaryThread
+  // functions, but state is stored in the PrimaryThreadImpl to keep
+  // the API cleaner. Therefore make PrimaryThread a friend class.
+  friend class PrimaryThread;
 
   // The following are unique function names that makes it possible to tell
   // the thread id from the callstack alone in crash dumps.
@@ -49,7 +49,7 @@ class CONTENT_EXPORT BrowserThreadImpl : public BrowserThread,
   void IOThreadRun(base::MessageLoop* message_loop);
 
   static bool PostTaskHelper(
-      BrowserThread::ID identifier,
+      PrimaryThread::ID identifier,
       const tracked_objects::Location& from_here,
       const base::Closure& task,
       base::TimeDelta delay,

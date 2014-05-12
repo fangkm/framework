@@ -15,14 +15,10 @@
 #include "base/memory/scoped_ptr.h"
 #include "base/memory/scoped_vector.h"
 #include "base/values.h"
-#include "content/public/common/content_client.h"
-#include "content/public/primary/browser_main_parts.h"
-#include "content/public/common/window_container_type.h"
 #include "ui/base/window_open_disposition.h"
-
-#if defined(OS_POSIX) && !defined(OS_MACOSX)
-#include "base/posix/global_descriptors.h"
-#endif
+#include "content/public/common/content_client.h"
+#include "content/public/primary/primary_main_parts.h"
+#include "content/public/common/window_container_type.h"
 
 class CommandLine;
 
@@ -49,7 +45,7 @@ class SelectFilePolicy;
 namespace content {
 
 class AccessTokenStore;
-class BrowserChildProcessHost;
+class PrimaryChildProcessHost;
 class BrowserContext;
 
 struct MainFunctionParams;
@@ -70,12 +66,12 @@ class CONTENT_EXPORT ContentMainClient {
 
   // Allows the embedder to set any number of custom MainParts
   // implementations for the browser startup code. See comments in
-  // browser_main_parts.h.
+  // primary_main_parts.h.
   virtual MainParts* CreateBrowserMainParts(
       const MainFunctionParams& parameters);
 
-  // Notifies that a BrowserChildProcessHost has been created.
-  virtual void BrowserChildProcessHostCreated(BrowserChildProcessHost* host) {}
+  // Notifies that a PrimaryChildProcessHost has been created.
+  virtual void BrowserChildProcessHostCreated(PrimaryChildProcessHost* host) {}
 
   // Allows the embedder to pass extra command line flags.
   // switches::kProcessType will already be set at this point.

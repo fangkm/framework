@@ -18,7 +18,7 @@ class TargetPolicy;
 namespace content {
 
 // Allows a caller of StartSandboxedProcess or
-// BrowserChildProcessHost/ChildProcessLauncher to control the sandbox policy,
+// PrimaryChildProcessHost/ChildProcessLauncher to control the sandbox policy,
 // i.e. to loosen it if needed.
 // The methods below will be called on the PROCESS_LAUNCHER thread.
 class SandboxedProcessLauncherDelegate {

@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "content/primary/aura/browser_compositor_output_surface_proxy.h"
+#include "content/primary/aura/primary_compositor_output_surface_proxy.h"
 
 #include "base/bind.h"
-#include "content/primary/aura/browser_compositor_output_surface.h"
-#include "content/primary/gpu/browser_gpu_channel_host_factory.h"
+#include "content/primary/aura/primary_compositor_output_surface.h"
+#include "content/primary/gpu/primary_gpu_channel_host_factory.h"
 #include "content/common/gpu/gpu_messages.h"
 
 namespace content {
@@ -20,8 +20,8 @@ BrowserCompositorOutputSurfaceProxy::~BrowserCompositorOutputSurfaceProxy() {}
 
 void BrowserCompositorOutputSurfaceProxy::ConnectToGpuProcessHost(
     base::SingleThreadTaskRunner* compositor_thread_task_runner) {
-  BrowserGpuChannelHostFactory* factory =
-      BrowserGpuChannelHostFactory::instance();
+  PrimaryGpuChannelHostFactory* factory =
+      PrimaryGpuChannelHostFactory::instance();
 
   int gpu_process_host_id = factory->GpuProcessHostId();
   if (connected_to_gpu_process_host_id_ == gpu_process_host_id)

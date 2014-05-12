@@ -13,7 +13,7 @@ struct ChildProcessData;
 
 // An observer API implemented by classes which are interested
 // in browser child process events.
-class CONTENT_EXPORT BrowserChildProcessObserver {
+class CONTENT_EXPORT PrimaryChildProcessObserver {
  public:
   // Called when a child process host has connected to a child process.
   virtual void BrowserChildProcessHostConnected(const ChildProcessData& data) {}
@@ -33,10 +33,10 @@ class CONTENT_EXPORT BrowserChildProcessObserver {
 
  protected:
   // The observer can be destroyed on any thread.
-  virtual ~BrowserChildProcessObserver() {}
+  virtual ~PrimaryChildProcessObserver() {}
 
-  static void Add(BrowserChildProcessObserver* observer);
-  static void Remove(BrowserChildProcessObserver* observer);
+  static void Add(PrimaryChildProcessObserver* observer);
+  static void Remove(PrimaryChildProcessObserver* observer);
 };
 
 }  // namespace content
