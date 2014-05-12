@@ -277,9 +277,6 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <None Include="content.gyp" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="primary\aura\primary_compositor_output_surface.h" />
     <ClInclude Include="primary\aura\primary_compositor_output_surface_proxy.h" />
     <ClInclude Include="primary\aura\gpu_process_transport_factory.h" />

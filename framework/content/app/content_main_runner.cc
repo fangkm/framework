@@ -28,7 +28,6 @@
 #include "content/primary/primary_main.h"
 #include "content/primary/gpu/gpu_process_host.h"
 #include "content/common/set_process_title.h"
-#include "content/common/url_schemes.h"
 #include "content/gpu/in_process_gpu_thread.h"
 #include "content/app/content_main_delegate.h"
 #include "content/app/startup_helper_win.h"
@@ -579,7 +578,6 @@ class ContentMainRunnerImpl : public ContentMainRunner {
 
     ui::RegisterPathProvider();
     RegisterPathProvider();
-    RegisterContentSchemes(true);
 
     CHECK(base::i18n::InitializeICU());
 

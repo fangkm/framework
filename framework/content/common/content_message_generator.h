@@ -7,8 +7,6 @@
 #include "content/common/child_process_messages.h"
 #include "content/common/cc_messages.h"
 #include "content/common/clipboard_messages.h"
-#include "content/common/drag_messages.h"
-#include "content/common/drag_traits.h"
 #include "content/common/file_utilities_messages.h"
 #include "content/common/gpu/gpu_messages.h"
 #include "content/common/image_messages.h"

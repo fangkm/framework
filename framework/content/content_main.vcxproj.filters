@@ -24,7 +24,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="content.gyp" />
     <ClCompile Include="..\build\precompile.cc">
       <Filter>..\build</Filter>
     </ClCompile>

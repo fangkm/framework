@@ -13,9 +13,6 @@
     <Filter Include="public\common">
       <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
     </Filter>
-    <Filter Include="public\common\_excluded_files">
-      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
-    </Filter>
     <Filter Include="..">
       <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
     </Filter>
@@ -39,7 +36,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="content.gyp" />
     <ClInclude Include="port\common\input_event_ack_state.h">
       <Filter>port\common</Filter>
     </ClInclude>
@@ -67,9 +63,6 @@
     <ClCompile Include="public\common\common_param_traits.cc">
       <Filter>public\common</Filter>
     </ClCompile>
-    <ClCompile Include="public\common\favicon_url.cc">
-      <Filter>public\common</Filter>
-    </ClCompile>
     <ClInclude Include="public\common\process_type.h">
       <Filter>public\common</Filter>
     </ClInclude>
@@ -77,12 +70,6 @@
       <Filter>public\common</Filter>
     </ClCompile>
     <ClInclude Include="public\common\injection_test_win.h">
-      <Filter>public\common</Filter>
-    </ClInclude>
-    <ClInclude Include="public\common\drop_data.h">
-      <Filter>public\common</Filter>
-    </ClInclude>
-    <ClInclude Include="public\common\url_utils.h">
       <Filter>public\common</Filter>
     </ClInclude>
     <ClInclude Include="public\common\browser_plugin_permission_type.h">
@@ -136,12 +123,6 @@
     <ClCompile Include="public\common\content_client.cc">
       <Filter>public\common</Filter>
     </ClCompile>
-    <ClInclude Include="public\common\favicon_url.h">
-      <Filter>public\common</Filter>
-    </ClInclude>
-    <ClCompile Include="public\common\url_utils.cc">
-      <Filter>public\common</Filter>
-    </ClCompile>
     <ClInclude Include="public\common\result_codes_list.h">
       <Filter>public\common</Filter>
     </ClInclude>
@@ -172,9 +153,6 @@
     <ClInclude Include="public\common\content_paths.h">
       <Filter>public\common</Filter>
     </ClInclude>
-    <ClCompile Include="public\common\drop_data.cc">
-      <Filter>public\common</Filter>
-    </ClCompile>
     <ClInclude Include="public\common\sandbox_init.h">
       <Filter>public\common</Filter>
     </ClInclude>
@@ -201,21 +179,6 @@
     </ClInclude>
     <ClInclude Include="public\common\show_desktop_notification_params.h">
       <Filter>public\common</Filter>
-    </ClInclude>
-    <ClInclude Include="public\common\sandbox_type_mac.h">
-      <Filter>public\common\_excluded_files</Filter>
-    </ClInclude>
-    <ClInclude Include="public\common\zygote_fork_delegate_linux.h">
-      <Filter>public\common\_excluded_files</Filter>
-    </ClInclude>
-    <ClInclude Include="public\common\injection_test_mac.h">
-      <Filter>public\common\_excluded_files</Filter>
-    </ClInclude>
-    <ClInclude Include="public\common\child_process_sandbox_support_linux.h">
-      <Filter>public\common\_excluded_files</Filter>
-    </ClInclude>
-    <ClInclude Include="public\common\sandbox_linux.h">
-      <Filter>public\common\_excluded_files</Filter>
     </ClInclude>
     <ClCompile Include="..\build\precompile.cc">
       <Filter>..\build</Filter>
@@ -259,31 +222,16 @@
     <ClCompile Include="common\font_list.cc">
       <Filter>common</Filter>
     </ClCompile>
-    <ClCompile Include="common\savable_url_schemes.cc">
-      <Filter>common</Filter>
-    </ClCompile>
     <ClCompile Include="common\font_list_win.cc">
       <Filter>common</Filter>
     </ClCompile>
-    <ClInclude Include="common\url_schemes.h">
-      <Filter>common</Filter>
-    </ClInclude>
     <ClInclude Include="common\clipboard_messages.h">
-      <Filter>common</Filter>
-    </ClInclude>
-    <ClInclude Include="common\drag_event_source_info.h">
       <Filter>common</Filter>
     </ClInclude>
     <ClInclude Include="common\edit_command.h">
       <Filter>common</Filter>
     </ClInclude>
-    <ClInclude Include="common\savable_url_schemes.h">
-      <Filter>common</Filter>
-    </ClInclude>
     <ClInclude Include="common\text_input_client_messages.h">
-      <Filter>common</Filter>
-    </ClInclude>
-    <ClInclude Include="common\drag_messages.h">
       <Filter>common</Filter>
     </ClInclude>
     <ClInclude Include="common\one_writer_seqlock.h">
@@ -353,12 +301,6 @@
       <Filter>common</Filter>
     </ClInclude>
     <ClCompile Include="common\inter_process_time_ticks_converter.cc">
-      <Filter>common</Filter>
-    </ClCompile>
-    <ClInclude Include="common\drag_traits.h">
-      <Filter>common</Filter>
-    </ClInclude>
-    <ClCompile Include="common\url_schemes.cc">
       <Filter>common</Filter>
     </ClCompile>
     <ClCompile Include="common\content_message_generator.cc">

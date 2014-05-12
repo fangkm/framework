@@ -276,9 +276,6 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <None Include="content.gyp" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="port\common\input_event_ack_state.h" />
     <ClInclude Include="public\common\console_message_level.h" />
     <ClInclude Include="public\common\ssl_status.h" />
@@ -286,8 +283,6 @@
     <ClInclude Include="public\common\window_container_type.h" />
     <ClInclude Include="public\common\process_type.h" />
     <ClInclude Include="public\common\injection_test_win.h" />
-    <ClInclude Include="public\common\drop_data.h" />
-    <ClInclude Include="public\common\url_utils.h" />
     <ClInclude Include="public\common\browser_plugin_permission_type.h" />
     <ClInclude Include="public\common\gpu_memory_stats.h" />
     <ClInclude Include="public\common\content_constants.h" />
@@ -300,7 +295,6 @@
     <ClInclude Include="public\common\child_process_host.h" />
     <ClInclude Include="public\common\content_ipc_logging.h" />
     <ClInclude Include="public\common\javascript_message_type.h" />
-    <ClInclude Include="public\common\favicon_url.h" />
     <ClInclude Include="public\common\result_codes_list.h" />
     <ClInclude Include="public\common\top_controls_state_list.h" />
     <ClInclude Include="public\common\stop_find_action.h" />
@@ -318,32 +312,13 @@
     <ClInclude Include="public\common\top_controls_state.h" />
     <ClInclude Include="public\common\common_param_traits.h" />
     <ClInclude Include="public\common\show_desktop_notification_params.h" />
-    <ClInclude Include="public\common\sandbox_type_mac.h">
-      <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClInclude>
-    <ClInclude Include="public\common\zygote_fork_delegate_linux.h">
-      <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClInclude>
-    <ClInclude Include="public\common\injection_test_mac.h">
-      <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClInclude>
-    <ClInclude Include="public\common\child_process_sandbox_support_linux.h">
-      <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClInclude>
-    <ClInclude Include="public\common\sandbox_linux.h">
-      <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClInclude>
     <ClInclude Include="common\child_process_messages.h" />
     <ClInclude Include="common\font_list.h" />
     <ClInclude Include="common\content_constants_internal.h" />
     <ClInclude Include="common\power_monitor_messages.h" />
-    <ClInclude Include="common\url_schemes.h" />
     <ClInclude Include="common\clipboard_messages.h" />
-    <ClInclude Include="common\drag_event_source_info.h" />
     <ClInclude Include="common\edit_command.h" />
-    <ClInclude Include="common\savable_url_schemes.h" />
     <ClInclude Include="common\text_input_client_messages.h" />
-    <ClInclude Include="common\drag_messages.h" />
     <ClInclude Include="common\one_writer_seqlock.h" />
     <ClInclude Include="common\sandbox_win.h" />
     <ClInclude Include="common\mime_registry_messages.h" />
@@ -361,7 +336,6 @@
     <ClInclude Include="common\swapped_out_messages.h" />
     <ClInclude Include="common\message_router.h" />
     <ClInclude Include="common\input_messages.h" />
-    <ClInclude Include="common\drag_traits.h" />
     <ClInclude Include="common\content_message_generator.h" />
     <ClInclude Include="common\image_messages.h" />
     <ClInclude Include="common\content_export.h" />
@@ -413,16 +387,13 @@
     <ClCompile Include="public\common\show_desktop_notification_params.cc" />
     <ClCompile Include="public\common\child_process_host_delegate.cc" />
     <ClCompile Include="public\common\common_param_traits.cc" />
-    <ClCompile Include="public\common\favicon_url.cc" />
     <ClCompile Include="public\common\url_constants.cc" />
     <ClCompile Include="public\common\content_switches.cc" />
     <ClCompile Include="public\common\content_constants.cc" />
     <ClCompile Include="public\common\menu_item.cc" />
     <ClCompile Include="public\common\window_container_type.cc" />
     <ClCompile Include="public\common\content_client.cc" />
-    <ClCompile Include="public\common\url_utils.cc" />
     <ClCompile Include="public\common\file_chooser_params.cc" />
-    <ClCompile Include="public\common\drop_data.cc" />
     <ClCompile Include="public\common\gpu_memory_stats.cc" />
     <ClCompile Include="..\build\precompile.cc">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
@@ -439,7 +410,6 @@
     <ClCompile Include="common\sandbox_win.cc" />
     <ClCompile Include="common\cc_messages.cc" />
     <ClCompile Include="common\font_list.cc" />
-    <ClCompile Include="common\savable_url_schemes.cc" />
     <ClCompile Include="common\font_list_win.cc" />
     <ClCompile Include="common\one_writer_seqlock.cc" />
     <ClCompile Include="common\message_router.cc" />
@@ -447,7 +417,6 @@
     <ClCompile Include="common\process_type.cc" />
     <ClCompile Include="common\swapped_out_messages.cc" />
     <ClCompile Include="common\inter_process_time_ticks_converter.cc" />
-    <ClCompile Include="common\url_schemes.cc" />
     <ClCompile Include="common\content_message_generator.cc" />
     <ClCompile Include="common\child_process_host_impl.cc" />
     <ClCompile Include="common\content_constants_internal.cc" />

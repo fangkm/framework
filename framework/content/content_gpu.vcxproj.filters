@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="gpu">
@@ -10,30 +10,9 @@
     <Filter Include="..\build">
       <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="C:">
-      <UniqueIdentifier>{7B735499-E5DD-1C2B-6C26-70023832A1CF}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="C:\Program Files (x86)">
-      <UniqueIdentifier>{33D6FDAB-8B38-DF91-F48B-2863D788EF93}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="C:\Program Files (x86)\Windows Kits">
-      <UniqueIdentifier>{50CDB9EB-36F8-1685-7E78-03AE2D1D8B5B}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="C:\Program Files (x86)\Windows Kits\8.0">
-      <UniqueIdentifier>{C2D516AE-17A5-35D2-C684-FE52404D8935}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="C:\Program Files (x86)\Windows Kits\8.0\Redist">
-      <UniqueIdentifier>{C44AD81D-E9F9-2DB7-9558-AA3BD33F73EC}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="C:\Program Files (x86)\Windows Kits\8.0\Redist\D3D">
-      <UniqueIdentifier>{532E70A1-DC79-E995-0884-B25BDBC0A14F}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="C:\Program Files (x86)\Windows Kits\8.0\Redist\D3D\x86">
-      <UniqueIdentifier>{18BBE778-C30E-9E84-331B-B85C911521F0}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="content.gyp"/>
+    <None Include="content.gyp" />
     <ClCompile Include="gpu\gpu_main.cc">
       <Filter>gpu</Filter>
     </ClCompile>
@@ -64,8 +43,8 @@
     <ClCompile Include="..\build\precompile.cc">
       <Filter>..\build</Filter>
     </ClCompile>
-    <None Include="C:\Program Files (x86)\Windows Kits\8.0\Redist\D3D\x86\d3dcompiler_46.dll">
-      <Filter>C:\Program Files (x86)\Windows Kits\8.0\Redist\D3D\x86</Filter>
-    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Program Files (x86)\Windows Kits\8.0\Redist\D3D\x86\d3dcompiler_46.dll" />
   </ItemGroup>
 </Project>
