@@ -31,67 +31,16 @@
     <ClInclude Include="public\primary\access_token_store.h">
       <Filter>public\primary</Filter>
     </ClInclude>
-    <ClInclude Include="public\primary\profiler_controller.h">
-      <Filter>public\primary</Filter>
-    </ClInclude>
-    <ClInclude Include="public\primary\resource_context.h">
-      <Filter>public\primary</Filter>
-    </ClInclude>
-    <ClInclude Include="public\primary\resource_dispatcher_host_login_delegate.h">
-      <Filter>public\primary</Filter>
-    </ClInclude>
     <ClInclude Include="public\primary\notification_registrar.h">
       <Filter>public\primary</Filter>
     </ClInclude>
-    <ClInclude Include="public\primary\browser_child_process_host_delegate.h">
-      <Filter>public\primary</Filter>
-    </ClInclude>
-    <ClInclude Include="public\primary\browser_message_filter.h">
-      <Filter>public\primary</Filter>
-    </ClInclude>
-    <ClCompile Include="public\primary\browser_child_process_host_delegate.cc">
-      <Filter>public\primary</Filter>
-    </ClCompile>
     <ClInclude Include="public\primary\child_process_security_policy.h">
-      <Filter>public\primary</Filter>
-    </ClInclude>
-    <ClInclude Include="public\primary\resource_throttle.h">
       <Filter>public\primary</Filter>
     </ClInclude>
     <ClInclude Include="public\primary\gpu_data_manager.h">
       <Filter>public\primary</Filter>
     </ClInclude>
     <ClInclude Include="public\primary\notification_details.h">
-      <Filter>public\primary</Filter>
-    </ClInclude>
-    <ClInclude Include="public\primary\page_navigator.h">
-      <Filter>public\primary</Filter>
-    </ClInclude>
-    <ClInclude Include="public\primary\url_data_source.h">
-      <Filter>public\primary</Filter>
-    </ClInclude>
-    <ClCompile Include="public\primary\resource_request_details.cc">
-      <Filter>public\primary</Filter>
-    </ClCompile>
-    <ClInclude Include="public\primary\browser_child_process_observer.h">
-      <Filter>public\primary</Filter>
-    </ClInclude>
-    <ClInclude Include="public\primary\resource_request_info.h">
-      <Filter>public\primary</Filter>
-    </ClInclude>
-    <ClCompile Include="public\primary\resource_dispatcher_host_delegate.cc">
-      <Filter>public\primary</Filter>
-    </ClCompile>
-    <ClInclude Include="public\primary\resource_controller.h">
-      <Filter>public\primary</Filter>
-    </ClInclude>
-    <ClCompile Include="public\primary\page_navigator.cc">
-      <Filter>public\primary</Filter>
-    </ClCompile>
-    <ClInclude Include="public\primary\user_metrics.h">
-      <Filter>public\primary</Filter>
-    </ClInclude>
-    <ClInclude Include="public\primary\browser_child_process_host_iterator.h">
       <Filter>public\primary</Filter>
     </ClInclude>
     <ClInclude Include="public\primary\notification_observer.h">
@@ -103,18 +52,6 @@
     <ClInclude Include="public\primary\notification_types.h">
       <Filter>public\primary</Filter>
     </ClInclude>
-    <ClInclude Include="public\primary\profiler_subscriber.h">
-      <Filter>public\primary</Filter>
-    </ClInclude>
-    <ClInclude Include="public\primary\resource_dispatcher_host.h">
-      <Filter>public\primary</Filter>
-    </ClInclude>
-    <ClCompile Include="public\primary\browser_child_process_observer.cc">
-      <Filter>public\primary</Filter>
-    </ClCompile>
-    <ClInclude Include="public\primary\quota_permission_context.h">
-      <Filter>public\primary</Filter>
-    </ClInclude>
     <ClCompile Include="public\primary\notification_registrar.cc">
       <Filter>public\primary</Filter>
     </ClCompile>
@@ -124,54 +61,6 @@
     <ClInclude Include="public\primary\child_process_data.h">
       <Filter>public\primary</Filter>
     </ClInclude>
-    <ClCompile Include="public\primary\url_data_source.cc">
-      <Filter>public\primary</Filter>
-    </ClCompile>
-    <ClInclude Include="public\primary\stream_handle.h">
-      <Filter>public\primary</Filter>
-    </ClInclude>
-    <ClInclude Include="public\primary\resource_dispatcher_host_delegate.h">
-      <Filter>public\primary</Filter>
-    </ClInclude>
-    <ClInclude Include="public\primary\trace_subscriber.h">
-      <Filter>public\primary</Filter>
-    </ClInclude>
-    <ClInclude Include="public\primary\browser_context.h">
-      <Filter>public\primary</Filter>
-    </ClInclude>
-    <ClInclude Include="public\primary\resource_request_details.h">
-      <Filter>public\primary</Filter>
-    </ClInclude>
-    <ClInclude Include="public\primary\browser_url_handler.h">
-      <Filter>public\primary</Filter>
-    </ClInclude>
-    <ClInclude Include="public\primary\save_page_type.h">
-      <Filter>public\primary</Filter>
-    </ClInclude>
-    <ClInclude Include="public\primary\browser_accessibility_state.h">
-      <Filter>public\primary</Filter>
-    </ClInclude>
-    <ClInclude Include="public\primary\browser_child_process_host.h">
-      <Filter>public\primary</Filter>
-    </ClInclude>
-    <ClInclude Include="public\primary\trace_controller.h">
-      <Filter>public\primary</Filter>
-    </ClInclude>
-    <ClCompile Include="public\primary\browser_child_process_host_iterator.cc">
-      <Filter>public\primary</Filter>
-    </ClCompile>
-    <ClInclude Include="public\primary\overscroll_configuration.h">
-      <Filter>public\primary</Filter>
-    </ClInclude>
-    <ClInclude Include="public\primary\browser_shutdown.h">
-      <Filter>public\primary</Filter>
-    </ClInclude>
-    <ClInclude Include="public\primary\color_chooser.h">
-      <Filter>public\primary</Filter>
-    </ClInclude>
-    <ClCompile Include="public\primary\browser_message_filter.cc">
-      <Filter>public\primary</Filter>
-    </ClCompile>
     <ClInclude Include="public\primary\gpu_data_manager_observer.h">
       <Filter>public\primary</Filter>
     </ClInclude>
@@ -282,6 +171,24 @@
     <ClInclude Include="primary\aura\primary_compositor_output_surface_proxy.h">
       <Filter>primary\aura</Filter>
     </ClInclude>
+    <ClInclude Include="public\primary\primary_shutdown.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="public\primary\primary_child_process_observer.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="public\primary\primary_child_process_host_iterator.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="public\primary\primary_child_process_host_delegate.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="public\primary\primary_child_process_host.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="public\primary\primary_accessibility_state.h">
+      <Filter>public\primary</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="public\primary\content_main_client.cc">
@@ -382,6 +289,15 @@
     </ClCompile>
     <ClCompile Include="primary\aura\primary_compositor_output_surface_proxy.cc">
       <Filter>primary\aura</Filter>
+    </ClCompile>
+    <ClCompile Include="public\primary\primary_child_process_observer.cc">
+      <Filter>public\primary</Filter>
+    </ClCompile>
+    <ClCompile Include="public\primary\primary_child_process_host_iterator.cc">
+      <Filter>public\primary</Filter>
+    </ClCompile>
+    <ClCompile Include="public\primary\primary_child_process_host_delegate.cc">
+      <Filter>public\primary</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

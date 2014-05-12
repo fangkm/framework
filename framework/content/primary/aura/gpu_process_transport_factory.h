@@ -16,8 +16,8 @@
 #include "ui/compositor/compositor.h"
 
 namespace content {
-class BrowserCompositorOutputSurface;
-class BrowserCompositorOutputSurfaceProxy;
+class PrimaryCompositorOutputSurface;
+class PrimaryCompositorOutputSurfaceProxy;
 class CompositorSwapClient;
 class ContextProviderCommandBuffer;
 class ReflectorImpl;
@@ -94,9 +94,9 @@ class GpuProcessTransportFactory
 
   // The contents of this map and its methods may only be used on the compositor
   // thread.
-  IDMap<BrowserCompositorOutputSurface> output_surface_map_;
+  IDMap<PrimaryCompositorOutputSurface> output_surface_map_;
 
-  scoped_refptr<BrowserCompositorOutputSurfaceProxy> output_surface_proxy_;
+  scoped_refptr<PrimaryCompositorOutputSurfaceProxy> output_surface_proxy_;
 
   DISALLOW_COPY_AND_ASSIGN(GpuProcessTransportFactory);
 };

@@ -19,7 +19,7 @@
 #include "content/common/content_export.h"
 #include "content/common/gpu/gpu_memory_uma_stats.h"
 #include "content/common/gpu/gpu_process_launch_causes.h"
-#include "content/public/primary/browser_child_process_host_delegate.h"
+#include "content/public/primary/primary_child_process_host_delegate.h"
 #include "content/public/primary/gpu_data_manager.h"
 #include "gpu/command_buffer/common/constants.h"
 #include "gpu/config/gpu_info.h"

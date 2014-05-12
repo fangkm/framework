@@ -23,7 +23,7 @@ class Layer;
 
 namespace content {
 
-class BrowserCompositorOutputSurface;
+class PrimaryCompositorOutputSurface;
 
 // A reflector implementation that copies the framebuffer content
 // to the texture, then draw it onto the mirroring compositor.
@@ -34,7 +34,7 @@ class ReflectorImpl : public ImageTransportFactoryObserver,
   ReflectorImpl(
       ui::Compositor* mirrored_compositor,
       ui::Layer* mirroring_layer,
-      IDMap<BrowserCompositorOutputSurface>* output_surface_map,
+      IDMap<PrimaryCompositorOutputSurface>* output_surface_map,
       int surface_id);
 
   ui::Compositor* mirrored_compositor() {
@@ -47,7 +47,7 @@ class ReflectorImpl : public ImageTransportFactoryObserver,
 
   // This must be called on ImplThread, or before the surface is passed to
   // ImplThread.
-  void AttachToOutputSurface(BrowserCompositorOutputSurface* surface);
+  void AttachToOutputSurface(PrimaryCompositorOutputSurface* surface);
 
   // ui::Reflector implementation.
   virtual void OnMirroringCompositorResized() OVERRIDE;
@@ -59,12 +59,12 @@ class ReflectorImpl : public ImageTransportFactoryObserver,
   // This must be called on ImplThread.
   void OnReshape(gfx::Size size);
 
-  // Called in |BrowserCompositorOutputSurface::SwapBuffers| to copy
+  // Called in |PrimaryCompositorOutputSurface::SwapBuffers| to copy
   // the full screen image to the |texture_id_|. This must be called
   // on ImplThread.
   void OnSwapBuffers();
 
-  // Called in |BrowserCompositorOutputSurface::PostSubBuffer| copy
+  // Called in |PrimaryCompositorOutputSurface::PostSubBuffer| copy
   // the sub image given by |rect| to the texture.This must be called
   // on ImplThread.
   void OnPostSubBuffer(gfx::Rect rect);
@@ -104,7 +104,7 @@ class ReflectorImpl : public ImageTransportFactoryObserver,
   gfx::Size texture_size_;
 
   // Must be accessed only on ImplThread.
-  IDMap<BrowserCompositorOutputSurface>* output_surface_map_;
+  IDMap<PrimaryCompositorOutputSurface>* output_surface_map_;
   scoped_ptr<GLHelper> gl_helper_;
 
   // Must be accessed only on MainThread.

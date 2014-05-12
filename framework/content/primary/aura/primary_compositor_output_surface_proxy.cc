@@ -11,14 +11,14 @@
 
 namespace content {
 
-BrowserCompositorOutputSurfaceProxy::BrowserCompositorOutputSurfaceProxy(
-    IDMap<BrowserCompositorOutputSurface>* surface_map)
+PrimaryCompositorOutputSurfaceProxy::PrimaryCompositorOutputSurfaceProxy(
+    IDMap<PrimaryCompositorOutputSurface>* surface_map)
     : surface_map_(surface_map),
       connected_to_gpu_process_host_id_(0) {}
 
-BrowserCompositorOutputSurfaceProxy::~BrowserCompositorOutputSurfaceProxy() {}
+PrimaryCompositorOutputSurfaceProxy::~PrimaryCompositorOutputSurfaceProxy() {}
 
-void BrowserCompositorOutputSurfaceProxy::ConnectToGpuProcessHost(
+void PrimaryCompositorOutputSurfaceProxy::ConnectToGpuProcessHost(
     base::SingleThreadTaskRunner* compositor_thread_task_runner) {
   PrimaryGpuChannelHostFactory* factory =
       PrimaryGpuChannelHostFactory::instance();
@@ -31,27 +31,27 @@ void BrowserCompositorOutputSurfaceProxy::ConnectToGpuProcessHost(
   factory->SetHandlerForControlMessages(
       kMessagesToFilter,
       arraysize(kMessagesToFilter),
-      base::Bind(&BrowserCompositorOutputSurfaceProxy::
+      base::Bind(&PrimaryCompositorOutputSurfaceProxy::
                      OnMessageReceivedOnCompositorThread,
                  this),
       compositor_thread_task_runner);
   connected_to_gpu_process_host_id_ = gpu_process_host_id;
 }
 
-void BrowserCompositorOutputSurfaceProxy::OnMessageReceivedOnCompositorThread(
+void PrimaryCompositorOutputSurfaceProxy::OnMessageReceivedOnCompositorThread(
     const IPC::Message& message) {
-  IPC_BEGIN_MESSAGE_MAP(BrowserCompositorOutputSurfaceProxy, message)
+  IPC_BEGIN_MESSAGE_MAP(PrimaryCompositorOutputSurfaceProxy, message)
       IPC_MESSAGE_HANDLER(GpuHostMsg_UpdateVSyncParameters,
                           OnUpdateVSyncParametersOnCompositorThread);
   IPC_END_MESSAGE_MAP()
 }
 
 void
-BrowserCompositorOutputSurfaceProxy::OnUpdateVSyncParametersOnCompositorThread(
+PrimaryCompositorOutputSurfaceProxy::OnUpdateVSyncParametersOnCompositorThread(
     int surface_id,
     base::TimeTicks timebase,
     base::TimeDelta interval) {
-  BrowserCompositorOutputSurface* surface = surface_map_->Lookup(surface_id);
+  PrimaryCompositorOutputSurface* surface = surface_map_->Lookup(surface_id);
   if (surface)
     surface->OnUpdateVSyncParameters(timebase, interval);
 }

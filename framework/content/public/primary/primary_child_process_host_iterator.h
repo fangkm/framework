@@ -22,10 +22,10 @@ struct ChildProcessData;
 // specific type, depending on which constructor is used.  Note that this should
 // be done from the IO thread and that the iterator should not be kept around as
 // it may be invalidated on subsequent event processing in the event loop.
-class CONTENT_EXPORT BrowserChildProcessHostIterator {
+class CONTENT_EXPORT PrimaryChildProcessHostIterator {
  public:
-  BrowserChildProcessHostIterator();
-  explicit BrowserChildProcessHostIterator(int type);
+  PrimaryChildProcessHostIterator();
+  explicit PrimaryChildProcessHostIterator(int type);
 
   // These methods work on the current iterator object. Only call them if
   // Done() returns false.
@@ -47,10 +47,10 @@ class CONTENT_EXPORT BrowserChildProcessHostIterator {
 // otherwise link errors will result.
 template <class T>
 class CONTENT_EXPORT BrowserChildProcessHostTypeIterator
-    : public BrowserChildProcessHostIterator {
+    : public PrimaryChildProcessHostIterator {
  public:
   explicit BrowserChildProcessHostTypeIterator(int process_type)
-      : BrowserChildProcessHostIterator(process_type) {}
+      : PrimaryChildProcessHostIterator(process_type) {}
   T* operator->() {
     return static_cast<T*>(GetDelegate());
   }

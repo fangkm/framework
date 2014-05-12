@@ -181,7 +181,7 @@ class CompositorSwapClient
 
 GpuProcessTransportFactory::GpuProcessTransportFactory()
     : callback_factory_(this) {
-  output_surface_proxy_ = new BrowserCompositorOutputSurfaceProxy(
+  output_surface_proxy_ = new PrimaryCompositorOutputSurfaceProxy(
       &output_surface_map_);
 }
 
@@ -249,8 +249,8 @@ scoped_ptr<cc::OutputSurface> GpuProcessTransportFactory::CreateOutputSurface(
   output_surface_proxy_->ConnectToGpuProcessHost(
       compositor_thread_task_runner.get());
 
-  scoped_ptr<BrowserCompositorOutputSurface> surface(
-      new BrowserCompositorOutputSurface(
+  scoped_ptr<PrimaryCompositorOutputSurface> surface(
+      new PrimaryCompositorOutputSurface(
           context_provider,
           per_compositor_data_[compositor]->surface_id,
           &output_surface_map_,

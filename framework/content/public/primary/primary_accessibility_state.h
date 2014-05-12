@@ -11,15 +11,15 @@
 
 namespace content {
 
-// The BrowserAccessibilityState class is used to determine if the browser
+// The PrimaryAccessibilityState class is used to determine if the browser
 // should be customized for users with assistive technology, such as screen
 // readers.
-class CONTENT_EXPORT BrowserAccessibilityState {
+class CONTENT_EXPORT PrimaryAccessibilityState {
  public:
-  virtual ~BrowserAccessibilityState() { }
+  virtual ~PrimaryAccessibilityState() { }
 
   // Returns the singleton instance.
-  static BrowserAccessibilityState* GetInstance();
+  static PrimaryAccessibilityState* GetInstance();
 
   // Enables accessibility for all running tabs.
   virtual void EnableAccessibility() = 0;

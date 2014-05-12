@@ -19,10 +19,6 @@ std::string ContentMainClient::GetApplicationLocale() {
   return "en-US";
 }
 
-std::string ContentMainClient::GetAcceptLangs(BrowserContext* context) {
-  return std::string();
-}
-
 gfx::ImageSkia* ContentMainClient::GetDefaultFavicon() {
   static gfx::ImageSkia* empty = new gfx::ImageSkia();
   return empty;

@@ -18,10 +18,10 @@
 
 namespace content {
 
-BrowserCompositorOutputSurface::BrowserCompositorOutputSurface(
+PrimaryCompositorOutputSurface::PrimaryCompositorOutputSurface(
     const scoped_refptr<ContextProviderCommandBuffer>& context_provider,
     int surface_id,
-    IDMap<BrowserCompositorOutputSurface>* output_surface_map,
+    IDMap<PrimaryCompositorOutputSurface>* output_surface_map,
     base::MessageLoopProxy* compositor_message_loop,
     base::WeakPtr<ui::Compositor> compositor)
     : OutputSurface(context_provider),
@@ -43,14 +43,14 @@ BrowserCompositorOutputSurface::BrowserCompositorOutputSurface(
   DetachFromThread();
 }
 
-BrowserCompositorOutputSurface::~BrowserCompositorOutputSurface() {
+PrimaryCompositorOutputSurface::~PrimaryCompositorOutputSurface() {
   DCHECK(CalledOnValidThread());
   if (!HasClient())
     return;
   output_surface_map_->Remove(surface_id_);
 }
 
-bool BrowserCompositorOutputSurface::BindToClient(
+bool PrimaryCompositorOutputSurface::BindToClient(
     cc::OutputSurfaceClient* client) {
   DCHECK(CalledOnValidThread());
 
@@ -61,14 +61,14 @@ bool BrowserCompositorOutputSurface::BindToClient(
   return true;
 }
 
-void BrowserCompositorOutputSurface::Reshape(gfx::Size size,
+void PrimaryCompositorOutputSurface::Reshape(gfx::Size size,
                                              float scale_factor) {
   OutputSurface::Reshape(size, scale_factor);
   if (reflector_.get())
     reflector_->OnReshape(size);
 }
 
-void BrowserCompositorOutputSurface::SwapBuffers(cc::CompositorFrame* frame) {
+void PrimaryCompositorOutputSurface::SwapBuffers(cc::CompositorFrame* frame) {
   DCHECK(frame->gl_frame_data);
 
   WebGraphicsContext3DCommandBufferImpl* command_buffer_context =
@@ -91,7 +91,7 @@ void BrowserCompositorOutputSurface::SwapBuffers(cc::CompositorFrame* frame) {
   OutputSurface::SwapBuffers(frame);
 }
 
-void BrowserCompositorOutputSurface::OnUpdateVSyncParameters(
+void PrimaryCompositorOutputSurface::OnUpdateVSyncParameters(
     base::TimeTicks timebase,
     base::TimeDelta interval) {
   DCHECK(CalledOnValidThread());
@@ -103,7 +103,7 @@ void BrowserCompositorOutputSurface::OnUpdateVSyncParameters(
                  compositor_, timebase, interval));
 }
 
-void BrowserCompositorOutputSurface::SetReflector(ReflectorImpl* reflector) {
+void PrimaryCompositorOutputSurface::SetReflector(ReflectorImpl* reflector) {
   reflector_ = reflector;
 }
 

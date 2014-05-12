@@ -14,14 +14,14 @@ namespace base { class SingleThreadTaskRunner; }
 namespace IPC { class Message; }
 
 namespace content {
-class BrowserCompositorOutputSurface;
+class PrimaryCompositorOutputSurface;
 
-// Directs vsync updates to the appropriate BrowserCompositorOutputSurface.
-class BrowserCompositorOutputSurfaceProxy
-    : public base::RefCountedThreadSafe<BrowserCompositorOutputSurfaceProxy> {
+// Directs vsync updates to the appropriate PrimaryCompositorOutputSurface.
+class PrimaryCompositorOutputSurfaceProxy
+    : public base::RefCountedThreadSafe<PrimaryCompositorOutputSurfaceProxy> {
  public:
-  BrowserCompositorOutputSurfaceProxy(
-      IDMap<BrowserCompositorOutputSurface>* surface_map);
+  PrimaryCompositorOutputSurfaceProxy(
+      IDMap<PrimaryCompositorOutputSurface>* surface_map);
 
   // Call this before each OutputSurface is created to ensure that the
   // proxy is connected to the current host.
@@ -29,8 +29,8 @@ class BrowserCompositorOutputSurfaceProxy
       base::SingleThreadTaskRunner* compositor_thread_task_runner);
 
  private:
-  friend class base::RefCountedThreadSafe<BrowserCompositorOutputSurfaceProxy>;
-  ~BrowserCompositorOutputSurfaceProxy();
+  friend class base::RefCountedThreadSafe<PrimaryCompositorOutputSurfaceProxy>;
+  ~PrimaryCompositorOutputSurfaceProxy();
 
   void OnMessageReceivedOnCompositorThread(const IPC::Message& message);
 
@@ -38,10 +38,10 @@ class BrowserCompositorOutputSurfaceProxy
                                                  base::TimeTicks timebase,
                                                  base::TimeDelta interval);
 
-  IDMap<BrowserCompositorOutputSurface>* surface_map_;
+  IDMap<PrimaryCompositorOutputSurface>* surface_map_;
   int connected_to_gpu_process_host_id_;
 
-  DISALLOW_COPY_AND_ASSIGN(BrowserCompositorOutputSurfaceProxy);
+  DISALLOW_COPY_AND_ASSIGN(PrimaryCompositorOutputSurfaceProxy);
 };
 
 }  // namespace content

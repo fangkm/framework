@@ -29,7 +29,7 @@
 #include "content/primary/gpu/gpu_data_manager_impl.h"
 #include "content/primary/gpu/gpu_process_host.h"
 #include "content/public/primary/primary_main_parts.h"
-#include "content/public/primary/browser_shutdown.h"
+#include "content/public/primary/primary_shutdown.h"
 #include "content/public/primary/content_main_client.h"
 #include "content/public/common/content_switches.h"
 #include "content/public/common/main_function_params.h"

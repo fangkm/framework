@@ -11,7 +11,7 @@ namespace cc { class SoftwareOutputDevice; }
 
 namespace content {
 
-// TODO(danakj): Inherit from BrowserCompositorOutputSurface to share stuff like
+// TODO(danakj): Inherit from PrimaryCompositorOutputSurface to share stuff like
 // reflectors, when we split the GL-specific stuff out of the class.
 class SoftwareBrowserCompositorOutputSurface : public cc::OutputSurface {
  public:

@@ -15,7 +15,7 @@ namespace content {
 ReflectorImpl::ReflectorImpl(
     ui::Compositor* mirrored_compositor,
     ui::Layer* mirroring_layer,
-    IDMap<BrowserCompositorOutputSurface>* output_surface_map,
+    IDMap<PrimaryCompositorOutputSurface>* output_surface_map,
     int surface_id)
     : texture_id_(0),
       texture_size_(mirrored_compositor->size()),
@@ -53,7 +53,7 @@ void ReflectorImpl::Shutdown() {
 }
 
 void ReflectorImpl::ShutdownOnImplThread() {
-  BrowserCompositorOutputSurface* output_surface =
+  PrimaryCompositorOutputSurface* output_surface =
       output_surface_map_->Lookup(surface_id_);
   output_surface->SetReflector(NULL);
   gl_helper_.reset();
@@ -67,7 +67,7 @@ void ReflectorImpl::ShutdownOnImplThread() {
 // This must be called on ImplThread, or before the surface is passed to
 // ImplThread.
 void ReflectorImpl::AttachToOutputSurface(
-    BrowserCompositorOutputSurface* output_surface) {
+    PrimaryCompositorOutputSurface* output_surface) {
   gl_helper_.reset(
       new GLHelper(output_surface->context_provider()->Context3d()));
   output_surface->SetReflector(this);

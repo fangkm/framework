@@ -22,18 +22,18 @@ class WebGraphicsContext3DCommandBufferImpl;
 // Adapts a WebGraphicsContext3DCommandBufferImpl into a
 // cc::OutputSurface that also handles vsync parameter updates
 // arriving from the GPU process.
-class BrowserCompositorOutputSurface
+class PrimaryCompositorOutputSurface
     : public cc::OutputSurface,
       public base::NonThreadSafe {
  public:
-  BrowserCompositorOutputSurface(
+  PrimaryCompositorOutputSurface(
       const scoped_refptr<ContextProviderCommandBuffer>& context,
       int surface_id,
-      IDMap<BrowserCompositorOutputSurface>* output_surface_map,
+      IDMap<PrimaryCompositorOutputSurface>* output_surface_map,
       base::MessageLoopProxy* compositor_message_loop,
       base::WeakPtr<ui::Compositor> compositor);
 
-  virtual ~BrowserCompositorOutputSurface();
+  virtual ~PrimaryCompositorOutputSurface();
 
   // cc::OutputSurface implementation.
   virtual bool BindToClient(cc::OutputSurfaceClient* client) OVERRIDE;
@@ -47,7 +47,7 @@ class BrowserCompositorOutputSurface
 
  private:
   int surface_id_;
-  IDMap<BrowserCompositorOutputSurface>* output_surface_map_;
+  IDMap<PrimaryCompositorOutputSurface>* output_surface_map_;
 
   scoped_refptr<base::MessageLoopProxy> compositor_message_loop_;
   base::WeakPtr<ui::Compositor> compositor_;

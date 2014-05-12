@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "content/public/primary/browser_child_process_host_iterator.h"
+#include "content/public/primary/primary_child_process_host_iterator.h"
 
 #include "base/logging.h"
 #include "content/primary/primary_child_process_host_impl.h"
@@ -10,23 +10,23 @@
 
 namespace content {
 
-BrowserChildProcessHostIterator::BrowserChildProcessHostIterator()
+PrimaryChildProcessHostIterator::PrimaryChildProcessHostIterator()
     : all_(true), process_type_(PROCESS_TYPE_UNKNOWN) {
   CHECK(PrimaryThread::CurrentlyOn(PrimaryThread::IO)) <<
-        "BrowserChildProcessHostIterator must be used on the IO thread.";
+        "PrimaryChildProcessHostIterator must be used on the IO thread.";
   iterator_ = PrimaryChildProcessHostImpl::GetIterator()->begin();
 }
 
-BrowserChildProcessHostIterator::BrowserChildProcessHostIterator(int type)
+PrimaryChildProcessHostIterator::PrimaryChildProcessHostIterator(int type)
     : all_(false), process_type_(type) {
   CHECK(PrimaryThread::CurrentlyOn(PrimaryThread::IO)) <<
-        "BrowserChildProcessHostIterator must be used on the IO thread.";
+        "PrimaryChildProcessHostIterator must be used on the IO thread.";
   iterator_ = PrimaryChildProcessHostImpl::GetIterator()->begin();
   if (!Done() && (*iterator_)->GetData().process_type != process_type_)
     ++(*this);
 }
 
-bool BrowserChildProcessHostIterator::operator++() {
+bool PrimaryChildProcessHostIterator::operator++() {
   CHECK(!Done());
   do {
     ++iterator_;
@@ -42,22 +42,22 @@ bool BrowserChildProcessHostIterator::operator++() {
   return false;
 }
 
-bool BrowserChildProcessHostIterator::Done() {
+bool PrimaryChildProcessHostIterator::Done() {
   return iterator_ == PrimaryChildProcessHostImpl::GetIterator()->end();
 }
 
-const ChildProcessData& BrowserChildProcessHostIterator::GetData() {
+const ChildProcessData& PrimaryChildProcessHostIterator::GetData() {
   CHECK(!Done());
   return (*iterator_)->GetData();
 }
 
-bool BrowserChildProcessHostIterator::Send(IPC::Message* message) {
+bool PrimaryChildProcessHostIterator::Send(IPC::Message* message) {
   CHECK(!Done());
   return (*iterator_)->Send(message);
 }
 
 PrimaryChildProcessHostDelegate*
-    BrowserChildProcessHostIterator::GetDelegate() {
+    PrimaryChildProcessHostIterator::GetDelegate() {
   return (*iterator_)->delegate();
 }
 

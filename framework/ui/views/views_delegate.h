@@ -23,8 +23,6 @@ class TimeDelta;
 }
 
 namespace content {
-class WebContents;
-class BrowserContext;
 class SiteInstance;
 }
 

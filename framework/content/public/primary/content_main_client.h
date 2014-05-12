@@ -46,7 +46,6 @@ namespace content {
 
 class AccessTokenStore;
 class PrimaryChildProcessHost;
-class BrowserContext;
 
 struct MainFunctionParams;
 struct Referrer;
@@ -81,10 +80,6 @@ class CONTENT_EXPORT ContentMainClient {
   // Returns the locale used by the application.
   // This is called on the UI and IO threads.
   virtual std::string GetApplicationLocale();
-
-  // Returns the languages used in the Accept-Languages HTTP header.
-  // (Not called GetAcceptLanguages so it doesn't clash with win32).
-  virtual std::string GetAcceptLangs(BrowserContext* context);
 
   // Returns the default favicon.  The callee doesn't own the given bitmap.
   virtual gfx::ImageSkia* GetDefaultFavicon();
