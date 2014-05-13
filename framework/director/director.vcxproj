@@ -590,7 +590,7 @@
     <ClCompile Include="content\director_main_parts.cc" />
     <ClCompile Include="main\director_context.cc" />
     <ClCompile Include="main\director_views_delegate.cc" />
-    <ClCompile Include="views\main_window.cc" />
+    <ClCompile Include="views\main_window_impl.cc" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="content\director_content_main_client.h" />
@@ -598,6 +598,7 @@
     <ClInclude Include="content\director_main_parts.h" />
     <ClInclude Include="main\director_context.h" />
     <ClInclude Include="main\director_views_delegate.h" />
+    <ClInclude Include="views\main_window_impl.h" />
     <ClInclude Include="views\main_window.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

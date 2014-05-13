@@ -36,14 +36,14 @@
     <ClCompile Include="content\director_main_parts.cc">
       <Filter>content</Filter>
     </ClCompile>
-    <ClCompile Include="views\main_window.cc">
-      <Filter>views</Filter>
-    </ClCompile>
     <ClCompile Include="main\director_views_delegate.cc">
       <Filter>main</Filter>
     </ClCompile>
     <ClCompile Include="main\director_context.cc">
       <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="views\main_window_impl.cc">
+      <Filter>views</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -56,14 +56,17 @@
     <ClInclude Include="content\director_main_parts.h">
       <Filter>content</Filter>
     </ClInclude>
-    <ClInclude Include="views\main_window.h">
-      <Filter>views</Filter>
-    </ClInclude>
     <ClInclude Include="main\director_views_delegate.h">
       <Filter>main</Filter>
     </ClInclude>
     <ClInclude Include="main\director_context.h">
       <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="views\main_window_impl.h">
+      <Filter>views</Filter>
+    </ClInclude>
+    <ClInclude Include="views\main_window.h">
+      <Filter>views</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

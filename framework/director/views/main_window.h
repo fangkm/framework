@@ -1,17 +1,16 @@
-#ifndef _MAIN_WINDOW_51486125_5D3B_4748_B342_6E326475CC1F_
-#define _MAIN_WINDOW_51486125_5D3B_4748_B342_6E326475CC1F_
+#ifndef _MAIN_WINDOW_1C7F4253_1EBE_4B20_95EE_15CB7D6E43F5_
+#define _MAIN_WINDOW_1C7F4253_1EBE_4B20_95EE_15CB7D6E43F5_
 
 namespace director {
 class DirectorContext;
 
-enum Operation {
-  DO_NOTHING_ON_CLOSE = 0,
-  QUIT_ON_CLOSE,
-};
+class MainWindow {
+public:
+	virtual ~MainWindow() { }
 
-// Shows a window with the views examples in it.
-void ShowMainWindow(Operation operation, DirectorContext* context);
+	static MainWindow* Create(DirectorContext* context);
+};
 
 }  // namespace director
 
-#endif  // _MAIN_WINDOW_51486125_5D3B_4748_B342_6E326475CC1F_
+#endif  // _MAIN_WINDOW_1C7F4253_1EBE_4B20_95EE_15CB7D6E43F5_

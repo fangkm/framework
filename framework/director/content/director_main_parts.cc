@@ -38,7 +38,7 @@ void DirectorMainParts::PreMainMessageLoopRun() {
   gfx::Screen::SetScreenInstance(
       gfx::SCREEN_TYPE_NATIVE, views::CreateDesktopScreen());
 
-  ShowMainWindow(QUIT_ON_CLOSE, context_.get());
+	MainWindow::Create(context_.get());
 }
 
 void DirectorMainParts::PostMainMessageLoopRun() {

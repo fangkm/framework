@@ -6,12 +6,8 @@
 #define CONTENT_PUBLIC_APP_CONTENT_MAIN_RUNNER_H_
 
 #include <string>
-
 #include "build/build_config.h"
-
-#if defined(OS_WIN)
 #include <windows.h>
-#endif
 
 namespace sandbox {
 struct SandboxInterfaceInfo;
