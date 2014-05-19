@@ -9,7 +9,7 @@ class MainView;
 
 class MainFrame : public views::Widget {
 public:
-	explicit MainFrame(MainView* main_view);
+	explicit MainFrame(MainView* view);
 	~MainFrame();
 
 	void InitFrame();

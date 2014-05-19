@@ -3,11 +3,19 @@
 
 #include "base/basictypes.h"
 #include "base/memory/scoped_ptr.h"
+#include "director/views/main_window.h"
 
 namespace director {
 
 class Director {
 public:
+	Director();
+	~Director();
+
+	bool Init();
+
+private:
+	MainWindow* window_;
 };
 
 }  // namespace director

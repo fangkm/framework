@@ -19,8 +19,7 @@
 #endif
 
 #include "director/main/director_views_delegate.h"
-#include "director/main/director_context.h"
-#include "director/views/main_window.h"
+#include "director/main/director.h"
 
 namespace director {
 
@@ -38,7 +37,7 @@ void DirectorMainParts::PreMainMessageLoopRun() {
   gfx::Screen::SetScreenInstance(
       gfx::SCREEN_TYPE_NATIVE, views::CreateDesktopScreen());
 
-	MainWindow::Create(context_.get());
+	context_->Init();
 }
 
 void DirectorMainParts::PostMainMessageLoopRun() {

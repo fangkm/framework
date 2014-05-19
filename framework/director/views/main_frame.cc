@@ -5,8 +5,8 @@
 namespace director {
 using namespace views;
 
-MainFrame::MainFrame(MainView* main_view)
-		: main_view_(main_view) {
+MainFrame::MainFrame(MainView* view)
+		: main_view_(view) {
 	main_view_->SetFrame(this);
 }
 
@@ -16,7 +16,11 @@ MainFrame::~MainFrame() {
 
 void MainFrame::InitFrame() {
 	Widget::InitParams params;
+	params.delegate   =  main_view_;
+	params.top_level  =  true;
 	Init(params);
+	CenterWindow(gfx::Size(800, 600));
+	Show();	
 }
 
 }  // namespace director

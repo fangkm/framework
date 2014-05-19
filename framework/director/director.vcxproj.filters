@@ -19,6 +19,9 @@
     <Filter Include="views">
       <UniqueIdentifier>{d5be4161-688d-40ad-887d-6b23c8930eb9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="views\model">
+      <UniqueIdentifier>{00603a88-1c97-409a-b962-57b4331b892a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\content\app\startup_helper_win.cc">
@@ -39,9 +42,6 @@
     <ClCompile Include="main\director_views_delegate.cc">
       <Filter>main</Filter>
     </ClCompile>
-    <ClCompile Include="views\main_window_impl.cc">
-      <Filter>views</Filter>
-    </ClCompile>
     <ClCompile Include="views\main_frame.cc">
       <Filter>views</Filter>
     </ClCompile>
@@ -50,6 +50,9 @@
     </ClCompile>
     <ClCompile Include="main\director.cc">
       <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="views\model\video_combo_model.cc">
+      <Filter>views\model</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -65,9 +68,6 @@
     <ClInclude Include="main\director_views_delegate.h">
       <Filter>main</Filter>
     </ClInclude>
-    <ClInclude Include="views\main_window_impl.h">
-      <Filter>views</Filter>
-    </ClInclude>
     <ClInclude Include="views\main_window.h">
       <Filter>views</Filter>
     </ClInclude>
@@ -79,6 +79,9 @@
     </ClInclude>
     <ClInclude Include="main\director.h">
       <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="views\model\video_combo_model.h">
+      <Filter>views\model</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

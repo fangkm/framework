@@ -592,7 +592,7 @@
     <ClCompile Include="main\director_views_delegate.cc" />
     <ClCompile Include="views\main_frame.cc" />
     <ClCompile Include="views\main_view.cc" />
-    <ClCompile Include="views\main_window_impl.cc" />
+    <ClCompile Include="views\model\video_combo_model.cc" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="content\director_content_main_client.h" />
@@ -602,8 +602,8 @@
     <ClInclude Include="main\director_views_delegate.h" />
     <ClInclude Include="views\main_frame.h" />
     <ClInclude Include="views\main_view.h" />
-    <ClInclude Include="views\main_window_impl.h" />
     <ClInclude Include="views\main_window.h" />
+    <ClInclude Include="views\model\video_combo_model.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />
