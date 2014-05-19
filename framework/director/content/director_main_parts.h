@@ -14,7 +14,7 @@ class ViewsDelegate;
 }
 
 namespace director {
-class DirectorContext;
+class Director;
 
 class DirectorMainParts : public content::MainParts {
  public:
@@ -29,7 +29,7 @@ class DirectorMainParts : public content::MainParts {
 
  private:
   scoped_ptr<views::ViewsDelegate> views_delegate_;
-	scoped_ptr<DirectorContext> context_;
+	scoped_ptr<Director> context_;
 
   DISALLOW_COPY_AND_ASSIGN(DirectorMainParts);
 };

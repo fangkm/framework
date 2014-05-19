@@ -25,7 +25,7 @@ class MainWindowImpl : public MainWindow,
 											 public views::WidgetDelegateView,
 											 public views::ComboboxListener {
 public:
-	MainWindowImpl(DirectorContext* context);
+	MainWindowImpl(Director* context);
 	virtual ~MainWindowImpl();
 
 private:
@@ -46,7 +46,7 @@ private:
 	// Creates the layout within the examples window.
 	void Initialize();
 
-	DirectorContext* context_;
+	Director* context_;
 
 	ComboboxModelExample combobox_model_;
 	views::Combobox* combobox_camera_;

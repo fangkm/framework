@@ -30,7 +30,7 @@ string16 ComboboxModelExample::GetItemAt(int index) {
 }
 	
 // MainWindowImpl
-MainWindowImpl::MainWindowImpl(DirectorContext* context)
+MainWindowImpl::MainWindowImpl(Director* context)
       : context_(context) {
 
 }
@@ -108,7 +108,7 @@ void MainWindowImpl::OnSelectedIndexChanged(Combobox* combobox) {
 }
 
 // static
-MainWindow* MainWindow::Create(DirectorContext* context) {
+MainWindow* MainWindow::Create(Director* context) {
 	MainWindowImpl* wnd = new MainWindowImpl(context);
 	Widget* widget = new Widget;
 	Widget::InitParams params;

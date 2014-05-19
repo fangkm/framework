@@ -32,7 +32,7 @@ DirectorMainParts::~DirectorMainParts() {
 }
 
 void DirectorMainParts::PreMainMessageLoopRun() {
-  context_.reset(new DirectorContext);
+  context_.reset(new Director);
 	views_delegate_.reset(new DirectorViewsDelegate);
 
   gfx::Screen::SetScreenInstance(

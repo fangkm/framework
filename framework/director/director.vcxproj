@@ -588,16 +588,20 @@
     <ClCompile Include="content\director_main.cc" />
     <ClCompile Include="content\director_main_delegate.cc" />
     <ClCompile Include="content\director_main_parts.cc" />
-    <ClCompile Include="main\director_context.cc" />
+    <ClCompile Include="main\director.cc" />
     <ClCompile Include="main\director_views_delegate.cc" />
+    <ClCompile Include="views\main_frame.cc" />
+    <ClCompile Include="views\main_view.cc" />
     <ClCompile Include="views\main_window_impl.cc" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="content\director_content_main_client.h" />
     <ClInclude Include="content\director_main_delegate.h" />
     <ClInclude Include="content\director_main_parts.h" />
-    <ClInclude Include="main\director_context.h" />
+    <ClInclude Include="main\director.h" />
     <ClInclude Include="main\director_views_delegate.h" />
+    <ClInclude Include="views\main_frame.h" />
+    <ClInclude Include="views\main_view.h" />
     <ClInclude Include="views\main_window_impl.h" />
     <ClInclude Include="views\main_window.h" />
   </ItemGroup>

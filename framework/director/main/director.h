@@ -6,7 +6,7 @@
 
 namespace director {
 
-class DirectorContext {
+class Director {
 public:
 };
 

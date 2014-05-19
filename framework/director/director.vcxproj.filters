@@ -39,11 +39,17 @@
     <ClCompile Include="main\director_views_delegate.cc">
       <Filter>main</Filter>
     </ClCompile>
-    <ClCompile Include="main\director_context.cc">
-      <Filter>main</Filter>
-    </ClCompile>
     <ClCompile Include="views\main_window_impl.cc">
       <Filter>views</Filter>
+    </ClCompile>
+    <ClCompile Include="views\main_frame.cc">
+      <Filter>views</Filter>
+    </ClCompile>
+    <ClCompile Include="views\main_view.cc">
+      <Filter>views</Filter>
+    </ClCompile>
+    <ClCompile Include="main\director.cc">
+      <Filter>main</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -59,14 +65,20 @@
     <ClInclude Include="main\director_views_delegate.h">
       <Filter>main</Filter>
     </ClInclude>
-    <ClInclude Include="main\director_context.h">
-      <Filter>main</Filter>
-    </ClInclude>
     <ClInclude Include="views\main_window_impl.h">
       <Filter>views</Filter>
     </ClInclude>
     <ClInclude Include="views\main_window.h">
       <Filter>views</Filter>
+    </ClInclude>
+    <ClInclude Include="views\main_frame.h">
+      <Filter>views</Filter>
+    </ClInclude>
+    <ClInclude Include="views\main_view.h">
+      <Filter>views</Filter>
+    </ClInclude>
+    <ClInclude Include="main\director.h">
+      <Filter>main</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
