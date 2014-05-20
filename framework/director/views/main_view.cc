@@ -1,6 +1,7 @@
 #include "director/views/main_view.h"
 
 #include "base/strings/utf_string_conversions.h"
+#include "ui/gfx/canvas.h"
 #include "ui/views/controls/label.h"
 #include "director/views/main_frame.h"
 
@@ -79,9 +80,12 @@ void MainView::Initialize() {
 
 	video_render_ = new ImageView;
 	video_render_->SetBounds(10, 100, 640, 480);
-	gfx::ImageSkiaRep image(gfx::Size(100, 200), ui::SCALE_FACTOR_100P);
-	video_render_->SetImage(gfx::ImageSkia(image));
 	AddChildView(video_render_);
+
+	gfx::Canvas  canvas(gfx::Size(640, 480), ui::SCALE_FACTOR_200P, false);
+	canvas.DrawColor(SkColorSetRGB(155, 100, 155));
+	
+	video_render_->SetImage(gfx::ImageSkia(canvas.ExtractImageRep()));
 }
 
 // static

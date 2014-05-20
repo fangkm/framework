@@ -19,7 +19,7 @@ void MainFrame::InitFrame() {
 	params.delegate   =  main_view_;
 	params.top_level  =  true;
 	Init(params);
-	CenterWindow(gfx::Size(800, 600));
+	CenterWindow(gfx::Size(676, 630));
 	Show();	
 }
 
