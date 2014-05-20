@@ -323,6 +323,12 @@ class UI_EXPORT Canvas {
                     bool filter,
                     const SkPaint& paint);
 
+	// added by fangkm
+	void DrawImageNine(const ImageSkia& image, 
+										 const SkIRect& center,
+										 const SkRect& dst, 
+										 const SkPaint& paint);
+
   // Draws an |image| with the top left corner at |x| and |y|, clipped to
   // |path|.
   // Parameters are specified relative to current canvas scale not in pixels.

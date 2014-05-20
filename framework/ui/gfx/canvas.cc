@@ -426,6 +426,23 @@ void Canvas::DrawImageInt(const ImageSkia& image,
   canvas_->drawRect(dest_rect, p);
 }
 
+void Canvas::DrawImageNine(const ImageSkia& image, 
+													 const SkIRect& center,
+													 const SkRect& dst, 
+													 const SkPaint& paint) {
+	const ImageSkiaRep& image_rep = GetImageRepToPaint(image);
+	if (image_rep.is_null())
+		return;
+	const SkBitmap& bitmap = image_rep.sk_bitmap();
+	float bitmap_scale = image_rep.GetScale();
+
+	canvas_->save();
+	canvas_->scale(SkFloatToScalar(1.0f / bitmap_scale),
+								 SkFloatToScalar(1.0f / bitmap_scale));
+	canvas_->drawBitmapNine(bitmap, center, dst, &paint);
+	canvas_->restore();
+}
+
 void Canvas::DrawImageInPath(const ImageSkia& image,
                              int x,
                              int y,

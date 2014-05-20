@@ -3,6 +3,7 @@
 #include "base/strings/utf_string_conversions.h"
 #include "ui/gfx/canvas.h"
 #include "ui/views/controls/label.h"
+#include "ui/views/controls/panel.h"
 #include "director/views/main_frame.h"
 
 namespace director {
@@ -78,12 +79,19 @@ void MainView::Initialize() {
 	//combobox_dimension_->set_listener(this);
 	//combobox_dimension_->SetSelectedIndex(3);
 
+	Panel* panel = new Panel;
+	panel->SetBounds(10, 100, 640, 480);
+	//panel->SetBackgroundColor();
+	AddChildView(panel);
+
+	return;
+
 	video_render_ = new ImageView;
 	video_render_->SetBounds(10, 100, 640, 480);
 	AddChildView(video_render_);
 
 	gfx::Canvas  canvas(gfx::Size(640, 480), ui::SCALE_FACTOR_200P, false);
-	canvas.DrawColor(SkColorSetRGB(155, 100, 155));
+	canvas.DrawColor(SkColorSetRGB(0, 0, 0));
 	
 	video_render_->SetImage(gfx::ImageSkia(canvas.ExtractImageRep()));
 }
