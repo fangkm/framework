@@ -1285,10 +1285,16 @@
     <ClCompile Include="controls\panel.cc">
       <Filter>controls</Filter>
     </ClCompile>
+    <ClCompile Include="layout\relative_layout.cc">
+      <Filter>layout</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="controls\panel.h">
       <Filter>controls</Filter>
+    </ClInclude>
+    <ClInclude Include="layout\relative_layout.h">
+      <Filter>layout</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
