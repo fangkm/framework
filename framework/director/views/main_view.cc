@@ -60,8 +60,7 @@ void MainView::ViewHierarchyChanged(const ViewHierarchyChangedDetails& details) 
 void MainView::Initialize() {
 	set_background(Background::CreateStandardPanelBackground());
 
-	RelativeLayout* layout = new RelativeLayout(this);
-	SetLayoutManager(layout);
+	RelativeLayout* layout = CreateRelativeLayout(this);
 
 	Label* label = new Label(L"Ñ¡ÔñÉãÏñÍ·:");
 	layout->AddView(label).LeftPos(10, 120).TopPos(10, 25);
@@ -70,17 +69,17 @@ void MainView::Initialize() {
 	layout->AddView(label).LeftPos(10, 120).TopPos(50, 25);
 
 	camera_devices_ = new Combobox(&video_devices_model_);
-	layout->AddView(camera_devices_).RightPos(10, 250).TopPos(10, 25);
+	layout->AddView(camera_devices_).HSizePos(140, 10).TopPos(10, 25);
 	//combobox_camera_->set_listener(this);
 	//combobox_camera_->SetSelectedIndex(3);
 
 	camera_dimension_ = new Combobox(&video_devices_model_);
-	layout->AddView(camera_dimension_).RightPos(10, 250).TopPos(50, 25);
+	layout->AddView(camera_dimension_).HSizePos(140, 10).TopPos(50, 25);
 	//combobox_dimension_->set_listener(this);
 	//combobox_dimension_->SetSelectedIndex(3);
 
 	Panel* panel = new Panel;
-	layout->AddView(camera_dimension_).HSizePos(10, 10).VSizePos(100, 10);
+	layout->AddView(panel).HSizePos(10, 10).VSizePos(100, 10);
 
 	return;
 

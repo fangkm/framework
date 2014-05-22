@@ -7,7 +7,9 @@
 
 namespace views {
 
-class Component {
+namespace internal {
+
+class Orientation {
 public:
 	enum Alignment {
 		kAlignCenter   = 0,
@@ -19,8 +21,8 @@ public:
 	};
 
 public:
-	Component();
-	Component(Alignment align, uint32 start, uint32 end);
+	Orientation();
+	Orientation(Alignment align, uint32 start, uint32 end);
 
 	void GetPosition(uint32 parent_size, uint32& start, uint32& end) const;
 
@@ -30,44 +32,60 @@ private:
 	uint32		end_;
 };
 
-class RelativeAdapter {
+}  // namespace internal
+
+class RelativeItem {
 public:
-	RelativeAdapter();
-	explicit RelativeAdapter(View* view);
-	~RelativeAdapter();
+	RelativeItem();
+	explicit RelativeItem(View* view);
+	~RelativeItem();
 
 	View* GetView() const;
 	gfx::Rect GetViewRect(const gfx::Size& parent_size) const;
 
-	RelativeAdapter& LeftPos(uint32 xpos, uint32 width);
-	RelativeAdapter& TopPos(uint32 ypos, uint32 height);
-	RelativeAdapter& RightPos(uint32 xpos, uint32 width);
-	RelativeAdapter& BottomPos(uint32 ypos, uint32 height);
-	RelativeAdapter& HSizePos(uint32 left = 0, uint32 right = 0);
-	RelativeAdapter& VSizePos(uint32 top = 0, uint32 bottom = 0);
-	RelativeAdapter& SizePos();
-	RelativeAdapter& HCenterPos(uint32 width, uint32 delta = 0);
-	RelativeAdapter& VCenterPos(uint32 height, uint32 delta = 0);
+	RelativeItem& LeftPos(uint32 xpos, uint32 width);
+	RelativeItem& TopPos(uint32 ypos, uint32 height);
+	RelativeItem& RightPos(uint32 xpos, uint32 width);
+	RelativeItem& BottomPos(uint32 ypos, uint32 height);
+	RelativeItem& HSizePos(uint32 left = 0, uint32 right = 0);
+	RelativeItem& VSizePos(uint32 top = 0, uint32 bottom = 0);
+	RelativeItem& SizePos();
+	RelativeItem& HCenterPos(uint32 width, uint32 delta = 0);
+	RelativeItem& VCenterPos(uint32 height, uint32 delta = 0);
 
 private:
 	View* view_;
 
-	Component xcomponent_;
-	Component ycomponent_;
+	internal::Orientation x_orient_;
+	internal::Orientation y_orient_;
 };
 
 ///////////////////////////////////////////////////////////////////////////////
 //
-// RelativeLayout
-//  
-//
+// RelativeLayout: 相对布局, 使用示例
+//	class MyView : public View {
+//	 public:
+//		MyView() {
+//			Initialize();
+//		}
+
+//		void Initialize() {
+//			RelativeLayout* layout = CreateRelativeLayout(this);
+
+//			Label* label = new Label;
+//			layout->AddView(label).HSizePos(10, 10).TopPos(10, 25);
+
+//			label = new Label;
+//			layout->AddView(label).RightPos(10, 100).BottomPos(10, 25);
+//		}
+//	};
 ///////////////////////////////////////////////////////////////////////////////
 class VIEWS_EXPORT RelativeLayout : public LayoutManager {
  public:
   explicit RelativeLayout(View* host);
   virtual ~RelativeLayout();
 
-	RelativeAdapter& AddView(View* view);
+	RelativeItem& AddView(View* view);
 
   // Overridden from LayoutManager:
   virtual void Layout(View* host) OVERRIDE;
@@ -76,11 +94,13 @@ class VIEWS_EXPORT RelativeLayout : public LayoutManager {
  private:
 	View* host_;
 
-	typedef stdext::hash_map<View*, RelativeAdapter> RelativeMap;
+	typedef stdext::hash_map<View*, RelativeItem> RelativeMap;
 	RelativeMap relatives_;
 
   DISALLOW_COPY_AND_ASSIGN(RelativeLayout);
 };
+
+RelativeLayout* CreateRelativeLayout(View* host);
 
 }  // namespace views
 

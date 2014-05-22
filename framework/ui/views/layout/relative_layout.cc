@@ -4,22 +4,22 @@
 
 namespace views {
 
-// Component
-Component::Component()
+namespace internal {
+
+// Orientation
+Orientation::Orientation()
 		: align_(kAlignLeft),
 			start_(0),
 			end_(0) {
-
 }
 
-Component::Component(Alignment align, uint32 start, uint32 end)
+Orientation::Orientation(Alignment align, uint32 start, uint32 end)
 		: align_(align),
 			start_(start),
 			end_(end){
-
 }
 
-void Component::GetPosition(uint32 parent_size, uint32& start, uint32& end) const {
+void Orientation::GetPosition(uint32 parent_size, uint32& start, uint32& end) const {
 	switch (align_) {
 	case kAlignCenter:
 		start = (parent_size + 2 * start_ - end_) / 2;
@@ -34,8 +34,8 @@ void Component::GetPosition(uint32 parent_size, uint32& start, uint32& end) cons
 	case kAlignRight:
 	case kAlignBottom:
 		// start_为right或bottom值, end_为控件的宽度或高度
-		start = parent_size - start_;
-		end   = start - end_;
+		end    = parent_size - start_;
+		start  = end - end_;
 		break;
 	case kAlignSize:
 		start = start_;
@@ -44,73 +44,77 @@ void Component::GetPosition(uint32 parent_size, uint32& start, uint32& end) cons
 	}
 }
 
-// RelativeAdapter
-RelativeAdapter::RelativeAdapter() 
+} // namespace internal
+
+using namespace internal;
+
+// RelativeItem
+RelativeItem::RelativeItem() 
 		: view_(NULL) {
 
 }
 
-RelativeAdapter::RelativeAdapter(View* view)
+RelativeItem::RelativeItem(View* view)
 		: view_(view) {
 
 }
 
-RelativeAdapter::~RelativeAdapter() {
+RelativeItem::~RelativeItem() {
 
 }
 
-View* RelativeAdapter::GetView() const {
+View* RelativeItem::GetView() const {
 	return view_;
 }
 
-gfx::Rect RelativeAdapter::GetViewRect(const gfx::Size& parent_size) const {
+gfx::Rect RelativeItem::GetViewRect(const gfx::Size& parent_size) const {
 	uint32 left(0), top(0), right(0), bottom(0);
-	xcomponent_.GetPosition(parent_size.width(), left, right);
-	ycomponent_.GetPosition(parent_size.height(), top, bottom);
+	x_orient_.GetPosition(parent_size.width(), left, right);
+	y_orient_.GetPosition(parent_size.height(), top, bottom);
 	return gfx::Rect(left, top, right - left, bottom - top);
 }
 
-RelativeAdapter& RelativeAdapter::LeftPos(uint32 xpos, uint32 width) {
-	xcomponent_ = Component(Component::kAlignLeft, xpos, width);
+RelativeItem& RelativeItem::LeftPos(uint32 xpos, uint32 width) {
+	x_orient_ = Orientation(Orientation::kAlignLeft, xpos, width);
 	return *this;
 }
 
-RelativeAdapter& RelativeAdapter::TopPos(uint32 ypos, uint32 height) {
-	ycomponent_ = Component(Component::kAlignTop, ypos, height);
+RelativeItem& RelativeItem::TopPos(uint32 ypos, uint32 height) {
+	y_orient_ = Orientation(Orientation::kAlignTop, ypos, height);
 	return *this;
 }
 
-RelativeAdapter& RelativeAdapter::RightPos(uint32 xpos, uint32 width) {
-	xcomponent_ = Component(Component::kAlignRight, xpos, width);
+RelativeItem& RelativeItem::RightPos(uint32 xpos, uint32 width) {
+	x_orient_ = Orientation(Orientation::kAlignRight, xpos, width);
 	return *this;
 }
 
-RelativeAdapter& RelativeAdapter::BottomPos(uint32 ypos, uint32 height) {
-	ycomponent_ = Component(Component::kAlignBottom, ypos, height);
+RelativeItem& RelativeItem::BottomPos(uint32 ypos, uint32 height) {
+	y_orient_ = Orientation(Orientation::kAlignBottom, ypos, height);
 	return *this;
 }
 
-RelativeAdapter& RelativeAdapter::HSizePos(uint32 left, uint32 right) {
-	xcomponent_ = Component(Component::kAlignSize, left, right);
+RelativeItem& RelativeItem::HSizePos(uint32 left, uint32 right) {
+	x_orient_ = Orientation(Orientation::kAlignSize, left, right);
 	return *this;
 }
 
-RelativeAdapter& RelativeAdapter::VSizePos(uint32 top, uint32 bottom) {
-	ycomponent_ = Component(Component::kAlignSize, top, bottom);
+RelativeItem& RelativeItem::VSizePos(uint32 top, uint32 bottom) {
+	y_orient_ = Orientation(Orientation::kAlignSize, top, bottom);
 	return *this;
 }
 
-RelativeAdapter& RelativeAdapter::SizePos() {
+RelativeItem& RelativeItem::SizePos() {
 	return HSizePos().VSizePos();
 }
 
-RelativeAdapter& RelativeAdapter::HCenterPos(uint32 width, uint32 delta) {
-	xcomponent_ = Component(Component::kAlignCenter, delta, width);
+RelativeItem& RelativeItem::HCenterPos(uint32 width, uint32 delta) {
+	x_orient_ = Orientation(Orientation::kAlignCenter, delta, width);
 	return *this;
 }
 
-RelativeAdapter& RelativeAdapter::VCenterPos(uint32 height, uint32 delta) {
-	ycomponent_ = Component(Component::kAlignCenter, delta, height);
+RelativeItem& RelativeItem::VCenterPos(uint32 height, uint32 delta) {
+	y_orient_ = Orientation(Orientation::kAlignCenter, delta, height);
 	return *this;
 }
 
@@ -120,11 +124,11 @@ RelativeLayout::RelativeLayout(View* host)
 
 RelativeLayout::~RelativeLayout() {}
 
-RelativeAdapter& RelativeLayout::AddView(View* view) {
+RelativeItem& RelativeLayout::AddView(View* view) {
 	if (!view->parent())
 		host_->AddChildView(view);
 
-	RelativeAdapter& relative_view = relatives_[view];
+	RelativeItem& relative_view = relatives_[view];
 	return relative_view;
 }
 
@@ -139,18 +143,19 @@ void RelativeLayout::Layout(View* host) {
 		if (!child->visible())
 			continue;
 
-		RelativeAdapter& relative = relatives_[child];
+		RelativeItem& relative = relatives_[child];
 		child->SetBoundsRect(relative.GetViewRect(rect.size()));
 	}
 }
 
 gfx::Size RelativeLayout::GetPreferredSize(View* host) {
-	return host->size();
+	return gfx::Size();
+}
 
-	DCHECK_EQ(1, host->child_count());
-	gfx::Rect rect(host->child_at(0)->GetPreferredSize());
-	rect.Inset(-host->GetInsets());
-	return rect.size();
+RelativeLayout* CreateRelativeLayout(View* host) {
+	RelativeLayout* layout = new RelativeLayout(host);
+	host->SetLayoutManager(layout);
+	return layout;
 }
 
 }  // namespace views
