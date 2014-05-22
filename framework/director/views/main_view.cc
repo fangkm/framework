@@ -4,6 +4,7 @@
 #include "ui/gfx/canvas.h"
 #include "ui/views/controls/label.h"
 #include "ui/views/controls/panel.h"
+#include "ui/views/layout/relative_layout.h"
 #include "director/views/main_frame.h"
 
 namespace director {
@@ -59,30 +60,27 @@ void MainView::ViewHierarchyChanged(const ViewHierarchyChangedDetails& details) 
 void MainView::Initialize() {
 	set_background(Background::CreateStandardPanelBackground());
 
+	RelativeLayout* layout = new RelativeLayout(this);
+	SetLayoutManager(layout);
+
 	Label* label = new Label(L"选择摄像头:");
-	label->SetBounds(10, 10, 120, 25);
-	AddChildView(label);
+	layout->AddView(label).LeftPos(10, 120).TopPos(10, 25);
 
 	label = new Label(L"选择分辨率:");
-	label->SetBounds(10, 50, 120, 25);
-	AddChildView(label);
+	layout->AddView(label).LeftPos(10, 120).TopPos(50, 25);
 
 	camera_devices_ = new Combobox(&video_devices_model_);
-	camera_devices_->SetBounds(130, 10, 250, 25);
-	AddChildView(camera_devices_);
+	layout->AddView(camera_devices_).RightPos(10, 250).TopPos(10, 25);
 	//combobox_camera_->set_listener(this);
 	//combobox_camera_->SetSelectedIndex(3);
 
 	camera_dimension_ = new Combobox(&video_devices_model_);
-	camera_dimension_->SetBounds(130, 50, 250, 25);
-	AddChildView(camera_dimension_);
+	layout->AddView(camera_dimension_).RightPos(10, 250).TopPos(50, 25);
 	//combobox_dimension_->set_listener(this);
 	//combobox_dimension_->SetSelectedIndex(3);
 
 	Panel* panel = new Panel;
-	panel->SetBounds(10, 100, 640, 480);
-	//panel->SetBackgroundColor();
-	AddChildView(panel);
+	layout->AddView(camera_dimension_).HSizePos(10, 10).VSizePos(100, 10);
 
 	return;
 
