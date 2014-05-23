@@ -395,9 +395,6 @@
     <ProjectReference Include="..\sandbox\sandbox.vcxproj">
       <Project>{8b082958-1905-fff7-a798-dd72675d24b5}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\sdch\sdch.vcxproj">
-      <Project>{6b21264f-6405-3e32-e073-e5d520685de9}</Project>
-    </ProjectReference>
     <ProjectReference Include="..\skia\skia.vcxproj">
       <Project>{2782280e-94f0-0e5d-b8b5-eb1e92ec7837}</Project>
     </ProjectReference>

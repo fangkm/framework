@@ -12,7 +12,7 @@
 #include "base/metrics/histogram.h"
 #include "net/base/sdch_manager.h"
 
-#include "sdch/open-vcdiff/src/google/vcdecoder.h"
+//#include "sdch/open-vcdiff/src/google/vcdecoder.h"
 
 namespace net {
 
@@ -43,20 +43,20 @@ SdchFilter::~SdchFilter() {
     UMA_HISTOGRAM_COUNTS("Sdch3.FilterUseBeforeDisabling", filter_use_count);
   }
 
-  if (vcdiff_streaming_decoder_.get()) {
-    if (!vcdiff_streaming_decoder_->FinishDecoding()) {
-      decoding_status_ = DECODING_ERROR;
-      SdchManager::SdchErrorRecovery(SdchManager::INCOMPLETE_SDCH_CONTENT);
-      // Make it possible for the user to hit reload, and get non-sdch content.
-      // Note this will "wear off" quickly enough, and is just meant to assure
-      // in some rare case that the user is not stuck.
-      SdchManager::BlacklistDomain(url_);
-      UMA_HISTOGRAM_COUNTS("Sdch3.PartialBytesIn",
-           static_cast<int>(filter_context_.GetByteReadCount()));
-      UMA_HISTOGRAM_COUNTS("Sdch3.PartialVcdiffIn", source_bytes_);
-      UMA_HISTOGRAM_COUNTS("Sdch3.PartialVcdiffOut", output_bytes_);
-    }
-  }
+  //if (vcdiff_streaming_decoder_.get()) {
+  //  if (!vcdiff_streaming_decoder_->FinishDecoding()) {
+  //    decoding_status_ = DECODING_ERROR;
+  //    SdchManager::SdchErrorRecovery(SdchManager::INCOMPLETE_SDCH_CONTENT);
+  //    // Make it possible for the user to hit reload, and get non-sdch content.
+  //    // Note this will "wear off" quickly enough, and is just meant to assure
+  //    // in some rare case that the user is not stuck.
+  //    SdchManager::BlacklistDomain(url_);
+  //    UMA_HISTOGRAM_COUNTS("Sdch3.PartialBytesIn",
+  //         static_cast<int>(filter_context_.GetByteReadCount()));
+  //    UMA_HISTOGRAM_COUNTS("Sdch3.PartialVcdiffIn", source_bytes_);
+  //    UMA_HISTOGRAM_COUNTS("Sdch3.PartialVcdiffOut", output_bytes_);
+  //  }
+  //}
 
   if (!dest_buffer_excess_.empty()) {
     // Filter chaining error, or premature teardown.
@@ -286,15 +286,15 @@ Filter::FilterStatus SdchFilter::ReadFilteredData(char* dest_buffer,
   if (!next_stream_data_ || stream_data_len_ <= 0)
     return FILTER_NEED_MORE_DATA;
 
-  bool ret = vcdiff_streaming_decoder_->DecodeChunk(
-    next_stream_data_, stream_data_len_, &dest_buffer_excess_);
+  bool ret = true/*vcdiff_streaming_decoder_->DecodeChunk(
+    next_stream_data_, stream_data_len_, &dest_buffer_excess_)*/;
   // Assume all data was used in decoding.
   next_stream_data_ = NULL;
   source_bytes_ += stream_data_len_;
   stream_data_len_ = 0;
   output_bytes_ += dest_buffer_excess_.size();
   if (!ret) {
-    vcdiff_streaming_decoder_.reset(NULL);  // Don't call it again.
+    //vcdiff_streaming_decoder_.reset(NULL);  // Don't call it again.
     decoding_status_ = DECODING_ERROR;
     SdchManager::SdchErrorRecovery(SdchManager::DECODE_BODY_ERROR);
     return FILTER_ERROR;
@@ -359,10 +359,10 @@ Filter::FilterStatus SdchFilter::InitializeDictionary() {
     return FILTER_ERROR;
   }
   dictionary_ = dictionary;
-  vcdiff_streaming_decoder_.reset(new open_vcdiff::VCDiffStreamingDecoder);
-  vcdiff_streaming_decoder_->SetAllowVcdTarget(false);
-  vcdiff_streaming_decoder_->StartDecoding(dictionary_->text().data(),
-                                           dictionary_->text().size());
+  //vcdiff_streaming_decoder_.reset(new open_vcdiff::VCDiffStreamingDecoder);
+  //vcdiff_streaming_decoder_->SetAllowVcdTarget(false);
+  //vcdiff_streaming_decoder_->StartDecoding(dictionary_->text().data(),
+  //                                         dictionary_->text().size());
   decoding_status_ = DECODING_IN_PROGRESS;
   return FILTER_OK;
 }

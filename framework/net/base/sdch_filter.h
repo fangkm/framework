@@ -21,9 +21,9 @@
 #include "net/base/net_export.h"
 #include "net/base/sdch_manager.h"
 
-namespace open_vcdiff {
-class VCDiffStreamingDecoder;
-}
+//namespace open_vcdiff {
+//class VCDiffStreamingDecoder;
+//}
 
 namespace net {
 
@@ -76,7 +76,7 @@ class NET_EXPORT_PRIVATE SdchFilter : public Filter {
   // The underlying decoder that processes data.
   // This data structure is initialized by InitDecoding and updated in
   // ReadFilteredData.
-  scoped_ptr<open_vcdiff::VCDiffStreamingDecoder> vcdiff_streaming_decoder_;
+  //scoped_ptr<open_vcdiff::VCDiffStreamingDecoder> vcdiff_streaming_decoder_;
 
   // In case we need to assemble the hash piecemeal, we have a place to store
   // a part of the hash until we "get all 8 bytes plus a null."
